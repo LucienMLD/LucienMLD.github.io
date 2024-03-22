@@ -53,3 +53,13 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections_dir: collections
+collections:
+  - experiences
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
