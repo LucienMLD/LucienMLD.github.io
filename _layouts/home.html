@@ -3,16 +3,16 @@ layout: default
 ---
 
 <div class="home">
-  <div class="grid-container">
-    <div class="grid-x grid-margin-x margin-top-3">
-      <div class="cell">
-        <h1 class="cyberpunk">{{ site.title }}</h1>
+  <div class="grid-container header">
+    <div class="grid-x grid-margin-x align-middle margin-top-3">
+      <div class="cell medium-4">
+        <img src="/assets/images/me.webp" alt="Portrait of Lucien" class="image">
       </div>
-    </div>
-    <div class="grid-x grid-margin-x">
-      <div class="cell large-8 large-offset-2 medium-10 medium-offset-1 small-12 margin-vertical-3">
-        <p class="text-center">{{ page.presentation }}</p>
-        <div>
+      <div class="cell medium-8">
+        <h1 class="font-blue">{{ site.title }}</h1>
+        <hr>
+        <p>{{ page.presentation }}</p>
+        <div class="media-links">
           <a href="https://www.linkedin.com/in/lucien-mollard/" title="lien externe - Linkedin de Lucien Mollard" target="_blank">
             <span class="ri-linkedin-box-fill"></span>
           </a>
@@ -23,5 +23,4 @@ layout: default
       </div>
     </div>
   </div>
-  {{ content }}
 </div>

@@ -81,14 +81,14 @@ h4.cyberpunk:after
 hr
   height: 14px
   background-color: var(--font-color)
+  clip-path: polygon(35px 2px, 100% 2px, 100% 0px, 26px 0px, 13px 10px, 0px 7px, 13px 14px)
   width: 100%
-  clip-path: polygon(1px 0px, 0px 0px, 0px 0px, 8px 14px, 13px 14px, 22px 7px, 42px 6px, 49px 2px, 100% 2px, 100% 0px, 42px 0px, 35px 5px, 22px 6px, 13px 13px, 9px 13px)
-  animation-name: hr
+  animation-name: hr-animation
   animation-duration: $glitched-long-duration
-  animation-iteration-count: infinite
   animation-timing-function: linear
+  animation-iteration-count: infinite
 
-@keyframes hr
+@keyframes hr-animation
   0%
     transform: skew(0deg)
   15%
