@@ -10,28 +10,30 @@ layout: default
 </div>
 <div class="grid-container margin-top-3">
   <div class="grid-x grid-margin-x">
-    {% assign experiences = site.experiences | sort: "date_begin" | reverse %}
-    {% for experience in experiences %}
+
+    {% assign collection = site[page.collection_name] | sort: "date_begin" | reverse %}
+
+    {% for item in collection %}
     <div class="cell large-8 large-offset-2">
       <div class="card">
         <div class="card-border">
           <div class="card-divider">
-            <h3>{{ experience.title }}</h3>
+            <h3>{{ item.title }}</h3>
           </div>
           <div class="card-section">
-            <p class="bold">{{ experience.company }}</p>
+            <p class="bold">{{ item.company }}</p>
             <p>
-              {{ experience.date_begin }} -
-              {% if experience.date_end %}
-              {{ experience.date_end }}
+              {{ item.date_begin }} -
+              {% if item.date_end %}
+              {{ item.date_end }}
               {% else %}
               Now
               {% endif %}
             </p>
-            {% if experience.competences %}
+            {% if item.competences %}
               <h4 class="display-contents">Competences :</h4>
               <ul class="list-unstyled display-contents">
-                {% assign competences = experience.competences  %}
+                {% assign competences = item.competences  %}
                 {% for competence in competences %}
                 <li>{{ competence }}{% unless forloop.last %}, {% endunless %}</li>
                 {% endfor %}
