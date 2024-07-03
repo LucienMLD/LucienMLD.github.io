@@ -1,5 +1,5 @@
 ---
-title: Développement web
+title: Web development
 company: Le Wagon
 date_begin: 2016/10
 date_end: 2016/12
