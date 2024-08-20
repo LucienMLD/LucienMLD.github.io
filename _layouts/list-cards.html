@@ -22,9 +22,11 @@ layout: default
           </div>
           <div class="card-section">
             {% if item.website-url %}
-              <a href="{{ item.website-url }}" class="bold" target="_blank" title="external link to {{ item.company }}">
-                {{ item.company }}
-              </a>
+              <div class="margin-bottom-1">
+                <a href="{{ item.website-url }}" class="bold" target="_blank" title="external link to {{ item.company }}">
+                  {{ item.company }}
+                </a>
+              </div>
             {% else %}
                 <p class="bold">{{ item.company }}</p>
             {% endif %}
