@@ -18,7 +18,7 @@ layout: default
       <div class="card">
         <div class="card-border">
           <div class="card-divider">
-            <h3>{{ item.title }}</h3>
+            <h2>{{ item.title }}</h2>
           </div>
           <div class="card-section">
             {% if item.website-url %}
@@ -30,7 +30,7 @@ layout: default
             {% else %}
                 <p class="bold">{{ item.company }}</p>
             {% endif %}
-            <p>
+            <p class="date">
               {{ item.date_begin }} -
               {% if item.date_end %}
               {{ item.date_end }}
@@ -39,15 +39,15 @@ layout: default
               {% endif %}
             </p>
             {% if item.competences %}
-              <h4 class="display-contents">Competences :</h4>
-              <ul class="list-unstyled display-contents">
+              <h3 class="display-contents">Competences :</h3>
+              <ul class="list-unstyled display-contents badges-container">
                 {% assign competences = item.competences  %}
                 {% for competence in competences %}
-                <li>{{ competence }}{% unless forloop.last %}, {% endunless %}</li>
+                <li class="skill-badge">{{ competence }}</li>
                 {% endfor %}
               </ul>
             {% endif %}
-            <p>{{ item.content | markdownify }}</p>
+            <p class="description">{{ item.content | markdownify }}</p>
           </div>
         </div>
       </div>

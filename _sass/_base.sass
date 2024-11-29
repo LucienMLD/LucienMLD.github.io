@@ -7,6 +7,14 @@ body, .top-bar
   font-optical-sizing: auto
   font-style: normal
 
+body
+  height: 100%
+  margin: 0
+
+.page-container
+  display: flex
+  flex-direction: column
+  min-height: 100vh
 
 .dropdown.menu, .dropdown.menu a
   background-color: var(--background-color)
@@ -20,3 +28,6 @@ body, .top-bar
   img
     width: 1.5rem
     height: 1.5rem
+
+.page-content
+  flex: 1
