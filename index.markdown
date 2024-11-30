@@ -1,7 +1,16 @@
 ---
 presentation: |
-  A web developer since 2017, I have primarily worked for the public service. I find genuine satisfaction in creating digital solutions that serve the community.
-  My approach to web development is characterized by a constant pursuit of optimal performance, while integrating advanced security measures, to provide users with a platform that is both efficient and secure.
+  With over 7 years of experience in web development, I specialize in building secure, accessible, and efficient web applications. My expertise spans both frontend and backend development, with a strong emphasis on Ruby on Rails applications.<br/>
+  
+  Currently, I'm a developer for the French government's business advisory platform, where I develop and maintain digital services that connect businesses with professional advisors. My work emphasizes accessibility, security, and user experience, ensuring that public services are available to all users.<br/>
+  <br/>
+  Technical Expertise<br/>
+  Backend Development: Ruby, Ruby on Rails, Python, Django<br/>
+  Frontend Development: HTML5, CSS3, JavaScript<br/>
+  Database Management: PostgreSQL<br/>
+  Standards & Compliance: RGAA Accessibility, W3C Standards<br/>
+  CMS Systems: Wagtail, Jekyll<br/>
+
 layout: home
 ---
 

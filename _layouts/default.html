@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {%- include head.html -%}
 
   <body>
-    <div class="page-container">
+    <div class="grid-container">
 
       {%- include header.html -%}
 
@@ -16,10 +16,11 @@
 
       {%- include footer.html -%}
     </div>
-  </body>
-  <script>
-    $(document).foundation();
+    <script>
+      $(document).foundation();
+    </script>
     <!-- 100% privacy-first analytics -->
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-</script>
+    <script src="https://widgets.tree-nation.com/js/widgets/v1/widgets.min.js?v=1.0"></script>
+  </body>
 </html>
