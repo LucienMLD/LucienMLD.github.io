@@ -1,13 +1,9 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-
   const storageKey = 'theme-preference'
+  let treeNationWidget = null;
 
   const onClick = () => {
-    // flip current value
-    theme.value = theme.value === 'light'
-      ? 'dark'
-      : 'light'
-
+    theme.value = theme.value === 'light' ? 'dark' : 'light'
     setPreference()
   }
 
@@ -35,6 +31,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document
       .querySelector('#theme-toggle')
       ?.setAttribute('aria-label', theme.value)
+
+    if (typeof TreeNationOffsetWebsite !== 'undefined') {
+      const container = document.querySelector('#tree-nation-offset-website');
+      container.innerHTML = ''; r
+
+      treeNationWidget = TreeNationOffsetWebsite({
+        code: '65d8c4d86b654',
+        lang: 'fr',
+        theme: theme.value
+      });
+      treeNationWidget.render('#tree-nation-offset-website');
+    }
   }
 
   const theme = {
@@ -46,14 +54,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
     light: 'dark',
   }
 
+  function initTreeNation() {
+    if (typeof TreeNationOffsetWebsite !== 'undefined' && !treeNationWidget) {
+      treeNationWidget = TreeNationOffsetWebsite({
+        code: '65d8c4d86b654',
+        lang: 'fr',
+        theme: theme.value
+      });
+      treeNationWidget.render('#tree-nation-offset-website');
+    } else if (!treeNationWidget) {
+      setTimeout(initTreeNation, 100);
+    }
+  }
 
   reflectPreference()
 
-  window.onload = () => {
-    reflectPreference()
-
-    document.querySelector('#theme-toggle').addEventListener('click', onClick)
-  }
+  document.querySelector('#theme-toggle').addEventListener('click', onClick)
+  initTreeNation()
 
   window
     .matchMedia('(prefers-color-scheme: dark)')
