@@ -2,15 +2,21 @@
 <footer class="wrapper margin-top-2">
   <div class="grid-container">
     <div class="cell large-8 large-offset-2">
-      <ul>
-        {% for link in site.data.footer-menu %}
-          <li>
-            <a href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-      <div id="tree-nation-offset-website"></div>
-      <script>TreeNationOffsetWebsite({code: '65d8c4d86b654', lang: 'fr', theme: 'dark'}).render('#tree-nation-offset-website');</script>
+      <div class="grid-x grid-padding-x align-spaced">
+        <ul class="list-unstyled">
+          {% for link in site.data.footer-menu %}
+            <li>
+              <a href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <div id="tree-nation-offset-website"></div>
+      </div>
     </div>
   </div>
 </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  TreeNationOffsetWebsite({code: '65d8c4d86b654', lang: 'fr', theme: 'dark'}).render('#tree-nation-offset-website');
+});
+</script>
