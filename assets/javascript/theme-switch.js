@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     if (typeof TreeNationOffsetWebsite !== 'undefined') {
       const container = document.querySelector('#tree-nation-offset-website');
-      container.innerHTML = ''; r
+      container.innerHTML = '';
 
       treeNationWidget = TreeNationOffsetWebsite({
         code: '65d8c4d86b654',
