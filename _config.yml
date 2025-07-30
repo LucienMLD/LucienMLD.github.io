@@ -27,8 +27,20 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lucien-mollard.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: LucienMLD
+linkedin_url: https://www.linkedin.com/in/lucien-mollard/
+github_url: https://github.com/LucienMLD
 
 theme: jekyll-theme-neon
+
+# Configuration du thème Neon
+neon:
+  hooks:
+    head_end:
+      - '<link rel="preload" href="https://offset.tree-nation.com/js/offset-widget.js" as="script">'
+    body_end:
+      - '<!-- 100% privacy-first analytics -->'
+      - '<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>'
+      - '<script src="https://widgets.tree-nation.com/js/widgets/v1/widgets.min.js?v=1.0"></script>'
 # Build settings
 plugins:
   - jekyll-feed
