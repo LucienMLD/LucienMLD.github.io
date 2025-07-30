@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lucien-mollard.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  LucienMLD
 
-#theme: minima
+theme: jekyll-theme-neon
 # Build settings
 plugins:
   - jekyll-feed
@@ -55,10 +55,24 @@ plugins:
 
 collections_dir: collections
 collections:
-  - experiences
-  - trainings
+  experiences:
+    output: true
+    permalink: /:collection/:name
+  trainings:
+    output: true
+    permalink: /:collection/:name
 defaults:
   - scope:
       path: "assets/images"
     values:
       image: true
+  - scope:
+      path: ""
+      type: "experiences"
+    values:
+      layout: "item"
+  - scope:
+      path: ""
+      type: "trainings"
+    values:
+      layout: "item"
