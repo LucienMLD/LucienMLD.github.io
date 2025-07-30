@@ -1,15 +1,15 @@
 ---
 presentation: |
-  Test With over 9 years of experience in web development, I specialize in building secure, accessible, and efficient web applications. My expertise spans both frontend and backend development, with a strong emphasis on Ruby on Rails applications.<br/>
+  Web developer with 9 years of experience, I build solid and accessible web applications. I enjoy creating technical solutions that address real user needs, with a focus on code quality and accessibility.<br/>
   
-  Currently, I'm a developer for the French government's business advisory platform, where I develop and maintain digital services that connect businesses with professional advisors. My work emphasizes accessibility, security, and user experience, ensuring that public services are available to all users.<br/>
+  I currently work on the French government's business advisory platform, where I develop digital services that connect businesses with professional advisors. My day-to-day: Ruby on Rails, interesting technical challenges, and the satisfaction of contributing to useful public service tools.<br/>
   <br/>
-  Technical Expertise<br/>
-  Backend Development: Ruby, Ruby on Rails, Python, Django<br/>
-  Frontend Development: HTML5, CSS3, JavaScript<br/>
-  Database Management: PostgreSQL<br/>
-  Standards & Compliance: RGAA Accessibility, W3C Standards<br/>
-  CMS Systems: Wagtail, Jekyll<br/>
+  What I work with:<br/>
+  • Backend: Ruby on Rails, Python, REST APIs<br/>
+  • Frontend: HTML/CSS/JavaScript, responsive interfaces<br/>
+  • Database: PostgreSQL, query optimization<br/>
+  • Standards: RGAA accessibility, web best practices<br/>
+  • Tools: Git, Docker, CI/CD<br/>
 
 layout: home
 ---
