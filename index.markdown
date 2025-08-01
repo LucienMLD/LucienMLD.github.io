@@ -1,15 +1,22 @@
 ---
 presentation: |
-  Web developer with 9 years of experience, I build solid and accessible web applications. I enjoy creating technical solutions that address real user needs, with a focus on code quality and accessibility.<br/>
+  Ruby on Rails developer passionate about building robust and secure web applications. Currently pursuing Cybersecurity Engineering studies, I combine 9 years of development expertise with a security-first approach from the design phase.<br/>
   
-  I currently work on the French government's business advisory platform, where I develop digital services that connect businesses with professional advisors. My day-to-day: Ruby on Rails, interesting technical challenges, and the satisfaction of contributing to useful public service tools.<br/>
+  I currently work on the French government's business advisory platform, developing digital services that connect thousands of businesses with professional advisors. My focus: creating performant, accessible, and secure applications that make a real impact.<br/>
   <br/>
-  What I work with:<br/>
-  • Backend: Ruby on Rails, Python, REST APIs<br/>
-  • Frontend: HTML/CSS/JavaScript, responsive interfaces<br/>
-  • Database: PostgreSQL, query optimization<br/>
-  • Standards: RGAA accessibility, web best practices<br/>
-  • Tools: Git, Docker, CI/CD<br/>
+  <strong>Technical Expertise</strong><br/>
+  • <strong>Ruby on Rails:</strong> Full-stack development, from architecture to production deployment<br/>
+  • <strong>Application Security:</strong> Integrating security best practices throughout the development lifecycle<br/>
+  • <strong>Database:</strong> PostgreSQL design, optimization, and performance tuning<br/>
+  • <strong>Standards:</strong> RGAA accessibility compliance, secure coding practices<br/>
+  <br/>
+  <strong>Expanding Horizons</strong><br/>
+  Alongside my Rails specialization, I'm continuously learning:<br/>
+  • <strong>Python:</strong> Django development and cybersecurity applications<br/>
+  • <strong>Java:</strong> Enterprise application development and security patterns<br/>
+  <br/>
+  <strong>My Vision</strong><br/>
+  Security shouldn't be an afterthought but integrated from day one. I believe in building applications that are both performant and secure, contributing to a safer and more accessible web for everyone.
 
 layout: home
 ---
