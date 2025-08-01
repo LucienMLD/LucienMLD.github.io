@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/LucienMLD/jekyll-theme-neon.git
-  revision: ce11af8d8576b3ab343cfaa14b6bab4f56c75427
+  revision: 78c2817c0606cfffc3e0b44b6ebd8549aa93be60
   specs:
     jekyll-theme-neon (0.1.0)
       jekyll (>= 4.0, < 5.0)

@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     if (localStorage.getItem(storageKey))
       return localStorage.getItem(storageKey)
     else
-      return window.matchMedia('(prefers-color-scheme: light)').matches
-        ? 'light'
-        : 'dark'
+      return window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : 'light'
   }
 
   const setPreference = () => {
@@ -25,8 +25,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.firstElementChild
       .setAttribute('data-theme', theme.value)
 
-    document.getElementById('icon-' + theme.value).style.display = 'none'
-    document.getElementById('icon-' + inverseTheme[theme.value]).style.display = 'inline-block'
+    const iconDark = document.getElementById('icon-dark')
+    const iconLight = document.getElementById('icon-light')
+    
+    if (iconDark && iconLight) {
+      if (theme.value === 'dark') {
+        iconDark.style.display = 'none'
+        iconLight.style.display = 'inline-block'
+      } else {
+        iconDark.style.display = 'inline-block'
+        iconLight.style.display = 'none'
+      }
+    }
 
     document
       .querySelector('#theme-toggle')
@@ -34,14 +44,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     if (typeof TreeNationOffsetWebsite !== 'undefined') {
       const container = document.querySelector('#tree-nation-offset-website');
-      container.innerHTML = '';
+      if (container) {
+        container.innerHTML = '';
 
-      treeNationWidget = TreeNationOffsetWebsite({
-        code: '65d8c4d86b654',
-        lang: 'fr',
-        theme: theme.value
-      });
-      treeNationWidget.render('#tree-nation-offset-website');
+        treeNationWidget = TreeNationOffsetWebsite({
+          code: '65d8c4d86b654',
+          lang: 'fr',
+          theme: theme.value
+        });
+        treeNationWidget.render('#tree-nation-offset-website');
+      }
     }
   }
 
@@ -69,7 +81,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   reflectPreference()
 
-  document.querySelector('#theme-toggle').addEventListener('click', onClick)
+  const toggleButton = document.querySelector('#theme-toggle')
+  if (toggleButton) {
+    toggleButton.addEventListener('click', onClick)
+  }
   initTreeNation()
 
   window
