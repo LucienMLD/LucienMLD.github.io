@@ -73,6 +73,9 @@ collections:
   trainings:
     output: true
     permalink: /:collection/:name
+  press:
+    output: true
+    permalink: /:collection/:name
 defaults:
   - scope:
       path: "assets/images"
