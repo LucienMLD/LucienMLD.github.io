@@ -1,0 +1,24 @@
+[build]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  JEKYLL_ENV = "production"
+
+# Plugin checklinks désactivé temporairement
+# [[plugins]]
+#   package = "netlify-plugin-checklinks"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[redirects]]
+  from = "/jekyll-theme-neon/*"
+  to = "/theme-demo"
+  status = 301
+  force = true
