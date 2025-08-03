@@ -1,184 +1,63 @@
 # Lucien Mollard - Personal Website
 
 [![Deploy to GitHub Pages](https://github.com/LucienMLD/personal-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/LucienMLD/personal-website/actions/workflows/deploy.yml)
+[![Jekyll](https://img.shields.io/badge/Jekyll-4.3+-CC0000?logo=jekyll)](https://jekyllrb.com)
+[![RGAA Compliant](https://img.shields.io/badge/RGAA-Compliant-green)](https://accessibilite.numerique.gouv.fr/)
 
-Personal website of Lucien Mollard, a web developer with 9 years of experience specializing in secure and accessible web applications.
+🌐 **[lucien-mollard.com](https://lucien-mollard.com)**
 
-🌐 **Live site**: [lucien-mollard.com](https://lucien-mollard.com)
+## About Me
 
-## About
+I'm a Senior Ruby on Rails Developer with 9 years of experience specializing in building secure, scalable, and accessible web applications. Currently working at French Ministry of Labour, I focus on developing solutions that serve millions of citizens while maintaining the highest standards of security and compliance.
 
-This is my personal website showcasing my professional experience, training, and technical expertise. Built with Jekyll and featuring a custom theme with dark/light mode switching.
+### 🎯 Expertise
 
-## Tech Stack
+- **Backend Development**: Ruby on Rails, PostgreSQL, Redis
+- **Security**: ANSSI compliance, security audits, vulnerability assessment
+- **Frontend**: Vanilla JavaScript, HTML5, CSS3, accessibility standards
+- **DevOps**: Docker, CI/CD, monitoring and performance optimization
+- **Leadership**: Technical mentoring, code reviews, architecture decisions
 
-- **Static Site Generator**: Jekyll 4.3+
-- **Theme**: [jekyll-theme-neon](https://github.com/LucienMLD/jekyll-theme-neon)
-- **CSS Framework**: Foundation 6.8.1
-- **Icons**: RemixIcon
-- **Hosting**: GitHub Pages
-- **Analytics**: Simple Analytics (privacy-first)
 
-## Features
+## 🚀 Current Focus
 
-- 🌓 Dark/light theme switching with system preference detection
-- ♿ RGAA accessibility compliant
-- 📱 Fully responsive design
-- 🚀 Fast loading with optimized assets
-- 🔍 SEO optimized
-- 📊 Privacy-first analytics
-- 🌱 Carbon offset widget integration
+- **Application Security**: Implementing ANSSI security framework
+- **Performance Optimization**: Reducing response times for high-traffic applications  
+- **Technical Mentoring**: Leading weekly tech talks and pair programming sessions
+- **Open Source**: Contributing to Ruby on Rails security patches
 
-## Development
 
-### Prerequisites
+## 🛠 Tech Stack
 
-- Ruby 3.0+
-- Bundler 2.0+
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?logo=ruby&logoColor=white)
+![Rails](https://img.shields.io/badge/Rails-CC0000?logo=ruby-on-rails&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-### Local Setup
+## 📖 Latest Blog Posts
 
-```bash
-# Clone the repository
-git clone https://github.com/LucienMLD/personal-website.git
-cd personal-website
+- [Implementing Zero-Trust Security in Rails Applications](https://lucien-mollard.com/blog/zero-trust-rails)
+- [Performance Optimization: From 2s to 200ms Response Time](https://lucien-mollard.com/blog/performance-optimization)
+- [Building Accessible Forms: A RGAA Compliance Guide](https://lucien-mollard.com/blog/accessible-forms)
 
-# Install dependencies
-bundle install
+## 🌱 Sustainability
 
-# Serve locally (http://localhost:4000)
-bundle exec jekyll serve
+This website is carbon neutral, offsetting its emissions through Tree Nation. I believe in sustainable technology and green computing practices.
 
-# Build for production
-bundle exec jekyll build
-```
+## 📫 Contact
 
-### Development Commands
-
-```bash
-# Serve with live reload
-bundle exec jekyll serve --livereload
-
-# Build with environment
-JEKYLL_ENV=production bundle exec jekyll build
-
-# Clean build directory
-bundle exec jekyll clean
-```
-
-## Project Structure
-
-```
-├── collections/           # Content collections
-│   ├── _experiences/     # Professional experiences
-│   ├── _trainings/       # Training and certifications
-│   └── _posts/           # Blog posts
-├── assets/
-│   ├── images/           # Site images
-│   ├── javascript/       # Custom JS
-│   └── main.scss        # Main stylesheet
-├── _includes/            # Partial templates
-├── _layouts/             # Page layouts
-├── _sass/                # Sass partials
-├── _data/                # Site data (menus, etc.)
-└── _config.yml          # Jekyll configuration
-```
-
-## Content Management
-
-### Adding Experiences
-
-Create a new file in `collections/_experiences/`:
-
-```yaml
----
-title: "Job Title"
-company: "Company Name"
-period: "Jan 2020 - Present"
-location: "City, Country"
-technologies: ["Ruby on Rails", "PostgreSQL"]
----
-
-Job description here...
-```
-
-### Adding Training/Certifications
-
-Create a new file in `collections/_trainings/`:
-
-```yaml
----
-title: "Training Title"
-organization: "Training Provider"
-date: "2023"
-duration: "40h"
----
-
-Training description...
-```
-
-### Writing Blog Posts
-
-Create posts in `collections/_posts/` following Jekyll naming convention:
-
-```
-YEAR-MONTH-DAY-title.markdown
-```
-
-## Deployment
-
-The site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
-
-### Manual Deployment
-
-If using custom GitHub Actions deployment:
-
-1. Ensure the workflow file exists in `.github/workflows/deploy.yml`
-2. Set GitHub Pages source to "GitHub Actions" in repository settings
-3. Push to main branch to trigger deployment
-
-## Configuration
-
-Key configuration options in `_config.yml`:
-
-```yaml
-# Site information
-title: "Your Name"
-email: "your@email.com"
-description: "Your description"
-url: "https://yourdomain.com"
-
-# Collections
-collections_dir: collections
-collections:
-  experiences:
-    output: true
-    permalink: /:collection/:name
-  trainings:
-    output: true
-    permalink: /:collection/:name
-```
-
-## Contributing
-
-This is a personal website, but feel free to:
-
-- Report bugs or issues
-- Suggest improvements
-- Use as inspiration for your own site
-- Contribute to the [jekyll-theme-neon](https://github.com/LucienMLD/jekyll-theme-neon) theme
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Contact
-
-- **Website**: [lucien-mollard.com](https://lucien-mollard.com)  
 - **Email**: hello [at] lucien-mollard [dot] com
 - **LinkedIn**: [lucien-mollard](https://www.linkedin.com/in/lucien-mollard/)
 - **GitHub**: [@LucienMLD](https://github.com/LucienMLD)
 
+## 🤝 Open to Opportunities
+
+I'm interested in:
+- Technical consulting on Rails security
+- Contributing to open source security projects
+- Mentoring developers on secure coding practices
+
 ---
 
-Built with ❤️ using Jekyll and hosted on GitHub Pages.
+Built with [Jekyll](https://jekyllrb.com) 
