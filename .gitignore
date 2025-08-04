@@ -7,3 +7,12 @@ vendor
 !/CLAUDE.md
 !/.mise.toml
 !/.idea/personal-website.iml
+.clinerules
+
+# Protéger le thème premium
+jekyll-theme-neon/
+!jekyll-theme-neon/README.md
+!jekyll-theme-neon/LICENSE
+
+# Local Netlify folder
+.netlify
