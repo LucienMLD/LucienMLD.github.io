@@ -35,16 +35,6 @@ I'm a Senior Ruby on Rails Developer with 9 years of experience specializing in 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-## 📖 Latest Blog Posts
-
-- [Implementing Zero-Trust Security in Rails Applications](https://lucien-mollard.com/blog/zero-trust-rails)
-- [Performance Optimization: From 2s to 200ms Response Time](https://lucien-mollard.com/blog/performance-optimization)
-- [Building Accessible Forms: A RGAA Compliance Guide](https://lucien-mollard.com/blog/accessible-forms)
-
-## 🌱 Sustainability
-
-This website is carbon neutral, offsetting its emissions through Tree Nation. I believe in sustainable technology and green computing practices.
-
 ## 📫 Contact
 
 - **Email**: hello [at] lucien-mollard [dot] com
