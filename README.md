@@ -8,29 +8,30 @@
 
 ## About Me
 
-I'm a Senior Ruby on Rails Developer with 9 years of experience specializing in building secure, scalable, and accessible web applications. Currently working at French Ministry of Labour, I focus on developing solutions that serve millions of citizens while maintaining the highest standards of security and compliance.
+I'm a Senior Ruby on Rails Developer transitioning to cybersecurity engineering, with 9 years of experience in building secure applications. Currently expanding my expertise in cybersecurity and preparing for the CNAM Cybersecurity Engineering program while specializing in application security, vulnerability assessment, and secure development practices.
 
 ### 🎯 Expertise
 
+- **Application Security**: Rails security, OWASP Top 10, secure coding practices
 - **Backend Development**: Ruby on Rails, PostgreSQL, Redis
-- **Security**: ANSSI compliance, security audits, vulnerability assessment
-- **Frontend**: Vanilla JavaScript, HTML5, CSS3, accessibility standards
-- **DevOps**: Docker, CI/CD, monitoring and performance optimization
+- **Security Frameworks**: ANSSI compliance, security audits, vulnerability assessment
+- **Programming Languages**: Ruby (expert), Python (learning), Java (learning)
 - **Leadership**: Technical mentoring, code reviews, architecture decisions
 
 
 ## 🚀 Current Focus
 
-- **Application Security**: Implementing ANSSI security framework
-- **Performance Optimization**: Reducing response times for high-traffic applications  
-- **Technical Mentoring**: Leading weekly tech talks and pair programming sessions
-- **Open Source**: Contributing to Ruby on Rails security patches
+- **Cybersecurity Transition**: Preparing for CNAM Cybersecurity Engineering program
+- **Security Research**: Rails security best practices, OWASP Top 10, vulnerability analysis
+- **Multi-language Learning**: Expanding skills in Python and Java for security applications
 
 
 ## 🛠 Tech Stack
 
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?logo=ruby&logoColor=white)
 ![Rails](https://img.shields.io/badge/Rails-CC0000?logo=ruby-on-rails&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
