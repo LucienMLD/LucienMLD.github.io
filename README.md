@@ -41,13 +41,6 @@ I'm a Senior Ruby on Rails Developer with 9 years of experience specializing in 
 - **LinkedIn**: [lucien-mollard](https://www.linkedin.com/in/lucien-mollard/)
 - **GitHub**: [@LucienMLD](https://github.com/LucienMLD)
 
-## 🤝 Open to Opportunities
-
-I'm interested in:
-- Technical consulting on Rails security
-- Contributing to open source security projects
-- Mentoring developers on secure coding practices
-
 ---
 
 Built with [Jekyll](https://jekyllrb.com) 
