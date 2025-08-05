@@ -1,7 +1,7 @@
 ---
 title: "Former truck driver, Lucien now developer at Beta.gouv"
 company: "Le Wagon Blog"
-date_begin: 2019/09
+publication_date: 2019/09
 website-url: "https://blog.lewagon.com/fr/graduate-stories/ancien-chauffeur-routier-lucien-aujourdhui-developpeur-cdi-betagouv/"
 show_button: true
 button_text: "Read article"

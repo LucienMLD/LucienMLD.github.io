@@ -1,7 +1,7 @@
 ---
 title: "Freelancer's Guide - Testimonial"
 company: "MAIF"
-date_begin: 2019/01
+publication_date: 2019/01
 website-url: "https://entreprise.maif.fr/files/live/sites/entreprise-Maif/files/pdf/publications-partenaires/guide-independants-2019.pdf"
 show_button: true
 button_text: "Read PDF"

@@ -1,7 +1,7 @@
 ---
 title: "From truck driver to web developer for the French government"
 company: "Les Echos"
-date_begin: 2022/07
+publication_date: 2022/07
 website-url: "https://www.lesechos.fr/travailler-mieux/metiers-reconversion-professionnelle/ancien-chauffeur-poids-lourds-je-suis-desormais-developpeur-web-pour-letat-1771833"
 show_button: true
 button_text: "Read article"

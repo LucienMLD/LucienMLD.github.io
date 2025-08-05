@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<div class="grid-container">
+  <div class="grid-x grid-margin-x margin-top-3">
+    <div class="cell large-8 large-offset-2">
+      <h1 class="cyberpunk" style="text-align: left;">{{ page.title }}</h1>
+      {% if page.description %}
+        <p class="section-subtitle">{{ page.description }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="grid-container margin-top-3">
+  <div class="grid-x grid-margin-x">
+    {% assign collection_items = site[page.collection] | reverse %}
+    {% for item in collection_items %}
+      {% unless item.draft %}
+        <div class="cell large-8 large-offset-2">
+          <div class="card">
+            <div class="card-border">
+              <div class="card-divider">
+                <h2>{{ item.title }}</h2>
+              </div>
+              <div class="card-section">
+                {% if item.company %}
+                  <p class="bold">{{ item.company }}</p>
+                {% endif %}
+                
+                {% if item.publication_date %}
+                  <div class="post-meta margin-bottom-1">
+                    <time class="post-date">
+                      <i class="ri-calendar-line"></i>
+                      {% assign date_parts = item.publication_date | split: '/' %}
+                      {% assign year = date_parts[0] %}
+                      {% assign month_num = date_parts[1] %}
+                      {% assign months = "January,February,March,April,May,June,July,August,September,October,November,December" | split: ',' %}
+                      {% assign month_index = month_num | minus: 1 %}
+                      {% assign month_name = months[month_index] %}
+                      
+                      {{ month_name }} {{ year }}
+                    </time>
+                  </div>
+                {% endif %}
+                
+                <div class="description">{{ item.content }}</div>
+                
+                {% if item.show_button and item.website-url %}
+                  <div class="margin-top-2">
+                    <a href="{{ item.website-url }}" target="_blank" rel="noopener noreferrer" class="button hollow small">
+                      {{ item.button_text | default: "Learn more" }} <i class="ri-external-link-line"></i>
+                    </a>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>
