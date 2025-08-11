@@ -1,0 +1,95 @@
+articles:
+- category: cybersecurity
+  published: '2025-08-08T21:38:01'
+  score: 0.765
+  source: Krebs on Security
+  summary: A new documentary series about cybercrime airing next month on HBO Max
+    features interviews with Yours Truly. The four-part series follows the exploits
+    of Julius Kivimäki, a prolific Finnish hacker rec...
+  tags:
+  - A Little Sunshine
+  - Ne'er-Do-Well News
+  - Ransomware
+  - John Smedley
+  - Joni Soila
+  title: KrebsOnSecurity in New ‘Most Wanted’ HBO Max Series
+  url: https://krebsonsecurity.com/2025/08/krebsonsecurity-in-new-most-wanted-hbo-max-series/
+- category: webdev
+  published: '2025-08-08T10:00:00'
+  score: 0.732
+  source: Smashing Magazine
+  summary: Internationalization isn’t just translation. It’s about formatting dates,
+    pluralizing words, sorting names, and more, all according to specific locales.
+    Instead of relying on heavy third-party librari...
+  tags: []
+  title: 'The Power Of The <code>Intl</code> API: A Definitive Guide To Browser-Native
+    Internationalization'
+  url: https://smashingmagazine.com/2025/08/power-intl-api-guide-browser-native-internationalization/
+- category: webdev
+  published: '2025-08-08T13:42:31'
+  score: 0.685
+  source: CSS-Tricks
+  summary: Get advice answering a set of 10 CSS-related questions you likely will
+    encounter in front-end interviews. How to Prepare for CSS-Specific Interview Questions
+    originally published on CSS-Tricks, which ...
+  tags:
+  - Articles
+  - career
+  title: How to Prepare for CSS-Specific Interview Questions
+  url: https://css-tricks.com/how-to-prepare-for-css-specific-interview-questions/
+- category: cybersecurity
+  published: '2025-08-08T11:01:14'
+  score: 0.659
+  source: Schneier on Security
+  summary: 'Google&#8217;s vulnerability finding team is again pushing the envelope
+    of responsible disclosure: Google&#8217;s Project Zero team will retain its existing
+    90+30 policy regarding vulnerability disclo...'
+  tags:
+  - Uncategorized
+  - disclosure
+  - Google
+  - patching
+  - vulnerabilities
+  title: Google Project Zero Changes Its Disclosure Policy
+  url: https://www.schneier.com/blog/archives/2025/08/google-project-zero-changes-its-disclosure-policy.html
+- category: webdev
+  published: '2025-08-08T01:57:46'
+  score: 0.632
+  source: WebKit Blog
+  summary: 'Back in March, we published Item Flow, Part 1: a new unified concept for
+    layout, an article about a new idea for unifying flex-flow and grid-auto-flow
+    into a single set of properties under a new item-...'
+  tags:
+  - News
+  title: 'Item Flow – Part 2: next steps for Masonry'
+  url: https://webkit.org/blog/17219/item-flow-part-2-next-steps-for-masonry/
+- category: cybersecurity
+  published: '2025-08-07T12:00:00'
+  score: 0.585
+  source: CISA
+  summary: 'Today, CISA issued Emergency Directive (ED) 25-02: Mitigate Microsoft
+    Exchange Vulnerability in response to CVE-2025-53786, a vulnerability in Microsoft
+    Exchange server hybrid deployments. &nbsp; ED 2...'
+  tags: []
+  title: 'CISA Issues ED 25-02: Mitigate Microsoft Exchange Vulnerability'
+  url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-issues-ed-25-02-mitigate-microsoft-exchange-vulnerability
+- category: cybersecurity
+  published: '2025-08-07T14:59:57'
+  score: 0.563
+  source: NCSC UK
+  summary: Updates to the CAF helps providers of essential services to better manage
+    their cyber risks....
+  tags: []
+  title: Cyber Assessment Framework v4.0 released in response to growing threat
+  url: https://www.ncsc.gov.uk/blog-post/caf-v4-0-released-in-response-to-growing-threat
+- category: cybersecurity
+  published: '2025-08-07T12:00:00'
+  score: 0.545
+  source: CISA
+  summary: CISA released ten Industrial Control Systems (ICS) advisories on August
+    7, 2025. These advisories provide timely information about current security issues,
+    vulnerabilities, and exploits surrounding IC...
+  tags: []
+  title: CISA Releases Ten Industrial Control Systems Advisories
+  url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
+last_updated: '2025-08-09T00:03:47.501452'

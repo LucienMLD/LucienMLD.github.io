@@ -1,0 +1,47 @@
+name: Daily News Update
+
+on:
+  schedule:
+    # Run at 6 AM UTC (7 AM Paris time in winter, 8 AM in summer)
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Allow manual trigger for testing
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser requests pyyaml
+      
+      - name: Fetch and process news
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/fetch_news.py
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet _data/news.yml || echo "changes=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add _data/news.yml
+          git commit -m "Daily news update $(date +'%Y-%m-%d')"
+          git push
