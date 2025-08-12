@@ -14,10 +14,11 @@
   font-size: 2.5rem;
   font-weight: 300;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+  background: linear-gradient(135deg, var(--accent-color, #00ffff), var(--primary-color, #ff00ff));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  color: var(--accent-color, #00ffff); /* Fallback pour les navigateurs ne supportant pas background-clip */
 }
 
 .page-description {
