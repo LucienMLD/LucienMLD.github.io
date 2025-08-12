@@ -9,7 +9,7 @@ permalink: /news/
     <h1>Tech Watch</h1>
     <p class="page-description">
       My daily curated selection of cybersecurity and web development articles from trusted sources.
-      I share the most relevant news from the tech community, automatically updated every morning with AI-powered summaries.
+      I share the most relevant news from the tech community, automatically updated every morning.
     </p>
     <div class="watch-notice">
       <i class="ri-information-line"></i>
@@ -18,7 +18,7 @@ permalink: /news/
   </header>
 
   <nav class="news-categories">
-    <a href="#cybersecurity" class="category-tab active" data-category="cybersecurity">
+    <a href="#cybersecurity" class="category-tab" data-category="cybersecurity">
       <i class="ri-shield-check-line"></i>
       Cybersecurity
     </a>
@@ -26,7 +26,7 @@ permalink: /news/
       <i class="ri-code-s-slash-line"></i>
       Web Development
     </a>
-    <a href="#all" class="category-tab" data-category="all">
+    <a href="#all" class="category-tab active" data-category="all">
       <i class="ri-apps-line"></i>
       All Articles
     </a>
@@ -34,7 +34,7 @@ permalink: /news/
 
   <div class="news-container">
     <!-- Cybersecurity News -->
-    <section id="cybersecurity" class="news-section active">
+    <section id="cybersecurity" class="news-section">
       <h2>Cybersecurity News</h2>
       <div class="news-grid">
         {% assign cyber_news = site.data.news.articles | where: "category", "cybersecurity" %}
@@ -92,7 +92,7 @@ permalink: /news/
     </section>
 
     <!-- All News -->
-    <section id="all" class="news-section">
+    <section id="all" class="news-section active">
       <h2>All News</h2>
       <div class="news-grid">
         {% assign all_news = site.data.news.articles %}
@@ -130,7 +130,7 @@ permalink: /news/
         This curated feed is updated daily at 7 AM (Paris time) and features articles from sources I trust and follow regularly.
       </p>
       <p>
-        Articles are collected from official RSS feeds and summarized using AI for quick reading.
+        Articles are collected from official RSS feeds and automatically summarized for quick reading.
         All content is properly attributed to original sources.
       </p>
       <p>
@@ -603,10 +603,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
-  // Handle initial hash
+  // Handle initial hash - default to 'all' if no hash
   const hash = window.location.hash.substring(1);
   if (hash && ['cybersecurity', 'webdev', 'all'].includes(hash)) {
     document.querySelector(`[data-category="${hash}"]`).click();
+  } else {
+    // Default to 'all' section
+    document.querySelector(`[data-category="all"]`).click();
   }
 });
 </script>
