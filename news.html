@@ -4,6 +4,8 @@ title: News & Tech Watch
 permalink: /news/
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/news.css' | relative_url }}">
+
 <div class="news-page">
   <header class="page-header">
     <h1>Tech Watch</h1>
@@ -11,36 +13,32 @@ permalink: /news/
       My daily curated selection of cybersecurity and web development articles from trusted sources.
       I share the most relevant news from the tech community, automatically updated every morning.
     </p>
-    <div class="watch-notice">
-      <i class="ri-information-line"></i>
-      <p>This is my personal technology watch feed where I share interesting articles from the industry, not news about my work.</p>
-    </div>
   </header>
 
   <nav class="news-categories">
-    <a href="#cybersecurity" class="category-tab" data-category="cybersecurity">
+    <button class="category-tab" data-category="cybersecurity">
       <i class="ri-shield-check-line"></i>
       Cybersecurity
-    </a>
-    <a href="#webdev" class="category-tab" data-category="webdev">
+    </button>
+    <button class="category-tab" data-category="webdev">
       <i class="ri-code-s-slash-line"></i>
       Web Development
-    </a>
-    <a href="#all" class="category-tab active" data-category="all">
+    </button>
+    <button class="category-tab active" data-category="all">
       <i class="ri-apps-line"></i>
       All Articles
-    </a>
+    </button>
   </nav>
 
   <div class="news-container">
     <!-- Cybersecurity News -->
     <section id="cybersecurity" class="news-section">
       <h2>Cybersecurity News</h2>
-      <div class="news-grid">
+      <div class="news-grid" data-category="cybersecurity">
         {% assign cyber_news = site.data.news.articles | where: "category", "cybersecurity" %}
         {% if cyber_news.size > 0 %}
-          {% for item in cyber_news limit: 20 %}
-            <article class="news-card">
+          {% for item in cyber_news %}
+            <article class="news-card" data-index="{{ forloop.index0 }}">
               <div class="news-card-header">
                 <time datetime="{{ item.published | date_to_xmlschema }}">
                   {{ item.published | date: "%b %d, %Y" }}
@@ -60,16 +58,29 @@ permalink: /news/
           <p class="no-news">No cybersecurity news available yet. Check back tomorrow!</p>
         {% endif %}
       </div>
+      {% if cyber_news.size > 12 %}
+        <div class="pagination-controls" data-category="cybersecurity">
+          <button class="pagination-btn prev-btn" disabled>
+            <i class="ri-arrow-left-line"></i> Previous
+          </button>
+          <div class="pagination-info">
+            <span class="current-page">1</span> / <span class="total-pages">{{ cyber_news.size | divided_by: 12.0 | ceil }}</span>
+          </div>
+          <button class="pagination-btn next-btn">
+            Next <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+      {% endif %}
     </section>
 
     <!-- Web Development News -->
     <section id="webdev" class="news-section">
       <h2>Web Development News</h2>
-      <div class="news-grid">
+      <div class="news-grid" data-category="webdev">
         {% assign webdev_news = site.data.news.articles | where: "category", "webdev" %}
         {% if webdev_news.size > 0 %}
-          {% for item in webdev_news limit: 20 %}
-            <article class="news-card">
+          {% for item in webdev_news %}
+            <article class="news-card" data-index="{{ forloop.index0 }}">
               <div class="news-card-header">
                 <time datetime="{{ item.published | date_to_xmlschema }}">
                   {{ item.published | date: "%b %d, %Y" }}
@@ -89,16 +100,29 @@ permalink: /news/
           <p class="no-news">No web development news available yet. Check back tomorrow!</p>
         {% endif %}
       </div>
+      {% if webdev_news.size > 12 %}
+        <div class="pagination-controls" data-category="webdev">
+          <button class="pagination-btn prev-btn" disabled>
+            <i class="ri-arrow-left-line"></i> Previous
+          </button>
+          <div class="pagination-info">
+            <span class="current-page">1</span> / <span class="total-pages">{{ webdev_news.size | divided_by: 12.0 | ceil }}</span>
+          </div>
+          <button class="pagination-btn next-btn">
+            Next <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+      {% endif %}
     </section>
 
     <!-- All News -->
     <section id="all" class="news-section active">
       <h2>All News</h2>
-      <div class="news-grid">
+      <div class="news-grid" data-category="all">
         {% assign all_news = site.data.news.articles %}
         {% if all_news.size > 0 %}
-          {% for item in all_news limit: 40 %}
-            <article class="news-card">
+          {% for item in all_news %}
+            <article class="news-card" data-index="{{ forloop.index0 }}">
               <div class="news-card-header">
                 <time datetime="{{ item.published | date_to_xmlschema }}">
                   {{ item.published | date: "%b %d, %Y" }}
@@ -119,6 +143,19 @@ permalink: /news/
           <p class="no-news">No news available yet. The system will start collecting news tomorrow morning!</p>
         {% endif %}
       </div>
+      {% if all_news.size > 12 %}
+        <div class="pagination-controls" data-category="all">
+          <button class="pagination-btn prev-btn" disabled>
+            <i class="ri-arrow-left-line"></i> Previous
+          </button>
+          <div class="pagination-info">
+            <span class="current-page">1</span> / <span class="total-pages">{{ all_news.size | divided_by: 12.0 | ceil }}</span>
+          </div>
+          <button class="pagination-btn next-btn">
+            Next <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+      {% endif %}
     </section>
   </div>
 
@@ -140,445 +177,117 @@ permalink: /news/
   </footer>
 </div>
 
-<style>
-/* Tech Watch Page - Neon Theme Integration */
-.news-page {
-  padding: 2rem 0;
-}
-
-.page-header {
-  text-align: center;
-  margin-bottom: 3rem;
-  padding: 0 1rem;
-}
-
-.page-header h1 {
-  font-size: 2.5rem;
-  font-weight: 300;
-  margin-bottom: 1rem;
-  background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.page-description {
-  color: var(--font-color-secondary);
-  max-width: 700px;
-  margin: 0 auto 1.5rem;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  opacity: 0.9;
-}
-
-.watch-notice {
-  background: rgba(0, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(0, 255, 255, 0.3);
-  border-left: 4px solid var(--accent-color);
-  padding: 1rem 1.5rem;
-  margin: 2rem auto;
-  max-width: 700px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  box-shadow: 0 2px 10px rgba(0, 255, 255, 0.15), 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.watch-notice i {
-  font-size: 1.5rem;
-  color: var(--accent-color);
-  flex-shrink: 0;
-}
-
-.watch-notice p {
-  margin: 0;
-  color: var(--font-color);
-  line-height: 1.5;
-}
-
-/* Navigation Tabs */
-.news-categories {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-bottom: 3rem;
-  padding: 0 1rem;
-  flex-wrap: wrap;
-}
-
-.category-tab {
-  padding: 0.75rem 1.5rem;
-  color: var(--font-color);
-  text-decoration: none;
-  border: 1px solid rgba(0, 255, 255, 0.2);
-  border-radius: 25px;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: rgba(20, 20, 30, 0.5);
-  backdrop-filter: blur(5px);
-  position: relative;
-  overflow: hidden;
-}
-
-.category-tab::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.1), transparent);
-  transition: left 0.5s;
-}
-
-.category-tab:hover::before {
-  left: 100%;
-}
-
-.category-tab:hover {
-  border-color: var(--accent-color);
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
-}
-
-.category-tab.active {
-  background: linear-gradient(135deg, rgba(0, 255, 255, 0.1), rgba(255, 0, 255, 0.1));
-  border-color: var(--accent-color);
-  color: var(--accent-color);
-}
-
-.category-tab i {
-  font-size: 1.2rem;
-}
-
-/* News Sections */
-.news-section {
-  display: none;
-}
-
-.news-section.active {
-  display: block;
-}
-
-.news-section h2 {
-  margin-bottom: 2rem;
-  font-size: 1.8rem;
-  font-weight: 300;
-  color: var(--accent-color);
-  text-align: center;
-}
-
-/* News Grid */
-.news-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 2rem;
-  padding: 0 1rem;
-}
-
-/* News Cards - Neon Style */
-.news-card {
-  background: rgba(20, 20, 30, 0.6);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(0, 255, 255, 0.2);
-  border-radius: 12px;
-  padding: 1.5rem;
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-
-.news-card::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  background: linear-gradient(45deg, var(--accent-color), var(--primary-color), var(--accent-color));
-  border-radius: 12px;
-  opacity: 0;
-  z-index: -1;
-  transition: opacity 0.3s ease;
-}
-
-.news-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(0, 255, 255, 0.5);
-  box-shadow: 0 8px 25px rgba(0, 255, 255, 0.3), 0 4px 15px rgba(0, 0, 0, 0.4);
-  background: rgba(25, 25, 35, 0.7);
-}
-
-.news-card:hover::before {
-  opacity: 0.3;
-}
-
-.news-card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.news-card-header time {
-  font-size: 0.85rem;
-  color: var(--font-color-secondary);
-  opacity: 0.8;
-}
-
-.news-source-badge {
-  background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
-  color: var(--bg-color);
-  padding: 0.25rem 0.75rem;
-  border-radius: 15px;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-}
-
-.news-category-badge {
-  padding: 0.25rem 0.75rem;
-  border-radius: 15px;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-}
-
-.news-category-badge.cybersecurity {
-  background: linear-gradient(135deg, #ff006e, #8338ec);
-  color: white;
-}
-
-.news-category-badge.webdev {
-  background: linear-gradient(135deg, #06ffa5, #00b4d8);
-  color: white;
-}
-
-.news-card-title {
-  margin-bottom: 1rem;
-}
-
-.news-card-title a {
-  color: var(--font-color);
-  text-decoration: none;
-  font-size: 1.1rem;
-  line-height: 1.4;
-  font-weight: 400;
-  transition: color 0.3s ease;
-  display: inline-block;
-}
-
-.news-card-title a:hover {
-  color: var(--accent-color);
-  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
-}
-
-.news-card-summary {
-  color: var(--font-color-secondary);
-  line-height: 1.6;
-  margin-bottom: 1rem;
-  opacity: 0.9;
-}
-
-.news-card-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 1rem;
-  border-top: 1px solid var(--card-border);
-}
-
-.read-more {
-  color: var(--accent-color);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-  position: relative;
-}
-
-.read-more::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 1px;
-  background: var(--accent-color);
-  transition: width 0.3s ease;
-}
-
-.read-more:hover::after {
-  width: 100%;
-}
-
-
-.no-news {
-  text-align: center;
-  color: var(--font-color-secondary);
-  padding: 3rem;
-  background: rgba(20, 20, 30, 0.6);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(0, 255, 255, 0.2);
-  border-radius: 12px;
-  margin: 2rem 1rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-
-/* Footer */
-.news-page-footer {
-  margin-top: 4rem;
-  padding: 2rem 1rem;
-  border-top: 1px solid var(--card-border);
-  background: linear-gradient(180deg, transparent, rgba(0, 255, 255, 0.02));
-}
-
-.footer-info {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.footer-info h3 {
-  color: var(--accent-color);
-  margin-bottom: 1rem;
-  font-weight: 300;
-  font-size: 1.5rem;
-}
-
-.footer-info p {
-  color: var(--font-color-secondary);
-  line-height: 1.6;
-  margin-bottom: 1rem;
-  opacity: 0.9;
-}
-
-.footer-info strong {
-  color: var(--font-color);
-}
-
-/* Animations */
-@keyframes glow {
-  0%, 100% { box-shadow: 0 0 5px rgba(0, 255, 255, 0.5); }
-  50% { box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); }
-}
-
-/* Light Theme Overrides */
-[data-theme="light"] .news-card {
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(0, 150, 150, 0.2);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-[data-theme="light"] .news-card:hover {
-  background: rgba(255, 255, 255, 0.95);
-  border-color: rgba(0, 150, 150, 0.4);
-  box-shadow: 0 8px 25px rgba(0, 150, 150, 0.2), 0 4px 15px rgba(0, 0, 0, 0.15);
-}
-
-[data-theme="light"] .watch-notice {
-  background: rgba(0, 150, 150, 0.05);
-  border: 1px solid rgba(0, 150, 150, 0.2);
-  box-shadow: 0 2px 10px rgba(0, 150, 150, 0.1), 0 4px 15px rgba(0, 0, 0, 0.05);
-}
-
-[data-theme="light"] .category-tab {
-  background: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 150, 150, 0.2);
-}
-
-[data-theme="light"] .category-tab:hover {
-  border-color: rgba(0, 150, 150, 0.4);
-  box-shadow: 0 0 10px rgba(0, 150, 150, 0.2);
-}
-
-[data-theme="light"] .category-tab.active {
-  background: linear-gradient(135deg, rgba(0, 150, 150, 0.1), rgba(150, 0, 150, 0.1));
-  border-color: var(--accent-color);
-}
-
-[data-theme="light"] .no-news {
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(0, 150, 150, 0.2);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-[data-theme="light"] .news-source-badge {
-  background: rgba(0, 120, 120, 0.15);
-  color: #004040;
-  border: 1px solid rgba(0, 120, 120, 0.3);
-  font-weight: 600;
-}
-
-[data-theme="light"] .news-category-badge.cybersecurity {
-  background: rgba(100, 70, 200, 0.15);
-  color: #4c1d95;
-  border: 1px solid rgba(100, 70, 200, 0.3);
-}
-
-[data-theme="light"] .news-category-badge.webdev {
-  background: rgba(12, 140, 100, 0.15);
-  color: #064e3b;
-  border: 1px solid rgba(12, 140, 100, 0.3);
-}
-
-[data-theme="light"] .news-card-footer {
-  border-top: 1px solid rgba(0, 150, 150, 0.15);
-}
-
-[data-theme="light"] .tag {
-  background: rgba(240, 240, 240, 0.8);
-  border: 1px solid rgba(200, 200, 200, 0.5);
-  color: #333;
-}
-
-[data-theme="light"] .tag:hover {
-  background: rgba(230, 230, 230, 0.9);
-  border-color: rgba(0, 150, 150, 0.3);
-  box-shadow: 0 0 8px rgba(0, 150, 150, 0.1);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .page-header h1 {
-    font-size: 2rem;
-  }
-  
-  .news-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .news-categories {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .category-tab {
-    width: 100%;
-    max-width: 300px;
-    justify-content: center;
-  }
-  
-  .watch-notice {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-</style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const tabs = document.querySelectorAll('.category-tab');
   const sections = document.querySelectorAll('.news-section');
   
+  // Pagination state for each category
+  const paginationState = {
+    cybersecurity: { currentPage: 1, itemsPerPage: 12 },
+    webdev: { currentPage: 1, itemsPerPage: 12 },
+    all: { currentPage: 1, itemsPerPage: 12 }
+  };
+  
+  // Initialize pagination for all categories
+  function initPagination() {
+    ['cybersecurity', 'webdev', 'all'].forEach(category => {
+      updatePagination(category);
+      setupPaginationEvents(category);
+    });
+  }
+  
+  // Update pagination display for a category
+  function updatePagination(category) {
+    const section = document.getElementById(category);
+    if (!section) return;
+    
+    const grid = section.querySelector('.news-grid');
+    const controls = section.querySelector('.pagination-controls');
+    
+    if (!grid) return;
+    
+    const cards = Array.from(grid.querySelectorAll('.news-card'));
+    const { currentPage, itemsPerPage } = paginationState[category];
+    const totalItems = cards.length;
+    const totalPages = Math.ceil(totalItems / itemsPerPage);
+    
+    // Show/hide cards based on current page
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    
+    cards.forEach((card, index) => {
+      if (index >= startIndex && index < endIndex) {
+        card.classList.remove('hidden-by-pagination');
+        card.style.display = ''; // Reset display
+      } else {
+        card.classList.add('hidden-by-pagination');
+        card.style.display = 'none'; // Force hide
+      }
+    });
+    
+    console.log(`Pagination ${category}: page ${currentPage}/${totalPages}, showing items ${startIndex}-${endIndex-1} of ${totalItems}`);
+    
+    // Update pagination controls if they exist
+    if (controls) {
+      const currentPageEl = controls.querySelector('.current-page');
+      const totalPagesEl = controls.querySelector('.total-pages');
+      const prevBtn = controls.querySelector('.prev-btn');
+      const nextBtn = controls.querySelector('.next-btn');
+      
+      if (currentPageEl) currentPageEl.textContent = currentPage;
+      if (totalPagesEl) totalPagesEl.textContent = totalPages;
+      
+      // Enable/disable buttons
+      if (prevBtn) prevBtn.disabled = currentPage === 1;
+      if (nextBtn) nextBtn.disabled = currentPage === totalPages;
+    }
+  }
+  
+  // Setup pagination event listeners
+  function setupPaginationEvents(category) {
+    const section = document.getElementById(category);
+    if (!section) return;
+    
+    const controls = section.querySelector('.pagination-controls');
+    if (!controls) return;
+    
+    const prevBtn = controls.querySelector('.prev-btn');
+    const nextBtn = controls.querySelector('.next-btn');
+    
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        if (paginationState[category].currentPage > 1) {
+          paginationState[category].currentPage--;
+          updatePagination(category);
+        }
+      });
+    }
+    
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        const grid = section.querySelector('.news-grid');
+        const cards = grid ? grid.querySelectorAll('.news-card') : [];
+        const totalPages = Math.ceil(cards.length / paginationState[category].itemsPerPage);
+        
+        if (paginationState[category].currentPage < totalPages) {
+          paginationState[category].currentPage++;
+          updatePagination(category);
+        }
+      });
+    }
+  }
+  
+  // Smooth scroll to top of news section
+  function scrollToTop() {
+    const newsContainer = document.querySelector('.news-container');
+    if (newsContainer) {
+      newsContainer.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+  
+  // Tab switching logic
   tabs.forEach(tab => {
     tab.addEventListener('click', function(e) {
       e.preventDefault();
@@ -598,18 +307,40 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById(category).classList.add('active');
       }
       
-      // Update URL hash
-      window.location.hash = category;
+      // Reset pagination for this category to page 1
+      paginationState[category].currentPage = 1;
+      updatePagination(category);
+      
+      // Update URL hash without scrolling
+      if (history.replaceState) {
+        history.replaceState(null, null, '#' + category);
+      }
     });
   });
   
+  // Initialize everything
+  initPagination();
+  
   // Handle initial hash - default to 'all' if no hash
   const hash = window.location.hash.substring(1);
+  let initialCategory = 'all';
+  
   if (hash && ['cybersecurity', 'webdev', 'all'].includes(hash)) {
-    document.querySelector(`[data-category="${hash}"]`).click();
-  } else {
-    // Default to 'all' section
-    document.querySelector(`[data-category="all"]`).click();
+    initialCategory = hash;
   }
+  
+  // Manually activate the initial category without clicking (to avoid scroll)
+  tabs.forEach(t => t.classList.remove('active'));
+  sections.forEach(s => s.classList.remove('active'));
+  
+  const activeTab = document.querySelector(`[data-category="${initialCategory}"]`);
+  const activeSection = document.getElementById(initialCategory);
+  
+  if (activeTab) activeTab.classList.add('active');
+  if (activeSection) activeSection.classList.add('active');
+  
+  // Reset pagination for initial category
+  paginationState[initialCategory].currentPage = 1;
+  updatePagination(initialCategory);
 });
 </script>
