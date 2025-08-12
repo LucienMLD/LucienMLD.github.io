@@ -45,11 +45,4 @@ jobs:
           git add _data/news.yml
           git commit -m "Daily news update $(date +'%Y-%m-%d')"
           git push
-      
-      - name: Trigger build and deploy
-        if: steps.check_changes.outputs.changes == 'true'
-        run: |
-          curl -X POST "https://api.github.com/repos/${{ github.repository }}/actions/workflows/build-and-deploy.yml/dispatches" \
-               -H "Accept: application/vnd.github.v3+json" \
-               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-               -d '{"ref":"main"}'
+          # The push will automatically trigger build-and-deploy.yml
