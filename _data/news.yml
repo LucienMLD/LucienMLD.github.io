@@ -1,5 +1,110 @@
 articles:
 - category: cybersecurity
+  published: '2025-08-11T21:15:16'
+  score: 0.709
+  source: Dark Reading
+  summary: A swarm of US agencies joined with international partners to take down
+    servers and domains and seize more than $1 million associated with BlackSuit (Royal)
+    ransomware operations, a group that has been...
+  tags: []
+  title: BlackSuit Ransomware Takes an Infrastructure Hit From Law Enforcement
+  url: https://www.darkreading.com/vulnerabilities-threats/blacksuit-ransomware-infrastructure-law-enforcement
+- category: cybersecurity
+  published: '2025-08-11T20:42:46'
+  score: 0.675
+  source: BleepingComputer
+  summary: The North Korean state-sponsored hackers known as Kimsuky has reportedly
+    suffered a data breach after two hackers, who describe themselves as the opposite
+    of Kimsuky's values, stole the group's data a...
+  tags:
+  - Security
+  title: North Korean Kimsuky hackers exposed in alleged data breach
+  url: https://www.bleepingcomputer.com/news/security/north-korean-kimsuky-hackers-exposed-in-alleged-data-breach/
+- category: cybersecurity
+  published: '2025-08-11T19:19:49'
+  score: 0.746
+  source: BleepingComputer
+  summary: The Netherlands' National Cyber Security Centre (NCSC) is warning that
+    a critical Citrix NetScaler vulnerability tracked as CVE-2025-6543 was exploited
+    to breach "critical organizations" in the countr...
+  tags:
+  - Security
+  title: 'Netherlands: Citrix Netscaler flaw CVE-2025-6543 exploited to breach orgs'
+  url: https://www.bleepingcomputer.com/news/security/netherlands-citrix-netscaler-flaw-cve-2025-6543-exploited-to-breach-orgs/
+- category: cybersecurity
+  published: '2025-08-11T18:50:41'
+  score: 0.693
+  source: Dark Reading
+  summary: REvil affiliate Yaroslav Vasinskyi, who was convicted last year for his
+    role in the 2021 Kaseya ransomware supply chain attack, said the Russian government
+    was instrumental to the attack's execution....
+  tags: []
+  title: REvil Actor Accuses Russia of Planning 2021 Kaseya Attack
+  url: https://www.darkreading.com/cyberattacks-data-breaches/revil-actor-russia-planning-2021-kaseya-attack
+- category: cybersecurity
+  published: '2025-08-11T18:05:47'
+  score: 0.739
+  source: BleepingComputer
+  summary: Researchers have released a report detailing how a recent WinRAR path traversal
+    vulnerability tracked as CVE-2025-8088 was exploited in zero-day attacks by the
+    Russian 'RomCom' hacking group to drop d...
+  tags:
+  - Security
+  title: Details emerge on WinRAR zero-day attacks that infected PCs with malware
+  url: https://www.bleepingcomputer.com/news/security/details-emerge-on-winrar-zero-day-attacks-that-infected-pcs-with-malware/
+- category: webdev
+  published: '2025-08-11T13:43:14'
+  score: 0.593
+  source: CSS-Tricks
+  summary: How do you design block quotes and pull quotes to reflect a brand’s visual
+    identity and help tell its story? Here’s how I do it by styling the HTML blockquote
+    element using borders, decorative quote m...
+  tags:
+  - Articles
+  - inspiration
+  - typography
+  title: Getting Creative With Quotes
+  url: https://css-tricks.com/getting-creative-with-quotes/
+- category: webdev
+  published: '2025-08-11T12:16:00'
+  score: 0.584
+  source: CSS-Tricks
+  summary: Web design veteran Andy Clarke is offering a two-hour workshop all about
+    creating practical and creative page layouts this September 18. Register and save
+    a few bucks with a coupon code. Stuff &amp; N...
+  tags:
+  - Links
+  - education
+  - layout
+  - workshop
+  title: Stuff & Nonsense Practical Layout Workshop
+  url: https://css-tricks.com/stuff-nonsense-practical-layout-workshop/
+- category: cybersecurity
+  published: '2025-08-11T11:05:32'
+  score: 0.607
+  source: Schneier on Security
+  summary: Fears around children is opening up a new market for automatic license
+    place readers....
+  tags:
+  - Uncategorized
+  - cars
+  - children
+  - privacy
+  - schools
+  title: Automatic License Plate Readers Are Coming to Schools
+  url: https://www.schneier.com/blog/archives/2025/08/automatic-license-plate-readers-are-coming-to-schools.html
+- category: webdev
+  published: '2025-08-11T08:00:00'
+  score: 0.588
+  source: Smashing Magazine
+  summary: Prompting isn’t just about writing better instructions, but about designing
+    better thinking. Ilia Kanazin and Marina Chernyshova explore how advanced prompting
+    can empower different product & design u...
+  tags: []
+  title: 'Designing With AI, Not Around It: Practical Advanced Techniques For Product
+    Design Use Cases'
+  url: https://smashingmagazine.com/2025/08/designing-with-ai-practical-techniques-product-design/
+- category: cybersecurity
   published: '2025-08-08T21:38:01'
   score: 0.765
   source: Krebs on Security
@@ -14,17 +119,6 @@ articles:
   - Joni Soila
   title: KrebsOnSecurity in New ‘Most Wanted’ HBO Max Series
   url: https://krebsonsecurity.com/2025/08/krebsonsecurity-in-new-most-wanted-hbo-max-series/
-- category: webdev
-  published: '2025-08-08T10:00:00'
-  score: 0.732
-  source: Smashing Magazine
-  summary: Internationalization isn’t just translation. It’s about formatting dates,
-    pluralizing words, sorting names, and more, all according to specific locales.
-    Instead of relying on heavy third-party librari...
-  tags: []
-  title: 'The Power Of The <code>Intl</code> API: A Definitive Guide To Browser-Native
-    Internationalization'
-  url: https://smashingmagazine.com/2025/08/power-intl-api-guide-browser-native-internationalization/
 - category: webdev
   published: '2025-08-08T13:42:31'
   score: 0.685
@@ -53,6 +147,17 @@ articles:
   title: Google Project Zero Changes Its Disclosure Policy
   url: https://www.schneier.com/blog/archives/2025/08/google-project-zero-changes-its-disclosure-policy.html
 - category: webdev
+  published: '2025-08-08T10:00:00'
+  score: 0.732
+  source: Smashing Magazine
+  summary: Internationalization isn’t just translation. It’s about formatting dates,
+    pluralizing words, sorting names, and more, all according to specific locales.
+    Instead of relying on heavy third-party librari...
+  tags: []
+  title: 'The Power Of The <code>Intl</code> API: A Definitive Guide To Browser-Native
+    Internationalization'
+  url: https://smashingmagazine.com/2025/08/power-intl-api-guide-browser-native-internationalization/
+- category: webdev
   published: '2025-08-08T01:57:46'
   score: 0.632
   source: WebKit Blog
@@ -64,16 +169,6 @@ articles:
   title: 'Item Flow – Part 2: next steps for Masonry'
   url: https://webkit.org/blog/17219/item-flow-part-2-next-steps-for-masonry/
 - category: cybersecurity
-  published: '2025-08-07T12:00:00'
-  score: 0.585
-  source: CISA
-  summary: 'Today, CISA issued Emergency Directive (ED) 25-02: Mitigate Microsoft
-    Exchange Vulnerability in response to CVE-2025-53786, a vulnerability in Microsoft
-    Exchange server hybrid deployments. &nbsp; ED 2...'
-  tags: []
-  title: 'CISA Issues ED 25-02: Mitigate Microsoft Exchange Vulnerability'
-  url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-issues-ed-25-02-mitigate-microsoft-exchange-vulnerability
-- category: cybersecurity
   published: '2025-08-07T14:59:57'
   score: 0.563
   source: NCSC UK
@@ -84,6 +179,16 @@ articles:
   url: https://www.ncsc.gov.uk/blog-post/caf-v4-0-released-in-response-to-growing-threat
 - category: cybersecurity
   published: '2025-08-07T12:00:00'
+  score: 0.585
+  source: CISA
+  summary: 'Today, CISA issued Emergency Directive (ED) 25-02: Mitigate Microsoft
+    Exchange Vulnerability in response to CVE-2025-53786, a vulnerability in Microsoft
+    Exchange server hybrid deployments. &nbsp; ED 2...'
+  tags: []
+  title: 'CISA Issues ED 25-02: Mitigate Microsoft Exchange Vulnerability'
+  url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-issues-ed-25-02-mitigate-microsoft-exchange-vulnerability
+- category: cybersecurity
+  published: '2025-08-07T12:00:00'
   score: 0.545
   source: CISA
   summary: CISA released ten Industrial Control Systems (ICS) advisories on August
@@ -92,4 +197,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-09T00:03:47.501452'
+last_updated: '2025-08-12T08:42:00.397406'
+total_articles: 17

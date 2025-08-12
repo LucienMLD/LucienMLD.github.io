@@ -16,3 +16,6 @@ jekyll-theme-neon/
 
 # Local Netlify folder
 .netlify
+
+# Cache des feeds RSS
+.cache/
