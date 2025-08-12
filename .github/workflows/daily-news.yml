@@ -45,4 +45,4 @@ jobs:
           git add _data/news.yml
           git commit -m "Daily news update $(date +'%Y-%m-%d')"
           git push
-          # The push will automatically trigger build-and-deploy.yml
+          # The push will automatically trigger GitHub Pages deploy
