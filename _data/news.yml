@@ -1,5 +1,19 @@
 articles:
 - category: cybersecurity
+  published: '2025-08-12T00:13:14'
+  score: 0.707
+  source: Ars Technica Tech
+  summary: Exploits allow for persistent backdooring when targets open booby-trapped
+    archive....
+  tags:
+  - Biz & IT
+  - Security
+  - 0-Day
+  - ESET
+  - winrar
+  title: High-severity WinRAR 0-day exploited for weeks by 2 groups
+  url: https://arstechnica.com/security/2025/08/high-severity-winrar-0-day-exploited-for-weeks-by-2-groups/
+- category: cybersecurity
   published: '2025-08-11T21:15:16'
   score: 0.709
   source: Dark Reading
@@ -197,5 +211,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-12T08:42:00.397406'
-total_articles: 17
+last_updated: '2025-08-12T07:03:03.196695'
+total_articles: 18
