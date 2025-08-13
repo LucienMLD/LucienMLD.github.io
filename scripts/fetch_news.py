@@ -18,6 +18,7 @@ import re
 from typing import List, Dict, Optional
 import time
 import logging
+import yaml
 
 # Setup logging
 logging.basicConfig(
@@ -29,42 +30,23 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Configuration
-RSS_FEEDS = {
-    'cybersecurity': [
-        {'url': 'https://www.cert.ssi.gouv.fr/feed/', 'source': 'CERT-FR', 'weight': 1.0},
-        {'url': 'https://www.ssi.gouv.fr/feed/', 'source': 'ANSSI', 'weight': 1.0},
-        {'url': 'https://www.cisa.gov/uscert/ncas/current-activity.xml', 'source': 'CISA', 'weight': 0.9},
-        {'url': 'https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml', 'source': 'NCSC UK', 'weight': 0.9},
-        {'url': 'https://krebsonsecurity.com/feed/', 'source': 'Krebs on Security', 'weight': 0.8},
-        {'url': 'https://www.schneier.com/blog/atom.xml', 'source': 'Schneier on Security', 'weight': 0.8},
-        {'url': 'https://feeds.arstechnica.com/arstechnica/technology-lab', 'source': 'Ars Technica Tech', 'weight': 0.7},
-        # Sources supplémentaires importantes
-        {'url': 'https://www.darkreading.com/rss.xml', 'source': 'Dark Reading', 'weight': 0.8},
-        {'url': 'https://threatpost.com/feed/', 'source': 'Threatpost', 'weight': 0.7},
-        {'url': 'https://www.bleepingcomputer.com/feed/', 'source': 'BleepingComputer', 'weight': 0.7},
-        {'url': 'https://thehackernews.com/feeds/posts/default', 'source': 'The Hacker News', 'weight': 0.6},
-        {'url': 'https://nakedsecurity.sophos.com/feed/', 'source': 'Sophos Naked Security', 'weight': 0.6},
-    ],
-    'webdev': [
-        {'url': 'https://web.dev/feed.xml', 'source': 'Web.dev', 'weight': 1.0},
-        {'url': 'https://developer.mozilla.org/en-US/blog/rss.xml', 'source': 'MDN Blog', 'weight': 1.0},
-        {'url': 'https://developer.chrome.com/static/blog/feed.xml', 'source': 'Chrome Developers', 'weight': 0.9},
-        {'url': 'https://webkit.org/feed/', 'source': 'WebKit Blog', 'weight': 0.9},
-        {'url': 'https://www.smashingmagazine.com/feed', 'source': 'Smashing Magazine', 'weight': 0.8},
-        {'url': 'https://css-tricks.com/feed/', 'source': 'CSS-Tricks', 'weight': 0.7},
-        {'url': 'https://alistapart.com/main/feed/', 'source': 'A List Apart', 'weight': 0.7},
-        # Sources supplémentaires importantes
-        {'url': 'https://v8.dev/blog.atom', 'source': 'V8 JavaScript Engine', 'weight': 0.8},
-        {'url': 'https://hacks.mozilla.org/feed/', 'source': 'Mozilla Hacks', 'weight': 0.8},
-        {'url': 'https://blog.angular.io/feed', 'source': 'Angular Blog', 'weight': 0.7},
-        {'url': 'https://reactjs.org/feed.xml', 'source': 'React Blog', 'weight': 0.7},
-        {'url': 'https://blog.vuejs.org/feed.rss', 'source': 'Vue.js News', 'weight': 0.7},
-        {'url': 'https://nodejs.org/en/feed/blog.xml', 'source': 'Node.js Blog', 'weight': 0.7},
-        {'url': 'https://blog.chromium.org/feeds/posts/default', 'source': 'Chromium Blog', 'weight': 0.6},
-        {'url': 'https://www.w3.org/blog/news/feed', 'source': 'W3C News', 'weight': 0.6},
-    ]
-}
+def load_rss_feeds() -> dict:
+    """Load RSS feeds from configuration files"""
+    feeds = {}
+    feeds_dir = Path(__file__).parent / 'feeds'
+    
+    for config_file in feeds_dir.glob('*.yml'):
+        try:
+            with open(config_file, 'r', encoding='utf-8') as f:
+                category_feeds = yaml.safe_load(f)
+                feeds.update(category_feeds)
+        except Exception as e:
+            logger.error(f"Error loading feed config {config_file}: {e}")
+    
+    return feeds
+
+# Configuration - Load RSS feeds from configuration files
+RSS_FEEDS = load_rss_feeds()
 
 # Max articles per category per day (final output)
 MAX_ARTICLES_PER_CATEGORY = 5

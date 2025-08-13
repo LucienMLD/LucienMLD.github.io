@@ -24,6 +24,10 @@ permalink: /news/
       <i class="ri-code-s-slash-line"></i>
       Web Development
     </button>
+    <button class="category-tab" data-category="ai">
+      <i class="ri-robot-line"></i>
+      Artificial Intelligence
+    </button>
     <button class="category-tab active" data-category="all">
       <i class="ri-apps-line"></i>
       All Articles
@@ -115,6 +119,48 @@ permalink: /news/
       {% endif %}
     </section>
 
+    <!-- AI News -->
+    <section id="ai" class="news-section">
+      <h2>Artificial Intelligence News</h2>
+      <div class="news-grid" data-category="ai">
+        {% assign ai_news = site.data.news.articles | where: "category", "ai" %}
+        {% if ai_news.size > 0 %}
+          {% for item in ai_news %}
+            <article class="news-card" data-index="{{ forloop.index0 }}">
+              <div class="news-card-header">
+                <time datetime="{{ item.published | date_to_xmlschema }}">
+                  {{ item.published | date: "%b %d, %Y" }}
+                </time>
+                <span class="news-source-badge">{{ item.source }}</span>
+              </div>
+              <h3 class="news-card-title">
+                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+              </h3>
+              <p class="news-card-summary">{{ item.summary | truncate: 150 }}</p>
+              <div class="news-card-footer">
+                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="read-more">Read full article →</a>
+              </div>
+            </article>
+          {% endfor %}
+        {% else %}
+          <p class="no-news">No AI news available yet. Check back tomorrow!</p>
+        {% endif %}
+      </div>
+      {% if ai_news.size > 12 %}
+        <div class="pagination-controls" data-category="ai">
+          <button class="pagination-btn prev-btn" disabled>
+            <i class="ri-arrow-left-line"></i> Previous
+          </button>
+          <div class="pagination-info">
+            <span class="current-page">1</span> / <span class="total-pages">{{ ai_news.size | divided_by: 12.0 | ceil }}</span>
+          </div>
+          <button class="pagination-btn next-btn">
+            Next <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+      {% endif %}
+    </section>
+
     <!-- All News -->
     <section id="all" class="news-section active">
       <h2>All News</h2>
@@ -187,12 +233,13 @@ document.addEventListener('DOMContentLoaded', function() {
   const paginationState = {
     cybersecurity: { currentPage: 1, itemsPerPage: 12 },
     webdev: { currentPage: 1, itemsPerPage: 12 },
+    ai: { currentPage: 1, itemsPerPage: 12 },
     all: { currentPage: 1, itemsPerPage: 12 }
   };
   
   // Initialize pagination for all categories
   function initPagination() {
-    ['cybersecurity', 'webdev', 'all'].forEach(category => {
+    ['cybersecurity', 'webdev', 'ai', 'all'].forEach(category => {
       updatePagination(category);
       setupPaginationEvents(category);
     });
@@ -325,7 +372,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const hash = window.location.hash.substring(1);
   let initialCategory = 'all';
   
-  if (hash && ['cybersecurity', 'webdev', 'all'].includes(hash)) {
+  if (hash && ['cybersecurity', 'webdev', 'ai', 'all'].includes(hash)) {
     initialCategory = hash;
   }
   

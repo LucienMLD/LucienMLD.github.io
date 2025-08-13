@@ -1,0 +1,30 @@
+cybersecurity:
+  - url: 'https://www.cert.ssi.gouv.fr/feed/'
+    source: 'CERT-FR'
+    weight: 1.0
+  # ANSSI - No working RSS feed found (403/400 errors)
+  - url: 'https://www.cisa.gov/cybersecurity-advisories/all.xml'
+    source: 'CISA'
+    weight: 1.0
+  - url: 'https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml'
+    source: 'NCSC UK'
+    weight: 1
+  - url: 'https://krebsonsecurity.com/feed/'
+    source: 'Krebs on Security'
+    weight: 0.9
+  - url: 'https://www.schneier.com/feed/atom/'
+    source: 'Schneier on Security'
+    weight: 0.9
+  - url: 'https://feeds.arstechnica.com/arstechnica/index'
+    source: 'Ars Technica'
+    weight: 0.8
+  - url: 'https://threatpost.com/feed/'
+    source: 'Threatpost'
+    weight: 0.7
+  - url: 'https://www.bleepingcomputer.com/feed/'
+    source: 'BleepingComputer'
+    weight: 0.7
+  - url: 'https://feeds.feedburner.com/TheHackersNews'
+    source: 'The Hacker News'
+    weight: 0.6
+  # Sophos Naked Security removed - feed no longer available

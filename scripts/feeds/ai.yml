@@ -1,0 +1,35 @@
+ai:
+  - url: 'https://openai.com/news/rss.xml'
+    source: 'OpenAI'
+    weight: 1.0
+  - url: 'https://blog.google/technology/ai/rss/'
+    source: 'Google AI Blog'
+    weight: 1.0
+  # Anthropic removed - 404 Not Found, no public RSS feed
+  - url: 'http://feeds.feedburner.com/blogspot/gJZg'
+    source: 'Google Research'
+    weight: 0.9
+  - url: 'https://blogs.microsoft.com/ai/feed/'
+    source: 'Microsoft AI Blog'
+    weight: 1
+  - url: 'https://aws.amazon.com/blogs/machine-learning/feed/'
+    source: 'AWS Machine Learning'
+    weight: 1
+  - url: 'https://machinelearningmastery.com/feed/'
+    source: 'Machine Learning Mastery'
+    weight: 0.7
+  - url: 'https://towardsdatascience.com/feed/'
+    source: 'Towards Data Science'
+    weight: 0.7
+  - url: 'https://distill.pub/rss.xml'
+    source: 'Distill'
+    weight: 0.8
+  - url: 'https://hai.stanford.edu/news/rss.xml'
+    source: 'Stanford HAI'
+    weight: 0.8
+  - url: 'https://deepmind.google/blog/rss.xml'
+    source: 'DeepMind'
+    weight: 1
+  - url: 'https://huggingface.co/blog/feed.xml'
+    source: 'Hugging Face'
+    weight: 0.8
