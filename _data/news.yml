@@ -67,6 +67,16 @@ articles:
   title: CSS-Questions
   url: https://css-tricks.com/css-questions/
 - category: cybersecurity
+  published: '2025-08-12T14:45:43'
+  score: 0.663
+  source: Dark Reading
+  summary: The first documented deployment of the novel malware in a campaign against
+    the Middle Eastern public sector and aviation industry may be tied to China's
+    state-sponsored actor Earth Baxia....
+  tags: []
+  title: Charon Ransomware Emerges With APT-Style Tactics
+  url: https://www.darkreading.com/threat-intelligence/charon-ransomware-apt-tactics
+- category: cybersecurity
   published: '2025-08-12T12:00:00'
   score: 0.686
   source: CISA
@@ -274,5 +284,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-13T07:56:22.050052'
-total_articles: 24
+last_updated: '2025-08-13T09:34:46.702379'
+total_articles: 25
