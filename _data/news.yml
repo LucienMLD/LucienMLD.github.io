@@ -1,5 +1,82 @@
 articles:
 - category: cybersecurity
+  published: '2025-08-13T05:45:00'
+  score: 0.707
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a new campaign that employs a
+    previously undocumented ransomware family called Charon to target the Middle East's
+    public sector and aviation industry. The thr...
+  tags: []
+  title: Charon Ransomware Hits Middle East Sectors Using APT-Level Evasion Tactics
+  url: https://thehackernews.com/2025/08/charon-ransomware-hits-middle-east.html
+- category: cybersecurity
+  published: '2025-08-13T01:00:00'
+  score: 0.737
+  source: Dark Reading
+  summary: The US banned the sale of AI chips to China and then backed off. Now, Chinese
+    sources are calling on NVIDIA to prove its AI chips have no backdoors....
+  tags: []
+  title: China Questions Security of AI Chips From Nvidia, AMD
+  url: https://www.darkreading.com/cyber-risk/china-questions-security-ai-chips-nvidia-amd
+- category: cybersecurity
+  published: '2025-08-12T22:14:41'
+  score: 0.72
+  source: Krebs on Security
+  summary: Microsoft today released updates to fix more than 100 security flaws in
+    its Windows operating systems and other software. At least 13 of the bugs received
+    Microsoft's most-dire "critical" rating, mean...
+  tags:
+  - Latest Warnings
+  - The Coming Storm
+  - Time to Patch
+  - Akamai
+  - BadSuccessor
+  title: Microsoft Patch Tuesday, August 2025 Edition
+  url: https://krebsonsecurity.com/2025/08/microsoft-patch-tuesday-august-2025-edition/
+- category: webdev
+  published: '2025-08-12T22:09:02'
+  score: 0.709
+  source: WebKit Blog
+  summary: Anchor positioning allows you to place an element on the page based on
+    where another element is....
+  tags:
+  - News
+  title: A gentle introduction to anchor positioning
+  url: https://webkit.org/blog/17240/a-gentle-introduction-to-anchor-positioning/
+- category: cybersecurity
+  published: '2025-08-12T22:03:47'
+  score: 0.689
+  source: BleepingComputer
+  summary: Hackers have released stolen data belonging to US insurance giant Allianz
+    Life, exposing 2.8 million records with sensitive information on business partners
+    and customers in ongoing Salesforce data th...
+  tags:
+  - Security
+  title: Hackers leak Allianz Life data stolen in Salesforce attacks
+  url: https://www.bleepingcomputer.com/news/security/hackers-leak-allianz-life-data-stolen-in-salesforce-attacks/
+- category: webdev
+  published: '2025-08-12T15:02:21'
+  score: 0.644
+  source: CSS-Tricks
+  summary: CSS-Questions is a mini site where you can test your CSS knowledge with
+    over 100 questions. CSS-Questions originally published on CSS-Tricks, which is
+    part of the DigitalOcean family. You should get t...
+  tags:
+  - Links
+  - education
+  title: CSS-Questions
+  url: https://css-tricks.com/css-questions/
+- category: cybersecurity
+  published: '2025-08-12T12:00:00'
+  score: 0.686
+  source: CISA
+  summary: CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2013-3893 Microsoft
+    Internet Explorer Resource Management E...
+  tags: []
+  title: CISA Adds Three Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/08/12/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
   published: '2025-08-11T21:15:16'
   score: 0.709
   source: Dark Reading
@@ -197,5 +274,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-13T09:50:18.207926'
-total_articles: 17
+last_updated: '2025-08-13T07:56:22.050052'
+total_articles: 24
