@@ -49,7 +49,7 @@ RSS_FEEDS = {
     'webdev': [
         {'url': 'https://web.dev/feed.xml', 'source': 'Web.dev', 'weight': 1.0},
         {'url': 'https://developer.mozilla.org/en-US/blog/rss.xml', 'source': 'MDN Blog', 'weight': 1.0},
-        {'url': 'https://developer.chrome.com/blog/rss.xml', 'source': 'Chrome Developers', 'weight': 0.9},
+        {'url': 'https://developer.chrome.com/static/blog/feed.xml', 'source': 'Chrome Developers', 'weight': 0.9},
         {'url': 'https://webkit.org/feed/', 'source': 'WebKit Blog', 'weight': 0.9},
         {'url': 'https://www.smashingmagazine.com/feed', 'source': 'Smashing Magazine', 'weight': 0.8},
         {'url': 'https://css-tricks.com/feed/', 'source': 'CSS-Tricks', 'weight': 0.7},
