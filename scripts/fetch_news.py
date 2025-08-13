@@ -94,6 +94,58 @@ class NewsArticle:
         content = f"{self.title}{self.url}"
         return hashlib.md5(content.encode()).hexdigest()
     
+    def is_similar_to(self, other_article, news_processor=None) -> bool:
+        """Check if this article is similar to another (same topic)"""
+        # Check for exact URL match first
+        if self.url == other_article.url:
+            return True
+        
+        # Use Claude for semantic similarity if available
+        if news_processor and news_processor.anthropic_api_key:
+            try:
+                prompt = f"""Compare these two news articles and determine if they cover the same topic or event.
+
+Article 1: "{self.title}"
+Article 2: "{other_article.title}"
+
+Respond with only "YES" if they cover the same topic/event (like the same security patch, same product release, same incident), or "NO" if they are different topics.
+
+Examples:
+- "Microsoft Patch Tuesday August 2025" vs "Microsoft fixes 107 vulnerabilities in August update" → YES
+- "Chrome 116 released" vs "Firefox 117 released" → NO
+- "New iPhone announced" vs "Apple announces new iPhone" → YES"""
+
+                result = news_processor._call_claude_api(prompt, max_tokens=10)
+                return result.strip().upper() == "YES"
+                
+            except Exception as e:
+                logger.debug(f"Claude similarity check failed: {e}, falling back to keyword matching")
+        
+        # Fallback to keyword-based detection
+        return self._is_similar_keyword_based(other_article)
+    
+    def _is_similar_keyword_based(self, other_article) -> bool:
+        """Fallback keyword-based similarity detection"""
+        # Quick checks for obvious similarities
+        self_lower = self.title.lower()
+        other_lower = other_article.title.lower()
+        
+        # Microsoft patch tuesday detection
+        if (("microsoft" in self_lower and "microsoft" in other_lower) and
+            (any(phrase in self_lower for phrase in ["patch tuesday", "patch", "vulnerability", "flaw"]) and
+             any(phrase in other_lower for phrase in ["patch tuesday", "patch", "vulnerability", "flaw"]))):
+            return True
+        
+        # Same company + similar security keywords
+        companies = ["microsoft", "google", "apple", "adobe", "cisco", "vmware"]
+        for company in companies:
+            if (company in self_lower and company in other_lower and
+                any(word in self_lower for word in ["vulnerability", "patch", "update", "fix"]) and
+                any(word in other_lower for word in ["vulnerability", "patch", "update", "fix"])):
+                return True
+        
+        return False
+    
     def calculate_score(self, source_weight: float) -> float:
         """Calculate article score based on various factors"""
         # Freshness score (0-1, newer is better)
@@ -220,8 +272,26 @@ class NewsFetcher:
                     tags=tags
                 )
                 
-                # Check for duplicates
-                if article.content_hash not in self.seen_hashes:
+                # Check for exact duplicates first
+                if article.content_hash in self.seen_hashes:
+                    continue
+                
+                # Check for similar articles (same topic)
+                is_similar = False
+                for existing_article in self.articles:
+                    if article.is_similar_to(existing_article, self if self.anthropic_api_key else None):
+                        is_similar = True
+                        # Keep the one with higher score
+                        article.calculate_score(feed_info['weight'])
+                        if article.score > existing_article.score:
+                            logger.info(f"Replacing similar article: '{existing_article.title}' with '{article.title}' (better score: {article.score:.2f} > {existing_article.score:.2f})")
+                            self.articles.remove(existing_article)
+                            self.seen_hashes.discard(existing_article.content_hash)
+                        else:
+                            logger.info(f"Skipping similar article: '{article.title}' (lower score: {article.score:.2f} <= {existing_article.score:.2f})")
+                            break
+                
+                if not is_similar:
                     article.calculate_score(feed_info['weight'])
                     self.articles.append(article)
                     self.seen_hashes.add(article.content_hash)
