@@ -1,0 +1,107 @@
+# Configuration des catégories pour la classification des articles
+# Utilisé par le système de news fetch pour organiser et scorer les articles
+
+categories:
+  cybersecurity:
+    description: "Security vulnerabilities, breaches, malware, ransomware, privacy, compliance, security tools"
+    keywords:
+      - "vulnerability"
+      - "breach" 
+      - "attack"
+      - "security"
+      - "exploit"
+      - "ransomware"
+      - "malware"
+      - "patch"
+      - "zero-day"
+      - "cve"
+      - "phishing"
+      - "ddos"
+      - "firewall"
+      - "encryption"
+      - "compliance"
+      - "gdpr"
+      - "privacy"
+      - "authentication"
+      - "authorization"
+      - "penetration testing"
+    priority: high
+    max_articles: 5
+    score_multiplier: 1.2
+    
+  ai:
+    description: "Artificial intelligence, machine learning, LLMs, neural networks, AI tools, research"
+    keywords:
+      - "artificial intelligence"
+      - "machine learning"
+      - "deep learning" 
+      - "neural network"
+      - "gpt"
+      - "llm"
+      - "transformer"
+      - "ai model"
+      - "chatgpt"
+      - "claude"
+      - "gemini"
+      - "openai"
+      - "anthropic"
+      - "computer vision"
+      - "nlp"
+      - "natural language processing"
+      - "pytorch"
+      - "tensorflow"
+      - "hugging face"
+      - "generative ai"
+      - "large language model"
+    priority: high
+    max_articles: 5
+    score_multiplier: 1.1
+    
+  webdev:
+    description: "Web development, frameworks, browsers, CSS, JavaScript, performance, accessibility"
+    keywords:
+      - "javascript"
+      - "css"
+      - "html"
+      - "react"
+      - "vue"
+      - "angular"
+      - "framework"
+      - "performance"
+      - "accessibility"
+      - "api"
+      - "browser"
+      - "frontend"
+      - "backend"
+      - "nodejs"
+      - "typescript"
+      - "webpack"
+      - "responsive design"
+      - "progressive web app"
+      - "pwa"
+      - "web components"
+      - "rest api"
+      - "graphql"
+    priority: medium
+    max_articles: 5
+    score_multiplier: 1.0
+
+# Configuration globale
+settings:
+  # Nombre maximum d'articles par catégorie par défaut
+  default_max_articles: 5
+  
+  # Multiplicateur de score par défaut
+  default_score_multiplier: 1.0
+  
+  # Catégorie par défaut si aucune ne correspond
+  default_category: "webdev"
+  
+  # Seuil minimum de score pour qu'un article soit retenu
+  min_score_threshold: 0.3
+  
+  # Boost de score pour les articles récents (moins de 6h)
+  recent_article_boost: 0.1
+  
+  # Pénalité de score pour les articles anciens (plus de 24h)
+  old_article_penalty: -0.05

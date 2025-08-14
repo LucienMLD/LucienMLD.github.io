@@ -45,27 +45,68 @@ def load_rss_feeds() -> dict:
     
     return feeds
 
-# Configuration - Load RSS feeds from configuration files
-RSS_FEEDS = load_rss_feeds()
+def load_categories_config() -> dict:
+    """Load categories configuration from YAML file"""
+    config_file = Path(__file__).parent / 'config' / 'categories.yml'
+    
+    try:
+        with open(config_file, 'r', encoding='utf-8') as f:
+            config = yaml.safe_load(f)
+            return config
+    except FileNotFoundError:
+        logger.error(f"Categories config file not found: {config_file}")
+        # Fallback to hardcoded config if file doesn't exist
+        return get_fallback_categories_config()
+    except Exception as e:
+        logger.error(f"Error loading categories config: {e}")
+        return get_fallback_categories_config()
 
-# Target categories for AI categorization (flexible configuration)
-TARGET_CATEGORIES = {
-    'cybersecurity': {
-        'description': 'Security vulnerabilities, breaches, malware, ransomware, privacy, compliance, security tools',
-        'keywords': ['vulnerability', 'breach', 'attack', 'security', 'exploit', 'ransomware', 'malware', 'patch', 'zero-day', 'cve']
-    },
-    'ai': {
-        'description': 'Artificial intelligence, machine learning, LLMs, neural networks, AI tools, research',
-        'keywords': ['artificial intelligence', 'machine learning', 'deep learning', 'neural network', 'gpt', 'llm', 'transformer', 'ai model', 'chatgpt', 'claude', 'gemini']
-    },
-    'webdev': {
-        'description': 'Web development, frameworks, browsers, CSS, JavaScript, performance, accessibility',
-        'keywords': ['javascript', 'css', 'html', 'react', 'vue', 'framework', 'performance', 'accessibility', 'api', 'browser']
+def get_fallback_categories_config() -> dict:
+    """Fallback configuration if YAML file is not available"""
+    return {
+        'categories': {
+            'cybersecurity': {
+                'description': 'Security vulnerabilities, breaches, malware, ransomware, privacy, compliance, security tools',
+                'keywords': ['vulnerability', 'breach', 'attack', 'security', 'exploit', 'ransomware', 'malware', 'patch', 'zero-day', 'cve'],
+                'priority': 'high',
+                'max_articles': 5,
+                'score_multiplier': 1.2
+            },
+            'ai': {
+                'description': 'Artificial intelligence, machine learning, LLMs, neural networks, AI tools, research',
+                'keywords': ['artificial intelligence', 'machine learning', 'deep learning', 'neural network', 'gpt', 'llm', 'transformer', 'ai model', 'chatgpt', 'claude', 'gemini'],
+                'priority': 'high',
+                'max_articles': 5,
+                'score_multiplier': 1.1
+            },
+            'webdev': {
+                'description': 'Web development, frameworks, browsers, CSS, JavaScript, performance, accessibility',
+                'keywords': ['javascript', 'css', 'html', 'react', 'vue', 'framework', 'performance', 'accessibility', 'api', 'browser'],
+                'priority': 'medium',
+                'max_articles': 5,
+                'score_multiplier': 1.0
+            }
+        },
+        'settings': {
+            'default_max_articles': 5,
+            'default_score_multiplier': 1.0,
+            'default_category': 'webdev',
+            'min_score_threshold': 0.3,
+            'recent_article_boost': 0.1,
+            'old_article_penalty': -0.05
+        }
     }
-}
 
-# Max articles per category per day (final output)
-MAX_ARTICLES_PER_CATEGORY = 5
+# Configuration - Load RSS feeds and categories from configuration files
+RSS_FEEDS = load_rss_feeds()
+CATEGORIES_CONFIG = load_categories_config()
+
+# Extract categories and settings from config
+TARGET_CATEGORIES = CATEGORIES_CONFIG.get('categories', {})
+CONFIG_SETTINGS = CATEGORIES_CONFIG.get('settings', {})
+
+# Max articles per category per day (final output) - configurable
+MAX_ARTICLES_PER_CATEGORY = CONFIG_SETTINGS.get('default_max_articles', 5)
 # Days to look back for articles
 DAYS_LOOKBACK = 2
 # Max articles to fetch per feed (gives AI more choice)
@@ -166,8 +207,23 @@ Examples:
         
         relevance_score = min(1.0, relevance_score)
         
-        # Final score calculation
-        self.score = (freshness_score * 0.3) + (source_weight * 0.3) + (relevance_score * 0.4)
+        # Final score calculation with category multiplier
+        base_score = (freshness_score * 0.3) + (source_weight * 0.3) + (relevance_score * 0.4)
+        
+        # Apply category-specific score multiplier
+        if self.category in TARGET_CATEGORIES:
+            score_multiplier = TARGET_CATEGORIES[self.category].get('score_multiplier', 1.0)
+            base_score *= score_multiplier
+        
+        # Apply time-based bonuses/penalties from config
+        if CONFIG_SETTINGS:
+            age_hours = (datetime.now() - self.published).total_seconds() / 3600
+            if age_hours < 6:  # Recent article boost
+                base_score += CONFIG_SETTINGS.get('recent_article_boost', 0)
+            elif age_hours > 24:  # Old article penalty  
+                base_score += CONFIG_SETTINGS.get('old_article_penalty', 0)
+        
+        self.score = max(0, base_score)  # Ensure score is not negative
         return self.score
 
 class NewsFetcher:
@@ -258,7 +314,15 @@ class NewsFetcher:
                 title = entry.get('title', 'No title')
                 url = entry.get('link', '')
                 description = entry.get('summary', entry.get('description', ''))
-                tags = [tag.term for tag in entry.get('tags', [])][:5]
+                # Extract tags safely - handle both dict and object formats
+                tags = []
+                for tag in entry.get('tags', [])[:5]:
+                    if hasattr(tag, 'term'):
+                        tags.append(tag.term)
+                    elif isinstance(tag, dict) and 'term' in tag:
+                        tags.append(tag['term'])
+                    elif isinstance(tag, str):
+                        tags.append(tag)
                 
                 article = NewsArticle(
                     title=title,
@@ -429,9 +493,12 @@ class NewsFetcher:
                 category_counts[category] = 0
             
             for article in self.articles:
-                if article.category in category_counts and category_counts[article.category] < MAX_ARTICLES_PER_CATEGORY:
-                    filtered.append(article)
-                    category_counts[article.category] += 1
+                if article.category in category_counts:
+                    # Get max_articles for this specific category, fallback to global default
+                    max_articles = TARGET_CATEGORIES.get(article.category, {}).get('max_articles', MAX_ARTICLES_PER_CATEGORY)
+                    if category_counts[article.category] < max_articles:
+                        filtered.append(article)
+                        category_counts[article.category] += 1
             
             self.articles = filtered
     
@@ -816,9 +883,9 @@ Your categorization:"""
                     score += 1
             category_scores[category] = score
         
-        # Return category with highest score, default to 'webdev' if tie
+        # Return category with highest score, use configured default if no matches
         if max(category_scores.values()) == 0:
-            return 'webdev'  # Default category
+            return CONFIG_SETTINGS.get('default_category', 'webdev')
         
         return max(category_scores, key=category_scores.get)
 
