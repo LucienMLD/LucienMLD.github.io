@@ -140,7 +140,7 @@ class NewsArticle:
             return True
         
         # Use Claude for semantic similarity if available
-        if news_processor and news_processor.anthropic_api_key:
+        if news_processor and news_processor.ai_service.is_available:
             try:
                 prompt = f"""Compare these two news articles and determine if they cover the same topic or event.
 
@@ -154,7 +154,7 @@ Examples:
 - "Chrome 116 released" vs "Firefox 117 released" → NO
 - "New iPhone announced" vs "Apple announces new iPhone" → YES"""
 
-                result = news_processor._call_claude_api(prompt, max_tokens=10)
+                result = news_processor.ai_service.call_claude(prompt, max_tokens=10)
                 return result.strip().upper() == "YES"
                 
             except Exception as e:
@@ -226,13 +226,284 @@ Examples:
         self.score = max(0, base_score)  # Ensure score is not negative
         return self.score
 
+class AIServiceManager:
+    """Centralized AI service manager for all Claude API interactions"""
+    
+    def __init__(self, api_key: str = None):
+        self.api_key = api_key or os.environ.get('ANTHROPIC_API_KEY')
+        self.is_available = bool(self.api_key)
+        
+        # Rate limiting
+        self.last_call_time = 0
+        self.min_interval = 1.0  # Minimum 1 second between calls
+        
+        # Cache for AI responses
+        self._response_cache = {}
+        self.cache_ttl = 3600  # 1 hour cache TTL
+        
+        # Request statistics
+        self.stats = {
+            'total_calls': 0,
+            'cache_hits': 0,
+            'errors': 0,
+            'total_tokens_used': 0
+        }
+        
+        logger.info(f"AIServiceManager initialized - API available: {self.is_available}")
+    
+    def _get_cache_key(self, prompt: str, max_tokens: int, model: str) -> str:
+        """Generate cache key for the request"""
+        import hashlib
+        content = f"{prompt}{max_tokens}{model}"
+        return hashlib.md5(content.encode()).hexdigest()
+    
+    def _is_cache_valid(self, timestamp: float) -> bool:
+        """Check if cached response is still valid"""
+        return (time.time() - timestamp) < self.cache_ttl
+    
+    def _rate_limit(self):
+        """Implement rate limiting between API calls"""
+        current_time = time.time()
+        time_since_last_call = current_time - self.last_call_time
+        
+        if time_since_last_call < self.min_interval:
+            sleep_time = self.min_interval - time_since_last_call
+            logger.debug(f"Rate limiting: sleeping for {sleep_time:.2f}s")
+            time.sleep(sleep_time)
+        
+        self.last_call_time = time.time()
+    
+    def call_claude(self, prompt: str, max_tokens: int = 150, model: str = 'claude-3-haiku-20240307', use_cache: bool = True) -> str:
+        """Make a call to Claude API with caching, rate limiting, and error handling"""
+        if not self.is_available:
+            raise ValueError("Claude API key not available")
+        
+        # Check cache first
+        if use_cache:
+            cache_key = self._get_cache_key(prompt, max_tokens, model)
+            if cache_key in self._response_cache:
+                cached_response, timestamp = self._response_cache[cache_key]
+                if self._is_cache_valid(timestamp):
+                    self.stats['cache_hits'] += 1
+                    logger.debug("Using cached AI response")
+                    return cached_response
+                else:
+                    # Remove expired cache entry
+                    del self._response_cache[cache_key]
+        
+        # Apply rate limiting
+        self._rate_limit()
+        
+        # Make API call
+        try:
+            self.stats['total_calls'] += 1
+            response = self._make_api_request(prompt, max_tokens, model)
+            
+            # Cache the response
+            if use_cache:
+                self._response_cache[cache_key] = (response, time.time())
+            
+            # Estimate tokens used (rough approximation)
+            self.stats['total_tokens_used'] += len(prompt.split()) + len(response.split())
+            
+            logger.debug(f"Claude API call successful - {len(response)} chars returned")
+            return response
+            
+        except Exception as e:
+            self.stats['errors'] += 1
+            logger.error(f"Claude API call failed: {e}")
+            raise
+    
+    def _make_api_request(self, prompt: str, max_tokens: int, model: str) -> str:
+        """Make the actual API request to Claude"""
+        headers = {
+            'x-api-key': self.api_key,
+            'anthropic-version': '2023-06-01',
+            'content-type': 'application/json'
+        }
+        
+        data = {
+            'model': model,
+            'max_tokens': max_tokens,
+            'messages': [
+                {'role': 'user', 'content': prompt}
+            ]
+        }
+        
+        response = requests.post(
+            'https://api.anthropic.com/v1/messages',
+            headers=headers,
+            json=data,
+            timeout=30
+        )
+        
+        if response.status_code == 200:
+            result = response.json()
+            return result['content'][0]['text'].strip()
+        elif response.status_code == 429:
+            # Rate limited - wait and retry once
+            logger.warning("API rate limited, waiting 5 seconds...")
+            time.sleep(5)
+            return self._make_api_request(prompt, max_tokens, model)
+        else:
+            raise Exception(f"Claude API error: {response.status_code} - {response.text}")
+    
+    def batch_categorize(self, articles_data: list, categories: dict) -> list:
+        """Specialized method for batch article categorization"""
+        if not self.is_available:
+            logger.warning("AI not available for categorization")
+            return []
+        
+        # Prepare category descriptions
+        categories_desc = ""
+        for category, info in categories.items():
+            categories_desc += f"- {category}: {info['description']}\n"
+        
+        # Prepare articles text
+        articles_text = ""
+        for i, article in enumerate(articles_data):
+            articles_text += f"""
+{i+1}. Title: {article['title']}
+   Source: {article['source']}  
+   Description: {article['description'][:200]}...
+"""
+        
+        prompt = f"""You are an expert tech content categorizer. Analyze each article and assign it to the MOST APPROPRIATE category from this list:
+
+Available categories:
+{categories_desc}
+
+Articles to categorize:
+{articles_text}
+
+For each article, return ONLY the category name. If an article doesn't clearly fit any category, choose the closest match.
+
+Format your response as:
+1. category_name
+2. category_name  
+3. category_name
+...and so on.
+
+Your categorization:"""
+        
+        try:
+            result = self.call_claude(prompt, max_tokens=200)
+            return self._parse_categorization_result(result, categories)
+        except Exception as e:
+            logger.error(f"Batch categorization failed: {e}")
+            return []
+    
+    def _parse_categorization_result(self, result: str, valid_categories: dict) -> list:
+        """Parse AI categorization result"""
+        categories = []
+        lines = result.strip().split('\n')
+        
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+            
+            # Remove numbering (1., 2., etc.)
+            category = re.sub(r'^\d+\.\s*', '', line).strip().lower()
+            
+            # Validate category
+            if category in valid_categories:
+                categories.append(category)
+            else:
+                # Try to match partial names
+                for valid_cat in valid_categories.keys():
+                    if valid_cat in category or category in valid_cat:
+                        categories.append(valid_cat)
+                        break
+                else:
+                    # Default fallback
+                    default_cat = CONFIG_SETTINGS.get('default_category', 'webdev')
+                    categories.append(default_cat)
+        
+        return categories
+    
+    def batch_summarize(self, articles_data: list) -> list:
+        """Specialized method for batch article summarization"""
+        if not self.is_available:
+            logger.warning("AI not available for summarization")
+            return []
+        
+        # Prepare batch content
+        articles_text = ""
+        for i, article in enumerate(articles_data):
+            articles_text += f"""
+Article {i+1}:
+Title: {article['title']}
+Description: {article['description'][:300]}...
+Category: {article['category']}
+
+"""
+        
+        prompt = f"""Summarize each of these {len(articles_data)} tech articles in exactly 2-3 concise sentences. 
+Focus on key technical points and implications for each.
+
+{articles_text}
+
+Provide summaries in this exact format:
+1. [2-3 sentence summary for article 1]
+2. [2-3 sentence summary for article 2]
+3. [2-3 sentence summary for article 3]
+...and so on.
+
+Summaries:"""
+
+        try:
+            result = self.call_claude(prompt, max_tokens=len(articles_data) * 80)
+            return self._parse_batch_summaries(result)
+        except Exception as e:
+            logger.error(f"Batch summarization failed: {e}")
+            return []
+    
+    def _parse_batch_summaries(self, batch_response: str) -> list:
+        """Parse batch summary response into individual summaries"""
+        summaries = []
+        lines = batch_response.strip().split('\n')
+        
+        current_summary = ""
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+                
+            # Check if this is a numbered item (1., 2., etc.)
+            if re.match(r'^\d+\.', line):
+                if current_summary:
+                    summaries.append(current_summary)
+                # Remove the number prefix
+                current_summary = re.sub(r'^\d+\.\s*', '', line)
+            else:
+                # Continue previous summary
+                if current_summary:
+                    current_summary += " " + line
+        
+        # Add the last summary
+        if current_summary:
+            summaries.append(current_summary)
+            
+        return summaries
+    
+    def get_stats(self) -> dict:
+        """Get usage statistics"""
+        return self.stats.copy()
+    
+    def clear_cache(self):
+        """Clear the response cache"""
+        self._response_cache.clear()
+        logger.info("AI response cache cleared")
+
 class NewsFetcher:
     """Fetches and processes news from RSS feeds"""
     
     def __init__(self):
         self.articles = []
         self.seen_hashes = set()
-        self.anthropic_api_key = os.environ.get('ANTHROPIC_API_KEY')
+        # Use centralized AI service manager
+        self.ai_service = AIServiceManager()
         
         # Setup HTTP session with retry strategy
         self.session = requests.Session()
@@ -341,7 +612,7 @@ class NewsFetcher:
                 # Check for similar articles (same topic)
                 is_similar = False
                 for existing_article in self.articles:
-                    if article.is_similar_to(existing_article, self if self.anthropic_api_key else None):
+                    if article.is_similar_to(existing_article, self if self.ai_service.is_available else None):
                         is_similar = True
                         # Keep the one with higher score
                         article.calculate_score(feed_info['weight'])
@@ -475,8 +746,8 @@ class NewsFetcher:
         if not self.articles:
             return
             
-        # Use AI to select the most important articles if API key is available
-        if self.anthropic_api_key:
+        # Use AI to select the most important articles if API is available
+        if self.ai_service.is_available:
             logger.info("Using AI to select most important articles...")
             self.articles = self._ai_curate_articles()
         else:
@@ -542,8 +813,8 @@ class NewsFetcher:
     
     def generate_summaries(self) -> None:
         """Generate AI summaries for articles with batch processing"""
-        if not self.anthropic_api_key:
-            logger.warning("ANTHROPIC_API_KEY not set. Using descriptions as summaries.")
+        if not self.ai_service.is_available:
+            logger.warning("AI service not available. Using descriptions as summaries.")
             for article in self.articles:
                 article.summary = self._clean_text(article.description)[:200] + "..."
             return
@@ -554,42 +825,26 @@ class NewsFetcher:
             self._generate_batch_summaries()
         except Exception as e:
             logger.error(f"Error in batch summary generation: {e}")
-            # Fallback to individual processing
-            logger.info("Falling back to individual summary generation...")
-            self._generate_individual_summaries()
+            # Fallback to descriptions
+            for article in self.articles:
+                article.summary = self._clean_text(article.description)[:200] + "..."
     
     def _generate_batch_summaries(self) -> None:
         """Generate summaries for multiple articles in one API call"""
         if not self.articles:
             return
-            
-        # Prepare batch content
-        articles_text = ""
-        for i, article in enumerate(self.articles):
-            articles_text += f"""
-Article {i+1}:
-Title: {article.title}
-Description: {article.description[:300]}...
-Category: {article.category}
-
-"""
         
-        prompt = f"""Summarize each of these {len(self.articles)} tech articles in exactly 2-3 concise sentences. 
-Focus on key technical points and implications for each.
-
-{articles_text}
-
-Provide summaries in this exact format:
-1. [2-3 sentence summary for article 1]
-2. [2-3 sentence summary for article 2]
-3. [2-3 sentence summary for article 3]
-...and so on.
-
-Summaries:"""
-
+        # Prepare article data for AI service
+        articles_data = []
+        for article in self.articles:
+            articles_data.append({
+                'title': article.title,
+                'description': article.description,
+                'category': article.category
+            })
+        
         try:
-            batch_response = self._call_claude_api(prompt, max_tokens=len(self.articles) * 80)
-            summaries = self._parse_batch_summaries(batch_response)
+            summaries = self.ai_service.batch_summarize(articles_data)
             
             # Assign summaries to articles
             for i, article in enumerate(self.articles):
@@ -605,44 +860,7 @@ Summaries:"""
             logger.error(f"Batch summary generation failed: {e}")
             raise
     
-    def _parse_batch_summaries(self, batch_response: str) -> List[str]:
-        """Parse batch summary response into individual summaries"""
-        summaries = []
-        lines = batch_response.strip().split('\n')
-        
-        current_summary = ""
-        for line in lines:
-            line = line.strip()
-            if not line:
-                continue
-                
-            # Check if this is a numbered item (1., 2., etc.)
-            if re.match(r'^\d+\.', line):
-                if current_summary:
-                    summaries.append(current_summary)
-                # Remove the number prefix
-                current_summary = re.sub(r'^\d+\.\s*', '', line)
-            else:
-                # Continue previous summary
-                if current_summary:
-                    current_summary += " " + line
-        
-        # Add the last summary
-        if current_summary:
-            summaries.append(current_summary)
-            
-        return summaries
     
-    def _generate_individual_summaries(self) -> None:
-        """Fallback: Generate summaries one by one"""
-        for article in self.articles:
-            try:
-                summary = self._generate_summary_with_claude(article)
-                article.summary = summary
-                time.sleep(1)  # Rate limiting for API
-            except Exception as e:
-                logger.error(f"Error generating summary for {article.title}: {e}")
-                article.summary = self._clean_text(article.description)[:200] + "..."
     
     def _ai_curate_articles(self) -> List[NewsArticle]:
         """Use Claude AI to select the most important articles"""
@@ -734,7 +952,7 @@ Example response: 2,5,7,12,15
 Your selection:"""
         
         try:
-            selected_indices = self._call_claude_api(prompt, max_tokens=100)
+            selected_indices = self.ai_service.call_claude(prompt, max_tokens=100)
             
             # Parse the response to get article indices
             indices = []
@@ -759,8 +977,8 @@ Your selection:"""
     
     def categorize_articles_with_ai(self) -> None:
         """Use AI to intelligently categorize all articles"""
-        if not self.anthropic_api_key:
-            logger.warning("ANTHROPIC_API_KEY not set. Using fallback categorization...")
+        if not self.ai_service.is_available:
+            logger.warning("AI service not available. Using fallback categorization...")
             self._fallback_categorization()
             return
         
@@ -776,57 +994,32 @@ Your selection:"""
         if not self.articles:
             return
         
-        # Prepare category descriptions for AI
-        categories_desc = ""
-        for category, info in TARGET_CATEGORIES.items():
-            categories_desc += f"- {category}: {info['description']}\n"
-        
         # Process in batches to avoid token limits
         batch_size = 10
         for i in range(0, len(self.articles), batch_size):
             batch = self.articles[i:i + batch_size]
             
-            # Prepare batch content
-            articles_text = ""
-            for j, article in enumerate(batch):
-                articles_text += f"""
-{j+1}. Title: {article.title}
-   Source: {article.source}  
-   Description: {article.description[:200]}...
-"""
-            
-            prompt = f"""You are an expert tech content categorizer. Analyze each article and assign it to the MOST APPROPRIATE category from this list:
-
-Available categories:
-{categories_desc}
-
-Articles to categorize:
-{articles_text}
-
-For each article, return ONLY the category name (cybersecurity, ai, or webdev). If an article doesn't clearly fit any category, choose the closest match.
-
-Format your response as:
-1. category_name
-2. category_name  
-3. category_name
-...and so on.
-
-Your categorization:"""
+            # Prepare article data for AI service
+            articles_data = []
+            for article in batch:
+                articles_data.append({
+                    'title': article.title,
+                    'source': article.source,
+                    'description': article.description
+                })
             
             try:
-                result = self._call_claude_api(prompt, max_tokens=200)
-                categories = self._parse_categorization_result(result)
+                categories = self.ai_service.batch_categorize(articles_data, TARGET_CATEGORIES)
                 
                 # Assign categories to articles
                 for j, article in enumerate(batch):
-                    if j < len(categories) and categories[j] in TARGET_CATEGORIES:
+                    if j < len(categories):
                         article.category = categories[j]
                     else:
                         # Fallback for this article
                         article.category = self._fallback_single_categorization(article)
                         
                 logger.info(f"Categorized batch {i//batch_size + 1}/{(len(self.articles)-1)//batch_size + 1}")
-                time.sleep(1)  # Rate limiting
                 
             except Exception as e:
                 logger.error(f"Error categorizing batch {i//batch_size + 1}: {e}")
@@ -834,33 +1027,6 @@ Your categorization:"""
                 for article in batch:
                     article.category = self._fallback_single_categorization(article)
     
-    def _parse_categorization_result(self, result: str) -> List[str]:
-        """Parse AI categorization result"""
-        categories = []
-        lines = result.strip().split('\n')
-        
-        for line in lines:
-            line = line.strip()
-            if not line:
-                continue
-            
-            # Remove numbering (1., 2., etc.)
-            category = re.sub(r'^\d+\.\s*', '', line).strip().lower()
-            
-            # Validate category
-            if category in TARGET_CATEGORIES:
-                categories.append(category)
-            else:
-                # Try to match partial names
-                for valid_cat in TARGET_CATEGORIES.keys():
-                    if valid_cat in category or category in valid_cat:
-                        categories.append(valid_cat)
-                        break
-                else:
-                    # Default fallback
-                    categories.append('webdev')
-        
-        return categories
     
     def _fallback_categorization(self) -> None:
         """Fallback categorization using keywords when AI is not available"""
@@ -889,46 +1055,6 @@ Your categorization:"""
         
         return max(category_scores, key=category_scores.get)
 
-    def _call_claude_api(self, prompt: str, max_tokens: int = 150) -> str:
-        """Make API call to Claude"""
-        headers = {
-            'x-api-key': self.anthropic_api_key,
-            'anthropic-version': '2023-06-01',
-            'content-type': 'application/json'
-        }
-        
-        data = {
-            'model': 'claude-3-haiku-20240307',
-            'max_tokens': max_tokens,
-            'messages': [
-                {'role': 'user', 'content': prompt}
-            ]
-        }
-        
-        response = requests.post(
-            'https://api.anthropic.com/v1/messages',
-            headers=headers,
-            json=data,
-            timeout=30
-        )
-        
-        if response.status_code == 200:
-            result = response.json()
-            return result['content'][0]['text'].strip()
-        else:
-            raise Exception(f"API error: {response.status_code} - {response.text}")
-    
-    def _generate_summary_with_claude(self, article: NewsArticle) -> str:
-        """Generate summary using Claude API"""
-        prompt = f"""Summarize this {article.category} article in 2-3 concise sentences. 
-        Focus on the key technical points and implications.
-        
-        Title: {article.title}
-        Description: {article.description[:500]}
-        
-        Write a clear, informative summary in English:"""
-        
-        return self._call_claude_api(prompt, max_tokens=150)
     
     def _clean_text(self, text: str) -> str:
         """Clean HTML and extra whitespace from text"""
@@ -1027,6 +1153,15 @@ def main():
     fetcher.save_articles()
     
     print("News fetch complete!")
+    
+    # Print AI service statistics
+    if fetcher.ai_service.is_available:
+        stats = fetcher.ai_service.get_stats()
+        print(f"\n🤖 AI Service Stats:")
+        print(f"  Total API calls: {stats['total_calls']}")
+        print(f"  Cache hits: {stats['cache_hits']}")
+        print(f"  Errors: {stats['errors']}")
+        print(f"  Est. tokens used: {stats['total_tokens_used']}")
     
     # Print summary
     categories = {}

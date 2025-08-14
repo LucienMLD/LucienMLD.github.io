@@ -1,4 +1,25 @@
 articles:
+- category: webdev
+  published: '2025-08-14T06:46:00'
+  score: 0.756
+  source: The Hacker News
+  summary: Google said it's implementing a new policy requiring developers of cryptocurrency
+    exchanges and wallets to obtain government licenses before publishing apps in
+    15 jurisdictions in order to "ensure a s...
+  tags: []
+  title: Google Requires Crypto App Licenses in 15 Regions as FBI Warns of $9.9M Scam
+    Losses
+  url: https://thehackernews.com/2025/08/google-requires-crypto-app-licenses-in.html
+- category: cybersecurity
+  published: '2025-08-14T04:02:00'
+  score: 0.639
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday
+    added two security flaws impacting N-able N-central to its Known Exploited Vulnerabilities
+    (KEV) catalog, citing evidence ...
+  tags: []
+  title: CISA Adds Two N-able N-central Flaws to Known Exploited Vulnerabilities Catalog
+  url: https://thehackernews.com/2025/08/cisa-adds-two-n-able-n-central-flaws-to.html
 - category: ai
   published: '2025-08-14T01:01:01'
   score: 0.651
@@ -65,6 +86,20 @@ articles:
   - AI
   title: Google is investing in infrastructure and an AI-ready workforce in Oklahoma.
   url: https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/
+- category: ai
+  published: '2025-08-13T19:46:40'
+  score: 0.616
+  source: Towards Data Science
+  summary: A beginner-friendly introduction to LLM-as-a-Judge The post How to Use
+    LLMs for Powerful Automatic Evaluations appeared first on Towards Data Science....
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Data Science
+  - Llm
+  - Llm Evaluation
+  title: How to Use LLMs for Powerful Automatic Evaluations
+  url: https://towardsdatascience.com/how-to-use-llms-for-powerful-automatic-evaluations/
 - category: ai
   published: '2025-08-13T19:32:01'
   score: 0.707
@@ -275,6 +310,17 @@ articles:
   title: Hackers leak Allianz Life data stolen in Salesforce attacks
   url: https://www.bleepingcomputer.com/news/security/hackers-leak-allianz-life-data-stolen-in-salesforce-attacks/
 - category: webdev
+  published: '2025-08-12T18:17:00'
+  score: 0.378
+  source: The Hacker News
+  summary: New research has uncovered Docker images on Docker Hub that contain the
+    infamous XZ Utils backdoor, more than a year after the discovery of the incident.
+    More troubling is the fact that other images h...
+  tags: []
+  title: Researchers Spot XZ Utils Backdoor in Dozens of Docker Hub Images, Fueling
+    Supply Chain Risks
+  url: https://thehackernews.com/2025/08/researchers-spot-xz-utils-backdoor-in.html
+- category: webdev
   published: '2025-08-12T15:02:21'
   score: 0.644
   source: CSS-Tricks
@@ -296,6 +342,15 @@ articles:
   tags: []
   title: Charon Ransomware Emerges With APT-Style Tactics
   url: https://www.darkreading.com/threat-intelligence/charon-ransomware-apt-tactics
+- category: webdev
+  published: '2025-08-12T12:00:24'
+  score: 0.368
+  source: Machine Learning Mastery
+  summary: 'In this article, you will learn: • Build a decision tree classifier for
+    spam email detection that analyzes text data....'
+  tags: []
+  title: Making Sense of Text with Decision Trees
+  url: https://machinelearningmastery.com/making-sense-of-text-with-decision-trees/
 - category: cybersecurity
   published: '2025-08-12T12:00:00'
   score: 0.686
@@ -504,5 +559,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-14T10:29:00.321304'
-total_articles: 43
+last_updated: '2025-08-14T10:53:07.187746'
+total_articles: 48
