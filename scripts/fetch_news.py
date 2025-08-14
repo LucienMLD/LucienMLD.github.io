@@ -48,6 +48,22 @@ def load_rss_feeds() -> dict:
 # Configuration - Load RSS feeds from configuration files
 RSS_FEEDS = load_rss_feeds()
 
+# Target categories for AI categorization (flexible configuration)
+TARGET_CATEGORIES = {
+    'cybersecurity': {
+        'description': 'Security vulnerabilities, breaches, malware, ransomware, privacy, compliance, security tools',
+        'keywords': ['vulnerability', 'breach', 'attack', 'security', 'exploit', 'ransomware', 'malware', 'patch', 'zero-day', 'cve']
+    },
+    'ai': {
+        'description': 'Artificial intelligence, machine learning, LLMs, neural networks, AI tools, research',
+        'keywords': ['artificial intelligence', 'machine learning', 'deep learning', 'neural network', 'gpt', 'llm', 'transformer', 'ai model', 'chatgpt', 'claude', 'gemini']
+    },
+    'webdev': {
+        'description': 'Web development, frameworks, browsers, CSS, JavaScript, performance, accessibility',
+        'keywords': ['javascript', 'css', 'html', 'react', 'vue', 'framework', 'performance', 'accessibility', 'api', 'browser']
+    }
+}
+
 # Max articles per category per day (final output)
 MAX_ARTICLES_PER_CATEGORY = 5
 # Days to look back for articles
@@ -136,20 +152,18 @@ Examples:
         
         # Keyword relevance score (simplified)
         relevance_score = 0.5  # Base score
-        important_keywords = {
-            'cybersecurity': ['vulnerability', 'breach', 'attack', 'security', 'exploit', 
-                             'ransomware', 'malware', 'patch', 'zero-day', 'cve'],
-            'webdev': ['javascript', 'css', 'html', 'react', 'vue', 'framework', 
-                      'performance', 'accessibility', 'api', 'browser'],
-            'ai': ['artificial intelligence', 'machine learning', 'deep learning', 'neural network', 
-                   'gpt', 'llm', 'transformer', 'ai model', 'chatgpt', 'claude', 'gemini']
-        }
         
-        keywords = important_keywords.get(self.category, [])
-        title_lower = self.title.lower()
-        for keyword in keywords:
-            if keyword in title_lower:
-                relevance_score += 0.1
+        # Use TARGET_CATEGORIES for keyword matching
+        if self.category in TARGET_CATEGORIES:
+            keywords = TARGET_CATEGORIES[self.category]['keywords']
+            title_lower = self.title.lower()
+            description_lower = self.description.lower()
+            combined_text = f"{title_lower} {description_lower}"
+            
+            for keyword in keywords:
+                if keyword in combined_text:
+                    relevance_score += 0.1
+        
         relevance_score = min(1.0, relevance_score)
         
         # Final score calculation
@@ -185,11 +199,11 @@ class NewsFetcher:
         """Fetch all RSS feeds"""
         cutoff_date = datetime.now() - timedelta(days=DAYS_LOOKBACK)
         
-        for category, feeds in RSS_FEEDS.items():
-            logger.info(f"Fetching {category} feeds...")
+        for source_category, feeds in RSS_FEEDS.items():
+            logger.info(f"Fetching {source_category} feeds...")
             for feed_info in feeds:
                 try:
-                    self._fetch_single_feed(feed_info, category, cutoff_date)
+                    self._fetch_single_feed(feed_info, source_category, cutoff_date)
                     time.sleep(1)  # Rate limiting
                 except Exception as e:
                     logger.error(f"Error fetching {feed_info['source']}: {e}")
@@ -250,7 +264,7 @@ class NewsFetcher:
                     title=title,
                     url=url,
                     source=feed_info['source'],
-                    category=category,
+                    category='uncategorized',  # Will be determined by AI later
                     published=published,
                     description=description,
                     tags=tags
@@ -410,8 +424,8 @@ class NewsFetcher:
             filtered = []
             category_counts = {}
             
-            # Initialize all categories from RSS_FEEDS
-            for category in RSS_FEEDS.keys():
+            # Initialize all categories from TARGET_CATEGORIES
+            for category in TARGET_CATEGORIES.keys():
                 category_counts[category] = 0
             
             for article in self.articles:
@@ -676,6 +690,138 @@ Your selection:"""
             articles.sort(key=lambda x: x.score, reverse=True)
             return articles[:max_count]
     
+    def categorize_articles_with_ai(self) -> None:
+        """Use AI to intelligently categorize all articles"""
+        if not self.anthropic_api_key:
+            logger.warning("ANTHROPIC_API_KEY not set. Using fallback categorization...")
+            self._fallback_categorization()
+            return
+        
+        try:
+            logger.info(f"Using AI to categorize {len(self.articles)} articles...")
+            self._ai_categorize_batch()
+        except Exception as e:
+            logger.error(f"AI categorization failed: {e}. Using fallback...")
+            self._fallback_categorization()
+    
+    def _ai_categorize_batch(self) -> None:
+        """Categorize articles using AI in batches"""
+        if not self.articles:
+            return
+        
+        # Prepare category descriptions for AI
+        categories_desc = ""
+        for category, info in TARGET_CATEGORIES.items():
+            categories_desc += f"- {category}: {info['description']}\n"
+        
+        # Process in batches to avoid token limits
+        batch_size = 10
+        for i in range(0, len(self.articles), batch_size):
+            batch = self.articles[i:i + batch_size]
+            
+            # Prepare batch content
+            articles_text = ""
+            for j, article in enumerate(batch):
+                articles_text += f"""
+{j+1}. Title: {article.title}
+   Source: {article.source}  
+   Description: {article.description[:200]}...
+"""
+            
+            prompt = f"""You are an expert tech content categorizer. Analyze each article and assign it to the MOST APPROPRIATE category from this list:
+
+Available categories:
+{categories_desc}
+
+Articles to categorize:
+{articles_text}
+
+For each article, return ONLY the category name (cybersecurity, ai, or webdev). If an article doesn't clearly fit any category, choose the closest match.
+
+Format your response as:
+1. category_name
+2. category_name  
+3. category_name
+...and so on.
+
+Your categorization:"""
+            
+            try:
+                result = self._call_claude_api(prompt, max_tokens=200)
+                categories = self._parse_categorization_result(result)
+                
+                # Assign categories to articles
+                for j, article in enumerate(batch):
+                    if j < len(categories) and categories[j] in TARGET_CATEGORIES:
+                        article.category = categories[j]
+                    else:
+                        # Fallback for this article
+                        article.category = self._fallback_single_categorization(article)
+                        
+                logger.info(f"Categorized batch {i//batch_size + 1}/{(len(self.articles)-1)//batch_size + 1}")
+                time.sleep(1)  # Rate limiting
+                
+            except Exception as e:
+                logger.error(f"Error categorizing batch {i//batch_size + 1}: {e}")
+                # Fallback for this batch
+                for article in batch:
+                    article.category = self._fallback_single_categorization(article)
+    
+    def _parse_categorization_result(self, result: str) -> List[str]:
+        """Parse AI categorization result"""
+        categories = []
+        lines = result.strip().split('\n')
+        
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+            
+            # Remove numbering (1., 2., etc.)
+            category = re.sub(r'^\d+\.\s*', '', line).strip().lower()
+            
+            # Validate category
+            if category in TARGET_CATEGORIES:
+                categories.append(category)
+            else:
+                # Try to match partial names
+                for valid_cat in TARGET_CATEGORIES.keys():
+                    if valid_cat in category or category in valid_cat:
+                        categories.append(valid_cat)
+                        break
+                else:
+                    # Default fallback
+                    categories.append('webdev')
+        
+        return categories
+    
+    def _fallback_categorization(self) -> None:
+        """Fallback categorization using keywords when AI is not available"""
+        for article in self.articles:
+            article.category = self._fallback_single_categorization(article)
+    
+    def _fallback_single_categorization(self, article) -> str:
+        """Fallback categorization for a single article using keywords"""
+        title_lower = article.title.lower()
+        description_lower = article.description.lower()
+        combined_text = f"{title_lower} {description_lower}"
+        
+        category_scores = {}
+        
+        # Score each category based on keyword matches
+        for category, info in TARGET_CATEGORIES.items():
+            score = 0
+            for keyword in info['keywords']:
+                if keyword in combined_text:
+                    score += 1
+            category_scores[category] = score
+        
+        # Return category with highest score, default to 'webdev' if tie
+        if max(category_scores.values()) == 0:
+            return 'webdev'  # Default category
+        
+        return max(category_scores, key=category_scores.get)
+
     def _call_claude_api(self, prompt: str, max_tokens: int = 150) -> str:
         """Make API call to Claude"""
         headers = {
@@ -798,6 +944,10 @@ def main():
     # Fetch all feeds
     fetcher.fetch_feeds()
     print(f"Fetched {len(fetcher.articles)} articles")
+    
+    # Categorize articles using AI
+    fetcher.categorize_articles_with_ai()
+    print("Categorization complete")
     
     # Filter and rank
     fetcher.filter_and_rank()

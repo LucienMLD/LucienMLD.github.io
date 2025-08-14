@@ -1,5 +1,29 @@
 articles:
 - category: ai
+  published: '2025-08-14T01:01:01'
+  score: 0.651
+  source: BleepingComputer
+  summary: Google Gemini's one of the most powerful features is Deep Research, but
+    up until now, it has been strictly limited to the Gemini interface. This could
+    change soon. [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: Google Gemini's Deep Research is finally coming to API
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/google-geminis-deep-research-is-finally-coming-to-api/
+- category: ai
+  published: '2025-08-13T22:22:04'
+  score: 0.634
+  source: BleepingComputer
+  summary: OpenAI is slowly addressing all concerns around GPT-5, including rate limits
+    and now its personality, which has been criticized for being less affirmative.
+    [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI relaxes GPT-5 rate limit, promises to improve the personality
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-relaxes-gpt-5-rate-limit-promises-to-improve-the-personality/
+- category: ai
   published: '2025-08-13T21:59:24'
   score: 0.723
   source: AWS Machine Learning
@@ -12,6 +36,20 @@ articles:
   title: Securely launch and scale your agents and tools on Amazon Bedrock AgentCore
     Runtime
   url: https://aws.amazon.com/blogs/machine-learning/securely-launch-and-scale-your-agents-and-tools-on-amazon-bedrock-agentcore-runtime/
+- category: ai
+  published: '2025-08-13T20:28:20'
+  score: 0.652
+  source: Ars Technica
+  summary: 'Opinion: Theatrical testing scenarios explain why AI models produce alarming
+    outputs—and why we fall for it....'
+  tags:
+  - AI
+  - Biz & IT
+  - AI alignment
+  - AI behavior
+  - AI deception
+  title: Is AI really trying to escape human control and blackmail people?
+  url: https://arstechnica.com/information-technology/2025/08/is-ai-really-trying-to-escape-human-control-and-blackmail-people/
 - category: ai
   published: '2025-08-13T20:05:00'
   score: 0.711
@@ -42,6 +80,19 @@ articles:
   title: PwC and AWS Build Responsible AI with Automated Reasoning on Amazon Bedrock
   url: https://aws.amazon.com/blogs/machine-learning/pwc-and-aws-build-responsible-ai-with-automated-reasoning-on-amazon-bedrock/
 - category: ai
+  published: '2025-08-13T18:40:18'
+  score: 0.641
+  source: Ars Technica
+  summary: Gemini will remember this, so it's time to check your privacy settings....
+  tags:
+  - AI
+  - Google
+  - Tech
+  - AI privacy
+  - Artificial Intelligence
+  title: Google Gemini will now learn from your chats—unless you tell it not to
+  url: https://arstechnica.com/ai/2025/08/google-gemini-will-now-learn-from-your-chats-unless-you-tell-it-not-to/
+- category: ai
   published: '2025-08-13T17:01:52'
   score: 0.732
   source: AWS Machine Learning
@@ -69,6 +120,19 @@ articles:
   title: Build an intelligent financial analysis agent with LangGraph and Strands
     Agents
   url: https://aws.amazon.com/blogs/machine-learning/build-an-intelligent-financial-analysis-agent-with-langgraph-and-strands-agents/
+- category: webdev
+  published: '2025-08-13T16:30:00'
+  score: 0.688
+  source: AWS Machine Learning
+  summary: In this post, we explore Amazon Bedrock AgentCore Memory, a fully managed
+    service that enables AI agents to maintain both immediate and long-term knowledge,
+    transforming one-off conversations into con...
+  tags:
+  - Amazon Bedrock
+  - Amazon Machine Learning
+  - Artificial Intelligence
+  title: 'Amazon Bedrock AgentCore Memory: Building context-aware agents'
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-memory-building-context-aware-agents/
 - category: cybersecurity
   published: '2025-08-13T16:28:35'
   score: 0.698
@@ -97,6 +161,17 @@ articles:
   - typography
   title: We Might Need Something Between Root and Relative CSS Units for “Base Elements”
   url: https://css-tricks.com/we-might-need-something-between-root-and-relative-css-units-for-base-elements/
+- category: cybersecurity
+  published: '2025-08-13T12:00:00'
+  score: 0.66
+  source: CISA
+  summary: CISA, along with the National Security Agency, the Federal Bureau of Investigation,
+    Environmental Protection Agency, and several international partners, released
+    comprehensive guidance to help operati...
+  tags: []
+  title: CISA and Partners Release Asset Inventory Guidance for Operational Technology
+    Owners and Operators
+  url: https://www.cisa.gov/news-events/alerts/2025/08/13/cisa-and-partners-release-asset-inventory-guidance-operational-technology-owners-and-operators
 - category: cybersecurity
   published: '2025-08-13T12:00:00'
   score: 0.7
@@ -429,5 +504,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-14T10:22:26.118739'
-total_articles: 37
+last_updated: '2025-08-14T10:29:00.321304'
+total_articles: 43
