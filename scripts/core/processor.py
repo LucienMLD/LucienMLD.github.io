@@ -63,7 +63,7 @@ class ArticleProcessor:
             return
         
         # Process in batches to avoid token limits
-        batch_size = 10
+        batch_size = 20  # Increased batch size for faster processing
         for i in range(0, len(articles), batch_size):
             batch = articles[i:i + batch_size]
             
@@ -154,13 +154,16 @@ class ArticleProcessor:
     def _filter_and_rank(self, articles: List[NewsArticle]) -> List[NewsArticle]:
         """Filter duplicates and rank articles by importance"""
         # Remove similar titles (>80% similarity)
+        logger.info(f"Removing similar articles from {len(articles)} articles...")
         articles = self._remove_similar_articles(articles)
+        logger.info(f"After deduplication: {len(articles)} articles")
         
         if not articles:
             return []
         
         # Use AI to select the most important articles if API is available
-        if self.ai_service.is_available:
+        # Temporarily disabled for performance - using basic scoring instead
+        if False and self.ai_service.is_available:
             logger.info("Using AI to select most important articles...")
             articles = self._ai_curate_articles(articles)
         else:

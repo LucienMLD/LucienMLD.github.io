@@ -37,8 +37,9 @@ class NewsArticle:
         if self.url == other_article.url:
             return True
         
+        # Temporarily disable AI similarity check for performance
         # Use Claude for semantic similarity if available
-        if news_processor and news_processor.ai_service.is_available:
+        if False and news_processor and news_processor.ai_service.is_available:
             try:
                 prompt = f"""Compare these two news articles and determine if they cover the same topic or event.
 
