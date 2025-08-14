@@ -140,7 +140,9 @@ Examples:
             'cybersecurity': ['vulnerability', 'breach', 'attack', 'security', 'exploit', 
                              'ransomware', 'malware', 'patch', 'zero-day', 'cve'],
             'webdev': ['javascript', 'css', 'html', 'react', 'vue', 'framework', 
-                      'performance', 'accessibility', 'api', 'browser']
+                      'performance', 'accessibility', 'api', 'browser'],
+            'ai': ['artificial intelligence', 'machine learning', 'deep learning', 'neural network', 
+                   'gpt', 'llm', 'transformer', 'ai model', 'chatgpt', 'claude', 'gemini']
         }
         
         keywords = important_keywords.get(self.category, [])
@@ -354,19 +356,22 @@ class NewsFetcher:
                 
                 # Convert entries back to feedparser-like objects
                 for entry_data in data.get('entries', []):
-                    entry = type('Entry', (), entry_data)()
+                    # Create a dictionary-based entry with get method
+                    class CachedEntry(dict):
+                        def __init__(self, data):
+                            super().__init__(data)
+                            # Add attributes for direct access
+                            for key, value in data.items():
+                                if key.endswith('_parsed') and isinstance(value, list) and len(value) >= 6:
+                                    try:
+                                        # Convert list back to time tuple
+                                        setattr(self, key, tuple(value))
+                                    except (TypeError, ValueError):
+                                        setattr(self, key, None)
+                                else:
+                                    setattr(self, key, value)
                     
-                    # Convert time lists back to time tuples for parsed fields
-                    for key, value in entry_data.items():
-                        if key.endswith('_parsed') and isinstance(value, list) and len(value) >= 6:
-                            try:
-                                # Convert list back to time tuple
-                                setattr(entry, key, tuple(value))
-                            except (TypeError, ValueError):
-                                setattr(entry, key, None)
-                        else:
-                            setattr(entry, key, value)
-                    
+                    entry = CachedEntry(entry_data)
                     self.entries.append(entry)
         
         return CachedFeed(cached_data)
@@ -403,10 +408,14 @@ class NewsFetcher:
             
             # Keep top articles per category
             filtered = []
-            category_counts = {'cybersecurity': 0, 'webdev': 0}
+            category_counts = {}
+            
+            # Initialize all categories from RSS_FEEDS
+            for category in RSS_FEEDS.keys():
+                category_counts[category] = 0
             
             for article in self.articles:
-                if category_counts[article.category] < MAX_ARTICLES_PER_CATEGORY:
+                if article.category in category_counts and category_counts[article.category] < MAX_ARTICLES_PER_CATEGORY:
                     filtered.append(article)
                     category_counts[article.category] += 1
             

@@ -1,4 +1,149 @@
 articles:
+- category: ai
+  published: '2025-08-13T21:59:24'
+  score: 0.723
+  source: AWS Machine Learning
+  summary: In this post, we explore how Amazon Bedrock AgentCore Runtime simplifies
+    the deployment and management of AI agents....
+  tags:
+  - Amazon Bedrock
+  - Amazon Machine Learning
+  - Artificial Intelligence
+  title: Securely launch and scale your agents and tools on Amazon Bedrock AgentCore
+    Runtime
+  url: https://aws.amazon.com/blogs/machine-learning/securely-launch-and-scale-your-agents-and-tools-on-amazon-bedrock-agentcore-runtime/
+- category: ai
+  published: '2025-08-13T20:05:00'
+  score: 0.711
+  source: Google AI Blog
+  summary: A group of six people, five men and one woman, standing around printed
+    plans of a data center site on a wood table. They are positioned outdoors with
+    a large data center featuring a Google logo and an...
+  tags:
+  - Data Centers and Infrastructure
+  - Company announcements
+  - Creating opportunity
+  - Google.org
+  - AI
+  title: Google is investing in infrastructure and an AI-ready workforce in Oklahoma.
+  url: https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/
+- category: ai
+  published: '2025-08-13T19:32:01'
+  score: 0.707
+  source: AWS Machine Learning
+  summary: This post presents how AWS and PwC are developing new reasoning checks
+    that combine deep industry expertise with Automated Reasoning checks in Amazon
+    Bedrock Guardrails to support innovation....
+  tags:
+  - Amazon Bedrock
+  - Amazon Machine Learning
+  - Customer Solutions
+  - Generative AI
+  title: PwC and AWS Build Responsible AI with Automated Reasoning on Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/pwc-and-aws-build-responsible-ai-with-automated-reasoning-on-amazon-bedrock/
+- category: ai
+  published: '2025-08-13T17:01:52'
+  score: 0.732
+  source: AWS Machine Learning
+  summary: In this post, Amazon shares how they developed a multi-node inference solution
+    for Rufus, their generative AI shopping assistant, using Amazon Trainium chips
+    and vLLM to serve large language models at...
+  tags:
+  - Amazon EC2
+  - Amazon Elastic Container Service
+  - Architecture
+  - AWS Trainium
+  - Customer Solutions
+  title: How Amazon scaled Rufus by building multi-node inference using AWS Trainium
+    chips and vLLM
+  url: https://aws.amazon.com/blogs/machine-learning/how-amazon-scaled-rufus-by-building-multi-node-inference-using-aws-trainium-chips-and-vllm/
+- category: ai
+  published: '2025-08-13T16:32:20'
+  score: 0.689
+  source: AWS Machine Learning
+  summary: 'This post describes an approach of combining three powerful technologies
+    to illustrate an architecture that you can adapt and build upon for your specific
+    financial analysis needs: LangGraph for workf...'
+  tags:
+  - Amazon Bedrock
+  title: Build an intelligent financial analysis agent with LangGraph and Strands
+    Agents
+  url: https://aws.amazon.com/blogs/machine-learning/build-an-intelligent-financial-analysis-agent-with-langgraph-and-strands-agents/
+- category: cybersecurity
+  published: '2025-08-13T16:28:35'
+  score: 0.698
+  source: Schneier on Security
+  summary: There is a really great series of online events highlighting cool uses
+    of AI in cybersecurity, titled Prompt&#124;&#124;GTFO. Videos from the first three
+    events are online. And here&#8217;s where to r...
+  tags:
+  - Uncategorized
+  - AI
+  - cybersecurity
+  - videos
+  title: AI Applications in Cybersecurity
+  url: https://www.schneier.com/blog/archives/2025/08/ai-applications-in-cybersecurity.html
+- category: webdev
+  published: '2025-08-13T13:24:55'
+  score: 0.619
+  source: CSS-Tricks
+  summary: I've come to realize that perhaps we need to have a unit between root and
+    relative values. This would bring about a whole new possibility when creating
+    reusable components. We Might Need Something Bet...
+  tags:
+  - Articles
+  - CSS
+  - CSS functions
+  - typography
+  title: We Might Need Something Between Root and Relative CSS Units for “Base Elements”
+  url: https://css-tricks.com/we-might-need-something-between-root-and-relative-css-units-for-base-elements/
+- category: cybersecurity
+  published: '2025-08-13T12:00:00'
+  score: 0.7
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation.&nbsp; CVE-2025-8875 N-able
+    N-central Insecure Deserialization Vul...
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/08/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: webdev
+  published: '2025-08-13T11:00:00'
+  score: 0.594
+  source: Smashing Magazine
+  summary: Your past shapes who you are as a designer, no matter where your career
+    began or how unexpected your career path may have been. Stephanie Campbell shows
+    how those lessons can sharpen your instincts, s...
+  tags: []
+  title: 'From Line To Layout: How Past Experiences Shape Your Design Career'
+  url: https://smashingmagazine.com/2025/08/from-line-to-layout-past-experiences-shape-design-career/
+- category: cybersecurity
+  published: '2025-08-13T10:15:16'
+  score: 0.689
+  source: NCSC UK
+  summary: Eleanor Fairford, Deputy Director of Incident Management at the NCSC, and
+    Mihaela Jembei, Director of Regulatory Cyber at the Information Commissioner’s
+    Office (ICO), reflect on why it’s so concerning...
+  tags: []
+  title: Why more transparency around cyber attacks is a good thing for everyone
+  url: https://www.ncsc.gov.uk/blog-post/why-more-transparency-around-cyber-attacks-is-a-good-thing-for-everyone
+- category: cybersecurity
+  published: '2025-08-13T10:05:05'
+  score: 0.688
+  source: NCSC UK
+  summary: Guidance for enterprise administrators who want to reduce the likelihood
+    of being held to ransom by WannaCry (or other types of ransomware)....
+  tags: []
+  title: 'Ransomware: ''WannaCry'' guidance for enterprise administrators'
+  url: https://www.ncsc.gov.uk/guidance/ransomware-wannacry-guidance-enterprise-administrators-1
+- category: cybersecurity
+  published: '2025-08-13T09:54:21'
+  score: 0.767
+  source: NCSC UK
+  summary: How to defend organisations against malware or ransomware attacks....
+  tags: []
+  title: Mitigating malware and ransomware attacks
+  url: https://www.ncsc.gov.uk/guidance/mitigating-malware-and-ransomware-attacks
 - category: cybersecurity
   published: '2025-08-13T05:45:00'
   score: 0.707
@@ -284,5 +429,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-13T09:34:46.702379'
-total_articles: 25
+last_updated: '2025-08-14T10:22:26.118739'
+total_articles: 37
