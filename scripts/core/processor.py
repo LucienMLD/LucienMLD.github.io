@@ -83,9 +83,12 @@ class ArticleProcessor:
                 for j, article in enumerate(batch):
                     if j < len(categories):
                         article.category = categories[j]
+                        # Add confidence score based on keyword matching
+                        article.category_confidence = self._calculate_category_confidence(article)
                     else:
                         # Fallback for this article
                         article.category = self._fallback_single_categorization(article)
+                        article.category_confidence = 0.5  # Low confidence for fallback
                         
                 logger.info(f"Categorized batch {i//batch_size + 1}/{(len(articles)-1)//batch_size + 1}")
                 
@@ -99,6 +102,28 @@ class ArticleProcessor:
         """Fallback categorization using keywords when AI is not available"""
         for article in articles:
             article.category = self._fallback_single_categorization(article)
+            article.category_confidence = 0.5  # Default low confidence for fallback
+    
+    def _calculate_category_confidence(self, article: NewsArticle) -> float:
+        """Calculate confidence score for article's category assignment"""
+        if not article.category or article.category not in self.target_categories:
+            return 0.5
+        
+        # Check keyword matches
+        keywords = self.target_categories[article.category].get('keywords', [])
+        text = f"{article.title} {article.description}".lower()
+        
+        matches = sum(1 for keyword in keywords if keyword in text)
+        
+        # Calculate confidence based on matches
+        if matches >= 3:
+            return 0.9
+        elif matches >= 2:
+            return 0.7
+        elif matches >= 1:
+            return 0.6
+        else:
+            return 0.5
     
     def _fallback_single_categorization(self, article: NewsArticle) -> str:
         """Fallback categorization for a single article using keywords"""

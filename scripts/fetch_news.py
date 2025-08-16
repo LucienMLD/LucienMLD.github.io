@@ -7,6 +7,7 @@ Fetches RSS feeds, scores articles, and generates summaries using Claude API
 import os
 import sys
 import logging
+from datetime import datetime
 from pathlib import Path
 from typing import Dict
 import yaml
@@ -21,6 +22,7 @@ from core.processor import ArticleProcessor
 from core.analyzer import ContentAnalyzer
 from core.storage import DataStorage
 from core.models import NewsArticle
+from core.category_discovery import CategoryDiscovery
 
 # Setup logging
 logging.basicConfig(
@@ -127,6 +129,7 @@ class NewsFetcher:
         self.processor = ArticleProcessor(self.ai_service, TARGET_CATEGORIES, CONFIG_SETTINGS)
         self.analyzer = ContentAnalyzer(self.ai_service)
         self.storage = DataStorage()
+        self.category_discovery = CategoryDiscovery(self.ai_service)
         
         # Articles list (for compatibility)
         self.articles = []
@@ -155,6 +158,48 @@ class NewsFetcher:
         self.storage.save_articles(self.articles)
         logger.info("Articles saved successfully")
     
+    def discover_categories(self) -> None:
+        """Analyze articles to discover emerging categories"""
+        logger.info("Analyzing for emerging categories...")
+        
+        # Discover new patterns
+        suggestions = self.category_discovery.analyze_uncategorized_patterns(self.articles)
+        
+        if suggestions:
+            logger.info(f"Discovered {len(suggestions)} potential new categories:")
+            for name, data in suggestions.items():
+                logger.info(f"  - {name}: {data['article_count']} articles, {data['confidence']*100:.0f}% confidence")
+                logger.info(f"    Key terms: {', '.join(data['key_terms'][:3])}")
+            
+            # Check for category updates
+            updates = self.category_discovery.suggest_category_updates(TARGET_CATEGORIES)
+            if updates:
+                logger.info(f"Suggested {len(updates)} category updates")
+                self._save_category_suggestions(updates)
+        else:
+            logger.info("No emerging categories found")
+        
+        # Show trending categories
+        trending = self.category_discovery.get_trending_categories()
+        if trending:
+            logger.info(f"Trending categories (last 7 days):")
+            for topic in trending:
+                logger.info(f"  - {topic['name']} ({topic['confidence']*100:.0f}% confidence)")
+    
+    def _save_category_suggestions(self, updates: Dict) -> None:
+        """Save category suggestions to a file for review"""
+        suggestions_file = Path(__file__).parent / 'data' / 'category_suggestions.yml'
+        suggestions_file.parent.mkdir(exist_ok=True)
+        
+        with open(suggestions_file, 'w') as f:
+            yaml.dump({
+                'suggested_categories': updates,
+                'generated_at': datetime.now().isoformat(),
+                'review_status': 'pending'
+            }, f, default_flow_style=False)
+        
+        logger.info(f"Category suggestions saved to {suggestions_file}")
+    
     def run(self) -> None:
         """Complete news fetching pipeline"""
         logger.info("Starting news fetching pipeline...")
@@ -179,6 +224,9 @@ class NewsFetcher:
             
             # Step 4: Save to file
             self.save_articles()
+            
+            # Step 5: Discover emerging categories
+            self.discover_categories()
             
             # Print final stats
             self._print_final_stats()

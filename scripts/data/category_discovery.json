@@ -1,0 +1,29 @@
+{
+  "patterns": {
+    "climate_tech": {
+      "name": "climate_tech",
+      "article_count": 2,
+      "key_terms": [
+        "efficiency",
+        "achieves",
+        "carbon",
+        "capture",
+        "technology"
+      ],
+      "sample_titles": [
+        "Carbon Capture Technology Achieves 99% Efficiency",
+        "Solar Panel Efficiency Breaks 50% Barrier"
+      ],
+      "confidence": 0.23,
+      "discovered_at": "2025-08-15T13:51:34.958742"
+    }
+  },
+  "topics": [
+    {
+      "name": "climate_tech",
+      "discovered": "2025-08-15T13:51:34.958746",
+      "confidence": 0.23
+    }
+  ],
+  "last_updated": "2025-08-15T13:52:09.443473"
+}

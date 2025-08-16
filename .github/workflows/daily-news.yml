@@ -3,7 +3,8 @@ name: Daily News Update
 on:
   schedule:
     # Run at 5 AM UTC (6 AM Paris time in winter, 7 AM in summer)
-    - cron: '0 5 * * *'
+    # Only on weekdays (Monday-Friday)
+    - cron: '0 5 * * 1-5'
   workflow_dispatch:  # Allow manual trigger for testing
 
 jobs:
