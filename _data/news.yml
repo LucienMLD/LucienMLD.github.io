@@ -1,4 +1,143 @@
 articles:
+- category: ai
+  published: '2025-08-17T14:38:29'
+  score: 0.94
+  source: BleepingComputer
+  summary: Google is adding a new "Projects" feature to its Gemini AI system, which
+    will allow users to run research tasks similar to OpenAI's Project feature for
+    ChatGPT. This feature is currently being tested and could provide enhanced capabilities
+    for Gemini users.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: Google is adding "Projects" feature to Gemini to run research tasks
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/google-is-adding-projects-feature-to-gemini-to-run-research-tasks/
+- category: cybersecurity
+  published: '2025-08-17T14:36:48'
+  score: 0.881
+  source: BleepingComputer
+  summary: The U.S. Department of Justice (DoJ) has seized over $2.8 million in cryptocurrency
+    from an alleged ransomware operator, Ianis Aleksandrovich Antropenko. This action
+    highlights law enforcement's ongoing efforts to disrupt and recover funds from
+    cybercriminal activities.
+  tags:
+  - Security
+  - Legal
+  title: U.S. seizes $2.8 million in crypto from Zeppelin ransomware operator
+  url: https://www.bleepingcomputer.com/news/security/us-seizes-28-million-in-crypto-from-zeppelin-ransomware-operator/
+- category: ai
+  published: '2025-08-17T14:24:30'
+  score: 0.938
+  source: BleepingComputer
+  summary: Anthropic's AI model, Claude, has been updated with a new feature that
+    allows it to end conversations when it feels the interaction poses potential harm
+    or is being abused. This is a rare and significant development in AI safety, as
+    it enables the model to self-regulate and prevent misuse.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: 'Anthropic: Claude can now end conversations to prevent harmful uses'
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-claude-can-now-end-conversations-to-prevent-harmful-uses/
+- category: ai
+  published: '2025-08-16T21:23:03'
+  score: 0.639
+  source: BleepingComputer
+  summary: OpenAI is testing an AI-powered browser that uses Chromium as its underlying
+    engine, which could potentially debut on macOS first. This move could challenge
+    Google's dominance in the browser market.
+  tags:
+  - Artificial Intelligence
+  - Software
+  title: OpenAI prepares Chromium-based AI browser to take on Google
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-prepares-chromium-based-ai-browser-to-take-on-google/
+- category: ai
+  published: '2025-08-16T20:44:30'
+  score: 0.723
+  source: BleepingComputer
+  summary: OpenAI is working on a cheaper plan for ChatGPT, called ChatGPT Go, which
+    could be priced at $4 or £3.50. This plan may be released globally, expanding
+    access to the popular AI assistant.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: 'Leak: ChatGPT cheaper plan costs $4 or £3.50, might release everywhere'
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/leak-chatgpt-cheaper-plan-costs-4-or-350-might-release-everywhere/
+- category: ai
+  published: '2025-08-16T20:15:42'
+  score: 0.719
+  source: BleepingComputer
+  summary: OpenAI is improving the voice mode feature in ChatGPT, allowing users to
+    have more control over how the voice mode functions. This enhancement could improve
+    the overall user experience and accessibility of the AI assistant.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI is improving ChatGPT voice mode
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-improving-chatgpt-voice-mode/
+- category: webdev
+  published: '2025-08-16T19:26:22'
+  score: 0.524
+  source: Ars Technica
+  summary: The Rocky Horror Picture Show celebrates its 50th anniversary, having had
+    a profound impact on culture, especially for those who have felt different or
+    marginalized.
+  tags:
+  - Culture
+  - cult classics
+  - film anniversaries
+  - midnight movies
+  - Rocky Horror Picture Show
+  title: Celebrating 50 years of The Rocky Horror Picture Show
+  url: https://arstechnica.com/culture/2025/08/celebrating-50-years-of-the-rocky-horror-picture-show/
+- category: cybersecurity
+  published: '2025-08-16T17:50:31'
+  score: 0.627
+  source: Ars Technica
+  summary: Hurricane Erin has become a historic storm due to its rapid intensification,
+    but it is currently unlikely to directly strike land, which is good news.
+  tags:
+  - Science
+  - erin
+  - hurricanes
+  - rapid intensification
+  - science
+  title: Rapidly intensifying Hurricane Erin becomes historic storm due to strengthening
+  url: https://arstechnica.com/science/2025/08/hurricane-erin-sets-early-season-intensification-record-becomes-category-5-storm/
+- category: cybersecurity
+  published: '2025-08-16T14:24:32'
+  score: 0.841
+  source: BleepingComputer
+  summary: A security researcher has released a partial proof of concept exploit for
+    a vulnerability in the FortiWeb web application firewall that allows a remote
+    attacker to bypass authentication. This discovery could lead to increased security
+    risks for organizations using the affected product.
+  tags:
+  - Security
+  title: Researcher to release exploit for full auth bypass on FortiWeb
+  url: https://www.bleepingcomputer.com/news/security/researcher-to-release-exploit-for-full-auth-bypass-on-fortiweb/
+- category: cybersecurity
+  published: '2025-08-16T14:20:30'
+  score: 0.601
+  source: BleepingComputer
+  summary: Microsoft is enhancing protection against dangerous file types and malicious
+    URLs in Teams chats and channels, improving the security of the collaboration
+    platform.
+  tags:
+  - Security
+  - Microsoft
+  title: Microsoft Teams to protect against malicious URLs, dangerous file types
+  url: https://www.bleepingcomputer.com/news/security/microsoft-teams-to-protect-against-malicious-urls-dangerous-file-types/
+- category: cybersecurity
+  published: '2025-08-16T10:41:00'
+  score: 0.669
+  source: The Hacker News
+  summary: Cybersecurity researchers have uncovered the inner workings of an Android
+    banking trojan called ERMAC 3.0, exposing serious shortcomings in the operators'
+    infrastructure. This information could aid in the detection and mitigation of
+    this malware.
+  tags: []
+  title: ERMAC V3.0 Banking Trojan Source Code Leak Exposes Full Malware Infrastructure
+  url: https://thehackernews.com/2025/08/ermac-v30-banking-trojan-source-code.html
 - category: webdev
   published: '2025-08-14T06:46:00'
   score: 0.756
@@ -559,5 +698,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-14T10:53:07.187746'
-total_articles: 48
+last_updated: '2025-08-18T07:33:53.155766'
+total_articles: 59

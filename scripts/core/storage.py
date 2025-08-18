@@ -19,7 +19,8 @@ class DataStorage:
     """Handles article data storage and persistence"""
     
     def __init__(self, data_path: str = None):
-        self.data_path = Path(data_path) if data_path else Path(__file__).parent.parent / '_data'
+        # Use project root _data directory, not scripts/_data
+        self.data_path = Path(data_path) if data_path else Path(__file__).parent.parent.parent / '_data'
         self.data_path.mkdir(exist_ok=True)
         self.filepath = self.data_path / 'news.yml'
     
