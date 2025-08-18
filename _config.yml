@@ -36,11 +36,11 @@ theme: jekyll-theme-neon
 neon:
   hooks:
     head_end:
-      - '<link rel="preload" href="https://offset.tree-nation.com/js/offset-widget.js" as="script">'
+      - '<script async src="https://tree-nation.com/javascripts/widgets/offset_website.js"></script>'
     body_end:
       - '<!-- 100% privacy-first analytics -->'
       - '<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>'
-      - '<script src="https://widgets.tree-nation.com/js/widgets/v1/widgets.min.js?v=1.0"></script>'
+      - '<div id="tree-nation-offset-website" style="text-align: center; margin: 1rem 0;"></div>'
 # Build settings
 plugins:
   - jekyll-feed

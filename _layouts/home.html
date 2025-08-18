@@ -1,0 +1,396 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<section class="neon-hero">
+  <div class="grid-container">
+    <div class="neon-hero-content">
+      <div class="grid-x grid-padding-x align-center">
+        <div class="cell large-10 text-center">
+          
+          <!-- Profile Image with Neon Effect -->
+          <div class="neon-profile-container margin-bottom-2">
+            <div class="neon-profile-frame">
+              <img src="{{ '/assets/images/profile.webp' | relative_url }}" 
+                   alt="{{ site.title }}" 
+                   class="neon-profile-image">
+              <div class="neon-profile-glow"></div>
+            </div>
+          </div>
+          
+          <!-- Hero Title -->
+          <h1 class="neon-hero-title">
+            {{ site.title | default: "Welcome to the Future" }}
+          </h1>
+          
+          <!-- Hero Subtitle with typing effect -->
+          {% if site.description %}
+          <p class="neon-hero-subtitle neon-typing-effect">
+            {{ site.description }}
+          </p>
+          {% endif %}
+          
+          <!-- Hero Description -->
+          {% if page.presentation %}
+          <div class="neon-hero-description">
+            <div>{{ page.presentation }}</div>
+          </div>
+          {% endif %}
+          
+          <!-- Call to Action -->
+          <div class="neon-hero-cta">
+            <a href="{{ '/experiences' | relative_url }}" class="neon-cta-button primary">
+              <span class="neon-button-text">View My Experience</span>
+              <span class="neon-button-glow"></span>
+            </a>
+            
+            {% if site.email %}
+            <a href="mailto:{{ site.email }}" class="neon-cta-button secondary">
+              <span class="neon-button-text">Contact Me</span>
+              <span class="neon-button-glow"></span>
+            </a>
+            {% endif %}
+          </div>
+          
+          <!-- Social Links -->
+          {% if site.linkedin_url or site.github_url %}
+          <div class="neon-hero-social">
+            {% if site.linkedin_url %}
+            <a href="{{ site.linkedin_url }}" title="LinkedIn Profile" target="_blank" class="neon-social-link">
+              <span class="ri-linkedin-box-fill"></span>
+            </a>
+            {% endif %}
+            {% if site.github_url %}
+            <a href="{{ site.github_url }}" title="GitHub Profile" target="_blank" class="neon-social-link">
+              <span class="ri-github-fill"></span>
+            </a>
+            {% endif %}
+          </div>
+          {% endif %}
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Hero Background Effects -->
+  <div class="neon-hero-bg">
+    <div class="neon-grid-overlay"></div>
+    <div class="neon-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Expertise Showcase -->
+<section class="neon-expertise margin-top-3">
+  <div class="grid-container">
+    <div class="text-center margin-bottom-3">
+      <h2 class="neon-section-title">Technical Expertise</h2>
+      <p class="neon-section-subtitle">9 years of experience in secure web development</p>
+    </div>
+    
+    <div class="grid-x grid-padding-x">
+      <div class="cell medium-4 margin-bottom-2">
+        <div class="neon-feature-card expertise-card">
+          <div class="expertise-icon">
+            <span class="ri-code-s-slash-fill"></span>
+          </div>
+          <h4>Ruby on Rails</h4>
+          <p>Full-stack development from architecture to production deployment. Deep expertise in the framework and best practices.</p>
+        </div>
+      </div>
+      
+      <div class="cell medium-4 margin-bottom-2">
+        <div class="neon-feature-card expertise-card">
+          <div class="expertise-icon">
+            <span class="ri-shield-check-fill"></span>
+          </div>
+          <h4>Application Security</h4>
+          <p>Integrating security best practices from design phase. Security-first approach throughout the development lifecycle.</p>
+        </div>
+      </div>
+      
+      <div class="cell medium-4 margin-bottom-2">
+        <div class="neon-feature-card expertise-card">
+          <div class="expertise-icon">
+            <span class="ri-wheelchair-fill"></span>
+          </div>
+          <h4>RGAA Accessibility</h4>
+          <p>Developing applications compliant with RGAA standards. Creating inclusive and accessible web experiences for everyone.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Current Focus -->
+<section class="neon-current-focus margin-top-3">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x align-center">
+      <div class="cell large-10 text-center">
+        <h2 class="neon-section-title">Currently</h2>
+        
+        <div class="grid-x grid-padding-x">
+          <div class="cell medium-6 margin-bottom-2">
+            <div class="neon-focus-card">
+              <div class="focus-badge">
+                <span class="ri-government-fill"></span>
+                Public Sector
+              </div>
+              <h3>Business Advisory Platform</h3>
+              <p>Developing digital services for the French government, connecting thousands of businesses with professional advisors. Focus on performance, accessibility, and security.</p>
+            </div>
+          </div>
+          
+          <div class="cell medium-6 margin-bottom-2">
+            <div class="neon-focus-card">
+              <div class="focus-badge">
+                <span class="ri-tools-fill"></span>
+                CMS Platform
+              </div>
+              <h3>Sites Faciles</h3>
+              <p>CMS platform built with Wagtail for creating websites for French government agents and public sector employees. Streamlining web presence creation for administrative services.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Learning Journey -->
+<section class="neon-learning margin-top-3 margin-bottom-3">
+  <div class="grid-container">
+    <div class="text-center margin-bottom-3">
+      <h2 class="neon-section-title">Expanding Horizons</h2>
+      <p class="neon-section-subtitle">Continuous learning and skill enhancement</p>
+    </div>
+    
+    <div class="grid-x grid-padding-x">
+      <div class="cell medium-6 margin-bottom-2">
+        <div class="neon-learning-card">
+          <div class="learning-icon">
+            <span class="ri-graduation-cap-fill"></span>
+          </div>
+          <h4>Cybersecurity Engineering</h4>
+          <p>Ongoing training to deepen security aspects of development and infrastructure.</p>
+        </div>
+      </div>
+      
+      <div class="cell medium-6 margin-bottom-2">
+        <div class="neon-learning-card">
+          <div class="learning-icon">
+            <span class="ri-code-box-fill"></span>
+          </div>
+          <h4>Python & Java</h4>
+          <p>Expanding to Django and security patterns in enterprise application development.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Main Content -->
+<main class="neon-main-content">
+  <div class="grid-container">
+    {{ content }}
+  </div>
+</main>
+
+<style>
+/* Profile Image Styling */
+.neon-profile-container {
+  position: relative;
+  display: inline-block;
+}
+
+.neon-profile-frame {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid rgba(var(--font-blue-rgb), 0.3);
+  box-shadow: 
+    0 0 20px rgba(var(--font-blue-rgb), 0.3),
+    inset 0 0 20px rgba(var(--font-blue-rgb), 0.1);
+  transition: all 0.3s ease;
+}
+
+.neon-profile-frame:hover {
+  transform: scale(1.05);
+  border-color: rgba(var(--font-blue-rgb), 0.6);
+  box-shadow: 
+    0 0 30px rgba(var(--font-blue-rgb), 0.5),
+    inset 0 0 30px rgba(var(--font-blue-rgb), 0.2);
+}
+
+.neon-profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.neon-profile-glow {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, 
+    rgba(var(--font-blue-rgb), 0.3) 0%,
+    rgba(var(--font-blue-rgb), 0.1) 50%,
+    rgba(var(--font-blue-rgb), 0.3) 100%);
+  animation: profile-glow 3s ease-in-out infinite;
+  z-index: -1;
+}
+
+@keyframes profile-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* Expertise Cards */
+.neon-expertise {
+  background: rgba(var(--background-color-tertiary), 0.3);
+  padding: 4rem 0;
+  position: relative;
+}
+
+.expertise-card {
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.expertise-card:hover {
+  transform: translateY(-10px);
+}
+
+.expertise-icon {
+  font-size: 3rem;
+  color: var(--font-blue);
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px rgba(var(--font-blue-rgb), 0.5);
+}
+
+/* Current Focus */
+.neon-focus-card {
+  background: linear-gradient(135deg, 
+    rgba(var(--background-color-tertiary), 0.8) 0%,
+    rgba(var(--background-color-secondary), 0.5) 100%);
+  padding: 2.5rem;
+  border-radius: 15px;
+  border: 1px solid rgba(var(--font-blue-rgb), 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.focus-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(var(--font-blue-rgb), 0.2);
+  color: var(--font-blue);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.neon-focus-card h3 {
+  flex-grow: 0;
+  margin-bottom: 1rem;
+}
+
+.neon-focus-card p {
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+
+/* Learning Cards */
+.neon-learning-card {
+  background: rgba(var(--background-color-secondary), 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(var(--font-color), 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.neon-learning-card:hover {
+  border-color: rgba(var(--font-blue-rgb), 0.3);
+  box-shadow: 0 5px 20px rgba(var(--font-blue-rgb), 0.2);
+}
+
+.learning-icon {
+  font-size: 2.5rem;
+  color: var(--font-blue);
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+
+/* Section Titles */
+.neon-section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--font-blue);
+  text-shadow: 0 0 10px rgba(var(--font-blue-rgb), 0.3);
+  margin-bottom: 0.5rem;
+}
+
+.neon-section-subtitle {
+  font-size: 1.1rem;
+  color: rgba(var(--font-color), 0.7);
+  margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 63.9375em) {
+  .neon-profile-frame {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .neon-section-title {
+    font-size: 2rem;
+  }
+  
+  .neon-focus-card {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .neon-profile-frame {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .expertise-icon {
+    font-size: 2.5rem;
+  }
+  
+  .learning-icon {
+    font-size: 2rem;
+  }
+}
+</style>
