@@ -1,5 +1,181 @@
 articles:
 - category: ai
+  published: '2025-08-19T00:09:37'
+  score: 0.99
+  source: Towards Data Science
+  summary: The article discusses how the LangExtract tool can be used to convert messy
+    clinical notes into structured data, leveraging large language models (LLMs) to
+    enhance data processing in the healthcare domain.
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Editors Pick
+  - Machine Learning
+  - Python
+  title: Can LangExtract Turn Messy Clinical Notes into Structured Data?
+  url: https://towardsdatascience.com/can-langextract-turn-messy-clinical-notes-into-structured-data/
+- category: ai
+  published: '2025-08-18T23:59:12'
+  score: 0.945
+  source: Towards Data Science
+  summary: The article provides a conceptual overview of modular arithmetic, a mathematical
+    system where numbers cycle back to the beginning after reaching a specific value,
+    and its applications in data science.
+  tags:
+  - Data Science
+  - Deep Dives
+  - Machine Learning
+  - Mathematics
+  - Modular
+  title: Modular Arithmetic in Data Science
+  url: https://towardsdatascience.com/modular-arithmetic-in-data-science/
+- category: ai
+  published: '2025-08-18T20:30:15'
+  score: 0.865
+  source: AWS Machine Learning
+  summary: The article explores how to build a travel planning solution using AI agents,
+    leveraging Amazon Nova's optimal balance of performance and cost compared to other
+    commercial LLMs.
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Nova
+  - Generative AI
+  title: Create a travel planning agentic workflow with Amazon Nova
+  url: https://aws.amazon.com/blogs/machine-learning/create-a-travel-planning-agentic-workflow-with-amazon-nova/
+- category: cybersecurity
+  published: '2025-08-18T19:24:00'
+  score: 1.032
+  source: The Hacker News
+  summary: The Noodlophile malware campaign is expanding its global reach by leveraging
+    spear-phishing emails and updated delivery mechanisms to deploy the information
+    stealer in attacks targeting enterprises across the U.S., Europe, Baltic countries,
+    and the Asia-Pacific region.
+  tags: []
+  title: Noodlophile Malware Campaign Expands Global Reach with Copyright Phishing
+    Lures
+  url: https://thehackernews.com/2025/08/noodlophile-malware-campaign-expands.html
+- category: ai
+  published: '2025-08-18T18:31:20'
+  score: 0.852
+  source: Towards Data Science
+  summary: The article discusses the evolution of PyTorch's torch.compile feature,
+    which offers just-in-time (JIT) compilation to improve the performance of AI/ML
+    models.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Deep Learning
+  - Editors Pick
+  - Python
+  title: Maximizing AI/ML Model Performance with PyTorch Compilation
+  url: https://towardsdatascience.com/maximizing-ai-ml-model-performance-with-pytorch-compilation/
+- category: ai
+  published: '2025-08-18T18:13:36'
+  score: 0.85
+  source: Towards Data Science
+  summary: The article emphasizes the importance of context engineering in developing
+    powerful applications using large language models (LLMs), providing strategies
+    to optimize the context for improved performance.
+  tags:
+  - Large Language Models
+  - Context Engineering
+  - Llm
+  - Llm Applications
+  - Machine Learning
+  title: How to Create Powerful LLM Applications with Context Engineering
+  url: https://towardsdatascience.com/how-to-create-powerful-llm-applications-with-context-engineering/
+- category: webdev
+  published: '2025-08-18T16:42:04'
+  score: 0.723
+  source: Ars Technica
+  summary: Raspberry Pi has introduced a new 5-inch $40 touchscreen, which can be
+    used as a tiny all-in-one or smart home hub for various DIY projects.
+  tags:
+  - Tech
+  - Raspberry Pi
+  - raspberry pi 3
+  - raspberry pi 4
+  - raspberry pi 5
+  title: Raspberry Pi intros new 5-inch $40 touchscreen for your next weird project
+  url: https://arstechnica.com/gadgets/2025/08/raspberry-pi-intros-new-5-inch-40-touchscreen-for-your-next-weird-project/
+- category: cybersecurity
+  published: '2025-08-18T16:06:24'
+  score: 1.007
+  source: BleepingComputer
+  summary: Over 800 N-able N-central servers remain unpatched against a pair of critical
+    security vulnerabilities that were tagged as actively exploited last week.
+  tags:
+  - Security
+  title: Over 800 N-able servers left unpatched against critical flaws
+  url: https://www.bleepingcomputer.com/news/security/over-800-n-able-servers-left-unpatched-against-critical-flaws/
+- category: webdev
+  published: '2025-08-18T13:46:00'
+  score: 0.744
+  source: CSS-Tricks
+  summary: The article introduces a three-part series on creating a bulging text effect
+    using advanced CSS techniques, showcasing the capabilities of modern web development
+    tools.
+  tags:
+  - Articles
+  - typography
+  title: '3D Layered Text: The Basics'
+  url: https://css-tricks.com/3d-layered-text-the-basics/
+- category: webdev
+  published: '2025-08-18T13:00:00'
+  score: 0.7
+  source: Smashing Magazine
+  summary: 'The article explores the potential and limitations of AI tools in the
+    product design workflow, covering four core stages: analytics, ideation, prototyping,
+    and visual design.'
+  tags: []
+  title: 'Beyond The Hype: What AI Can Really Do For Product Design'
+  url: https://smashingmagazine.com/2025/08/beyond-hype-what-ai-can-do-product-design/
+- category: cybersecurity
+  published: '2025-08-18T12:47:00'
+  score: 1.03
+  source: The Hacker News
+  summary: This weekly recap highlights various cybersecurity issues, including NFC
+    fraud, Curly COMrades, N-able exploits, and Docker backdoors, emphasizing the
+    importance of proactive security measures to prevent gradual security breaches.
+  tags: []
+  title: '⚡ Weekly Recap: NFC Fraud, Curly COMrades, N-able Exploits, Docker Backdoors
+    & More'
+  url: https://thehackernews.com/2025/08/weekly-recap-nfc-fraud-curly-comrades-n.html
+- category: cybersecurity
+  published: '2025-08-18T12:00:00'
+  score: 1.024
+  source: CISA
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has added a
+    new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, which
+    serves as a centralized list of vulnerabilities that are actively being exploited
+    by threat actors.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/08/18/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2025-08-18T10:56:00'
+  score: 1.016
+  source: The Hacker News
+  summary: Researchers have discovered malicious packages in the Python Package Index
+    (PyPI) and npm repositories that exploit dependencies in supply chain attacks,
+    allowing them to establish persistence and achieve code execution.
+  tags: []
+  title: Malicious PyPI and npm Packages Discovered Exploiting Dependencies in Supply
+    Chain Attacks
+  url: https://thehackernews.com/2025/08/malicious-pypi-and-npm-packages.html
+- category: webdev
+  published: '2025-08-18T00:00:00'
+  score: 0.568
+  source: Hugging Face
+  summary: The article provides a guide to building and scaling production-ready CUDA
+    kernels, which are essential for leveraging the power of GPUs in various computational
+    tasks.
+  tags: []
+  title: 'From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA
+    Kernels'
+  url: https://huggingface.co/blog/kernel-builder
+- category: ai
   published: '2025-08-17T14:38:29'
   score: 0.94
   source: BleepingComputer
@@ -698,5 +874,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-18T07:33:53.155766'
-total_articles: 59
+last_updated: '2025-08-19T05:03:46.865375'
+total_articles: 73
