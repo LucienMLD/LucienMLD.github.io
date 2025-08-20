@@ -1,4 +1,198 @@
 articles:
+- category: webdev
+  published: '2025-08-20T04:33:31'
+  score: 0.897
+  source: Towards Data Science
+  summary: This article demonstrates how to build a modern dashboard using Python
+    and the Tkinter library, showcasing the versatility of this combination for creating
+    polished GUIs and data visualization tools.
+  tags:
+  - Programming
+  - Data Visualization
+  - Deep Dives
+  - Python
+  - Tkinter
+  title: Building a Modern Dashboard with Python and Tkinter
+  url: https://towardsdatascience.com/building-a-modern-dashboard-with-python-and-tkinter/
+- category: webdev
+  published: '2025-08-20T04:17:34'
+  score: 0.895
+  source: Towards Data Science
+  summary: Part 3 of the "Mastering NLP with spaCy" series focuses on rule-based matching
+    for information extraction, a powerful technique for building custom NLP applications.
+  tags:
+  - Data Science
+  - Data Visualization
+  - NLP
+  - Programming
+  - Regex
+  title: Mastering NLP with spaCy – Part 3
+  url: https://towardsdatascience.com/mastering-nlp-with-spacy-part-3/
+- category: ai
+  published: '2025-08-20T04:10:00'
+  score: 0.974
+  source: Towards Data Science
+  summary: This algorithm-agnostic approach inspired by Cook's distance can help models
+    learn the true signal by identifying and removing data points that have a disproportionate
+    influence on the model's predictions.
+  tags:
+  - Machine Learning
+  - Cooks Distance
+  - Data Science
+  - Editors Pick
+  - Python
+  title: Help Your Model Learn the True Signal
+  url: https://towardsdatascience.com/help-your-model-learn-the-true-signal/
+- category: webdev
+  published: '2025-08-20T01:20:00'
+  score: 0.877
+  source: Towards Data Science
+  summary: The article explores PyTorch's exciting new export feature, which allows
+    developers to capture and deploy PyTorch models, including those from the HuggingFace
+    ecosystem, in a more efficient and streamlined manner.
+  tags:
+  - Artificial Intelligence
+  - Deep Dives
+  - Deep Learning
+  - Model Deployment
+  - Pytorch
+  title: Capturing and Deploying PyTorch Models with torch.export
+  url: https://towardsdatascience.com/capturing-and-deploying-pytorch-models-with-torch-export/
+- category: ai
+  published: '2025-08-19T22:08:55'
+  score: 0.964
+  source: Ars Technica
+  summary: Apple's inclusion of Claude support in Xcode 26 signals a broader move
+    towards offering ChatGPT alternatives across its ecosystem, potentially shaking
+    up the AI landscape.
+  tags:
+  - AI
+  - Apple
+  - Anthropic
+  - apple
+  - ChatGPT
+  title: In Xcode 26, Apple shows first signs of offering ChatGPT alternatives
+  url: https://arstechnica.com/ai/2025/08/in-xcode-26-apple-shows-first-signs-of-offering-chatgpt-alternatives/
+- category: ai
+  published: '2025-08-19T19:31:55'
+  score: 0.902
+  source: Towards Data Science
+  summary: The article discusses the potential implications of allowing or blocking
+    access to ChatGPT in the workplace, highlighting the nuances of balancing productivity,
+    security, and employee autonomy.
+  tags:
+  - Artificial Intelligence
+  - Data Science
+  - Editors Pick
+  - Machine Learning
+  - Technology
+  title: 'Water Cooler Small Talk: Should ChatGPT Be Blocked at Work?'
+  url: https://towardsdatascience.com/water-cooler-small-talk-should-chatgpt-be-blocked-at-work/
+- category: ai
+  published: '2025-08-19T18:04:25'
+  score: 0.848
+  source: AWS Machine Learning
+  summary: Infosys has built an advanced Retrieval-Augmented Generation (RAG) solution
+    using Amazon Bedrock and Infosys Topaz™ AI capabilities, tailored for the oil
+    and gas sector. The solution excels at processing multimodal data, including text,
+    diagrams, and numerical data, while maintaining context and relationships.
+  tags:
+  - Amazon Bedrock
+  - Amazon Machine Learning
+  - Artificial Intelligence
+  - Energy (Oil & Gas)
+  - Generative AI
+  title: How Infosys built a generative AI solution to process oil and gas drilling
+    data with Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/how-infosys-built-a-generative-ai-solution-to-process-oil-and-gas-drilling-data-with-amazon-bedrock/
+- category: cybersecurity
+  published: '2025-08-19T17:37:00'
+  score: 1.114
+  source: The Hacker News
+  summary: Threat actors are exploiting a vulnerability in Apache ActiveMQ to gain
+    persistent access to cloud Linux systems and deploy a malware called DripDropper.
+    The attackers have been observed patching the exploited vulnerability after securing
+    initial access, indicating a sophisticated attack.
+  tags: []
+  title: Apache ActiveMQ Flaw Exploited to Deploy DripDropper Malware on Cloud Linux
+    Systems
+  url: https://thehackernews.com/2025/08/apache-activemq-flaw-exploited-to.html
+- category: webdev
+  published: '2025-08-19T16:44:31'
+  score: 0.723
+  source: Ars Technica
+  summary: A new pre-spin technique in badminton can affect the shuttlecock's oscillating
+    behavior, depending on the direction of rotation, potentially creating a "killer
+    spin serve."
+  tags:
+  - Science
+  - badminton
+  - computational fluid dynamics
+  - fluid dynamics
+  - Physics
+  title: Physics of badminton’s new killer spin serve
+  url: https://arstechnica.com/science/2025/08/physics-of-badmintons-new-killer-spin-serve/
+- category: ai
+  published: '2025-08-19T16:28:00'
+  score: 0.925
+  source: BleepingComputer
+  summary: OpenAI has announced the GPT Go subscription, which costs $4 in the US
+    or INR 399 in India. The subscription provides access to ChatGPT, but it is not
+    currently available in the US.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI releases $4 ChatGPT plan, but it's not available in the US for now
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-4-chatgpt-plan-but-its-not-available-in-the-us-for-now/
+- category: cybersecurity
+  published: '2025-08-19T13:00:00'
+  score: 1.08
+  source: The Hacker News
+  summary: A new exploit combining two critical, now-patched security flaws in SAP
+    NetWeaver has emerged in the wild, putting organizations at risk of system compromise
+    and data theft. The exploit chains together CVE-2025-31324 and CVE-2025-42999
+    to bypass authentication and achieve remote code execution.
+  tags: []
+  title: Public Exploit for Chained SAP Flaws Exposes Unpatched Systems to Remote
+    Code Execution
+  url: https://thehackernews.com/2025/08/public-exploit-for-chained-sap-flaws.html
+- category: cybersecurity
+  published: '2025-08-19T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: As of January 10, 2023, CISA will no longer be updating ICS security advisories
+    for Siemens product vulnerabilities beyond the initial advisory. Users are advised
+    to refer to Siemens' website for the most up-to-date information on vulnerabilities
+    in the Siemens Mendix SAML Module.
+  tags: []
+  title: Siemens Mendix SAML Module
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-231-02
+- category: cybersecurity
+  published: '2025-08-19T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: As of January 10, 2023, CISA will no longer be updating ICS security advisories
+    for Siemens product vulnerabilities beyond the initial advisory. Users are advised
+    to refer to Siemens' website for the most up-to-date information on vulnerabilities
+    in the Siemens Desigo CC Product Family and SENTRON Powermanager.
+  tags: []
+  title: Siemens Desigo CC Product Family and SENTRON Powermanager
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-231-01
+- category: cybersecurity
+  published: '2025-08-19T11:07:28'
+  score: 1.065
+  source: Schneier on Security
+  summary: A zero-day vulnerability in WinRAR is being exploited by at least two Russian
+    criminal groups. The vulnerability allows attackers to abuse the way WinRAR handles
+    certain file types to execute arbitrary code on target systems.
+  tags:
+  - Uncategorized
+  - exploits
+  - malware
+  - Russia
+  - zero-day
+  title: Zero-Day Exploit in WinRAR File
+  url: https://www.schneier.com/blog/archives/2025/08/zero-day-exploit-in-winrar-file.html
 - category: ai
   published: '2025-08-19T00:09:37'
   score: 0.99
@@ -14,6 +208,16 @@ articles:
   - Python
   title: Can LangExtract Turn Messy Clinical Notes into Structured Data?
   url: https://towardsdatascience.com/can-langextract-turn-messy-clinical-notes-into-structured-data/
+- category: webdev
+  published: '2025-08-19T00:00:00'
+  score: 0.568
+  source: MDN Blog
+  summary: MDN (Mozilla Developer Network) has launched a new front-end, improving
+    the overall navigation and user experience of the website, which is a vital resource
+    for web developers.
+  tags: []
+  title: Launching MDN's new front end
+  url: https://developer.mozilla.org/en-US/blog/launching-new-front-end/
 - category: ai
   published: '2025-08-18T23:59:12'
   score: 0.945
@@ -874,5 +1078,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-19T05:03:46.865375'
-total_articles: 73
+last_updated: '2025-08-20T05:03:49.545412'
+total_articles: 88
