@@ -1,4 +1,216 @@
 articles:
+- category: ai
+  published: '2025-08-21T04:00:34'
+  score: 0.973
+  source: Ars Technica
+  summary: AAA's tests of driver assist systems in Los Angeles highway traffic found
+    that human intervention was required every 9 minutes on average, indicating the
+    limitations of current autonomous driving technologies and the need for continued
+    improvement.
+  tags:
+  - Cars
+  - AAA
+  - ADAS
+  - road traffic
+  title: Humans intervened every 9 minutes in AAA test of driver assists
+  url: https://arstechnica.com/cars/2025/08/humans-intervened-every-9-minutes-in-aaa-test-of-driver-assists/
+- category: webdev
+  published: '2025-08-21T03:05:27'
+  score: 0.888
+  source: Towards Data Science
+  summary: The article provides an overview of the new Power BI storage mode called
+    "Direct Lake," which offers enhanced performance and data handling capabilities
+    for Power BI reports and dashboards. This feature can benefit organizations with
+    large or complex data sets.
+  tags:
+  - Data Science
+  - Data Analysis
+  - Data Engineering
+  - Deep Dives
+  - Microsoft Fabric
+  title: Everything You Need to Know About the New Power BI Storage Mode
+  url: https://towardsdatascience.com/50-shades-of-direct-lake-everything-you-need-to-know-about-the-new-power-bi-storage-mode/
+- category: ai
+  published: '2025-08-21T02:38:00'
+  score: 0.963
+  source: Towards Data Science
+  summary: The article describes how to integrate an optimization algorithm in a FastAPI
+    microservice and connect it with an AI workflow to automate production planning
+    in supply chain optimization. This demonstrates the potential for AI-powered optimization
+    in industrial applications.
+  tags:
+  - Artificial Intelligence
+  - Agentic Ai
+  - Automation
+  - Data Science
+  - n8n
+  title: 'AI Agents for Supply Chain Optimisation: Production Planning'
+  url: https://towardsdatascience.com/ai-agents-for-supply-chain-optimisation-production-planning/
+- category: cybersecurity
+  published: '2025-08-21T01:47:22'
+  score: 1.083
+  source: Krebs on Security
+  summary: A 21-year-old Florida man was sentenced to 10 years in prison for his role
+    in a prolific cybercrime group known as "Scattered Spider." The group was involved
+    in various cybercrimes, including SIM-swapping attacks, resulting in $13 million
+    in restitution to victims.
+  tags:
+  - Ne'er-Do-Well News
+  - SIM Swapping
+  - DoorDash
+  - Judge Harvey E. Schlesinger
+  - King Bob
+  title: SIM-Swapper, Scattered Spider Hacker Gets 10 Years
+  url: https://krebsonsecurity.com/2025/08/sim-swapper-scattered-spider-hacker-gets-10-years/
+- category: webdev
+  published: '2025-08-21T00:21:50'
+  score: 0.871
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 226 is now available for macOS Tahoe
+    and macOS Sequoia, introducing updates and improvements to the Safari web browser.
+    This release provides developers and users with early access to upcoming Safari
+    features.
+  tags:
+  - News
+  title: Release Notes for Safari Technology Preview 226
+  url: https://webkit.org/blog/17282/release-notes-for-safari-technology-preview-226/
+- category: ai
+  published: '2025-08-20T23:56:15'
+  score: 1.033
+  source: BleepingComputer
+  summary: OpenAI's CEO has confirmed that the company is already working on GPT-6,
+    which is expected to be better than GPT-5. This suggests that the development
+    of large language models continues to advance rapidly, with potential implications
+    for various AI applications.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI says GPT-6 is coming and it'll be better than GPT-5 (obviously)
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-is-coming-and-itll-be-better-than-gpt-5-obviously/
+- category: cybersecurity
+  published: '2025-08-20T22:11:05'
+  score: 1.004
+  source: BleepingComputer
+  summary: Cybercriminals are increasingly abusing the AI-powered Lovable website
+    creation and hosting platform to generate phishing pages, malware-dropping portals,
+    and various fraudulent websites. This demonstrates how new technologies can be
+    misused for malicious purposes, and the importance of security measures to mitigate
+    such risks.
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: AI website builder Lovable increasingly abused for malicious activity
+  url: https://www.bleepingcomputer.com/news/security/ai-website-builder-lovable-increasingly-abused-for-malicious-activity/
+- category: webdev
+  published: '2025-08-20T19:42:44'
+  score: 0.742
+  source: Towards Data Science
+  summary: The article shares a valuable lesson an aspiring data analyst learned during
+    an internship, which is the power of collaboration in data analysis. This emphasizes
+    the importance of teamwork and communication in effective data-driven decision-making.
+  tags:
+  - Data Science
+  - Career Advice
+  - Collaboration
+  - Data Analysis
+  - Data Storytelling
+  title: My Most Valuable Lesson as an Aspiring Data Analyst
+  url: https://towardsdatascience.com/my-most-valuable-lesson-as-an-aspiring-data-analyst/
+- category: ai
+  published: '2025-08-20T18:58:28'
+  score: 0.899
+  source: Towards Data Science
+  summary: The article discusses a primer on overcoming limitations of large language
+    models (LLMs) with formal verification, which can help remove uncertainty from
+    AI reasoning and improve the reliability of AI systems.
+  tags:
+  - LLM Applications
+  - Ai Assistant
+  - Artificial Intelligence
+  - Deep Dives
+  - Llm
+  title: '“Where’s Marta?”: How We Removed Uncertainty From AI Reasoning'
+  url: https://towardsdatascience.com/interactive-proofs-with-claude/
+- category: cybersecurity
+  published: '2025-08-20T18:44:31'
+  score: 1.123
+  source: BleepingComputer
+  summary: Apple has released emergency updates to patch a zero-day vulnerability
+    that was exploited in a sophisticated attack. The vulnerability could be used
+    by attackers to compromise target systems, highlighting the importance of keeping
+    software up-to-date.
+  tags:
+  - Apple
+  - Security
+  title: Apple fixes new zero-day flaw exploited in targeted attacks
+  url: https://www.bleepingcomputer.com/news/apple/apple-emergency-updates-fix-new-actively-exploited-zero-day/
+- category: cybersecurity
+  published: '2025-08-20T17:54:00'
+  score: 1.02
+  source: The Hacker News
+  summary: Popular password manager plugins for web browsers have been found susceptible
+    to clickjacking vulnerabilities that could be exploited to steal account credentials,
+    two-factor authentication codes, and credit card details. This highlights the
+    need for password manager vendors to address such security issues.
+  tags: []
+  title: DOM-Based Extension Clickjacking Exposes Popular Password Managers to Credential
+    and Data Theft
+  url: https://thehackernews.com/2025/08/dom-based-extension-clickjacking.html
+- category: webdev
+  published: '2025-08-20T17:45:37'
+  score: 0.729
+  source: Ars Technica
+  summary: Some Windows users are experiencing recovery and/or SSD problems after
+    recent updates. While the recovery issue has been resolved, the SSD problems have
+    been more difficult to diagnose, highlighting the potential challenges that can
+    arise with software updates.
+  tags:
+  - Tech
+  - microsoft
+  - windows 10
+  - windows 10 22h2
+  - windows 11
+  title: Having recovery and/or SSD problems after recent Windows updates? You’re
+    not alone.
+  url: https://arstechnica.com/gadgets/2025/08/having-recovery-and-or-ssd-problems-after-recent-windows-updates-youre-not-alone/
+- category: ai
+  published: '2025-08-20T17:00:00'
+  score: 0.885
+  source: OpenAI
+  summary: MIXI, a Japanese digital entertainment and lifestyle services company,
+    is using ChatGPT Enterprise to transform productivity, boost AI adoption across
+    teams, and create a secure environment for innovation. This case study highlights
+    the potential for conversational AI to enhance enterprise workflows.
+  tags: []
+  title: Mixi reimagines communication with ChatGPT
+  url: https://openai.com/index/mixi
+- category: cybersecurity
+  published: '2025-08-20T15:59:00'
+  score: 1.054
+  source: The Hacker News
+  summary: A Russian state-sponsored cyber espionage group known as Static Tundra
+    has been exploiting a seven-year-old security flaw in Cisco IOS and Cisco IOS
+    XE software to establish persistent access to target networks. The vulnerability
+    allows the group to conduct cyber espionage activities, underscoring the need
+    for timely patch management.
+  tags: []
+  title: FBI Warns FSB-Linked Hackers Exploiting Unpatched Cisco Devices for Cyber
+    Espionage
+  url: https://thehackernews.com/2025/08/fbi-warns-russian-fsb-linked-hackers.html
+- category: webdev
+  published: '2025-08-20T13:54:52'
+  score: 0.745
+  source: CSS-Tricks
+  summary: The article explores ways to animate the 3D layered text effect, add transitions,
+    and create variations. It demonstrates how motion can enhance depth and how subtle
+    tweaks can change the overall aesthetic, providing insights for web designers
+    and developers.
+  tags:
+  - Articles
+  - animation
+  - typography
+  title: '3D Layered Text: Motion and Variations'
+  url: https://css-tricks.com/3d-layered-text-motion-and-variations/
 - category: webdev
   published: '2025-08-20T04:33:31'
   score: 0.897
@@ -1078,5 +1290,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-20T05:03:49.545412'
-total_articles: 88
+last_updated: '2025-08-21T05:04:03.032969'
+total_articles: 103
