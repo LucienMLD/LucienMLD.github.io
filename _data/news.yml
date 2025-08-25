@@ -1,4 +1,72 @@
 articles:
+- category: webdev
+  published: '2025-08-24T18:51:51'
+  score: 0.736
+  source: Ars Technica
+  summary: SpaceX is preparing for another Starship launch after three consecutive
+    unsuccessful test flights, facing a critical juncture in the development of its
+    next-generation reusable rocket system.
+  tags:
+  - Science
+  - Space
+  - artemis
+  - Commercial space
+  - Elon Musk
+  title: Time is running out for SpaceX to make a splash with second-gen Starship
+  url: https://arstechnica.com/space/2025/08/whats-the-goal-of-spacexs-10th-starship-test-flight-right-the-ship/
+- category: cybersecurity
+  published: '2025-08-24T13:38:00'
+  score: 0.892
+  source: The Hacker News
+  summary: A malicious Go module disguised as an SSH brute-force tool is found to
+    steal credentials and send them to the attacker via a Telegram bot, highlighting
+    the importance of verifying the legitimacy of software packages before use.
+  tags: []
+  title: Malicious Go Module Poses as SSH Brute-Force Tool, Steals Credentials via
+    Telegram Bot
+  url: https://thehackernews.com/2025/08/malicious-go-module-poses-as-ssh-brute.html
+- category: ai
+  published: '2025-08-23T11:07:40'
+  score: 0.542
+  source: Ars Technica
+  summary: Conspiracy theories and misinformation surrounding wind farms often stem
+    from a broader skepticism towards climate change, underscoring the challenges
+    in effectively communicating the benefits and safety of renewable energy technologies.
+  tags:
+  - Science
+  - conspiracy theories
+  - syndication
+  - wind farms
+  - wind turbines
+  title: Why wind farms attract so much misinformation and conspiracy theory
+  url: https://arstechnica.com/science/2025/08/why-wind-farms-attract-so-much-misinformation-and-conspiracy-theory/
+- category: ai
+  published: '2025-08-23T11:00:57'
+  score: 0.541
+  source: Ars Technica
+  summary: Researchers have developed a system that can decode inner speech, raising
+    privacy concerns as it suggests that even unspoken thoughts can be detected by
+    brain activity analysis.
+  tags:
+  - Science
+  - Biology
+  - brain-computer interface
+  - inner speech
+  - neurobiology
+  title: An inner-speech decoder reveals some mental privacy issues
+  url: https://arstechnica.com/science/2025/08/an-inner-speech-decoder-reveals-some-mental-privacy-issues/
+- category: cybersecurity
+  published: '2025-08-23T07:38:00'
+  score: 0.761
+  source: The Hacker News
+  summary: Cybersecurity researchers have identified multiple campaigns exploiting
+    known vulnerabilities and exposed Redis servers to engage in various malicious
+    activities, including the use of compromised devices as IoT botnets, residential
+    proxies, or cryptocurrency mining infrastructure.
+  tags: []
+  title: GeoServer Exploits, PolarEdge, and Gayfemboy Push Cybercrime Beyond Traditional
+    Botnets
+  url: https://thehackernews.com/2025/08/geoserver-exploits-polaredge-and.html
 - category: ai
   published: '2025-08-22T02:00:00'
   score: 1.003
@@ -1478,5 +1546,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-22T05:03:50.846801'
-total_articles: 118
+last_updated: '2025-08-25T05:04:02.621198'
+total_articles: 123
