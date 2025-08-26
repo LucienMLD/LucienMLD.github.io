@@ -1,5 +1,151 @@
 articles:
 - category: ai
+  published: '2025-08-26T12:00:48'
+  score: 0.978
+  source: Machine Learning Mastery
+  summary: The article presents 10 useful NumPy one-liners for common time series
+    analysis tasks, providing a concise and efficient approach to working with time
+    series data.
+  tags: []
+  title: 10 Useful NumPy One-Liners for Time Series Analysis
+  url: https://machinelearningmastery.com/10-useful-numpy-one-liners-for-time-series-analysis/
+- category: cybersecurity
+  published: '2025-08-26T11:06:23'
+  score: 1.147
+  source: Schneier on Security
+  summary: Researchers discovered a backdoor in TETRA police radios that could allow
+    attackers to decrypt communications, raising concerns about the security of critical
+    infrastructure communications.
+  tags:
+  - Uncategorized
+  - backdoors
+  - encryption
+  - military
+  - police
+  title: Encryption Backdoor in Military/Police Radios
+  url: https://www.schneier.com/blog/archives/2025/08/encryption-backdoor-in-military-police-radios.html
+- category: cybersecurity
+  published: '2025-08-26T09:01:00'
+  score: 1.132
+  source: The Hacker News
+  summary: A new variant of the HOOK Android banking trojan has been found to feature
+    ransomware-style overlay screens that aim to coerce victims into paying a ransom,
+    expanding its range of malicious capabilities.
+  tags: []
+  title: HOOK Android Trojan Adds Ransomware Overlays, Expands to 107 Remote Commands
+  url: https://thehackernews.com/2025/08/hook-android-trojan-adds-ransomware.html
+- category: webdev
+  published: '2025-08-26T08:00:00'
+  score: 0.993
+  source: Smashing Magazine
+  summary: This article explores how to optimize Progressive Web Apps (PWAs) for different
+    display modes, addressing usability issues that can arise when moving away from
+    a traditional browser environment.
+  tags: []
+  title: Optimizing PWAs For Different Display Modes
+  url: https://smashingmagazine.com/2025/08/optimizing-pwas-different-display-modes/
+- category: cybersecurity
+  published: '2025-08-26T06:27:00'
+  score: 1.016
+  source: The Hacker News
+  summary: Google plans to implement developer verification for all Android apps,
+    even those distributed outside the Play Store, in an effort to block the installation
+    of malicious apps on certified Android devices.
+  tags: []
+  title: Google to Verify All Android Developers in 4 Countries to Block Malicious
+    Apps
+  url: https://thehackernews.com/2025/08/google-to-verify-all-android-developers.html
+- category: cybersecurity
+  published: '2025-08-26T05:55:00'
+  score: 1.104
+  source: The Hacker News
+  summary: CISA has added three vulnerabilities affecting Citrix Session Recording
+    and Git to its Known Exploited Vulnerabilities catalog, indicating active exploitation
+    in the wild and the need for urgent patching.
+  tags: []
+  title: CISA Adds Three Exploited Vulnerabilities to KEV Catalog Affecting Citrix
+    and Git
+  url: https://thehackernews.com/2025/08/cisa-adds-three-exploited.html
+- category: ai
+  published: '2025-08-26T04:00:00'
+  score: 0.823
+  source: OpenAI
+  summary: The article discusses the challenges and ongoing efforts in developing
+    systems to provide support for users experiencing mental or emotional distress,
+    highlighting the limitations of current approaches.
+  tags: []
+  title: Helping people when they need it most
+  url: https://openai.com/index/helping-people-when-they-need-it-most
+- category: ai
+  published: '2025-08-25T22:25:17'
+  score: 0.829
+  source: Towards Data Science
+  summary: The article introduces the fundamentals of LLM monitoring and observability,
+    using the Langfuse tool to showcase techniques for tracing, evaluation, and dashboard
+    setup.
+  tags:
+  - Large Language Models
+  - Deep Dives
+  - Generative Ai
+  - LLM Monitoring
+  - LLM Observability
+  title: 'LLM Monitoring and Observability: Hands-on with Langfuse'
+  url: https://towardsdatascience.com/llm-monitoring-and-observability-hands-on-with-langfuse/
+- category: ai
+  published: '2025-08-25T20:59:53'
+  score: 0.819
+  source: Towards Data Science
+  summary: The article demonstrates how to benchmark classical machine learning workloads
+    on Google Cloud, focusing on the cost-effective use of CPUs for practical machine
+    learning applications.
+  tags:
+  - Artificial Intelligence
+  - Machine Learning
+  - Benchmarking
+  - Google Cloud
+  - Hardware
+  title: How to Benchmark Classical Machine Learning Workloads on Google Cloud
+  url: https://towardsdatascience.com/benchmarking-classical-machine-learning-workloads-on-google-cloud/
+- category: webdev
+  published: '2025-08-25T17:16:35'
+  score: 0.721
+  source: CSS-Tricks
+  summary: The article explores creative ways to incorporate images in long-form content,
+    highlighting how they can influence the pace, emotions, and character of the writing
+    beyond mere illustration.
+  tags:
+  - Articles
+  - images
+  - UI/IX Design
+  title: Getting Creative With Images in Long-Form Content
+  url: https://css-tricks.com/getting-creative-with-images-in-long-form-content/
+- category: ai
+  published: '2025-08-25T16:46:24'
+  score: 0.834
+  source: Towards Data Science
+  summary: The article delves into the science of LLM (Large Language Model) prompt
+    engineering, using a real-world customer service example to demonstrate the power
+    of systematic prompt optimization using DSPy.
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Dspy
+  - Editors Pick
+  - Llmops
+  title: Systematic LLM Prompt Engineering Using DSPy Optimization
+  url: https://towardsdatascience.com/systematic-llm-prompt-engineering-using-dspy-optimization/
+- category: cybersecurity
+  published: '2025-08-25T12:17:00'
+  score: 1.02
+  source: The Hacker News
+  summary: This weekly cybersecurity recap covers a range of issues, from password
+    manager flaws to hidden AI prompts, highlighting the fast-paced and complex nature
+    of modern cybersecurity challenges.
+  tags: []
+  title: '⚡ Weekly Recap: Password Manager Flaws, Apple 0-Day, Hidden AI Prompts,
+    In-the-Wild Exploits & More'
+  url: https://thehackernews.com/2025/08/weekly-recap-password-manager-flaws.html
+- category: ai
   published: '2025-08-17T14:38:29'
   score: 0.94
   source: BleepingComputer
@@ -698,5 +844,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-18T07:33:53.155766'
-total_articles: 59
+last_updated: '2025-08-26T12:15:33.240097'
+total_articles: 71
