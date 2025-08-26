@@ -27,12 +27,15 @@ jobs:
       - name: Configure Git for private repos
         run: |
           git config --global url."https://${{ secrets.PAT_TOKEN }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://${{ secrets.PAT_TOKEN }}@github.com/".insteadOf "git@github.com:"
         
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
           bundler-cache: true
+        env:
+          BUNDLE_GITHUB__COM: ${{ secrets.PAT_TOKEN }}
           
       - name: Setup Pages
         uses: actions/configure-pages@v4

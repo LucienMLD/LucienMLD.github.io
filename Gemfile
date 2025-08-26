@@ -13,7 +13,7 @@ gem "jekyll", "~> 4.3.3"
 # Pour utiliser la version locale en développement:
 # gem "jekyll-theme-neon", path: "../jekyll-theme-neon"
 
-# Pour utiliser la gem depuis GitHub:
+# Pour utiliser la gem depuis GitHub (dépôt privé):
 gem "jekyll-theme-neon", git: "git@github.com:LucienMLD/jekyll-theme-neon.git"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
