@@ -29,6 +29,7 @@ url: "https://lucien-mollard.com" # the base hostname & protocol for your site, 
 github_username: LucienMLD
 linkedin_url: https://www.linkedin.com/in/lucien-mollard/
 github_url: https://github.com/LucienMLD
+form_action_url: https://submit-form.com/eDQ2GwzFq
 
 theme: jekyll-theme-neon
 
