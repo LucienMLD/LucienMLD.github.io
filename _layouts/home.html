@@ -33,7 +33,7 @@ layout: default
           
           <!-- Hero Description -->
           {% if page.presentation %}
-          <div class="neon-hero-description">
+          <div class="neon-hero-description text-left">
             <div>{{ page.presentation }}</div>
           </div>
           {% endif %}
@@ -352,8 +352,8 @@ layout: default
 .neon-section-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: var(--font-blue);
-  text-shadow: 0 0 10px rgba(var(--font-blue-rgb), 0.3);
+  color: var(--neon-color, var(--font-blue));
+  text-shadow: 0 0 10px rgba(var(--neon-color-rgb, var(--font-blue-rgb)), 0.3);
   margin-bottom: 0.5rem;
 }
 

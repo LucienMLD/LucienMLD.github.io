@@ -3,38 +3,21 @@
 
 @use "jekyll-theme-neon";
 
-// Custom styles - remove blue hover on card titles
+// Custom styles - uniquement les styles vraiment nécessaires
 .card .card-divider h2:hover {
-  color: var(--font-color);
+  color: var(--neon-color, var(--font-blue));
 }
 
-// Reduce size of "Skills & Technologies" section title
-.card .card-section h3,
-.card .card-section h4 {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-// Reduce size of skill badges and remove misleading hover effects
+// Simplification des badges - utilisation des classes du thème
 .card .badge,
-.card .label,
-.card .competences .badge,
-.card .skills .badge,
-.card .technologies .badge {
+.card .label {
   font-size: 0.75rem;
-  padding: 0.25rem 0.5rem;
-  margin: 0.1rem;
-  cursor: default; // Remove pointer cursor to indicate they're not clickable
+  cursor: default;
 }
 
-// Remove hover effects on badges to prevent confusion
 .card .badge:hover,
-.card .label:hover,
-.card .competences .badge:hover,
-.card .skills .badge:hover,
-.card .technologies .badge:hover {
+.card .label:hover {
   background-color: inherit;
   color: inherit;
   transform: none;
-  box-shadow: none;
 }

@@ -1,0 +1,62 @@
+<!-- Neon Footer -->
+<footer class="neon-footer" role="contentinfo">
+  <div class="grid-container">
+    <div class="neon-footer-content">
+      
+      <!-- Footer main section -->
+      <div class="neon-footer-main">
+        <div class="grid-x grid-padding-x">
+          
+          <!-- Brand section -->
+          <div class="cell medium-6">
+            <div class="neon-footer-brand">
+              <h3 class="neon-footer-title">{{ site.title | escape }}</h3>
+              {% if site.description %}
+              <p class="neon-footer-description">{{ site.description | escape }}</p>
+              {% endif %}
+            </div>
+          </div>
+          
+          <!-- Navigation links -->
+          <div class="cell medium-6">
+            {% if site.data.footer-menu.size > 0 %}
+            <nav class="neon-footer-nav" role="navigation" aria-label="Footer navigation">
+              <h4 class="neon-footer-nav-title">Navigation</h4>
+              <ul class="neon-footer-links">
+                {% for link in site.data.footer-menu %}
+                <li class="neon-footer-link-item">
+                  <a href="{{ link.url | relative_url }}" class="neon-footer-link">
+                    {{ link.title | escape }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </nav>
+            {% endif %}
+          </div>
+          
+        </div>
+      </div>
+      
+      <!-- Footer bottom bar -->
+      <div class="neon-footer-bottom">
+        <div class="grid-x align-justify align-middle">
+          <div class="cell shrink">
+            <p class="neon-footer-copyright">
+              &copy; {{ 'now' | date: "%Y" }} {{ site.title | default: site.author | escape }}
+            </p>
+          </div>
+          {% if site.neon.show_powered_by != false %}
+          <div class="cell shrink">
+            <p class="neon-footer-powered">
+              <span class="neon-footer-tech">Jekyll</span> × 
+              <span class="neon-footer-tech">Foundation</span>
+            </p>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</footer>

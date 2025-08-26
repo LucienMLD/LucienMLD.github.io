@@ -34,6 +34,16 @@ theme: jekyll-theme-neon
 
 # Configuration du thème Neon
 neon:
+  color_scheme: "blue"
+  # Options d'affichage
+  show_hero_background_effects: true
+  show_typing_effect: true
+  profile_image: "/assets/images/profile.webp"
+  # Sections à afficher sur la homepage
+  show_expertise_section: true
+  show_current_focus_section: true
+  show_learning_section: true
+  # Hooks pour les scripts externes
   hooks:
     head_end:
       - '<script async src="https://tree-nation.com/javascripts/widgets/offset_website.js"></script>'
@@ -66,6 +76,7 @@ plugins:
 #   - vendor/ruby/
 
 collections_dir: collections
+
 collections:
   experiences:
     output: true
