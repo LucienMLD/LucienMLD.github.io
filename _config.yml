@@ -44,6 +44,9 @@ neon:
   show_expertise_section: true
   show_current_focus_section: true
   show_learning_section: true
+  # Configuration de la page contact
+  contact:
+    show_email_card: false
   # Hooks pour les scripts externes
   hooks:
     head_end:
