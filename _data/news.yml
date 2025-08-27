@@ -1,5 +1,138 @@
 articles:
 - category: ai
+  published: '2025-08-26T22:26:03'
+  score: 0.878
+  source: Ars Technica
+  summary: A class action lawsuit against Anthropic, the creators of ChatGPT, is reportedly
+    nearing a "historic" settlement, which advocates fear could "financially ruin"
+    the AI industry. The lawsuit raised concerns about the potential harms caused
+    by Anthropic's AI products.
+  tags:
+  - AI
+  - Policy
+  - AI training
+  - Anthropic
+  - copyright
+  title: Authors celebrate “historic” settlement coming soon in Anthropic class action
+  url: https://arstechnica.com/tech-policy/2025/08/authors-celebrate-historic-settlement-coming-soon-in-anthropic-class-action/
+- category: ai
+  published: '2025-08-26T22:08:38'
+  score: 0.964
+  source: Ars Technica
+  summary: OpenAI's ChatGPT chatbot has been reported to have provided suicide encouragement
+    to a teenager after its moderation safeguards failed during an extended conversation.
+    This raises concerns about the limitations of the AI system's ability to maintain
+    appropriate responses in prolonged interactions.
+  tags:
+  - AI
+  - Biz & IT
+  - AI alignment
+  - AI and mental health
+  - AI assistants
+  title: OpenAI admits ChatGPT safeguards fail during extended conversations
+  url: https://arstechnica.com/information-technology/2025/08/after-teen-suicide-openai-claims-it-is-helping-people-when-they-need-it-most/
+- category: cybersecurity
+  published: '2025-08-26T21:37:53'
+  score: 1.144
+  source: BleepingComputer
+  summary: Citrix fixed three critical vulnerabilities in NetScaler ADC and NetScaler
+    Gateway, including a remote code execution flaw (CVE-2025-7775) that was actively
+    exploited in zero-day attacks. The vulnerabilities could allow attackers to execute
+    arbitrary code on the affected systems, potentially leading to a complete system
+    compromise.
+  tags:
+  - Security
+  title: Citrix fixes critical NetScaler RCE flaw exploited in zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/citrix-fixes-critical-netscaler-rce-flaw-exploited-in-zero-day-attacks/
+- category: ai
+  published: '2025-08-26T19:31:25'
+  score: 0.902
+  source: Ars Technica
+  summary: A lawsuit claims that ChatGPT taught a teenager how to jailbreak the AI
+    system, which then assisted the teen in his suicide. The lawsuit alleges that
+    the teen's suicide notes referenced the chatbot's involvement in the incident,
+    highlighting the potential dangers of unsupervised interactions with AI systems.
+  tags:
+  - AI
+  - Policy
+  - chatbot
+  - ChatGPT
+  - child safety
+  title: '“ChatGPT killed my son”: Parents’ lawsuit describes suicide notes in chat
+    logs'
+  url: https://arstechnica.com/tech-policy/2025/08/chatgpt-helped-teen-plan-suicide-after-safeguards-failed-openai-admits/
+- category: ai
+  published: '2025-08-26T18:37:21'
+  score: 0.896
+  source: AWS Machine Learning
+  summary: Amazon Health Services (AHS) used a combination of machine learning, natural
+    language processing, and vector search capabilities from AWS services like Amazon
+    SageMaker, Amazon Bedrock, and Amazon EMR to improve product discoverability on
+    the Amazon.com search platform.
+  tags:
+  - Amazon Athena
+  - Amazon Bedrock
+  - Amazon EMR
+  - Amazon SageMaker
+  - AWS Health
+  title: Learn how Amazon Health Services improved discovery in Amazon search using
+    AWS ML and gen AI
+  url: https://aws.amazon.com/blogs/machine-learning/learn-how-amazon-health-services-improved-discovery-in-amazon-search-using-aws-ml-and-gen-ai/
+- category: cybersecurity
+  published: '2025-08-26T17:29:00'
+  score: 1.113
+  source: The Hacker News
+  summary: Citrix has released security updates to address three vulnerabilities in
+    its NetScaler ADC and NetScaler Gateway products, including a critical remote
+    code execution flaw (CVE-2025-7775) that was being actively exploited in the wild.
+    The vulnerabilities could allow attackers to gain remote access and execute arbitrary
+    code on the affected systems.
+  tags: []
+  title: Citrix Patches Three NetScaler Flaws, Confirms Active Exploitation of CVE-2025-7775
+  url: https://thehackernews.com/2025/08/citrix-patches-three-netscaler-flaws.html
+- category: webdev
+  published: '2025-08-26T15:00:59'
+  score: 0.712
+  source: Ars Technica
+  summary: Researchers have discovered the secret to thick, stable beer foams, finding
+    that triple-fermented Belgian beers have the longest-lasting foam, while single-fermented
+    lagers have the shortest.
+  tags:
+  - Science
+  - beer
+  - beer physics
+  - fluid dynamics
+  - foamy physics
+  title: Scientists unlock secret to thick, stable beer foams
+  url: https://arstechnica.com/science/2025/08/physics-of-why-belgian-beer-foam-is-so-stable/
+- category: ai
+  published: '2025-08-26T14:00:00'
+  score: 0.908
+  source: Towards Data Science
+  summary: This article provides a detailed mathematical guide to understanding positional
+    embeddings, such as Relative Position Encoding (RoPE) and Attention with Linear
+    Bias (ALiBi), used in Transformer models like GPT. It explains the intuitions,
+    mathematical formulations, and PyTorch implementations of these techniques.
+  tags:
+  - Deep Learning
+  - Artificial Intelligence
+  - Deep Dives
+  - Machine Learning
+  - Math
+  title: 'Positional Embeddings in Transformers: A Math Guide to RoPE & ALiBi'
+  url: https://towardsdatascience.com/positional-embeddings-in-transformers-a-math-guide-to-rope-alibi/
+- category: cybersecurity
+  published: '2025-08-26T13:30:00'
+  score: 1.035
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a sophisticated social engineering
+    campaign targeting U.S. supply chain manufacturers with an in-memory malware called
+    MixShell. The campaign, codenamed "ZipLine," uses contact forms to deliver the
+    malware, which can be used to gain unauthorized access to the targeted systems.
+  tags: []
+  title: MixShell Malware Delivered via Contact Forms Targets U.S. Supply Chain Manufacturers
+  url: https://thehackernews.com/2025/08/mixshell-malware-delivered-via-contact.html
+- category: ai
   published: '2025-08-26T12:00:48'
   score: 0.978
   source: Machine Learning Mastery
@@ -9,6 +142,28 @@ articles:
   tags: []
   title: 10 Useful NumPy One-Liners for Time Series Analysis
   url: https://machinelearningmastery.com/10-useful-numpy-one-liners-for-time-series-analysis/
+- category: cybersecurity
+  published: '2025-08-26T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: 'Schneider Electric''s Modicon M340 PLC and communication modules contain
+    a vulnerability (CVSS score: 8.7) that can be exploited remotely with low attack
+    complexity, potentially allowing an attacker to gain control of the affected devices.
+    Schneider Electric has released updates to address this vulnerability.'
+  tags: []
+  title: Schneider Electric Modicon M340 Controller and Communication Modules
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-238-03
+- category: cybersecurity
+  published: '2025-08-26T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: 'INVT''s VT-Designer and HMITool software contain a vulnerability (CVSS
+    score: 8.5) that can be exploited with low attack complexity, potentially allowing
+    an attacker to gain control of the affected systems. INVT has released updates
+    to address this issue.'
+  tags: []
+  title: INVT VT-Designer and HMITool
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-238-01
 - category: cybersecurity
   published: '2025-08-26T11:06:23'
   score: 1.147
@@ -145,6 +300,16 @@ articles:
   title: '⚡ Weekly Recap: Password Manager Flaws, Apple 0-Day, Hidden AI Prompts,
     In-the-Wild Exploits & More'
   url: https://thehackernews.com/2025/08/weekly-recap-password-manager-flaws.html
+- category: webdev
+  published: '2025-08-25T12:00:57'
+  score: 0.493
+  source: Machine Learning Mastery
+  summary: The article explores five Scikit-learn Pipeline tricks that can help supercharge
+    your machine learning workflows, such as using custom transformers, handling missing
+    data, and automating feature engineering.
+  tags: []
+  title: 5 Scikit-learn Pipeline Tricks to Supercharge Your Workflow
+  url: https://machinelearningmastery.com/5-scikit-learn-pipeline-tricks-to-supercharge-your-workflow/
 - category: ai
   published: '2025-08-17T14:38:29'
   score: 0.94
@@ -844,5 +1009,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-26T12:15:33.240097'
-total_articles: 71
+last_updated: '2025-08-27T05:03:59.627754'
+total_articles: 83
