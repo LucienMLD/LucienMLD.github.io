@@ -1,5 +1,194 @@
 articles:
 - category: ai
+  published: '2025-08-28T21:57:41'
+  score: 0.831
+  source: Ars Technica
+  summary: Genetic analysis reveals the Central American mammoths had fluid species
+    boundaries across North America, providing insights into the evolutionary history
+    of these extinct creatures.
+  tags:
+  - Science
+  - ancient DNA
+  - Biology
+  - evolution
+  - mammoths
+  title: Genetically, Central American mammoths were weird
+  url: https://arstechnica.com/science/2025/08/genetically-central-american-mammoths-were-weird/
+- category: ai
+  published: '2025-08-28T20:25:00'
+  score: 0.821
+  source: AWS Machine Learning
+  summary: The Government of the City of Buenos Aires and GenAIIC have created Boti,
+    an agentic AI assistant that helps citizens access government information, improving
+    public service delivery.
+  tags:
+  - Amazon Bedrock
+  - Artificial Intelligence
+  - Customer Solutions
+  - Generative AI
+  title: 'Meet Boti: The AI assistant transforming how the citizens of Buenos Aires
+    access government information with Amazon Bedrock'
+  url: https://aws.amazon.com/blogs/machine-learning/meet-boti-the-ai-assistant-transforming-how-the-citizens-of-buenos-aires-access-government-information-with-amazon-bedrock/
+- category: ai
+  published: '2025-08-28T20:20:10'
+  score: 0.82
+  source: AWS Machine Learning
+  summary: A data imputation solution using Amazon SageMaker AI, AWS Lambda, and AWS
+    Step Functions enables reliable PM2.5 data analysis for environmental, public
+    health, and business intelligence professionals.
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker Canvas
+  - AWS Cloud Development Kit
+  - Nonprofit
+  - Serverless
+  title: Empowering air quality research with secure, ML-driven predictive analytics
+  url: https://aws.amazon.com/blogs/machine-learning/empowering-air-quality-research-with-secure-ml-driven-predictive-analytics/
+- category: ai
+  published: '2025-08-28T20:14:22'
+  score: 0.863
+  source: AWS Machine Learning
+  summary: Amazon Finance developed an AI assistant using Amazon Bedrock and Amazon
+    Kendra to support analysts in data discovery and business insights, improving
+    data-driven decision-making.
+  tags:
+  - Amazon Bedrock
+  - Amazon Kendra
+  - Artificial Intelligence
+  - Customer Solutions
+  title: How Amazon Finance built an AI assistant using Amazon Bedrock and Amazon
+    Kendra to support analysts for data discovery and business insights
+  url: https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-built-an-ai-assistant-using-amazon-bedrock-and-amazon-kendra-to-support-analysts-for-data-discovery-and-business-insights/
+- category: cybersecurity
+  published: '2025-08-28T18:46:43'
+  score: 1.027
+  source: Ars Technica
+  summary: A high-severity vulnerability in Passwordstate credential manager can be
+    exploited to gain access to customers' critical data. Prompt patching is recommended
+    to mitigate the risk.
+  tags:
+  - Biz & IT
+  - Security
+  - authentication bypass
+  - password managers
+  - patches
+  title: High-severity vulnerability in Passwordstate credential manager. Patch now.
+  url: https://arstechnica.com/security/2025/08/high-severity-vulnerability-in-passwordstate-credential-manager-patch-now/
+- category: webdev
+  published: '2025-08-28T18:30:07'
+  score: 0.734
+  source: BleepingComputer
+  summary: Google is working to resolve authentication failures preventing users from
+    signing into their Clever and ClassLink accounts on some ChromeOS devices.
+  tags:
+  - Google
+  - Technology
+  title: Google shares workarounds for auth failures on ChromeOS devices
+  url: https://www.bleepingcomputer.com/news/google/google-shares-chromeos-workarounds-for-clever-classlink-auth-failures/
+- category: ai
+  published: '2025-08-28T17:08:08'
+  score: 0.93
+  source: BleepingComputer
+  summary: Threat actors have abused Anthropic's Claude AI to build ransomware and
+    conduct data extortion campaigns, highlighting the potential misuse of large language
+    models by malicious actors.
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: Malware devs abuse Anthropic’s Claude AI to build ransomware
+  url: https://www.bleepingcomputer.com/news/security/malware-devs-abuse-anthropics-claude-ai-to-build-ransomware/
+- category: webdev
+  published: '2025-08-28T17:00:28'
+  score: 0.725
+  source: BleepingComputer
+  summary: Microsoft Word for Windows will soon enable autosave and automatically
+    save new documents to the cloud by default, improving data backup and accessibility.
+  tags:
+  - Microsoft
+  title: Microsoft Word will save your files to the cloud by default
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-word-will-save-your-files-to-the-cloud-by-default/
+- category: webdev
+  published: '2025-08-28T15:30:00'
+  score: 0.715
+  source: Towards Data Science
+  summary: The post describes a stepwise selection method in Python to improve linear
+    regression models by reducing dimensionality and selecting the most significant
+    predictors.
+  tags:
+  - Machine Learning
+  - Data Science
+  - Deep Dives
+  - Linear Regression
+  - Python
+  title: 'Stepwise Selection Made Simple: Improve Your Regression Models in Python'
+  url: https://towardsdatascience.com/model-selection-in-linear-regression/
+- category: webdev
+  published: '2025-08-28T14:46:46'
+  score: 0.751
+  source: Ars Technica
+  summary: SpaceX's Falcon 9 reusability approach has proven successful, vindicating
+    the company's "dumb" approach to reuse and contributing to its cost-effective
+    spaceflight operations.
+  tags:
+  - Space
+  - falcon 9
+  - reuse
+  - Smart
+  - space
+  title: With recent Falcon 9 milestones, SpaceX vindicates its “dumb” approach to
+    reuse
+  url: https://arstechnica.com/space/2025/08/with-recent-falcon-9-milestones-spacex-vindicates-its-dumb-approach-to-reuse/
+- category: cybersecurity
+  published: '2025-08-28T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Schneider Electric Saitel DR & Saitel DP Remote Terminal Unit has a
+    CVSS v3 score of 6.7 and a low attack complexity, posing a cybersecurity risk.
+    The vendor, Schneider Electric, is responsible for addressing this vulnerability.
+  tags: []
+  title: Schneider Electric Saitel DR & Saitel DP Remote Terminal Unit
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-240-03
+- category: cybersecurity
+  published: '2025-08-28T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Delta Electronics CNCSoft-G2 has a CVSS v4 score of 8.5 and a low attack
+    complexity, indicating a significant cybersecurity vulnerability. The vendor,
+    Delta Electronics, must address this issue.
+  tags: []
+  title: Delta Electronics CNCSoft-G2
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-240-04
+- category: cybersecurity
+  published: '2025-08-28T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The GE Vernova CIMPLICITY has a CVSS v4 score of 7.0 and a low attack complexity,
+    presenting a cybersecurity risk. The vendor, GE Vernova, is responsible for resolving
+    this vulnerability.
+  tags: []
+  title: GE Vernova CIMPLICITY
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-240-06
+- category: cybersecurity
+  published: '2025-08-28T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Delta Electronics COMMGR has a CVSS v4 score of 8.8 and is exploitable
+    remotely with low attack complexity, posing a severe cybersecurity threat. The
+    vendor, Delta Electronics, must address this vulnerability.
+  tags: []
+  title: Delta Electronics COMMGR
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-240-05
+- category: webdev
+  published: '2025-08-28T12:00:00'
+  score: 0.733
+  source: CISA
+  summary: The Mitsubishi Electric MELSEC iQ-F Series CPU Module has a CVSS v4 score
+    of 6.9 and is exploitable remotely with low attack complexity, posing a cybersecurity
+    risk that the vendor must address.
+  tags: []
+  title: Mitsubishi Electric MELSEC iQ-F Series CPU Module
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-240-01
+- category: ai
   published: '2025-08-28T02:00:36'
   score: 1.003
   source: Machine Learning Mastery
@@ -1181,5 +1370,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-28T05:03:55.931412'
-total_articles: 97
+last_updated: '2025-08-29T05:03:51.686429'
+total_articles: 112
