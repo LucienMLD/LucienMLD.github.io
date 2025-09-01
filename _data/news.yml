@@ -1,5 +1,127 @@
 articles:
 - category: ai
+  published: '2025-08-31T19:13:34'
+  score: 0.812
+  source: Ars Technica
+  summary: The research roundup covers various cool science stories, such as a 3D
+    reconstruction of the Shroud of Turin, the discovery of "jelly ice," and research
+    on regenerating snail eyes. These findings demonstrate the diverse and fascinating
+    nature of ongoing scientific research.
+  tags:
+  - Science
+  - Biology
+  - science
+  title: 'Research roundup: 6 cool science stories we almost missed'
+  url: https://arstechnica.com/science/2025/08/research-roundup-6-cool-science-stories-we-almost-missed-2/
+- category: ai
+  published: '2025-08-31T16:00:00'
+  score: 0.79
+  source: Towards Data Science
+  summary: The article explores strategies for developing a bilingual voice assistant,
+    focusing on making the assistant more personal and engaging for users. This includes
+    techniques for language model training, speech recognition, and natural language
+    processing.
+  tags:
+  - LLM Applications
+  - Artificial Intelligence
+  - Language Detection
+  - Llm
+  - Raspberry Pi
+  title: How to Develop a Bilingual Voice Assistant
+  url: https://towardsdatascience.com/developing-a-bilingual-voice-assistant/
+- category: ai
+  published: '2025-08-31T14:00:00'
+  score: 0.82
+  source: Towards Data Science
+  summary: The article discusses several machine learning lessons learned, including
+    the importance of logging experiments, maintaining lab notebooks, and running
+    models overnight. These lessons highlight the iterative and meticulous nature
+    of effective machine learning development.
+  tags:
+  - Machine Learning
+  - Career Insights
+  - Data Science
+  - Experiment Design
+  - Notebook
+  title: The Machine Learning Lessons I’ve Learned This Month
+  url: https://towardsdatascience.com/this-months-machine-learning-lessons-learned/
+- category: ai
+  published: '2025-08-31T11:26:42'
+  score: 0.891
+  source: BleepingComputer
+  summary: OpenAI is testing a new "Thinking effort" feature for ChatGPT that allows
+    users to control the level of effort the AI assistant puts into generating responses.
+    This feature aims to provide more customizable and efficient interactions with
+    the language model.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI is testing "Thinking effort" for ChatGPT
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-thinking-effort-for-chatgpt/
+- category: ai
+  published: '2025-08-31T11:00:12'
+  score: 0.756
+  source: Ars Technica
+  summary: The article discusses how Earth models, which are used to predict the planet's
+    future, are facing funding threats. This highlights the importance of sustaining
+    and improving these critical climate modeling tools to better understand and address
+    the challenges of climate change.
+  tags:
+  - Science
+  title: Earth models can predict the planet’s future but not their own
+  url: https://arstechnica.com/science/2025/08/earth-models-can-predict-the-planets-future-but-not-their-own/
+- category: webdev
+  published: '2025-08-31T08:00:00'
+  score: 0.668
+  source: Smashing Magazine
+  summary: The article presents a new collection of desktop wallpapers for September
+    2025, offering eye-catching designs to help welcome the new month. This provides
+    a visually-inspiring resource for users to personalize their digital environments.
+  tags: []
+  title: A Breeze Of Inspiration In September (2025 Wallpapers Edition)
+  url: https://smashingmagazine.com/2025/08/desktop-wallpaper-calendars-september-2025/
+- category: cybersecurity
+  published: '2025-08-30T16:22:51'
+  score: 0.683
+  source: BleepingComputer
+  summary: Threat actors are using fraudulent PDF editing apps promoted through Google
+    ads to distribute an info-stealing malware called TamperedChef. This highlights
+    the need for increased vigilance and security measures to protect against such
+    social engineering attacks.
+  tags:
+  - Security
+  title: TamperedChef infostealer delivered through fraudulent PDF Editor
+  url: https://www.bleepingcomputer.com/news/security/tamperedchef-infostealer-delivered-through-fraudulent-pdf-editor/
+- category: cybersecurity
+  published: '2025-08-30T12:06:00'
+  score: 0.699
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered that threat actors are abusing
+    the Velociraptor forensic tool to deploy Visual Studio Code for command-and-control
+    (C2) tunneling. This illustrates the ongoing challenge of threat actors exploiting
+    legitimate software for malicious purposes.
+  tags: []
+  title: Attackers Abuse Velociraptor Forensic Tool to Deploy Visual Studio Code for
+    C2 Tunneling
+  url: https://thehackernews.com/2025/08/attackers-abuse-velociraptor-forensic.html
+- category: cybersecurity
+  published: '2025-08-30T11:00:52'
+  score: 0.595
+  source: Ars Technica
+  summary: A Texas lawsuit alleging that top Wall Street firms have formed an "anti-coal
+    cartel" could reshape the landscape of environmental, social, and governance (ESG)
+    initiatives. This case serves as a test of whether corporate alliances on climate
+    efforts violate antitrust laws.
+  tags:
+  - Policy
+  - Science
+  - esg
+  - syndication
+  - Wall Street
+  title: Texas suit alleging anti-coal “cartel” of top Wall Street firms could reshape
+    ESG
+  url: https://arstechnica.com/science/2025/08/texas-suit-alleging-anti-coal-cartel-of-top-wall-street-firms-could-reshape-esg/
+- category: ai
   published: '2025-08-28T21:57:41'
   score: 0.831
   source: Ars Technica
@@ -1370,5 +1492,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-08-29T05:03:51.686429'
-total_articles: 112
+last_updated: '2025-09-01T05:03:59.655733'
+total_articles: 121
