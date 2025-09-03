@@ -1,5 +1,209 @@
 articles:
 - category: webdev
+  published: '2025-09-03T04:35:15'
+  score: 0.897
+  source: Towards Data Science
+  summary: The article provides a deep dive into the use of RabbitMQ and Python's
+    Celery for optimizing message queues, sharing key lessons learned from running
+    these tools in production environments.
+  tags:
+  - Programming
+  - Editors Pick
+  - Python
+  - Queues
+  - Rabbitmq
+  title: 'A Deep Dive into RabbitMQ & Python’s Celery: How to Optimise Your Queues'
+  url: https://towardsdatascience.com/deep-dive-into-rabbitmq-pythons-celery-how-to-optimise-your-queues/
+- category: cybersecurity
+  published: '2025-09-03T03:53:00'
+  score: 1.147
+  source: The Hacker News
+  summary: Salesloft, a marketing SaaS provider, is temporarily taking Drift offline
+    due to a supply chain attack that has resulted in the theft of authentication
+    tokens from hundreds of organizations. The attack has far-reaching implications
+    and highlights the need for robust security measures in the software supply chain.
+  tags: []
+  title: Salesloft Takes Drift Offline After OAuth Token Theft Hits Hundreds of Organizations
+  url: https://thehackernews.com/2025/09/salesloft-takes-drift-offline-after.html
+- category: cybersecurity
+  published: '2025-09-03T02:59:09'
+  score: 1.092
+  source: Ars Technica
+  summary: The decision to move the U.S. Space Command to Alabama has less to do with
+    national security and more to do with potential cost savings, according to the
+    Pentagon. The move carries risks to military readiness and underscores the complex
+    political considerations involved in such decisions.
+  tags:
+  - Science
+  - Space
+  - Alabama
+  - Colorado
+  - Donald Trump
+  title: Trump’s move of SPACECOM to Alabama has little to do with national security
+  url: https://arstechnica.com/space/2025/09/trumps-move-of-spacecom-to-alabama-has-little-to-do-with-national-security/
+- category: ai
+  published: '2025-09-03T00:12:37'
+  score: 0.991
+  source: AWS Machine Learning
+  summary: The new Amazon SageMaker HyperPod CLI and SDK streamline the process of
+    training and deploying large AI models, enabling distributed training using Fully
+    Sharded Data Parallel (FSDP) and efficient model deployment for inference.
+  tags:
+  - Amazon SageMaker HyperPod
+  title: Train and deploy models on Amazon SageMaker HyperPod using the new HyperPod
+    CLI and SDK
+  url: https://aws.amazon.com/blogs/machine-learning/train-and-deploy-models-on-amazon-sagemaker-hyperpod-using-the-new-hyperpod-cli-and-sdk/
+- category: webdev
+  published: '2025-09-02T21:32:57'
+  score: 0.753
+  source: Towards Data Science
+  summary: The article provides a detailed implementation of the Caesar Cipher, a
+    classic cryptographic technique used by Julius Caesar, in Python, highlighting
+    its historical significance and underlying principles.
+  tags:
+  - Programming
+  - Cipher
+  - Coding
+  - Coding For Beginners
+  - Encryption
+  title: Implementing the Caesar Cipher in Python
+  url: https://towardsdatascience.com/implementing-the-caesar-cipher-in-python/
+- category: ai
+  published: '2025-09-02T19:46:01'
+  score: 0.816
+  source: Towards Data Science
+  summary: The article presents five powerful techniques, including RAG, contextual
+    retrieval, and evaluations, to scale AI search and handle millions of queries
+    efficiently.
+  tags:
+  - Conversational AI
+  - Artificial Intelligence
+  - Data Science
+  - Deep Research
+  - Llm
+  title: How to Scale Your AI Search to Handle 10M Queries with 5 Powerful Techniques
+  url: https://towardsdatascience.com/how-to-scale-your-ai-search-to-handle-10m-queries-with-5-powerful-techniques/
+- category: ai
+  published: '2025-09-02T19:29:23'
+  score: 0.902
+  source: Towards Data Science
+  summary: The concept of "universality" in large language models (LLMs) explores
+    how independently trained transformers can form the same neurons, leading to insights
+    about the underlying mechanisms and potential applications.
+  tags:
+  - Large Language Models
+  - Deep Learning
+  - Llm
+  - Machine Learning
+  - Neurons
+  title: What is Universality in LLMs? How to Find Universal Neurons
+  url: https://towardsdatascience.com/what-is-universality-in-llm-and-how-to-find-universal-neurons/
+- category: ai
+  published: '2025-09-02T16:43:47'
+  score: 0.883
+  source: AWS Machine Learning
+  summary: Amazon Nova showcases how natural language-based database analytics can
+    revolutionize the way organizations interact with their structured data, leveraging
+    the power of large language model (LLM) agents.
+  tags:
+  - Amazon Athena
+  - Amazon Bedrock
+  - Amazon Nova
+  - Amazon SageMaker
+  - AWS Glue
+  title: Natural language-based database analytics with Amazon Nova
+  url: https://aws.amazon.com/blogs/machine-learning/natural-language-based-database-analytics-with-amazon-nova/
+- category: ai
+  published: '2025-09-02T16:41:49'
+  score: 0.839
+  source: AWS Machine Learning
+  summary: The post demonstrates how to automate the deployment of Amazon Knowledge
+    Bases for Retrieval Augmented Generation (RAG) applications using Terraform, streamlining
+    the setup process.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Knowledge Bases
+  - Amazon OpenSearch Service
+  - Generative AI
+  - Intermediate (200)
+  title: Deploy Amazon Bedrock Knowledge Bases using Terraform for RAG-based generative
+    AI applications
+  url: https://aws.amazon.com/blogs/machine-learning/deploy-amazon-bedrock-knowledge-bases-using-terraform-for-rag-based-generative-ai-applications/
+- category: webdev
+  published: '2025-09-02T16:26:16'
+  score: 0.761
+  source: Ars Technica
+  summary: A 3D-printed mod by Noctua significantly improves the noise levels of the
+    Framework Desktop, showcasing the potential for functional hardware modifications
+    beyond just cosmetic changes.
+  tags:
+  - Tech
+  - 3d printer
+  - framework
+  - framework desktop
+  - noctua
+  title: Noctua’s 3D-printed mod singlehandedly makes the Framework Desktop run quieter
+  url: https://arstechnica.com/gadgets/2025/09/noctuas-3d-printed-mod-singlehandedly-makes-the-framework-desktop-run-quieter/
+- category: webdev
+  published: '2025-09-02T15:05:35'
+  score: 0.713
+  source: Towards Data Science
+  summary: The article discusses the importance of writing as a means of thinking,
+    featuring insights from an expert on breaking into the machine learning field
+    without a computer science degree and navigating career challenges.
+  tags:
+  - Artificial Intelligence
+  - Data analysis
+  - Data Science
+  - Writing
+  - Author Spotlights
+  title: Writing Is Thinking
+  url: https://towardsdatascience.com/writing-is-thinking/
+- category: webdev
+  published: '2025-09-02T14:44:26'
+  score: 0.75
+  source: CSS-Tricks
+  summary: The post explores whether the CSS `light-dark()` function should support
+    more than just light and dark color schemes, discussing the pros and cons of expanding
+    its capabilities.
+  tags:
+  - Articles
+  - color
+  - CSS functions
+  title: Should the CSS light-dark() Function Support More Than Light and Dark Values?
+  url: https://css-tricks.com/should-the-css-light-dark-function-support-more-than-light-and-dark-values/
+- category: cybersecurity
+  published: '2025-09-02T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Delta Electronics EIP Builder vulnerability, with a CVSS v4 score of
+    6.7, has a low attack complexity and requires attention from vendors and users.
+    The CSAF (Collaborative Security Advisory Format) provides details on the vulnerability
+    and the need for security updates.
+  tags: []
+  title: Delta Electronics EIP Builder
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-245-01
+- category: cybersecurity
+  published: '2025-09-02T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The SunPower PVS6 vulnerability, with a CVSS v4 score of 9.4, is exploitable
+    from an adjacent network and has a low attack complexity. The CSAF highlights
+    the urgent need for security updates to address this critical vulnerability.
+  tags: []
+  title: SunPower PVS6
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-245-03
+- category: cybersecurity
+  published: '2025-09-02T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Fuji Electric FRENIC-Loader 4 vulnerability, with a CVSS v4 score of
+    8.4, has a low attack complexity and requires action from the vendor, Fuji Electric,
+    and users to mitigate the risk.
+  tags: []
+  title: Fuji Electric FRENIC-Loader 4
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-245-02
+- category: webdev
   published: '2025-09-01T21:55:04'
   score: 0.755
   source: Krebs on Security
@@ -1610,5 +1814,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-02T05:03:58.546022'
-total_articles: 131
+last_updated: '2025-09-03T05:04:08.078326'
+total_articles: 146
