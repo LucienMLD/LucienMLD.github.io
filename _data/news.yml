@@ -1,4 +1,178 @@
 articles:
+- category: cybersecurity
+  published: '2025-09-04T18:51:42'
+  score: 1.075
+  source: BleepingComputer
+  summary: Threat actors have been exploiting a zero-day vulnerability in legacy Sitecore
+    deployments to deploy WeepSteel reconnaissance malware, underscoring the importance
+    of staying up-to-date with security patches and monitoring for signs of compromise.
+  tags:
+  - Security
+  title: Hackers exploited Sitecore zero-day flaw to deploy backdoors
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploited-sitecore-zero-day-flaw-to-deploy-backdoors/
+- category: ai
+  published: '2025-09-04T18:35:41'
+  score: 0.852
+  source: Towards Data Science
+  summary: A comparison of the logic game performance between popular large language
+    models (LLMs) and a custom-made algorithm raises questions about the appropriate
+    use of LLMs and the need for tailored solutions for specific tasks.
+  tags:
+  - Artificial Intelligence
+  - Agentic Ai
+  - Genai
+  - Llm
+  - Llm Applications
+  title: Should We Use LLMs As If They Were Swiss Knives?
+  url: https://towardsdatascience.com/should-we-use-llms-as-if-they-were-swiss-knives/
+- category: ai
+  published: '2025-09-04T18:00:00'
+  score: 0.804
+  source: DeepMind
+  summary: The Deep Loop Shaping method improves the control of gravitational wave
+    observatories, enabling astronomers to better understand the dynamics and formation
+    of the universe through more precise observations.
+  tags: []
+  title: Using AI to perceive the universe in greater depth
+  url: https://deepmind.google/discover/blog/using-ai-to-perceive-the-universe-in-greater-depth/
+- category: ai
+  published: '2025-09-04T17:35:47'
+  score: 0.845
+  source: Towards Data Science
+  summary: The article provides an in-depth understanding and implementation of the
+    MobileNetV1 neural network architecture, a compact and efficient model well-suited
+    for deployment on mobile devices.
+  tags:
+  - Deep Learning
+  - Artificial Intelligence
+  - Editors Pick
+  - Machine Learning
+  - Python
+  title: 'MobileNetV1 Paper Walkthrough: The Tiny Giant'
+  url: https://towardsdatascience.com/the-tiny-giant-mobilenetv1/
+- category: cybersecurity
+  published: '2025-09-04T16:21:19'
+  score: 1.105
+  source: BleepingComputer
+  summary: TP-Link has confirmed a zero-day vulnerability in multiple router models,
+    and CISA has warned that other router flaws are being exploited in attacks. This
+    highlights the need for prompt patching and vigilance against emerging cybersecurity
+    threats.
+  tags:
+  - Security
+  title: New TP-Link zero-day surfaces as CISA warns other flaws are exploited
+  url: https://www.bleepingcomputer.com/news/security/new-tp-link-zero-day-surfaces-as-cisa-warns-other-flaws-are-exploited/
+- category: webdev
+  published: '2025-09-04T16:00:57'
+  score: 0.718
+  source: WebKit Blog
+  summary: Web developers are invited to submit their ideas for Interop 2026, an opportunity
+    to contribute to the development and evolution of web standards and technologies.
+  tags:
+  - News
+  title: Submit your ideas for Interop 2026
+  url: https://webkit.org/blog/17320/submit-your-ideas-for-interop-2026/
+- category: webdev
+  published: '2025-09-04T16:00:00'
+  score: 0.758
+  source: Google AI Blog
+  summary: Google Photos' new Create tab introduces Veo 3, a feature that allows users
+    to easily create videos and animations from their photos, further enhancing the
+    platform's photo editing and content creation capabilities.
+  tags:
+  - Photos
+  - AI
+  title: Veo 3 comes to Google Photos. Try it in the new Create tab.
+  url: https://blog.google/products/photos/google-photos-create-tab-editing-tools/
+- category: webdev
+  published: '2025-09-04T15:02:14'
+  score: 0.712
+  source: Ars Technica
+  summary: 'The highly anticipated release of Hollow Knight: Silksong is overwhelming
+    Valve''s Steam platform and Nintendo''s eShop, highlighting the challenges of
+    managing high-demand game launches.'
+  tags:
+  - Gaming
+  - bandwidth
+  - server errors
+  - silksong
+  - Steam
+  title: 'Hollow Knight: Silksong is breaking Steam, Nintendo’s eShop'
+  url: https://arstechnica.com/gaming/2025/09/hollow-knight-silksong-is-breaking-steam/
+- category: cybersecurity
+  published: '2025-09-04T14:01:11'
+  score: 1.039
+  source: BleepingComputer
+  summary: The browser has become a prime target for various cyberattacks, including
+    phishing kits, ClickFix lures, malicious OAuth apps, and browser extensions, highlighting
+    the need for comprehensive security measures to protect against these emerging
+    threats.
+  tags:
+  - Security
+  title: 6 browser-based attacks all security teams should be ready for in 2025
+  url: https://www.bleepingcomputer.com/news/security/6-browser-based-attacks-all-security-teams-should-be-ready-for-in-2025/
+- category: ai
+  published: '2025-09-04T13:00:00'
+  score: 0.814
+  source: Towards Data Science
+  summary: The article explores seven emerging application patterns for using large
+    language models (LLMs) to boost anomaly detection capabilities, highlighting the
+    potential of these models to enhance various security and monitoring use cases.
+  tags:
+  - Large Language Models
+  - Anomaly Detection
+  - Deep Dives
+  - Explainable Ai
+  - Feature Engineering
+  title: Boosting Your Anomaly Detection With LLMs
+  url: https://towardsdatascience.com/boosting-your-anomaly-detection-with-llms/
+- category: cybersecurity
+  published: '2025-09-04T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Honeywell OneWireless Wireless Device Manager (WDM) has a high-severity
+    vulnerability (CVSS v4 8.8) that is remotely exploitable with low attack complexity,
+    requiring prompt attention from affected organizations.
+  tags: []
+  title: Honeywell OneWireless Wireless Device Manager (WDM)
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-247-01
+- category: ai
+  published: '2025-09-04T11:06:25'
+  score: 0.888
+  source: Schneier on Security
+  summary: Anthropic reports on a sophisticated cybercriminal who used Claude, an
+    AI language model, to commit large-scale theft and extortion of personal data,
+    underscoring the potential misuse of generative AI technologies by malicious actors.
+  tags:
+  - Uncategorized
+  - AI
+  - cybercrime
+  - extortion
+  - theft
+  title: Generative AI as a Cybercrime Assistant
+  url: https://www.schneier.com/blog/archives/2025/09/generative-ai-as-a-cybercrime-assistant.html
+- category: cybersecurity
+  published: '2025-09-04T10:03:00'
+  score: 1.057
+  source: The Hacker News
+  summary: CISA has added two security flaws impacting TP-Link wireless routers (CVE-2023-50224
+    and CVE-2025-9377) to its Known Exploited Vulnerabilities catalog, indicating
+    that these vulnerabilities are actively being exploited in the wild and should
+    be addressed quickly.
+  tags: []
+  title: CISA Flags TP-Link Router Flaws CVE-2023-50224 and CVE-2025-9377 as Actively
+    Exploited
+  url: https://thehackernews.com/2025/09/cisa-flags-tp-link-router-flaws-cve.html
+- category: webdev
+  published: '2025-09-04T10:00:00'
+  score: 0.681
+  source: Smashing Magazine
+  summary: Part 2 of the "Designing for TV" series provides practical guidance and
+    principles for building effective and engaging user experiences for television
+    interfaces, building on the foundations laid in the previous article.
+  tags: []
+  title: 'Designing For TV: Principles, Patterns And Practical Guidance (Part 2)'
+  url: https://smashingmagazine.com/2025/09/designing-tv-principles-patterns-practical-guidance/
 - category: webdev
   published: '2025-09-04T00:30:06'
   score: 0.871
@@ -2021,5 +2195,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-04T05:04:20.418505'
-total_articles: 161
+last_updated: '2025-09-05T05:04:21.217624'
+total_articles: 175
