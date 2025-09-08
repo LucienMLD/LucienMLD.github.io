@@ -1,4 +1,141 @@
 articles:
+- category: ai
+  published: '2025-09-08T00:07:54'
+  score: 0.946
+  source: BleepingComputer
+  summary: Google plans to make it easier for users to access its AI mode by allowing
+    them to set it as the default, replacing the traditional blue links and highlighting
+    the company's focus on AI integration.
+  tags:
+  - Google
+  - Technology
+  title: Google to make it easier to access AI Mode as default
+  url: https://www.bleepingcomputer.com/news/google/google-to-make-it-easier-to-access-ai-mode-as-default/
+- category: ai
+  published: '2025-09-07T23:33:49'
+  score: 1.03
+  source: BleepingComputer
+  summary: ChatGPT has made its Projects feature free and added a new feature that
+    allows users to create new conversations from existing ones, improving the chatbot's
+    functionality.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT makes Projects feature free, adds a toggle to split chat
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-makes-projects-feature-free-adds-a-toggle-to-split-chat/
+- category: cybersecurity
+  published: '2025-09-07T17:10:29'
+  score: 0.919
+  source: BleepingComputer
+  summary: Cybercriminals are abusing iCloud Calendar invites to send phishing emails
+    disguised as purchase notifications, taking advantage of Apple's servers to bypass
+    spam filters and reach targets' inboxes.
+  tags:
+  - Security
+  title: iCloud Calendar abused to send phishing emails from Apple’s servers
+  url: https://www.bleepingcomputer.com/news/security/icloud-calendar-abused-to-send-phishing-emails-from-apples-servers/
+- category: ai
+  published: '2025-09-07T16:00:00'
+  score: 0.79
+  source: Towards Data Science
+  summary: The article provides an overview of the Hilbert curve, a space-filling
+    curve that can be used for various applications, including data visualization
+    and indexing, with a focus on its theoretical foundations and implementation.
+  tags:
+  - Math
+  - Data Engineering
+  - Data Science
+  - Editors Pick
+  - Hilbert Curve
+  title: 'The Beauty of Space-Filling Curves: Understanding the Hilbert Curve'
+  url: https://towardsdatascience.com/the-beauty-of-space-filling-curves-understanding-the-hilbert-curve/
+- category: cybersecurity
+  published: '2025-09-07T14:09:19'
+  score: 0.896
+  source: BleepingComputer
+  summary: The Czech Republic's National Cyber and Information Security Agency is
+    warning critical infrastructure organizations to avoid using Chinese technology
+    or transferring user data to servers located in China, citing cybersecurity concerns.
+  tags:
+  - Security
+  - Government
+  title: Czech cyber agency warns against Chinese tech in critical infrastructure
+  url: https://www.bleepingcomputer.com/news/security/czech-cyber-agency-warns-against-chinese-tech-in-critical-infrastructure/
+- category: ai
+  published: '2025-09-07T14:00:00'
+  score: 0.82
+  source: Towards Data Science
+  summary: The article discusses how timeouts, truncation, and result sanitization
+    techniques can be used to keep Cypher outputs from Neo4j databases LLM-ready,
+    preventing context overload and ensuring smooth integration.
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - Graph
+  - Llm
+  - mcp
+  title: 'Preventing Context Overload: Controlled Neo4j MCP Cypher Responses for LLMs'
+  url: https://towardsdatascience.com/preventing-context-overload-controlled-neo4j-mcp-cypher-responses-for-llms/
+- category: webdev
+  published: '2025-09-07T13:00:58'
+  score: 0.7
+  source: Ars Technica
+  summary: Porsche has introduced a new 911 variant with an insanely clever hybrid
+    engine, which has resulted in a 14-second improvement in lap time around the Nürburgring
+    Nordschleife, showcasing the advancements in automotive technology.
+  tags:
+  - Cars
+  - Porsche 911 Carrera GTS T-Hybrid
+  - Porsche 911 Turbo S
+  title: Porsche’s insanely clever hybrid engine comes to the 911 Turbo S
+  url: https://arstechnica.com/cars/2025/09/porsches-insanely-clever-hybrid-engine-comes-to-the-911-turbo-s/
+- category: cybersecurity
+  published: '2025-09-06T18:58:00'
+  score: 0.75
+  source: BleepingComputer
+  summary: VirusTotal has discovered a phishing campaign hidden in SVG files that
+    creates convincing portals impersonating Colombia's judicial system and delivers
+    malware, highlighting the evolving threat landscape.
+  tags:
+  - Security
+  title: VirusTotal finds hidden malware phishing campaign in SVG files
+  url: https://www.bleepingcomputer.com/news/security/virustotal-finds-hidden-malware-phishing-campaign-in-svg-files/
+- category: ai
+  published: '2025-09-06T16:00:00'
+  score: 0.619
+  source: Towards Data Science
+  summary: The article explores the use of guardrails in multi-agent systems built
+    with the OpenAI Agents SDK, Streamlit, and Pydantic, highlighting how these safeguards
+    can help protect input and output in AI-powered applications.
+  tags:
+  - Agentic AI
+  - Agents SDK
+  - Ai Safety
+  - Pydantic
+  - Python
+  title: 'Hands-On with Agents SDK: Safeguarding Input and Output with Guardrails'
+  url: https://towardsdatascience.com/hands-on-with-agents-sdk-safeguarding-input-and-output-with-guardrails/
+- category: cybersecurity
+  published: '2025-09-06T15:13:00'
+  score: 0.722
+  source: The Hacker News
+  summary: A threat actor possibly of Russian origin, dubbed Noisy Bear, has been
+    targeting the energy sector in Kazakhstan with a new phishing campaign codenamed
+    Operation BarrelFire, delivering malware through the attacks.
+  tags: []
+  title: Noisy Bear Targets Kazakhstan Energy Sector With BarrelFire Phishing Campaign
+  url: https://thehackernews.com/2025/09/noisy-bear-targets-kazakhstan-energy.html
+- category: cybersecurity
+  published: '2025-09-06T14:11:21'
+  score: 0.714
+  source: BleepingComputer
+  summary: Investigations into the Nx "s1ngularity" NPM supply chain attack have revealed
+    a massive fallout, with thousands of account tokens and repository secrets leaked
+    due to AI-powered malware that affected 2,180 GitHub accounts.
+  tags:
+  - Security
+  title: AI-powered malware hit 2,180 GitHub accounts in “s1ngularity” attack
+  url: https://www.bleepingcomputer.com/news/security/ai-powered-malware-hit-2-180-github-accounts-in-s1ngularity-attack/
 - category: cybersecurity
   published: '2025-09-04T18:51:42'
   score: 1.075
@@ -2195,5 +2332,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-05T05:04:21.217624'
-total_articles: 175
+last_updated: '2025-09-08T05:04:08.788123'
+total_articles: 186
