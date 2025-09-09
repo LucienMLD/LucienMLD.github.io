@@ -1,4 +1,204 @@
 articles:
+- category: cybersecurity
+  published: '2025-09-09T01:03:02'
+  score: 1.126
+  source: BleepingComputer
+  summary: Plex, a media streaming platform, suffered a data breach where a hacker
+    stole customer authentication data from one of its databases. Plex is warning
+    customers to reset their passwords to protect their accounts.
+  tags:
+  - Security
+  title: Plex tells users to reset passwords after new data breach
+  url: https://www.bleepingcomputer.com/news/security/plex-tells-users-to-reset-passwords-after-new-data-breach/
+- category: cybersecurity
+  published: '2025-09-09T00:37:04'
+  score: 1.075
+  source: Ars Technica
+  summary: A supply chain attack has impacted software packages with over 2 billion
+    weekly downloads, likely making it the largest such attack ever. The attack occurred
+    after a hacker gained access to a maintainer's account through a phishing attack.
+  tags:
+  - Biz & IT
+  - Security
+  - npm
+  - open source
+  - supply chain
+  title: Software packages with more than 2 billion weekly downloads hit in supply-chain
+    attack
+  url: https://arstechnica.com/security/2025/09/software-packages-with-more-than-2-billion-weekly-downloads-hit-in-supply-chain-attack/
+- category: cybersecurity
+  published: '2025-09-09T00:27:00'
+  score: 1.073
+  source: The Hacker News
+  summary: Threat hunters have discovered a set of previously unreported domains associated
+    with the China-linked threat actors Salt Typhoon and UNC4841, dating back to May
+    2020, further confirming the group's longstanding cyber espionage activities.
+  tags: []
+  title: 45 Previously Unreported Domains Expose Longstanding Salt Typhoon Cyber Espionage
+  url: https://thehackernews.com/2025/09/45-previously-unreported-domains-expose.html
+- category: webdev
+  published: '2025-09-08T23:41:34'
+  score: 0.866
+  source: Towards Data Science
+  summary: This beginner-friendly tutorial explains how to understand the range function
+    and Python loops by implementing the Gaussian Challenge.
+  tags:
+  - Programming
+  - Beginner Coding
+  - Coding
+  - Gaussian
+  - Math
+  title: Implementing the Gaussian Challenge in Python
+  url: https://towardsdatascience.com/implementing-the-gaussian-challenge-in-python/
+- category: ai
+  published: '2025-09-08T20:50:04'
+  score: 0.823
+  source: AWS Machine Learning
+  summary: Amazon SageMaker has introduced fine-grained compute and memory quota allocation
+    with HyperPod task governance, allowing customers to optimize their Amazon EKS
+    cluster utilization.
+  tags:
+  - Amazon SageMaker HyperPod
+  - Announcements
+  - Artificial Intelligence
+  - Generative AI
+  - Technical How-to
+  title: Maximize HyperPod Cluster utilization with HyperPod task governance fine-grained
+    quota allocation
+  url: https://aws.amazon.com/blogs/machine-learning/maximize-hyperpod-cluster-utilization-with-hyperpod-task-governance-fine-grained-quota-allocation/
+- category: ai
+  published: '2025-09-08T20:14:36'
+  score: 0.819
+  source: Towards Data Science
+  summary: This article discusses the evolution of Python project management tooling,
+    including the role of agentic AI, accelerating and decelerating factors, and strategic
+    recommendations for incumbents and new entrants.
+  tags:
+  - Agentic AI
+  - Developer Tools
+  - Product Strategy
+  - Project Management
+  - Python
+  title: Agentic AI and the Future of Python Project Management Tooling
+  url: https://towardsdatascience.com/agentic-ai-and-the-future-of-python-project-management-tooling/
+- category: ai
+  published: '2025-09-08T20:04:37'
+  score: 0.818
+  source: Towards Data Science
+  summary: The author explores the concept of building a neuro-symbolic AI mathematician,
+    where the next Gauss may be "spun up in the cloud" rather than born.
+  tags:
+  - Artificial Intelligence
+  - Deep Dives
+  - Gaussian
+  - Llm
+  - Math
+  title: 'From Tokens to Theorems: Building a Neuro-Symbolic AI Mathematician'
+  url: https://towardsdatascience.com/from-tokens-to-theorems-building-a-neuro-symbolic-ai-mathematician/
+- category: webdev
+  published: '2025-09-08T19:29:40'
+  score: 0.78
+  source: Ars Technica
+  summary: In a court filing, Google has conceded that the open web is in "rapid decline,"
+    indicating a concerning trend for the state of the internet.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - advertising
+  - antitrust
+  title: In court filing, Google concedes the open web is in “rapid decline”
+  url: https://arstechnica.com/google/2025/09/in-court-filing-google-concedes-the-open-web-is-in-rapid-decline/
+- category: ai
+  published: '2025-09-08T19:18:02'
+  score: 0.813
+  source: Ars Technica
+  summary: Celebrated molecular biologist and Nobel laureate David Baltimore passed
+    away at the age of 87, weathering a late 1980s controversy to become the Caltech
+    president.
+  tags:
+  - Science
+  - Biology
+  - David Baltimore
+  - obituary
+  title: Nobel laureate David Baltimore dead at 87
+  url: https://arstechnica.com/science/2025/09/nobel-laureate-david-baltimore-dead-at-87/
+- category: cybersecurity
+  published: '2025-09-08T18:24:25'
+  score: 1.072
+  source: BleepingComputer
+  summary: American furniture brand Lovesac has suffered a data breach, exposing the
+    personal data of an undisclosed number of individuals. The breach occurred due
+    to a cybersecurity incident.
+  tags:
+  - Security
+  title: Lovesac confirms data breach after ransomware attack claims
+  url: https://www.bleepingcomputer.com/news/security/lovesac-confirms-data-breach-after-ransomware-attack-claims/
+- category: cybersecurity
+  published: '2025-09-08T16:47:51'
+  score: 1.012
+  source: BleepingComputer
+  summary: Hackers have injected malware into NPM packages with over 2.6 billion weekly
+    downloads through a supply chain attack, after compromising a maintainer's account
+    in a phishing attack.
+  tags:
+  - Security
+  title: Hackers hijack npm packages with 2 billion weekly downloads in supply chain
+    attack
+  url: https://www.bleepingcomputer.com/news/security/hackers-hijack-npm-packages-with-2-billion-weekly-downloads-in-supply-chain-attack/
+- category: webdev
+  published: '2025-09-08T16:00:00'
+  score: 0.718
+  source: Towards Data Science
+  summary: The third part of the "End-to-End Data Scientist's Prompt Playbook" series
+    covers prompts for documentation, DevOps, and stakeholder communication.
+  tags:
+  - Large Language Models
+  - Data Science
+  - Deep Dives
+  - DevOps
+  - Llm
+  title: The End-to-End Data Scientist’s Prompt Playbook
+  url: https://towardsdatascience.com/the-end-to-end-data-scientists-prompt-playbook/
+- category: ai
+  published: '2025-09-08T14:00:00'
+  score: 0.82
+  source: OpenAI
+  summary: OpenAI's $50 million People-First AI Fund is accepting applications from
+    U.S. nonprofits to support initiatives that advance education, community innovation,
+    and economic opportunity through the use of AI for the public good.
+  tags: []
+  title: 'A People-First AI Fund: $50M to support nonprofits'
+  url: https://openai.com/index/people-first-ai-fund
+- category: webdev
+  published: '2025-09-08T13:55:26'
+  score: 0.745
+  source: CSS-Tricks
+  summary: This article discusses the composable nature of CSS, highlighting how the
+    cascade already enables composition, even though it is not commonly discussed
+    as a "big thing" in the language.
+  tags:
+  - Articles
+  - cascade
+  - CSS
+  - specificity
+  title: Composition in CSS
+  url: https://css-tricks.com/composition-in-css/
+- category: webdev
+  published: '2025-09-08T13:00:00'
+  score: 0.7
+  source: Towards Data Science
+  summary: This beginner-friendly tutorial guides the reader through the implementation
+    of a Coffee Machine in Python, covering various functionalities and programming
+    concepts.
+  tags:
+  - Programming
+  - Coding
+  - Data Science
+  - Editors Pick
+  - Python
+  title: Implementing the Coffee Machine in Python
+  url: https://towardsdatascience.com/implementing-the-coffee-machine-in-python/
 - category: ai
   published: '2025-09-08T00:07:54'
   score: 0.946
@@ -2332,5 +2532,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-08T05:04:08.788123'
-total_articles: 186
+last_updated: '2025-09-09T05:04:16.198636'
+total_articles: 201
