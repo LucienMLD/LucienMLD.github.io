@@ -1,5 +1,226 @@
 articles:
 - category: cybersecurity
+  published: '2025-09-10T01:08:00'
+  score: 1.271
+  source: The Hacker News
+  summary: Adobe has warned of a critical security flaw (CVE-2025-54236) in its Commerce
+    and Magento Open Source platforms that could allow attackers to take control of
+    customer accounts. The vulnerability, with a CVSS score of 9.1, is related to
+    session management and could enable unauthorized access to customer data.
+  tags: []
+  title: Adobe Commerce Flaw CVE-2025-54236 Lets Hackers Take Over Customer Accounts
+  url: https://thehackernews.com/2025/09/adobe-commerce-flaw-cve-2025-54236-lets.html
+- category: cybersecurity
+  published: '2025-09-10T01:03:00'
+  score: 1.27
+  source: The Hacker News
+  summary: SAP has released security updates to address multiple critical vulnerabilities,
+    including a deserialization flaw (CVE-2025-42944) in SAP Netweaver with a CVSS
+    score of 10.0 that could result in remote code execution and arbitrary file uploads.
+    These vulnerabilities pose a significant risk and should be patched promptly.
+  tags: []
+  title: SAP Patches Critical NetWeaver (CVSS Up to 10.0) and Previously Exploited
+    S/4HANA Flaws
+  url: https://thehackernews.com/2025/09/sap-patches-critical-netweaver-cvss-up.html
+- category: webdev
+  published: '2025-09-09T22:45:17'
+  score: 0.761
+  source: Ars Technica
+  summary: Apple's new iPhones feature the company's custom N1 wireless chip, marking
+    the first time it has been included in an iPhone. This custom chip is expected
+    to become more widely adopted, potentially improving wireless connectivity and
+    performance in various Apple devices.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - iphone 17
+  - iphone 17 pro
+  title: New iPhones use Apple N1 wireless chip—and we’ll probably start seeing it
+    everywhere
+  url: https://arstechnica.com/gadgets/2025/09/apples-n1-chip-extends-its-custom-silicon-into-wi-fi-bluetooth-and-thread/
+- category: webdev
+  published: '2025-09-09T22:32:52'
+  score: 0.759
+  source: Ars Technica
+  summary: A bug in Reddit's system caused a lesbian subreddit to be incorrectly labeled
+    as a place for "straight" women, raising concerns that the platform may have used
+    generative AI to rewrite user-created content. This incident highlights the need
+    for careful oversight and testing of AI-powered features to prevent unintended
+    consequences.
+  tags:
+  - AI
+  - Tech
+  - reddit
+  - social media
+  title: Reddit bug caused lesbian subreddit to be labeled as a place for “straight”
+    women
+  url: https://arstechnica.com/gadgets/2025/09/reddit-bug-caused-lesbian-subreddit-to-be-labeled-as-a-place-for-straight-women/
+- category: webdev
+  published: '2025-09-09T21:59:42'
+  score: 0.756
+  source: Ars Technica
+  summary: Apple's new iPhone lineup showcases a new form-vs.-function spectrum, with
+    the iPhone 17 Air focusing on thinness and portability, while other models prioritize
+    more advanced features. This divergence in design approaches caters to different
+    user preferences and needs.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - iphone
+  - iphone 17
+  title: 'Hands-on with Apple’s new iPhones: Beauty and the beast and the regular-looking
+    one'
+  url: https://arstechnica.com/gadgets/2025/09/hands-on-with-the-iphone-17-lineup-including-the-wispy-air-and-the-lumpy-pro/
+- category: cybersecurity
+  published: '2025-09-09T21:21:14'
+  score: 1.094
+  source: Krebs on Security
+  summary: Microsoft's September 2025 Patch Tuesday includes security updates for
+    more than 80 vulnerabilities in its Windows operating systems and software. While
+    there are no known "zero-day" or actively exploited flaws, the updates address
+    13 vulnerabilities that earned Microsoft's highest severity rating, requiring
+    immediate attention.
+  tags:
+  - Latest Warnings
+  - The Coming Storm
+  - Time to Patch
+  - apple
+  - CVE-2025-38352
+  title: Microsoft Patch Tuesday, September 2025 Edition
+  url: https://krebsonsecurity.com/2025/09/microsoft-patch-tuesday-september-2025-edition/
+- category: ai
+  published: '2025-09-09T20:29:08'
+  score: 0.821
+  source: Ars Technica
+  summary: NASA's ambitious mission to Titan is "on track" for launch, despite early
+    struggles, as the team continues to hit important milestones. This mission aims
+    to explore Saturn's largest moon, Titan, and could provide valuable insights into
+    the formation and evolution of our solar system.
+  tags:
+  - Space
+  - dragonfly
+  - NASA
+  - Saturn
+  - space
+  title: After early struggles, NASA’s ambitious mission to Titan is “on track” for
+    launch
+  url: https://arstechnica.com/space/2025/09/after-early-struggles-nasas-ambitious-mission-to-titan-is-on-track-for-launch/
+- category: webdev
+  published: '2025-09-09T18:24:22'
+  score: 0.733
+  source: Ars Technica
+  summary: The iPhone 17 Air is a real product from Apple, offering a hypertargeted
+    design for customers seeking an extra-thin handset. While not revolutionary, this
+    model represents Apple's commitment to addressing the needs of a specific segment
+    of the smartphone market.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - Apple A19 pro
+  - iphone
+  title: iPhone 17 Air is real—here’s what’s new in Apple’s extra-thin handset
+  url: https://arstechnica.com/gadgets/2025/09/iphone-17-air-is-real-heres-whats-new-in-apples-extra-thin-handset/
+- category: webdev
+  published: '2025-09-09T18:22:04'
+  score: 0.733
+  source: Ars Technica
+  summary: Apple's upcoming operating system updates, including iOS 26, iPadOS 26,
+    and macOS 26 Tahoe, are set to launch on September 15. These updates will bring
+    new features and improvements, including the integration of Liquid Glass technology,
+    to supported Apple devices.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - ios 26
+  - ipados 26
+  title: iOS 26, iPadOS 26, macOS 26 Tahoe, and Apple’s other OS updates launch September
+    15
+  url: https://arstechnica.com/gadgets/2025/09/ios-26-ipados-26-macos-26-tahoe-and-apples-other-os-updates-launch-september-15/
+- category: ai
+  published: '2025-09-09T17:40:53'
+  score: 0.89
+  source: AWS Machine Learning
+  summary: As generative AI continues to transform enterprises, the infrastructure
+    demands for training and deploying AI models have grown exponentially. Traditional
+    approaches are struggling to keep up, and AWS is tackling these challenges by
+    providing innovative solutions to power AI innovation at scale.
+  tags:
+  - Amazon SageMaker AI
+  - Amazon SageMaker HyperPod
+  - Announcements
+  - Generative AI
+  title: 'Powering innovation at scale: How AWS is tackling AI infrastructure challenges'
+  url: https://aws.amazon.com/blogs/machine-learning/powering-innovation-at-scale-how-aws-is-tackling-ai-infrastructure-challenges/
+- category: ai
+  published: '2025-09-09T14:35:22'
+  score: 0.868
+  source: AWS Machine Learning
+  summary: AWS has announced managed tiered checkpointing in Amazon SageMaker HyperPod,
+    a purpose-built infrastructure to scale and accelerate generative AI model development.
+    This feature uses CPU memory for high-performance checkpoint storage, automatically
+    managing data movement to improve training efficiency.
+  tags:
+  - Amazon SageMaker HyperPod
+  - Announcements
+  - Artificial Intelligence
+  - Generative AI
+  title: Accelerate your model training with managed tiered checkpointing on Amazon
+    SageMaker HyperPod
+  url: https://aws.amazon.com/blogs/machine-learning/accelerate-your-model-training-with-managed-tiered-checkpointing-on-amazon-sagemaker-hyperpod/
+- category: ai
+  published: '2025-09-09T14:00:00'
+  score: 0.82
+  source: Towards Data Science
+  summary: Losing control of AI agents during workflows is a common issue. LangGraph
+    201 addresses this by adding human oversight to deep research agents, ensuring
+    better control and preventing unintended autonomous behavior, which is a crucial
+    step in the development of reliable AI systems.
+  tags:
+  - Large Language Models
+  - Deep Dives
+  - Human In The Loop
+  - Langgraph
+  - LLM Agents
+  title: 'LangGraph 201: Adding Human Oversight to Your Deep Research Agent'
+  url: https://towardsdatascience.com/langgraph-201-adding-human-oversight-to-your-deep-research-agent/
+- category: cybersecurity
+  published: '2025-09-09T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Rockwell Automation's FactoryTalk Optix product contains a vulnerability
+    (CVSS v4 score of 7.3) that can be exploited remotely, allowing attackers to potentially
+    gain access to the system. Customers using FactoryTalk Optix should prioritize
+    applying the available security patch from the vendor.
+  tags: []
+  title: Rockwell Automation FactoryTalk Optix
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-252-04
+- category: cybersecurity
+  published: '2025-09-09T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: ABB's Cylon Aspect BMS/BAS product has a critical vulnerability (CVSS v4
+    score of 9.3) that can be exploited remotely with low attack complexity. This
+    flaw could enable unauthorized access and compromise of the affected systems,
+    making it a high-priority issue for users to address.
+  tags: []
+  title: ABB Cylon Aspect BMS/BAS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-252-02
+- category: ai
+  published: '2025-09-09T10:00:00'
+  score: 0.837
+  source: OpenAI
+  summary: SafetyKit, powered by OpenAI GPT-5, enhances content moderation and compliance
+    enforcement, outpacing legacy safety systems with greater accuracy. This showcases
+    how AI-powered solutions can be leveraged to address evolving content moderation
+    challenges.
+  tags: []
+  title: Shipping smarter agents with every new model
+  url: https://openai.com/index/safetykit
+- category: cybersecurity
   published: '2025-09-09T01:03:02'
   score: 1.126
   source: BleepingComputer
@@ -2532,5 +2753,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-09T05:04:16.198636'
-total_articles: 201
+last_updated: '2025-09-10T05:04:03.801053'
+total_articles: 216
