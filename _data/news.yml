@@ -1,4 +1,193 @@
 articles:
+- category: ai
+  published: '2025-09-11T02:01:11'
+  score: 0.959
+  source: Ars Technica
+  summary: The Pentagon is deploying a new satellite network that will fully integrate
+    space-based sensors into military operations, enabling better coordination between
+    surveillance and weapons systems.
+  tags:
+  - Science
+  - Space
+  - falcon 9
+  - launch
+  - military space
+  title: Pentagon begins deploying new satellite network to link sensors with shooters
+  url: https://arstechnica.com/space/2025/09/pentagon-begins-deploying-new-satellite-network-to-link-sensors-with-shooters/
+- category: ai
+  published: '2025-09-10T23:08:37'
+  score: 0.939
+  source: Towards Data Science
+  summary: The post discusses using Population Stability Index (PSI) and Cramér's
+    V to assess the representativeness of training data, ensuring valid performance
+    of machine learning models.
+  tags:
+  - Data Science
+  - Data Distribution
+  - Deep Dives
+  - Machine Learning
+  - Python
+  title: Is Your Training Data Representative? A Guide to Checking with PSI in Python
+  url: https://towardsdatascience.com/assessment-of-representativeness-between-two-populations-to-ensure-valid-performance-2/
+- category: cybersecurity
+  published: '2025-09-10T22:09:41'
+  score: 1.004
+  source: BleepingComputer
+  summary: A DDoS mitigation service provider in Europe was hit by a massive 1.5 billion
+    packets per second distributed denial-of-service attack, highlighting the ongoing
+    threat of large-scale DDoS attacks targeting cybersecurity infrastructure.
+  tags:
+  - Security
+  title: DDoS defender targeted in 1.5 Bpps denial-of-service attack
+  url: https://www.bleepingcomputer.com/news/security/ddos-defender-targeted-in-15-bpps-denial-of-service-attack/
+- category: cybersecurity
+  published: '2025-09-10T21:16:51'
+  score: 0.95
+  source: Ars Technica
+  summary: A mobile drone detection radar system had its range doubled through a simple
+    software patch, showcasing the potential for rapid, cost-effective upgrades to
+    existing military technologies.
+  tags:
+  - Culture
+  - drones
+  - Ukraine
+  title: After Ukrainian testing, drone detection radar doubles range with simple
+    software patch
+  url: https://arstechnica.com/culture/2025/09/after-ukrainian-testing-drone-detection-radar-doubles-range-with-simple-software-patch/
+- category: ai
+  published: '2025-09-10T20:54:20'
+  score: 0.824
+  source: Ars Technica
+  summary: The CEO of Warner Bros. Discovery believes HBO Max is "way underpriced,"
+    suggesting potential future price hikes as the streaming landscape evolves.
+  tags:
+  - Tech
+  - hbo max
+  - max
+  - streaming
+  - warner bros. discovery
+  title: HBO Max is “way underpriced,” Warner Bros. Discovery CEO says
+  url: https://arstechnica.com/gadgets/2025/09/hbo-max-is-way-underpriced-warner-bros-discovery-ceo-says/
+- category: ai
+  published: '2025-09-10T18:08:49'
+  score: 0.849
+  source: Ars Technica
+  summary: A major outage at the Anthropic AI service left some developers temporarily
+    "coding like cavemen," underscoring the reliance of modern software development
+    on external AI tools.
+  tags:
+  - AI
+  - Biz & IT
+  - agentic AI
+  - AI agents
+  - AI assistants
+  title: Developers joke about “coding like cavemen” as AI service suffers major outage
+  url: https://arstechnica.com/ai/2025/09/developers-joke-about-coding-like-cavemen-as-ai-service-suffers-major-outage/
+- category: webdev
+  published: '2025-09-10T17:56:15'
+  score: 0.73
+  source: BleepingComputer
+  summary: A massive supply-chain attack on the NPM ecosystem impacted roughly 10%
+    of cloud environments, but attackers made little profit, highlighting the challenges
+    in monetizing large-scale software compromises.
+  tags:
+  - Security
+  - CryptoCurrency
+  title: Hackers left empty-handed after massive NPM supply-chain attack
+  url: https://www.bleepingcomputer.com/news/security/hackers-left-empty-handed-after-massive-npm-supply-chain-attack/
+- category: webdev
+  published: '2025-09-10T16:23:25'
+  score: 0.721
+  source: Ars Technica
+  summary: Spotify warned developers to stop selling user data to build AI tools,
+    but the developers claimed they never received the warning, showcasing the challenges
+    in controlling data usage.
+  tags:
+  - AI
+  - Features
+  - Policy
+  - AI models
+  - Artificial Intelligence
+  title: Spotify peeved after 10,000 users sold data to build AI tools
+  url: https://arstechnica.com/tech-policy/2025/09/spotify-peeved-after-10000-users-sold-data-to-build-ai-tools/
+- category: cybersecurity
+  published: '2025-09-10T15:46:00'
+  score: 0.956
+  source: The Hacker News
+  summary: A Chinese advanced persistent threat group compromised a Philippines-based
+    military company using a previously unknown fileless malware framework called
+    EggStreme, demonstrating the evolving tactics of state-sponsored cyber espionage
+    campaigns.
+  tags: []
+  title: Chinese APT Deploys EggStreme Fileless Malware to Breach Philippine Military
+    Systems
+  url: https://thehackernews.com/2025/09/chinese-apt-deploys-eggstreme-fileless.html
+- category: webdev
+  published: '2025-09-10T15:00:44'
+  score: 0.712
+  source: Ars Technica
+  summary: The Perseverance rover may have detected potential biosignatures on Mars,
+    but interpreting the data is complex as non-biological processes could also account
+    for the findings.
+  tags:
+  - Science
+  - astrobiology
+  - biosignature
+  - Mars
+  - Mars Perseverance
+  title: Has Perseverance found a biosignature on Mars?
+  url: https://arstechnica.com/science/2025/09/has-perseverance-found-a-biosignature-on-mars/
+- category: ai
+  published: '2025-09-10T14:13:08'
+  score: 0.866
+  source: Machine Learning Mastery
+  summary: The article debunks 10 common misconceptions about large language models,
+    providing a more nuanced understanding of their capabilities and limitations.
+  tags: []
+  title: 10 Common Misconceptions About Large Language Models
+  url: https://machinelearningmastery.com/10-common-misconceptions-about-large-language-models/
+- category: cybersecurity
+  published: '2025-09-10T14:02:12'
+  score: 0.943
+  source: BleepingComputer
+  summary: The Clorox breach, where attackers obtained $380 million in damages by
+    simply convincing the helpdesk to reset passwords and MFA, highlights the critical
+    importance of robust caller verification and audit trail practices.
+  tags:
+  - Security
+  title: Can I have a new password, please? The $400M question.
+  url: https://www.bleepingcomputer.com/news/security/can-i-have-a-new-password-please-the-400m-question/
+- category: webdev
+  published: '2025-09-10T13:13:41'
+  score: 0.741
+  source: CSS-Tricks
+  summary: The article explores the diversity of opinions on the top CSS properties,
+    reflecting the subjective and creative nature of front-end web development.
+  tags:
+  - Articles
+  - css properties
+  - opinion
+  title: What’re Your Top 4 CSS Properties?
+  url: https://css-tricks.com/whatre-your-top-4-css-properties/
+- category: webdev
+  published: '2025-09-10T10:00:00'
+  score: 0.721
+  source: Smashing Magazine
+  summary: The post describes the process of integrating CSS Cascade Layers into an
+    existing legacy codebase, providing a practical guide for front-end developers.
+  tags: []
+  title: Integrating CSS Cascade Layers To An Existing Project
+  url: https://smashingmagazine.com/2025/09/integrating-css-cascade-layers-existing-project/
+- category: cybersecurity
+  published: '2025-09-10T08:00:00'
+  score: 0.946
+  source: The Hacker News
+  summary: Researchers have uncovered a new phishing-as-a-service platform called
+    Salty2FA that is designed to bypass multiple two-factor authentication methods,
+    posing a significant threat to enterprises.
+  tags: []
+  title: 'Watch Out for Salty2FA: New Phishing Kit Targeting US and EU Enterprises'
+  url: https://thehackernews.com/2025/09/watch-out-for-salty2fa-new-phishing-kit.html
 - category: cybersecurity
   published: '2025-09-10T01:08:00'
   score: 1.271
@@ -2753,5 +2942,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-10T05:04:03.801053'
-total_articles: 216
+last_updated: '2025-09-11T05:03:56.872573'
+total_articles: 231
