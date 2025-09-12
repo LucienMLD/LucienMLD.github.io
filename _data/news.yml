@@ -1,4 +1,198 @@
 articles:
+- category: cybersecurity
+  published: '2025-09-12T04:49:00'
+  score: 1.154
+  source: The Hacker News
+  summary: The Cursor AI-powered code editor has a security flaw that could enable
+    silent code execution when a malicious repository is opened. The issue stems from
+    a disabled out-of-the-box security setting, highlighting the importance of proper
+    configuration and security practices in AI-powered tools.
+  tags: []
+  title: Cursor AI Code Editor Flaw Enables Silent Code Execution via Malicious Repositories
+  url: https://thehackernews.com/2025/09/cursor-ai-code-editor-flaw-enables.html
+- category: ai
+  published: '2025-09-11T22:27:53'
+  score: 0.879
+  source: Ars Technica
+  summary: OpenAI and Microsoft have signed a preliminary deal to revise their partnership
+    terms as OpenAI pursues a for-profit restructuring, indicating the evolving landscape
+    of AI technology development and commercialization.
+  tags:
+  - AI
+  - Biz & IT
+  - AI development
+  - AI ethics
+  - AI law
+  title: OpenAI and Microsoft sign preliminary deal to revise partnership terms
+  url: https://arstechnica.com/ai/2025/09/openai-and-microsoft-sign-preliminary-deal-to-revise-partnership-terms/
+- category: webdev
+  published: '2025-09-11T19:02:42'
+  score: 0.737
+  source: Ars Technica
+  summary: 'The latest trailer for the TRON: Ares project teases a connection between
+    the virtual and physical worlds, hinting at the continued exploration of the TRON
+    universe and its technological themes.'
+  tags:
+  - Culture
+  - entertainment
+  - film trailers
+  - Trailers
+  - 'Tron: Ares'
+  title: 'Latest TRON: Ares trailer takes us back to 1982'
+  url: https://arstechnica.com/culture/2025/09/latest-tron-ares-trailer-takes-us-back-to-1982/
+- category: ai
+  published: '2025-09-11T17:59:15'
+  score: 0.892
+  source: AWS Machine Learning
+  summary: Skello, an HR software SaaS solution, uses Amazon Bedrock to query data
+    in a multi-tenant environment while maintaining logical boundaries, enabling secure
+    and efficient data access for its diverse customer base.
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Bedrock Agents
+  - Amazon Bedrock Guardrails
+  - Customer Solutions
+  title: How Skello uses Amazon Bedrock to query data in a multi-tenant environment
+    while keeping logical boundaries
+  url: https://aws.amazon.com/blogs/machine-learning/how-skello-uses-amazon-bedrock-to-query-data-in-a-multi-tenant-environment-while-keeping-logical-boundaries/
+- category: webdev
+  published: '2025-09-11T17:45:40'
+  score: 0.729
+  source: Ars Technica
+  summary: 'The analysis of the difficulty levels in Hollow Knight: Silksong highlights
+    the multifaceted nature of game challenges, emphasizing the need to consider various
+    dimensions of difficulty when assessing the overall experience.'
+  tags:
+  - Gaming
+  - ars difficulty matrix
+  - difficulty
+  - hollow knight
+  - indie
+  title: 'Is Hollow Knight: Silksong too hard? Well, it depends on what you mean by
+    “hard.”'
+  url: https://arstechnica.com/gaming/2025/09/is-hollow-knight-silksong-too-hard-well-it-depends-on-what-you-mean-by-hard/
+- category: webdev
+  published: '2025-09-11T16:01:39'
+  score: 0.718
+  source: Ars Technica
+  summary: Gmail has introduced a dedicated section to track all user purchases, streamlining
+    the organization and visibility of order-tracking and promotion information, ahead
+    of the holiday shopping season.
+  tags:
+  - Google
+  - Tech
+  - gmail
+  - google
+  title: Gmail gets a dedicated place to track all your purchases
+  url: https://arstechnica.com/gadgets/2025/09/gmail-gets-a-dedicated-place-to-track-all-your-purchases/
+- category: webdev
+  published: '2025-09-11T15:16:34'
+  score: 0.754
+  source: CSS-Tricks
+  summary: Two methods are described for compiling multiple CSS files into a single
+    file, providing web developers with flexible options for managing and optimizing
+    their stylesheets, especially when Sass is not the primary tool.
+  tags:
+  - Links
+  - css preprocessors
+  - node
+  - postcss
+  - Sass
+  title: Compiling Multiple CSS Files into One
+  url: https://css-tricks.com/compiling-multiple-css-files-into-one/
+- category: ai
+  published: '2025-09-11T14:30:00'
+  score: 0.824
+  source: Towards Data Science
+  summary: A three-step process is outlined to analyze, improve, and iterate on large
+    language models (LLMs) to enhance their performance and capabilities, providing
+    a structured approach to optimizing these AI systems.
+  tags:
+  - Large Language Models
+  - Chatbot
+  - Dataset
+  - Evaluation
+  - Llm
+  title: How to Analyze and Optimize Your LLMs in 3 Steps
+  url: https://towardsdatascience.com/how-to-analyze-and-optimize-your-llms-in-3-steps/
+- category: ai
+  published: '2025-09-11T14:00:00'
+  score: 0.82
+  source: OpenAI
+  summary: OpenAI and Microsoft have signed a new Memorandum of Understanding, reinforcing
+    their partnership and shared commitment to AI safety and innovation, signaling
+    the importance of collaboration in advancing responsible AI development.
+  tags: []
+  title: A joint statement from OpenAI and Microsoft
+  url: https://openai.com/index/joint-statement-from-openai-and-microsoft
+- category: ai
+  published: '2025-09-11T14:00:00'
+  score: 0.82
+  source: OpenAI
+  summary: OpenAI has reaffirmed its nonprofit leadership with a new structure granting
+    equity in its Public Benefit Corporation (PBC), enabling over $100 billion in
+    resources to advance safe and beneficial AI for humanity.
+  tags: []
+  title: Statement on OpenAI’s Nonprofit and PBC
+  url: https://openai.com/index/statement-on-openai-nonprofit-and-pbc
+- category: webdev
+  published: '2025-09-11T13:00:00'
+  score: 0.7
+  source: Towards Data Science
+  summary: The article emphasizes the crucial role of color theory in data analysis
+    and visualization, demonstrating how research-backed color principles can improve
+    the clarity and storytelling capabilities of data dashboards.
+  tags:
+  - Data Science
+  - Color Theory
+  - Data Analysis
+  - Data Visualization
+  - Visualization Techniques
+  title: The Crucial Role of Color Theory in Data Analysis and Visualization
+  url: https://towardsdatascience.com/the-crucial-role-of-color-theory-in-data-analysis-and-visualization/
+- category: cybersecurity
+  published: '2025-09-11T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Daikin Security Gateway vulnerability, with a CVSS v4 score of 8.8,
+    is remotely exploitable with low attack complexity and public exploits available.
+    This vulnerability requires immediate attention and mitigation to prevent potential
+    attacks on the affected systems.
+  tags: []
+  title: Daikin Security Gateway
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-254-10
+- category: cybersecurity
+  published: '2025-09-11T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Siemens is no longer updating ICS security advisories for its product vulnerabilities
+    beyond the initial advisory. Users are advised to check the Siemens website for
+    the most up-to-date information on vulnerabilities in the User Management Component
+    (UMC).
+  tags: []
+  title: Siemens User Management Component (UMC)
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-254-07
+- category: cybersecurity
+  published: '2025-09-11T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Siemens Apogee PXC and Talon TC devices have vulnerabilities that are no
+    longer being updated by CISA. Users should refer to the Siemens website for the
+    latest information and mitigation strategies.
+  tags: []
+  title: Siemens Apogee PXC and Talon TC Devices
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-254-05
+- category: cybersecurity
+  published: '2025-09-11T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Siemens SIMOTION Tools have vulnerabilities that are no longer being updated
+    by CISA. Users should check the Siemens website for the most current information
+    and guidance on addressing these security issues.
+  tags: []
+  title: Siemens SIMOTION Tools
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-254-01
 - category: ai
   published: '2025-09-11T02:01:11'
   score: 0.959
@@ -2942,5 +3136,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-11T05:03:56.872573'
-total_articles: 231
+last_updated: '2025-09-12T05:04:30.186439'
+total_articles: 246
