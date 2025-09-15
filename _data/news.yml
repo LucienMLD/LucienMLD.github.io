@@ -1,5 +1,128 @@
 articles:
 - category: cybersecurity
+  published: '2025-09-14T21:56:40'
+  score: 0.907
+  source: BleepingComputer
+  summary: The FBI has issued a warning about two threat clusters, UNC6040 and UNC6395,
+    that are compromising Salesforce environments to steal data and extort victims.
+    These cybercriminal groups are targeting organizations' Salesforce systems to
+    gain unauthorized access and exfiltrate sensitive information.
+  tags:
+  - Security
+  title: FBI warns of UNC6040, UNC6395 hackers stealing Salesforce data
+  url: https://www.bleepingcomputer.com/news/security/fbi-warns-of-unc6040-unc6395-hackers-stealing-salesforce-data/
+- category: cybersecurity
+  published: '2025-09-14T16:02:45'
+  score: 0.862
+  source: Schneier on Security
+  summary: The article lists upcoming speaking engagements, including a book signing
+    event at the Cambridge Public Library on October 22, 2025, and a virtual talk
+    about the author's book "Rewiring Democracy."
+  tags:
+  - Uncategorized
+  - Schneier news
+  title: Upcoming Speaking Engagements
+  url: https://www.schneier.com/blog/archives/2025/09/upcoming-speaking-engagements-48.html
+- category: ai
+  published: '2025-09-14T16:00:00'
+  score: 0.79
+  source: Towards Data Science
+  summary: Semantic entity resolution leverages language models to automate various
+    steps in the entity resolution process, such as schema alignment, blocking, matching,
+    and merging of duplicate nodes and edges, leading to increased efficiency and
+    accuracy in data integration tasks.
+  tags:
+  - Agentic AI
+  - Gemini
+  - Artificial Intelligence
+  - Data Science
+  - Deep Dives
+  title: The Rise of Semantic Entity Resolution
+  url: https://towardsdatascience.com/the-rise-of-semantic-entity-resolution/
+- category: cybersecurity
+  published: '2025-09-14T14:30:00'
+  score: 0.851
+  source: Towards Data Science
+  summary: The article discusses the implementation of "leak-free" graph fraud detection,
+    which involves techniques to prevent data leakage and ensure accurate detection
+    of fraudulent activities within graph-structured data.
+  tags:
+  - Machine Learning
+  - Data Leakage
+  - Data Science
+  - Deep Dives
+  - Fraud Detection
+  title: 'No Peeking Ahead: Time-Aware Graph Fraud Detection'
+  url: https://towardsdatascience.com/no-peeking-ahead-time-aware-graph-fraud-detection/
+- category: cybersecurity
+  published: '2025-09-14T14:23:32'
+  score: 0.898
+  source: BleepingComputer
+  summary: A new phishing-as-a-service (PhaaS) platform called VoidProxy is targeting
+    Microsoft 365 and Google accounts, including those protected by third-party single
+    sign-on (SSO) providers like Okta. This service aims to help cybercriminals steal
+    user credentials and gain access to valuable online accounts.
+  tags:
+  - Security
+  title: New VoidProxy phishing service targets Microsoft 365, Google accounts
+  url: https://www.bleepingcomputer.com/news/security/new-voidproxy-phishing-service-targets-microsoft-365-google-accounts/
+- category: cybersecurity
+  published: '2025-09-13T16:20:40'
+  score: 0.635
+  source: BleepingComputer
+  summary: Microsoft has reminded customers that Windows 10 will reach its end of
+    support in 30 days, on October 14, indicating that users should prepare for the
+    transition to a newer version of the operating system.
+  tags:
+  - Microsoft
+  title: Microsoft reminds of Windows 10 support ending in 30 days
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-of-windows-10-support-ending-in-30-days/
+- category: ai
+  published: '2025-09-13T14:30:00'
+  score: 0.565
+  source: Towards Data Science
+  summary: The article discusses the development of research agents that can perform
+    in-depth analysis and generate insights on technical topics using a controlled
+    workflow, unique data, and prompt chaining techniques.
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - Artificial Intelligence
+  - Editors Pick
+  - Llm
+  title: Building Research Agents for Tech Insights
+  url: https://towardsdatascience.com/building-research-agents-for-tech-insights/
+- category: ai
+  published: '2025-09-13T11:23:03'
+  score: 0.543
+  source: Ars Technica
+  summary: The US government is attempting to revive the nuclear energy industry through
+    deregulation, but experts argue that this strategy may be misplaced and may not
+    effectively address the challenges faced by the nuclear power sector.
+  tags:
+  - Science
+  - climate change
+  - Energy
+  - nuclear energy
+  - reactors
+  title: The US is trying to kick-start a “nuclear energy renaissance”
+  url: https://arstechnica.com/science/2025/09/the-us-is-trying-to-kick-start-a-nuclear-energy-renaissance/
+- category: ai
+  published: '2025-09-13T11:15:47'
+  score: 0.587
+  source: Ars Technica
+  summary: Newly processed images from the Gemini space program, 60 years after the
+    missions, reveal incredible details and the level of risk taken by the astronauts
+    during those early spaceflight endeavors.
+  tags:
+  - Space
+  - andy saunders
+  - apollo
+  - gemini
+  - Images
+  title: 60 years after Gemini, newly processed images reveal incredible details
+  url: https://arstechnica.com/space/2025/09/60-years-after-gemini-newly-processed-images-reveal-incredible-details/
+- category: cybersecurity
   published: '2025-09-12T04:49:00'
   score: 1.154
   source: The Hacker News
@@ -3136,5 +3259,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-12T05:04:30.186439'
-total_articles: 246
+last_updated: '2025-09-15T05:04:37.097674'
+total_articles: 255
