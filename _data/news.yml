@@ -1,4 +1,188 @@
 articles:
+- category: ai
+  published: '2025-09-16T00:51:22'
+  score: 1.127
+  source: BleepingComputer
+  summary: OpenAI is rolling out the GPT-5 Codex model to all Codex instances, including
+    Terminal, IDE extension, and Codex Web, allowing for improved code generation
+    and understanding capabilities.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI's new GPT-5 Codex model takes on Claude Code
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openais-new-gpt-5-codex-model-takes-on-claude-code/
+- category: ai
+  published: '2025-09-15T21:04:04'
+  score: 0.913
+  source: Ars Technica
+  summary: Google Research has released VaultGemma, its first privacy-preserving large
+    language model, demonstrating that AI models can keep training data private.
+  tags:
+  - AI
+  - Google
+  - Artificial Intelligence
+  - google
+  - LLMs
+  title: Google releases VaultGemma, its first privacy-preserving LLM
+  url: https://arstechnica.com/ai/2025/09/google-releases-vaultgemma-its-first-privacy-preserving-llm/
+- category: ai
+  published: '2025-09-15T20:26:34'
+  score: 0.953
+  source: Ars Technica
+  summary: A new study from OpenAI provides insights into how 700 million users leverage
+    the GPT model, with 2.6 billion daily messages across various use cases.
+  tags:
+  - AI
+  - ChatGPT
+  - demographics
+  - measurement
+  - openai
+  title: What do people actually use ChatGPT for? OpenAI provides some numbers.
+  url: https://arstechnica.com/ai/2025/09/seven-things-we-learned-from-openais-first-study-on-chatgpt-usage/
+- category: webdev
+  published: '2025-09-15T18:40:27'
+  score: 0.735
+  source: Towards Data Science
+  summary: The article demonstrates how to implement the Coffee Machine project in
+    Python using object-oriented programming, covering classes, objects, attributes,
+    and methods.
+  tags:
+  - Programming
+  - Coding
+  - Editors Pick
+  - Oop
+  - Python
+  title: Implementing the Coffee Machine Project in Python Using Object Oriented Programming
+  url: https://towardsdatascience.com/implementing-the-coffee-machine-project-in-python-using-object-oriented-programming/
+- category: cybersecurity
+  published: '2025-09-15T18:18:10'
+  score: 0.927
+  source: BleepingComputer
+  summary: FinWise Bank suffered a data breach after a former employee accessed sensitive
+    files, impacting 689K American First Finance customers.
+  tags:
+  - Security
+  title: FinWise insider breach impacts 689K American First Finance customers
+  url: https://www.bleepingcomputer.com/news/security/finwise-insider-breach-impacts-689k-american-first-finance-customers/
+- category: ai
+  published: '2025-09-15T17:05:18'
+  score: 0.886
+  source: AWS Machine Learning
+  summary: msg automated data harmonization for its HR solution, msg.ProfileMap, using
+    Amazon Bedrock's large language model-driven data enrichment workflows to improve
+    accuracy, reduce manual workload, and align with compliance requirements.
+  tags:
+  - Amazon Bedrock
+  - Amazon Neptune
+  - Customer Solutions
+  - Generative AI
+  - Partner solutions
+  title: How msg enhanced HR workforce transformation with Amazon Bedrock and msg.ProfileMap
+  url: https://aws.amazon.com/blogs/machine-learning/how-msg-enhanced-hr-workforce-transformation-with-amazon-bedrock-and-msg-profilemap/
+- category: webdev
+  published: '2025-09-15T17:00:30'
+  score: 0.725
+  source: WebKit Blog
+  summary: The article highlights the new WebKit features arriving in Safari 26.0,
+    providing an overview of the updates.
+  tags:
+  - News
+  title: WebKit Features in Safari 26.0
+  url: https://webkit.org/blog/17333/webkit-features-in-safari-26-0/
+- category: webdev
+  published: '2025-09-15T17:00:27'
+  score: 0.725
+  source: Ars Technica
+  summary: The article reviews macOS 26 Tahoe, focusing on the Liquid Glass feature
+    that brings a translucent sheen to the typical batch of iterative changes.
+  tags:
+  - Apple
+  - Features
+  - Tech
+  - apple
+  - Apple silicon
+  title: 'macOS 26 Tahoe: The Ars Technica review'
+  url: https://arstechnica.com/gadgets/2025/09/macos-26-tahoe-the-ars-technica-review/
+- category: webdev
+  published: '2025-09-15T14:31:06'
+  score: 0.749
+  source: CSS-Tricks
+  summary: The article explores practical uses for CSS trigonometric functions, such
+    as `sin()` and `cos()`, which are often considered the "most hated" CSS feature.
+  tags:
+  - Articles
+  - animations
+  - math
+  title: 'The “Most Hated” CSS Feature: cos() and sin()'
+  url: https://css-tricks.com/the-most-hated-css-feature-cos-and-sin/
+- category: cybersecurity
+  published: '2025-09-15T14:01:11'
+  score: 0.943
+  source: BleepingComputer
+  summary: SecAlerts provides real-time vulnerability alerts, pulling from over 100
+    sources to help teams patch quicker and stay secure by filtering the noise of
+    daily vulnerability discoveries.
+  tags:
+  - Security
+  title: Stop waiting on NVD — get real-time vulnerability alerts now
+  url: https://www.bleepingcomputer.com/news/security/stop-waiting-on-nvd-get-real-time-vulnerability-alerts-now/
+- category: ai
+  published: '2025-09-15T13:30:00'
+  score: 0.861
+  source: Towards Data Science
+  summary: The article explains how to use Transformers with HuggingFace and spaCy,
+    providing insights into mastering natural language processing with spaCy.
+  tags:
+  - Artificial Intelligence
+  - Deep Learning
+  - Machine Learning
+  - Python
+  - Spacy
+  title: Learn How to Use Transformers with HuggingFace and SpaCy
+  url: https://towardsdatascience.com/mastering-nlp-with-spacy-part-4/
+- category: cybersecurity
+  published: '2025-09-15T11:55:00'
+  score: 0.927
+  source: The Hacker News
+  summary: Browser-based attacks have seen an unprecedented rise, targeting users
+    in their web browsers, and security teams need to prepare for various types of
+    these attacks, including cross-site scripting, session hijacking, and cryptojacking.
+  tags: []
+  title: 6 Browser-Based Attacks Security Teams Need to Prepare For Right Now
+  url: https://thehackernews.com/2025/09/6-browser-based-attacks-security-teams.html
+- category: cybersecurity
+  published: '2025-09-15T11:22:00'
+  score: 1.019
+  source: The Hacker News
+  summary: This week's cybersecurity recap highlights threats targeting the complex
+    relationships that hold businesses together, such as supply chain breaches and
+    AI-powered attacks, emphasizing the importance of preserving institutional trust
+    and ensuring business continuity.
+  tags: []
+  title: '⚡ Weekly Recap: Bootkit Malware, AI-Powered Attacks, Supply Chain Breaches,
+    Zero-Days & More'
+  url: https://thehackernews.com/2025/09/weekly-recap-bootkit-malware-ai-powered.html
+- category: webdev
+  published: '2025-09-15T10:00:00'
+  score: 0.681
+  source: Smashing Magazine
+  summary: The article discusses how Expressive Animator streamlines the process of
+    creating elastic and bounce effects in motion design, allowing for the production
+    of lively animations in seconds.
+  tags: []
+  title: Creating Elastic And Bounce Effects With Expressive Animator
+  url: https://smashingmagazine.com/2025/09/creating-elastic-bounce-effects-expressive-animator/
+- category: cybersecurity
+  published: '2025-09-15T05:47:00'
+  score: 0.929
+  source: The Hacker News
+  summary: Chinese-speaking users are targeted by a search engine optimization (SEO)
+    poisoning campaign that uses fake software sites to distribute malware, manipulating
+    search rankings with SEO plugins and lookalike domains.
+  tags: []
+  title: HiddenGh0st, Winos and kkRAT Exploit SEO, GitHub Pages in Chinese Malware
+    Attacks
+  url: https://thehackernews.com/2025/09/hiddengh0st-winos-and-kkrat-exploit-seo.html
 - category: cybersecurity
   published: '2025-09-14T21:56:40'
   score: 0.907
@@ -3259,5 +3443,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-15T05:04:37.097674'
-total_articles: 255
+last_updated: '2025-09-16T05:04:38.019303'
+total_articles: 270
