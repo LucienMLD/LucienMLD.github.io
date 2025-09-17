@@ -1,4 +1,180 @@
 articles:
+- category: cybersecurity
+  published: '2025-09-17T04:31:00'
+  score: 1.104
+  source: The Hacker News
+  summary: Microsoft and Cloudflare disrupted the RaccoonO365 phishing network, seizing
+    338 domains used by the financially motivated threat group to steal over 5,000
+    Microsoft 365 credentials from 94 countries through a phishing-as-a-service toolkit.
+  tags: []
+  title: RaccoonO365 Phishing Network Shut Down After Microsoft and Cloudflare Disrupt
+    338 Domains
+  url: https://thehackernews.com/2025/09/raccoono365-phishing-network-shut-down.html
+- category: ai
+  published: '2025-09-16T20:09:22'
+  score: 0.907
+  source: Ars Technica
+  summary: ChatGPT will soon require ID verification from adults, and will "default
+    to the under-18 experience" when age is uncertain, after a lawsuit related to
+    a teen suicide.
+  tags:
+  - AI
+  - Biz & IT
+  - Policy
+  - age verification
+  - AI and work
+  title: ChatGPT may soon require ID verification from adults, CEO says
+  url: https://arstechnica.com/ai/2025/09/chatgpt-may-soon-require-id-verification-from-adults-ceo-says/
+- category: webdev
+  published: '2025-09-16T19:19:27'
+  score: 0.739
+  source: Ars Technica
+  summary: Verizon will offer $20 broadband in California to obtain merger approval,
+    targeting low-income plans and fiber expansion.
+  tags:
+  - Policy
+  - Frontier Communications
+  - verizon
+  title: Verizon to offer $20 broadband in California to obtain merger approval
+  url: https://arstechnica.com/tech-policy/2025/09/verizon-to-offer-20-broadband-in-california-to-obtain-merger-approval/
+- category: webdev
+  published: '2025-09-16T18:49:03'
+  score: 0.736
+  source: Ars Technica
+  summary: Google's search app is now available on Windows, providing a better search
+    experience than Microsoft's built-in search.
+  tags:
+  - Google
+  - Tech
+  - apps
+  - google
+  - search
+  title: Google’s experimental Windows app is better than Microsoft’s built-in search
+  url: https://arstechnica.com/gadgets/2025/09/experimental-google-app-brings-web-and-local-search-to-your-windows-pc/
+- category: webdev
+  published: '2025-09-16T18:33:36'
+  score: 0.734
+  source: Towards Data Science
+  summary: A beginner-friendly Python project to build a calculator using conditional
+    statements, loops, and recursive functions.
+  tags:
+  - Programming
+  - Calculator
+  - Coding
+  - Math
+  - Projects
+  title: Using Python to Build a Calculator
+  url: https://towardsdatascience.com/using-python-to-build-a-calculator/
+- category: webdev
+  published: '2025-09-16T17:00:00'
+  score: 0.765
+  source: Smashing Magazine
+  summary: Tools like SerpApi make it easy to pull, customize, and integrate real-time
+    search engine data directly into apps and websites for a variety of use cases,
+    from competitive SEO research to training AI.
+  tags: []
+  title: 'SerpApi: A Complete API For Fetching Search Engine Data'
+  url: https://smashingmagazine.com/2025/09/serpapi-complete-api-fetching-search-engine-data/
+- category: ai
+  published: '2025-09-16T16:43:42'
+  score: 0.883
+  source: AWS Machine Learning
+  summary: Verisk Rating Insights, powered by Amazon Bedrock, large language models,
+    and Retrieval Augmented Generation, is transforming the way customers interact
+    with and access ISO ERC changes.
+  tags:
+  - Amazon Bedrock
+  - Amazon ElastiCache
+  - Amazon OpenSearch Service
+  - Artificial Intelligence
+  - Customer Solutions
+  title: Streamline access to ISO-rating content changes with Verisk rating insights
+    and Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/streamline-access-to-iso-rating-content-changes-with-verisk-rating-insights-and-amazon-bedrock/
+- category: ai
+  published: '2025-09-16T16:40:11'
+  score: 0.839
+  source: AWS Machine Learning
+  summary: AWS and Quora collaborated to build a unified wrapper API framework that
+    accelerates the deployment of Amazon Bedrock FMs on Quora's Poe system.
+  tags:
+  - Amazon Bedrock
+  - Customer Solutions
+  - Foundation models
+  - Generative AI
+  title: Unified multimodal access layer for Quora’s Poe using Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/unified-multimodal-access-layer-for-quoras-poe-using-amazon-bedrock/
+- category: webdev
+  published: '2025-09-16T15:58:59'
+  score: 0.718
+  source: BleepingComputer
+  summary: Microsoft has announced that the Windows Management Instrumentation Command-line
+    (WMIC) tool will be removed after upgrading to Windows 11 25H2 and later.
+  tags:
+  - Microsoft
+  title: 'Microsoft: WMIC will be removed after Windows 11 25H2 upgrade'
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-wmic-will-be-removed-after-windows-11-25h2-upgrade/
+- category: ai
+  published: '2025-09-16T14:30:00'
+  score: 0.824
+  source: OpenAI
+  summary: OpenAI, NVIDIA, and Nscale have launched Stargate UK, a sovereign AI infrastructure
+    partnership delivering up to 50,000 GPUs and the UK's largest supercomputer to
+    power national AI innovation, public services, and economic growth.
+  tags: []
+  title: Introducing Stargate UK
+  url: https://openai.com/index/introducing-stargate-uk
+- category: cybersecurity
+  published: '2025-09-16T12:16:53'
+  score: 1.074
+  source: BleepingComputer
+  summary: Apple has released security updates to backport patches for a zero-day
+    bug that was exploited in "extremely sophisticated" attacks, addressing the vulnerability
+    in older iPhones and iPads.
+  tags:
+  - Security
+  - Apple
+  title: Apple backports zero-day patches to older iPhones and iPads
+  url: https://www.bleepingcomputer.com/news/security/apple-backports-zero-day-patches-to-older-iphones-and-ipads/
+- category: cybersecurity
+  published: '2025-09-16T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Schneider Electric has released a CSAF advisory for vulnerabilities in
+    its Altivar products, ATVdPAC module, and ILC992 InterLink Converter, with a CVSS
+    v4 score of 5.3 and remote exploitability.
+  tags: []
+  title: Schneider Electric Altivar Products, ATVdPAC Module, ILC992 InterLink Converter
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-259-01
+- category: cybersecurity
+  published: '2025-09-16T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Hitachi Energy has released a CSAF advisory for vulnerabilities in its
+    RTU500 Series, with a CVSS v4 score of 8.2 and remote exploitability.
+  tags: []
+  title: Hitachi Energy RTU500 Series
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-259-02
+- category: cybersecurity
+  published: '2025-09-16T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Siemens has a vulnerability in its industrial products related to OpenSSL,
+    and CISA will no longer be updating ICS security advisories for Siemens product
+    vulnerabilities beyond the initial advisory.
+  tags: []
+  title: Siemens OpenSSL Vulnerability in Industrial Products
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-259-05
+- category: ai
+  published: '2025-09-16T06:00:00'
+  score: 0.853
+  source: OpenAI
+  summary: OpenAI is building age prediction and parental controls in ChatGPT to create
+    safer, age-appropriate experiences for teens while supporting families with new
+    tools.
+  tags: []
+  title: Building towards age prediction
+  url: https://openai.com/index/building-towards-age-prediction
 - category: ai
   published: '2025-09-16T00:51:22'
   score: 1.127
@@ -3443,5 +3619,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-16T05:04:38.019303'
-total_articles: 270
+last_updated: '2025-09-17T05:04:31.713498'
+total_articles: 285
