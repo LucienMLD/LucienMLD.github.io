@@ -1,4 +1,194 @@
 articles:
+- category: ai
+  published: '2025-09-18T04:00:00'
+  score: 0.973
+  source: Google AI Blog
+  summary: The article discusses investments in connectivity, products, and skills
+    to support the development of AI in Africa. It highlights the importance of building
+    a strong infrastructure and workforce to capitalize on the continent's AI potential.
+  tags:
+  - Google in Africa
+  - AI
+  title: We’re investing in connectivity, products and skills for Africa’s AI future
+  url: https://blog.google/around-the-globe/google-africa/africas-ai-future/
+- category: ai
+  published: '2025-09-17T22:03:11'
+  score: 0.92
+  source: Ars Technica
+  summary: White House officials are reportedly frustrated by Anthropic's policies
+    that limit the use of its Claude chatbot by FBI and Secret Service contractors.
+    The article discusses the tensions between the government's needs and the company's
+    approach to AI development.
+  tags:
+  - AI
+  - Biz & IT
+  - Policy
+  - AI ethics
+  - AI law
+  title: White House officials reportedly frustrated by Anthropic’s law enforcement
+    AI limits
+  url: https://arstechnica.com/ai/2025/09/white-house-officials-reportedly-frustrated-by-anthropics-law-enforcement-ai-limits/
+- category: webdev
+  published: '2025-09-17T21:20:52'
+  score: 0.752
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 228 is now available for download for
+    macOS Tahoe and macOS Sequoia, introducing new features and improvements to the
+    Safari web browser.
+  tags:
+  - News
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 228
+  url: https://webkit.org/blog/17386/release-notes-for-safari-technology-preview-228/
+- category: webdev
+  published: '2025-09-17T20:25:06'
+  score: 0.746
+  source: Ars Technica
+  summary: The article reflects on how the experience of playing the SimCity 2000
+    game has changed for the author, who now sympathizes more with the virtual citizens
+    as a responsible adult and homeowner.
+  tags:
+  - Gaming
+  - C:\ArsGames
+  - gaming
+  - GOG-Ars
+  - maxis
+  title: Why, as a responsible adult, SimCity 2000 hits differently
+  url: https://arstechnica.com/gaming/2025/09/thirty-years-later-simcity-2000-hasnt-changed-but-i-have/
+- category: ai
+  published: '2025-09-17T19:31:44'
+  score: 0.902
+  source: AWS Machine Learning
+  summary: The article demonstrates how to deploy the gpt-oss-20b model to Amazon
+    SageMaker managed endpoints and presents a practical stock analyzer agent assistant
+    example using LangGraph, a framework for handling state management, coordinated
+    workflows, and persistent memory systems.
+  tags:
+  - Amazon Bedrock
+  - Amazon SageMaker AI
+  - Amazon SageMaker Unified Studio
+  - Artificial Intelligence
+  - Customer Solutions
+  title: Build Agentic Workflows with OpenAI GPT OSS on Amazon SageMaker AI and Amazon
+    Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/build-agentic-workflows-with-openai-gpt-oss-on-amazon-sagemaker-ai-and-amazon-bedrock-agentcore/
+- category: ai
+  published: '2025-09-17T19:04:51'
+  score: 0.855
+  source: Towards Data Science
+  summary: The article presents a guide for building and evaluating RAG (Retrieval-Augmented
+    Generation) solutions by leveraging large language model (LLM) capabilities as
+    a "judge" to assess the quality of the generated content.
+  tags:
+  - Large Language Models
+  - Deep Dives
+  - Llm
+  - Llm Evaluation
+  - NLP
+  title: Evaluating Your RAG Solution
+  url: https://towardsdatascience.com/evaluating-your-rag-solution/
+- category: cybersecurity
+  published: '2025-09-17T18:30:00'
+  score: 1.073
+  source: The Hacker News
+  summary: The threat actor TA558 has been using AI-generated scripts to deploy the
+    Venom RAT malware in attacks targeting hotels in Brazil and Spanish-speaking markets.
+    Kaspersky is tracking this activity, which was observed in the summer of 2025,
+    to a cluster of attacks delivering various remote access trojans (RATs).
+  tags: []
+  title: TA558 Uses AI-Generated Scripts to Deploy Venom RAT in Brazil Hotel Attacks
+  url: https://thehackernews.com/2025/09/ta558-uses-ai-generated-scripts-to.html
+- category: cybersecurity
+  published: '2025-09-17T17:50:52'
+  score: 1.02
+  source: BleepingComputer
+  summary: Venture capital and private equity firm Insight Partners is notifying thousands
+    of individuals whose personal information was stolen in a ransomware attack. The
+    breach has prompted the firm to issue a warning to those affected.
+  tags:
+  - Security
+  title: VC giant Insight Partners warns thousands after ransomware breach
+  url: https://www.bleepingcomputer.com/news/security/vc-giant-insight-partners-warns-thousands-after-ransomware-breach/
+- category: cybersecurity
+  published: '2025-09-17T16:34:37'
+  score: 0.962
+  source: NCSC UK
+  summary: The article is a buyer's guide for external attack surface management (EASM)
+    products, highlighting the security features and considerations organizations
+    should evaluate when choosing an EASM solution.
+  tags: []
+  title: External attack surface management (EASM) buyer's guide
+  url: https://www.ncsc.gov.uk/guidance/external-attack-surface-management-buyers-guide
+- category: cybersecurity
+  published: '2025-09-17T16:23:14'
+  score: 1.009
+  source: BleepingComputer
+  summary: SonicWall has warned customers to reset their credentials after a security
+    breach that exposed firewall configuration backup files from MySonicWall accounts.
+    The company has advised customers to take immediate action to secure their accounts.
+  tags:
+  - Security
+  title: SonicWall warns customers to reset credentials after breach
+  url: https://www.bleepingcomputer.com/news/security/sonicwall-warns-customers-to-reset-credentials-after-MySonicWall-breach/
+- category: webdev
+  published: '2025-09-17T14:57:04'
+  score: 0.712
+  source: BleepingComputer
+  summary: Microsoft has reminded customers that Office 2016 and Office 2019 will
+    reach the end of extended support in less than 30 days, on October 14, 2025. Users
+    are advised to plan for the transition to newer versions of Office.
+  tags:
+  - Microsoft
+  title: 'Microsoft: Office 2016 and Office 2019 reach end of support next month'
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-office-2016-and-office-2019-reach-end-of-support-next-month/
+- category: webdev
+  published: '2025-09-17T14:08:26'
+  score: 0.707
+  source: Machine Learning Mastery
+  summary: The article explores the practical aspects of feature scaling in machine
+    learning, highlighting what works and what doesn't in ensuring high-performing
+    models.
+  tags: []
+  title: 'Feature Scaling in Practice: What Works and What Doesn’t'
+  url: https://machinelearningmastery.com/feature-scaling-in-practice-what-works-and-what-doesnt/
+- category: webdev
+  published: '2025-09-17T14:02:25'
+  score: 0.746
+  source: CSS-Tricks
+  summary: The article discusses whether it's time to move away from Sass, as many
+    of its features have been incorporated into native CSS. It explores the pros and
+    cons of continuing to use Sass in web development projects.
+  tags:
+  - Articles
+  - css preprocessors
+  title: Is it Time to Un-Sass?
+  url: https://css-tricks.com/is-it-time-to-un-sass/
+- category: cybersecurity
+  published: '2025-09-17T11:05:59'
+  score: 0.969
+  source: Schneier on Security
+  summary: Vulnerabilities in electronic safes that use Securam Prologic locks have
+    been discovered, allowing attackers to bypass security features. The article explores
+    the technical details of these vulnerabilities and their implications for the
+    security of electronic safes.
+  tags:
+  - Uncategorized
+  - backdoors
+  - disclosure
+  - locks
+  - patching
+  title: Hacking Electronic Safes
+  url: https://www.schneier.com/blog/archives/2025/09/hacking-electronic-safes.html
+- category: ai
+  published: '2025-09-17T11:03:00'
+  score: 0.888
+  source: The Hacker News
+  summary: The article explores the challenges of data security in the context of
+    generative AI, providing a buyer's guide for CISOs and security teams to address
+    these concerns.
+  tags: []
+  title: 'Rethinking AI Data Security: A Buyer''s Guide'
+  url: https://thehackernews.com/2025/09/rethinking-ai-data-security-buyers-guide.html
 - category: cybersecurity
   published: '2025-09-17T04:31:00'
   score: 1.104
@@ -3619,5 +3809,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-17T05:04:31.713498'
-total_articles: 285
+last_updated: '2025-09-18T05:03:57.992124'
+total_articles: 300
