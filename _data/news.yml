@@ -1,4 +1,186 @@
 articles:
+- category: cybersecurity
+  published: '2025-09-19T04:10:00'
+  score: 1.245
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned
+    about two sets of malware that exploit security vulnerabilities in Ivanti Endpoint
+    Manager Mobile (EPMM). The malware was discovered in an unnamed organization's
+    network and contains loaders for malicious payloads.
+  tags: []
+  title: CISA Warns of Two Malware Strains Exploiting Ivanti EPMM CVE-2025-4427 and
+    CVE-2025-4428
+  url: https://thehackernews.com/2025/09/cisa-warns-of-two-malware-strains.html
+- category: ai
+  published: '2025-09-19T02:07:53'
+  score: 0.96
+  source: Towards Data Science
+  summary: The article discusses how AI can be used to make smarter business decisions,
+    such as through research agents and budget planners.
+  tags:
+  - The Variable
+  - Agentic Ai
+  - Artificial Intelligence
+  - Business
+  - Tds Features
+  title: 'TDS Newsletter: How to Make Smarter Business Decisions with AI'
+  url: https://towardsdatascience.com/tds-newsletter-how-to-make-smarter-business-decisions-with-ai/
+- category: cybersecurity
+  published: '2025-09-19T00:00:37'
+  score: 1.118
+  source: Ars Technica
+  summary: Two UK teenagers have been charged in connection with the Scattered Spider
+    ransomware attacks, which is one of the world's most prolific ransomware groups.
+  tags:
+  - Biz & IT
+  - Security
+  - criminal courts
+  - Cyberattacks
+  - ransomware
+  title: Two UK teens charged in connection to Scattered Spider ransomware attacks
+  url: https://arstechnica.com/security/2025/09/two-uk-teens-charged-in-connection-to-scattered-spider-ransomware-attacks/
+- category: ai
+  published: '2025-09-18T23:38:23'
+  score: 0.943
+  source: Ars Technica
+  summary: The article criticizes the decision by RFK Jr.'s anti-vaccine advisors
+    to strip the recommendation for the MMRV vaccine, describing it as a "new level
+    of stupid".
+  tags:
+  - Health
+  - ACIP
+  - CDC
+  - MMR
+  - mmrv
+  title: In new level of stupid, RFK Jr.’s anti-vaccine advisors axe MMRV recommendation
+  url: https://arstechnica.com/health/2025/09/in-new-level-of-stupid-rfk-jr-s-anti-vaccine-advisors-axe-mmrv-recommendation/
+- category: ai
+  published: '2025-09-18T22:20:56'
+  score: 0.966
+  source: BleepingComputer
+  summary: OpenAI is rolling out a toggle that allows ChatGPT users to control the
+    level of "thinking" done by the GPT-5 model, giving them greater control over
+    the AI's outputs.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT now gives you greater control over GPT-5 Thinking model
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-now-gives-you-greater-control-over-gpt-5-thinking-model/
+- category: webdev
+  published: '2025-09-18T15:30:00'
+  score: 0.755
+  source: Towards Data Science
+  summary: The article provides a playbook for using JavaScript through n8n Code node
+    snippets to perform data analytics tasks, allowing users to transition from Python
+    to JavaScript.
+  tags:
+  - Data Science
+  - Automation
+  - Data Analyitcs
+  - Javascript For Beginners
+  - n8n
+  title: 'From Python to JavaScript: A Playbook for Data Analytics in n8n with Code
+    Node Examples'
+  url: https://towardsdatascience.com/from-python-to-javascript-a-playbook-for-data-analytics-in-n8n-with-code-node-examples/
+- category: ai
+  published: '2025-09-18T15:29:35'
+  score: 0.831
+  source: AWS Machine Learning
+  summary: The article explains how to integrate AWS Deep Learning Containers (DLCs)
+    with MLflow, a tool for managing the end-to-end machine learning lifecycle, to
+    create a solution that balances infrastructure control with robust ML governance.
+  tags:
+  - Amazon Machine Learning
+  - Amazon SageMaker
+  - Amazon SageMaker Studio
+  - Technical How-to
+  title: Use AWS Deep Learning Containers with Amazon SageMaker AI managed MLflow
+  url: https://aws.amazon.com/blogs/machine-learning/use-aws-deep-learning-containers-with-amazon-sagemaker-ai-managed-mlflow/
+- category: webdev
+  published: '2025-09-18T14:00:00'
+  score: 0.746
+  source: Towards Data Science
+  summary: The article discusses how to rapidly prototype chatbots using Streamlit
+    and Chainlit, providing end-to-end demos, comparisons of pros and cons, and practical
+    recommendations.
+  tags:
+  - Artificial Intelligence
+  - Chatbot Development
+  - Conversational AI
+  - Deep Dives
+  - Python
+  title: Rapid Prototyping of Chatbots with Streamlit and Chainlit
+  url: https://towardsdatascience.com/rapid-prototyping-of-chatbots-with-streamlit-and-chainlit/
+- category: webdev
+  published: '2025-09-18T12:30:00'
+  score: 0.696
+  source: Towards Data Science
+  summary: The article explores how to give retrieval-only chatbots memory, allowing
+    for natural multi-turn conversations without sacrificing content control.
+  tags:
+  - Artificial Intelligence
+  - Chatbot
+  - Genai
+  - Llm
+  - Multiturn
+  title: 'From Amnesia to Awareness: Giving Retrieval-Only Chatbots Memory'
+  url: https://towardsdatascience.com/from-amnesia-to-awareness-giving-retrieval-only-chatbots-memory/
+- category: cybersecurity
+  published: '2025-09-18T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA obtained two sets of malware from an organization that had been exploited
+    through vulnerabilities in Ivanti Endpoint Mobile Management (EPMM) systems. The
+    malware contains loaders for malicious payloads that could be used to further
+    compromise the affected systems.
+  tags: []
+  title: Malicious Listener for Ivanti Endpoint Mobile Management Systems
+  url: https://www.cisa.gov/news-events/analysis-reports/ar25-261a
+- category: cybersecurity
+  published: '2025-09-18T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Westermo Network Technologies' WeOS 5 contains a vulnerability (CVSS v4
+    score of 8.7) that can be exploited remotely, allowing an attacker to gain unauthorized
+    access to the affected system.
+  tags: []
+  title: Westermo Network Technologies WeOS 5
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-261-01
+- category: cybersecurity
+  published: '2025-09-18T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Dover Fueling Solutions' ProGauge MagLink LX4 devices contain a vulnerability
+    (CVSS v4 score of 9.3) that can be exploited remotely with low attack complexity,
+    potentially allowing an attacker to gain unauthorized access to the affected systems.
+  tags: []
+  title: Dover Fueling Solutions ProGauge MagLink LX4 Devices
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-261-07
+- category: ai
+  published: '2025-09-18T11:06:38'
+  score: 0.845
+  source: Schneier on Security
+  summary: Researchers have discovered a "Time-of-Check Time-of-Use" vulnerability
+    in large language models (LLMs) that could allow attackers to bypass security
+    measures and gain unauthorized access to sensitive information.
+  tags:
+  - Uncategorized
+  - academic papers
+  - cyberattack
+  - LLM
+  - vulnerabilities
+  title: Time-of-Check Time-of-Use Attacks Against LLMs
+  url: https://www.schneier.com/blog/archives/2025/09/time-of-check-time-of-use-attacks-against-llms.html
+- category: webdev
+  published: '2025-09-18T10:00:00'
+  score: 0.721
+  source: Smashing Magazine
+  summary: The article discusses ways to minimize the environmental impact of websites,
+    including optimizing images, using efficient web fonts, and reducing the number
+    of external resources.
+  tags: []
+  title: How To Minimize The Environmental Impact Of Your Website
+  url: https://smashingmagazine.com/2025/09/how-minimize-environmental-impact-website/
 - category: ai
   published: '2025-09-18T04:00:00'
   score: 0.973
@@ -3809,5 +3991,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-18T05:03:57.992124'
-total_articles: 300
+last_updated: '2025-09-19T05:03:56.931481'
+total_articles: 314
