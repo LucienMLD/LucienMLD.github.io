@@ -1,5 +1,153 @@
 articles:
 - category: cybersecurity
+  published: '2025-09-21T17:30:51'
+  score: 0.873
+  source: BleepingComputer
+  summary: A critical vulnerability in Microsoft Entra ID could have allowed an attacker
+    to gain complete access to the tenant of every company using the service, posing
+    a significant security risk.
+  tags:
+  - Security
+  title: Microsoft Entra ID flaw allowed hijacking any company's tenant
+  url: https://www.bleepingcomputer.com/news/security/microsoft-entra-id-flaw-allowed-hijacking-any-companys-tenant/
+- category: webdev
+  published: '2025-09-21T16:00:00'
+  score: 0.718
+  source: Towards Data Science
+  summary: Data visualization is a crucial tool for understanding and communicating
+    complex data, as it helps users identify patterns, trends, and insights that may
+    not be immediately apparent in raw data.
+  tags:
+  - Data Science
+  - Business
+  - Communication
+  - Data Analysis
+  - Data Storytelling
+  title: 'Data Visualization Explained: What It Is and Why It Matters'
+  url: https://towardsdatascience.com/data-visualization-explained-what-it-is-and-why-it-matters/
+- category: ai
+  published: '2025-09-21T14:00:00'
+  score: 0.776
+  source: Towards Data Science
+  summary: Python developers can now call Mojo, a high-performance runtime library,
+    to boost the speed of their applications, potentially improving overall runtime
+    performance.
+  tags:
+  - Programming
+  - Deep Dives
+  - Mojo
+  - Performance
+  - Performance Optimization
+  title: Python Can Now Call Mojo
+  url: https://towardsdatascience.com/python-can-now-call-mojo/
+- category: cybersecurity
+  published: '2025-09-21T10:56:00'
+  score: 0.872
+  source: The Hacker News
+  summary: North Korean hackers have been using ClickFix-style lures to target cryptocurrency-related
+    job postings and deliver a known malware called BeaverTail and InvisibleFerret,
+    highlighting the ongoing threat of state-sponsored cyber attacks.
+  tags: []
+  title: DPRK Hackers Use ClickFix to Deliver BeaverTail Malware in Crypto Job Scams
+  url: https://thehackernews.com/2025/09/dprk-hackers-use-clickfix-to-deliver.html
+- category: cybersecurity
+  published: '2025-09-20T17:11:40'
+  score: 0.641
+  source: BleepingComputer
+  summary: The Royal Canadian Mounted Police has shut down the TradeOgre cryptocurrency
+    exchange and seized over $40 million in funds believed to be associated with criminal
+    activities, demonstrating the ongoing efforts to combat illicit use of digital
+    assets.
+  tags:
+  - Security
+  - CryptoCurrency
+  title: Canada dismantles TradeOgre exchange, seizes $40 million in crypto
+  url: https://www.bleepingcomputer.com/news/security/canada-dismantles-tradeogre-exchange-seizes-40-million-in-crypto/
+- category: ai
+  published: '2025-09-20T16:00:00'
+  score: 0.619
+  source: Towards Data Science
+  summary: The article provides a hands-on example of building a time-series anomaly
+    detection system using a combination of large language models, multimodal input,
+    and structured output, demonstrating the potential for advanced AI-powered applications.
+  tags:
+  - Large Language Models
+  - Anomaly Detection
+  - Editors Pick
+  - Llm
+  - Llm Applications
+  title: 'Building LLM Apps That Can See, Think, and Integrate: Using o3 with Multimodal
+    Input and Structured Output'
+  url: https://towardsdatascience.com/building-llm-apps-that-can-see-think-and-integrate-using-o3-with-multimodal-input-and-structured-output/
+- category: ai
+  published: '2025-09-20T14:00:00'
+  score: 0.561
+  source: Towards Data Science
+  summary: The article offers a detailed explanation of the SyncNet research paper,
+    which presents a technique for automated lip sync in the wild, providing insights
+    into the latest advancements in computer vision and audio-visual integration.
+  tags:
+  - Deep Learning
+  - Artificial Intelligence
+  - Computer Vision
+  - Data Science
+  - Machine Learning
+  title: The SyncNet Research Paper, Clearly Explained
+  url: https://towardsdatascience.com/syncnet-paper-easily-explained/
+- category: cybersecurity
+  published: '2025-09-20T11:15:27'
+  score: 0.644
+  source: Ars Technica
+  summary: The vulnerabilities found in Microsoft's Entra ID service could have allowed
+    attackers to gain access to virtually all Azure customer accounts, potentially
+    leading to a catastrophic security breach.
+  tags:
+  - Security
+  - cloud vulnerability
+  - microsoft
+  - security vulnerability
+  - syndication
+  title: Microsoft’s Entra ID vulnerabilities could have been catastrophic
+  url: https://arstechnica.com/security/2025/09/microsofts-entra-id-vulnerabilities-could-have-been-catastrophic/
+- category: webdev
+  published: '2025-09-20T11:00:59'
+  score: 0.487
+  source: Ars Technica
+  summary: The Specialized Turbo Vado SL 2 6.0 Carbon electric bike is an investment,
+    both in terms of money and the potential for long, fast rides, even without the
+    assist feature, highlighting the evolving capabilities of electric bikes.
+  tags:
+  - Tech
+  - cycling
+  - e-bike
+  - Specialized
+  - Specialized Turbo Vado SL
+  title: You’ll enjoy the Specialized Turbo Vado SL 2 6.0 Carbon even without assist
+  url: https://arstechnica.com/gadgets/2025/09/youll-enjoy-the-specialized-turbo-vado-sl-2-6-0-carbon-even-without-assist/
+- category: ai
+  published: '2025-09-20T05:48:00'
+  score: 0.637
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a malware called MalTerminal
+    that integrates large language model (LLM) capabilities, showcasing the potential
+    for AI-powered malware to become a new threat in the cybersecurity landscape.
+  tags: []
+  title: Researchers Uncover GPT-4-Powered MalTerminal Malware Creating Ransomware,
+    Reverse Shell
+  url: https://thehackernews.com/2025/09/researchers-uncover-gpt-4-powered.html
+- category: cybersecurity
+  published: '2025-09-20T05:31:00'
+  score: 0.649
+  source: The Hacker News
+  summary: Researchers have discovered a zero-click flaw in OpenAI ChatGPT's Deep
+    Research agent that could allow an attacker to leak sensitive Gmail inbox data
+    with a single crafted email, underscoring the need for robust security measures
+    in AI-powered applications.
+  tags: []
+  title: ShadowLeak Zero-Click Flaw Leaks Gmail Data via OpenAI ChatGPT Deep Research
+    Agent
+  url: https://thehackernews.com/2025/09/shadowleak-zero-click-flaw-leaks-gmail.html
+- category: cybersecurity
   published: '2025-09-19T04:10:00'
   score: 1.245
   source: The Hacker News
@@ -3991,5 +4139,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-19T05:03:56.931481'
-total_articles: 314
+last_updated: '2025-09-22T05:04:29.229495'
+total_articles: 325
