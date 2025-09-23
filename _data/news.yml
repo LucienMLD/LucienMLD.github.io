@@ -1,4 +1,180 @@
 articles:
+- category: ai
+  published: '2025-09-23T01:24:12'
+  score: 0.955
+  source: Towards Data Science
+  summary: Article 6 provides a guide on how to connect an MCP (Multi-Channel Perception)
+    server to create an AI-powered, supply-chain network optimization agent that can
+    make strategic decisions for cost-efficient, reliable, and sustainable supply
+    chain design.
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - Data Science
+  - Deep Dives
+  - mcp
+  title: How to Connect an MCP Server for an AI-Powered, Supply-Chain Network Optimization
+    Agent
+  url: https://towardsdatascience.com/mcp-server-for-an-ai-powered-supply-chain-network-optimization-agent/
+- category: ai
+  published: '2025-09-22T23:11:49'
+  score: 0.94
+  source: Ars Technica
+  summary: Article 7 discusses U.S. intelligence officials' concerns about China's
+    potential mastery of reusable launch technology, which could allow them to access
+    space more frequently than the U.S.
+  tags:
+  - Space
+  - china
+  - launch
+  - military space
+  - Pentagon
+  title: US intel officials “concerned” China will soon master reusable launch
+  url: https://arstechnica.com/space/2025/09/us-intel-officials-cite-reusable-launch-as-difference-maker-with-china/
+- category: webdev
+  published: '2025-09-22T21:25:18'
+  score: 0.752
+  source: Ars Technica
+  summary: Article 12 discusses the iFixit teardown of the iPhone Air, which reveals
+    that the device is mostly composed of battery, with the logic board positioned
+    at the top to help stave off a second Bendgate issue.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - iFixit
+  - iphone
+  title: iFixit tears down the iPhone Air, finds that it’s mostly battery
+  url: https://arstechnica.com/gadgets/2025/09/iphone-air-teardown-reveals-a-phone-thats-more-durable-repairable-than-expected/
+- category: cybersecurity
+  published: '2025-09-22T21:24:19'
+  score: 0.998
+  source: BleepingComputer
+  summary: Article 3 describes how the disruptions at several major European airports
+    over the weekend were caused by a ransomware attack targeting the check-in and
+    boarding systems.
+  tags:
+  - Security
+  title: Airport disruptions in Europe caused by a ransomware attack
+  url: https://www.bleepingcomputer.com/news/security/airport-disruptions-in-europe-caused-by-a-ransomware-attack/
+- category: cybersecurity
+  published: '2025-09-22T20:25:07'
+  score: 0.991
+  source: BleepingComputer
+  summary: Article 5 reports on a vulnerability in the American Archive of Public
+    Broadcasting's website that allowed the downloading of protected and private media
+    for years, until the flaw was quietly patched this month.
+  tags:
+  - Security
+  title: American Archive of Public Broadcasting fixes bug exposing restricted media
+  url: https://www.bleepingcomputer.com/news/security/american-archive-of-public-broadcasting-fixes-bug-exposing-restricted-media/
+- category: ai
+  published: '2025-09-22T19:17:28'
+  score: 0.857
+  source: Ars Technica
+  summary: Article 8 reports that OpenAI and Nvidia's $100 billion AI plan will require
+    power equal to 10 nuclear reactors, highlighting the massive infrastructure and
+    energy demands of large-scale AI projects.
+  tags:
+  - AI
+  - AI chips
+  - AI development tools
+  - AI infrastructure
+  - datacenters
+  title: OpenAI and Nvidia’s $100B AI plan will require power equal to 10 nuclear
+    reactors
+  url: https://arstechnica.com/ai/2025/09/openai-and-nvidias-100b-ai-plan-will-require-power-equal-to-10-nuclear-reactors/
+- category: webdev
+  published: '2025-09-22T17:39:13'
+  score: 0.769
+  source: Towards Data Science
+  summary: Article 11 provides a practical guide on how to integrate metadata changes
+    in DataHub into Jira workflows using the DataHub Actions Framework.
+  tags:
+  - Data Science
+  - Data Governance
+  - Data Management
+  - Datahub
+  - Editors Pick
+  title: 'Integrating DataHub into Jira: A Practical Guide Using DataHub Actions'
+  url: https://towardsdatascience.com/integrating-datahub-into-jira-a-practical-guide-using-datahub-actions/
+- category: ai
+  published: '2025-09-22T17:17:00'
+  score: 0.843
+  source: OpenAI
+  summary: Article 9 explores how CNA, a news organization, is transforming its newsroom
+    with AI, as Editor-in-Chief Walter Fernandez shares insights on AI adoption, culture,
+    and the future of journalism.
+  tags: []
+  title: CNA is transforming its newsroom with AI
+  url: https://openai.com/index/cna-walter-fernandez
+- category: webdev
+  published: '2025-09-22T15:53:29'
+  score: 0.718
+  source: BleepingComputer
+  summary: Article 13 announces that Mozilla has introduced a new feature that enables
+    Firefox extension developers to roll back to previously approved versions, allowing
+    them to quickly address critical bugs and issues.
+  tags:
+  - Software
+  - Security
+  title: Mozilla now lets Firefox add-on devs roll back bad updates
+  url: https://www.bleepingcomputer.com/news/software/mozilla-now-lets-firefox-add-on-devs-roll-back-bad-updates/
+- category: cybersecurity
+  published: '2025-09-22T15:40:00'
+  score: 1.051
+  source: The Hacker News
+  summary: Article 2 reports on a phishing campaign targeting organizations in Belarus,
+    Kazakhstan, and Russia, carried out by a previously undocumented hacking group
+    called ComicForm. The campaign primarily targeted industrial, financial, tourism,
+    biotechnology, research, and trade sectors, using the Formbook malware.
+  tags: []
+  title: ComicForm and SectorJ149 Hackers Deploy Formbook Malware in Eurasian Cyberattacks
+  url: https://thehackernews.com/2025/09/comicform-and-sectorj149-hackers-deploy.html
+- category: cybersecurity
+  published: '2025-09-22T14:01:11'
+  score: 0.991
+  source: BleepingComputer
+  summary: Article 4 discusses the shift in phishing tactics, where attackers now
+    use social media, chat apps, and malicious ads to steal credentials, moving beyond
+    email-based phishing attacks. The article highlights the need for multi-channel
+    phishing prevention strategies.
+  tags:
+  - Security
+  title: Why attackers are moving beyond email-based phishing attacks
+  url: https://www.bleepingcomputer.com/news/security/why-attackers-are-moving-beyond-email-based-phishing-attacks/
+- category: webdev
+  published: '2025-09-22T13:00:00'
+  score: 0.7
+  source: Smashing Magazine
+  summary: Article 14 introduces the concept of ambient animations in web design,
+    which are subtle, slow-moving details that add atmosphere without distracting
+    the user, and explores the principles and implementation of such animations.
+  tags: []
+  title: 'Ambient Animations In Web Design: Principles And Implementation (Part 1)'
+  url: https://smashingmagazine.com/2025/09/ambient-animations-web-design-principles-implementation/
+- category: cybersecurity
+  published: '2025-09-22T11:47:00'
+  score: 1.07
+  source: The Hacker News
+  summary: Article 1 discusses the rapid pace of the security landscape, where attackers
+    blend fresh techniques with old vulnerabilities to create new openings. The article
+    highlights the challenges of keeping up with patch cycles and the need for security
+    measures that can adapt quickly to emerging threats.
+  tags: []
+  title: '⚡ Weekly Recap: Chrome 0-Day, AI Hacking Tools, DDR5 Bit-Flips, npm Worm
+    & More'
+  url: https://thehackernews.com/2025/09/weekly-recap-chrome-0-day-ai-hacking.html
+- category: ai
+  published: '2025-09-22T10:00:00'
+  score: 0.837
+  source: OpenAI
+  summary: Article 10 describes how SchoolAI, built on OpenAI's GPT-4.1, image generation,
+    and TTS, powers safe, teacher-guided AI tools for 1 million classrooms worldwide,
+    boosting engagement, oversight, and personalized learning.
+  tags: []
+  title: Creating a safe, observable AI infrastructure for 1 million classrooms
+  url: https://openai.com/index/schoolai
 - category: cybersecurity
   published: '2025-09-21T17:30:51'
   score: 0.873
@@ -4139,5 +4315,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-22T05:04:29.229495'
-total_articles: 325
+last_updated: '2025-09-23T05:04:27.743222'
+total_articles: 339
