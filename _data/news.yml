@@ -1,5 +1,161 @@
 articles:
 - category: ai
+  published: '2025-09-23T21:49:34'
+  score: 0.874
+  source: Towards Data Science
+  summary: The article discusses the use of Gemini, a prompt-based generation pipeline,
+    to build a consistent image library for various applications.
+  tags:
+  - LLM Applications
+  - Artificial Intelligence
+  - Deep Dives
+  - Gemini
+  - Image Generation
+  title: Generating Consistent Imagery with Gemini
+  url: https://towardsdatascience.com/generating-consistent-imagery-with-gemini/
+- category: ai
+  published: '2025-09-23T20:35:23'
+  score: 0.822
+  source: AWS Machine Learning
+  summary: The article discusses the introduction of Deep Agents, a framework built
+    on LangGraph, which enables multi-agent workflows and collaborative problem-solving
+    in complex AI systems.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Agents
+  - Generative AI
+  - Technical How-to
+  title: Running deep research AI agents on Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/running-deep-research-ai-agents-on-amazon-bedrock-agentcore/
+- category: webdev
+  published: '2025-09-23T19:17:41'
+  score: 0.739
+  source: Ars Technica
+  summary: The article reviews Apple's iPhone Air, highlighting both the positive
+    and negative aspects of the device, such as throttling, battery life, and camera
+    performance.
+  tags:
+  - Apple
+  - Features
+  - Tech
+  - iphone 17
+  - iphone 17 pro
+  title: 'Review: Apple’s iPhone Air is a bunch of small changes that add up to something
+    big'
+  url: https://arstechnica.com/gadgets/2025/09/iphone-air-review-apples-different-est-phone-in-years-is-appealing-despite-itself/
+- category: ai
+  published: '2025-09-23T18:08:11'
+  score: 0.849
+  source: Towards Data Science
+  summary: The article debunks common myths about generative AI and explains why it
+    is not a replacement for engineers, but rather a powerful tool that can enhance
+    their capabilities.
+  tags:
+  - Artificial Intelligence
+  - Generative Ai
+  - large language model
+  - Llm
+  - Prompt Engineering
+  title: 'Generative AI Myths, Busted: An Engineers’s Quick Guide'
+  url: https://towardsdatascience.com/gen-ai-myths-busted-a-engineerss-quick-guide/
+- category: webdev
+  published: '2025-09-23T17:11:31'
+  score: 0.726
+  source: BleepingComputer
+  summary: WhatsApp has added a new translation feature to its Android and iOS apps,
+    allowing users to translate messages in chats, groups, and channel updates.
+  tags:
+  - Security
+  title: WhatsApp adds message translation to iPhone and Android apps
+  url: https://www.bleepingcomputer.com/news/security/whatsapp-adds-message-translation-to-iphone-and-android-apps/
+- category: ai
+  published: '2025-09-23T16:04:18'
+  score: 0.835
+  source: Machine Learning Mastery
+  summary: The article compares the performance of ensemble methods (bagging, boosting,
+    and stacking) in machine learning, and discusses their potential impact in 2025.
+  tags: []
+  title: 'Bagging vs Boosting vs Stacking: Which Ensemble Method Wins in 2025?'
+  url: https://machinelearningmastery.com/bagging-vs-boosting-vs-stacking-which-ensemble-method-wins-in-2025/
+- category: ai
+  published: '2025-09-23T15:24:17'
+  score: 0.83
+  source: Ars Technica
+  summary: Google Play is introducing a Gemini-powered AI Sidekick that will provide
+    in-game assistance and recommendations to users, enhancing their gaming experience.
+  tags:
+  - Gaming
+  - Google
+  - games
+  - google
+  - google play
+  title: Google Play is getting a Gemini-powered AI Sidekick to help you in games
+  url: https://arstechnica.com/gaming/2025/09/googles-big-play-store-revamp-includes-better-gamer-profiles-gemini-live-in-game-help/
+- category: webdev
+  published: '2025-09-23T13:00:00'
+  score: 0.7
+  source: Google AI Blog
+  summary: Google Play is introducing a centralized "YouTab" hub that integrates a
+    user's profile, rewards, and community engagement, along with a Gemini-powered
+    "Sidekick" in-game overlay to provide real-time assistance.
+  tags:
+  - Google Play
+  - AI
+  title: New ways Google Play is built entirely around you
+  url: https://blog.google/products/google-play/curation-update-september-2025/
+- category: cybersecurity
+  published: '2025-09-23T12:46:00'
+  score: 1.078
+  source: The Hacker News
+  summary: SolarWinds has released critical security fixes for a vulnerability (CVE-2025-26399)
+    in its Web Help Desk software that could allow remote code execution. The flaw
+    has a CVSS score of 9.8, indicating its high severity, and requires prompt attention
+    from users to mitigate the risk of exploitation.
+  tags: []
+  title: SolarWinds Releases Hotfix for Critical CVE-2025-26399 Remote Code Execution
+    Flaw
+  url: https://thehackernews.com/2025/09/solarwinds-releases-hotfix-for-critical.html
+- category: cybersecurity
+  published: '2025-09-23T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: AutomationDirect's CLICK PLUS product has a vulnerability (CVSS v4 score
+    of 8.7) that can be exploited remotely with low attack complexity. This vulnerability
+    requires immediate attention from users to address the potential security risks.
+  tags: []
+  title: AutomationDirect CLICK PLUS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-266-01
+- category: cybersecurity
+  published: '2025-09-23T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Schneider Electric's SESU product has a vulnerability (CVSS v3 score of
+    7.3) with low attack complexity that needs to be addressed by users to enhance
+    the overall security of their systems.
+  tags: []
+  title: Schneider Electric SESU
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-266-03
+- category: cybersecurity
+  published: '2025-09-23T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA has released an advisory detailing lessons learned from an incident
+    response engagement, highlighting the importance of utilizing endpoint detection
+    and response tools to identify and respond to potential malicious activities.
+  tags: []
+  title: CISA Releases Advisory on Lessons Learned from an Incident Response Engagement
+  url: https://www.cisa.gov/news-events/alerts/2025/09/23/cisa-releases-advisory-lessons-learned-incident-response-engagement
+- category: cybersecurity
+  published: '2025-09-23T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Viessmann's Vitogate 300 product has a vulnerability (CVSS v4 score of
+    8.7) with low attack complexity that requires prompt attention from users to mitigate
+    the security risks.
+  tags: []
+  title: Viessmann Vitogate 300
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-266-04
+- category: ai
   published: '2025-09-23T01:24:12'
   score: 0.955
   source: Towards Data Science
@@ -16,6 +172,15 @@ articles:
   title: How to Connect an MCP Server for an AI-Powered, Supply-Chain Network Optimization
     Agent
   url: https://towardsdatascience.com/mcp-server-for-an-ai-powered-supply-chain-network-optimization-agent/
+- category: webdev
+  published: '2025-09-23T00:00:00'
+  score: 0.568
+  source: Hugging Face
+  summary: The article discusses "Smol2Operator", a framework for creating post-training
+    GUI agents that can assist users in computer tasks.
+  tags: []
+  title: 'Smol2Operator: Post-Training GUI Agents for Computer Use'
+  url: https://huggingface.co/blog/smol2operator
 - category: ai
   published: '2025-09-22T23:11:49'
   score: 0.94
@@ -4315,5 +4480,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-23T05:04:27.743222'
-total_articles: 339
+last_updated: '2025-09-24T05:04:33.580784'
+total_articles: 353
