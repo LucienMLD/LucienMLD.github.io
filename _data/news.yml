@@ -1,5 +1,205 @@
 articles:
 - category: ai
+  published: '2025-09-24T22:35:11'
+  score: 0.835
+  source: Ars Technica
+  summary: The crew of Artemis II will fly on Integrity during the mission to the
+    Moon. The article does not provide any further technical details or implications.
+  tags:
+  - Space
+  - artemis II
+  - Canadian Space Agency
+  - Christina Koch
+  - Integrity
+  title: The crew of Artemis II will fly on Integrity during mission to the Moon
+  url: https://arstechnica.com/space/2025/09/introducing-integrity-artemis-ii-astronauts-name-their-orion-ride-to-the-moon/
+- category: webdev
+  published: '2025-09-24T21:56:27'
+  score: 0.755
+  source: Ars Technica
+  summary: Microsoft Flight Simulator is coming to PS5 in December, blurring the lines
+    between console exclusives and cross-platform releases.
+  tags:
+  - Gaming
+  - microsoft
+  - microsoft flight simulator
+  - ps5
+  - Sony
+  title: 'Console wars death watch: Microsoft Flight Simulator coming to PS5 in December'
+  url: https://arstechnica.com/gaming/2025/09/microsoft-flight-simulator-becomes-a-sony-flight-simulator-on-ps5-this-december/
+- category: ai
+  published: '2025-09-24T20:09:25'
+  score: 0.907
+  source: BleepingComputer
+  summary: OpenAI is internally testing a new version of its AI agent, which uses
+    a special version of GPT-5 dubbed "GPT-Alpha." The details of this new AI model
+    and its capabilities are not yet publicly known.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI is testing a new GPT-5-based AI agent "GPT-Alpha"
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-a-new-gpt-5-based-ai-agent-gpt-alpha/
+- category: webdev
+  published: '2025-09-24T19:47:52'
+  score: 0.742
+  source: Ars Technica
+  summary: Jimmy Kimmel returns and calls the FCC chairman an embarrassment to Republicans,
+    with a De Niro parody criticizing the FCC boss for suggesting that criticizing
+    Trump will cost you "a couple of fingers."
+  tags:
+  - Policy
+  - brendan carr
+  - jimmy kimmel
+  - robert de niro
+  - Trump
+  title: Jimmy Kimmel returns, calls FCC chairman an embarrassment to Republicans
+  url: https://arstechnica.com/tech-policy/2025/09/jimmy-kimmel-returns-calls-fcc-chairman-an-embarrassment-to-republicans/
+- category: ai
+  published: '2025-09-24T18:19:59'
+  score: 1.026
+  source: Towards Data Science
+  summary: PyTorch is emerging as one of the most important libraries for training
+    neural networks in the field of deep learning. The article explains the key concepts
+    of PyTorch, including automatic differentiation and building custom neural networks.
+  tags:
+  - Deep Learning
+  - Deep Dives
+  - Machine Learning
+  - Neural Network
+  - Pytorch
+  title: 'PyTorch Explained: From Automatic Differentiation to Training Custom Neural
+    Networks'
+  url: https://towardsdatascience.com/the-basics-of-deep-learning-with-pytorch-in-1-hour/
+- category: webdev
+  published: '2025-09-24T17:08:28'
+  score: 0.725
+  source: Ars Technica
+  summary: A person has reportedly become the first to own over 40,000 paid Steam
+    games, highlighting the growing size of digital game libraries and the potential
+    for game hoarding.
+  tags:
+  - Gaming
+  - Achievements
+  - badges
+  - collection
+  - digital
+  title: Meet the first person to own over 40,000 paid Steam games
+  url: https://arstechnica.com/gaming/2025/09/meet-the-first-person-to-own-over-40000-paid-steam-games/
+- category: ai
+  published: '2025-09-24T17:00:00'
+  score: 0.885
+  source: OpenAI
+  summary: By deploying ChatGPT Enterprise, ENEOS Materials transformed operations
+    with faster research, safer plant design, and streamlined HR processes. Over 80%
+    of employees report major workflow improvements, strengthening competitiveness
+    in manufacturing.
+  tags: []
+  title: Transforming the manufacturing industry with ChatGPT
+  url: https://openai.com/index/eneos-materials
+- category: webdev
+  published: '2025-09-24T17:00:00'
+  score: 0.725
+  source: Smashing Magazine
+  summary: The article examines the problem of over-reliance on static high-fidelity
+    mockups in enterprise UX, which often leave the conceptual model and user flows
+    underdeveloped. It then explores whether AI-powered prototyping is the answer
+    and questions whether the path forward is the popular "vibe coding" approach.
+  tags: []
+  title: 'Intent Prototyping: The Allure And Danger Of Pure Vibe Coding In Enterprise
+    UX (Part 1)'
+  url: https://smashingmagazine.com/2025/09/intent-prototyping-pure-vibe-coding-enterprise-ux/
+- category: cybersecurity
+  published: '2025-09-24T16:52:50'
+  score: 1.109
+  source: BleepingComputer
+  summary: Cisco has released security updates to address a high-severity zero-day
+    vulnerability in Cisco IOS and IOS XE Software that is currently being exploited
+    in attacks. The vulnerability could allow an attacker to execute arbitrary code
+    or cause a denial-of-service condition on an affected device.
+  tags:
+  - Security
+  title: Cisco warns of IOS zero-day vulnerability exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisco-warns-of-ios-zero-day-vulnerability-exploited-in-attacks/
+- category: ai
+  published: '2025-09-24T16:06:03'
+  score: 0.835
+  source: Ars Technica
+  summary: OpenAI's new $400 billion announcement reveals both growing AI demand and
+    circular investments. The article does not provide any further technical details
+    or implications.
+  tags:
+  - AI
+  - Biz & IT
+  - AI chips
+  - AI development tools
+  - AI infrastructure
+  title: Why does OpenAI need six giant data centers?
+  url: https://arstechnica.com/ai/2025/09/why-does-openai-need-six-giant-data-centers/
+- category: cybersecurity
+  published: '2025-09-24T13:55:00'
+  score: 1.038
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed two security flaws in Wondershare
+    RepairIt that exposed private user data and potentially exposed the system to
+    artificial intelligence (AI) model tampering and supply chain risks. The critical-rated
+    vulnerabilities could allow an attacker to gain unauthorized access to user data
+    and potentially compromise the integrity of the AI models used by the software.
+  tags: []
+  title: Two Critical Flaws Uncovered in Wondershare RepairIt Exposing User Data and
+    AI Models
+  url: https://thehackernews.com/2025/09/two-critical-flaws-uncovered-in.html
+- category: webdev
+  published: '2025-09-24T12:49:22'
+  score: 0.738
+  source: CSS-Tricks
+  summary: Starting in Chrome 140, we'll be able to calculate numeric values with
+    mixed data types in CSS. This is a significant development, as it allows for more
+    powerful and flexible CSS calculations.
+  tags:
+  - Articles
+  - animation
+  - CSS functions
+  - math
+  title: CSS Typed Arithmetic
+  url: https://css-tricks.com/css-typed-arithmetic/
+- category: cybersecurity
+  published: '2025-09-24T11:28:00'
+  score: 0.972
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of a new malware family
+    dubbed YiBackdoor that has been found to share "significant" source code overlaps
+    with IcedID and Latrodectus. The exact connection between YiBackdoor and these
+    other malware families is not yet clear, but it may be used in conjunction with
+    them.
+  tags: []
+  title: New YiBackdoor Malware Shares Major Code Overlaps with IcedID and Latrodectus
+  url: https://thehackernews.com/2025/09/new-yibackdoor-malware-shares-major.html
+- category: cybersecurity
+  published: '2025-09-24T07:15:00'
+  score: 1.036
+  source: The Hacker News
+  summary: Cloud security company Wiz has revealed that it uncovered in-the-wild exploitation
+    of a security flaw in a Linux utility called Pandoc as part of attacks designed
+    to infiltrate Amazon Web Services (AWS) Instance Metadata Service (IMDS). The
+    vulnerability, CVE-2025-51591, could allow an attacker to steal EC2 IAM credentials
+    and gain unauthorized access to AWS resources.
+  tags: []
+  title: Hackers Exploit Pandoc CVE-2025-51591 to Target AWS IMDS and Steal EC2 IAM
+    Credentials
+  url: https://thehackernews.com/2025/09/hackers-exploit-pandoc-cve-2025-51591.html
+- category: cybersecurity
+  published: '2025-09-24T06:24:00'
+  score: 0.982
+  source: The Hacker News
+  summary: Libraesva has released a security update to address a vulnerability in
+    its Email Security Gateway (ESG) solution that has been exploited by state-sponsored
+    threat actors. The vulnerability, CVE-2025-59689, carries a CVSS score of 6.1,
+    indicating medium severity, and could allow an attacker to gain unauthorized access
+    to the system.
+  tags: []
+  title: State-Sponsored Hackers Exploiting Libraesva Email Security Gateway Vulnerability
+  url: https://thehackernews.com/2025/09/state-sponsored-hackers-exploiting.html
+- category: ai
   published: '2025-09-23T21:49:34'
   score: 0.874
   source: Towards Data Science
@@ -4480,5 +4680,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-24T05:04:33.580784'
-total_articles: 353
+last_updated: '2025-09-25T05:03:54.733119'
+total_articles: 368
