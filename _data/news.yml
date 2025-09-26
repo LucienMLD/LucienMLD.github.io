@@ -1,4 +1,205 @@
 articles:
+- category: webdev
+  published: '2025-09-25T21:27:55'
+  score: 0.753
+  source: Ars Technica
+  summary: Amazon's Fire TV devices are expected to ditch Android for Linux by 2025,
+    which could help Amazon better monetize its streaming gadgets.
+  tags:
+  - Tech
+  - Amazon
+  - fire tv
+  - software
+  - TVs
+  title: Amazon Fire TV devices expected to ditch Android for Linux in 2025
+  url: https://arstechnica.com/gadgets/2025/09/amazon-fire-tv-devices-expected-to-ditch-android-for-linux-in-2025/
+- category: ai
+  published: '2025-09-25T20:30:52'
+  score: 0.909
+  source: Ars Technica
+  summary: ChatGPT Pulse is a new mobile feature that analyzes users' chat history
+    overnight and delivers morning updates based on the conversations.
+  tags:
+  - AI
+  - Biz & IT
+  - agentic AI
+  - AI agents
+  - AI assistants
+  title: ChatGPT Pulse delivers morning updates based on your chat history
+  url: https://arstechnica.com/ai/2025/09/chatgpt-pulse-delivers-morning-updates-based-on-your-chat-history/
+- category: ai
+  published: '2025-09-25T19:20:16'
+  score: 0.857
+  source: AWS Machine Learning
+  summary: Amazon Bedrock Data Automation can help accelerate benefits claims processing
+    in the benefits administration industry, ensuring timely payments to employees
+    and beneficiaries while adhering to regulations.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Data Automation
+  - Generative AI
+  - Technical How-to
+  title: Accelerate benefits claims processing with Amazon Bedrock Data Automation
+  url: https://aws.amazon.com/blogs/machine-learning/accelerate-benefits-claims-processing-with-amazon-bedrock-data-automation/
+- category: cybersecurity
+  published: '2025-09-25T18:17:00'
+  score: 1.119
+  source: The Hacker News
+  summary: Cisco has disclosed two zero-day vulnerabilities in its Secure Firewall
+    Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense
+    (FTD) Software that are being actively exploited in the wild. The U.S. Cybersecurity
+    and Infrastructure Security Agency (CISA) has issued an emergency directive for
+    federal agencies to patch these vulnerabilities immediately.
+  tags: []
+  title: 'Urgent: Cisco ASA Zero-Day Duo Under Attack; CISA Triggers Emergency Mitigation
+    Directive'
+  url: https://thehackernews.com/2025/09/urgent-cisco-asa-zero-day-duo-under.html
+- category: ai
+  published: '2025-09-25T18:10:50'
+  score: 0.893
+  source: Ars Technica
+  summary: Experts urge caution when using ChatGPT to pick stocks, as AI-selected
+    portfolios may perform well in a growing market but could carry risks during market
+    downturns.
+  tags:
+  - AI
+  - Biz & IT
+  - AI assistants
+  - AI in finance
+  - AI risks
+  title: Experts urge caution about using ChatGPT to pick stocks
+  url: https://arstechnica.com/information-technology/2025/09/experts-urge-caution-about-using-chatgpt-to-pick-stocks/
+- category: cybersecurity
+  published: '2025-09-25T17:52:55'
+  score: 1.116
+  source: BleepingComputer
+  summary: CISA has issued an emergency directive ordering U.S. federal agencies to
+    secure their Cisco firewall devices against two zero-day vulnerabilities that
+    have been exploited in attacks. The directive requires agencies to identify and
+    mitigate potential compromise of their Cisco devices within three days.
+  tags:
+  - Security
+  title: CISA orders agencies to patch Cisco flaws exploited in zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-agencies-to-patch-cisco-flaws-exploited-in-zero-day-attacks/
+- category: ai
+  published: '2025-09-25T16:55:50'
+  score: 0.841
+  source: Towards Data Science
+  summary: The article provides a practical, step-by-step guide to building an evaluation
+    pipeline for a real-world AI application, with a focus on Large Language Model
+    (LLM) evaluation.
+  tags:
+  - Large Language Models
+  - Ai Engineering
+  - Artificial Intelligence
+  - Editors Pick
+  - Llm Applications
+  title: Notes on LLM Evaluation
+  url: https://towardsdatascience.com/notes-on-llm-evaluation/
+- category: cybersecurity
+  published: '2025-09-25T16:49:36'
+  score: 1.108
+  source: BleepingComputer
+  summary: Cisco has warned customers to patch two zero-day vulnerabilities in its
+    firewall software that are being actively exploited in attacks. The vulnerabilities
+    impact the VPN web server of Cisco Secure Firewall Adaptive Security Appliance
+    (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software.
+  tags:
+  - Security
+  title: Cisco warns of ASA firewall zero-days exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-firewall-zero-days-exploited-in-attacks/
+- category: webdev
+  published: '2025-09-25T16:10:46'
+  score: 0.719
+  source: Ars Technica
+  summary: The iPhone 17 review suggests that the least exciting iPhone this year
+    is also the best value for the money, as "sometimes boring is best."
+  tags:
+  - Apple
+  - Features
+  - Tech
+  - apple
+  - iphone 17
+  title: 'Apple iPhone 17 review: Sometimes boring is best'
+  url: https://arstechnica.com/gadgets/2025/09/review-apples-injects-just-the-right-amount-of-pro-into-the-regular-iphone-17/
+- category: webdev
+  published: '2025-09-25T14:17:18'
+  score: 0.708
+  source: Ars Technica
+  summary: The article reviews the new features in iOS 26, including improvements
+    to the Reminders and Preview apps, which aim to turn iPhones into more powerful
+    work and organization tools.
+  tags:
+  - Apple
+  - Reviews
+  - Tech
+  - AI
+  - apple
+  title: 'Reviewing iOS 26 for power users: Reminders, Preview, and more'
+  url: https://arstechnica.com/gadgets/2025/09/reviewing-ios-26-for-power-users-reminders-preview-and-more/
+- category: webdev
+  published: '2025-09-25T12:32:00'
+  score: 0.737
+  source: Towards Data Science
+  summary: The article describes the deployment of a FastAPI + PostgreSQL recommender
+    system as a web application on Render, showcasing the development of a video game
+    recommender system.
+  tags:
+  - Data Science
+  - Deep Dives
+  - Docker
+  - Fastapi
+  - Python
+  title: 'Building a Video Game Recommender System with FastAPI, PostgreSQL, and Render:
+    Part 2'
+  url: https://towardsdatascience.com/building-a-video-game-recommender-system-with-fastapi-postgresql-and-render-part-2/
+- category: webdev
+  published: '2025-09-25T12:30:00'
+  score: 0.736
+  source: Towards Data Science
+  summary: The article discusses the design of a video game recommendations service
+    using Steam's API, with the goal of building a video game recommender system using
+    FastAPI, PostgreSQL, and Render.
+  tags:
+  - Data Science
+  - Deep Dives
+  - Fastapi
+  - Postgresql
+  - Python
+  title: 'Building Video Game Recommender Systems with FastAPI, PostgreSQL, and Render:
+    Part 1'
+  url: https://towardsdatascience.com/building-video-game-recommender-systems-with-fastapi-postgresql-and-render-part-1/
+- category: cybersecurity
+  published: '2025-09-25T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Dingtian DT-R002 device has a vulnerability with a CVSS v4 score of
+    8.7, which is considered highly exploitable remotely with low attack complexity.
+    The vendor has released a fix, and users are advised to apply the patch immediately.
+  tags: []
+  title: Dingtian DT-R002
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-268-01
+- category: cybersecurity
+  published: '2025-09-25T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA has issued an emergency directive for federal agencies to identify
+    and mitigate potential compromise of their Cisco Adaptive Security Appliance (ASA)
+    and Cisco Firewall Threat Defense (FTD) devices due to two recently disclosed
+    zero-day vulnerabilities.
+  tags: []
+  title: CISA Directs Federal Agencies to Identify and Mitigate Potential Compromise
+    of Cisco Devices
+  url: https://www.cisa.gov/news-events/alerts/2025/09/25/cisa-directs-federal-agencies-identify-and-mitigate-potential-compromise-cisco-devices
+- category: ai
+  published: '2025-09-25T11:00:00'
+  score: 0.844
+  source: OpenAI
+  summary: ChatGPT business plans now support shared projects, smarter connectors,
+    and enhanced compliance features to help teams work faster and more securely.
+  tags: []
+  title: More ways to work with your team and tools in ChatGPT
+  url: https://openai.com/index/more-ways-to-work-with-your-team
 - category: ai
   published: '2025-09-24T22:35:11'
   score: 0.835
@@ -4680,5 +4881,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-25T05:03:54.733119'
-total_articles: 368
+last_updated: '2025-09-26T05:03:57.980960'
+total_articles: 383
