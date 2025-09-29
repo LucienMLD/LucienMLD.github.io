@@ -1,4 +1,139 @@
 articles:
+- category: cybersecurity
+  published: '2025-09-28T18:49:30'
+  score: 1.027
+  source: BleepingComputer
+  summary: The Akira ransomware is targeting SonicWall SSL VPN devices, successfully
+    logging in despite the presence of OTP-based multi-factor authentication (MFA).
+    Researchers suspect the threat actors may be using previously stolen OTP seeds
+    to bypass the MFA protection.
+  tags:
+  - Security
+  title: Akira ransomware breaching MFA-protected SonicWall VPN accounts
+  url: https://www.bleepingcomputer.com/news/security/akira-ransomware-breaching-mfa-protected-sonicwall-vpn-accounts/
+- category: ai
+  published: '2025-09-28T14:30:00'
+  score: 0.78
+  source: Towards Data Science
+  summary: The article presents a conceptual overview and an end-to-end Python implementation
+    of using graph algorithms for music composition, known as Eulerian Melodies.
+  tags:
+  - Graph Theory
+  - Algorithmic Music
+  - Data Science
+  - Editors Pick
+  - Eulerian Paths
+  title: 'Eulerian Melodies: Graph Algorithms for Music Composition'
+  url: https://towardsdatascience.com/eulerian-melodies-graph-algorithms-for-music-composition/
+- category: cybersecurity
+  published: '2025-09-28T14:23:46'
+  score: 0.85
+  source: BleepingComputer
+  summary: The European Commission is investigating potential anti-competitive practices
+    by SAP in the aftermarket services it provides for its on-premise ERP software.
+  tags:
+  - Legal
+  - Software
+  title: EU probes SAP over anti-competitive ERP support practices
+  url: https://www.bleepingcomputer.com/news/legal/eu-probes-sap-over-anti-competitive-erp-support-practices/
+- category: webdev
+  published: '2025-09-28T11:15:59'
+  score: 0.689
+  source: Ars Technica
+  summary: The article discusses the unparalleled purity and commitment to fantasy
+    in the classic 30-year-old game, Master of Orion II, which players are still enjoying
+    today.
+  tags:
+  - Gaming
+  - 4X
+  - C:\ArsGames
+  - gog
+  - Master of Orion II
+  title: 30 years later, I’m still obliterating planets in Master of Orion II—and
+    you can, too
+  url: https://arstechnica.com/gaming/2025/09/30-years-later-im-still-obliterating-planets-in-master-of-orion-ii-and-you-can-too/
+- category: cybersecurity
+  published: '2025-09-28T11:00:03'
+  score: 0.824
+  source: Ars Technica
+  summary: A 150-million-year-old pterosaur cold case has finally been solved, with
+    researchers discovering that the storm literally snapped the bones in their wings.
+  tags:
+  - Science
+  - Biology
+  - fossils
+  - paleontology
+  - pterosaurs
+  title: 150 million-year-old pterosaur cold case has finally been solved
+  url: https://arstechnica.com/science/2025/09/150-million-year-old-pterosaur-cold-case-has-finally-been-solved/
+- category: cybersecurity
+  published: '2025-09-27T19:49:22'
+  score: 0.709
+  source: BleepingComputer
+  summary: Hackers are using SEO poisoning and search engine advertisements to promote
+    fake Microsoft Teams installers that infect Windows devices with the Oyster backdoor,
+    providing initial access to corporate networks.
+  tags:
+  - Security
+  title: Fake Microsoft Teams installers push Oyster malware via malvertising
+  url: https://www.bleepingcomputer.com/news/security/fake-microsoft-teams-installers-push-oyster-malware-via-malvertising/
+- category: ai
+  published: '2025-09-27T16:00:00'
+  score: 0.575
+  source: Towards Data Science
+  summary: The article provides an introduction to GPU programming and optimization,
+    using a Triton kernel implementation for vector addition as an example.
+  tags:
+  - Deep Learning
+  - Gpu Computing
+  - Machine Learning
+  - Python
+  - Pytorch
+  title: 'Learning Triton One Kernel At a Time: Vector Addition'
+  url: https://towardsdatascience.com/learning-triton-one-kernel-at-a-time-vector-addition/
+- category: ai
+  published: '2025-09-27T14:30:00'
+  score: 0.565
+  source: Towards Data Science
+  summary: The article discusses the key considerations and requests that clients
+    typically have when working on AI projects, highlighting the importance of effective
+    project management.
+  tags:
+  - Artificial Intelligence
+  - Ai Product Management
+  - Ai Projects
+  - Product Management
+  - Project Management
+  title: What Clients Really Ask for in AI Projects
+  url: https://towardsdatascience.com/what-clients-really-ask-for-in-ai-projects/
+- category: cybersecurity
+  published: '2025-09-27T12:06:00'
+  score: 0.699
+  source: The Hacker News
+  summary: Telecommunications and manufacturing sectors in Central and South Asian
+    countries have been targeted by an ongoing campaign distributing a new variant
+    of the PlugX (aka Korplug or SOGU) malware, with features overlapping with the
+    RainyDay and Turian backdoors.
+  tags: []
+  title: China-Linked PlugX and Bookworm Malware Attacks Target Asian Telecom and
+    ASEAN Networks
+  url: https://thehackernews.com/2025/09/china-linked-plugx-and-bookworm-malware.html
+- category: ai
+  published: '2025-09-27T11:00:07'
+  score: 0.541
+  source: Ars Technica
+  summary: LA Comic Con thought making an AI-powered Stan Lee hologram was a good
+    idea, but acknowledged that if thousands of fans don't like it, they'll stop doing
+    it.
+  tags:
+  - AI
+  - Culture
+  - LA comic con
+  - marvel comic
+  - Stan Lee
+  title: Why LA Comic Con thought making an AI-powered Stan Lee hologram was a good
+    idea
+  url: https://arstechnica.com/ai/2025/09/why-la-comic-con-thought-making-an-ai-powered-stan-lee-hologram-was-a-good-idea/
 - category: webdev
   published: '2025-09-25T21:27:55'
   score: 0.753
@@ -4881,5 +5016,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-26T05:03:57.980960'
-total_articles: 383
+last_updated: '2025-09-29T05:04:30.385290'
+total_articles: 393
