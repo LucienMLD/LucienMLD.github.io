@@ -1,5 +1,218 @@
 articles:
 - category: cybersecurity
+  published: '2025-09-29T23:08:33'
+  score: 1.016
+  source: Ars Technica
+  summary: YouTube has agreed to pay $24.5 million to settle a lawsuit filed by former
+    US President Donald Trump over his suspension from the platform following the
+    January 6th Capitol riots. The settlement underscores the legal and political
+    implications of content moderation decisions made by large tech companies.
+  tags:
+  - Policy
+  - Donald Trump
+  - YouTube
+  title: Trump obtains another settlement as YouTube agrees to pay $24.5 million
+  url: https://arstechnica.com/tech-policy/2025/09/youtube-pays-24-5m-to-settle-trump-lawsuit-over-january-2021-suspension/
+- category: webdev
+  published: '2025-09-29T22:42:01'
+  score: 0.76
+  source: Ars Technica
+  summary: Firefly Aerospace, a private space company, has experienced another setback
+    in its rocket program, though the company has not provided specific details on
+    the path forward. This news underscores the challenges faced by emerging players
+    in the competitive and capital-intensive space industry.
+  tags:
+  - Space
+  - alpha rocket
+  - Commercial space
+  - Firefly Aerospace
+  - launch
+  title: Another setback for Firefly Aerospace’s beleaguered rocket program
+  url: https://arstechnica.com/space/2025/09/after-another-fiery-setback-it-seems-fireflys-alpha-rocket-is-still-in-beta/
+- category: ai
+  published: '2025-09-29T22:10:27'
+  score: 1.009
+  source: Ars Technica
+  summary: Anthropic's new AI model, Claude, has demonstrated the ability to maintain
+    focus and perform multistep tasks for up to 30 hours, outperforming models from
+    OpenAI and Google in coding tests. This advancement in AI capabilities could have
+    significant implications for the development of more efficient and capable AI
+    systems.
+  tags:
+  - AI
+  - Biz & IT
+  - AI agents
+  - AI assistants
+  - AI benchmarks
+  title: Anthropic says its new AI model “maintained focus” for 30 hours on multistep
+    tasks
+  url: https://arstechnica.com/ai/2025/09/anthropic-says-its-new-ai-model-maintained-focus-for-30-hours-on-multistep-tasks/
+- category: webdev
+  published: '2025-09-29T21:07:11'
+  score: 0.75
+  source: Ars Technica
+  summary: Analysts predict that EA, the major video game publisher, will undergo
+    significant changes under its new private ownership. This could include potential
+    issues for studios like BioWare and the possibility of Saudi Arabian influence
+    on the company's operations and decision-making.
+  tags:
+  - Gaming
+  - Electronic Arts
+  - private equity
+  title: EA will be a very different company under private ownership
+  url: https://arstechnica.com/gaming/2025/09/how-private-ownership-will-change-electronic-arts/
+- category: cybersecurity
+  published: '2025-09-29T20:44:50'
+  score: 0.946
+  source: BleepingComputer
+  summary: Japan's largest brewer, Asahi Group Holdings, has suspended operations
+    due to a cyberattack that disrupted several of its operations. This incident highlights
+    the ongoing threat of cyber threats to critical infrastructure and the need for
+    robust cybersecurity measures in the industrial and manufacturing sectors.
+  tags:
+  - Security
+  title: Japan's largest brewer suspends operations due to cyberattack
+  url: https://www.bleepingcomputer.com/news/security/japans-largest-brewer-suspends-operations-due-to-cyberattack/
+- category: webdev
+  published: '2025-09-29T19:09:24'
+  score: 0.738
+  source: Ars Technica
+  summary: The F-Droid project, which provides a repository of free and open-source
+    software (FOSS) apps, has expressed concerns that Google's new sideloading restrictions
+    for Android could threaten the existence of the project. This development underscores
+    the potential impact of platform policies on the distribution and accessibility
+    of FOSS applications.
+  tags:
+  - Google
+  - Tech
+  - apps
+  - google
+  - open source
+  title: F-Droid says Google’s new sideloading restrictions will kill the project
+  url: https://arstechnica.com/gadgets/2025/09/f-droid-calls-for-regulators-to-stop-googles-crackdown-on-sideloading/
+- category: webdev
+  published: '2025-09-29T18:42:52'
+  score: 0.735
+  source: WebKit Blog
+  summary: The article explores the concept of "position-area" in CSS, which provides
+    a clear and explicit way to define the positioning of elements, as opposed to
+    the more concise but potentially less intuitive "position" property. This technical
+    discussion highlights the ongoing evolution and refinement of CSS features to
+    improve the clarity and flexibility of web development.
+  tags:
+  - News
+  title: 'Position-area: Clear and explicit or short and sweet?'
+  url: https://webkit.org/blog/17417/position-area-clear-and-explicit-or-short-and-sweet/
+- category: ai
+  published: '2025-09-29T17:51:17'
+  score: 0.891
+  source: Towards Data Science
+  summary: The article introduces "Vid Prepper," a tool for fast video data preprocessing
+    in machine learning. This tool aims to streamline the process of preparing video
+    data for deep learning models, which can be a time-consuming and complex task,
+    thereby improving the efficiency and scalability of video-based AI applications.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Data Processing
+  - Deep Learning
+  - Multimodal
+  title: 'Preparing Video Data for Deep Learning: Introducing Vid Prepper'
+  url: https://towardsdatascience.com/introducing-vid-prepper/
+- category: ai
+  published: '2025-09-29T17:27:34'
+  score: 0.844
+  source: Towards Data Science
+  summary: The article presents a counterintuitive approach to AI optimization, where
+    reducing the size of an AI model by 84% actually resulted in improved performance,
+    rather than a decline. This technique could lead to the development of more efficient
+    and effective AI models that are smaller in size but maintain or even enhance
+    their capabilities.
+  tags:
+  - Large Language Models
+  - Deep Dives
+  - Edge Computing
+  - Inference
+  - Model Compression
+  title: I Made My AI Model 84% Smaller and It Got Better, Not Worse
+  url: https://towardsdatascience.com/i-made-my-ai-model-84-smaller-and-it-got-better-not-worse/
+- category: webdev
+  published: '2025-09-29T14:31:16'
+  score: 0.749
+  source: CSS-Tricks
+  summary: Safari 26 has introduced 75 new CSS features, 3 deprecations, and 171 other
+    improvements. This update highlights the ongoing evolution and enhancement of
+    the Safari browser's CSS capabilities, which can benefit web developers in creating
+    more sophisticated and visually appealing web experiences.
+  tags:
+  - Articles
+  - browser
+  - news
+  - safari
+  title: Touring New CSS Features in Safari 26
+  url: https://css-tricks.com/touring-new-css-features-in-safari-26/
+- category: ai
+  published: '2025-09-29T13:00:00'
+  score: 0.902
+  source: BleepingComputer
+  summary: OpenAI is offering a free trial for its ChatGPT Plus subscription, which
+    costs $20 per month, and has also expanded the availability of its $4 GPT Go model
+    to more regions, including Indonesia. These moves indicate OpenAI's efforts to
+    monetize its popular AI services and make them more accessible to a wider audience.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT tests free trial for paid plans, rolls out cheaper Go in more regions
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-tests-free-trial-for-paid-plans-rolls-out-cheaper-go-in-more-regions/
+- category: cybersecurity
+  published: '2025-09-29T12:36:00'
+  score: 1.028
+  source: The Hacker News
+  summary: This week's cybersecurity recap covers a range of incidents, including
+    a Cisco zero-day vulnerability, a record-breaking DDoS attack, updates to the
+    LockBit ransomware, BMC software bugs, and the emergence of the ShadowV2 botnet.
+    These events highlight the ongoing threats faced by organizations and the need
+    for robust security measures.
+  tags: []
+  title: '⚡ Weekly Recap: Cisco 0-Day, Record DDoS, LockBit 5.0, BMC Bugs, ShadowV2
+    Botnet & More'
+  url: https://thehackernews.com/2025/09/weekly-recap-cisco-0-day-record-ddos.html
+- category: ai
+  published: '2025-09-29T12:04:25'
+  score: 0.851
+  source: BleepingComputer
+  summary: OpenAI has implemented a "safety" feature in its GPT-4o model that routes
+    requests to an unknown model when it detects potentially harmful activities. This
+    feature is designed to improve the safety and reliability of the AI system by
+    preventing its misuse for malicious purposes.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI is routing GPT-4o to safety models when it detects harmful activities
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-routing-gpt-4o-to-safety-models-when-it-detects-harmful-activities/
+- category: cybersecurity
+  published: '2025-09-29T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, which tracks vulnerabilities that are actively being exploited
+    by threat actors. This action is aimed at helping organizations prioritize and
+    address these critical security flaws to mitigate potential attacks.
+  tags: []
+  title: CISA Adds Five Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/09/29/cisa-adds-five-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2025-09-29T12:00:00'
+  score: 0.976
+  source: CISA
+  summary: CISA has transitioned to a new model to better support state, local, tribal,
+    and territorial (SLTT) governments in strengthening their cybersecurity posture.
+    This includes providing access to grant funding, technical assistance, and other
+    resources to help SLTT partners enhance their overall security and resilience.
+  tags: []
+  title: CISA Strengthens Commitment to SLTT Governments
+  url: https://www.cisa.gov/news-events/alerts/2025/09/29/cisa-strengthens-commitment-sltt-governments
+- category: cybersecurity
   published: '2025-09-28T18:49:30'
   score: 1.027
   source: BleepingComputer
@@ -5016,5 +5229,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-29T05:04:30.385290'
-total_articles: 393
+last_updated: '2025-09-30T05:04:22.713570'
+total_articles: 408
