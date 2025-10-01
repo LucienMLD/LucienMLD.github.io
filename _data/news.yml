@@ -1,4 +1,173 @@
 articles:
+- category: webdev
+  published: '2025-10-01T07:00:00'
+  score: 0.912
+  source: Web.dev
+  summary: The September 2025 Baseline monthly digest covers various happenings with
+    the Baseline platform during that time period.
+  tags: []
+  title: September 2025 Baseline monthly digest
+  url: https://web.dev/blog/baseline-digest-sep-2025?hl=en
+- category: ai
+  published: '2025-09-30T22:52:14'
+  score: 0.837
+  source: Ars Technica
+  summary: A deepfake video featuring a sombrero and a fake mustache was posted by
+    former President Trump, further highlighting the potential for AI-generated content
+    to be used for malicious purposes.
+  tags:
+  - AI
+  - Culture
+  - deepfake
+  - Trump
+  title: The AI slop drops right from the top, as Trump posts vulgar deepfake of opponents
+  url: https://arstechnica.com/culture/2025/09/ai-leadership-trump-posts-deepfakes-of-dems-calling-themselves-woke-pieces-of-s-t/
+- category: ai
+  published: '2025-09-30T22:15:57'
+  score: 0.833
+  source: Ars Technica
+  summary: The survival of Alexa, Amazon's voice assistant, may depend on users purchasing
+    more expensive Amazon devices with the Alexa+ feature, as the company seeks to
+    improve the profitability of its AI assistant.
+  tags:
+  - AI
+  - Tech
+  - Amazon
+  - amazon alexa
+  - fire tv
+  title: Alexa’s survival hinges on you buying more expensive Amazon devices
+  url: https://arstechnica.com/gadgets/2025/09/alexas-survival-hinges-on-you-buying-more-expensive-amazon-devices/
+- category: ai
+  published: '2025-09-30T21:30:58'
+  score: 0.872
+  source: Ars Technica
+  summary: Critics argue that OpenAI's parental controls are still not doing enough
+    to protect teenagers, while users demand to be treated as adults when using the
+    company's AI systems.
+  tags:
+  - AI
+  - Policy
+  - chatbot
+  - ChatGPT
+  - child safety
+  title: Critics slam OpenAI’s parental controls while users rage, “Treat us like
+    adults”
+  url: https://arstechnica.com/tech-policy/2025/09/critics-slam-openais-parental-controls-while-users-rage-treat-us-like-adults/
+- category: ai
+  published: '2025-09-30T20:29:46'
+  score: 0.865
+  source: AWS Machine Learning
+  summary: This article demonstrates how to implement real-time fraud prevention using
+    GraphStorm v0.5's new capabilities for deploying graph neural network (GNN) models
+    through Amazon SageMaker, highlighting the transition from model training to production-ready
+    inference.
+  tags:
+  - Advanced (300)
+  - Amazon Neptune
+  - Amazon SageMaker AI
+  - Expert (400)
+  - Financial Services
+  title: 'Modernize fraud prevention: GraphStorm v0.5 for real-time inference'
+  url: https://aws.amazon.com/blogs/machine-learning/modernize-fraud-prevention-graphstorm-v0-5-for-real-time-inference/
+- category: cybersecurity
+  published: '2025-09-30T18:57:53'
+  score: 1.076
+  source: BleepingComputer
+  summary: The new MatrixPDF toolkit allows attackers to convert ordinary PDF files
+    into interactive lures that bypass email security measures and redirect victims
+    to credential theft or malware downloads. This poses a significant phishing and
+    malware distribution threat to organizations and individuals.
+  tags:
+  - Security
+  title: New MatrixPDF toolkit turns PDFs into phishing and malware lures
+  url: https://www.bleepingcomputer.com/news/security/new-matrixpdf-toolkit-turns-pdfs-into-phishing-and-malware-lures/
+- category: cybersecurity
+  published: '2025-09-30T14:54:44'
+  score: 1.094
+  source: BleepingComputer
+  summary: Chinese hackers have been exploiting a high-severity privilege escalation
+    vulnerability in VMware Aria Operations and VMware Tools since October 2024. Broadcom
+    has now patched the vulnerability, which could have significant security implications
+    for organizations using these VMware products.
+  tags:
+  - Security
+  title: Chinese hackers exploiting VMware zero-day since October 2024
+  url: https://www.bleepingcomputer.com/news/security/chinese-hackers-exploiting-vmware-zero-day-since-october-2024/
+- category: webdev
+  published: '2025-09-30T14:01:11'
+  score: 0.706
+  source: BleepingComputer
+  summary: VMware certification is surging as IT teams face hybrid infrastructure,
+    cloud complexity, and rising risks. The VMUG Advantage program helps practitioners
+    and enterprises turn certification into stronger security and measurable value.
+  tags:
+  - Security
+  title: VMware Certification Is Surging in a Shifting IT Landscape
+  url: https://www.bleepingcomputer.com/news/security/vmware-certification-is-surging-in-a-shifting-it-landscape/
+- category: ai
+  published: '2025-09-30T13:18:00'
+  score: 0.86
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed three vulnerabilities in Google's
+    Gemini AI assistant that could have exposed users to privacy risks and data theft
+    through prompt injection and cloud exploits. The vulnerabilities have since been
+    patched by Google.
+  tags: []
+  title: Researchers Disclose Google Gemini AI Flaws Allowing Prompt Injection and
+    Cloud Exploits
+  url: https://thehackernews.com/2025/09/researchers-disclose-google-gemini-ai.html
+- category: webdev
+  published: '2025-09-30T12:50:47'
+  score: 0.699
+  source: BleepingComputer
+  summary: Microsoft has released the KB5065789 preview cumulative update for Windows
+    11 24H2, which includes 41 improvements, such as new AI actions in File Explorer
+    and bug fixes for Windows Update and Windows Sandbox.
+  tags:
+  - Microsoft
+  title: Windows 11 KB5065789 update released with 41 changes and fixes
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5065789-update-released-with-41-changes-and-fixes/
+- category: cybersecurity
+  published: '2025-09-30T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Festo SBRD-Q/SBOC-Q/SBOI-Q products have a high-severity vulnerability
+    with a CVSS v3 score of 8.2. The vulnerability is remotely exploitable with low
+    attack complexity, potentially allowing attackers to gain unauthorized access
+    or execute malicious code on affected devices.
+  tags: []
+  title: Festo SBRD-Q/SBOC-Q/SBOI-Q
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-273-02
+- category: cybersecurity
+  published: '2025-09-30T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Festo CPX-CEC-C1 and CPX-CMXX products have a vulnerability with a
+    CVSS v3 score of 7.5. The vulnerability is also remotely exploitable with low
+    attack complexity, potentially enabling attackers to compromise the affected devices.
+  tags: []
+  title: Festo CPX-CEC-C1 and CPX-CMXX
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-273-03
+- category: cybersecurity
+  published: '2025-09-30T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The OpenPLC_V3 software has a vulnerability with a CVSS v4 score of 6.1.
+    The vulnerability has a low attack complexity, which could be exploited by attackers
+    to gain unauthorized access or disrupt the operation of affected industrial control
+    systems.
+  tags: []
+  title: OpenPLC_V3
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-273-05
+- category: webdev
+  published: '2025-09-30T11:00:00'
+  score: 0.687
+  source: Smashing Magazine
+  summary: This post provides a collection of new wallpapers created by the community,
+    designed to get your desktop ready for the fall and upcoming Halloween season.
+  tags: []
+  title: Shades Of October (2025 Wallpapers Edition)
+  url: https://smashingmagazine.com/2025/09/desktop-wallpaper-calendars-october-2025/
 - category: cybersecurity
   published: '2025-09-29T23:08:33'
   score: 1.016
@@ -5229,5 +5398,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-09-30T05:04:22.713570'
-total_articles: 408
+last_updated: '2025-10-01T05:04:37.414643'
+total_articles: 422
