@@ -1,4 +1,194 @@
 articles:
+- category: ai
+  published: '2025-10-02T04:46:47'
+  score: 0.978
+  source: Towards Data Science
+  summary: The article explores the differences between model-free and model-based
+    reinforcement learning (RL) methods, highlighting the importance of exploration
+    in temporal-difference learning algorithms.
+  tags:
+  - Artificial Intelligence
+  - Reinforcement Learning
+  - Data Science
+  - Editors Pick
+  - Machine Learning
+  title: 'Temporal-Difference Learning and the Importance of Exploration: An Illustrated
+    Guide'
+  url: https://towardsdatascience.com/temporal-difference-learning-and-the-importance-of-exploration-an-illustrated-guide/
+- category: cybersecurity
+  published: '2025-10-02T03:13:58'
+  score: 1.046
+  source: BleepingComputer
+  summary: The Clop ransomware group is sending extortion emails to executives, claiming
+    to have stolen data from their Oracle E-Business Suite systems, and threatening
+    to release the stolen information if a ransom is not paid.
+  tags:
+  - Security
+  title: Clop extortion emails claim theft of Oracle E-Business Suite data
+  url: https://www.bleepingcomputer.com/news/security/clop-extortion-emails-claim-theft-of-oracle-e-business-suite-data/
+- category: ai
+  published: '2025-10-02T02:00:27'
+  score: 0.959
+  source: Ars Technica
+  summary: The Arc spacecraft, developed by a startup, aims to deliver cargo anywhere
+    in the world within an hour, showcasing the potential of advanced transportation
+    technologies.
+  tags:
+  - Space
+  - ARC
+  - inversion
+  - Military
+  - rocket cargo
+  title: 'Meet the Arc spacecraft: it aims to deliver cargo anywhere in the world
+    in an hour'
+  url: https://arstechnica.com/space/2025/10/meet-the-arc-spacecraft-it-aims-to-deliver-cargo-anywhere-in-the-world-in-an-hour/
+- category: ai
+  published: '2025-10-02T00:00:00'
+  score: 1.033
+  source: OpenAI
+  summary: OpenAI and Japan's Digital Agency have partnered to advance the use of
+    generative AI in public services, support international AI governance, and promote
+    the safe and trustworthy adoption of AI technologies.
+  tags: []
+  title: OpenAI announces strategic collaboration with Japan’s Digital Agency
+  url: https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency
+- category: ai
+  published: '2025-10-01T21:15:09'
+  score: 0.958
+  source: Ars Technica
+  summary: OpenAI has refuted the claims made by xAI in a lawsuit, stating that Apple
+    did not give ChatGPT a monopoly on prompts, and that the lawsuit is "baseless."
+  tags:
+  - AI
+  - Policy
+  - Antitrust law
+  - apple
+  - chatbots
+  title: OpenAI mocks Musk’s math in suit over iPhone/ChatGPT integration
+  url: https://arstechnica.com/tech-policy/2025/10/openai-mocks-musks-math-in-suit-over-iphone-chatgpt-integration/
+- category: cybersecurity
+  published: '2025-10-01T20:37:08'
+  score: 1.041
+  source: BleepingComputer
+  summary: A ransomware attack on the dealership software provider Motility Software
+    Solutions has exposed the sensitive data of 766,000 customers, highlighting the
+    importance of robust cybersecurity measures in the automotive industry.
+  tags:
+  - Security
+  title: Data breach at dealership software provider impacts 766k clients
+  url: https://www.bleepingcomputer.com/news/security/data-breach-at-dealership-software-provider-impacts-766k-clients/
+- category: webdev
+  published: '2025-10-01T19:16:04'
+  score: 0.779
+  source: Towards Data Science
+  summary: The article provides guidance on improving the efficiency of PyTorch training
+    loops by optimizing parameters such as num_workers, pin_memory, and using the
+    PyTorch profiler to identify and resolve performance bottlenecks.
+  tags:
+  - Deep Learning
+  - Deep Dives
+  - Machine Learning
+  - Programming
+  - Python
+  title: How to Improve the Efficiency of Your PyTorch Training Loop
+  url: https://towardsdatascience.com/improve-efficiency-of-your-pytorch-training-loop/
+- category: webdev
+  published: '2025-10-01T17:21:17'
+  score: 0.727
+  source: Towards Data Science
+  summary: The article introduces the concept of visual variables, a key aspect of
+    data visualization, and explains how they can be used to effectively encode and
+    communicate information.
+  tags:
+  - Data Visualization
+  - Data Science
+  - Data Storytelling
+  - Editors Pick
+  - Visual Analytics
+  title: 'Data Visualization Explained (Part 2): An Introduction to Visual Variables'
+  url: https://towardsdatascience.com/data-visualization-explained-part-2-an-introduction-to-visual-variables/
+- category: ai
+  published: '2025-10-01T17:10:22'
+  score: 0.886
+  source: Towards Data Science
+  summary: The article presents a machine learning approach using convolutional neural
+    networks (CNNs) and vision transformers for the visual classification of pollen,
+    which can have applications in ecology and biotechnology.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Biotechnology
+  - Deep Dives
+  - Deep Learning
+  title: Visual Pollen Classification Using CNNs and Vision Transformers
+  url: https://towardsdatascience.com/visual-pollen-classification-using-cnns-and-vision-transformers/
+- category: cybersecurity
+  published: '2025-10-01T15:10:45'
+  score: 1.0
+  source: BleepingComputer
+  summary: Google has introduced an AI-powered security feature for Google Drive desktop
+    that can automatically detect and pause file syncing during a ransomware attack,
+    helping to minimize the impact on users.
+  tags:
+  - Security
+  - Artificial Intelligence
+  - Google
+  title: Google Drive for desktop gets AI-powered ransomware detection
+  url: https://www.bleepingcomputer.com/news/security/google-drive-for-desktop-gets-ai-powered-ransomware-detection/
+- category: webdev
+  published: '2025-10-01T14:00:00'
+  score: 0.706
+  source: BleepingComputer
+  summary: Microsoft has confirmed that the Media Creation Tool is no longer working
+    on Windows 11 Arm64 PCs after the release of the Windows 11 25H2 update, affecting
+    users of devices with Arm64 CPUs.
+  tags:
+  - Microsoft
+  title: 'Microsoft: Media Creation Tool broken on Windows 11 Arm64 PCs'
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-media-creation-tool-broken-on-windows-11-arm64-pcs/
+- category: cybersecurity
+  published: '2025-10-01T13:27:00'
+  score: 1.083
+  source: The Hacker News
+  summary: A critical vulnerability in the OneLogin IAM solution allowed attackers
+    to steal sensitive OIDC secrets and impersonate applications, exposing organizations
+    to potential data breaches and unauthorized access.
+  tags: []
+  title: OneLogin Bug Let Attackers Use API Keys to Steal OIDC Secrets and Impersonate
+    Apps
+  url: https://thehackernews.com/2025/10/onelogin-bug-let-attackers-use-api-keys.html
+- category: webdev
+  published: '2025-10-01T13:02:47'
+  score: 0.74
+  source: CSS-Tricks
+  summary: The article explores the similarities between web development and other
+    creative pursuits, highlighting how the fundamental principles of design and problem-solving
+    can be applied across different mediums.
+  tags:
+  - Articles
+  - inspiration
+  title: Same Idea, Different Paint Brush
+  url: https://css-tricks.com/same-idea-different-paint-brush/
+- category: cybersecurity
+  published: '2025-10-01T11:07:00'
+  score: 1.017
+  source: The Hacker News
+  summary: Threat actors are exploiting vulnerabilities in Milesight industrial cellular
+    routers to send phishing SMS messages to users in European countries, demonstrating
+    the need for robust security measures in IoT devices.
+  tags: []
+  title: Hackers Exploit Milesight Routers to Send Phishing SMS to European Users
+  url: https://thehackernews.com/2025/10/hackers-exploit-milesight-routers-to.html
+- category: webdev
+  published: '2025-10-01T07:00:00'
+  score: 0.702
+  source: Web.dev
+  summary: The article highlights some of the new and interesting features that have
+    been introduced in stable and beta web browsers during September 2025, showcasing
+    the ongoing evolution of the web platform.
+  tags: []
+  title: New to the web platform in September
+  url: https://web.dev/blog/web-platform-09-2025?hl=en
 - category: webdev
   published: '2025-10-01T07:00:00'
   score: 0.912
@@ -5398,5 +5588,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-01T05:04:37.414643'
-total_articles: 422
+last_updated: '2025-10-02T05:04:17.683498'
+total_articles: 437
