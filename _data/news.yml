@@ -1,4 +1,183 @@
 articles:
+- category: webdev
+  published: '2025-10-02T23:29:08'
+  score: 0.865
+  source: Ars Technica
+  summary: The "out of office" email auto-reply feature has been misused by the Trump
+    administration to include political attacks, raising concerns about the appropriate
+    use of such features.
+  tags:
+  - Culture
+  - out of office message
+  - Trump
+  - website
+  title: Trump admin defiles even the “out of office” email auto-reply
+  url: https://arstechnica.com/culture/2025/10/trump-admin-defiles-even-the-out-of-office-email-auto-reply/
+- category: webdev
+  published: '2025-10-02T22:17:34'
+  score: 0.758
+  source: Ars Technica
+  summary: Blue Origin aims to land and reuse the next New Glenn booster for an upcoming
+    Moon mission, demonstrating its progress in developing reusable launch systems.
+  tags:
+  - Science
+  - Space
+  - artemis
+  - blue moon
+  - blue origin
+  title: Blue Origin aims to land next New Glenn booster, then reuse it for Moon mission
+  url: https://arstechnica.com/space/2025/10/blue-origin-aims-to-land-next-new-glenn-booster-then-reuse-it-for-moon-mission/
+- category: ai
+  published: '2025-10-02T22:14:23'
+  score: 0.833
+  source: AWS Machine Learning
+  summary: The integration of Kore.ai's AI for Work platform with Amazon Q Business
+    can enhance employee productivity by enabling enterprise-wide search capabilities,
+    allowing users to quickly find relevant information.
+  tags:
+  - Amazon Q Business
+  - Customer Solutions
+  title: Enhance agentic workflows with enterprise search using Kore.ai and Amazon
+    Q Business
+  url: https://aws.amazon.com/blogs/machine-learning/enhance-agentic-workflows-with-enterprise-search-using-kore-ai-and-amazon-q-business/
+- category: webdev
+  published: '2025-10-02T21:26:35'
+  score: 0.752
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 229 is now available for download, providing
+    an opportunity for developers to test the latest features and improvements in
+    the Safari browser.
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 229
+  url: https://webkit.org/blog/17447/release-notes-for-safari-technology-preview-229/
+- category: ai
+  published: '2025-10-02T21:12:34'
+  score: 0.826
+  source: AWS Machine Learning
+  summary: The Amazon Bedrock AgentCore Model Context Protocol (MCP) Server is designed
+    to accelerate the development of components compatible with Bedrock Agents, providing
+    built-in support for runtime, gateway integration, identity management, and agent
+    memory.
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Announcements
+  - Generative AI
+  title: Accelerate development with the Amazon Bedrock AgentCore MCP server
+  url: https://aws.amazon.com/blogs/machine-learning/accelerate-development-with-the-amazon-bedrock-agentcore-mcpserver/
+- category: ai
+  published: '2025-10-02T21:10:23'
+  score: 0.826
+  source: Ars Technica
+  summary: Rodney Brooks, the founder of iRobot, expresses concerns about the hidden
+    safety challenges of humanoid robots and believes they won't learn dexterity from
+    video alone, cautioning against the widespread adoption of such robots.
+  tags:
+  - AI
+  - Biz & IT
+  - Tech
+  - Agility Robotics
+  - AI development tools
+  title: Why iRobot’s founder won’t go within 10 feet of today’s walking robots
+  url: https://arstechnica.com/ai/2025/10/why-irobots-founder-wont-go-within-10-feet-of-todays-walking-robots/
+- category: ai
+  published: '2025-10-02T20:30:00'
+  score: 0.821
+  source: Google AI Blog
+  summary: Google is investing $4 billion in Arkansas by 2027, which will include
+    the company's first data center in the state and energy efficiency programs, signaling
+    its commitment to the region.
+  tags:
+  - Data Centers and Infrastructure
+  - Company announcements
+  - AI
+  - Small Business
+  - Grow with Google
+  title: Google is investing in Arkansas with a new data center, energy efficiency
+    programs and more.
+  url: https://blog.google/inside-google/company-announcements/google-american-innovation-arkansas/
+- category: ai
+  published: '2025-10-02T18:00:58'
+  score: 0.804
+  source: Towards Data Science
+  summary: This article discusses the differences between prediction and search models,
+    highlighting the importance of understanding the underlying economics of two-sided
+    platforms for data scientists.
+  tags:
+  - Data Science
+  - Business
+  - Economics
+  - Editors Pick
+  - Modelling
+  title: 'Prediction vs. Search Models: What Data Scientists Are Missing'
+  url: https://towardsdatascience.com/the-economics-of-two-sided-platforms/
+- category: cybersecurity
+  published: '2025-10-02T17:37:46'
+  score: 0.97
+  source: BleepingComputer
+  summary: DrayTek has released an advisory about a security vulnerability in several
+    Vigor router models that could allow remote, unauthenticated actors to execute
+    arbitrary code. Users should apply the vendor's recommended patches to address
+    this issue.
+  tags:
+  - Security
+  - Hardware
+  title: DrayTek warns of remote code execution bug in Vigor routers
+  url: https://www.bleepingcomputer.com/news/security/draytek-warns-of-remote-code-execution-bug-in-vigor-routers/
+- category: webdev
+  published: '2025-10-02T15:07:56'
+  score: 0.753
+  source: BleepingComputer
+  summary: The Brave browser has surpassed 100 million monthly active users, a significant
+    milestone for the privacy-focused web browser.
+  tags:
+  - Software
+  - Technology
+  title: Brave browser surpasses the 100 million active monthly users mark
+  url: https://www.bleepingcomputer.com/news/software/brave-browser-surpasses-the-100-million-active-monthly-users-mark/
+- category: cybersecurity
+  published: '2025-10-02T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Raise3D Pro2 Series 3D printers have a critical vulnerability with
+    a CVSS v4 score of 8.8, which can be exploited remotely with low attack complexity.
+    This vulnerability requires immediate attention and patching from the vendor.
+  tags: []
+  title: Raise3D Pro2 Series 3D Printers
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-275-01
+- category: cybersecurity
+  published: '2025-10-02T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Hitachi Energy MSM product has a vulnerability with a CVSS v3 score
+    of 7.5, which can also be exploited remotely with low attack complexity. The vendor
+    has been notified and users should apply the necessary patches as soon as possible.
+  tags: []
+  title: Hitachi Energy MSM Product
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-275-02
+- category: cybersecurity
+  published: '2025-10-02T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. Organizations should
+    prioritize patching these vulnerabilities to mitigate the associated risks.
+  tags: []
+  title: CISA Adds Five Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/10/02/cisa-adds-five-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2025-10-02T11:30:00'
+  score: 1.068
+  source: The Hacker News
+  summary: This week's Threatsday bulletin covers a range of cybersecurity threats,
+    including a CarPlay exploit, BYOVD tactics, SQL-based command and control attacks,
+    and an iCloud backdoor demand. Staying vigilant and keeping systems up-to-date
+    is crucial to defend against these evolving threats.
+  tags: []
+  title: 'ThreatsDay Bulletin: CarPlay Exploit, BYOVD Tactics, SQL C2 Attacks, iCloud
+    Backdoor Demand & More'
+  url: https://thehackernews.com/2025/10/threatsday-bulletin-carplay-exploit.html
 - category: ai
   published: '2025-10-02T04:46:47'
   score: 0.978
@@ -5588,5 +5767,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-02T05:04:17.683498'
-total_articles: 437
+last_updated: '2025-10-03T05:04:36.581106'
+total_articles: 451
