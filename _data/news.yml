@@ -1,4 +1,161 @@
 articles:
+- category: cybersecurity
+  published: '2025-10-06T01:37:24'
+  score: 1.274
+  source: BleepingComputer
+  summary: Oracle has patched a critical zero-day vulnerability in its E-Business
+    Suite software that allows remote code execution, which is being actively exploited
+    in Clop data theft attacks. The vulnerability, tracked as CVE-2025-61882, underscores
+    the importance of timely security updates to protect against emerging threats.
+  tags:
+  - Security
+  title: Oracle patches EBS zero-day exploited in Clop data theft attacks
+  url: https://www.bleepingcomputer.com/news/security/oracle-patches-ebs-zero-day-exploited-in-clop-data-theft-attacks/
+- category: ai
+  published: '2025-10-06T00:00:00'
+  score: 0.989
+  source: OpenAI
+  summary: The Hacktivate AI report, released by OpenAI and Allied for Startups, provides
+    20 actionable policy ideas to accelerate AI adoption in Europe, boost competitiveness,
+    and empower innovators, aiming to address the challenges and capitalize on the
+    opportunities presented by the growing AI landscape.
+  tags: []
+  title: Accelerating AI uptake in Europe
+  url: https://openai.com/global-affairs/accelerating-ai-uptake-in-europe
+- category: ai
+  published: '2025-10-05T16:00:51'
+  score: 0.834
+  source: Towards Data Science
+  summary: The article discusses how simple solutions, such as classical computer
+    vision and perspective transformation techniques, can be effective in solving
+    problems like Sudoku extraction, emphasizing the importance of not overcomplexifying
+    solutions to straightforward tasks.
+  tags:
+  - Computer Vision
+  - Data Science
+  - Editors Pick
+  - Opencv
+  - Programming
+  title: Classical Computer Vision and Perspective Transformation for Sudoku Extraction
+  url: https://towardsdatascience.com/classical-computer-vision-and-perspective-transformation-for-sudoku-extraction/
+- category: cybersecurity
+  published: '2025-10-05T14:45:09'
+  score: 0.997
+  source: BleepingComputer
+  summary: Researchers have discovered that hackers exploited a zero-day vulnerability
+    in the Zimbra Collaboration Suite (ZCS) by using malicious .ICS calendar attachments,
+    highlighting the need for organizations to be vigilant about emerging attack vectors
+    and to promptly address software vulnerabilities.
+  tags:
+  - Security
+  title: Hackers exploited Zimbra flaw as zero-day using iCalendar files
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploited-zimbra-flaw-as-zero-day-using-icalendar-files/
+- category: webdev
+  published: '2025-10-05T14:00:00'
+  score: 0.706
+  source: Towards Data Science
+  summary: The article provides a step-by-step guide on how to build a command-line
+    quiz application in R, demonstrating the use of control flow, input handling,
+    and functions, which can serve as a practical exercise for developers to enhance
+    their skills in the R programming language.
+  tags:
+  - Data Science
+  - Coding
+  - Machine Learning
+  - Programming
+  - R
+  title: Building a Command-Line Quiz Application in R
+  url: https://towardsdatascience.com/building-a-command-line-quiz-application-in-r/
+- category: cybersecurity
+  published: '2025-10-05T12:16:23'
+  score: 0.882
+  source: BleepingComputer
+  summary: ParkMobile has settled a class action lawsuit over a 2021 data breach that
+    affected 22 million users, but the compensation for victims is limited to a $1
+    in-app credit that must be claimed manually and expires, underscoring the challenges
+    in providing meaningful redress for data breaches.
+  tags:
+  - Security
+  - Legal
+  title: ParkMobile pays... $1 each for 2021 data breach that hit 22 million
+  url: https://www.bleepingcomputer.com/news/security/parkmobile-pays-1-each-for-2021-data-breach-that-hit-22-million/
+- category: webdev
+  published: '2025-10-04T19:20:05'
+  score: 0.539
+  source: Ars Technica
+  summary: An examination of recent military contracts reveals that the cost of United
+    Launch Alliance's (ULA) Vulcan rocket is increasing, providing insights into the
+    financial dynamics of the space industry and the challenges faced by companies
+    in maintaining competitive pricing for their launch services.
+  tags:
+  - Science
+  - Space
+  - falcon 9
+  - falcon heavy
+  - launch
+  title: Pentagon contract figures show ULA’s Vulcan rocket is getting more expensive
+  url: https://arstechnica.com/space/2025/10/pentagon-contract-figures-show-ulas-vulcan-rocket-is-getting-more-expensive/
+- category: ai
+  published: '2025-10-04T19:00:00'
+  score: 0.772
+  source: BleepingComputer
+  summary: OpenAI is exploring the possibility of adding social features to ChatGPT,
+    as a leaked document suggests that the company is considering adding direct messaging
+    support, indicating a potential expansion of the chatbot's capabilities beyond
+    just conversational interactions.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT social could be a thing, as leak shows direct messages support
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-social-could-be-a-thing-as-leak-shows-direct-messages-support/
+- category: ai
+  published: '2025-10-04T16:30:00'
+  score: 0.711
+  source: BleepingComputer
+  summary: OpenAI is working to improve ChatGPT's emotional support capabilities,
+    aiming to make the chatbot more adept at providing empathetic and supportive responses,
+    as the company recognizes the growing demand for AI-powered emotional assistance.
+  tags:
+  - Artificial Intelligence
+  title: OpenAI wants ChatGPT to be your emotional support
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-wants-chatgpt-to-be-your-emotional-support/
+- category: ai
+  published: '2025-10-04T15:42:39'
+  score: 0.705
+  source: BleepingComputer
+  summary: OpenAI is expanding the availability of its new, cheaper ChatGPT plan called
+    "Go" to more regions, indicating the company's efforts to make the AI chatbot
+    more accessible to a wider audience by offering a more affordable subscription
+    option.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI prepares $4 ChatGPT Go for several new countries
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-prepares-4-chatgpt-go-for-several-new-countries/
+- category: cybersecurity
+  published: '2025-10-04T14:37:00'
+  score: 0.718
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed a new attack called CometJacking,
+    which can turn Perplexity's Comet AI browser into a data theft tool by embedding
+    malicious prompts within seemingly innocuous links, highlighting the need for
+    caution when interacting with AI-powered applications.
+  tags: []
+  title: 'CometJacking: One Click Can Turn Perplexity’s Comet AI Browser Into a Data
+    Thief'
+  url: https://thehackernews.com/2025/10/cometjacking-one-click-can-turn.html
+- category: cybersecurity
+  published: '2025-10-04T11:16:33'
+  score: 0.645
+  source: BleepingComputer
+  summary: Discord has disclosed a data breach in which hackers stole partial payment
+    information and personally identifiable data, including names and government-issued
+    IDs, from some of its users, highlighting the ongoing challenges organizations
+    face in protecting customer data.
+  tags:
+  - Security
+  title: Discord discloses data breach after hackers steal support tickets
+  url: https://www.bleepingcomputer.com/news/security/discord-discloses-data-breach-after-hackers-steal-support-tickets/
 - category: webdev
   published: '2025-10-02T23:29:08'
   score: 0.865
@@ -5767,5 +5924,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-03T05:04:36.581106'
-total_articles: 451
+last_updated: '2025-10-06T05:04:25.356689'
+total_articles: 463
