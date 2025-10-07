@@ -1,4 +1,201 @@
 articles:
+- category: ai
+  published: '2025-10-06T23:11:33'
+  score: 0.94
+  source: Ars Technica
+  summary: The 2023 Nobel Prize in Physiology or Medicine was awarded for the discovery
+    of cells that keep immune responses in check, revealing a peripheral mechanism
+    that prevents the immune system from causing harm.
+  tags:
+  - Health
+  - immune system
+  - nobel
+  - t cells
+  - t regulatory cells
+  title: Discovery of cells that keep immune responses in check wins medicine Nobel
+    Prize
+  url: https://arstechnica.com/health/2025/10/discovery-of-cells-that-keep-immune-responses-in-check-wins-medicine-nobel-prize/
+- category: webdev
+  published: '2025-10-06T19:14:40'
+  score: 0.779
+  source: AWS Machine Learning
+  summary: PowerSchool built a custom content filtering solution using Amazon SageMaker
+    AI to safeguard millions of students, achieving better accuracy while maintaining
+    low false positive rates.
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker
+  - Customer Solutions
+  - Uncategorized
+  title: 'Responsible AI: How PowerSchool safeguards millions of students with AI-powered
+    content filtering using Amazon SageMaker AI'
+  url: https://aws.amazon.com/blogs/machine-learning/responsible-ai-how-powerschool-safeguards-millions-of-students-with-ai-powered-content-filtering-using-amazon-sagemaker-ai/
+- category: ai
+  published: '2025-10-06T19:10:44'
+  score: 0.944
+  source: Ars Technica
+  summary: OpenAI wants to make ChatGPT into a universal app frontend, with Spotify,
+    Canva, Zillow, and more companies as launch partners.
+  tags:
+  - AI
+  - apps
+  - canva
+  - ChatGPT
+  - dev days
+  title: OpenAI wants to make ChatGPT into a universal app frontend
+  url: https://arstechnica.com/ai/2025/10/openai-wants-to-make-chatgpt-into-a-universal-app-frontend/
+- category: cybersecurity
+  published: '2025-10-06T18:11:46'
+  score: 1.071
+  source: BleepingComputer
+  summary: A cybercrime group has been actively exploiting a critical vulnerability
+    in the GoAnywhere MFT software, leading to Medusa ransomware attacks. The vulnerability
+    has a maximum severity rating and has been under active exploitation for nearly
+    a month.
+  tags:
+  - Security
+  - Microsoft
+  title: 'Microsoft: Critical GoAnywhere bug exploited in ransomware attacks'
+  url: https://www.bleepingcomputer.com/news/security/microsoft-critical-goanywhere-bug-exploited-in-ransomware-attacks/
+- category: webdev
+  published: '2025-10-06T17:28:58'
+  score: 0.728
+  source: Ars Technica
+  summary: The EPA is being sued for axing a $7 billion solar energy program called
+    "Solar for All," which was designed to drop energy bills by $350 million.
+  tags:
+  - Policy
+  - clean energy
+  - Donald Trump
+  - Environmental Protection Agency
+  - EPA
+  title: Trump’s EPA sued for axing $7 billion solar energy program
+  url: https://arstechnica.com/tech-policy/2025/10/trumps-epa-sued-for-clawing-back-7b-in-solar-energy-funds/
+- category: ai
+  published: '2025-10-06T16:59:26'
+  score: 0.929
+  source: BleepingComputer
+  summary: OpenAI's ChatGPT Pulse, a tool that provides personalized updates based
+    on usage patterns, is coming to the web, but there's no word on the free or Plus
+    rollout.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT Pulse is coming to the web, but no word on free or Plus roll out
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-pulse-is-coming-to-the-web-but-no-word-on-free-or-plus-roll-out/
+- category: ai
+  published: '2025-10-06T16:06:34'
+  score: 0.923
+  source: BleepingComputer
+  summary: OpenAI is building a tool called ChatGPT-powered Agent Builder, which will
+    allow users to create their own AI agents, as AI startups see AI agents as the
+    future.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI is testing ChatGPT-powered Agent Builder
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-testing-chatgpt-powered-agent-builder/
+- category: webdev
+  published: '2025-10-06T16:00:00'
+  score: 0.718
+  source: Google AI Blog
+  summary: '"Vibe coding" is a term used to describe the process of designing user
+    interfaces that convey a certain mood or feeling.'
+  tags:
+  - Ask a Techspert
+  - Google Labs
+  - Developers
+  - AI
+  - Gemini Models
+  title: 'Ask a Techspert: What is vibe coding?'
+  url: https://blog.google/technology/ai/techspert-what-is-vibe-coding/
+- category: cybersecurity
+  published: '2025-10-06T15:55:51'
+  score: 1.054
+  source: BleepingComputer
+  summary: The Redis security team has released patches for a maximum severity vulnerability
+    that could allow attackers to gain remote code execution on thousands of vulnerable
+    instances.
+  tags:
+  - Security
+  title: Redis warns of critical flaw impacting thousands of instances
+  url: https://www.bleepingcomputer.com/news/security/redis-warns-of-max-severity-flaw-impacting-thousands-of-instances/
+- category: webdev
+  published: '2025-10-06T15:45:40'
+  score: 0.757
+  source: CSS-Tricks
+  summary: The CSS property `shape-outside` offers creative opportunities to add personality
+    to web designs, but it is rarely used.
+  tags:
+  - Articles
+  - css shapes
+  - images
+  - UI/IX Design
+  title: Getting Creative With shape-outside
+  url: https://css-tricks.com/getting-creative-with-shape-outside/
+- category: ai
+  published: '2025-10-06T14:45:28'
+  score: 0.914
+  source: Ars Technica
+  summary: ChatGPT maker OpenAI has won a massive AI chip deal from AMD, with the
+    option to buy 10% of AMD stock for a penny per share.
+  tags:
+  - AI
+  - Biz & IT
+  - AI chips
+  - AI development tools
+  - AI GPU
+  title: AMD wins massive AI chip deal from OpenAI with stock sweetener
+  url: https://arstechnica.com/ai/2025/10/amd-wins-massive-ai-chip-deal-from-openai-with-stock-sweetener/
+- category: cybersecurity
+  published: '2025-10-06T13:56:22'
+  score: 0.991
+  source: BleepingComputer
+  summary: A code execution vulnerability in the Unity game engine could be exploited
+    to achieve code execution on Android and privilege escalation on Windows, prompting
+    warnings from Steam and Microsoft.
+  tags:
+  - Security
+  - Gaming
+  title: Steam and Microsoft warn of Unity flaw exposing gamers to attacks
+  url: https://www.bleepingcomputer.com/news/security/steam-and-microsoft-warn-of-unity-flaw-exposing-gamers-to-attacks/
+- category: webdev
+  published: '2025-10-06T13:00:00'
+  score: 0.7
+  source: Google AI Blog
+  summary: The article discusses the importance of securing the AI frontier and the
+    challenges involved in ensuring the responsible development and deployment of
+    AI systems.
+  tags:
+  - Google DeepMind
+  - Safety & Security
+  - AI
+  title: How we’re securing the AI frontier
+  url: https://blog.google/technology/safety-security/ai-security-frontier-strategy-tools/
+- category: cybersecurity
+  published: '2025-10-06T11:37:00'
+  score: 1.069
+  source: The Hacker News
+  summary: Oracle has released an emergency patch to address a critical security flaw
+    in its E-Business Suite that has been exploited in recent Cl0p data theft attacks.
+    The vulnerability, with a CVSS score of 9.8, could allow unauthenticated attackers
+    to gain remote code execution.
+  tags: []
+  title: Oracle Rushes Patch for CVE-2025-61882 After Cl0p Exploited It in Data Theft
+    Attacks
+  url: https://thehackernews.com/2025/10/oracle-rushes-patch-for-cve-2025-61882.html
+- category: cybersecurity
+  published: '2025-10-06T06:01:00'
+  score: 1.027
+  source: The Hacker News
+  summary: A now-patched security vulnerability in Zimbra Collaboration was exploited
+    as a zero-day in cyber attacks targeting the Brazilian military earlier this year.
+    The vulnerability is a stored cross-site scripting (XSS) flaw with a CVSS score
+    of 5.4.
+  tags: []
+  title: Zimbra Zero-Day Exploited to Target Brazilian Military via Malicious ICS
+    Files
+  url: https://thehackernews.com/2025/10/zimbra-zero-day-exploited-to-target.html
 - category: cybersecurity
   published: '2025-10-06T01:37:24'
   score: 1.274
@@ -5924,5 +6121,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-06T05:04:25.356689'
-total_articles: 463
+last_updated: '2025-10-07T05:03:47.316167'
+total_articles: 478
