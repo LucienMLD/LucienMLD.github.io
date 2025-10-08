@@ -1,4 +1,184 @@
 articles:
+- category: cybersecurity
+  published: '2025-10-08T00:17:17'
+  score: 1.072
+  source: BleepingComputer
+  summary: Salesforce has confirmed that it will not negotiate with or pay a ransom
+    to the threat actors behind a massive wave of data theft attacks that impacted
+    the company's customers this year. The company is taking a firm stance against
+    negotiating with cybercriminals.
+  tags:
+  - Security
+  title: Salesforce refuses to pay ransom over widespread data theft attacks
+  url: https://www.bleepingcomputer.com/news/security/salesforce-refuses-to-pay-ransom-over-widespread-data-theft-attacks/
+- category: cybersecurity
+  published: '2025-10-07T22:45:35'
+  score: 1.057
+  source: Krebs on Security
+  summary: A cybercriminal group that used voice phishing attacks to steal over a
+    billion records from Salesforce customers has launched a website threatening to
+    publish data stolen from dozens of Fortune 500 firms if they refuse to pay a ransom.
+  tags:
+  - A Little Sunshine
+  - Latest Warnings
+  - Ne'er-Do-Well News
+  - Ransomware
+  - The Coming Storm
+  title: ShinyHunters Wage Broad Corporate Extortion Spree
+  url: https://krebsonsecurity.com/2025/10/shinyhunters-wage-broad-corporate-extortion-spree/
+- category: ai
+  published: '2025-10-07T22:22:18'
+  score: 0.834
+  source: Ars Technica
+  summary: Tesla has introduced standard-range versions of the Model 3 and Model Y,
+    with a smaller battery and less standard equipment, resulting in lower prices
+    for these electric vehicle models.
+  tags:
+  - Cars
+  - Tesla
+  - tesla model 3
+  - Tesla Model Y
+  title: Tesla’s standard-range Model 3, Model Y join the lineup
+  url: https://arstechnica.com/cars/2025/10/teslas-new-cut-price-evs-a-39990-model-y-and-36990-model-3/
+- category: webdev
+  published: '2025-10-07T20:43:08'
+  score: 0.748
+  source: Ars Technica
+  summary: A lawyer for the Wikimedia Foundation wants to help Ted Cruz understand
+    how Wikipedia works, as the senator appears to have misconceptions about the platform.
+  tags:
+  - Policy
+  - ted cruz
+  - Wikimedia Foundation
+  - wikipedia
+  title: Ted Cruz doesn’t seem to understand Wikipedia, lawyer for Wikimedia says
+  url: https://arstechnica.com/tech-policy/2025/10/wikipedia-rebuts-ted-cruz-attack-says-cruz-just-doesnt-understand-the-site/
+- category: webdev
+  published: '2025-10-07T19:47:19'
+  score: 0.742
+  source: Ars Technica
+  summary: Microsoft has locked down well-documented workarounds in recent test builds
+    of Windows 11, further restricting the ability to bypass Microsoft account requirements.
+  tags:
+  - Tech
+  - windows 11
+  - windows 11 25h2
+  title: Microsoft removes even more Microsoft account workarounds from Windows 11
+    build
+  url: https://arstechnica.com/gadgets/2025/10/microsoft-removes-even-more-microsoft-account-workarounds-from-windows-11-build/
+- category: ai
+  published: '2025-10-07T19:00:00'
+  score: 0.855
+  source: Google AI Blog
+  summary: Gemini has introduced a new computer use model, providing insights into
+    how individuals and organizations can leverage computer resources more effectively.
+  tags:
+  - Gemini Models
+  - Google DeepMind
+  - AI
+  title: Introducing the Gemini 2.5 Computer Use model
+  url: https://blog.google/technology/google-deepmind/gemini-computer-use-model/
+- category: cybersecurity
+  published: '2025-10-07T17:27:34'
+  score: 1.113
+  source: BleepingComputer
+  summary: The Clop ransomware gang has been exploiting a critical Oracle E-Business
+    Suite (EBS) zero-day bug to carry out data theft attacks since early August. CrowdStrike,
+    a cybersecurity company, has reported on this ongoing threat actor activity.
+  tags:
+  - Security
+  title: Clop exploited Oracle zero-day for data theft since early August
+  url: https://www.bleepingcomputer.com/news/security/oracle-zero-day-exploited-in-clop-data-theft-attacks-since-early-august/
+- category: ai
+  published: '2025-10-07T17:08:05'
+  score: 0.842
+  source: Ars Technica
+  summary: OpenAI's likeness protections for living "public figures" do not apply
+    to "historical figures," allowing the use of dead celebrities' likenesses in the
+    Sora 2 video manipulation tool.
+  tags:
+  - AI
+  - celebrities
+  - dead
+  - deceased
+  - law
+  title: Dead celebrities are apparently fair game for Sora 2 video manipulation
+  url: https://arstechnica.com/ai/2025/10/dj-bruce-lee-and-jackass-mr-rogers-dead-celebrities-become-puppets-in-sora-2-videos/
+- category: webdev
+  published: '2025-10-07T15:56:43'
+  score: 0.718
+  source: Ars Technica
+  summary: Upcoming changes to the Google Play Store, including antitrust remedies,
+    are expected to be implemented in the coming weeks and next summer.
+  tags:
+  - Google
+  - Tech
+  - antitrust
+  - apps
+  - google
+  title: Play Store changes coming this month as SCOTUS declines to freeze antitrust
+    remedies
+  url: https://arstechnica.com/gadgets/2025/10/supreme-court-refuses-to-pause-play-store-changes-while-google-appeals-antitrust-case/
+- category: webdev
+  published: '2025-10-07T15:42:23'
+  score: 0.717
+  source: Ars Technica
+  summary: Apple has backtracked on some of the iPadOS 26 multitasking decisions that
+    had removed many of the iPad's old multitasking modes in the new update.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - iPadOS
+  - ipados 26
+  title: Newest developer beta backtracks on one iPadOS 26 multitasking decision
+  url: https://arstechnica.com/gadgets/2025/10/newest-developer-beta-backtracks-on-one-ipados-26-multitasking-decision/
+- category: ai
+  published: '2025-10-07T13:00:00'
+  score: 0.858
+  source: Towards Data Science
+  summary: A recent puzzle that took GPT-4o 2 hours to solve was completed by Sonnet
+    4.5 in just 5 seconds, demonstrating the rapid progress made by large language
+    models in a little over a year.
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Data Science
+  - Llm Applications
+  - Programming
+  title: This Puzzle Shows Just How Far LLMs Have Progressed in a Little Over a Year
+  url: https://towardsdatascience.com/this-puzzle-shows-just-how-far-llms-have-progressed-in-little-over-a-year/
+- category: cybersecurity
+  published: '2025-10-07T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Delta Electronics has disclosed a vulnerability (CVSS v4 score of 6.8)
+    in its DIAScreen product, which has a low attack complexity. Vendors and users
+    should address this security issue promptly.
+  tags: []
+  title: Delta Electronics DIAScreen
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-280-01
+- category: ai
+  published: '2025-10-07T11:00:29'
+  score: 0.888
+  source: Machine Learning Mastery
+  summary: OpenAI's latest model, GPT-5, claims a breakthrough in reasoning for math
+    and logic, with the ability to "think" more deeply when a prompt benefits from
+    careful analysis. This represents a significant advancement in large language
+    model capabilities.
+  tags: []
+  title: Is ChatGPT-5 Able to Provide Proofs for Advanced Mathematics?
+  url: https://machinelearningmastery.com/is-chatgpt-5-able-to-provide-proofs-for-advanced-mathematics/
+- category: cybersecurity
+  published: '2025-10-07T08:15:00'
+  score: 1.044
+  source: The Hacker News
+  summary: 'Microsoft has attributed the exploitation of a critical security flaw
+    in Fortra GoAnywhere software (CVE-2025-10035, CVSS score: 10.0) to a threat actor
+    it tracks as Storm-1175, leading to the deployment of Medusa ransomware.'
+  tags: []
+  title: Microsoft Links Storm-1175 to GoAnywhere Exploit Deploying Medusa Ransomware
+  url: https://thehackernews.com/2025/10/microsoft-links-storm-1175-to.html
 - category: ai
   published: '2025-10-06T23:11:33'
   score: 0.94
@@ -6121,5 +6301,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-07T05:03:47.316167'
-total_articles: 478
+last_updated: '2025-10-08T05:03:54.776026'
+total_articles: 492
