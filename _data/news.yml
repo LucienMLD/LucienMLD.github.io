@@ -1,5 +1,201 @@
 articles:
 - category: cybersecurity
+  published: '2025-10-09T00:22:03'
+  score: 1.073
+  source: BleepingComputer
+  summary: Discord has confirmed that threat actors have claimed to have stolen the
+    data of 5.5 million unique users from the company's Zendesk support system instance,
+    including government IDs and partial payment information for some users. However,
+    Discord has stated that they will not be negotiating with the threat actors.
+  tags:
+  - Security
+  title: Hackers claim Discord breach exposed data of 5.5 million users
+  url: https://www.bleepingcomputer.com/news/security/hackers-claim-discord-breach-exposed-data-of-55-million-users/
+- category: cybersecurity
+  published: '2025-10-09T00:00:00'
+  score: 1.022
+  source: MDN Blog
+  summary: This article provides a beginner-friendly guide to implementing smooth,
+    animated navigation between pages in multi-page web applications using CSS view
+    transitions. With just one line of CSS, developers can enable seamless transitions
+    between pages.
+  tags: []
+  title: A beginner-friendly guide to view transitions in CSS
+  url: https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide/
+- category: ai
+  published: '2025-10-08T23:56:33'
+  score: 0.945
+  source: Ars Technica
+  summary: While one NASA science mission has been saved from funding cuts, others
+    are still in limbo. The impact of these cuts is already being felt, and even if
+    funding is reinstated, the damage done by the loss of personnel cannot be easily
+    undone.
+  tags:
+  - Science
+  - Space
+  - Donald Trump
+  - NASA
+  - osiris rex
+  title: One NASA science mission saved from Trump’s cuts, but others still in limbo
+  url: https://arstechnica.com/space/2025/10/one-nasa-science-mission-saved-from-trumps-cuts-but-others-still-in-limbo/
+- category: ai
+  published: '2025-10-08T21:08:50'
+  score: 0.826
+  source: Ars Technica
+  summary: The FCC will be killing a requirement for internet service providers (ISPs)
+    to list all of the fees they charge customers, as ISPs have complained that the
+    Biden-era rule was too difficult to comply with.
+  tags:
+  - Policy
+  - brendan carr
+  - FCC
+  title: ISPs created so many fees that FCC will kill requirement to list them all
+  url: https://arstechnica.com/tech-policy/2025/10/isps-created-so-many-fees-that-fcc-will-kill-requirement-to-list-them-all/
+- category: ai
+  published: '2025-10-08T17:30:00'
+  score: 0.8
+  source: Google AI Blog
+  summary: Google, Team USA, LA28, and NBCUniversal have teamed up for the LA28 Olympic
+    and Paralympic Games, with the logos of these organizations lined up side by side.
+  tags:
+  - Search
+  - Company announcements
+  - Gemini
+  - Google Cloud
+  - AI
+  title: Teaming up with LA28, Team USA and NBCUniversal for the LA28 Olympic and
+    Paralympic Games
+  url: https://blog.google/inside-google/company-announcements/team-usa-la28-nbc-partnerships/
+- category: cybersecurity
+  published: '2025-10-08T16:43:00'
+  score: 1.107
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a malicious campaign targeting
+    WordPress sites to inject malicious JavaScript that redirects users to phishing
+    sites. The injected content is designed to look like a Cloudflare verification
+    process, tricking users into providing sensitive information.
+  tags: []
+  title: Hackers Exploit WordPress Sites to Power Next-Gen ClickFix Phishing Attacks
+  url: https://thehackernews.com/2025/10/hackers-exploit-wordpress-themes-to.html
+- category: cybersecurity
+  published: '2025-10-08T15:57:53'
+  score: 1.006
+  source: BleepingComputer
+  summary: Threat actors are actively exploiting a critical vulnerability in the Service
+    Finder WordPress theme that allows them to bypass authentication and log in as
+    administrators. This vulnerability poses a significant security risk to WordPress
+    site owners.
+  tags:
+  - Security
+  title: Hackers exploit auth bypass in Service Finder WordPress theme
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-in-service-finder-wordpress-theme/
+- category: webdev
+  published: '2025-10-08T15:35:57'
+  score: 0.716
+  source: Ars Technica
+  summary: To be financially sustainable, the reusability of Blue Origin's New Glenn
+    rocket must be improved, as the odds of recovering the second launch are discussed.
+  tags:
+  - Space
+  - blue origin
+  - new glenn
+  - space
+  title: Actually, we are going to tell you the odds of recovering New Glenn’s second
+    launch
+  url: https://arstechnica.com/space/2025/10/the-second-new-glenn-rolls-to-the-launch-pad-and-they-expect-to-recover-this-one/
+- category: webdev
+  published: '2025-10-08T14:30:00'
+  score: 0.709
+  source: Towards Data Science
+  summary: This article provides a hands-on walkthrough using Python libraries like
+    skyfield, timezonefinder, geopy, and pytz to perform astronomical computations
+    and geospatial-temporal analytics to determine one's "real" birthday.
+  tags:
+  - Data Science
+  - Astronomy
+  - Deep Dives
+  - Geospatial Analytics
+  - Programming
+  title: 'Know Your Real Birthday: Astronomical Computation and Geospatial-Temporal
+    Analytics in Python'
+  url: https://towardsdatascience.com/know-your-real-birthday-astronomical-computation-and-geospatial-temporal-analytics-in-python/
+- category: webdev
+  published: '2025-10-08T13:50:25'
+  score: 0.705
+  source: Ars Technica
+  summary: This article covers the best deals that can be found during Amazon's Prime
+    Day 2025 event, including discounts on keyboards, laptops, chargers, cameras,
+    and other products.
+  tags:
+  - Shopping
+  - Amazon Prime
+  - Amazon Prime Day
+  - prime day
+  - shopping
+  title: It’s Prime Day 2025 part two, and here are more of the best deals we could
+    find
+  url: https://arstechnica.com/shopping/2025/10/its-prime-day-2025-part-two-and-here-are-the-best-deals-we-could-find/
+- category: ai
+  published: '2025-10-08T13:31:28'
+  score: 0.861
+  source: Ars Technica
+  summary: OpenAI, Anthropic, and other AI firms are considering using investor funds
+    to settle potential lawsuits, as insurers are balking at paying out huge settlements
+    for claims against these companies.
+  tags:
+  - AI
+  - Anthropic
+  - copyright infringement
+  - insurance
+  - LLM
+  title: Insurers balk at paying out huge settlements for claims against AI firms
+  url: https://arstechnica.com/ai/2025/10/insurers-balk-at-paying-out-huge-settlements-for-claims-against-ai-firms/
+- category: webdev
+  published: '2025-10-08T12:30:00'
+  score: 0.696
+  source: Towards Data Science
+  summary: This is the third part of a series on data visualization, focusing on the
+    role of color in creating more impactful data stories.
+  tags:
+  - Data Visualization
+  - Data Science
+  - Data Storytelling
+  - Editors Pick
+  - Visual Design
+  title: 'Data Visualization Explained (Part 3): The Role of Color'
+  url: https://towardsdatascience.com/data-visualization-explained-part-3-the-role-of-color/
+- category: webdev
+  published: '2025-10-08T11:00:40'
+  score: 0.687
+  source: Machine Learning Mastery
+  summary: The article presents seven NumPy tricks to help developers vectorize their
+    code and improve performance by avoiding loops.
+  tags: []
+  title: 7 NumPy Tricks to Vectorize Your Code
+  url: https://machinelearningmastery.com/7-numpy-tricks-to-vectorize-your-code/
+- category: cybersecurity
+  published: '2025-10-08T10:58:00'
+  score: 1.064
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of a now-patched vulnerability
+    in the figma-developer-mcp Model Context Protocol (MCP) server that could allow
+    attackers to achieve remote code execution. The vulnerability, tracked as CVE-2025-53967,
+    is a command injection bug stemming from improper input validation.
+  tags: []
+  title: Severe Figma MCP Vulnerability Lets Hackers Execute Code Remotely — Patch
+    Now
+  url: https://thehackernews.com/2025/10/severe-figma-mcp-vulnerability-lets.html
+- category: ai
+  published: '2025-10-08T08:00:00'
+  score: 0.823
+  source: OpenAI
+  summary: The article discusses how HiBob, a HR platform, is using ChatGPT Enterprise
+    and custom GPTs to scale AI adoption, boost revenue, streamline HR workflows,
+    and deliver AI-powered features in the Bob platform.
+  tags: []
+  title: Growing impact and scale with ChatGPT
+  url: https://openai.com/index/hibob
+- category: cybersecurity
   published: '2025-10-08T00:17:17'
   score: 1.072
   source: BleepingComputer
@@ -6301,5 +6497,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-08T05:03:54.776026'
-total_articles: 492
+last_updated: '2025-10-09T05:04:32.858850'
+total_articles: 507
