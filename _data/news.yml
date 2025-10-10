@@ -1,4 +1,131 @@
 articles:
+- category: webdev
+  published: '2025-10-10T01:13:45'
+  score: 0.916
+  source: WebKit Blog
+  summary: CSS Grid is a powerful and flexible tool that can bring complex layouts
+    to life, and understanding the mental model of grid lines is crucial for effective
+    implementation.
+  tags:
+  - News
+  title: 'CSS Grid: A helpful mental model and the power of grid lines'
+  url: https://webkit.org/blog/17474/css-grid-a-helpful-mental-model-and-the-power-of-grid-lines/
+- category: ai
+  published: '2025-10-09T22:17:09'
+  score: 0.833
+  source: Ars Technica
+  summary: The CDC has canceled an advisory meeting on childhood vaccines, aiming
+    to take on the entire childhood vaccine schedule at a later date.
+  tags:
+  - Health
+  - ACIP
+  - anti-vaccine
+  - CDC
+  - rfk jr
+  title: Childhood vaccines safe for a little longer as CDC cancels advisory meeting
+  url: https://arstechnica.com/health/2025/10/childhood-vaccines-safe-for-a-little-longer-as-cdc-cancels-advisory-meeting/
+- category: ai
+  published: '2025-10-09T22:03:21'
+  score: 0.92
+  source: Ars Technica
+  summary: Anthropic's study suggests that "poison" training attacks can lead to the
+    acquisition of backdoors in AI models, even with a relatively small number of
+    malicious documents.
+  tags:
+  - AI
+  - Biz & IT
+  - AI research
+  - AI security
+  - AI vulnerabilities
+  title: AI models can acquire backdoors from surprisingly few malicious documents
+  url: https://arstechnica.com/ai/2025/10/ai-models-can-acquire-backdoors-from-surprisingly-few-malicious-documents/
+- category: ai
+  published: '2025-10-09T21:52:24'
+  score: 0.875
+  source: AWS Machine Learning
+  summary: The integration of Amazon SageMaker HyperPod with the Anyscale platform
+    provides a robust infrastructure for distributed AI workloads, addressing critical
+    challenges in building and deploying large-scale AI models.
+  tags:
+  - Advanced (300)
+  - Amazon Machine Learning
+  - Amazon SageMaker Autopilot
+  - Amazon SageMaker HyperPod
+  - Artificial Intelligence
+  title: Use Amazon SageMaker HyperPod and Anyscale for next-generation distributed
+    computing
+  url: https://aws.amazon.com/blogs/machine-learning/use-amazon-sagemaker-hyperpod-and-anyscale-for-next-generation-distributed-computing/
+- category: cybersecurity
+  published: '2025-10-09T13:48:00'
+  score: 1.037
+  source: The Hacker News
+  summary: Hackers have accessed SonicWall cloud firewall backup files, which contain
+    encrypted credentials and configuration data. While the encryption remains in
+    place, possession of these files could increase the risk of unauthorized access
+    to affected systems.
+  tags: []
+  title: Hackers Access SonicWall Cloud Firewall Backups, Spark Urgent Security Checks
+  url: https://thehackernews.com/2025/10/hackers-access-sonicwall-cloud-firewall.html
+- category: ai
+  published: '2025-10-09T13:00:00'
+  score: 0.945
+  source: OpenAI
+  summary: OpenAI has developed new real-world testing methods to evaluate political
+    bias in ChatGPT, aiming to improve objectivity and reduce bias in large language
+    models.
+  tags: []
+  title: Defining and evaluating political bias in LLMs
+  url: https://openai.com/index/defining-and-evaluating-political-bias-in-llms
+- category: cybersecurity
+  published: '2025-10-09T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Hitachi Energy Asset Suite has a CVSS v4 vulnerability score of 6.0,
+    which is considered exploitable remotely with low attack complexity. Vendors have
+    been notified and a fix is expected to be released.
+  tags: []
+  title: Hitachi Energy Asset Suite
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-282-01
+- category: cybersecurity
+  published: '2025-10-09T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Rockwell Automation Stratix has a CVSS v4 vulnerability score of 6.3,
+    which is considered exploitable remotely with low attack complexity. Vendors have
+    been notified and a fix is expected to be released.
+  tags: []
+  title: Rockwell Automation Stratix
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-282-03
+- category: cybersecurity
+  published: '2025-10-09T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Rockwell Automation Lifecycle Services with Cisco has a CVSS v4 vulnerability
+    score of 6.3, which is considered exploitable remotely with low attack complexity.
+    Vendors have been notified and a fix is expected to be released.
+  tags: []
+  title: Rockwell Automation Lifecycle Services with Cisco
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-282-02
+- category: ai
+  published: '2025-10-09T11:00:27'
+  score: 0.844
+  source: Machine Learning Mastery
+  summary: Building an inference cache can help save costs in high-traffic large language
+    model (LLM) applications by reducing the number of expensive model invocations.
+  tags: []
+  title: Build an Inference Cache to Save Costs in High-Traffic LLM Apps
+  url: https://machinelearningmastery.com/build-an-inference-cache-to-save-costs-in-high-traffic-llm-apps/
+- category: cybersecurity
+  published: '2025-10-09T06:57:00'
+  score: 1.034
+  source: The Hacker News
+  summary: A critical security flaw in the Service Finder WordPress theme allows hackers
+    to bypass authentication and gain unauthorized access to any account, including
+    administrators, potentially leading to the compromise of susceptible sites.
+  tags: []
+  title: Critical Exploit Lets Hackers Bypass Authentication in WordPress Service
+    Finder Theme
+  url: https://thehackernews.com/2025/10/critical-exploit-lets-hackers-bypass.html
 - category: cybersecurity
   published: '2025-10-09T00:22:03'
   score: 1.073
@@ -103,6 +230,18 @@ articles:
   title: Actually, we are going to tell you the odds of recovering New Glenn’s second
     launch
   url: https://arstechnica.com/space/2025/10/the-second-new-glenn-rolls-to-the-launch-pad-and-they-expect-to-recover-this-one/
+- category: webdev
+  published: '2025-10-08T14:52:58'
+  score: 0.551
+  source: CSS-Tricks
+  summary: The CSS `contrast-color()` function is a powerful tool for ensuring accessibility,
+    but its implementation can be tricky, as highlighted by the article.
+  tags:
+  - Links
+  - color
+  - CSS functions
+  title: The thing about contrast-color
+  url: https://css-tricks.com/the-thing-about-contrast-color/
 - category: webdev
   published: '2025-10-08T14:30:00'
   score: 0.709
@@ -6497,5 +6636,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-09T05:04:32.858850'
-total_articles: 507
+last_updated: '2025-10-10T05:04:27.817628'
+total_articles: 519
