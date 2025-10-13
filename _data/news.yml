@@ -1,5 +1,115 @@
 articles:
 - category: webdev
+  published: '2025-10-12T20:50:35'
+  score: 0.749
+  source: Ars Technica
+  summary: 'A new trailer for the "Star Trek: Starfleet Academy" series was debuted
+    at New York Comic Con, and the fourth season of "Star Trek: Strange New Worlds"
+    was also previewed.'
+  tags:
+  - Culture
+  - entertainment
+  - New York Comic Con
+  - paramount plus
+  - 'Star Trek: Starfleet Academy'
+  title: New Starfleet Academy trailer debuts at NYCC
+  url: https://arstechnica.com/culture/2025/10/new-starfleet-academy-trailer-debuts-at-nycc/
+- category: cybersecurity
+  published: '2025-10-12T17:24:00'
+  score: 1.112
+  source: The Hacker News
+  summary: A newly discovered vulnerability (CVE-2025-61884) in Oracle's E-Business
+    Suite could allow unauthorized access to sensitive data, with a CVSS score of
+    7.5 indicating high severity. Oracle has issued a security alert to address this
+    issue affecting versions 12 and later of the software.
+  tags: []
+  title: New Oracle E-Business Suite Bug Could Let Hackers Access Data Without Login
+  url: https://thehackernews.com/2025/10/new-oracle-e-business-suite-bug-could.html
+- category: cybersecurity
+  published: '2025-10-12T14:19:29'
+  score: 0.849
+  source: BleepingComputer
+  summary: New Yorkers are being targeted by a smishing campaign that sends text messages
+    posing as the Department of Taxation and Finance, offering "Inflation Refunds"
+    in an attempt to steal personal and financial data from victims.
+  tags:
+  - Security
+  title: Fake 'Inflation Refund' texts target New Yorkers in new scam
+  url: https://www.bleepingcomputer.com/news/security/fake-inflation-refund-texts-target-new-yorkers-in-new-scam/
+- category: ai
+  published: '2025-10-12T03:45:31'
+  score: 0.744
+  source: Machine Learning Mastery
+  summary: The article introduces a 10-day mini-course on building Transformer models
+    from scratch using PyTorch, a popular deep learning framework.
+  tags: []
+  title: Building Transformer Models from Scratch with PyTorch (10-day Mini-Course)
+  url: https://machinelearningmastery.com/building-transformer-models-from-scratch-with-pytorch-10-day-mini-course/
+- category: cybersecurity
+  published: '2025-10-11T13:30:00'
+  score: 0.709
+  source: The Hacker News
+  summary: Cybersecurity company Huntress has warned of a "widespread compromise"
+    of SonicWall SSL VPN devices, with threat actors rapidly accessing multiple customer
+    accounts across the compromised devices.
+  tags: []
+  title: Experts Warn of Widespread SonicWall VPN Compromise Impacting Over 100 Accounts
+  url: https://thehackernews.com/2025/10/experts-warn-of-widespread-sonicwall.html
+- category: cybersecurity
+  published: '2025-10-11T13:04:00'
+  score: 0.754
+  source: The Hacker News
+  summary: Threat actors are abusing the Velociraptor digital forensics and incident
+    response (DFIR) tool in connection with ransomware attacks, likely orchestrated
+    by the Storm-2603 group, which is known for deploying the Warlock and LockBit
+    ransomware.
+  tags: []
+  title: Hackers Turn Velociraptor DFIR Tool Into Weapon in LockBit Ransomware Attacks
+  url: https://thehackernews.com/2025/10/hackers-turn-velociraptor-dfir-tool.html
+- category: webdev
+  published: '2025-10-11T12:00:05'
+  score: 0.493
+  source: Ars Technica
+  summary: The decision by Cards Against Humanity to not print its game in the US
+    is complicated, with factors like price, quality, speed, and relationships all
+    playing a role in the company's manufacturing choices.
+  tags:
+  - Culture
+  - board gaming
+  - cards against humanity
+  - manufacturing
+  - tariffs
+  title: Why doesn’t Cards Against Humanity print its game in the US? It’s complicated.
+  url: https://arstechnica.com/culture/2025/10/why-doesnt-cards-against-humanity-print-its-game-in-the-us-its-complicated/
+- category: cybersecurity
+  published: '2025-10-11T11:15:22'
+  score: 0.644
+  source: Ars Technica
+  summary: Apple has increased the maximum reward for finding major exploits to $2
+    million, with additional bonuses potentially raising the total reward to $5 million.
+  tags:
+  - Apple
+  - Security
+  - apple
+  - bug bounty
+  - syndication
+  title: Apple ups the reward for finding major exploits to $2 million
+  url: https://arstechnica.com/security/2025/10/apple-ups-the-reward-for-finding-major-exploits-to-2-million/
+- category: ai
+  published: '2025-10-11T10:30:59'
+  score: 0.537
+  source: Ars Technica
+  summary: Solid-state batteries for electric vehicles are getting closer, as superionic
+    materials promise greater range, faster charges, and improved safety compared
+    to traditional lithium-ion batteries.
+  tags:
+  - Cars
+  - EVs
+  - solid state batteries
+  - syndication
+  title: How close are we to solid state batteries for electric vehicles?
+  url: https://arstechnica.com/cars/2025/10/how-close-are-we-to-solid-state-batteries-for-electric-vehicles/
+- category: webdev
   published: '2025-10-10T01:13:45'
   score: 0.916
   source: WebKit Blog
@@ -6636,5 +6746,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-10T05:04:27.817628'
-total_articles: 519
+last_updated: '2025-10-13T05:04:29.718088'
+total_articles: 528
