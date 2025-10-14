@@ -1,4 +1,221 @@
 articles:
+- category: ai
+  published: '2025-10-13T22:21:26'
+  score: 0.878
+  source: AWS Machine Learning
+  summary: The article discusses the concept of "Physical AI," which represents the
+    next frontier in intelligent automation, where AI can perceive, understand, and
+    manipulate the physical world around us. This technology has the potential to
+    revolutionize various industries and transform the way we interact with the physical
+    environment.
+  tags:
+  - Announcements
+  - Artificial Intelligence
+  - Robotics
+  title: 'Transforming the physical world with AI: the next frontier in intelligent
+    automation'
+  url: https://aws.amazon.com/blogs/machine-learning/transforming-the-physical-world-with-ai-the-next-frontier-in-intelligent-automation/
+- category: cybersecurity
+  published: '2025-10-13T22:19:23'
+  score: 1.005
+  source: NCSC UK
+  summary: The article provides guidance on defending organizations against email
+    phishing attacks, which remain a significant security risk. It highlights the
+    importance of employee training, email filtering, and implementing robust security
+    measures to mitigate the impact of these types of attacks.
+  tags: []
+  title: 'Phishing attacks: defending your organisation'
+  url: https://www.ncsc.gov.uk/guidance/phishing
+- category: cybersecurity
+  published: '2025-10-13T21:51:47'
+  score: 1.05
+  source: BleepingComputer
+  summary: Microsoft has restricted access to the Internet Explorer (IE) mode in its
+    Edge browser after learning that hackers are leveraging zero-day exploits in the
+    Chakra JavaScript engine to gain unauthorized access to target devices. This move
+    highlights the ongoing efforts to address security vulnerabilities in web browsers.
+  tags:
+  - Security
+  - Microsoft
+  title: Microsoft restricts IE mode access in Edge after zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/microsoft-restricts-ie-mode-access-in-edge-after-zero-day-attacks/
+- category: ai
+  published: '2025-10-13T20:56:14'
+  score: 0.868
+  source: AWS Machine Learning
+  summary: The article demonstrates the development of a conceptual Medical Reports
+    Analysis Dashboard that combines Amazon Bedrock AI capabilities, LangChain's document
+    processing, and Streamlit's interactive visualization features. This solution
+    aims to transform complex medical data into accessible insights, improving decision-making
+    and patient care.
+  tags:
+  - Amazon Bedrock
+  - Healthcare
+  - Intermediate (200)
+  - Technical How-to
+  title: Medical reports analysis dashboard using Amazon Bedrock, LangChain, and Streamlit
+  url: https://aws.amazon.com/blogs/machine-learning/medical-reports-analysis-dashboard-using-amazon-bedrock-langchain-and-streamlit/
+- category: ai
+  published: '2025-10-13T19:52:23'
+  score: 0.861
+  source: Ars Technica
+  summary: Google's Photoshop-killer AI model, Nano Banana, is expanding its capabilities
+    and will be integrated into Google Search, Google Photos, and Notebook LM. This
+    development highlights the growing role of AI-powered image editing tools in consumer
+    and enterprise applications.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - Artificial Intelligence
+  - generative ai
+  title: Google’s Photoshop-killer AI model is coming to search, Photos, and NotebookLM
+  url: https://arstechnica.com/google/2025/10/googles-nano-banana-ai-image-editor-is-coming-to-search-photos-and-notebooklm/
+- category: webdev
+  published: '2025-10-13T19:27:10'
+  score: 0.74
+  source: Ars Technica
+  summary: SpaceX's Starship is entering a new phase with its 11th test flight, which
+    includes a dynamic banking maneuver as part of the final phase of the trajectory.
+    This milestone marks the end of Starship's "elementary era" and the beginning
+    of a new chapter in the development of the mega-rocket.
+  tags:
+  - Science
+  - Space
+  - Commercial space
+  - launch
+  - spacex
+  title: Starship’s elementary era ends today with mega-rocket’s 11th test flight
+  url: https://arstechnica.com/science/2025/10/starships-elementary-era-ends-today-with-mega-rockets-11th-test-flight/
+- category: ai
+  published: '2025-10-13T18:00:00'
+  score: 0.804
+  source: Google AI Blog
+  summary: Google is introducing two new AI-powered features in Search and Discover
+    to help users connect with fresh content and links from across the web. These
+    features leverage AI to enhance the user experience and provide more relevant
+    and engaging web content.
+  tags:
+  - Search
+  - AI
+  title: New AI-powered features help you connect with web content in Search and Discover.
+  url: https://blog.google/products/search/ai-features-web-content/
+- category: webdev
+  published: '2025-10-13T17:16:56'
+  score: 0.726
+  source: Ars Technica
+  summary: Apple has unified its remaining streaming offerings by dropping the "+"
+    from its streaming service, making it harder to distinguish from its streaming
+    app and box. This move simplifies the branding and may help streamline the company's
+    media and entertainment offerings.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - Apple TV
+  - Apple TV Plus
+  title: Apple’s streaming service gets harder to tell apart from its streaming app,
+    box
+  url: https://arstechnica.com/apple/2025/10/apple-tv-streaming-service-is-renamed-to-just-apple-tv/
+- category: webdev
+  published: '2025-10-13T15:33:42'
+  score: 0.716
+  source: Ars Technica
+  summary: Hans Koenigsmann, who has investigated all of SpaceX's rocket failures,
+    is now going to space. This transition from investigating rocket failures to experiencing
+    space travel firsthand provides a unique perspective on the industry's progress
+    and challenges.
+  tags:
+  - Space
+  - blue origin
+  - hans koengismann
+  - new shepard
+  - space
+  title: Hans Koenigsmann, who investigated all of SpaceX’s rocket failures, is going
+    to space
+  url: https://arstechnica.com/space/2025/10/one-of-spacexs-earliest-employees-is-going-to-space-via-blue-origin/
+- category: webdev
+  published: '2025-10-13T14:57:01'
+  score: 0.712
+  source: Ars Technica
+  summary: Ford has introduced a new product called "Truckle" to help address the
+    issue of lost key fobs for its F-150 trucks. This innovative solution aims to
+    make it easier for users to keep their pants up and their vehicles unlocked, addressing
+    a common problem faced by truck owners.
+  tags:
+  - Cars
+  - Ford
+  - Truckle
+  title: Keep losing your key fob? Ford’s new “Truckle” is the answer.
+  url: https://arstechnica.com/cars/2025/10/keep-losing-your-key-fob-fords-new-truckle-is-the-answer/
+- category: cybersecurity
+  published: '2025-10-13T14:42:16'
+  score: 1.092
+  source: BleepingComputer
+  summary: Oracle has released an emergency security patch to address a vulnerability
+    in its E-Business Suite software that can be exploited remotely by unauthenticated
+    attackers. This vulnerability highlights the need for organizations to keep their
+    enterprise software up-to-date to mitigate potential security risks.
+  tags:
+  - Security
+  title: Oracle releases emergency patch for new E-Business Suite flaw
+  url: https://www.bleepingcomputer.com/news/security/oracle-releases-emergency-patch-for-new-e-business-suite-flaw/
+- category: webdev
+  published: '2025-10-13T14:31:35'
+  score: 0.789
+  source: CSS-Tricks
+  summary: The article examines the evolution of the CSS Masonry feature, exploring
+    the CSSWG's role, browser influence, and lessons learned from the development
+    of past CSS features. This discussion provides insights into the process of introducing
+    new CSS capabilities and the factors that shape their adoption.
+  tags:
+  - Articles
+  - browser
+  - csswg
+  - grid
+  - masonry
+  title: 'Masonry: Watching a CSS Feature Evolve'
+  url: https://css-tricks.com/masonry-watching-a-css-feature-evolve/
+- category: cybersecurity
+  published: '2025-10-13T13:18:00'
+  score: 1.034
+  source: The Hacker News
+  summary: This weekly cybersecurity recap covers a range of threats, including a
+    WhatsApp worm, critical CVEs, an Oracle zero-day vulnerability, and a ransomware
+    cartel. The article emphasizes that attackers are continuously evolving their
+    tactics, and organizations need to remain vigilant to protect against these emerging
+    threats.
+  tags: []
+  title: '⚡ Weekly Recap: WhatsApp Worm, Critical CVEs, Oracle 0-Day, Ransomware Cartel
+    & More'
+  url: https://thehackernews.com/2025/10/weekly-recap-whatsapp-worm-critical.html
+- category: cybersecurity
+  published: '2025-10-13T11:14:21'
+  score: 1.066
+  source: BleepingComputer
+  summary: Harvard University is investigating a data breach that may have been caused
+    by a recently disclosed zero-day vulnerability in Oracle's E-Business Suite servers.
+    The Clop ransomware gang has claimed responsibility for the breach and has listed
+    the university on its data leak site.
+  tags:
+  - Security
+  title: Harvard investigating breach linked to Oracle zero-day exploit
+  url: https://www.bleepingcomputer.com/news/security/harvard-investigating-breach-linked-to-oracle-zero-day-exploit/
+- category: ai
+  published: '2025-10-13T11:04:31'
+  score: 0.932
+  source: Schneier on Security
+  summary: The article explores the potential impact of artificial intelligence (AI)
+    on American politics, discussing how AI-powered tools could be used to influence
+    electoral outcomes. It emphasizes the need for policymakers and the public to
+    understand the implications of AI in the political sphere.
+  tags:
+  - Uncategorized
+  - AI
+  - democracy
+  - LLM
+  title: AI and the Future of American Politics
+  url: https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html
 - category: webdev
   published: '2025-10-12T20:50:35'
   score: 0.749
@@ -6746,5 +6963,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-13T05:04:29.718088'
-total_articles: 528
+last_updated: '2025-10-14T05:04:20.311895'
+total_articles: 543
