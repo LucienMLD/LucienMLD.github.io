@@ -1,4 +1,199 @@
 articles:
+- category: cybersecurity
+  published: '2025-10-14T22:57:38'
+  score: 1.058
+  source: Krebs on Security
+  summary: Microsoft's October 2025 Patch Tuesday update addresses 172 security vulnerabilities,
+    including three that are already being actively exploited. This marks the final
+    month that Microsoft will provide security updates for Windows 10, signaling the
+    end of an era for the operating system.
+  tags:
+  - Time to Patch
+  - CVE-2025-24990
+  - CVE-2025-59227
+  - CVE-2025-59230
+  - CVE-2025-59234
+  title: Patch Tuesday, October 2025 ‘End of 10’ Edition
+  url: https://krebsonsecurity.com/2025/10/patch-tuesday-october-2025-end-of-10-edition/
+- category: webdev
+  published: '2025-10-14T22:57:03'
+  score: 0.762
+  source: Towards Data Science
+  summary: This article provides an in-depth technical overview of the Triton One
+    kernel, focusing on tiled GEMM, GPU memory, and coalescing, which are essential
+    for optimizing matrix multiplication operations on GPUs.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Deep Dives
+  - Gpu
+  - Python
+  title: 'Learning Triton One Kernel at a Time: Matrix Multiplication'
+  url: https://towardsdatascience.com/learning-triton-one-kernel-at-a-time-matrix-multiplication/
+- category: webdev
+  published: '2025-10-14T19:07:49'
+  score: 0.738
+  source: BleepingComputer
+  summary: Microsoft has released the final free update for Windows 10 (KB5066791),
+    marking the end of support for the operating system as it reaches the end of its
+    lifecycle.
+  tags:
+  - Microsoft
+  title: Final Windows 10 Patch Tuesday update rolls out as support ends
+  url: https://www.bleepingcomputer.com/news/microsoft/final-windows-10-patch-tuesday-update-rolls-out-as-support-ends/
+- category: webdev
+  published: '2025-10-14T18:26:16'
+  score: 0.734
+  source: BleepingComputer
+  summary: Microsoft has reminded IT administrators that Exchange Server 2016 and
+    2019 have reached end of support, advising them to upgrade to Exchange Server
+    SE or migrate to Exchange Online.
+  tags:
+  - Microsoft
+  title: 'Microsoft: Exchange 2016 and 2019 have reached end of support'
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-have-reached-end-of-support/
+- category: ai
+  published: '2025-10-14T18:24:53'
+  score: 0.851
+  source: Ars Technica
+  summary: Google's new "Help Me Schedule" feature in Gmail uses the Gemini AI assistant
+    to create a meeting widget based on the context of your message, streamlining
+    the scheduling process.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - Artificial Intelligence
+  - gemini
+  title: Google will let Gemini schedule meetings for you in Gmail
+  url: https://arstechnica.com/google/2025/10/gemini-can-now-help-schedule-meetings-in-gmail/
+- category: webdev
+  published: '2025-10-14T18:05:48'
+  score: 0.731
+  source: Towards Data Science
+  summary: This article discusses the importance of building successful relationships
+    with stakeholders, emphasizing the need to move beyond just technical expertise
+    and demonstrate business value.
+  tags:
+  - Data Science
+  - Artificial Intelligence
+  - Business
+  - Data Storytelling
+  - Data Visualization
+  title: Building A Successful Relationship With Stakeholders
+  url: https://towardsdatascience.com/building-a-successful-relationship-with-stakeholders-2/
+- category: cybersecurity
+  published: '2025-10-14T18:02:50'
+  score: 1.021
+  source: BleepingComputer
+  summary: Microsoft's October 2025 Patch Tuesday release includes security updates
+    for 172 flaws, including six zero-day vulnerabilities. IT administrators should
+    prioritize applying these patches to their systems to address critical security
+    risks.
+  tags:
+  - Microsoft
+  - Security
+  title: Microsoft October 2025 Patch Tuesday fixes 6 zero-days, 172 flaws
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2025-patch-tuesday-fixes-6-zero-days-172-flaws/
+- category: webdev
+  published: '2025-10-14T17:46:00'
+  score: 0.729
+  source: BleepingComputer
+  summary: Microsoft has released Windows 11 KB5066835 and KB5066793 cumulative updates
+    for versions 25H2/24H2 and 23H2 to fix security vulnerabilities and issues, ensuring
+    the ongoing security and stability of the operating system.
+  tags:
+  - Microsoft
+  - Software
+  title: Windows 11 KB5066835 and KB5066793 updates released
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5066835-and-kb5066793-updates-released/
+- category: ai
+  published: '2025-10-14T17:00:40'
+  score: 0.929
+  source: Ars Technica
+  summary: OpenAI has unveiled an "wellness" council to guide the development of mental
+    health features for ChatGPT, but a suicide prevention expert is notably absent
+    from the council.
+  tags:
+  - AI
+  - Policy
+  - AI therapy
+  - ChatGPT
+  - child safety
+  title: OpenAI unveils “wellness” council; suicide prevention expert not included
+  url: https://arstechnica.com/tech-policy/2025/10/openai-unveils-wellness-council-suicide-prevention-expert-not-included/
+- category: cybersecurity
+  published: '2025-10-14T16:38:48'
+  score: 1.107
+  source: BleepingComputer
+  summary: Oracle has silently fixed a vulnerability (CVE-2025-61884) in Oracle E-Business
+    Suite that was being actively exploited, with a proof-of-concept exploit leaked
+    by the ShinyHunters extortion group. This vulnerability allowed attackers to breach
+    servers, and the fix addresses a critical security issue.
+  tags:
+  - Security
+  title: Oracles silently fixes zero-day exploit leaked by ShinyHunters
+  url: https://www.bleepingcomputer.com/news/security/oracles-silently-fixes-zero-day-exploit-leaked-by-shinyhunters/
+- category: ai
+  published: '2025-10-14T16:33:57'
+  score: 0.882
+  source: AWS Machine Learning
+  summary: Salesforce has integrated Amazon Bedrock Custom Model Import into their
+    machine learning operations (MLOps) workflow, allowing them to reuse existing
+    endpoints without application changes and optimize cost and operational efficiency.
+  tags:
+  - Amazon Bedrock
+  - Amazon SageMaker AI
+  - Customer Solutions
+  title: How Amazon Bedrock Custom Model Import streamlined LLM deployment for Salesforce
+  url: https://aws.amazon.com/blogs/machine-learning/how-amazon-bedrock-custom-model-import-streamlined-llm-deployment-for-salesforce/
+- category: ai
+  published: '2025-10-14T13:51:00'
+  score: 0.907
+  source: Ars Technica
+  summary: OpenAI wants to reduce "bias" in ChatGPT by preventing it from validating
+    users' political views, which could impact the AI's ability to engage in nuanced
+    political discourse.
+  tags:
+  - AI
+  - Biz & IT
+  - AI alignment
+  - AI behavior
+  - AI bias
+  title: OpenAI wants to stop ChatGPT from validating users’ political views
+  url: https://arstechnica.com/ai/2025/10/openai-wants-to-stop-chatgpt-from-validating-users-political-views/
+- category: cybersecurity
+  published: '2025-10-14T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Rockwell Automation's 1715 EtherNet/IP Comms Module has a vulnerability
+    with a CVSS v4 score of 7.7, which is remotely exploitable with low attack complexity.
+    Administrators should prioritize patching this vulnerability to mitigate the risk
+    of potential attacks.
+  tags: []
+  title: Rockwell Automation 1715 EtherNet/IP Comms Module
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-287-01
+- category: cybersecurity
+  published: '2025-10-14T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. IT teams should review
+    the catalog and ensure these vulnerabilities are patched on their systems to enhance
+    overall cybersecurity posture.
+  tags: []
+  title: CISA Adds Five Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/10/14/cisa-adds-five-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2025-10-14T10:00:00'
+  score: 0.881
+  source: OpenAI
+  summary: OpenAI's new Expert Council on Well-Being and AI brings together experts
+    to guide the development of ChatGPT features that support emotional health, particularly
+    for teenagers, aiming to create safer and more caring AI experiences.
+  tags: []
+  title: Expert Council on Well-Being and AI
+  url: https://openai.com/index/expert-council-on-well-being-and-ai
 - category: ai
   published: '2025-10-13T22:21:26'
   score: 0.878
@@ -6963,5 +7158,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-14T05:04:20.311895'
-total_articles: 543
+last_updated: '2025-10-15T05:04:17.935853'
+total_articles: 558
