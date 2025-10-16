@@ -1,5 +1,209 @@
 articles:
 - category: cybersecurity
+  published: '2025-10-16T04:26:00'
+  score: 1.295
+  source: The Hacker News
+  summary: CISA has added a critical security flaw in Adobe Experience Manager (CVE-2025-54253)
+    to its Known Exploited Vulnerabilities (KEV) catalog, as it is under active exploitation.
+    The vulnerability has a CVSS score of 10.0, indicating the highest level of severity.
+  tags: []
+  title: CISA Flags Adobe AEM Flaw with Perfect 10.0 Score — Already Under Active
+    Attack
+  url: https://thehackernews.com/2025/10/cisa-flags-adobe-aem-flaw-with-perfect.html
+- category: cybersecurity
+  published: '2025-10-16T00:09:53'
+  score: 1.023
+  source: BleepingComputer
+  summary: YouTube is currently facing a global outage, with users reporting playback
+    errors on both the website and mobile apps. The cause of the outage is not yet
+    known, but it is likely disrupting video viewing for many users.
+  tags:
+  - Google
+  - Software
+  title: YouTube is down worldwide with playback error
+  url: https://www.bleepingcomputer.com/news/google/youtube-is-down-worldwide-with-playback-error/
+- category: ai
+  published: '2025-10-15T21:31:00'
+  score: 0.828
+  source: Ars Technica
+  summary: A U.S. Army general has expressed interest in using AI to improve decision-making
+    processes, indicating the growing adoption of AI technologies in the military
+    domain.
+  tags:
+  - AI
+  - army
+  - decision making
+  - general
+  - Military
+  title: Army general says he’s using AI to improve “decision-making”
+  url: https://arstechnica.com/ai/2025/10/army-general-says-hes-using-ai-to-improve-decision-making/
+- category: webdev
+  published: '2025-10-15T21:15:36'
+  score: 0.751
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 230 is now available for download, bringing
+    new updates and improvements to the Safari web browser on macOS Tahoe and macOS
+    Sequoia.
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 230
+  url: https://webkit.org/blog/17504/release-notes-for-safari-technology-preview-230/
+- category: ai
+  published: '2025-10-15T20:30:00'
+  score: 0.821
+  source: Towards Data Science
+  summary: The article discusses the importance of "first principles thinking" for
+    data scientists, a mindset that can help them move beyond surface-level analysis
+    and uncover deeper insights.
+  tags:
+  - Data Science
+  - A B Testing
+  - Career Advancement
+  - Leadership
+  - Metrics
+  title: First Principles Thinking for Data Scientists
+  url: https://towardsdatascience.com/first-principles-thinking-for-data-scientists/
+- category: cybersecurity
+  published: '2025-10-15T20:05:39'
+  score: 1.037
+  source: Ars Technica
+  summary: A nation-state actor has breached the network of F5, exposing risks to
+    BIG-IP users, including supply-chain attacks, credential loss, and vulnerability
+    exploits. The incident highlights the need for organizations to stay vigilant
+    and apply security updates promptly.
+  tags:
+  - Biz & IT
+  - Security
+  - big-ip
+  - breach
+  - f5
+  title: Thousands of customers imperiled after nation-state ransacks F5’s network
+  url: https://arstechnica.com/security/2025/10/breach-of-f5-requires-emergency-action-from-big-ip-users-feds-warn/
+- category: ai
+  published: '2025-10-15T19:24:01'
+  score: 0.858
+  source: Towards Data Science
+  summary: The article discusses prompt engineering techniques for time-series analysis
+    using large language models, providing strategies for core tasks such as forecasting,
+    anomaly detection, and time-series segmentation.
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Editors Pick
+  - Llm
+  - Prompt Engineering
+  title: Prompt Engineering for Time-Series Analysis with Large Language Models
+  url: https://towardsdatascience.com/prompt-engineering-for-time-series-analysis-with-large-language-models/
+- category: webdev
+  published: '2025-10-15T19:06:27'
+  score: 0.738
+  source: Towards Data Science
+  summary: The article compares the Python libraries Requests and httpx, highlighting
+    the advantages of httpx as a modern HTTP client that offers additional features
+    and capabilities beyond the traditional Requests library.
+  tags:
+  - Programming
+  - Deep Dives
+  - Http Request
+  - httpx
+  - Python
+  title: 'Beyond Requests: Why httpx is the Modern HTTP Client You Need (Sometimes)'
+  url: https://towardsdatascience.com/beyond-requests-why-httpx-is-the-modern-http-client-you-need-sometimes/
+- category: ai
+  published: '2025-10-15T18:53:00'
+  score: 0.942
+  source: Ars Technica
+  summary: Anthropic's Claude Haiku 4.5 model has matched the coding scores of larger
+    models like GPT-5 and Sonnet 4, but at a fraction of the cost. This suggests the
+    potential for compact, efficient AI models to deliver comparable performance to
+    their larger counterparts.
+  tags:
+  - AI
+  - Biz & IT
+  - AI alignment
+  - AI benchmarks
+  - AI coding
+  title: Anthropic’s Claude Haiku 4.5 matches May’s frontier model at fraction of
+    cost
+  url: https://arstechnica.com/ai/2025/10/anthropics-claude-haiku-4-5-matches-mays-frontier-model-at-fraction-of-cost/
+- category: cybersecurity
+  published: '2025-10-15T18:01:34'
+  score: 1.021
+  source: BleepingComputer
+  summary: F5 has released security updates to address BIG-IP vulnerabilities that
+    were stolen in a recent breach. Organizations using BIG-IP should apply these
+    updates promptly to mitigate the associated risks.
+  tags:
+  - Security
+  title: F5 releases BIG-IP patches for stolen security vulnerabilities
+  url: https://www.bleepingcomputer.com/news/security/f5-releases-big-ip-patches-for-stolen-security-vulnerabilities/
+- category: webdev
+  published: '2025-10-15T16:39:19'
+  score: 0.722
+  source: AWS Machine Learning
+  summary: The article provides a step-by-step guide for configuring and verifying
+    a distributed training cluster with AWS Deep Learning Containers (DLCs) on Amazon
+    Elastic Kubernetes Service (EKS), helping to prevent common misconfiguration issues.
+  tags:
+  - Amazon EC2
+  - Amazon Elastic Kubernetes Service
+  - Amazon Machine Learning
+  - AWS Deep Learning AMIs
+  - Technical How-to
+  title: Configure and verify a distributed training cluster with AWS Deep Learning
+    Containers on Amazon EKS
+  url: https://aws.amazon.com/blogs/machine-learning/configure-and-verify-a-distributed-training-cluster-with-aws-deep-learning-containers-on-amazon-eks/
+- category: ai
+  published: '2025-10-15T16:00:51'
+  score: 0.834
+  source: Ars Technica
+  summary: Google has released a new version of its Veo video generation tool, Veo
+    3.1, which is expected to bring significant upgrades to the quality and capabilities
+    of AI-generated videos.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - Ai video
+  - Artificial Intelligence
+  title: Google’s AI videos get a big upgrade with Veo 3.1
+  url: https://arstechnica.com/google/2025/10/googles-ai-videos-get-a-big-upgrade-with-veo-3-1/
+- category: webdev
+  published: '2025-10-15T15:35:00'
+  score: 0.756
+  source: A List Apart
+  summary: The article explores the concept of "design for amiability" in web design,
+    highlighting the need for more user-friendly and empathetic online experiences
+    that prioritize the well-being of visitors.
+  tags:
+  - Community, Industry, State of the Web, Web Strategy
+  title: 'Design for Amiability: Lessons from Vienna'
+  url: https://alistapart.com/article/design-for-amiability-lessons-from-vienna/
+- category: webdev
+  published: '2025-10-15T13:39:39'
+  score: 0.744
+  source: CSS-Tricks
+  summary: The article demonstrates a CSS-based technique for creating sequential
+    linear animations with N elements, providing a flexible and scalable solution
+    for animating multiple items.
+  tags:
+  - Articles
+  - animation
+  - CSS functions
+  title: Sequential linear() Animation With N Elements
+  url: https://css-tricks.com/sequential-linear-animation-with-n-elements/
+- category: cybersecurity
+  published: '2025-10-15T12:00:00'
+  score: 1.024
+  source: CISA
+  summary: CISA has added one new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. This underscores the
+    importance of organizations staying up-to-date with the latest security advisories
+    and implementing necessary patches.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/10/15/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
   published: '2025-10-14T22:57:38'
   score: 1.058
   source: Krebs on Security
@@ -7158,5 +7362,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-15T05:04:17.935853'
-total_articles: 558
+last_updated: '2025-10-16T05:04:22.662994'
+total_articles: 573
