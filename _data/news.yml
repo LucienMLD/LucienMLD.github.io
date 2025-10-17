@@ -1,4 +1,198 @@
 articles:
+- category: ai
+  published: '2025-10-16T23:11:28'
+  score: 1.028
+  source: AWS Machine Learning
+  summary: Iterative fine-tuning on Amazon Bedrock can help organizations improve
+    their generative AI models incrementally, addressing the challenges faced with
+    single-shot fine-tuning approaches that often fail to meet expectations without
+    the ability to make gradual improvements.
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  title: Iterative fine-tuning on Amazon Bedrock for strategic model improvement
+  url: https://aws.amazon.com/blogs/machine-learning/iterative-fine-tuning-on-amazon-bedrock-for-strategic-model-improvement/
+- category: ai
+  published: '2025-10-16T20:25:08'
+  score: 0.865
+  source: Ars Technica
+  summary: Despite connection issues, the Ars Live event covered topics such as OpenAI's
+    finances, nuclear power, and the views of Ed Zitron on the potential bursting
+    of the AI bubble.
+  tags:
+  - AI
+  - Biz & IT
+  - AI agents
+  - AI chips
+  - AI criticism
+  title: 'Ars Live recap: Is the AI bubble about to pop? Ed Zitron weighs in.'
+  url: https://arstechnica.com/ai/2025/10/ars-live-recap-is-the-ai-bubble-about-to-pop-ed-zitron-weighs-in/
+- category: webdev
+  published: '2025-10-16T20:05:19'
+  score: 0.744
+  source: Ars Technica
+  summary: OnePlus has unveiled OxygenOS 16 update with deep Gemini integration, which
+    includes features like Mind Space on the user's phone.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - Artificial Intelligence
+  - gemini
+  title: OnePlus unveils OxygenOS 16 update with deep Gemini integration
+  url: https://arstechnica.com/google/2025/10/oneplus-unveils-oxygenos-16-update-with-deep-gemini-integration/
+- category: webdev
+  published: '2025-10-16T19:18:43'
+  score: 0.739
+  source: Ars Technica
+  summary: Apple TV and Peacock have announced a bundle starting at $15/month, which
+    is cheaper than purchasing the services separately at $21/month.
+  tags:
+  - Tech
+  - apple
+  - Apple TV
+  - Apple TV Plus
+  - nbcuniversal
+  title: Apple TV and Peacock bundle starts at $15/month, available on Oct. 20
+  url: https://arstechnica.com/gadgets/2025/10/apple-tv-gets-rare-discount-in-peacock-streaming-bundle/
+- category: webdev
+  published: '2025-10-16T18:06:43'
+  score: 0.732
+  source: Towards Data Science
+  summary: The article discusses the fundamentals of image derivatives, gradients,
+    and the Sobel operator, which are essential concepts in computer vision for edge
+    detection.
+  tags:
+  - Machine Learning
+  - Computer Vision
+  - Editors Pick
+  - Feature Detection
+  - Image Analysis
+  title: 'Feature Detection, Part 1: Image Derivatives, Gradients, and Sobel Operator'
+  url: https://towardsdatascience.com/feature-detection-part-1-image-derivatives-gradients-and-sobel-operator/
+- category: webdev
+  published: '2025-10-16T17:14:34'
+  score: 0.726
+  source: Machine Learning Mastery
+  summary: 'The article presents three proven ways to speed up model training without
+    adding more GPUs: optimizing precision, memory, and data flow.'
+  tags: []
+  title: 3 Ways to Speed Up Model Training Without More GPUs
+  url: https://machinelearningmastery.com/3-ways-to-speed-up-model-training-without-more-gpus/
+- category: ai
+  published: '2025-10-16T17:05:00'
+  score: 0.842
+  source: Google AI Blog
+  summary: DeepSomatic, an open-source AI model, is speeding up genetic analysis for
+    cancer research by helping identify complex genetic variants in cancer cells.
+  tags:
+  - Research
+  - Health
+  - AI
+  title: DeepSomatic, an open-source AI model, is speeding up genetic analysis for
+    cancer research.
+  url: https://blog.google/technology/research/deepsomatic-an-open-source-ai-model-is-speeding-up-genetic-analysis-for-cancer-research/
+- category: webdev
+  published: '2025-10-16T16:48:00'
+  score: 0.723
+  source: Ars Technica
+  summary: The open-source GZDoom community has splintered after the project's creator
+    inserted AI-generated code, leading to the creation of a new fork called UZDoom
+    that promises to address other top-down leadership problems.
+  tags:
+  - AI
+  - Gaming
+  - civil war
+  - developers
+  - disagreement
+  title: Open source GZDoom community splinters after creator inserts AI-generated
+    code
+  url: https://arstechnica.com/gaming/2025/10/civil-war-gzdoom-fan-developers-split-off-over-use-of-chatgpt-generated-code/
+- category: ai
+  published: '2025-10-16T16:32:36'
+  score: 0.838
+  source: Ars Technica
+  summary: OpenAI has been accused of exploiting the fight with Elon Musk to intimidate
+    and silence its biggest critics, who also happen to be critical of Musk.
+  tags:
+  - AI
+  - Policy
+  - AI safety
+  - Artificial Intelligence
+  - Elon Musk
+  title: OpenAI thinks Elon Musk funded its biggest critics—who also hate Musk
+  url: https://arstechnica.com/tech-policy/2025/10/openai-thinks-elon-musk-funded-its-biggest-critics-who-also-hate-musk/
+- category: ai
+  published: '2025-10-16T15:30:00'
+  score: 0.831
+  source: Towards Data Science
+  summary: The article discusses what machine learning system design is and provides
+    guidance on how to prepare for and master it, helping readers who feel lost in
+    this area.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Ml System Design
+  - Mlops
+  - System Design
+  title: Stop Feeling Lost :  How to Master ML System Design
+  url: https://towardsdatascience.com/stop-feeling-lost-how-to-master-ml-system-design-easy/
+- category: cybersecurity
+  published: '2025-10-16T15:11:30'
+  score: 1.096
+  source: BleepingComputer
+  summary: Gladinet has released security updates to address a local file inclusion
+    vulnerability (CVE-2025-11371) in its CentreStack business solution that threat
+    actors have been exploiting as a zero-day since late September. The vulnerability
+    could allow attackers to gain unauthorized access to sensitive files on the targeted
+    system.
+  tags:
+  - Security
+  title: Gladinet fixes actively exploited zero-day in file-sharing software
+  url: https://www.bleepingcomputer.com/news/security/gladinet-fixes-actively-exploited-zero-day-in-file-sharing-software/
+- category: cybersecurity
+  published: '2025-10-16T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Rockwell Automation's FactoryTalk Linx product has a vulnerability (CVE-2023-21685)
+    with a CVSS v4 score of 8.5. The vulnerability has a low attack complexity and
+    could allow remote attackers to gain unauthorized access to the affected system.
+  tags: []
+  title: Rockwell Automation FactoryTalk Linx
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-02
+- category: cybersecurity
+  published: '2025-10-16T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Siemens has disclosed multiple vulnerabilities in its TeleControl Server
+    Basic product. CISA will no longer be updating ICS security advisories for Siemens
+    product vulnerabilities beyond the initial advisory, so users should refer to
+    Siemens' website for the most up-to-date information.
+  tags: []
+  title: Siemens TeleControl Server Basic
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-09
+- category: cybersecurity
+  published: '2025-10-16T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Siemens has disclosed multiple vulnerabilities in its SiPass Integrated
+    product. CISA will no longer be updating ICS security advisories for Siemens product
+    vulnerabilities beyond the initial advisory, so users should refer to Siemens'
+    website for the most up-to-date information.
+  tags: []
+  title: Siemens SiPass Integrated
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-06
+- category: cybersecurity
+  published: '2025-10-16T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Rockwell Automation's ArmorStart AOP product has a vulnerability (CVE-2023-21686)
+    with a CVSS v4 score of 8.7. The vulnerability is remotely exploitable with low
+    attack complexity and could allow attackers to gain unauthorized access to the
+    affected system.
+  tags: []
+  title: Rockwell Automation ArmorStart AOP
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-04
 - category: cybersecurity
   published: '2025-10-16T04:26:00'
   score: 1.295
@@ -7362,5 +7556,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-16T05:04:22.662994'
-total_articles: 573
+last_updated: '2025-10-17T05:04:05.483096'
+total_articles: 588
