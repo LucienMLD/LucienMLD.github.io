@@ -1,4 +1,143 @@
 articles:
+- category: cybersecurity
+  published: '2025-10-19T18:50:10'
+  score: 0.883
+  source: Ars Technica
+  summary: An unidentified object, possibly from space, may have struck a United Airlines
+    flight over Utah, according to the National Transportation Safety Board, which
+    is gathering data to investigate the incident.
+  tags:
+  - Space
+  - 737 max
+  - aviation
+  - in-flight strike
+  - space debris
+  title: Something from “space” may have just struck a United Airlines flight over
+    Utah
+  url: https://arstechnica.com/space/2025/10/something-from-space-may-have-just-struck-a-united-airlines-flight-over-utah/
+- category: cybersecurity
+  published: '2025-10-19T18:28:25'
+  score: 0.977
+  source: BleepingComputer
+  summary: Cybercriminals are using TikTok videos to spread information-stealing malware
+    disguised as free activation guides for popular software. The malware is designed
+    to steal sensitive user information, posing a significant security risk to unsuspecting
+    victims.
+  tags:
+  - Security
+  title: TikTok videos continue to push infostealers in ClickFix attacks
+  url: https://www.bleepingcomputer.com/news/security/tiktok-videos-continue-to-push-infostealers-in-clickfix-attacks/
+- category: ai
+  published: '2025-10-19T16:00:00'
+  score: 0.79
+  source: Towards Data Science
+  summary: The article provides an overview of common conceptual framework types and
+    a simple process for building custom frameworks for data science projects.
+  tags:
+  - Data Science
+  - Conceptual Frameworks
+  - Deep Dives
+  - Hierarchical Modeling
+  - Process Modelling
+  title: Conceptual Frameworks for Data Science Projects
+  url: https://towardsdatascience.com/conceptual-frameworks-for-data-science-projects/
+- category: cybersecurity
+  published: '2025-10-19T14:24:36'
+  score: 0.898
+  source: BleepingComputer
+  summary: Experian Netherlands has been fined EUR 2.7 million ($3.2 million) for
+    multiple violations of the General Data Protection Regulation (GDPR), highlighting
+    the importance of data privacy regulations and the consequences of non-compliance.
+  tags:
+  - Legal
+  title: Experian fined $3.2 million for mass-collecting personal data
+  url: https://www.bleepingcomputer.com/news/legal/experian-fined-32-million-for-mass-collecting-personal-data/
+- category: ai
+  published: '2025-10-19T14:00:00'
+  score: 0.776
+  source: Towards Data Science
+  summary: The article discusses how to set up effective guardrails to enforce desired
+    behavior from AI agents, ensuring they operate within predefined boundaries.
+  tags:
+  - LLM Applications
+  - agent
+  - Agentic Ai
+  - Ai Safety
+  - Guardrail
+  title: How to Build Guardrails for Effective Agents
+  url: https://towardsdatascience.com/how-to-build-guardrails-for-effective-agents/
+- category: cybersecurity
+  published: '2025-10-19T06:13:00'
+  score: 0.837
+  source: The Hacker News
+  summary: Europol has disrupted a sophisticated cybercrime-as-a-service (CaaS) platform
+    that operated a SIM farm and enabled its customers to carry out a broad spectrum
+    of crimes, including phishing and investment fraud.
+  tags: []
+  title: Europol Dismantles SIM Farm Network Powering 49 Million Fake Accounts Worldwide
+  url: https://thehackernews.com/2025/10/europol-dismantles-sim-farm-network.html
+- category: ai
+  published: '2025-10-18T21:51:29'
+  score: 0.703
+  source: BleepingComputer
+  summary: OpenAI has confirmed that it does not plan to ship GPT-6 in 2025, but the
+    company may still release new language models in the future.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI confirms GPT-6 is not shipping in 2025
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-gpt-6-is-not-shipping-in-2025/
+- category: ai
+  published: '2025-10-18T16:00:00'
+  score: 0.575
+  source: Towards Data Science
+  summary: The article explores the challenges and potential solutions to save the
+    AI economy, raising important questions about the societal impact of AI technology.
+  tags:
+  - Artificial Intelligence
+  - Ai Hype
+  - Business
+  - Editors Pick
+  - Generative Ai Use Cases
+  title: Can We Save the AI Economy?
+  url: https://towardsdatascience.com/can-we-save-the-ai-economy/
+- category: ai
+  published: '2025-10-18T15:00:00'
+  score: 0.568
+  source: Google AI Blog
+  summary: The article discusses the developer experience in Google AI Studio, highlighting
+    the capabilities of the Playground feature.
+  tags:
+  - Developers
+  - AI
+  title: Leveling up your developer experience in Google AI Studio
+  url: https://blog.google/technology/developers/ai-studio-updates-more-control/
+- category: webdev
+  published: '2025-10-18T14:00:00'
+  score: 0.506
+  source: Towards Data Science
+  summary: The article explores the opportunities and challenges of a GIL-free Python,
+    as the upcoming Python 3.14 version is expected to address the limitations of
+    the Global Interpreter Lock.
+  tags:
+  - Programming
+  - Data Science
+  - Global Interpreter Lock
+  - Python
+  - Technology
+  title: Python 3.14 and the End of the GIL
+  url: https://towardsdatascience.com/python-3-14-and-the-end-of-the-gil/
+- category: cybersecurity
+  published: '2025-10-18T11:41:00'
+  score: 0.792
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a new .NET malware dubbed CAPI
+    Backdoor, which has likely targeted the Russian automobile and e-commerce sectors
+    through phishing ZIP files.
+  tags: []
+  title: New .NET CAPI Backdoor Targets Russian Auto and E-Commerce Firms via Phishing
+    ZIPs
+  url: https://thehackernews.com/2025/10/new-net-capi-backdoor-targets-russian.html
 - category: ai
   published: '2025-10-16T23:11:28'
   score: 1.028
@@ -7556,5 +7695,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-17T05:04:05.483096'
-total_articles: 588
+last_updated: '2025-10-20T05:04:23.486819'
+total_articles: 599
