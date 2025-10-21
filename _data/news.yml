@@ -1,5 +1,154 @@
 articles:
 - category: cybersecurity
+  published: '2025-10-21T02:54:29'
+  score: 1.044
+  source: Ars Technica
+  summary: A United Airlines plane was struck by a weather balloon, not space debris,
+    as initially reported, according to the balloon manufacturer WindBorne, which
+    claims its balloons are compliant with all applicable airspace regulations.
+  tags:
+  - Space
+  - flight 1093
+  - space
+  - United Airlines
+  - WindBorne
+  title: It wasn’t space debris that struck a United Airlines plane—it was a weather
+    balloon
+  url: https://arstechnica.com/space/2025/10/the-mystery-object-that-struck-a-plane-in-flight-it-was-probably-a-weather-balloon/
+- category: ai
+  published: '2025-10-20T23:45:24'
+  score: 0.987
+  source: Towards Data Science
+  summary: This article provides a step-by-step guide on how to build an AI agent
+    with function calling and GPT-5 capabilities, allowing the agent to perform various
+    tasks and interact with the user.
+  tags:
+  - Agentic AI
+  - AI Agents
+  - Artificial Intelligence
+  - Deep Dives
+  - Llm
+  title: How to Build An AI Agent with Function Calling and GPT-5
+  url: https://towardsdatascience.com/how-to-build-an-ai-agent-with-function-calling-and-gpt-5/
+- category: ai
+  published: '2025-10-20T20:49:59'
+  score: 0.867
+  source: Towards Data Science
+  summary: The article explains how to apply Frontier Vision Large Language Models
+    (LLMs), such as Qwen3-VL, to advanced document understanding tasks, showcasing
+    their capabilities in natural language processing.
+  tags:
+  - Large Language Models
+  - Deep Dives
+  - Llm
+  - Machine Learning
+  - Vision And Language
+  title: 'How to Use Frontier Vision LLMs: Qwen3-VL'
+  url: https://towardsdatascience.com/how-to-use-frontier-vision-llms-qwen-3-vl-2/
+- category: ai
+  published: '2025-10-20T20:45:26'
+  score: 0.867
+  source: Ars Technica
+  summary: The article discusses the release of a web version of the Claude Code AI
+    tool, but the more significant development is the introduction of sandboxing,
+    which lessens the hassle but still poses risks with fire-and-forget agentic tools.
+  tags:
+  - AI
+  - agentic AI
+  - AI Agent
+  - Anthropic
+  - Claude
+  title: Claude Code gets a web version—but it’s the new sandboxing that really matters
+  url: https://arstechnica.com/ai/2025/10/claude-code-gets-a-web-version-but-its-the-new-sandboxing-that-really-matters/
+- category: cybersecurity
+  published: '2025-10-20T19:00:00'
+  score: 1.124
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added
+    five security flaws, including a vulnerability in Oracle E-Business Suite (EBS),
+    to its Known Exploited Vulnerabilities (KEV) Catalog, indicating that these vulnerabilities
+    are being actively exploited in the real world.
+  tags: []
+  title: Five New Exploited Bugs Land in CISA's Catalog — Oracle and Microsoft Among
+    Targets
+  url: https://thehackernews.com/2025/10/five-new-exploited-bugs-land-in-cisas.html
+- category: ai
+  published: '2025-10-20T18:54:10'
+  score: 0.854
+  source: Towards Data Science
+  summary: The article provides insights on how to write an effective data science
+    and machine learning resume that can land high-paying job offers, based on personal
+    experience.
+  tags:
+  - Data Science
+  - Career Advice
+  - Job Search
+  - Machine Learning
+  - Resume Writing
+  title: How I Tailored the Resume That Landed Me $100K+ Data Science and ML Offers
+  url: https://towardsdatascience.com/this-resume-landed-me-100k-data-science-ml-offers/
+- category: cybersecurity
+  published: '2025-10-20T17:42:08'
+  score: 1.067
+  source: BleepingComputer
+  summary: Nearly 76,000 WatchGuard Firebox network security appliances are exposed
+    on the public web and still vulnerable to a critical issue (CVE-2025-9242) that
+    could allow a remote attacker to execute code without authentication.
+  tags:
+  - Security
+  title: Over 75,000 WatchGuard security devices vulnerable to critical RCE
+  url: https://www.bleepingcomputer.com/news/security/over-75-000-watchguard-security-devices-vulnerable-to-critical-rce/
+- category: cybersecurity
+  published: '2025-10-20T17:18:16'
+  score: 1.064
+  source: BleepingComputer
+  summary: CISA warns that threat actors are now actively exploiting a high-severity
+    Windows SMB privilege escalation vulnerability that can let them gain SYSTEM privileges
+    on unpatched systems.
+  tags:
+  - Security
+  - Microsoft
+  title: 'CISA: High-severity Windows SMB flaw now exploited in attacks'
+  url: https://www.bleepingcomputer.com/news/security/cisa-high-severity-windows-smb-flaw-now-exploited-in-attacks/
+- category: webdev
+  published: '2025-10-20T16:11:40'
+  score: 0.76
+  source: CSS-Tricks
+  summary: The article discusses strategies for building an effective honeypot field,
+    a technique used by developers to prevent spam submissions, and provides tips
+    to ensure that spambots cannot detect the honeypot field.
+  tags:
+  - Articles
+  - forms
+  - security
+  - web components
+  title: Building a Honeypot Field That Works
+  url: https://css-tricks.com/building-a-honeypot-field-that-works/
+- category: cybersecurity
+  published: '2025-10-20T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, which serves as a centralized repository of vulnerabilities that
+    are being actively exploited by threat actors.
+  tags: []
+  title: CISA Adds Five Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/10/20/cisa-adds-five-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2025-10-20T11:00:28'
+  score: 0.844
+  source: Schneier on Security
+  summary: The article explores the "OODA loop" (observe, orient, decide, act) framework
+    in the context of agentic AI systems, highlighting the challenges they face in
+    making decisions with untrustworthy observations and orientation.
+  tags:
+  - Uncategorized
+  - AI
+  - integrity
+  - LLM
+  title: Agentic AI’s OODA Loop Problem
+  url: https://www.schneier.com/blog/archives/2025/10/agentic-ais-ooda-loop-problem.html
+- category: cybersecurity
   published: '2025-10-19T18:50:10'
   score: 0.883
   source: Ars Technica
@@ -7695,5 +7844,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-20T05:04:23.486819'
-total_articles: 599
+last_updated: '2025-10-21T05:04:18.873390'
+total_articles: 610
