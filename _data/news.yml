@@ -1,4 +1,188 @@
 articles:
+- category: ai
+  published: '2025-10-22T00:00:00'
+  score: 0.989
+  source: OpenAI
+  summary: OpenAI's Japan Economic Blueprint outlines how Japan can leverage AI to
+    boost innovation, strengthen competitiveness, and enable sustainable, inclusive
+    growth.
+  tags: []
+  title: AI in Japan—OpenAI’s Japan Economic Blueprint
+  url: https://openai.com/index/japan-economic-blueprint
+- category: ai
+  published: '2025-10-21T19:19:40'
+  score: 0.857
+  source: Towards Data Science
+  summary: A new generation of transformer recommenders can be implemented by scaling
+    them to a billion parameters, improving recommendation capabilities.
+  tags:
+  - Machine Learning
+  - Deep Dives
+  - Recommender Systems
+  - Recsys
+  - Transformer Architecture
+  title: Scaling Recommender Transformers to a Billion Parameters
+  url: https://towardsdatascience.com/scaling-recommender-transformers-to-a-billion-parameters/
+- category: ai
+  published: '2025-10-21T19:03:19'
+  score: 0.811
+  source: AWS Machine Learning
+  summary: SageMaker Serverless Inference allows for efficient deployment of SageMaker
+    Canvas models without managing any infrastructure, enabling quick and easy production-ready
+    predictions.
+  tags:
+  - Amazon SageMaker Canvas
+  - Intermediate (200)
+  - Technical How-to
+  title: Serverless deployment for your Amazon SageMaker Canvas models
+  url: https://aws.amazon.com/blogs/machine-learning/serverless-deployment-for-your-amazon-sagemaker-canvas-models/
+- category: webdev
+  published: '2025-10-21T19:02:10'
+  score: 0.777
+  source: Ars Technica
+  summary: OpenAI has launched a new web browser called Atlas, which includes an "Agent
+    Mode" that aims to use the internet on the user's behalf, similar to Google Chrome.
+  tags:
+  - AI
+  - ATLAS
+  - browser
+  - ChatGPT
+  - chrome
+  title: OpenAI looks for its “Google Chrome” moment with new Atlas web browser
+  url: https://arstechnica.com/ai/2025/10/openais-new-atlas-web-browser-wants-to-let-you-chat-with-a-page/
+- category: webdev
+  published: '2025-10-21T17:52:42'
+  score: 0.73
+  source: Ars Technica
+  summary: The latest M5 iPad Pro has impressive processing power, but it's unclear
+    what users need that much performance for in a tablet.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - Apple M5
+  - ipad
+  title: 'M5 iPad Pro tested: Stop me if you’ve heard this one before'
+  url: https://arstechnica.com/gadgets/2025/10/testing-apples-m5-ipad-pro-future-proofing-for-apples-perennial-overkill-tablet/
+- category: webdev
+  published: '2025-10-21T17:33:00'
+  score: 0.728
+  source: Towards Data Science
+  summary: NumPy, a powerful Python library, has several hidden gem functions that
+    every data scientist should know, improving their data analysis capabilities.
+  tags:
+  - Data Science
+  - Data Analytics
+  - Data Visualization
+  - Numpy
+  - Programming
+  title: 'Hidden Gems in NumPy: 7 Functions Every Data Scientist Should Know'
+  url: https://towardsdatascience.com/hidden-gems-in-numpy-7-functions-every-data-scientist-should-know/
+- category: ai
+  published: '2025-10-21T17:26:32'
+  score: 0.932
+  source: AWS Machine Learning
+  summary: The Amazon SageMaker HyperPod training operator enhances training resilience
+    for Kubernetes workloads through pinpoint recovery and customizable monitoring
+    capabilities, enabling large-scale AI training.
+  tags:
+  - Amazon Elastic Kubernetes Service
+  - Amazon SageMaker HyperPod
+  - Technical How-to
+  title: Accelerate large-scale AI training with Amazon SageMaker HyperPod training
+    operator
+  url: https://aws.amazon.com/blogs/machine-learning/accelerate-large-scale-ai-training-with-amazon-sagemaker-hyperpod-training-operator/
+- category: webdev
+  published: '2025-10-21T17:20:10'
+  score: 0.727
+  source: Ars Technica
+  summary: HBO Max subscription fees have increased by up to $20, continuing the trend
+    of yearly price hikes for the streaming service.
+  tags:
+  - Tech
+  - acquisition
+  - hbo max
+  - streaming
+  - warner bros. discovery
+  title: HBO Max prices increase by up to $20 today
+  url: https://arstechnica.com/gadgets/2025/10/warner-bros-discovery-raises-hbo-max-prices-as-it-puts-itself-up-for-sale/
+- category: webdev
+  published: '2025-10-21T17:00:45'
+  score: 0.725
+  source: Ars Technica
+  summary: The new MacBook Pro with the Apple M5 chip trades blows with Pro and Max
+    chips from older generations, but the laptop design remains relatively unchanged.
+  tags:
+  - Apple
+  - Features
+  - Tech
+  - apple
+  - Apple M5
+  title: 'MacBook Pro review: Apple’s most awkward laptop is the first to show off
+    Apple M5'
+  url: https://arstechnica.com/gadgets/2025/10/m5-macbook-pro-review-fifth-generation-apple-silicon-in-a-familiar-wrapper/
+- category: ai
+  published: '2025-10-21T17:00:00'
+  score: 0.885
+  source: OpenAI
+  summary: ChatGPT will no longer be available on WhatsApp after January 15, 2026,
+    but users can link their ChatGPT account to continue their conversations across
+    devices.
+  tags: []
+  title: Continue your ChatGPT experience beyond WhatsApp
+  url: https://openai.com/index/chatgpt-whatsapp-transition
+- category: cybersecurity
+  published: '2025-10-21T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Siemens SIMATIC S7-1200 CPU V1/V2 devices have vulnerabilities that CISA
+    will no longer be updating security advisories for beyond the initial advisory.
+    Users should refer to Siemens' website for the most up-to-date information on
+    vulnerabilities in this product.
+  tags: []
+  title: Siemens SIMATIC S7-1200 CPU V1/V2 Devices
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-294-03
+- category: cybersecurity
+  published: '2025-10-21T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Siemens RUGGEDCOM ROS devices have vulnerabilities that CISA will no longer
+    be updating security advisories for beyond the initial advisory. Users should
+    refer to Siemens' website for the most up-to-date information on vulnerabilities
+    in this product.
+  tags: []
+  title: Siemens RUGGEDCOM ROS Devices
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-294-04
+- category: cybersecurity
+  published: '2025-10-21T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Oxford Nanopore Technologies MinKNOW software has a vulnerability with
+    a CVSS v4 score of 8.3, which is remotely exploitable with low attack complexity.
+    Users should refer to the CSAF for more information.
+  tags: []
+  title: Oxford Nanopore Technologies MinKNOW
+  url: https://www.cisa.gov/news-events/ics-medical-advisories/icsma-25-294-01
+- category: cybersecurity
+  published: '2025-10-21T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Rockwell Automation Compact GuardLogix 5370 has a vulnerability with
+    a CVSS v4 score of 8.7, which is remotely exploitable with low attack complexity.
+    Users should refer to the CSAF for more information.
+  tags: []
+  title: Rockwell Automation Compact GuardLogix 5370
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-294-02
+- category: cybersecurity
+  published: '2025-10-21T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Rockwell Automation 1783-NATR has a vulnerability with a CVSS v4 score
+    of 9.9, which is remotely exploitable with low attack complexity. Users should
+    refer to the CSAF for more information.
+  tags: []
+  title: Rockwell Automation 1783-NATR
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-294-01
 - category: cybersecurity
   published: '2025-10-21T02:54:29'
   score: 1.044
@@ -7844,5 +8028,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-21T05:04:18.873390'
-total_articles: 610
+last_updated: '2025-10-22T05:04:36.920816'
+total_articles: 625
