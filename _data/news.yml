@@ -1,5 +1,165 @@
 articles:
 - category: ai
+  published: '2025-10-22T23:02:04'
+  score: 0.883
+  source: AWS Machine Learning
+  summary: Amazon Bedrock enables product teams to transform their creative workflows
+    through generative AI, allowing for rapid content iteration across multiple formats
+    while maintaining brand consistency and compliance.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Guardrails
+  - Amazon Bedrock Knowledge Bases
+  - Amazon Machine Learning
+  - Amazon OpenSearch Service
+  title: Build scalable creative solutions for product teams with Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/build-scalable-creative-solutions-for-product-teams-with-amazon-bedrock/
+- category: ai
+  published: '2025-10-22T21:00:00'
+  score: 0.869
+  source: OpenAI
+  summary: OpenAI's Korea Economic Blueprint outlines how South Korea can scale trusted
+    AI through sovereign capabilities and strategic partnerships to drive economic
+    growth.
+  tags: []
+  title: 'AI in South Korea: OpenAI''s Economic Blueprint'
+  url: https://openai.com/index/south-korea-economic-blueprint
+- category: webdev
+  published: '2025-10-22T19:08:23'
+  score: 0.818
+  source: CSS-Tricks
+  summary: This article provides a thorough introduction to JavaScript expressions,
+    covering their syntax, evaluation, and various types, including arithmetic, assignment,
+    logical, and conditional expressions.
+  tags:
+  - Articles
+  - JavaScript
+  title: An Introduction to JavaScript Expressions
+  url: https://css-tricks.com/an-introduction-to-javascript-expressions/
+- category: cybersecurity
+  published: '2025-10-22T18:52:53'
+  score: 1.028
+  source: BleepingComputer
+  summary: Security researchers at the Pwn2Own Ireland 2025 hacking competition were
+    able to exploit 56 unique zero-day vulnerabilities, earning $792,750 in cash,
+    demonstrating the continued prevalence of undisclosed software vulnerabilities.
+  tags:
+  - Security
+  title: 'Pwn2Own Day 2: Hackers exploit 56 zero-days for $790,000'
+  url: https://www.bleepingcomputer.com/news/security/samsung-galaxy-s25-hacked-on-day-two-of-pwn2own-ireland-2025/
+- category: cybersecurity
+  published: '2025-10-22T18:41:37'
+  score: 1.026
+  source: BleepingComputer
+  summary: Hackers are actively exploiting the critical SessionReaper vulnerability
+    (CVE-2025-54236) in Adobe Commerce (formerly Magento) platforms, with hundreds
+    of attempts recorded, emphasizing the need for timely patching of critical vulnerabilities.
+  tags:
+  - Security
+  title: Hackers exploiting critical "SessionReaper" flaw in Adobe Magento
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploiting-critical-sessionreaper-flaw-in-adobe-magento/
+- category: cybersecurity
+  published: '2025-10-22T17:21:24'
+  score: 1.064
+  source: BleepingComputer
+  summary: A high-severity vulnerability in the abandoned async-tar Rust library and
+    its forks can be exploited to gain remote code execution on systems running unpatched
+    software, underscoring the risks of relying on abandoned libraries.
+  tags:
+  - Security
+  title: TARmageddon flaw in abandoned Rust library enables RCE attacks
+  url: https://www.bleepingcomputer.com/news/security/tarmageddon-flaw-in-abandoned-rust-library-enables-rce-attacks/
+- category: ai
+  published: '2025-10-22T16:00:00'
+  score: 0.922
+  source: OpenAI
+  summary: OpenAI expands its UK partnership with a new Ministry of Justice agreement,
+    bringing ChatGPT to civil servants, and introduces UK data residency for ChatGPT
+    Enterprise, ChatGPT Edu, and the API Platform to support trusted and secure AI
+    adoption.
+  tags: []
+  title: The next chapter for UK sovereign AI
+  url: https://openai.com/index/the-next-chapter-for-uk-sovereign-ai
+- category: ai
+  published: '2025-10-22T14:41:10'
+  score: 0.869
+  source: Machine Learning Mastery
+  summary: In the era of large language models (LLMs), feature engineering remains
+    a crucial technique for improving the performance of machine learning models on
+    tabular data.
+  tags: []
+  title: 5 Advanced Feature Engineering Techniques with LLMs for Tabular Data
+  url: https://machinelearningmastery.com/5-advanced-feature-engineering-techniques-with-llms-for-tabular-data/
+- category: webdev
+  published: '2025-10-22T13:00:00'
+  score: 0.7
+  source: Google AI Blog
+  summary: The UK's Competition and Markets Authority (CMA) has designated Google's
+    mobile ecosystem, marking a significant regulatory milestone in the ongoing scrutiny
+    of major tech platforms.
+  tags:
+  - UK
+  - Google in Europe
+  - AI
+  title: The CMA’s designation of Google’s mobile ecosystem
+  url: https://blog.google/around-the-globe/google-europe/united-kingdom/cmas-designation-of-googles-mobile-ecosystem/
+- category: webdev
+  published: '2025-10-22T13:00:00'
+  score: 0.7
+  source: Smashing Magazine
+  summary: Ambient animations can add personality to web designs by providing subtle,
+    slow-moving details that enhance the user experience without being distracting.
+  tags: []
+  title: 'Ambient Animations In Web Design: Practical Applications (Part 2)'
+  url: https://smashingmagazine.com/2025/10/ambient-animations-web-design-practical-applications-part2/
+- category: cybersecurity
+  published: '2025-10-22T12:56:00'
+  score: 1.079
+  source: The Hacker News
+  summary: Chinese threat actors exploited the ToolShell vulnerability in Microsoft
+    SharePoint to breach a telecommunications company in the Middle East and government
+    departments in an African country, highlighting the need for timely patching of
+    disclosed vulnerabilities.
+  tags: []
+  title: Chinese Threat Actors Exploit ToolShell SharePoint Flaw Weeks After Microsoft's
+    July Patch
+  url: https://thehackernews.com/2025/10/chinese-threat-actors-exploit-toolshell.html
+- category: ai
+  published: '2025-10-22T12:30:00'
+  score: 0.898
+  source: Towards Data Science
+  summary: The rise of AI in the financial sector offers both opportunities and challenges
+    for Indonesia, as the country navigates the integration of "agentic AI" into various
+    financial services.
+  tags:
+  - Agentic AI
+  - Articial Intelligence
+  - Finance
+  - Human Ai Collaboration
+  - Indonesia
+  title: 'Agentic AI in Finance: Opportunities and Challenges for Indonesia'
+  url: https://towardsdatascience.com/agentic-ai-in-finance-opportunities-and-challenges-for-indonesia/
+- category: cybersecurity
+  published: '2025-10-22T12:00:00'
+  score: 1.024
+  source: CISA
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has added one
+    new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog based on
+    evidence of active exploitation, highlighting the importance of addressing publicly
+    known vulnerabilities.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/10/22/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: webdev
+  published: '2025-10-22T07:00:00'
+  score: 0.702
+  source: Chrome Developers
+  summary: Chrome DevTools removes live editing in Chrome 145 (Feb 2026) due to low
+    use and the availability of modern alternatives like Hot Module Replacement (HMR).
+  tags: []
+  title: Deprecating live editing of JavaScript sources in Chrome DevTools
+  url: https://developer.chrome.com/blog/devtools-deprecates-live-editing?hl=en
+- category: ai
   published: '2025-10-22T00:00:00'
   score: 0.989
   source: OpenAI
@@ -8028,5 +8188,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-22T05:04:36.920816'
-total_articles: 625
+last_updated: '2025-10-23T05:04:15.315621'
+total_articles: 639
