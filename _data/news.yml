@@ -1,5 +1,162 @@
 articles:
 - category: ai
+  published: '2025-10-23T22:08:40'
+  score: 0.876
+  source: Ars Technica
+  summary: The acquisition of Software Applications Incorporated by OpenAI indicates
+    the company's intention to deepen the integration of its AI technology, particularly
+    ChatGPT, into the macOS operating system, making AI more intuitive and action-oriented
+    for users.
+  tags:
+  - AI
+  - Apple
+  - Tech
+  - acquisition
+  - apple
+  title: With new acquisition, OpenAI signals plans to integrate deeper into the OS
+  url: https://arstechnica.com/ai/2025/10/openai-acquires-the-team-that-made-apples-shortcuts/
+- category: ai
+  published: '2025-10-23T21:20:48'
+  score: 0.871
+  source: Ars Technica
+  summary: Research has shown that training large language models (LLMs) on "junk
+    data," such as short, popular, or superficial tweets, can lead to "brain rot"
+    and poorer performance on benchmarks. This highlights the importance of careful
+    curation and quality of training data for LLMs.
+  tags:
+  - AI
+  - brain rot
+  - data
+  - research
+  - training
+  title: Researchers show that training on “junk data” can lead to LLM “brain rot”
+  url: https://arstechnica.com/ai/2025/10/researchers-show-that-training-on-junk-data-can-lead-to-llm-brain-rot/
+- category: ai
+  published: '2025-10-23T20:51:41'
+  score: 0.868
+  source: AWS Machine Learning
+  summary: This post explores how companies can incorporate responsible AI practices
+    into their generative AI project prioritization methodology, evaluating business
+    value against costs while addressing novel risks like hallucination and regulatory
+    compliance.
+  tags:
+  - Best Practices
+  - Generative AI
+  - Responsible AI
+  title: Incorporating responsible AI into generative AI project prioritization
+  url: https://aws.amazon.com/blogs/machine-learning/incorporating-responsible-ai-into-generative-ai-project-prioritization/
+- category: ai
+  published: '2025-10-23T17:12:37'
+  score: 0.842
+  source: Towards Data Science
+  summary: The article explores adapting the SpectralKD technique for text-based knowledge
+    distillation, leveraging the frequency fingerprints of Transformers to guide more
+    effective knowledge transfer between large and small models.
+  tags:
+  - Artificial Intelligence
+  - Data Science
+  - Deep Learning
+  - Fast Fourier Transform
+  - Machine Learning
+  title: 'When Transformers Sing: Adapting SpectralKD for Text-Based Knowledge Distillation'
+  url: https://towardsdatascience.com/when-transformers-sing-adapting-spectralkd-for-text-based-knowledge-distillation/
+- category: webdev
+  published: '2025-10-23T14:00:00'
+  score: 0.706
+  source: Towards Data Science
+  summary: The article provides a tutorial on how to control a robot using Python,
+    including 3D simulations and movement control with the PyBullet library, demonstrating
+    the use of Python for robotics applications.
+  tags:
+  - Robotics
+  - 3d Environments
+  - Deep Dives
+  - Programming
+  - Python
+  title: How to Control a Robot with Python
+  url: https://towardsdatascience.com/how-to-control-a-robot-with-python/
+- category: webdev
+  published: '2025-10-23T12:30:00'
+  score: 0.696
+  source: Towards Data Science
+  summary: The article is the first part of a series that explains the math behind
+    multiple linear regression, focusing on fitting a plane instead of a line, providing
+    a simple and intuitive understanding of this statistical technique.
+  tags:
+  - Math
+  - Data Science
+  - Linear Regression
+  - Machine Learning
+  - Multiple Linearregression
+  title: Multiple Linear Regression Explained Simply (Part 1)
+  url: https://towardsdatascience.com/multiple-linear-regression-math-explained-simply-part-1/
+- category: cybersecurity
+  published: '2025-10-23T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The CSAF report for the Delta Electronics ASDA-Soft product reveals a CVSS
+    v4 vulnerability rating of 8.4, with a low attack complexity that requires attention.
+    The vulnerability allows for remote exploitation, posing a significant security
+    risk.
+  tags: []
+  title: Delta Electronics ASDA-Soft
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-296-04
+- category: cybersecurity
+  published: '2025-10-23T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The CSAF report for the AutomationDirect Productivity Suite discloses a
+    CVSS v4 vulnerability rating of 9.3, which is remotely exploitable with low attack
+    complexity. This vulnerability demands immediate attention and action from the
+    vendor and affected users.
+  tags: []
+  title: AutomationDirect Productivity Suite
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-296-01
+- category: cybersecurity
+  published: '2025-10-23T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The CSAF report for the ASKI Energy ALS-Mini-S8 and ALS-Mini-S4 products
+    highlights a critical CVSS v4 vulnerability rating of 9.9, with remote exploitability
+    and low attack complexity. This vulnerability requires prompt remediation to mitigate
+    the significant security risks.
+  tags: []
+  title: ASKI Energy ALS-Mini-S8 and ALS-Mini-S4
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-296-02
+- category: cybersecurity
+  published: '2025-10-23T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Veeder-Root TLS4B Automatic Tank Gauge System has a CVSS v4 vulnerability
+    rating of 9.4, which can be remotely exploited with low attack complexity. This
+    vulnerability poses a serious threat and necessitates swift action from the vendor
+    and affected users.
+  tags: []
+  title: Veeder-Root TLS4B Automatic Tank Gauge System
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-296-03
+- category: cybersecurity
+  published: '2025-10-23T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The CSAF report for the NIHON KOHDEN Central Monitor CNS-6201 reveals a
+    CVSS v4 vulnerability rating of 8.7, with remote exploitability and low attack
+    complexity. This vulnerability requires immediate attention and remediation to
+    protect the affected system.
+  tags: []
+  title: NIHON KOHDEN Central Monitor CNS-6201
+  url: https://www.cisa.gov/news-events/ics-medical-advisories/icsma-25-296-01
+- category: ai
+  published: '2025-10-23T10:00:00'
+  score: 0.881
+  source: OpenAI
+  summary: OpenAI has acquired Software Applications Incorporated, the maker of Sky,
+    a natural language interface for Mac that integrates AI directly into the desktop
+    experience. This acquisition signals OpenAI's plans to further integrate its AI
+    capabilities into the operating system.
+  tags: []
+  title: OpenAI acquires Software Applications Incorporated, maker of Sky
+  url: https://openai.com/index/openai-acquires-software-applications-incorporated
+- category: ai
   published: '2025-10-22T23:02:04'
   score: 0.883
   source: AWS Machine Learning
@@ -8188,5 +8345,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-23T05:04:15.315621'
-total_articles: 639
+last_updated: '2025-10-24T05:04:32.689777'
+total_articles: 651
