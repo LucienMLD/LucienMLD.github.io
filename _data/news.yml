@@ -1,4 +1,103 @@
 articles:
+- category: webdev
+  published: '2025-10-26T16:00:00'
+  score: 0.758
+  source: Towards Data Science
+  summary: The article highlights the importance of understanding framework dimensions
+    for data scientists. It provides practical guidance and a case study on how to
+    leverage framework dimensions to improve data analysis and model building.
+  tags:
+  - Data Science
+  - Conceptual Frameworks
+  - Data Visualization
+  - Deep Dives
+  - Dimensions
+  title: 'The Power of Framework Dimensions: What Data Scientists Should Know'
+  url: https://towardsdatascience.com/the-power-of-framework-dimensions-what-data-scientists-should-know/
+- category: ai
+  published: '2025-10-26T15:00:00'
+  score: 0.783
+  source: Google AI Blog
+  summary: The article introduces "vibe coding" in Google AI Studio, a feature that
+    aims to enhance the coding experience by providing relevant code suggestions based
+    on the user's coding "vibe" or context.
+  tags:
+  - Developers
+  - AI
+  title: Introducing vibe coding in Google AI Studio
+  url: https://blog.google/technology/developers/introducing-vibe-coding-in-google-ai-studio/
+- category: ai
+  published: '2025-10-26T14:00:00'
+  score: 0.82
+  source: Towards Data Science
+  summary: The article discusses the evolution of AI from simple assistants to potentially
+    becoming leaders and decision-makers in various domains, including business and
+    governance. It explores the implications of AI systems advancing to a point where
+    they could autonomously take on high-level roles and responsibilities.
+  tags:
+  - Artificial Intelligence
+  - Ai Governance
+  - Ai Research
+  - Decision Making
+  - Hybrid Intelligence
+  title: 'AI Agents: From Assistants for Efficiency to Leaders of Tomorrow?'
+  url: https://towardsdatascience.com/ai-agents-from-assistants-for-efficiency-to-leaders-of-tomorrow/
+- category: cybersecurity
+  published: '2025-10-25T16:16:00'
+  score: 0.73
+  source: BleepingComputer
+  summary: The article describes a new phishing technique called "CoPhish" that exploits
+    Microsoft Copilot Studio agents to deliver fraudulent OAuth consent requests through
+    legitimate and trusted Microsoft domains, leading to the theft of OAuth tokens.
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: New CoPhish attack steals OAuth tokens via Copilot Studio agents
+  url: https://www.bleepingcomputer.com/news/security/new-cophish-attack-steals-oauth-tokens-via-copilot-studio-agents/
+- category: webdev
+  published: '2025-10-25T16:00:00'
+  score: 0.518
+  source: Towards Data Science
+  summary: The article reviews the essentials of Python, providing a foundation for
+    data visualization enthusiasts to take their skills to the next level.
+  tags:
+  - Data Science
+  - Data Storytelling
+  - Data Visualization
+  - Editors Pick
+  - Programming
+  title: 'Data Visualization Explained (Part 4): A Review of Python Essentials'
+  url: https://towardsdatascience.com/data-visualization-explained-part-4-a-review-of-python-essentials/
+- category: ai
+  published: '2025-10-25T14:00:00'
+  score: 0.561
+  source: Towards Data Science
+  summary: The article presents an example workflow for working with vector geospatial
+    data science using open-source tools and Databricks, demonstrating the creation
+    of a geospatial lakehouse.
+  tags:
+  - Data Engineering
+  - Azure Databricks
+  - Data Science
+  - Deep Dives
+  - Geospatial
+  title: Building a Geospatial Lakehouse with Open Source and Databricks
+  url: https://towardsdatascience.com/building-a-geospatial-lakehouse-with-open-source-and-databricks-2/
+- category: cybersecurity
+  published: '2025-10-25T11:00:09'
+  score: 0.594
+  source: Ars Technica
+  summary: The article discusses how climate change is disrupting the migrations of
+    whales and dolphins, forcing these marine mammals into new and more dangerous
+    waters, which poses a threat to their survival.
+  tags:
+  - Science
+  - dolphins
+  - marine environment
+  - marine life
+  - Migration Assistant
+  title: Whale and dolphin migrations are being disrupted by climate change
+  url: https://arstechnica.com/science/2025/10/whale-and-dolphin-migrations-are-being-disrupted-by-climate-change/
 - category: ai
   published: '2025-10-23T22:08:40'
   score: 0.876
@@ -8345,5 +8444,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-24T05:04:32.689777'
-total_articles: 651
+last_updated: '2025-10-27T05:04:15.964993'
+total_articles: 658
