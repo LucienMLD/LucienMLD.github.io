@@ -1,4 +1,204 @@
 articles:
+- category: cybersecurity
+  published: '2025-10-28T04:01:00'
+  score: 1.1
+  source: The Hacker News
+  summary: The SideWinder threat actor has targeted a European embassy in New Delhi
+    and multiple organizations in South Asia, with a notable evolution in their attack
+    chain involving a ClickOnce-based approach. This campaign highlights the persistent
+    threat of state-sponsored cyber espionage operations.
+  tags: []
+  title: SideWinder Adopts New ClickOnce-Based Attack Chain Targeting South Asian
+    Diplomats
+  url: https://thehackernews.com/2025/10/sidewinder-adopts-new-clickonce-based.html
+- category: webdev
+  published: '2025-10-27T20:30:00'
+  score: 0.746
+  source: Towards Data Science
+  summary: The article presents a real-world example of using user-defined functions
+    (UDFs) in DAX, a powerful feature introduced in the September 2025 release of
+    Power BI. This example showcases the versatility and potential of UDFs in enhancing
+    data analysis and visualization capabilities.
+  tags:
+  - Data Science
+  - Data Analisis
+  - Dax
+  - Dax Tutorial
+  - Power Bi
+  title: A Real-World Example of Using UDF in DAX
+  url: https://towardsdatascience.com/a-real-world-example-of-using-udf-in-dax/
+- category: ai
+  published: '2025-10-27T20:18:05'
+  score: 0.82
+  source: Ars Technica
+  summary: Researchers have found that generative search engines often cite websites
+    that wouldn't appear in Google's top 100 links, suggesting a reliance on "less
+    popular" sources. This raises questions about the reliability and transparency
+    of these AI-powered search tools.
+  tags:
+  - AI
+  - demini
+  - google
+  - overviews
+  - web search
+  title: AI-powered search engines rely on “less popular” sources, researchers find
+  url: https://arstechnica.com/ai/2025/10/ai-powered-search-engines-rely-on-less-popular-sources-researchers-find/
+- category: ai
+  published: '2025-10-27T19:43:37'
+  score: 0.816
+  source: Towards Data Science
+  summary: The article discusses different types of AI audio models and their application
+    areas, providing insights into how these powerful technologies can be leveraged
+    for real-world use cases, such as speech recognition, audio generation, and audio
+    analysis.
+  tags:
+  - Machine Learning
+  - Audio Analysis
+  - Audio Deep Learning
+  - Large Multimodal Models
+  - Llm
+  title: How to Apply Powerful AI Audio Models to Real-World Applications
+  url: https://towardsdatascience.com/how-to-apply-powerful-ai-audio-models-to-real-world-applications/
+- category: cybersecurity
+  published: '2025-10-27T19:22:38'
+  score: 1.031
+  source: BleepingComputer
+  summary: The number of ransomware victims paying hackers' demands has reached a
+    new low, with only 23% of breached companies giving in to the attackers. This
+    trend suggests that efforts to raise awareness and improve cybersecurity measures
+    are paying off, making it harder for ransomware groups to profit from their activities.
+  tags:
+  - Security
+  title: Ransomware profits drop as victims stop paying hackers
+  url: https://www.bleepingcomputer.com/news/security/ransomware-profits-drop-as-victims-stop-paying-hackers/
+- category: webdev
+  published: '2025-10-27T19:19:37'
+  score: 0.739
+  source: Ars Technica
+  summary: The "ISS in Real Time" website captures a quarter-century of data from
+    the International Space Station, offering a comprehensive and engaging platform
+    for exploring the history and activities on the space station.
+  tags:
+  - Space
+  - 25 years
+  - Ben Feist
+  - continuous human occupancy
+  - David Charney
+  title: '25 years, one website: ISS in Real Time captures quarter-century on space
+    station'
+  url: https://arstechnica.com/space/2025/10/25-years-one-website-iss-in-real-time-captures-quarter-century-on-space-station/
+- category: ai
+  published: '2025-10-27T18:39:14'
+  score: 0.852
+  source: Towards Data Science
+  summary: The author shares several machine learning lessons learned, including the
+    importance of README files, MIGs (Model Impact Graders), and the growing "no-code/low-code"
+    movement. These insights highlight the evolving best practices and trends in the
+    field of machine learning.
+  tags:
+  - Machine Learning
+  - Ai Project Management
+  - Data Science
+  - Documentation
+  - Editors Pick
+  title: The Machine Learning Lessons I’ve Learned This Month
+  url: https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-2/
+- category: cybersecurity
+  published: '2025-10-27T16:37:28'
+  score: 1.107
+  source: BleepingComputer
+  summary: Italian spyware vendor Memento Labs has been linked to a zero-day vulnerability
+    in Google Chrome that was exploited in Operation ForumTroll earlier this year.
+    The vulnerability allowed the delivery of malware, revealing the continued threat
+    posed by advanced spyware vendors.
+  tags:
+  - Security
+  title: Italian spyware vendor linked to Chrome zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/italian-spyware-vendor-linked-to-chrome-zero-day-attacks/
+- category: webdev
+  published: '2025-10-27T16:35:52'
+  score: 0.722
+  source: Ars Technica
+  summary: The article discusses the latest Formula 1 race in Mexico City, where a
+    new championship leader emerged. While the race for the win was quiet, there was
+    plenty of action for the second and third positions.
+  tags:
+  - Cars
+  - F1
+  - Formula 1
+  title: 'F1 in Mexico City: We have a new championship leader'
+  url: https://arstechnica.com/cars/2025/10/f1-in-mexico-city-we-have-a-new-championship-leader/
+- category: webdev
+  published: '2025-10-27T14:33:17'
+  score: 0.749
+  source: CSS-Tricks
+  summary: The article explores the use of the `<details>` element as the foundation
+    for a tabbed interface, demonstrating the creative application of CSS features
+    like Grid and Subgrid to build a pure CSS-based tabbed interface.
+  tags:
+  - Articles
+  - grid
+  - html elements
+  - layout
+  - subgrid
+  title: Pure CSS Tabs With Details, Grid, and Subgrid
+  url: https://css-tricks.com/pure-css-tabs-with-details-grid-and-subgrid/
+- category: cybersecurity
+  published: '2025-10-27T14:31:00'
+  score: 1.091
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a new vulnerability in OpenAI's
+    ChatGPT Atlas web browser that could allow attackers to inject nefarious instructions
+    into the AI-powered assistant's memory and execute arbitrary code. This exploit
+    poses a significant risk to the security and integrity of the ChatGPT platform.
+  tags: []
+  title: New ChatGPT Atlas Browser Exploit Lets Attackers Plant Persistent Hidden
+    Commands
+  url: https://thehackernews.com/2025/10/new-chatgpt-atlas-browser-exploit-lets.html
+- category: cybersecurity
+  published: '2025-10-27T13:27:35'
+  score: 1.083
+  source: BleepingComputer
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has ordered
+    U.S. government agencies to patch a critical-severity vulnerability in Windows
+    Server Update Services (WSUS) that has been exploited in attacks. Addressing this
+    flaw is crucial to mitigate the risk of potential security breaches.
+  tags:
+  - Security
+  - Microsoft
+  title: CISA orders feds to patch Windows Server WSUS flaw used in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-server-wsus-flaw-exploited-in-attacks/
+- category: webdev
+  published: '2025-10-27T13:00:00'
+  score: 0.74
+  source: Smashing Magazine
+  summary: The article provides a lesson on Iterators in JavaScript, explaining the
+    concepts of Iterables and Iterators, which are fundamental to understanding JavaScript's
+    iteration mechanism and its applications.
+  tags: []
+  title: 'JavaScript For Everyone: Iterators'
+  url: https://smashingmagazine.com/2025/10/javascript-for-everyone-iterators/
+- category: ai
+  published: '2025-10-27T12:00:00'
+  score: 0.807
+  source: OpenAI
+  summary: OpenAI's submission to the White House emphasizes the need for strategic
+    investment in energy and infrastructure to meet the demands of the Intelligence
+    Age and sustain U.S. leadership in AI and economic growth.
+  tags: []
+  title: Seizing the AI opportunity
+  url: https://openai.com/global-affairs/seizing-the-ai-opportunity
+- category: ai
+  published: '2025-10-27T10:00:00'
+  score: 0.881
+  source: OpenAI
+  summary: OpenAI collaborated with mental health experts to improve ChatGPT's ability
+    to recognize distress, respond empathetically, and guide users towards real-world
+    support. This effort has resulted in a significant reduction in unsafe responses,
+    enhancing the AI's safety and reliability in sensitive conversations.
+  tags: []
+  title: Strengthening ChatGPT’s responses in sensitive conversations
+  url: https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations
 - category: webdev
   published: '2025-10-26T16:00:00'
   score: 0.758
@@ -8444,5 +8644,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-27T05:04:15.964993'
-total_articles: 658
+last_updated: '2025-10-28T05:03:57.714365'
+total_articles: 673
