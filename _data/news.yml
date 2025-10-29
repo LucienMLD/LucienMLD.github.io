@@ -1,4 +1,161 @@
 articles:
+- category: ai
+  published: '2025-10-29T03:30:56'
+  score: 0.969
+  source: Ars Technica
+  summary: Mazda has showcased a rotary hybrid concept for the Tokyo Motor Show, featuring
+    evolved design language and exploring ideas like algae-based fuels and capturing
+    carbon from the exhaust.
+  tags:
+  - Cars
+  - Japan Mobility Show
+  - mazda
+  title: Mazda shows a rotary hybrid concept for Tokyo with evolved design language
+  url: https://arstechnica.com/cars/2025/10/mazda-shows-a-rotary-hybrid-concept-for-tokyo-with-evolved-design-language/
+- category: cybersecurity
+  published: '2025-10-29T00:51:05'
+  score: 1.124
+  source: Krebs on Security
+  summary: The Aisuru botnet, previously known for record-breaking DDoS attacks, has
+    shifted its focus to renting out its network of infected IoT devices as residential
+    proxies, a more sustainable and lucrative business model.
+  tags:
+  - A Little Sunshine
+  - DDoS-for-Hire
+  - Internet of Things (IoT)
+  - The Coming Storm
+  - Web Fraud 2.0
+  title: Aisuru Botnet Shifts from DDoS to Residential Proxies
+  url: https://krebsonsecurity.com/2025/10/aisuru-botnet-shifts-from-ddos-to-residential-proxies/
+- category: ai
+  published: '2025-10-29T00:00:00'
+  score: 0.945
+  source: Hugging Face
+  summary: NVIDIA's Isaac platform enables building healthcare robots from simulation
+    to deployment, streamlining the development process.
+  tags: []
+  title: Building a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac
+  url: https://huggingface.co/blog/lerobotxnvidia-healthcare
+- category: cybersecurity
+  published: '2025-10-28T23:31:28'
+  score: 1.066
+  source: BleepingComputer
+  summary: Microsoft has released the KB5067036 preview cumulative update for Windows
+    11, which introduces the Administrator Protection cybersecurity feature and an
+    updated Start Menu.
+  tags:
+  - Microsoft
+  - Security
+  title: Windows 11 KB5067036 update rolls out Administrator Protection feature
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5067036-update-rolls-out-administrator-protection-feature/
+- category: webdev
+  published: '2025-10-28T18:10:18'
+  score: 0.732
+  source: Ars Technica
+  summary: Samsung is introducing ads on its $3,499 smart fridges through an upcoming
+    software update, a move that may be met with mixed reactions from consumers.
+  tags:
+  - Tech
+  - ads
+  - Samsung
+  - smart home
+  title: Samsung makes ads on $3,499 smart fridges official with upcoming software
+    update
+  url: https://arstechnica.com/gadgets/2025/10/samsung-makes-ads-on-3499-smart-fridges-official-with-upcoming-software-update/
+- category: ai
+  published: '2025-10-28T17:33:35'
+  score: 0.845
+  source: Towards Data Science
+  summary: The article demonstrates how Claude Skills can be integrated with Neo4j,
+    exploring the potential applications of these advanced language models in the
+    context of graph databases.
+  tags:
+  - Large Language Models
+  - claude
+  - claude skills
+  - Llm
+  - mcp
+  title: Using Claude Skills with Neo4j
+  url: https://towardsdatascience.com/using-claude-skills-with-neo4j/
+- category: ai
+  published: '2025-10-28T17:00:00'
+  score: 0.885
+  source: OpenAI
+  summary: Dai Nippon Printing (DNP) has achieved significant improvements in patent
+    research, processing volume, usage, automation, and knowledge reuse by deploying
+    ChatGPT Enterprise across its organization.
+  tags: []
+  title: Knowledge preservation powered by ChatGPT
+  url: https://openai.com/index/dai-nippon-printing
+- category: webdev
+  published: '2025-10-28T16:46:56'
+  score: 0.723
+  source: Ars Technica
+  summary: Slate Auto has partnered with RepairPal to service its affordable electric
+    truck, addressing the important issue of repair and maintenance for EV owners.
+  tags:
+  - Cars
+  - Slate Auto
+  title: Here’s how Slate Auto plans to handle repairs to its electric trucks
+  url: https://arstechnica.com/cars/2025/10/slate-auto-announces-repair-network-access-to-superchargers/
+- category: webdev
+  published: '2025-10-28T15:17:13'
+  score: 0.714
+  source: Ars Technica
+  summary: AMD and Intel continue to serve the low-end PC market with aging silicon,
+    highlighting the need for more innovation in budget-friendly laptop CPUs.
+  tags:
+  - Tech
+  - AMD
+  - Ryzen
+  title: AMD shores up its budget laptop CPUs by renaming more years-old silicon
+  url: https://arstechnica.com/gadgets/2025/10/amd-shores-up-its-budget-laptop-cpus-by-renaming-more-years-old-silicon/
+- category: ai
+  published: '2025-10-28T14:30:00'
+  score: 0.868
+  source: Towards Data Science
+  summary: This article explores the differences between how AI models "reason" and
+    how humans "think," highlighting the limitations of current language models in
+    replicating human-like reasoning.
+  tags:
+  - Artificial Intelligence
+  - AI
+  - Data Science
+  - Editors Pick
+  - Llm
+  title: 'Water Cooler Small Talk, Ep. 9: What “Thinking” and “Reasoning” Really Mean
+    in AI and LLMs'
+  url: https://towardsdatascience.com/water-cooler-small-talk-ep-9-what-thinking-and-reasoning-really-mean-in-ai-and-llms/
+- category: cybersecurity
+  published: '2025-10-28T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Schneider Electric's EcoStruxure platform has a vulnerability with a CVSS
+    v4 score of 8.2, which is exploitable remotely with low attack complexity, requiring
+    attention from users and vendors.
+  tags: []
+  title: Schneider Electric EcoStruxure
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-301-01
+- category: cybersecurity
+  published: '2025-10-28T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Vertikal Systems' Hospital Manager Backend Services has a vulnerability
+    with a CVSS v4 score of 8.7, which is also exploitable remotely with low attack
+    complexity, requiring immediate attention.
+  tags: []
+  title: Vertikal Systems Hospital Manager Backend Services
+  url: https://www.cisa.gov/news-events/ics-medical-advisories/icsma-25-301-01
+- category: cybersecurity
+  published: '2025-10-28T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, highlighting the need for organizations to prioritize patching
+    and addressing these known exploited vulnerabilities.
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog
 - category: cybersecurity
   published: '2025-10-28T04:01:00'
   score: 1.1
@@ -103,6 +260,16 @@ articles:
   - Editors Pick
   title: The Machine Learning Lessons I’ve Learned This Month
   url: https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-2/
+- category: webdev
+  published: '2025-10-27T17:45:00'
+  score: 0.569
+  source: Google AI Blog
+  summary: Google Beam is collaborating with the USO to support military families,
+    enabling service members to stay connected with their loved ones.
+  tags:
+  - AI
+  title: Google Beam is working with the USO to support military families.
+  url: https://blog.google/feed/google-beam-uso-partnership/
 - category: cybersecurity
   published: '2025-10-27T16:37:28'
   score: 1.107
@@ -8644,5 +8811,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-28T05:03:57.714365'
-total_articles: 673
+last_updated: '2025-10-29T05:04:25.586666'
+total_articles: 687
