@@ -1,4 +1,181 @@
 articles:
+- category: cybersecurity
+  published: '2025-10-29T23:16:10'
+  score: 1.017
+  source: BleepingComputer
+  summary: Ten malicious packages mimicking legitimate software projects in the npm
+    registry download an information-stealing component that collects sensitive data
+    from Windows, Linux, and macOS systems. This attack targets users of these malicious
+    packages, potentially exposing their personal information.
+  tags:
+  - Security
+  title: Malicious NPM packages fetch infostealer for Windows, Linux, macOS
+  url: https://www.bleepingcomputer.com/news/security/malicious-npm-packages-fetch-infostealer-for-windows-linux-macos/
+- category: ai
+  published: '2025-10-29T21:35:58'
+  score: 0.829
+  source: Ars Technica
+  summary: Meta denies claims that it pirated porn to train its AI, stating that the
+    downloads were for "personal use." This comes in response to a lawsuit alleging
+    that Meta used copyrighted adult content without permission to train its AI systems.
+  tags:
+  - AI
+  - Policy
+  - adult content
+  - AI training
+  - BItTorrent
+  title: Meta denies torrenting porn to train AI, says downloads were for “personal
+    use”
+  url: https://arstechnica.com/tech-policy/2025/10/meta-says-porn-downloads-on-its-ips-were-for-personal-use-not-ai-training/
+- category: cybersecurity
+  published: '2025-10-29T20:44:00'
+  score: 1.09
+  source: BleepingComputer
+  summary: The WordPress plugin "Anti-Malware Security and Brute-Force Firewall" has
+    a vulnerability that allows subscribers to read any file on the server, potentially
+    exposing private information. This security flaw could lead to the compromise
+    of sensitive data on over 100,000 WordPress sites.
+  tags:
+  - Security
+  title: WordPress security plugin exposes private data to site subscribers
+  url: https://www.bleepingcomputer.com/news/security/wordpress-security-plugin-exposes-private-data-to-site-subscribers/
+- category: ai
+  published: '2025-10-29T19:56:23'
+  score: 0.861
+  source: Towards Data Science
+  summary: The article presents four techniques to optimize the performance of large
+    language model (LLM) applications, including prompt engineering, model selection,
+    prompt chaining, and prompt composition. These techniques can help reduce costs,
+    latency, and improve the overall performance of LLM-based applications.
+  tags:
+  - Large Language Models
+  - ChatGPT
+  - Cost Optimization
+  - Latency
+  - Llm
+  title: 4 Techniques to Optimize Your LLM Prompts for Cost, Latency and Performance
+  url: https://towardsdatascience.com/4-techniques-to-optimize-your-llm-prompts-for-cost-latency-and-performance/
+- category: webdev
+  published: '2025-10-29T16:37:06'
+  score: 0.722
+  source: Ars Technica
+  summary: YouTube is introducing AI-powered upscaling and shopping QR codes to create
+    a more couch-friendly experience, catering to the growing trend of TV-based YouTube
+    viewing.
+  tags:
+  - Google
+  - Tech
+  - google
+  - streaming video
+  - YouTube
+  title: TV-focused YouTube update brings AI upscaling, shopping QR codes
+  url: https://arstechnica.com/gadgets/2025/10/tv-focused-youtube-update-brings-ai-upscaling-shopping-qr-codes/
+- category: webdev
+  published: '2025-10-29T16:22:28'
+  score: 0.761
+  source: CSS-Tricks
+  summary: The article discusses techniques for effective small-screen design, such
+    as using a variety of methods to help orient users and provide a sense of context,
+    which is important as people can lose their sense of context on mobile devices.
+  tags:
+  - Articles
+  - rwd
+  - UI/IX Design
+  title: Getting Creative With Small Screens
+  url: https://css-tricks.com/getting-creative-with-small-screens/
+- category: ai
+  published: '2025-10-29T15:44:41'
+  score: 0.876
+  source: Machine Learning Mastery
+  summary: Large language models (LLMs) can be used to generate numerical representations
+    of text, called embeddings, which can be useful for various text-based machine
+    learning tasks. This article discusses advanced feature engineering techniques
+    using LLM embeddings.
+  tags: []
+  title: 7 Advanced Feature Engineering Tricks for Text Data Using LLM Embeddings
+  url: https://machinelearningmastery.com/7-advanced-feature-engineering-tricks-for-text-data-using-llm-embeddings/
+- category: cybersecurity
+  published: '2025-10-29T15:38:00'
+  score: 1.051
+  source: The Hacker News
+  summary: Cybersecurity researchers have reported a sharp increase in automated attacks
+    targeting PHP servers, IoT devices, and cloud gateways by various botnets such
+    as Mirai, Gafgyt, and Mozi. These attacks exploit known vulnerabilities and cloud
+    misconfigurations to gain control over exposed systems.
+  tags: []
+  title: Experts Reports Sharp Increase in Automated Botnet Attacks Targeting PHP
+    Servers and IoT Devices
+  url: https://thehackernews.com/2025/10/experts-reports-sharp-increase-in.html
+- category: ai
+  published: '2025-10-29T14:57:00'
+  score: 0.959
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a new security issue in agentic
+    web browsers like OpenAI ChatGPT Atlas that exposes underlying AI models to context
+    poisoning attacks. This attack can trick AI crawlers into citing fake information
+    as verified facts.
+  tags: []
+  title: New AI-Targeted Cloaking Attack Tricks AI Crawlers Into Citing Fake Info
+    as Verified Facts
+  url: https://thehackernews.com/2025/10/new-ai-targeted-cloaking-attack-tricks.html
+- category: webdev
+  published: '2025-10-29T14:46:21'
+  score: 0.711
+  source: Ars Technica
+  summary: Nvidia's CEO dismisses concerns about an AI bubble, stating that he does
+    not believe the company is in one, even as Nvidia's stock hits a record $5 trillion
+    market cap.
+  tags:
+  - AI
+  - Biz & IT
+  - AI chips
+  - AI infrastructure
+  - apple
+  title: Nvidia hits record $5 trillion mark as CEO dismisses AI bubble concerns
+  url: https://arstechnica.com/ai/2025/10/nvidia-hits-record-5-trillion-mark-as-ceo-dismisses-ai-bubble-concerns/
+- category: cybersecurity
+  published: '2025-10-29T14:02:12'
+  score: 1.039
+  source: BleepingComputer
+  summary: Hidden visibility gaps can turn unpatched systems into open doors for attackers.
+    Action1 provides IT teams with unified visibility and automated control to detect,
+    prioritize, and remediate vulnerabilities before they can be exploited.
+  tags:
+  - Security
+  title: 'Visibility Gaps: Streamlining Patching and Vulnerability Remediation'
+  url: https://www.bleepingcomputer.com/news/security/visibility-gaps-streamlining-patching-and-vulnerability-remediation/
+- category: ai
+  published: '2025-10-29T11:58:00'
+  score: 0.806
+  source: The Hacker News
+  summary: Artificial Intelligence (AI) is transforming Governance, Risk, and Compliance
+    (GRC) by speeding up audits, flagging critical risks faster, and drastically cutting
+    down on manual tasks. The article invites readers to a free expert webinar to
+    discover practical AI tactics for GRC.
+  tags: []
+  title: Discover Practical AI Tactics for GRC — Join the Free Expert Webinar
+  url: https://thehackernews.com/2025/10/discover-practical-ai-tactics-for-grc.html
+- category: cybersecurity
+  published: '2025-10-29T07:44:00'
+  score: 1.04
+  source: The Hacker News
+  summary: Threat actors are actively exploiting multiple security flaws in Dassault
+    Systèmes DELMIA Apriso and XWiki, which have been confirmed by the U.S. Cybersecurity
+    and Infrastructure Security Agency (CISA). These vulnerabilities, if left unpatched,
+    could allow attackers to compromise affected systems.
+  tags: []
+  title: Active Exploits Hit Dassault and XWiki — CISA Confirms Critical Flaws Under
+    Attack
+  url: https://thehackernews.com/2025/10/active-exploits-hit-dassault-and-xwiki.html
+- category: webdev
+  published: '2025-10-29T07:00:00'
+  score: 0.662
+  source: Chrome Developers
+  summary: Chrome 143 will introduce the ability to detect fallback positions with
+    anchored container queries, which can be useful for responsive web design.
+  tags: []
+  title: Detect fallback positions with anchored container queries from Chrome 143
+  url: https://developer.chrome.com/blog/anchored-container-queries?hl=en
 - category: ai
   published: '2025-10-29T03:30:56'
   score: 0.969
@@ -8811,5 +8988,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-29T05:04:25.586666'
-total_articles: 687
+last_updated: '2025-10-30T05:04:00.512744'
+total_articles: 701
