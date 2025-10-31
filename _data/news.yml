@@ -1,5 +1,198 @@
 articles:
 - category: cybersecurity
+  published: '2025-10-31T03:37:00'
+  score: 1.097
+  source: The Hacker News
+  summary: A new security layer for macOS aims to address admin errors that can allow
+    unauthorized access to devices, highlighting the need for robust security checks
+    to prevent potential hacking attempts.
+  tags: []
+  title: A New Security Layer for macOS Takes Aim at Admin Errors Before Hackers Do
+  url: https://thehackernews.com/2025/10/a-new-security-layer-for-macos-takes.html
+- category: ai
+  published: '2025-10-30T22:12:28'
+  score: 0.921
+  source: BleepingComputer
+  summary: OpenAI has confirmed that it has updated its GPT-5 language model to better
+    handle sensitive conversations and support users experiencing emotional or mental
+    distress, highlighting the continued development of AI systems to address human-centric
+    needs.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI confirms GPT-5 is now better at handling mental and emotional distress
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-gpt-5-is-now-better-at-handling-mental-and-emotional-distress/
+- category: webdev
+  published: '2025-10-30T21:55:03'
+  score: 0.795
+  source: AWS Machine Learning
+  summary: AWS has introduced a solution called Web Bot Auth (Preview) in Amazon Bedrock
+    AgentCore Browser, which aims to reduce the need for CAPTCHAs when AI agents browse
+    the web, addressing a common challenge faced by AI-driven web automation.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon Machine Learning
+  - Artificial Intelligence
+  - Intermediate (200)
+  title: Reduce CAPTCHAs for AI agents browsing the web with Web Bot Auth (Preview)
+    in Amazon Bedrock AgentCore Browser
+  url: https://aws.amazon.com/blogs/machine-learning/reduce-captchas-for-ai-agents-browsing-the-web-with-web-bot-auth-preview-in-amazon-bedrock-agentcore-browser/
+- category: webdev
+  published: '2025-10-30T20:05:50'
+  score: 0.744
+  source: Ars Technica
+  summary: Affinity, a provider of image-editing software, has shifted its business
+    model to a "freemium" approach, making its apps available for free, while no longer
+    offering a perpetually licensed version, reflecting the evolving landscape of
+    software monetization.
+  tags:
+  - Tech
+  - affinity
+  - affinity photo
+  - canva
+  title: Affinity’s image-editing apps go “freemium” in first major post-Canva update
+  url: https://arstechnica.com/gadgets/2025/10/canvas-new-affinity-app-is-free-to-use-but-locks-ai-features-behind-a-subscription/
+- category: webdev
+  published: '2025-10-30T19:19:53'
+  score: 0.739
+  source: WebKit Blog
+  summary: Apple has released Safari Technology Preview 231, which includes updates
+    for macOS Tahoe and macOS Sequoia, demonstrating the ongoing development and refinement
+    of its web browser.
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 231
+  url: https://webkit.org/blog/17560/release-notes-for-safari-technology-preview-231/
+- category: ai
+  published: '2025-10-30T18:24:32'
+  score: 0.895
+  source: Ars Technica
+  summary: The makers of ChatGPT are reportedly eyeing a $1 trillion initial public
+    offering (IPO), indicating the significant market potential and investor interest
+    in advanced AI technologies.
+  tags:
+  - AI
+  - Biz & IT
+  - AI infrastructure
+  - ChatGPT
+  - CoreWeave
+  title: ChatGPT maker reportedly eyes $1 trillion IPO despite major quarterly losses
+  url: https://arstechnica.com/ai/2025/10/is-openai-worth-1-trillion-potential-ipo-may-reveal-the-answer/
+- category: webdev
+  published: '2025-10-30T17:28:38'
+  score: 0.728
+  source: Ars Technica
+  summary: Disney+ has added support for HDR10+, a rival to Dolby Vision, across over
+    1,000 titles on Hulu, expanding the streaming platform's video quality capabilities
+    and providing users with more options.
+  tags:
+  - Tech
+  - Disney
+  - disney plus
+  - HDR
+  - Hulu
+  title: Disney+ gets HDR10+ via “over 1,000” Hulu titles
+  url: https://arstechnica.com/gadgets/2025/10/disney-gets-hdr10-through-over-1000-hulu-titles/
+- category: ai
+  published: '2025-10-30T17:23:10'
+  score: 0.844
+  source: Towards Data Science
+  summary: Datapizza AI, a startup focused on building efficient and reliable AI frameworks,
+    has introduced a new offering to help organizations develop large language model
+    (LLM) agents more quickly, addressing the growing demand for these technologies.
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - Artificial Intelligence
+  - Generative Ai
+  - Llm
+  title: Build LLM Agents Faster with Datapizza AI
+  url: https://towardsdatascience.com/datapizza-the-ai-framework-made-in-italy/
+- category: ai
+  published: '2025-10-30T16:47:53'
+  score: 0.84
+  source: Machine Learning Mastery
+  summary: The article presents seven machine learning projects that can help individuals
+    land their dream job in the rapidly evolving field of AI, emphasizing the importance
+    of staying up-to-date with the latest advancements.
+  tags: []
+  title: 7 Machine Learning Projects to Land Your Dream Job in 2026
+  url: https://machinelearningmastery.com/7-machine-learning-projects-to-land-your-dream-job-in-2026/
+- category: cybersecurity
+  published: '2025-10-30T16:40:00'
+  score: 1.059
+  source: The Hacker News
+  summary: The open-source command-and-control (C2) framework known as AdaptixC2 is
+    being utilized by Russian ransomware gangs, demonstrating the potential misuse
+    of security tools by threat actors and the need for vigilance in the cybersecurity
+    landscape.
+  tags: []
+  title: Russian Ransomware Gangs Weaponize Open-Source AdaptixC2 for Advanced Attacks
+  url: https://thehackernews.com/2025/10/russian-ransomware-gangs-weaponize-open.html
+- category: webdev
+  published: '2025-10-30T16:19:28'
+  score: 0.72
+  source: Ars Technica
+  summary: Google has made changes to the Play Store, allowing developers to lead
+    users away from the platform, in response to an antitrust case involving Epic
+    Games, showcasing the evolving dynamics in the digital app distribution landscape.
+  tags:
+  - Google
+  - Tech
+  - apps
+  - google
+  - play store
+  title: Google makes first Play Store changes after losing Epic Games antitrust case
+  url: https://arstechnica.com/gadgets/2025/10/google-begins-loosening-developer-restrictions-in-play-store-against-its-will/
+- category: ai
+  published: '2025-10-30T14:34:25'
+  score: 0.824
+  source: Towards Data Science
+  summary: Shuai Guo, an expert in the field of AI, discusses the value of systems
+    thinking in research and development, emphasizing the importance of considering
+    the broader context and implications of AI technologies.
+  tags:
+  - Artificial Intelligence
+  - Author Spotlights
+  - Data Science
+  - Machine Learning
+  title: “Systems thinking helps me put the big picture front and center”
+  url: https://towardsdatascience.com/systems-thinking-helps-me-put-the-big-picture-front-and-center/
+- category: cybersecurity
+  published: '2025-10-30T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The International Standards Organization (ISO) has released ISO 15118-2,
+    which provides guidelines for secure communication between electric vehicles and
+    charging stations, addressing the growing need for standardized protocols in the
+    EV industry.
+  tags: []
+  title: International Standards Organization ISO 15118-2
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-303-01
+- category: cybersecurity
+  published: '2025-10-30T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA), along with
+    the National Security Agency and international partners, has released guidance
+    on Microsoft Exchange Server security best practices, emphasizing the importance
+    of proactive measures to mitigate potential vulnerabilities.
+  tags: []
+  title: New Guidance Released on Microsoft Exchange Server Security Best Practices
+  url: https://www.cisa.gov/news-events/alerts/2025/10/30/new-guidance-released-microsoft-exchange-server-security-best-practices
+- category: cybersecurity
+  published: '2025-10-30T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Hitachi Energy TropOS system, with a CVSS v4 score of 8.7, has been
+    identified as having a vulnerability that can be exploited remotely with low attack
+    complexity, underscoring the need for vendors to address security issues in their
+    products.
+  tags: []
+  title: Hitachi Energy TropOS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-303-02
+- category: cybersecurity
   published: '2025-10-29T23:16:10'
   score: 1.017
   source: BleepingComputer
@@ -8988,5 +9181,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-30T05:04:00.512744'
-total_articles: 701
+last_updated: '2025-10-31T05:04:43.931962'
+total_articles: 716
