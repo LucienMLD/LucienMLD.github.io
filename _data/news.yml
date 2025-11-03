@@ -1,5 +1,151 @@
 articles:
 - category: cybersecurity
+  published: '2025-11-02T22:07:14'
+  score: 0.956
+  source: BleepingComputer
+  summary: A hacker claims to have stolen 1.2 million donor records from the University
+    of Pennsylvania in a data breach. The incident highlights the need for robust
+    cybersecurity measures to protect sensitive information.
+  tags:
+  - Security
+  title: Penn hacker claims to have stolen 1.2 million donor records in data breach
+  url: https://www.bleepingcomputer.com/news/security/university-of-pennsylvania-hacker-claims-1.2-million-donor-data-breach/
+- category: cybersecurity
+  published: '2025-11-02T20:37:24'
+  score: 0.945
+  source: Krebs on Security
+  summary: A Ukrainian man indicted in 2012 for conspiring with a hacking group to
+    steal millions from U.S. businesses has been arrested in Italy and is now in custody
+    in the United States. This case demonstrates the long-term efforts to bring cybercriminals
+    to justice.
+  tags:
+  - A Little Sunshine
+  - Ne'er-Do-Well News
+  - 'Target: Small Businesses'
+  - aqua
+  - BBC
+  title: Alleged Jabber Zeus Coder ‘MrICQ’ in U.S. Custody
+  url: https://krebsonsecurity.com/2025/11/alleged-jabber-zeus-coder-mricq-in-u-s-custody/
+- category: cybersecurity
+  published: '2025-11-02T15:09:19'
+  score: 0.952
+  source: BleepingComputer
+  summary: The Open VSX registry rotated access tokens after they were accidentally
+    leaked, preventing threat actors from publishing malicious extensions in a supply-chain
+    attack. This incident underscores the importance of proper key management and
+    code security practices.
+  tags:
+  - Security
+  title: Open VSX rotates access tokens used in supply-chain malware attack
+  url: https://www.bleepingcomputer.com/news/security/open-vsx-rotates-tokens-used-in-supply-chain-malware-attack/
+- category: ai
+  published: '2025-11-02T14:00:00'
+  score: 0.776
+  source: Towards Data Science
+  summary: Researchers have compared various forecasting approaches, from classical
+    models to AI-based methods, to optimize humidity forecasting for energy and water
+    efficiency in data centers. The findings demonstrate the potential of advanced
+    techniques to enhance sustainability in data center operations.
+  tags:
+  - Machine Learning
+  - Data Science
+  - Deep Learning
+  - Editors Pick
+  - Python
+  title: 'From Classical Models to AI: Forecasting Humidity for Energy and Water Efficiency
+    in Data Centers'
+  url: https://towardsdatascience.com/from-classical-models-to-ai-forecasting-humidity-for-energy-and-water-efficiency-in-data-centers-2/
+- category: ai
+  published: '2025-11-02T13:00:00'
+  score: 0.813
+  source: Towards Data Science
+  summary: MobileNetV3, a deep learning model, has been improved with the addition
+    of Squeeze-and-Excitation (SE) blocks and hard activation functions, making it
+    even more efficient and effective for deployment on mobile devices.
+  tags:
+  - Artificial Intelligence
+  - Deep Dives
+  - Deep Learning
+  - Machine Learning
+  - Neural Network
+  title: 'MobileNetV3 Paper Walkthrough: The Tiny Giant Getting Even Smarter'
+  url: https://towardsdatascience.com/mobilenetv3-paper-walkthrough-the-tiny-giant-getting-even-smarter/
+- category: ai
+  published: '2025-11-01T20:00:00'
+  score: 0.735
+  source: BleepingComputer
+  summary: OpenAI is considering introducing memory-based ads on ChatGPT as it struggles
+    to generate revenue from paid users. This move highlights the challenge of balancing
+    monetization strategies with user experience in the AI assistant landscape.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI is going Meta route, as it considers memory-based ads on ChatGPT
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-going-meta-route-as-it-considers-memory-based-ads-on-chatgpt/
+- category: webdev
+  published: '2025-11-01T16:56:00'
+  score: 0.524
+  source: BleepingComputer
+  summary: Google confirms that AI-powered search results will include ads, although
+    they may have a different appearance than traditional search ads. This development
+    underscores the ongoing evolution of advertising models in the AI-driven search
+    landscape.
+  tags:
+  - Google
+  - Technology
+  title: Google confirms AI search will have ads, but they may look different
+  url: https://www.bleepingcomputer.com/news/google/google-confirms-ai-search-will-have-ads-but-they-may-look-different/
+- category: ai
+  published: '2025-11-01T16:38:09'
+  score: 0.579
+  source: Ars Technica
+  summary: This research roundup covers a diverse range of scientific discoveries,
+    from the highest scoring Boggle board to catching high-speed snake bites in action,
+    showcasing the breadth of ongoing research and innovation.
+  tags:
+  - Science
+  - Archeology
+  - Food science
+  - geophysics
+  - Mars
+  title: 'Research roundup: 6 cool science stories we almost missed'
+  url: https://arstechnica.com/science/2025/11/research-roundup-6-cool-science-stories-we-almost-missed-3/
+- category: ai
+  published: '2025-11-01T16:17:22'
+  score: 0.577
+  source: BleepingComputer
+  summary: Windows 11 Build 26220.7051 includes a new "Ask Copilot" feature that integrates
+    AI capabilities into the taskbar, reflecting the growing adoption of AI assistants
+    in desktop operating systems.
+  tags:
+  - Microsoft
+  - Software
+  title: Windows 11 Build 26220.7051 released with “Ask Copilot” feature
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-11-build-262207051-released-with-ask-copilot-feature/
+- category: cybersecurity
+  published: '2025-11-01T14:16:26'
+  score: 0.859
+  source: BleepingComputer
+  summary: China-linked hackers exploited a Motex Lanscope Endpoint Manager vulnerability
+    as a zero-day to deploy an updated version of their Gokcpdoor malware. This highlights
+    the need for organizations to promptly patch known vulnerabilities and monitor
+    for new threats.
+  tags:
+  - Security
+  title: China-linked hackers exploited Lanscope flaw as a zero-day in attacks
+  url: https://www.bleepingcomputer.com/news/security/china-linked-hackers-exploited-lanscope-flaw-as-a-zero-day-in-attacks/
+- category: cybersecurity
+  published: '2025-11-01T13:43:00'
+  score: 0.855
+  source: The Hacker News
+  summary: The Australian Signals Directorate (ASD) has warned of ongoing cyber attacks
+    targeting unpatched Cisco IOS XE devices in the country with a previously undocumented
+    implant known as BADCANDY. This emphasizes the importance of keeping systems up-to-date
+    and implementing robust security measures.
+  tags: []
+  title: ASD Warns of Ongoing BADCANDY Attacks Exploiting Cisco IOS XE Vulnerability
+  url: https://thehackernews.com/2025/11/asd-warns-of-ongoing-badcandy-attacks.html
+- category: cybersecurity
   published: '2025-10-31T03:37:00'
   score: 1.097
   source: The Hacker News
@@ -9181,5 +9327,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-10-31T05:04:43.931962'
-total_articles: 716
+last_updated: '2025-11-03T05:04:31.806759'
+total_articles: 727
