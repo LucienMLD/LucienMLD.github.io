@@ -1,4 +1,195 @@
 articles:
+- category: webdev
+  published: '2025-11-04T02:08:26'
+  score: 0.882
+  source: Ars Technica
+  summary: Apple's latest updates for iOS, macOS, and other platforms include a small
+    but noteworthy batch of fixes and features, such as Liquid Glass controls.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - iOS
+  - ios 26
+  title: Apple releases iOS 26.1, macOS 26.1, other updates with Liquid Glass controls
+    and more
+  url: https://arstechnica.com/gadgets/2025/11/apple-releases-ios-26-1-macos-26-1-other-updates-with-liquid-glass-controls-and-more/
+- category: ai
+  published: '2025-11-04T01:14:29'
+  score: 0.954
+  source: Towards Data Science
+  summary: Integrating AI into existing products can be done in a more organic, incremental
+    approach, rather than solely focusing on developing standalone chatbots.
+  tags:
+  - Artificial Intelligence
+  - Chatbot
+  - Editors Pick
+  - Machine Learning
+  - Product Management
+  title: It Doesn’t Need to Be a Chatbot
+  url: https://towardsdatascience.com/it-doesnt-need-to-be-a-chatbot/
+- category: ai
+  published: '2025-11-03T22:13:53'
+  score: 0.833
+  source: Ars Technica
+  summary: Vast, a commercial space station startup, is taking a different approach
+    by flying a series of progressively more complex demos to establish a foothold
+    in space.
+  tags:
+  - Space
+  - bandwagon
+  - Commercial space
+  - haven-1
+  - low earth orbit
+  title: A commercial space station startup now has a foothold in space
+  url: https://arstechnica.com/space/2025/11/a-commercial-space-station-startup-now-has-a-foothold-in-space/
+- category: webdev
+  published: '2025-11-03T20:21:36'
+  score: 0.746
+  source: Ars Technica
+  summary: AMD's recent driver release has caused confusion, but the company has clarified
+    that it will continue to actively support "old" GPUs, as re-using old silicon
+    can affect "new" products.
+  tags:
+  - Gaming
+  - Tech
+  - AMD
+  - Radeon
+  - rdna
+  title: After confusing driver release, AMD says old GPUs are still actively supported
+  url: https://arstechnica.com/gadgets/2025/11/amd-says-that-its-not-pulling-driver-support-for-older-radeon-gpus-afterall/
+- category: ai
+  published: '2025-11-03T20:08:40'
+  score: 0.907
+  source: Ars Technica
+  summary: Large language models (LLMs) exhibit a "highly unreliable" capacity to
+    describe their own internal processes, with "failures of introspection" remaining
+    the norm.
+  tags:
+  - AI
+  - Antrhopic
+  - clause
+  - introspection
+  - LLM
+  title: LLMs show a “highly unreliable” capacity to describe their own internal processes
+  url: https://arstechnica.com/ai/2025/11/llms-show-a-highly-unreliable-capacity-to-describe-their-own-internal-processes/
+- category: cybersecurity
+  published: '2025-11-03T18:35:15'
+  score: 1.025
+  source: BleepingComputer
+  summary: Microsoft has discovered a new backdoor malware that abuses the OpenAI
+    Assistants API as a covert command-and-control channel, posing a significant threat
+    to systems.
+  tags:
+  - Security
+  - Microsoft
+  title: 'Microsoft: SesameOp malware abuses OpenAI Assistants API in attacks'
+  url: https://www.bleepingcomputer.com/news/security/microsoft-sesameop-malware-abuses-openai-assistants-api-in-attacks/
+- category: ai
+  published: '2025-11-03T17:23:11'
+  score: 0.932
+  source: Ars Technica
+  summary: OpenAI has signed a massive AI compute deal with Amazon, granting it access
+    to hundreds of thousands of Nvidia chips that power ChatGPT.
+  tags:
+  - AI
+  - Biz & IT
+  - AI chips
+  - AI infrastructure
+  - Amazon
+  title: OpenAI signs massive AI compute deal with Amazon
+  url: https://arstechnica.com/ai/2025/11/openai-signs-massive-ai-compute-deal-with-amazon/
+- category: cybersecurity
+  published: '2025-11-03T17:15:39'
+  score: 1.015
+  source: BleepingComputer
+  summary: Three former cybersecurity incident response company employees have been
+    indicted for allegedly hacking the networks of five U.S. companies in BlackCat
+    (ALPHV) ransomware attacks.
+  tags:
+  - Security
+  title: US cybersecurity experts indicted for BlackCat ransomware attacks
+  url: https://www.bleepingcomputer.com/news/security/us-cybersecurity-experts-indicted-for-blackcat-ransomware-attacks/
+- category: webdev
+  published: '2025-11-03T16:03:08'
+  score: 0.759
+  source: CSS-Tricks
+  summary: The "tan()" CSS function, considered the "Most Hated" feature by the State
+    of CSS 2025 survey, has faced criticism for its complexity and limited use cases.
+  tags:
+  - Articles
+  - CSS functions
+  - math
+  title: 'The “Most Hated” CSS Feature: tan()'
+  url: https://css-tricks.com/the-most-hated-css-feature-tan/
+- category: cybersecurity
+  published: '2025-11-03T15:22:12'
+  score: 1.049
+  source: BleepingComputer
+  summary: Microsoft's security update to patch an actively exploited WSUS vulnerability
+    has inadvertently disabled hotpatching on some Windows Server 2025 devices, disrupting
+    the functionality of these systems.
+  tags:
+  - Microsoft
+  - Security
+  title: 'Microsoft: Patch for WSUS flaw disabled Windows Server hotpatching'
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-patch-for-wsus-flaw-disabled-windows-server-hotpatching/
+- category: cybersecurity
+  published: '2025-11-03T15:11:21'
+  score: 1.0
+  source: BleepingComputer
+  summary: Device code phishing, which abuses the OAuth device flow, presents different
+    attack surfaces on Google and Azure platforms, highlighting the need for enhanced
+    identity security measures.
+  tags:
+  - Security
+  title: 'OAuth Device Code Phishing: Azure vs. Google Compared'
+  url: https://www.bleepingcomputer.com/news/security/oauth-device-code-phishing-azure-vs-google-compared/
+- category: cybersecurity
+  published: '2025-11-03T12:56:00'
+  score: 1.031
+  source: The Hacker News
+  summary: Cybercriminals are becoming increasingly sophisticated, leveraging new
+    vulnerabilities and tricking trusted systems to carry out a wide range of attacks,
+    from spying and fake job scams to ransomware and phishing.
+  tags: []
+  title: '⚡ Weekly Recap: Lazarus Hits Web3, Intel/AMD TEEs Cracked, Dark Web Leak
+    Tool & More'
+  url: https://thehackernews.com/2025/11/weekly-recap-lazarus-hits-web3-intelamd.html
+- category: webdev
+  published: '2025-11-03T12:00:51'
+  score: 0.693
+  source: Ars Technica
+  summary: The Internet Archive has survived its legal battles, but its founder mourns
+    the loss of what was once a more comprehensive digital library.
+  tags:
+  - Features
+  - Policy
+  - copyright act
+  - copyright law
+  - digital library
+  title: Internet Archive’s legal fights are over, but its founder mourns what was
+    lost
+  url: https://arstechnica.com/tech-policy/2025/11/the-internet-archive-survived-major-copyright-losses-whats-next/
+- category: ai
+  published: '2025-11-03T11:00:03'
+  score: 0.844
+  source: Machine Learning Mastery
+  summary: Prompt engineering techniques can help mitigate hallucinations in large
+    language models (LLMs), enhancing their reliability and performance.
+  tags: []
+  title: 7 Prompt Engineering Tricks to Mitigate Hallucinations in LLMs
+  url: https://machinelearningmastery.com/7-prompt-engineering-tricks-to-mitigate-hallucinations-in-llms/
+- category: webdev
+  published: '2025-11-03T09:00:01'
+  score: 0.675
+  source: WebKit Blog
+  summary: Safari 26.1 is now available with iOS 26.1, iPadOS 26.1, macOS Sequoia
+    26.1, and visionOS 26.1, introducing new features and updates to the WebKit engine.
+  tags:
+  - News
+  title: WebKit Features for Safari 26.1
+  url: https://webkit.org/blog/17541/webkit-features-for-safari-26-1/
 - category: cybersecurity
   published: '2025-11-02T22:07:14'
   score: 0.956
@@ -9327,5 +9518,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-03T05:04:31.806759'
-total_articles: 727
+last_updated: '2025-11-04T05:04:22.870314'
+total_articles: 742
