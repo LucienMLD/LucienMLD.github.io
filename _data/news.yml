@@ -1,5 +1,200 @@
 articles:
 - category: webdev
+  published: '2025-11-05T00:50:43'
+  score: 0.874
+  source: Ars Technica
+  summary: Jared Isaacman, a private space traveler, has been renominated to lead
+    NASA, marking a surprising comeback in the space industry.
+  tags:
+  - Space
+  - duffy
+  - isaacman
+  - nasa administrator
+  - space
+  title: In a stunning comeback, Jared Isaacman is renominated to lead NASA
+  url: https://arstechnica.com/space/2025/11/in-a-stunning-comeback-jared-isaacman-is-renominated-to-lead-nasa/
+- category: webdev
+  published: '2025-11-05T00:00:00'
+  score: 0.868
+  source: MDN Blog
+  summary: This article explores the trade-offs between image quality, size, and compression
+    speed, experimenting with various codecs and tools to find practical ways to balance
+    efficiency and visual fidelity in image compression.
+  tags: []
+  title: 'Image formats: Codecs and compression tools'
+  url: https://developer.mozilla.org/en-US/blog/image-formats-codecs-compression-tools/
+- category: webdev
+  published: '2025-11-04T23:24:50'
+  score: 0.865
+  source: Ars Technica
+  summary: The FDA has been described as a "clown show" amid the latest scandal, leading
+    to the departure of a top drug regulator, who is accused of using their position
+    to exact revenge on an old business associate.
+  tags:
+  - Health
+  - drug
+  - fda
+  - george tidmarsh
+  - pharmaceutical
+  title: FDA described as a “clown show” amid latest scandal; top drug regulator is
+    out
+  url: https://arstechnica.com/health/2025/11/fda-described-as-a-clown-show-amid-latest-scandal-top-drug-regulator-is-out/
+- category: webdev
+  published: '2025-11-04T22:50:29'
+  score: 0.761
+  source: Ars Technica
+  summary: Google's new hurricane model has shown impressive performance this season,
+    while the US Global Forecasting System continues to decline in accuracy.
+  tags:
+  - AI
+  - Google
+  - Science
+  - deepmind
+  - google
+  title: Google’s new hurricane model was breathtakingly good this season
+  url: https://arstechnica.com/science/2025/11/googles-new-weather-model-impressed-during-its-first-hurricane-season/
+- category: ai
+  published: '2025-11-04T20:59:02'
+  score: 0.824
+  source: Ars Technica
+  summary: Google is preparing to place AI data centers in space as part of its "Project
+    Suncatcher" initiative, testing the feasibility of this approach by subjecting
+    TPUs to radiation.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - Artificial Intelligence
+  - generative ai
+  title: Meet Project Suncatcher, Google’s plan to put AI data centers in space
+  url: https://arstechnica.com/google/2025/11/meet-project-suncatcher-googles-plan-to-put-ai-data-centers-in-space/
+- category: webdev
+  published: '2025-11-04T20:29:34'
+  score: 0.786
+  source: Towards Data Science
+  summary: This project-based tutorial teaches absolute beginners how to use NumPy
+    for data analysis, building a high-performance sensor data pipeline from scratch
+    and unlocking the true speed of Python's scientific computing core.
+  tags:
+  - Data Science
+  - Big Data
+  - Data Analytics
+  - Deep Dives
+  - Numpy
+  title: 'NumPy for Absolute Beginners: A Project-Based Approach to Data Analysis'
+  url: https://towardsdatascience.com/numpy-for-absolute-beginners-a-project-based-approach-to-data-analysis/
+- category: ai
+  published: '2025-11-04T18:30:44'
+  score: 0.807
+  source: AWS Machine Learning
+  summary: Amazon Bedrock AgentCore Runtime is a fully managed service that provides
+    low-latency serverless environments for deploying agents and tools, enabling faster
+    iterations in building effective AI agents at scale.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon Machine Learning
+  - Launch
+  title: Iterate faster with Amazon Bedrock AgentCore Runtime direct code deployment
+  url: https://aws.amazon.com/blogs/machine-learning/iterate-faster-with-amazon-bedrock-agentcore-runtime-direct-code-deployment/
+- category: ai
+  published: '2025-11-04T18:29:20'
+  score: 0.807
+  source: Towards Data Science
+  summary: This article discusses why credit risk models that work well initially
+    can break down over time, and provides strategies for maintaining the effectiveness
+    of these models in the long run.
+  tags:
+  - Data Science
+  - Credit Risk
+  - Machine Learning
+  - Programming
+  - Python
+  title: What to Do When Your Credit Risk Model Works Today, but Breaks Six Months
+    Later
+  url: https://towardsdatascience.com/your-credit-risk-model-works-today-it-breaks-in-six-months/
+- category: ai
+  published: '2025-11-04T17:00:00'
+  score: 0.841
+  source: Google AI Blog
+  summary: The article showcases the latest AI news from October, including panels
+    featuring a person using an AR headset, Google Quantum AI, and a snippet of Gemini
+    2.5 Computer Use code.
+  tags:
+  - Android
+  - Google DeepMind
+  - Developers
+  - Google Labs
+  - Learning & Education
+  title: The latest AI news we announced in October
+  url: https://blog.google/technology/ai/google-ai-updates-october-2025/
+- category: cybersecurity
+  published: '2025-11-04T14:24:00'
+  score: 1.09
+  source: The Hacker News
+  summary: A critical security flaw in the popular "@react-native-community/cli" npm
+    package could allow remote attackers to execute malicious OS commands, potentially
+    exposing millions of React Native developers to remote attacks. The vulnerability
+    has now been patched, but it highlights the importance of maintaining secure dependencies
+    in software development.
+  tags: []
+  title: Critical React Native CLI Flaw Exposed Millions of Developers to Remote Attacks
+  url: https://thehackernews.com/2025/11/critical-react-native-cli-flaw-exposed.html
+- category: ai
+  published: '2025-11-04T12:00:11'
+  score: 0.807
+  source: Machine Learning Mastery
+  summary: The article presents 10 Python one-liners that can be used to calculate
+    feature importance in machine learning models, highlighting the importance of
+    understanding model behavior for building trustworthy AI systems.
+  tags: []
+  title: 10 Python One-Liners for Calculating Model Feature Importance
+  url: https://machinelearningmastery.com/10-python-one-liners-for-calculating-model-feature-importance/
+- category: cybersecurity
+  published: '2025-11-04T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Fuji Electric Monitouch V-SFT-6 industrial control system has a vulnerability
+    with a CVSS v4 score of 8.4, which allows for low-complexity remote attacks. This
+    vulnerability requires attention from affected users and vendors to mitigate the
+    risk of potential exploitation.
+  tags: []
+  title: Fuji Electric Monitouch V-SFT-6
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-308-01
+- category: cybersecurity
+  published: '2025-11-04T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Delta Electronics CNCSoft-G2 industrial control system has a vulnerability
+    with a CVSS v4 score of 8.5, which also allows for low-complexity remote attacks.
+    This vulnerability requires prompt attention and remediation from the affected
+    vendor and users to address the security risk.
+  tags: []
+  title: Delta Electronics CNCSoft-G2
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-308-03
+- category: cybersecurity
+  published: '2025-11-04T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Radiometrics VizAir industrial control system has a vulnerability with
+    a CVSS v4 score of 10.0, which is remotely exploitable with low attack complexity.
+    This critical vulnerability necessitates immediate action from the vendor and
+    users to address the severe security risk.
+  tags: []
+  title: Radiometrics VizAir
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-308-04
+- category: cybersecurity
+  published: '2025-11-04T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Survision License Plate Recognition Camera has a vulnerability with
+    a CVSS v4 score of 9.3, which is also remotely exploitable with low attack complexity.
+    This high-severity vulnerability requires swift attention and mitigation efforts
+    from the vendor and affected users.
+  tags: []
+  title: Survision License Plate Recognition Camera
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-308-02
+- category: webdev
   published: '2025-11-04T02:08:26'
   score: 0.882
   source: Ars Technica
@@ -9518,5 +9713,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-04T05:04:22.870314'
-total_articles: 742
+last_updated: '2025-11-05T05:04:33.325382'
+total_articles: 757
