@@ -1,4 +1,206 @@
 articles:
+- category: cybersecurity
+  published: '2025-11-06T02:04:36'
+  score: 1.086
+  source: Krebs on Security
+  summary: Cloudflare has taken action to remove domains associated with the massive
+    Aisuru botnet from their public ranking of the most frequently requested websites.
+    This was in response to the Aisuru botnet repeatedly usurping top tech companies
+    like Amazon, Apple, Google, and Microsoft in Cloudflare's rankings.
+  tags:
+  - A Little Sunshine
+  - DDoS-for-Hire
+  - Internet of Things (IoT)
+  - Web Fraud 2.0
+  - Aisuru
+  title: Cloudflare Scrubs Aisuru Botnet from Top Domains List
+  url: https://krebsonsecurity.com/2025/11/cloudflare-scrubs-aisuru-botnet-from-top-domains-list/
+- category: cybersecurity
+  published: '2025-11-05T23:50:26'
+  score: 1.021
+  source: Ars Technica
+  summary: Social engineering has struck again, as hackers have compromised the websites
+    of former U.S. President Donald Trump and Tesla CEO Elon Musk, both of whom attended
+    the University of Pennsylvania.
+  tags:
+  - Security
+  - hacking hactivists
+  - University of Pennsylvania
+  title: Musk and Trump both went to Penn—now hacked by someone sympathetic to their
+    cause
+  url: https://arstechnica.com/security/2025/11/musk-and-trump-both-went-to-penn-now-hacked-by-someone-sympathetic-to-their-cause/
+- category: cybersecurity
+  published: '2025-11-05T23:29:42'
+  score: 1.018
+  source: Ars Technica
+  summary: An 83-year-old man who claimed to be in a monogamous 50-year marriage has
+    surprised doctors by being diagnosed with a sexually transmitted infection, casting
+    doubt on the veracity of his claims.
+  tags:
+  - Health
+  - bacterial
+  - case report
+  - infection
+  - new england journal
+  title: 83-year-old man married 50 years nearly stumps doctors with surprise STI
+  url: https://arstechnica.com/health/2025/11/rare-form-of-syphilis-in-married-elderly-man-nearly-stumps-doctors/
+- category: ai
+  published: '2025-11-05T21:30:00'
+  score: 0.916
+  source: OpenAI
+  summary: CRED, an Indian fintech company, is leveraging OpenAI's GPT-powered tools
+    to improve support accuracy, reduce response times, and boost customer satisfaction,
+    transforming its premium customer experiences.
+  tags: []
+  title: How CRED is tapping AI to deliver premium customer experiences
+  url: https://openai.com/index/cred-swamy-seetharaman
+- category: webdev
+  published: '2025-11-05T19:10:45'
+  score: 0.738
+  source: Ars Technica
+  summary: The recent Disney blackout on YouTube TV serves as a reminder to users
+    that they do not truly own the content they stream, as streaming services can
+    remove or restrict access at any time.
+  tags:
+  - Google
+  - Tech
+  - Disney
+  - DVR
+  - google
+  title: YouTube TV’s Disney blackout reminds users that they don’t own what they
+    stream
+  url: https://arstechnica.com/gadgets/2025/11/youtube-tvs-disney-blackout-reminds-users-that-they-dont-own-what-they-stream/
+- category: cybersecurity
+  published: '2025-11-05T18:26:25'
+  score: 1.024
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity & Infrastructure Security Agency (CISA) is warning
+    that threat actors are exploiting a critical remote command execution flaw in
+    CentOS Web Panel (CWP), which could allow them to gain unauthorized access to
+    affected systems.
+  tags:
+  - Security
+  - Linux
+  title: CISA warns of critical CentOS Web Panel bug exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-centos-web-panel-bug-exploited-in-attacks/
+- category: webdev
+  published: '2025-11-05T17:28:34'
+  score: 0.728
+  source: BleepingComputer
+  summary: The Microsoft Store on the web now offers a Ninite-style multi-app installer
+    feature, allowing Windows 11 users to create a single installer that installs
+    multiple applications.
+  tags:
+  - Microsoft
+  - Software
+  title: Windows 11 Store gets Ninite-style multi-app installer feature
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-11-store-gets-ninite-style-multi-app-installer-feature/
+- category: ai
+  published: '2025-11-05T17:15:35'
+  score: 0.843
+  source: AWS Machine Learning
+  summary: Amazon Search optimized GPU instance utilization by leveraging AWS Batch
+    for SageMaker Training jobs, enabling them to orchestrate machine learning (ML)
+    training workloads on GPU-accelerated instance families more efficiently.
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker AI
+  - Artificial Intelligence
+  - Customer Solutions
+  - Technical How-to
+  title: How Amazon Search increased ML training twofold using AWS Batch for Amazon
+    SageMaker Training jobs
+  url: https://aws.amazon.com/blogs/machine-learning/how-amazon-search-increased-ml-training-twofold-using-aws-batch-for-amazon-sagemaker-training-jobs/
+- category: cybersecurity
+  published: '2025-11-05T17:13:07'
+  score: 1.063
+  source: BleepingComputer
+  summary: SonicWall's investigation into the September security breach that exposed
+    customers' firewall configuration backup files has concluded that the attack was
+    carried out by state-sponsored hackers.
+  tags:
+  - Security
+  title: SonicWall says state-sponsored hackers behind September security breach
+  url: https://www.bleepingcomputer.com/news/security/sonicwall-says-state-sponsored-hackers-behind-security-breach-in-september/
+- category: ai
+  published: '2025-11-05T17:00:00'
+  score: 0.841
+  source: Google AI Blog
+  summary: The Gemini API has introduced improvements to its structured outputs, providing
+    a more user-friendly and standardized way to interact with the API.
+  tags:
+  - Developers
+  - AI
+  title: Improving Structured Outputs in the Gemini API
+  url: https://blog.google/technology/developers/gemini-api-structured-outputs/
+- category: webdev
+  published: '2025-11-05T16:26:02'
+  score: 0.721
+  source: Ars Technica
+  summary: Google has agreed to make several changes to Android app support globally,
+    including capping Play Store fees and boosting other Android app stores, as part
+    of a settlement with Epic Games.
+  tags:
+  - Google
+  - Tech
+  - apps
+  - epic
+  - google
+  title: Google settlement with Epic caps Play Store fees, boosts other Android app
+    stores
+  url: https://arstechnica.com/gadgets/2025/11/google-settlement-with-epic-caps-play-store-fees-boosts-other-android-app-stores/
+- category: webdev
+  published: '2025-11-05T15:42:57'
+  score: 0.717
+  source: Ars Technica
+  summary: A new guide outlines how to declutter, quiet down, and remove AI-related
+    features from the latest major release of Windows 11 (25H2).
+  tags:
+  - Features
+  - Tech
+  - evergreen
+  - install
+  - windows 11
+  title: How to declutter, quiet down, and take the AI out of Windows 11 25H2
+  url: https://arstechnica.com/gadgets/2025/11/what-i-do-to-clean-up-a-clean-install-of-windows-11-23h2-and-edge/
+- category: ai
+  published: '2025-11-05T14:59:59'
+  score: 0.915
+  source: BleepingComputer
+  summary: Google's Threat Intelligence Group (GTIG) has identified a major shift
+    in the use of artificial intelligence by adversaries, who are deploying new malware
+    families that integrate large language models (LLMs) during execution.
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: Google warns of new AI-powered malware families deployed in the wild
+  url: https://www.bleepingcomputer.com/news/security/google-warns-of-new-ai-powered-malware-families-deployed-in-the-wild/
+- category: ai
+  published: '2025-11-05T14:04:00'
+  score: 0.953
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed a new set of vulnerabilities in
+    OpenAI's ChatGPT AI chatbot that could be exploited by attackers to steal personal
+    information from users' memories and chat histories without their knowledge.
+  tags: []
+  title: Researchers Find ChatGPT Vulnerabilities That Let Attackers Trick AI Into
+    Leaking Data
+  url: https://thehackernews.com/2025/11/researchers-find-chatgpt.html
+- category: webdev
+  published: '2025-11-05T14:00:26'
+  score: 0.706
+  source: Ars Technica
+  summary: Google Maps is transitioning from the Assistant to the Gemini AI system,
+    which is being rolled out to the Maps app on Android and iOS, with Android Auto
+    integration coming soon.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - google
+  - Google Gemini
+  title: So long, Assistant—Gemini is taking over Google Maps
+  url: https://arstechnica.com/google/2025/11/so-long-assistant-gemini-is-taking-over-google-maps/
 - category: webdev
   published: '2025-11-05T00:50:43'
   score: 0.874
@@ -9713,5 +9915,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-05T05:04:33.325382'
-total_articles: 757
+last_updated: '2025-11-06T05:04:36.333680'
+total_articles: 772
