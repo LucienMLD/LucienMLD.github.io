@@ -1,4 +1,202 @@
 articles:
+- category: cybersecurity
+  published: '2025-11-11T00:46:40'
+  score: 1.076
+  source: BleepingComputer
+  summary: North Korean hackers from the KONNI activity cluster are abusing Google's
+    Find Hub tool to track their targets' GPS positions and trigger remote factory
+    resets of Android devices, demonstrating the misuse of legitimate tools for malicious
+    ends.
+  tags:
+  - Security
+  title: APT37 hackers abuse Google Find Hub in Android data-wiping attacks
+  url: https://www.bleepingcomputer.com/news/security/apt37-hackers-abuse-google-find-hub-in-android-data-wiping-attacks/
+- category: cybersecurity
+  published: '2025-11-11T00:39:13'
+  score: 1.027
+  source: Ars Technica
+  summary: The debut of the Neutron rocket has been pushed back to mid-2026 as the
+    company seeks to ensure success from the start, highlighting the challenges in
+    the space industry and the importance of careful planning and execution.
+  tags:
+  - Space
+  - neutron
+  - rocket lab
+  - space
+  - Wallops
+  title: Neutron rocket’s debut slips into mid-2026 as company seeks success from
+    the start
+  url: https://arstechnica.com/space/2025/11/neutron-rockets-debut-slips-into-mid-2026-as-company-seeks-success-from-the-start/
+- category: ai
+  published: '2025-11-10T23:06:42'
+  score: 0.983
+  source: Ars Technica
+  summary: Researchers have found that basic arithmetic ability in AI neural networks
+    lives in the memorization pathways, not the logic circuits, suggesting the need
+    for further advancements in AI reasoning capabilities.
+  tags:
+  - AI
+  - Biz & IT
+  - AI alignment
+  - AI architecture
+  - AI behavior
+  title: Researchers isolate memorization from reasoning in AI neural networks
+  url: https://arstechnica.com/ai/2025/11/study-finds-ai-models-store-memories-and-logic-in-different-neural-regions/
+- category: cybersecurity
+  published: '2025-11-10T20:49:00'
+  score: 1.138
+  source: The Hacker News
+  summary: Hackers are exploiting a critical vulnerability (CVE-2025-12480) in the
+    Triofox file-sharing and remote access platform to bypass authentication and install
+    remote access tools. The vulnerability, with a CVSS score of 9.1, allows attackers
+    to abuse the platform's antivirus feature for malicious purposes.
+  tags: []
+  title: Hackers Exploiting Triofox Flaw to Install Remote Access Tools via Antivirus
+    Feature
+  url: https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html
+- category: cybersecurity
+  published: '2025-11-10T20:00:34'
+  score: 1.132
+  source: BleepingComputer
+  summary: CISA has ordered U.S. federal agencies to patch a critical Samsung vulnerability
+    that has been exploited in zero-day attacks to deploy LandFall spyware on devices
+    running WhatsApp. The vulnerability has been actively exploited, highlighting
+    the need for prompt patching to mitigate the threat.
+  tags:
+  - Security
+  title: CISA orders feds to patch Samsung zero-day used in spyware attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-samsung-zero-day-used-in-spyware-attacks/
+- category: ai
+  published: '2025-11-10T19:59:01'
+  score: 0.817
+  source: AWS Machine Learning
+  summary: Fine-tuning visual language models (VLMs) provides a powerful and flexible
+    approach to automate and enhance document understanding capabilities, enabling
+    smaller, multi-modal models to compete effectively with larger counterparts.
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker AI
+  - Technical How-to
+  title: Fine-tune VLMs for multipage document-to-JSON with SageMaker AI and SWIFT
+  url: https://aws.amazon.com/blogs/machine-learning/fine-tune-vlms-for-multipage-document-to-json-with-sagemaker-ai-and-swift/
+- category: webdev
+  published: '2025-11-10T19:33:20'
+  score: 0.78
+  source: Towards Data Science
+  summary: The article provides a practical guide on how to offload performance-critical
+    code to C without abandoning Python, potentially leading to up to 150x faster
+    execution times.
+  tags:
+  - Programming
+  - C Language
+  - Deep Dives
+  - Levenshtein Distance
+  - Performance
+  title: Make Python Up to 150× Faster with C
+  url: https://towardsdatascience.com/make-python-up-to-150x-faster-with-c/
+- category: webdev
+  published: '2025-11-10T19:16:43'
+  score: 0.739
+  source: Towards Data Science
+  summary: The article emphasizes the importance of storytelling with data for business
+    and data analysts, as data is driving the future of business and effective data
+    communication is crucial for success.
+  tags:
+  - Data Science
+  - Analytics
+  - Data Storytelling
+  - Data Visualization
+  - Editors Pick
+  title: Why Storytelling With Data Matters for Business and Data Analysts
+  url: https://towardsdatascience.com/why-storytelling-with-data-matters-for-business-and-data-analysts/
+- category: ai
+  published: '2025-11-10T18:47:18'
+  score: 0.809
+  source: Towards Data Science
+  summary: The article explores the relationship between sample size, attribute set,
+    and model complexity, challenging the conventional wisdom that more data always
+    leads to better performance in machine learning.
+  tags:
+  - Data Science
+  - Data Visualization
+  - Experimental Data Science
+  - Machine Learning
+  - Model Evaluation
+  title: Does More Data Always Yield Better Performance?
+  url: https://towardsdatascience.com/does-more-data-always-yield-better-performance/
+- category: webdev
+  published: '2025-11-10T18:32:29'
+  score: 0.774
+  source: BleepingComputer
+  summary: A critical vulnerability in the popular expr-eval JavaScript library can
+    be exploited to execute code remotely through maliciously crafted input, highlighting
+    the importance of securing commonly used libraries.
+  tags:
+  - Security
+  title: Popular JavaScript library expr-eval vulnerable to RCE flaw
+  url: https://www.bleepingcomputer.com/news/security/popular-javascript-library-expr-eval-vulnerable-to-rce-flaw/
+- category: ai
+  published: '2025-11-10T18:13:47'
+  score: 0.849
+  source: AWS Machine Learning
+  summary: Clario has used Amazon Bedrock and other AWS services to build an AI-powered
+    solution that automates and improves the analysis of COA interviews, demonstrating
+    the potential of generative AI in enhancing clinical research.
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Elastic Kubernetes Service
+  - Amazon Machine Learning
+  - Amazon OpenSearch Service
+  title: How Clario automates clinical research analysis using generative AI on AWS
+  url: https://aws.amazon.com/blogs/machine-learning/how-clario-automates-clinical-research-analysis-using-generative-ai-on-aws/
+- category: webdev
+  published: '2025-11-10T18:09:28'
+  score: 0.772
+  source: Ars Technica
+  summary: A new project aims to bring strong Linux compatibility to more classic
+    Windows games, overcoming the challenges of the "highly cursed" Direct3D 7 API.
+  tags:
+  - Gaming
+  - compatibility layer
+  - gaming
+  - Linux
+  - open source
+  title: New project brings strong Linux compatibility to more classic Windows games
+  url: https://arstechnica.com/gaming/2025/11/new-project-brings-strong-linux-compatibility-to-more-classic-windows-games/
+- category: webdev
+  published: '2025-11-10T14:44:13'
+  score: 0.75
+  source: CSS-Tricks
+  summary: The article discusses the importance of understanding the semantics, fluidity,
+    and styling of headings in web development, emphasizing the need for a balanced
+    approach.
+  tags:
+  - Articles
+  - semantics
+  - typography
+  title: 'Headings: Semantics, Fluidity, and Styling — Oh My!'
+  url: https://css-tricks.com/headings-semantics-fluidity-and-styling-oh-my/
+- category: cybersecurity
+  published: '2025-11-10T12:00:00'
+  score: 1.024
+  source: CISA
+  summary: CISA has added a new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, indicating active exploitation and the need for prompt patching
+    by organizations to mitigate the associated risks.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/11/10/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2025-11-10T11:00:55'
+  score: 0.844
+  source: Machine Learning Mastery
+  summary: The article discusses the importance of understanding large language model
+    (LLM) evaluation metrics, which are crucial for assessing the capabilities and
+    limitations of these models as they become more prevalent.
+  tags: []
+  title: Everything You Need to Know About LLM Evaluation Metrics
+  url: https://machinelearningmastery.com/everything-you-need-to-know-about-llm-evaluation-metrics/
 - category: webdev
   published: '2025-11-09T23:28:57'
   score: 0.865
@@ -10220,5 +10418,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-10T05:04:47.007352'
-total_articles: 796
+last_updated: '2025-11-11T05:04:58.168140'
+total_articles: 811
