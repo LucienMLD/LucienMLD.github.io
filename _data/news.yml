@@ -1,5 +1,202 @@
 articles:
 - category: cybersecurity
+  published: '2025-11-12T00:14:19'
+  score: 1.072
+  source: BleepingComputer
+  summary: The Rhadamanthys infostealer operation has been disrupted, with numerous
+    "customers" of the malware-as-a-service reporting that they no longer have access
+    to their servers. This suggests that the cybercriminals behind the malware have
+    lost control of their infrastructure, potentially disrupting their malicious activities.
+  tags:
+  - Security
+  title: Rhadamanthys infostealer disrupted as cybercriminals lose server access
+  url: https://www.bleepingcomputer.com/news/security/rhadamanthys-infostealer-disrupted-as-cybercriminals-lose-server-access/
+- category: webdev
+  published: '2025-11-11T23:26:04'
+  score: 0.865
+  source: Ars Technica
+  summary: The original design of the Mac calculator's user interface came from letting
+    Steve Jobs play with menus for ten minutes, a process that accidentally led to
+    the invention of a new UI design technique.
+  tags:
+  - Apple
+  - Tech
+  - '1982'
+  - '1984'
+  - Andy Hertzfeld
+  title: The Mac calculator’s original design came from letting Steve Jobs play with
+    menus for ten minutes
+  url: https://arstechnica.com/gadgets/2025/11/the-mac-calculators-original-design-came-from-letting-steve-jobs-play-with-sliders-for-ten-minutes/
+- category: cybersecurity
+  published: '2025-11-11T22:34:46'
+  score: 1.007
+  source: BleepingComputer
+  summary: Synology has addressed a critical-severity remote code execution (RCE)
+    vulnerability in BeeStation products that was demonstrated at the recent Pwn2Own
+    hacking competition. The vulnerability allowed attackers to achieve remote code
+    execution on affected systems, and Synology's fix addresses this security issue.
+  tags:
+  - Security
+  - Hardware
+  title: Synology fixes BeeStation zero-days demoed at Pwn2Own Ireland
+  url: https://www.bleepingcomputer.com/news/security/synology-fixes-beestation-zero-days-demoed-at-pwn2own-ireland/
+- category: ai
+  published: '2025-11-11T21:34:10'
+  score: 0.828
+  source: Ars Technica
+  summary: Google's new "Private AI Compute" system allows devices to connect directly
+    to a secure space in Google's AI servers, providing a cloud-based solution that
+    is just as secure as local processing.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - Artificial Intelligence
+  - google
+  title: Google says new cloud-based “Private AI Compute” is just as secure as local
+    processing
+  url: https://arstechnica.com/google/2025/11/google-says-new-cloud-based-private-ai-compute-is-just-as-secure-as-local-processing/
+- category: ai
+  published: '2025-11-11T21:32:31'
+  score: 0.828
+  source: AWS Machine Learning
+  summary: Amazon Bedrock AgentCore Runtime now supports the agent-to-agent (A2A)
+    protocol, enabling AI agents built with different frameworks to collaborate seamlessly.
+    This allows for the deployment of multi-agent systems for tasks like incident
+    response.
+  tags:
+  - Amazon Bedrock AgentCore
+  - Generative AI
+  title: Introducing agent-to-agent protocol support in Amazon Bedrock AgentCore Runtime
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-agent-to-agent-protocol-support-in-amazon-bedrock-agentcore-runtime/
+- category: webdev
+  published: '2025-11-11T21:20:32'
+  score: 0.752
+  source: Ars Technica
+  summary: Ryanair is trying to force app downloads by eliminating paper boarding
+    passes, with the CEO admitting that "there'll be some teething problems" with
+    this change.
+  tags:
+  - Policy
+  - Tech
+  - airlines
+  - europe
+  - software
+  title: Ryanair tries forcing app downloads by eliminating paper boarding passes
+  url: https://arstechnica.com/gadgets/2025/11/ryanair-tries-forcing-app-downloads-by-eliminating-paper-boarding-passes/
+- category: ai
+  published: '2025-11-11T20:59:54'
+  score: 0.824
+  source: AWS Machine Learning
+  summary: The Cohere Embed 4 multimodal embeddings model is now available as a fully
+    managed, serverless option in Amazon Bedrock, providing benefits and unique capabilities
+    for enterprise search use cases.
+  tags:
+  - Amazon Bedrock
+  - Amazon Machine Learning
+  - Artificial Intelligence
+  - Intermediate (200)
+  - Technical How-to
+  title: Powering enterprise search with the Cohere Embed 4 multimodal embeddings
+    model in Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/powering-enterprise-search-with-the-cohere-embed-4-multimodal-embeddings-model-in-amazon-bedrock/
+- category: cybersecurity
+  published: '2025-11-11T20:01:59'
+  score: 0.988
+  source: BleepingComputer
+  summary: Hackers exploited a critical vulnerability and the built-in antivirus feature
+    in Gladinet's Triofox file-sharing and remote-access platform to achieve remote
+    code execution with SYSTEM privileges. This allowed the attackers to gain control
+    of affected systems and potentially deploy additional malware or perform other
+    malicious activities.
+  tags:
+  - Security
+  title: Hackers abuse Triofox antivirus feature to deploy remote access tools
+  url: https://www.bleepingcomputer.com/news/security/hackers-abuse-triofox-antivirus-feature-to-deploy-remote-access-tools/
+- category: ai
+  published: '2025-11-11T19:00:00'
+  score: 0.855
+  source: Google AI Blog
+  summary: The "Private AI Compute" infographic from Google shows how data can flow
+    securely from a mobile device to Gemini Models and Google TPU, allowing for private
+    and helpful AI processing on the device.
+  tags:
+  - AI
+  title: 'Private AI Compute: our next step in building private and helpful AI'
+  url: https://blog.google/technology/ai/google-private-ai-compute/
+- category: webdev
+  published: '2025-11-11T17:18:58'
+  score: 0.727
+  source: Ars Technica
+  summary: A proposed bill in the US could lead to $21 billion in broadband grants
+    being sent to the Treasury for deficit reduction instead of being used for their
+    intended purpose of improving broadband infrastructure.
+  tags:
+  - Policy
+  - BEAD program
+  - Broadband Equity Access and Deployment program
+  title: US states could lose $21 billion of broadband grants after Trump overhaul
+  url: https://arstechnica.com/tech-policy/2025/11/us-states-could-lose-21-billion-of-broadband-grants-after-trump-overhaul/
+- category: cybersecurity
+  published: '2025-11-11T15:44:00'
+  score: 0.956
+  source: The Hacker News
+  summary: The malware known as GootLoader has resurfaced after a brief spike in activity
+    earlier this March, and Huntress has observed three recent GootLoader infections.
+    The malware uses a new font trick to hide its presence on infected WordPress sites,
+    making it more difficult to detect and remove.
+  tags: []
+  title: GootLoader Is Back, Using a New Font Trick to Hide Malware on WordPress Sites
+  url: https://thehackernews.com/2025/11/gootloader-is-back-using-new-font-trick.html
+- category: ai
+  published: '2025-11-11T15:30:00'
+  score: 0.919
+  source: Towards Data Science
+  summary: This article describes how the data scientist job has evolved across three
+    generations of machine learning, from traditional techniques to deep learning
+    and now large language models (LLMs). It provides a practical use case to illustrate
+    the different approaches and when to apply them.
+  tags:
+  - Data Science
+  - Artificial Intelligence
+  - Deep Dives
+  - Large Language Models
+  - Machine Learning
+  title: 'The Three Ages of Data Science: When to Use Traditional Machine Learning,
+    Deep Learning, or an LLM (Explained with One Example)'
+  url: https://towardsdatascience.com/the-three-ages-of-data-science-when-to-use-traditional-machine-learning-deep-learning-or-a-large-language-models-explained-with-one-example/
+- category: cybersecurity
+  published: '2025-11-11T15:01:11'
+  score: 0.951
+  source: BleepingComputer
+  summary: A sudden CPU spike turned out to be the first clue of an in-progress RansomHub
+    ransomware attack. Varonis was able to trace the attack from fake browser updates
+    to domain-admin takeover, ultimately stopping the attack before files were encrypted.
+  tags:
+  - Security
+  title: How a CPU spike led to uncovering a RansomHub ransomware attack
+  url: https://www.bleepingcomputer.com/news/security/how-a-cpu-spike-led-to-uncovering-a-ransomhub-ransomware-attack/
+- category: webdev
+  published: '2025-11-11T11:00:09'
+  score: 0.687
+  source: Machine Learning Mastery
+  summary: Building machine learning models in high-stakes contexts often requires
+    robustness, explainability, and other domain-specific constraints, which can be
+    achieved through advanced feature engineering techniques.
+  tags: []
+  title: 'Expert-Level Feature Engineering: Advanced Techniques for High-Stakes Models'
+  url: https://machinelearningmastery.com/expert-level-feature-engineering-advanced-techniques-for-high-stakes-models/
+- category: webdev
+  published: '2025-11-11T10:00:00'
+  score: 0.721
+  source: Smashing Magazine
+  summary: This article outlines an effective approach to monitoring web performance,
+    focusing on targeting the right pages and maintaining an optimized site even after
+    initial performance improvements.
+  tags: []
+  title: Effectively Monitoring Web Performance
+  url: https://smashingmagazine.com/2025/11/effectively-monitoring-web-performance/
+- category: cybersecurity
   published: '2025-11-11T00:46:40'
   score: 1.076
   source: BleepingComputer
@@ -10418,5 +10615,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-11T05:04:58.168140'
-total_articles: 811
+last_updated: '2025-11-12T05:04:26.994382'
+total_articles: 826
