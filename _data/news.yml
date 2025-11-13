@@ -1,4 +1,201 @@
 articles:
+- category: ai
+  published: '2025-11-12T22:54:47'
+  score: 0.926
+  source: Ars Technica
+  summary: OpenAI introduces new controls in GPT-5.1 to balance between bland and
+    habit-forming AI assistants, attempting to address concerns from critics on both
+    sides of the debate.
+  tags:
+  - AI
+  - Biz & IT
+  - AI assistants
+  - AI behavior
+  - AI model
+  title: OpenAI walks a tricky tightrope with GPT-5.1’s eight new personalities
+  url: https://arstechnica.com/ai/2025/11/openai-walks-a-tricky-tightrope-with-gpt-5-1s-eight-new-personalities/
+- category: webdev
+  published: '2025-11-12T22:23:22'
+  score: 0.758
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 232 is now available for macOS Tahoe
+    and macOS Sequoia, providing developers with an early look at upcoming Safari
+    features and improvements.
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 232
+  url: https://webkit.org/blog/17601/release-notes-for-safari-technology-preview-232/
+- category: ai
+  published: '2025-11-12T20:40:54'
+  score: 0.866
+  source: Towards Data Science
+  summary: A guide on using Claude AI to monitor, analyze, and troubleshoot n8n automation
+    workflows through natural conversation, demonstrating the potential of AI-driven
+    workflow management.
+  tags:
+  - Artificial Intelligence
+  - AI
+  - Automation
+  - Deep Dives
+  - mcp
+  title: Deploy Your AI Assistant to Monitor and Debug n8n Workflows Using Claude
+    and MCP
+  url: https://towardsdatascience.com/deploy-your-ai-assistant-to-monitor-and-debug-n8n-workflows-using-claude-and-mcp/
+- category: webdev
+  published: '2025-11-12T20:28:02'
+  score: 0.786
+  source: Towards Data Science
+  summary: A comprehensive guide on Power BI aggregations, highlighting how this powerful
+    feature can improve the performance of Power BI solutions through efficient data
+    processing.
+  tags:
+  - Data Science
+  - Data Aggregation
+  - Data Visualization
+  - Deep Dives
+  - Power Bi
+  title: The Ultimate Guide to Power BI Aggregations
+  url: https://towardsdatascience.com/power-bi-aggregations-the-ultimate-guide/
+- category: ai
+  published: '2025-11-12T18:27:27'
+  score: 0.939
+  source: Ars Technica
+  summary: OpenAI criticizes a court order that allows The New York Times to access
+    20 million complete user chats from ChatGPT, citing concerns over user privacy
+    and the potential for misuse of the data.
+  tags:
+  - AI
+  - Policy
+  - ChatGPT
+  - new york times
+  - openai
+  title: OpenAI slams court order that lets NYT read 20 million complete user chats
+  url: https://arstechnica.com/tech-policy/2025/11/openai-fights-order-to-hand-over-20-million-private-chatgpt-conversations/
+- category: webdev
+  published: '2025-11-12T18:00:37'
+  score: 0.731
+  source: Ars Technica
+  summary: Valve announces a new Steam Machine and Controller hardware, targeting
+    an early 2026 launch, further expanding the company's SteamOS-powered ecosystem
+    for TV-connected gaming.
+  tags:
+  - Gaming
+  - controller
+  - Steam
+  - steam controller
+  - steam machine
+  title: 'Steam Deck minus the screen: Valve announces new Steam Machine, Controller
+    hardware'
+  url: https://arstechnica.com/gaming/2025/11/steam-deck-minus-the-screen-valve-announces-new-steam-machine-controller-hardware/
+- category: webdev
+  published: '2025-11-12T16:00:39'
+  score: 0.758
+  source: Ars Technica
+  summary: The review of the new Framework Laptop 16 examines the upgradeable GPU
+    capabilities, offering a fresh take on the modular laptop design concept.
+  tags:
+  - Features
+  - Gaming
+  - Tech
+  - AMD
+  - AMD Ryzen
+  title: 'Review: New Framework Laptop 16 takes a fresh stab at the upgradeable laptop
+    GPU'
+  url: https://arstechnica.com/gadgets/2025/11/review-new-framework-laptop-16-takes-a-fresh-stab-at-the-upgradeable-laptop-gpu/
+- category: cybersecurity
+  published: '2025-11-12T14:00:00'
+  score: 1.087
+  source: BleepingComputer
+  summary: Hackers exploited critical vulnerabilities in Citrix NetScaler ADC/Gateway
+    and Cisco Identity Service Engine (ISE) as zero-days to deploy custom malware.
+    This highlights the need for prompt vulnerability patching and monitoring of advanced
+    threat actors targeting enterprise infrastructure.
+  tags:
+  - Security
+  title: Hackers exploited Citrix, Cisco ISE flaws in zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploited-citrix-cisco-ise-flaws-in-zero-day-attacks/
+- category: cybersecurity
+  published: '2025-11-12T14:00:00'
+  score: 1.087
+  source: The Hacker News
+  summary: Amazon's threat intelligence team discovered an advanced threat actor exploiting
+    zero-day flaws in Cisco ISE and Citrix NetScaler ADC products to deliver custom
+    malware. This discovery underscores the importance of robust threat intelligence
+    and swift mitigation of critical vulnerabilities.
+  tags: []
+  title: Amazon Uncovers Attacks Exploited Cisco ISE and Citrix NetScaler as Zero-Day
+    Flaws
+  url: https://thehackernews.com/2025/11/amazon-uncovers-attacks-exploited-cisco.html
+- category: webdev
+  published: '2025-11-12T12:30:00'
+  score: 0.696
+  source: Towards Data Science
+  summary: The article explores the Laplace and Gaussian operators, two key techniques
+    in the field of feature detection, highlighting their roles in edge detection
+    and image processing.
+  tags:
+  - Computer Vision
+  - Artificial Intelligence
+  - Deep Dives
+  - Edge Detection
+  - Feature Detection
+  title: 'Feature Detection, Part 2: Laplace & Gaussian Operators'
+  url: https://towardsdatascience.com/feature-detection-part-2-laplace-gaussian-operators/
+- category: cybersecurity
+  published: '2025-11-12T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA has released implementation guidance to assist federal agencies in
+    addressing critical vulnerabilities in Cisco Adaptive Security Appliances (ASA)
+    and Firepower devices. Prompt action is required to mitigate these issues and
+    secure critical infrastructure.
+  tags: []
+  title: 'Update: Implementation Guidance for Emergency Directive on Cisco ASA and
+    Firepower Device Vulnerabilities'
+  url: https://www.cisa.gov/news-events/alerts/2025/11/12/update-implementation-guidance-emergency-directive-cisco-asa-and-firepower-device-vulnerabilities
+- category: cybersecurity
+  published: '2025-11-12T12:00:00'
+  score: 1.024
+  source: CISA
+  summary: CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, which tracks flaws actively exploited in the wild. Agencies and
+    organizations must prioritize patching these vulnerabilities to enhance their
+    cybersecurity posture.
+  tags: []
+  title: CISA Adds Three Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/11/12/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2025-11-12T11:07:00'
+  score: 1.017
+  source: The Hacker News
+  summary: Active Directory remains a critical authentication backbone for enterprises,
+    but its complexity has increased with hybrid and cloud infrastructure. Robust
+    security measures are necessary to protect this vital system from advanced attacks.
+  tags: []
+  title: 'Active Directory Under Siege: Why Critical Infrastructure Needs Stronger
+    Security'
+  url: https://thehackernews.com/2025/11/active-directory-under-siege-why.html
+- category: ai
+  published: '2025-11-12T11:00:00'
+  score: 0.844
+  source: OpenAI
+  summary: Neuro uses ChatGPT Business to scale its nationwide operations, leveraging
+    the AI tool for tasks like drafting contracts and uncovering insights in customer
+    data, showcasing the practical business applications of large language models.
+  tags: []
+  title: Neuro drives national retail wins with ChatGPT Business
+  url: https://openai.com/index/neurogum
+- category: ai
+  published: '2025-11-12T08:35:00'
+  score: 0.827
+  source: The Hacker News
+  summary: Google unveils "Private AI Compute," a new privacy-enhancing technology
+    that enables secure AI processing in the cloud, aiming to unlock the full potential
+    of advanced AI models while prioritizing user privacy.
+  tags: []
+  title: Google Launches 'Private AI Compute' — Secure AI Processing with On-Device-Level
+    Privacy
+  url: https://thehackernews.com/2025/11/google-launches-private-ai-compute.html
 - category: cybersecurity
   published: '2025-11-12T00:14:19'
   score: 1.072
@@ -10615,5 +10812,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-12T05:04:26.994382'
-total_articles: 826
+last_updated: '2025-11-13T05:04:29.257283'
+total_articles: 841
