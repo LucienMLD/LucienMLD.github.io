@@ -1,4 +1,199 @@
 articles:
+- category: cybersecurity
+  published: '2025-11-14T04:38:44'
+  score: 1.153
+  source: BleepingComputer
+  summary: DoorDash has disclosed a data breach that impacted their food delivery
+    platform in October 2022. The breach affected an unspecified number of customers
+    across the U.S., Canada, Australia, and New Zealand, highlighting the ongoing
+    cybersecurity challenges facing tech companies.
+  tags:
+  - Security
+  title: DoorDash hit by yet another data breach this October
+  url: https://www.bleepingcomputer.com/news/security/doordash-hit-by-yet-another-data-breach-this-october/
+- category: cybersecurity
+  published: '2025-11-14T02:41:28'
+  score: 1.186
+  source: BleepingComputer
+  summary: A Fortinet FortiWeb vulnerability is being actively exploited to create
+    new administrative users on exposed devices without authentication. This critical
+    flaw allows attackers to gain full control over vulnerable systems, posing a significant
+    security risk.
+  tags:
+  - Security
+  title: Fortinet FortiWeb flaw with public PoC exploited to create admin users
+  url: https://www.bleepingcomputer.com/news/security/fortiweb-flaw-with-public-poc-actively-exploited-to-create-admin-users/
+- category: ai
+  published: '2025-11-13T21:57:52'
+  score: 0.831
+  source: Ars Technica
+  summary: Analysts predict a $1,000 Steam Machine due to factors like tariffs, component
+    volatility, and Valve's tolerance for losses, leading to uncertainty in the market.
+  tags:
+  - Gaming
+  - Analysts
+  - components
+  - hardware
+  - steam machine
+  title: Are you ready for a $1,000 Steam Machine? Some analysts think you should
+    be.
+  url: https://arstechnica.com/gaming/2025/11/are-you-ready-for-a-1000-steam-machine-some-analysts-think-you-should-be/
+- category: ai
+  published: '2025-11-13T21:11:18'
+  score: 0.826
+  source: Ars Technica
+  summary: Tiny chips can be powered by infrared light if they're near the brain's
+    surface, potentially enabling new medical applications by harnessing the body's
+    immune cells.
+  tags:
+  - Science
+  - Biology
+  - brain-computer interactions
+  - cells
+  - electronics
+  title: Tiny chips hitch a ride on immune cells to sites of inflammation
+  url: https://arstechnica.com/science/2025/11/tiny-chips-hitch-a-ride-on-immune-cells-to-sites-of-inflammation/
+- category: ai
+  published: '2025-11-13T19:54:10'
+  score: 0.817
+  source: Ars Technica
+  summary: Particle physicist Daniel Whiteson discusses his new book, "Do Aliens Speak
+    Physics?", which explores the challenges of communicating with extraterrestrial
+    civilizations.
+  tags:
+  - Culture
+  - Features
+  - Science
+  - aliens
+  - books
+  title: What if the aliens come and we just can’t communicate?
+  url: https://arstechnica.com/science/2025/11/what-if-the-aliens-come-and-we-just-cant-communicate/
+- category: webdev
+  published: '2025-11-13T18:24:53'
+  score: 0.733
+  source: Ars Technica
+  summary: In the Fallout S2 trailer, Lucy faces the brewing civil war in the wasteland,
+    with ghoulish Elvis impersonators being the least of her problems.
+  tags:
+  - Culture
+  - entertainment
+  - fallout s2
+  - prime video
+  - streaming television
+  title: Civil war is brewing in the wasteland in Fallout S2 trailer
+  url: https://arstechnica.com/culture/2025/11/civil-war-is-brewing-in-the-wasteland-in-fallout-s2-trailer/
+- category: webdev
+  published: '2025-11-13T18:11:17'
+  score: 0.732
+  source: Ars Technica
+  summary: After years of saying no, Tesla is reportedly adding Apple CarPlay to its
+    cars, responding to the growing demand from car buyers who expect this feature.
+  tags:
+  - Apple
+  - Cars
+  - Apple CarPlay
+  - Tesla
+  title: After years of saying no, Tesla reportedly adding Apple CarPlay to its cars
+  url: https://arstechnica.com/cars/2025/11/after-years-of-saying-no-tesla-reportedly-adding-apple-carplay-to-its-cars/
+- category: ai
+  published: '2025-11-13T17:04:21'
+  score: 0.886
+  source: Towards Data Science
+  summary: Large language models (LLMs) are a type of randomized algorithm, similar
+    to a 50-year-old academic field. This connection provides new insights into the
+    inner workings of these AI models and could lead to improved transparency and
+    reliability.
+  tags:
+  - Large Language Models
+  - Algorithm
+  - Editors Pick
+  - Generative Ai
+  - Llm
+  title: LLMs Are Randomized Algorithms
+  url: https://towardsdatascience.com/llms-are-randomized-algorithms/
+- category: webdev
+  published: '2025-11-13T15:00:20'
+  score: 0.752
+  source: CSS-Tricks
+  summary: The range syntax can now be used with container style queries in Chrome
+    142, allowing for more flexible comparisons of numeric values, including those
+    tokenized by custom properties or the `attr()` function.
+  tags:
+  - Articles
+  - container-queries
+  - CSS functions
+  - media queries
+  - Style Queries
+  title: The Range Syntax Has Come to Container Style Queries and if()
+  url: https://css-tricks.com/the-range-syntax-has-come-to-container-style-queries-and-if/
+- category: webdev
+  published: '2025-11-13T14:00:00'
+  score: 0.706
+  source: Towards Data Science
+  summary: The article provides lessons and tips for organizing code, experiments,
+    and research for Kaggle competitions, sharing insights gained from earning a Kaggle
+    competition medal.
+  tags:
+  - Project Management
+  - Data Science
+  - Editors Pick
+  - Kaggle
+  - Machine Learning
+  title: Organizing Code, Experiments, and Research for Kaggle Competitions
+  url: https://towardsdatascience.com/organizing-code-experiments-and-research-for-kaggle-competitions/
+- category: cybersecurity
+  published: '2025-11-13T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA will no longer be updating ICS security advisories for Siemens product
+    vulnerabilities beyond the initial advisory. Users are advised to refer to Siemens'
+    website for the most up-to-date information on vulnerabilities in their LOGO!
+    8 BM Devices.
+  tags: []
+  title: Siemens LOGO! 8 BM Devices
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-317-13
+- category: cybersecurity
+  published: '2025-11-13T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA will no longer be updating ICS security advisories for Siemens product
+    vulnerabilities beyond the initial advisory. Users are advised to refer to Siemens'
+    website for the most up-to-date information on vulnerabilities in their SICAM
+    P850 family and SICAM P855 family products.
+  tags: []
+  title: Siemens SICAM P850 family and SICAM P855 family
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-317-11
+- category: cybersecurity
+  published: '2025-11-13T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA will no longer be updating ICS security advisories for Siemens product
+    vulnerabilities beyond the initial advisory. Users are advised to refer to Siemens'
+    website for the most up-to-date information on vulnerabilities in their COMOS
+    product.
+  tags: []
+  title: Siemens COMOS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-317-15
+- category: webdev
+  published: '2025-11-13T12:00:00'
+  score: 0.733
+  source: CISA
+  summary: CISA has released an advisory for vulnerabilities in Rockwell Automation's
+    AADvance-Trusted SIS Workstation, with a CVSS v4 score of 8.6, indicating a high-risk
+    exploit that can be remotely executed with low attack complexity.
+  tags: []
+  title: Rockwell Automation AADvance-Trusted SIS Workstation
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-317-10
+- category: ai
+  published: '2025-11-13T10:00:00'
+  score: 0.837
+  source: OpenAI
+  summary: OpenAI is exploring mechanistic interpretability to understand how neural
+    networks reason. Their new sparse model approach could make AI systems more transparent
+    and support safer, more reliable behavior.
+  tags: []
+  title: Understanding neural networks through sparse circuits
+  url: https://openai.com/index/understanding-neural-networks-through-sparse-circuits
 - category: ai
   published: '2025-11-12T22:54:47'
   score: 0.926
@@ -10812,5 +11007,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-13T05:04:29.257283'
-total_articles: 841
+last_updated: '2025-11-14T05:04:02.210537'
+total_articles: 856
