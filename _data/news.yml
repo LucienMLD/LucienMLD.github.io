@@ -1,5 +1,143 @@
 articles:
 - category: cybersecurity
+  published: '2025-11-16T21:47:14'
+  score: 1.097
+  source: Krebs on Security
+  summary: Microsoft has released security updates to fix over 60 vulnerabilities
+    in its Windows operating systems and software, including a zero-day bug being
+    exploited. The updates also address a glitch that prevented some Windows 10 users
+    from taking advantage of an important feature.
+  tags:
+  - Time to Patch
+  - Action1
+  - Alex Vovk
+  - Azure Monitor Agent
+  - Chris Goettl
+  title: Microsoft Patch Tuesday, November 2025 Edition
+  url: https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/
+- category: webdev
+  published: '2025-11-16T16:00:00'
+  score: 0.718
+  source: Towards Data Science
+  summary: An individual with no prior Swift knowledge was able to build an iOS app
+    in just 3 days, leveraging AI tools and "vibe coding" techniques, highlighting
+    the potential for non-technical users to develop mobile applications.
+  tags:
+  - AI applications
+  - AI coding assistants
+  - Cursor
+  - iOS App Development
+  - Programming
+  title: I Built an IOS App in 3 Days with Literally No Prior Swift Knowledge
+  url: https://towardsdatascience.com/i-built-an-ios-app-in-3-days-with-literally-no-prior-swift-knowledge/
+- category: webdev
+  published: '2025-11-16T15:15:25'
+  score: 0.714
+  source: BleepingComputer
+  summary: Google will start flagging Android apps in the Play Store that have high
+    background activity and cause excessive battery drain, aiming to improve the user
+    experience and encourage developers to optimize their apps.
+  tags:
+  - Security
+  - Google
+  - Mobile
+  title: Google to flag Android apps with excessive battery use on the Play Store
+  url: https://www.bleepingcomputer.com/news/security/google-to-flag-android-apps-with-excessive-battery-use-on-the-play-store/
+- category: ai
+  published: '2025-11-16T14:00:00'
+  score: 0.776
+  source: Towards Data Science
+  summary: The immediate danger is not from Artificial General Intelligence (AGI),
+    but from Reduced General Intelligence (RGI) systems that may be deployed without
+    careful consideration of their implications. It is crucial to make conscious and
+    deliberate choices when using AI technologies.
+  tags:
+  - Artificial Intelligence
+  - AGI
+  - Ai In Education
+  - Cognitive decline
+  - Editors Pick
+  title: 'Stop Worrying about AGI: The Immediate Danger is Reduced General Intelligence
+    (RGI)'
+  url: https://towardsdatascience.com/stop-worrying-about-agi-the-immediate-danger-is-reduced-general-intelligence-rgi/
+- category: cybersecurity
+  published: '2025-11-16T12:00:34'
+  score: 0.832
+  source: Ars Technica
+  summary: Chimpanzees have the ability to process conflicting evidence and change
+    their minds, demonstrating a level of rationality and cognitive flexibility similar
+    to humans.
+  tags:
+  - Science
+  - Behavioral science
+  - beliefs
+  - Biology
+  - chimps
+  title: 'The evolution of rationality: How chimps process conflicting evidence'
+  url: https://arstechnica.com/science/2025/11/the-evolution-of-rationality-how-chimps-process-conflicting-evidence/
+- category: cybersecurity
+  published: '2025-11-15T18:46:19'
+  score: 0.749
+  source: BleepingComputer
+  summary: Threat actors are abusing the decades-old "finger" protocol to retrieve
+    remote commands and execute them on Windows devices, demonstrating the ongoing
+    evolution of cybersecurity threats.
+  tags:
+  - Security
+  title: Decades-old ‘Finger’ protocol abused in ClickFix malware attacks
+  url: https://www.bleepingcomputer.com/news/security/decades-old-finger-protocol-abused-in-clickfix-malware-attacks/
+- category: cybersecurity
+  published: '2025-11-15T16:35:00'
+  score: 0.876
+  source: The Hacker News
+  summary: The RondoDox botnet malware has been targeting unpatched XWiki instances,
+    exploiting a critical vulnerability (CVE-2025-24893) that could allow attackers
+    to achieve arbitrary code execution. The vulnerability has a CVSS score of 9.8,
+    indicating a highly severe flaw that could be easily exploited.
+  tags: []
+  title: RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet
+  url: https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html
+- category: ai
+  published: '2025-11-15T16:00:00'
+  score: 0.575
+  source: Towards Data Science
+  summary: AI can be leveraged to automate workflows and optimize manual processes,
+    empowering businesses and individuals to increase efficiency and productivity.
+  tags:
+  - Agentic AI
+  - Agentic Ai
+  - Agents
+  - Automation
+  - Data Science
+  title: How to Automate Workflows with AI
+  url: https://towardsdatascience.com/how-to-automate-workflows-with-ai/
+- category: cybersecurity
+  published: '2025-11-15T15:09:19'
+  score: 0.674
+  source: BleepingComputer
+  summary: The recent cyberattack on Jaguar Land Rover (JLR) cost the company over
+    $220 million in the quarter, underscoring the significant financial impact that
+    successful cyber incidents can have on businesses.
+  tags:
+  - Security
+  title: Jaguar Land Rover cyberattack cost the company over $220 million
+  url: https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/
+- category: ai
+  published: '2025-11-15T14:00:00'
+  score: 0.605
+  source: Towards Data Science
+  summary: The author meticulously measured neural network training progress every
+    5 steps for 10,000 iterations, providing valuable insights into the learning dynamics
+    and potential optimization opportunities.
+  tags:
+  - Machine Learning
+  - Deep Learning
+  - Deep Neural Networks
+  - Explainable Ai
+  - Interpretable Ml
+  title: I Measured Neural Network Training Every 5 Steps for 10,000 Iterations
+  url: https://towardsdatascience.com/i-measured-neural-network-training-every-5-steps-for-10000-iterations/
+- category: cybersecurity
   published: '2025-11-14T04:38:44'
   score: 1.153
   source: BleepingComputer
@@ -11007,5 +11145,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-14T05:04:02.210537'
-total_articles: 856
+last_updated: '2025-11-17T05:04:17.859354'
+total_articles: 866
