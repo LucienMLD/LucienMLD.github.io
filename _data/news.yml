@@ -1,5 +1,184 @@
 articles:
 - category: cybersecurity
+  published: '2025-11-18T04:44:00'
+  score: 1.297
+  source: The Hacker News
+  summary: Google has released security updates for its Chrome browser to address
+    two vulnerabilities, including a type confusion vulnerability in the V8 JavaScript
+    and WebAssembly engine that is actively being exploited in the wild. The vulnerability,
+    CVE-2025-13223, has a high CVSS score of 8.8, indicating its potential for significant
+    impact.
+  tags: []
+  title: Google Issues Security Fix for Actively Exploited Chrome V8 Zero-Day Vulnerability
+  url: https://thehackernews.com/2025/11/google-issues-security-fix-for-actively.html
+- category: cybersecurity
+  published: '2025-11-17T23:47:46'
+  score: 1.068
+  source: BleepingComputer
+  summary: Seven malicious NPM packages have been found to abuse the Adspect cloud-based
+    service to separate researchers from potential victims and lead them to malicious
+    locations, demonstrating the evolving tactics used by threat actors to evade security
+    measures.
+  tags:
+  - Security
+  - CryptoCurrency
+  title: Malicious NPM packages abuse Adspect redirects to evade security
+  url: https://www.bleepingcomputer.com/news/security/malicious-npm-packages-abuse-adspect-redirects-to-evade-security/
+- category: cybersecurity
+  published: '2025-11-17T23:15:40'
+  score: 1.016
+  source: Ars Technica
+  summary: The Trump administration reportedly axed 383 active clinical trials, dumping
+    over 74,000 participants, which is a "violation of foundational ethical principles
+    of human participant research," according to experts.
+  tags:
+  - Health
+  - clinical trials
+  - grants
+  - JAMA
+  - NIH
+  title: Trump admin axed 383 active clinical trials, dumping over 74K participants
+  url: https://arstechnica.com/health/2025/11/over-74000-people-were-kicked-out-of-clinical-trials-because-of-trump-cuts/
+- category: cybersecurity
+  published: '2025-11-17T22:41:30'
+  score: 1.056
+  source: BleepingComputer
+  summary: The RondoDox botnet malware is now exploiting a critical remote code execution
+    (RCE) flaw in XWiki Platform, tracked as CVE-2025-24893, allowing the malware
+    to compromise servers and expand its reach.
+  tags:
+  - Security
+  title: RondoDox botnet malware now hacks servers using XWiki flaw
+  url: https://www.bleepingcomputer.com/news/security/rondodox-botnet-malware-now-hacks-servers-using-xwiki-flaw/
+- category: ai
+  published: '2025-11-17T21:52:21'
+  score: 0.919
+  source: BleepingComputer
+  summary: Gemini 3, which could be Google's best large language model, has been spotted
+    on AI Studio, suggesting its imminent release in the next few days or hours.
+  tags:
+  - Google
+  - Artificial Intelligence
+  title: Google Gemini 3 spotted on AI Studio ahead of imminent release
+  url: https://www.bleepingcomputer.com/news/google/google-gemini-3-spotted-on-ai-studio-ahead-of-imminent-release/
+- category: cybersecurity
+  published: '2025-11-17T21:14:28'
+  score: 1.045
+  source: BleepingComputer
+  summary: Eurofiber France disclosed a data breach after hackers gained access to
+    its ticket management system by exploiting a vulnerability and exfiltrated customer
+    information, highlighting the ongoing threat of cyberattacks targeting organizations.
+  tags:
+  - Security
+  title: Eurofiber France warns of breach after hacker tries to sell customer data
+  url: https://www.bleepingcomputer.com/news/security/eurofiber-france-warns-of-breach-after-hacker-tries-to-sell-customer-data/
+- category: ai
+  published: '2025-11-17T19:54:54'
+  score: 0.905
+  source: Towards Data Science
+  summary: By using Excel, we can gain a better understanding of how Convolutional
+    Neural Networks (CNNs) learn and process data, providing a more transparent view
+    of the inner workings of deep learning models.
+  tags:
+  - Deep Learning
+  - Cnn
+  - Convolutional Network
+  - Editors Pick
+  - Excel
+  title: Understanding Convolutional Neural Networks (CNNs) Through Excel
+  url: https://towardsdatascience.com/understanding-convolutional-neural-networks-cnns-through-excel/
+- category: webdev
+  published: '2025-11-17T19:32:22'
+  score: 0.82
+  source: Towards Data Science
+  summary: HTMX, a library that allows developers to add interactivity to HTML elements
+    without using JavaScript, can be used to build a simple chatbot that simulates
+    a Large Language Model (LLM) response.
+  tags:
+  - Programming
+  - Agentic Ai
+  - Chatbot
+  - Deep Dives
+  - htmx
+  title: 'Javascript Fatigue: HTMX Is All You Need to Build ChatGPT — Part 2'
+  url: https://towardsdatascience.com/javascript-fatigue-you-dont-need-js-to-build-chatgpt-part-2/
+- category: ai
+  published: '2025-11-17T18:20:41'
+  score: 0.85
+  source: AWS Machine Learning
+  summary: Amazon Bedrock AgentCore and Claude are enabling enterprises to deploy
+    production-ready agentic AI systems that deliver measurable business value, such
+    as up to 63% autonomous issue resolution and 58% faster response times.
+  tags:
+  - Amazon Bedrock AgentCore
+  - Artificial Intelligence
+  title: 'Amazon Bedrock AgentCore and Claude: Transforming business with agentic
+    AI'
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-and-claude-transforming-business-with-agentic-ai/
+- category: ai
+  published: '2025-11-17T16:41:05'
+  score: 0.839
+  source: Ars Technica
+  summary: Oracle's heavy investment in AI, particularly its reliance on OpenAI contracts,
+    has contributed to the company's larger drop in stock price compared to its tech
+    industry peers during the recent market sell-off.
+  tags:
+  - AI
+  - Biz & IT
+  - Larry Ellison
+  - oracle
+  - syndication
+  title: Oracle hit hard in Wall Street’s tech sell-off over its huge AI bet
+  url: https://arstechnica.com/information-technology/2025/11/oracle-hit-hard-in-wall-streets-tech-sell-off-over-its-huge-ai-bet/
+- category: webdev
+  published: '2025-11-17T14:54:31'
+  score: 0.712
+  source: BleepingComputer
+  summary: Microsoft is working to resolve a known issue preventing users from installing
+    the Microsoft 365 desktop apps on Windows devices, which is impacting software
+    deployments.
+  tags:
+  - Microsoft
+  title: 'Microsoft: Windows bug blocks Microsoft 365 desktop app installs'
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-bug-blocks-microsoft-365-desktop-app-installs/
+- category: webdev
+  published: '2025-11-17T14:47:54'
+  score: 0.751
+  source: CSS-Tricks
+  summary: Inverse trigonometric functions, such as asin(), acos(), atan(), and atan2(),
+    can be used in CSS to determine the original angle from a given ratio that represents
+    the sine, cosine, or tangent of that angle.
+  tags:
+  - Articles
+  - math
+  title: 'The “Most Hated” CSS Feature: asin(), acos(), atan() and atan2()'
+  url: https://css-tricks.com/the-most-hated-css-feature-asin-acos-atan-and-atan2/
+- category: webdev
+  published: '2025-11-17T14:00:00'
+  score: 0.706
+  source: Towards Data Science
+  summary: The guide provides an introduction to working with Pandas DataFrames, including
+    how to initialize them from various data sources like dictionaries, lists, and
+    NumPy arrays.
+  tags:
+  - Data Science
+  - Dataframe
+  - Pandas
+  - Programming
+  - Python
+  title: The Absolute Beginner’s Guide to Pandas DataFrames
+  url: https://towardsdatascience.com/the-absolute-beginners-guide-to-pandas-dataframes/
+- category: ai
+  published: '2025-11-17T10:00:00'
+  score: 0.969
+  source: OpenAI
+  summary: OpenAI has been named an Emerging Leader in Gartner's 2025 Innovation Guide
+    for Generative AI Model Providers, reflecting the company's enterprise momentum,
+    with over 1 million companies building with ChatGPT.
+  tags: []
+  title: OpenAI named Emerging Leader in Generative AI
+  url: https://openai.com/index/gartner-2025-emerging-leader
+- category: cybersecurity
   published: '2025-11-16T21:47:14'
   score: 1.097
   source: Krebs on Security
@@ -11145,5 +11324,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-17T05:04:17.859354'
-total_articles: 866
+last_updated: '2025-11-18T05:04:11.923163'
+total_articles: 880
