@@ -1,5 +1,203 @@
 articles:
 - category: cybersecurity
+  published: '2025-11-19T04:20:00'
+  score: 1.294
+  source: The Hacker News
+  summary: Fortinet has warned of a new security flaw (CVE-2025-58034) in its FortiWeb
+    product that has been exploited in the wild. The vulnerability carries a CVSS
+    score of 6.7 and allows for improper neutralization of special elements used in
+    an OS command.
+  tags: []
+  title: Fortinet Warns of New FortiWeb CVE-2025-58034 Vulnerability Exploited in
+    the Wild
+  url: https://thehackernews.com/2025/11/fortinet-warns-of-new-fortiweb-cve-2025.html
+- category: webdev
+  published: '2025-11-18T22:42:07'
+  score: 0.76
+  source: Ars Technica
+  summary: A Congressional plan to overhaul broadband permit laws is seen as an "unprecedented
+    federal intrusion" by cities and counties, while cable companies are in favor
+    of the changes.
+  tags:
+  - Policy
+  - Broadband Equity Access and Deployment
+  - congress
+  - republicans
+  title: 'GOP overhaul of broadband permit laws: Cities hate it, cable companies love
+    it'
+  url: https://arstechnica.com/tech-policy/2025/11/gop-overhaul-of-broadband-permit-laws-cities-hate-it-cable-companies-love-it/
+- category: webdev
+  published: '2025-11-18T22:09:32'
+  score: 0.757
+  source: BleepingComputer
+  summary: Thunderbird 145 has been released with full native support for Microsoft
+    Exchange email via the Exchange Web Services (EWS) protocol.
+  tags:
+  - Software
+  - Microsoft
+  title: Thunderbird adds native support for Microsoft Exchange accounts
+  url: https://www.bleepingcomputer.com/news/software/thunderbird-adds-native-support-for-microsoft-exchange-accounts/
+- category: ai
+  published: '2025-11-18T22:08:57'
+  score: 0.876
+  source: AWS Machine Learning
+  summary: RoboTic-Tac-Toe is an interactive game where two physical robots move around
+    a tic-tac-toe board, with the gameplay and robot movements orchestrated by large
+    language models (LLMs).
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon Machine Learning
+  - Amazon SageMaker AI
+  - Artificial Intelligence
+  title: Bringing tic-tac-toe to life with AWS AI services
+  url: https://aws.amazon.com/blogs/machine-learning/bringing-tic-tac-toe-to-life-with-aws-ai-services/
+- category: ai
+  published: '2025-11-18T20:37:04'
+  score: 0.954
+  source: Ars Technica
+  summary: Tech giants like Microsoft and Nvidia have poured billions into Anthropic,
+    a ChatGPT competitor, as part of the ongoing investments in circular AI technologies.
+  tags:
+  - AI
+  - Biz & IT
+  - AI bubble
+  - AI chips
+  - AI infrastructure
+  title: Tech giants pour billions into Anthropic as circular AI investments roll
+    on
+  url: https://arstechnica.com/ai/2025/11/tech-giants-pour-billions-into-anthropic-as-circular-ai-investments-roll-on/
+- category: cybersecurity
+  published: '2025-11-18T19:01:39'
+  score: 1.125
+  source: BleepingComputer
+  summary: Fortinet has released security updates to patch a new FortiWeb zero-day
+    vulnerability that threat actors are actively exploiting in attacks. The vulnerability
+    allows for the execution of arbitrary commands on the affected systems.
+  tags:
+  - Security
+  title: Fortinet warns of new FortiWeb zero-day exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/fortinet-warns-of-new-fortiweb-zero-day-exploited-in-attacks/
+- category: webdev
+  published: '2025-11-18T18:38:09'
+  score: 0.735
+  source: Ars Technica
+  summary: The Analogue 3D is a modern N64 console that offers excellent design and
+    display filters, but the lack of OpenFPGA support is a disappointment for some
+    fans.
+  tags:
+  - Gaming
+  - analogue
+  - emulation
+  - fpga
+  - HDTV
+  title: The Analogue 3D is the modern N64 fans have been waiting for
+  url: https://arstechnica.com/gaming/2025/11/the-analogue-3d-is-the-modern-n64-fans-have-been-waiting-for/
+- category: cybersecurity
+  published: '2025-11-18T18:31:00'
+  score: 1.073
+  source: The Hacker News
+  summary: Threat actors have incorporated Browser-in-the-Browser (BitB) functionality
+    into their Phishing-as-a-Service (PhaaS) kit, making it easier for less-skilled
+    threat actors to mount attacks by mimicking the browser address bar.
+  tags: []
+  title: Sneaky 2FA Phishing Kit Adds BitB Pop-ups Designed to Mimic the Browser Address
+    Bar
+  url: https://thehackernews.com/2025/11/sneaky-2fa-phishing-kit-adds-bitb-pop.html
+- category: ai
+  published: '2025-11-18T17:54:27'
+  score: 0.847
+  source: AWS Machine Learning
+  summary: Amazon SageMaker HyperPod has been enhanced with customer-managed key (CMK)
+    support for encrypting EBS volumes and improved storage capabilities, strengthening
+    the security and scalability of ML infrastructure.
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker
+  - Amazon SageMaker AI
+  - Amazon SageMaker HyperPod
+  - Compute
+  title: HyperPod enhances ML infrastructure with security and storage
+  url: https://aws.amazon.com/blogs/machine-learning/hyperpod-enhances-ml-infrastructure-with-security-and-storage/
+- category: webdev
+  published: '2025-11-18T17:00:00'
+  score: 0.725
+  source: Towards Data Science
+  summary: The article discusses how to build an over-engineered retrieval system,
+    which is how some people approach data processing and infrastructure.
+  tags:
+  - Large Language Models
+  - Editors Pick
+  - Llm
+  - Machine Learning
+  - Rag
+  title: How to Build an Over-Engineered Retrieval System
+  url: https://towardsdatascience.com/how-to-build-an-overengineered-retrieval-system/
+- category: ai
+  published: '2025-11-18T16:08:56'
+  score: 0.879
+  source: Ars Technica
+  summary: Google has unveiled its Gemini 3 AI model, which is the second major upgrade
+    to its flagship AI model this year, and an AI-first IDE called Antigravity.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - AI coding
+  - Artificial Intelligence
+  title: Google unveils Gemini 3 AI model and AI-first IDE called Antigravity
+  url: https://arstechnica.com/google/2025/11/google-unveils-gemini-3-ai-model-and-ai-first-ide-called-antigravity/
+- category: ai
+  published: '2025-11-18T14:00:00'
+  score: 0.908
+  source: Towards Data Science
+  summary: Automatic plant leaf detection leverages deep learning to extract meaningful
+    features from leaf images and convert them into embeddings, enabling accurate
+    plant species identification.
+  tags:
+  - Machine Learning
+  - Computer Vision
+  - Deep Dives
+  - Deep Learning
+  - Euclidean similarity
+  title: How Deep Feature Embeddings and Euclidean Similarity Power Automatic Plant
+    Leaf Recognition
+  url: https://towardsdatascience.com/how-deep-feature-embeddings-and-euclidean-similarity-power-automatic-plant-leaf-recognition/
+- category: webdev
+  published: '2025-11-18T12:30:00'
+  score: 0.696
+  source: Towards Data Science
+  summary: Google has introduced a file search tool as its latest effort to challenge
+    traditional RAG (Retrieve, Analyze, Generate) processing approaches.
+  tags:
+  - AI applications
+  - Artificial Intelligence
+  - Data Science
+  - Llm
+  - Programming
+  title: Introducing Google’s File Search Tool
+  url: https://towardsdatascience.com/introducing-googles-file-search-tool/
+- category: cybersecurity
+  published: '2025-11-18T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Shelly Pro 3EM has a vulnerability with a CVSS v4 score of 8.3, which has
+    a low attack complexity. The vulnerability affects the Shelly product line and
+    requires vendor attention.
+  tags: []
+  title: Shelly Pro 3EM
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-322-03
+- category: cybersecurity
+  published: '2025-11-18T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA has added a new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, indicating active exploitation in the wild. Security teams should
+    prioritize patching this vulnerability.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/11/18/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
   published: '2025-11-18T04:44:00'
   score: 1.297
   source: The Hacker News
@@ -11324,5 +11522,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-18T05:04:11.923163'
-total_articles: 880
+last_updated: '2025-11-19T05:04:26.248100'
+total_articles: 895
