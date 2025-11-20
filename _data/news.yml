@@ -1,4 +1,208 @@
 articles:
+- category: webdev
+  published: '2025-11-19T23:17:38'
+  score: 0.864
+  source: AWS Machine Learning
+  summary: The article explores deployment patterns and best practices for using the
+    Claude Code language model with Amazon Bedrock, covering authentication methods,
+    infrastructure decisions, and monitoring strategies to help enterprises deploy
+    the model securely at scale.
+  tags:
+  - Amazon Bedrock
+  - Artificial Intelligence
+  - Best Practices
+  - Technical How-to
+  title: Claude Code deployment patterns and best practices with Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/claude-code-deployment-patterns-and-best-practices-with-amazon-bedrock/
+- category: ai
+  published: '2025-11-19T22:57:23'
+  score: 0.926
+  source: Ars Technica
+  summary: The article discusses the CEO of Hugging Face's perspective on the current
+    state of the large language model (LLM) industry. The CEO suggests that there
+    is an "LLM bubble," but not an AI one, indicating the risks of overinvestment
+    in LLM-related technologies, particularly in manufacturing and other areas.
+  tags:
+  - AI
+  - axios
+  - CEO
+  - Gartner
+  - Hugging Face
+  title: “We’re in an LLM bubble,” Hugging Face CEO says—but not an AI one
+  url: https://arstechnica.com/ai/2025/11/were-in-an-llm-bubble-hugging-face-ceo-says-but-not-an-ai-one/
+- category: webdev
+  published: '2025-11-19T22:44:20'
+  score: 0.76
+  source: Ars Technica
+  summary: NASA has emphasized that 3I/ATLAS is an interstellar comet, providing a
+    rundown of what is known about this third extrasolar object that has been identified.
+  tags:
+  - Science
+  - 3I/ATLAS
+  - astronomy
+  - comet
+  - planetary science
+  title: NASA really wants you to know that 3I/ATLAS is an interstellar comet
+  url: https://arstechnica.com/science/2025/11/nasa-really-wants-you-to-know-that-3i-atlas-is-an-interstellar-comet/
+- category: webdev
+  published: '2025-11-19T21:14:42'
+  score: 0.751
+  source: Ars Technica
+  summary: A Rocket Lab Electron rocket has been installed as one of the first artifacts
+    in the Samuel Oschin Air and Space Center's Kent Kresa Space Gallery.
+  tags:
+  - Space
+  - California Science Center
+  - electron
+  - Endeavour
+  - Kent Kresa Space Gallery
+  title: Rocket Lab Electron among first artifacts installed in CA Science Center
+    space gallery
+  url: https://arstechnica.com/space/2025/11/rocket-lab-electron-among-first-artifacts-installed-in-ca-science-center-space-gallery/
+- category: ai
+  published: '2025-11-19T20:39:28'
+  score: 0.91
+  source: BleepingComputer
+  summary: Google's Gemini 3 language model is showing impressive capabilities in
+    creating games in a single shot, but it still does not adhere to requests as well
+    as the Claude Code language model.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: Google's Gemini 3 is living up to the hype and creating games in one shot
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/googles-gemini-3-is-living-up-to-the-hype-and-creating-games-in-one-shot/
+- category: webdev
+  published: '2025-11-19T19:33:22'
+  score: 0.741
+  source: Ars Technica
+  summary: Testing shows that Apple's in-house N1 Wi-Fi chip outperforms older Broadcom
+    chips in various metrics, offering a reliable Wi-Fi solution for Apple devices.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - iphone
+  - iphone 17
+  title: Testing shows Apple N1 Wi-Fi chip improves on older Broadcom chips in every
+    way
+  url: https://arstechnica.com/gadgets/2025/11/testing-shows-apple-n1-wi-fi-chip-improves-on-older-broadcom-chips-in-every-way/
+- category: cybersecurity
+  published: '2025-11-19T16:27:00'
+  score: 1.105
+  source: The Hacker News
+  summary: The article discusses a recently disclosed security vulnerability in the
+    7-Zip file archiver software (CVE-2025-11001) that allows remote attackers to
+    execute arbitrary code. The flaw is actively being exploited in the wild, and
+    organizations are urged to apply the necessary patches to mitigate the risk.
+  tags: []
+  title: Hackers Actively Exploiting 7-Zip Symbolic Link–Based RCE Vulnerability (CVE-2025-11001)
+  url: https://thehackernews.com/2025/11/hackers-actively-exploiting-7-zip.html
+- category: webdev
+  published: '2025-11-19T16:26:18'
+  score: 0.721
+  source: Ars Technica
+  summary: The gaming community mourns the passing of celebrated game developer Rebecca
+    Heineman, who was a beloved mentor and LGBTQ+ advocate with a storied career in
+    the industry.
+  tags:
+  - Gaming
+  - Tech
+  - 3do
+  - Atari 2600
+  - baldur's gate
+  title: Celebrated game developer Rebecca Heineman dies at age 62
+  url: https://arstechnica.com/gadgets/2025/11/interplay-co-founder-and-pioneering-game-developer-rebecca-heineman-dies-at-62/
+- category: ai
+  published: '2025-11-19T16:16:49'
+  score: 0.836
+  source: AWS Machine Learning
+  summary: The article describes how organizations can use tools from Snowflake AI
+    Data Cloud and Amazon Web Services (AWS) to build generative AI solutions that
+    can support data-driven decision-making, increase operational efficiency, and
+    gain a competitive edge.
+  tags:
+  - Amazon Bedrock
+  - Amazon Nova
+  - Artificial Intelligence
+  - Best Practices
+  - Partner solutions
+  title: Build an agentic solution with Amazon Nova, Snowflake, and LangGraph
+  url: https://aws.amazon.com/blogs/machine-learning/build-an-agentic-solution-with-amazon-nova-snowflake-and-langgraph/
+- category: ai
+  published: '2025-11-19T14:00:00'
+  score: 0.864
+  source: Towards Data Science
+  summary: The article provides a hands-on tutorial on building a multiple regression
+    model using PyTorch, a popular deep learning framework. It covers the step-by-step
+    process of creating a 3-layer neural network for multiple regression tasks.
+  tags:
+  - Deep Learning
+  - Data Science
+  - Deep Dives
+  - Linear Regression
+  - Machine Learning
+  title: 'PyTorch Tutorial for Beginners: Build a Multiple Regression Model from Scratch'
+  url: https://towardsdatascience.com/pytorch-tutorial-for-beginners-build-a-multiple-regression-model-from-scratch/
+- category: cybersecurity
+  published: '2025-11-19T13:44:56'
+  score: 1.085
+  source: BleepingComputer
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has ordered
+    U.S. government agencies to patch a new vulnerability in Fortinet's FortiWeb web
+    application firewall within 7 days. The vulnerability was exploited in zero-day
+    attacks, and CISA is taking prompt action to secure government systems.
+  tags:
+  - Security
+  title: CISA gives govt agencies 7 days to patch new Fortinet flaw
+  url: https://www.bleepingcomputer.com/news/security/cisa-gives-govt-agencies-7-days-to-patch-new-fortinet-flaw/
+- category: cybersecurity
+  published: '2025-11-19T12:04:50'
+  score: 1.025
+  source: Schneier on Security
+  summary: The talk highlights legal restrictions around vulnerability disclosure
+    that can muzzle researchers while allowing companies to not fix vulnerabilities.
+    This creates an imbalance, where researchers face legal consequences for disclosing
+    flaws, while companies are not held accountable for failing to address them.
+  tags:
+  - Uncategorized
+  - courts
+  - disclosure
+  - video
+  - vulnerabilities
+  title: Legal Restrictions on Vulnerability Disclosure
+  url: https://www.schneier.com/blog/archives/2025/11/legal-restrictions-on-vulnerability-disclosure.html
+- category: cybersecurity
+  published: '2025-11-19T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA, in collaboration with other agencies, has released a guide to help
+    mitigate risks associated with bulletproof hosting providers. These providers
+    are often used by cybercriminals to host malicious infrastructure, and the guide
+    aims to assist organizations in identifying and addressing such threats.
+  tags: []
+  title: CISA Releases Guide to Mitigate Risks from Bulletproof Hosting Providers
+  url: https://www.cisa.gov/news-events/alerts/2025/11/19/cisa-releases-guide-mitigate-risks-bulletproof-hosting-providers
+- category: cybersecurity
+  published: '2025-11-19T12:00:00'
+  score: 1.024
+  source: CISA
+  summary: CISA has added a new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. The inclusion of this
+    vulnerability in the catalog means that organizations are required to apply the
+    necessary patches to mitigate the associated risks.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/11/19/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2025-11-19T06:00:00'
+  score: 0.853
+  source: OpenAI
+  summary: OpenAI and Target have partnered to bring a new Target app to ChatGPT,
+    offering personalized shopping and faster checkout experiences. Target will also
+    expand its use of ChatGPT Enterprise to boost productivity and guest experiences.
+  tags: []
+  title: OpenAI and Target team up on new AI-powered experiences
+  url: https://openai.com/index/target-partnership
 - category: cybersecurity
   published: '2025-11-19T04:20:00'
   score: 1.294
@@ -11522,5 +11726,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-19T05:04:26.248100'
-total_articles: 895
+last_updated: '2025-11-20T05:04:34.149750'
+total_articles: 910
