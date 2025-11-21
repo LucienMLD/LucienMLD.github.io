@@ -1,5 +1,195 @@
 articles:
 - category: webdev
+  published: '2025-11-21T01:00:18'
+  score: 0.875
+  source: WebKit Blog
+  summary: The article explains how the grid-template-areas feature in CSS provides
+    a visual solution for laying out elements on a grid, making the code more intuitive
+    and easier to understand.
+  tags:
+  - News
+  title: 'Grid: how grid-template-areas offer a visual solution for your code'
+  url: https://webkit.org/blog/17620/grid-how-grid-template-areas-offer-a-visual-solution-for-your-code/
+- category: webdev
+  published: '2025-11-20T23:02:01'
+  score: 0.762
+  source: Ars Technica
+  summary: The article reports that HP and Dell have disabled HEVC support in their
+    laptop CPUs due to the increasing costs of HEVC licensing.
+  tags:
+  - Biz & IT
+  - Tech
+  - dell
+  - HP
+  - laptops
+  title: HP and Dell disable HEVC support built into their laptops’ CPUs
+  url: https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/
+- category: webdev
+  published: '2025-11-20T20:33:50'
+  score: 0.747
+  source: Ars Technica
+  summary: The article announces that Microsoft has made the classic Zork text adventure
+    games open source under the MIT license, allowing developers to access and build
+    upon the classic gaming experience.
+  tags:
+  - Gaming
+  - Tech
+  - Activision
+  - GitHub
+  - Infocom
+  title: Microsoft makes Zork I, II, and III open source under MIT License
+  url: https://arstechnica.com/gaming/2025/11/microsoft-makes-zork-i-ii-and-iii-open-source-under-mit-license/
+- category: ai
+  published: '2025-11-20T20:30:00'
+  score: 0.865
+  source: Google AI Blog
+  summary: The article discusses Gemini, a platform that allows users to explore interactive
+    images and delve deeper into the details by accessing additional information in
+    a side panel.
+  tags:
+  - Learning & Education
+  - Gemini Features
+  - AI
+  title: Develop a deeper understanding with interactive images in Gemini.
+  url: https://blog.google/outreach-initiatives/education/gemini-interactive-images/
+- category: webdev
+  published: '2025-11-20T20:11:01'
+  score: 0.744
+  source: Ars Technica
+  summary: The article discusses the EU's requirement for Apple to adopt new Wi-Fi
+    standards, which has enabled Android devices to now support AirDrop, allowing
+    for improved cross-platform file sharing.
+  tags:
+  - Apple
+  - Tech
+  - android
+  - Google Pixel
+  - iOS
+  title: The EU made Apple adopt new Wi-Fi standards, and now Android can support
+    AirDrop
+  url: https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/
+- category: ai
+  published: '2025-11-20T18:21:49'
+  score: 0.85
+  source: AWS Machine Learning
+  summary: The article showcases how MSD is using generative AI and AWS services to
+    optimize its manufacturing deviation management process, creating a comprehensive
+    knowledge base to improve decision-making and reduce production issues.
+  tags:
+  - Customer Solutions
+  - Generative AI
+  - Life Sciences
+  - Manufacturing
+  - AI/ML
+  title: MSD explores applying generative Al to improve the deviation management process
+    using AWS services
+  url: https://aws.amazon.com/blogs/machine-learning/msd-explores-applying-generative-al-to-improve-the-deviation-management-process-using-aws-services/
+- category: ai
+  published: '2025-11-20T16:33:25'
+  score: 0.838
+  source: Ars Technica
+  summary: The article announces the release of Google's new Nano Banana Pro, an image-generation
+    model that uses Gemini 3 technology to produce more realistic AI-generated images.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - AI image generation
+  - google
+  title: Google’s new Nano Banana Pro uses Gemini 3 power to generate more realistic
+    AI images
+  url: https://arstechnica.com/google/2025/11/google-launches-nano-banana-pro-image-model-adds-ai-image-detection-in-gemini-app/
+- category: webdev
+  published: '2025-11-20T15:10:26'
+  score: 0.753
+  source: CSS-Tricks
+  summary: The article discusses the CSS `:closed` pseudo-class and whether it is
+    necessary, given the availability of the `:not(:open)` selector, which serves
+    a similar purpose.
+  tags:
+  - Articles
+  - csswg
+  - selectors
+  title: Should We Even Have :closed?
+  url: https://css-tricks.com/should-we-even-have-closed/
+- category: ai
+  published: '2025-11-20T14:00:00'
+  score: 0.908
+  source: Towards Data Science
+  summary: The article explores how relevance models in natural language processing
+    (NLP) foreshadowed the development of transformer models, which have become a
+    dominant architecture in modern AI systems.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Deep Dives
+  - Deep Learning
+  - Llm
+  title: How Relevance Models Foreshadowed Transformers for NLP
+  url: https://towardsdatascience.com/how-relevance-models-foreshadowed-transformers-for-nlp/
+- category: cybersecurity
+  published: '2025-11-20T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The article discusses vulnerabilities in Opto 22's GRV-EPIC and groov RIO
+    products, which have a CVSS v4 score of 7.5 and can be exploited remotely. Vendors
+    are advised to address these vulnerabilities to mitigate potential security risks.
+  tags: []
+  title: Opto 22 GRV-EPIC and groov RIO
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-324-03
+- category: cybersecurity
+  published: '2025-11-20T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The article covers multiple vulnerabilities in ICAM365 CCTV Camera models,
+    with a CVSS v4 score of 7.0 and low attack complexity. Users are advised to apply
+    vendor-provided updates to address these security issues.
+  tags: []
+  title: ICAM365 CCTV Camera Multiple Models
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-324-02
+- category: cybersecurity
+  published: '2025-11-20T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The article highlights a critical vulnerability (CVSS v4 score of 9.3)
+    in Emerson Appleton's UPSMON-PRO product, which can be exploited remotely with
+    low attack complexity. Prompt remediation by the vendor is crucial to protect
+    against potential attacks.
+  tags: []
+  title: Emerson Appleton UPSMON-PRO
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-324-06
+- category: cybersecurity
+  published: '2025-11-20T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The article discusses vulnerabilities in Festo Didactic products, with
+    a CVSS v3 score of 7.8 and low attack complexity. Users are advised to follow
+    vendor recommendations to mitigate the identified security risks.
+  tags: []
+  title: Festo Didactic products
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-324-05
+- category: cybersecurity
+  published: '2025-11-20T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The article covers a vulnerability (CVSS v4 score of 8.6) in Automated
+    Logic's WebCTRL Premium Server, which has low attack complexity. Customers are
+    advised to apply the vendor-provided patch to address this security concern.
+  tags: []
+  title: Automated Logic WebCTRL Premium Server
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-324-01
+- category: ai
+  published: '2025-11-20T11:00:25'
+  score: 0.844
+  source: Machine Learning Mastery
+  summary: The article provides a complete guide to information theory, tracing its
+    origins from Claude Shannon's seminal work and its importance in the development
+    of modern machine learning algorithms.
+  tags: []
+  title: 'From Shannon to Modern AI: A Complete Information Theory Guide for Machine
+    Learning'
+  url: https://machinelearningmastery.com/from-shannon-to-modern-ai-a-complete-information-theory-guide-for-machine-learning/
+- category: webdev
   published: '2025-11-19T23:17:38'
   score: 0.864
   source: AWS Machine Learning
@@ -11726,5 +11916,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-20T05:04:34.149750'
-total_articles: 910
+last_updated: '2025-11-21T05:04:23.423368'
+total_articles: 925
