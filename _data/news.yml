@@ -1,5 +1,199 @@
 articles:
 - category: ai
+  published: '2025-11-24T23:56:58'
+  score: 1.077
+  source: AWS Machine Learning
+  summary: Amazon Bedrock, a fully managed service, now allows Canadian organizations
+    to access advanced foundation models including Anthropic's Claude Sonnet 4.5 and
+    Claude Haiku 4.5 through cross-Region inference, enabling accelerated generative
+    AI innovation in Canada.
+  tags:
+  - Amazon Bedrock
+  - Amazon Machine Learning
+  - Artificial Intelligence
+  - Generative AI
+  title: Accelerate generative AI innovation in Canada with Amazon Bedrock cross-Region
+    inference
+  url: https://aws.amazon.com/blogs/machine-learning/accelerate-generative-ai-innovation-in-canada-with-amazon-bedrock-cross-region-inference/
+- category: ai
+  published: '2025-11-24T23:15:10'
+  score: 1.028
+  source: Ars Technica
+  summary: Anthropic introduces the Opus 4.5 model, a more powerful, efficient, and
+    cheaper version of its Claude language model, addressing a long-standing criticism
+    of shorter chat interactions.
+  tags:
+  - AI
+  - Anthropic
+  - Claude
+  - Claude API
+  - Claude Code
+  title: Anthropic introduces cheaper, more powerful, more efficient Opus 4.5 model
+  url: https://arstechnica.com/ai/2025/11/anthropic-introduces-opus-4-5-cuts-api-pricing-and-enables-much-longer-claude-chats/
+- category: webdev
+  published: '2025-11-24T21:30:00'
+  score: 0.753
+  source: Towards Data Science
+  summary: The article demonstrates how to implement randomization in Python code
+    using the built-in `random` module, allowing for the generation of randomized
+    outputs.
+  tags:
+  - Programming
+  - Data Science
+  - Editors Pick
+  - Python
+  - Python For Beginners
+  title: How to Implement Randomization with the Python Random Module
+  url: https://towardsdatascience.com/implementing-randomisation-with-the-python-random-module/
+- category: webdev
+  published: '2025-11-24T21:25:56'
+  score: 0.752
+  source: AWS Machine Learning
+  summary: Amazon SageMaker HyperPod clusters with Amazon EKS orchestration now support
+    the creation and management of interactive development environments, streamlining
+    the machine learning development lifecycle.
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker HyperPod
+  - Technical How-to
+  title: Power up your ML workflows with interactive IDEs on SageMaker HyperPod
+  url: https://aws.amazon.com/blogs/machine-learning/power-up-your-ml-workflows-with-interactive-ides-on-sagemaker-hyperpod/
+- category: webdev
+  published: '2025-11-24T20:15:47'
+  score: 0.745
+  source: Ars Technica
+  summary: A study finds that light is the greatest threat to the degradation of 19th-century
+    masterpieces, such as James Ensor's "The Intrigue," which use synthetic emerald-green
+    pigments.
+  tags:
+  - Culture
+  - Science
+  - art conservation
+  - chemistry
+  - pigments
+  title: Why synthetic emerald-green pigments degrade over time
+  url: https://arstechnica.com/science/2025/11/why-synthetic-emerald-green-pigments-degrade-over-time/
+- category: ai
+  published: '2025-11-24T19:51:37'
+  score: 0.905
+  source: Towards Data Science
+  summary: The article offers a hands-on guide to Anthropic's new structured output
+    capabilities in its Claude Sonnet 4.5 and Opus 4.1 models, enabling developers
+    to generate perfect JSON and typed outputs.
+  tags:
+  - LLM Applications
+  - Artificial Intelligence
+  - Json
+  - Large Language Models
+  - Programming
+  title: A Hands-On Guide to Anthropic’s New Structured Output Capabilities
+  url: https://towardsdatascience.com/hands-on-with-anthropics-new-structured-output-capabilities/
+- category: ai
+  published: '2025-11-24T19:33:31'
+  score: 0.947
+  source: Towards Data Science
+  summary: The article introduces the concept of "LLM-as-a-Judge," a technique that
+    leverages large language models to perform quality control and evaluation of AI
+    models, providing a step-by-step guide on its implementation.
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Editors Pick
+  - Llm Evaluation
+  - Natural Language Processing
+  title: 'LLM-as-a-Judge: What It Is, Why It Works, and How to Use It to Evaluate
+    AI Models'
+  url: https://towardsdatascience.com/llm-as-a-judge-what-it-is-why-it-works-and-how-to-use-it-to-evaluate-ai-models/
+- category: ai
+  published: '2025-11-24T19:22:59'
+  score: 0.901
+  source: AWS Machine Learning
+  summary: Anthropic's newest foundation model, Claude Opus 4.5, is now available
+    in Amazon Bedrock, offering business applications and highlighting the key differences
+    from the previous version.
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Artificial Intelligence
+  title: Claude Opus 4.5 now in Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/claude-opus-4-5-now-in-amazon-bedrock/
+- category: cybersecurity
+  published: '2025-11-24T15:03:00'
+  score: 0.999
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered five vulnerabilities in Fluent
+    Bit, an open-source telemetry agent, that can be chained to compromise and take
+    over cloud infrastructures through remote code execution and stealthy intrusions.
+  tags: []
+  title: New Fluent Bit Flaws Expose Cloud to RCE and Stealthy Infrastructure Intrusions
+  url: https://thehackernews.com/2025/11/new-fluent-bit-flaws-expose-cloud-to.html
+- category: cybersecurity
+  published: '2025-11-24T15:01:11'
+  score: 0.999
+  source: BleepingComputer
+  summary: Hybrid work exposes the limitations of traditional SCCM and WSUS patch
+    management, driving the need for cloud-native patching solutions that can keep
+    devices updated from any location, strengthening compliance and security.
+  tags:
+  - Security
+  title: 'SCCM and WSUS in a Hybrid World: Why It’s Time for Cloud-native Patching'
+  url: https://www.bleepingcomputer.com/news/security/sccm-and-wsus-in-a-hybrid-world-why-its-time-for-cloud-native-patching/
+- category: webdev
+  published: '2025-11-24T14:22:30'
+  score: 0.748
+  source: CSS-Tricks
+  summary: The article discusses different approaches to inheriting and sharing property
+    values in CSS, exploring the concept of inheriting any parent property value on
+    a child.
+  tags:
+  - Articles
+  - cascade
+  title: On Inheriting and Sharing Property Values
+  url: https://css-tricks.com/on-inheriting-and-sharing-property-values/
+- category: webdev
+  published: '2025-11-24T13:08:08'
+  score: 0.74
+  source: BleepingComputer
+  summary: Microsoft is testing a new optional feature that preloads File Explorer
+    in the background to improve launch times on Windows 11 systems, providing faster
+    performance.
+  tags:
+  - Microsoft
+  title: Microsoft tests File Explorer preloading for faster performance
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-file-explorer-preloading-for-faster-launches/
+- category: cybersecurity
+  published: '2025-11-24T12:32:00'
+  score: 1.076
+  source: The Hacker News
+  summary: This week's cybersecurity recap highlights new vulnerabilities and threats,
+    including Fortinet and Chrome 0-day bugs, supply chain and SaaS tool breaches,
+    and record DDoS attacks, leading major firms to quickly respond and mitigate the
+    risks.
+  tags: []
+  title: '⚡ Weekly Recap: Fortinet Exploit, Chrome 0-Day, BadIIS Malware, Record DDoS,
+    SaaS Breach & More'
+  url: https://thehackernews.com/2025/11/weekly-recap-fortinet-exploit-chrome-0.html
+- category: cybersecurity
+  published: '2025-11-24T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA warns of cyber threat actors actively leveraging commercial spyware
+    to target users of mobile messaging applications, highlighting the need for vigilance
+    and security measures to protect sensitive communications.
+  tags: []
+  title: ​​Spyware Allows Cyber Threat Actors to Target Users of Messaging Applications​
+  url: https://www.cisa.gov/news-events/alerts/2025/11/24/spyware-allows-cyber-threat-actors-target-users-messaging-applications
+- category: cybersecurity
+  published: '2025-11-24T07:18:00'
+  score: 1.037
+  source: The Hacker News
+  summary: Threat actors have exploited a recently patched vulnerability in Microsoft
+    Windows Server Update Services (WSUS) to distribute the ShadowPad malware, gaining
+    full system access on targeted Windows servers.
+  tags: []
+  title: ShadowPad Malware Actively Exploits WSUS Vulnerability for Full System Access
+  url: https://thehackernews.com/2025/11/shadowpad-malware-actively-exploits.html
+- category: ai
   published: '2025-11-23T16:00:00'
   score: 0.834
   source: Towards Data Science
@@ -12051,5 +12245,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-24T05:04:28.229330'
-total_articles: 936
+last_updated: '2025-11-25T05:04:26.057093'
+total_articles: 951
