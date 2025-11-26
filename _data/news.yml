@@ -1,4 +1,183 @@
 articles:
+- category: cybersecurity
+  published: '2025-11-26T04:29:00'
+  score: 1.104
+  source: The Hacker News
+  summary: The FBI has warned of increasing account takeover (ATO) fraud schemes where
+    cybercriminals impersonate financial institutions to steal money or sensitive
+    information from individuals, businesses, and organizations.
+  tags: []
+  title: FBI Reports $262M in ATO Fraud as Researchers Cite Growing AI Phishing and
+    Holiday Scams
+  url: https://thehackernews.com/2025/11/fbi-reports-262m-in-ato-fraud-as.html
+- category: ai
+  published: '2025-11-26T00:29:42'
+  score: 1.037
+  source: AWS Machine Learning
+  summary: Amazon SageMaker AI now supports EAGLE-based adaptive speculative decoding,
+    a technique that can accelerate large language model inference by up to 2.5x while
+    maintaining output quality.
+  tags:
+  - Amazon SageMaker AI
+  - Announcements
+  - Technical How-to
+  title: Amazon SageMaker AI introduces EAGLE based adaptive speculative decoding
+    to accelerate generative AI inference
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-introduces-eagle-based-adaptive-speculative-decoding-to-accelerate-generative-ai-inference/
+- category: ai
+  published: '2025-11-25T23:39:00'
+  score: 0.987
+  source: Google AI Blog
+  summary: 'Sundar Pichai, the CEO of Google, discusses the Gemini 3 AI system in
+    an in-depth interview on the Google AI: Release Notes podcast.'
+  tags:
+  - Gemini Models
+  - A message from our CEO
+  - AI
+  title: Get an in-depth look at Gemini 3 with CEO Sundar Pichai.
+  url: https://blog.google/technology/ai/sundar-pichai-ai-release-notes-podcast/
+- category: ai
+  published: '2025-11-25T22:44:22'
+  score: 0.88
+  source: AWS Machine Learning
+  summary: A step-by-step guide on how to migrate computer vision workloads from Amazon
+    Lookout for Vision to Amazon SageMaker AI by training custom defect detection
+    models using pre-trained models.
+  tags:
+  - Amazon Lookout for Vision
+  - Amazon SageMaker
+  - Amazon SageMaker AI
+  - Amazon SageMaker Autopilot
+  - Amazon SageMaker Ground Truth
+  title: Train custom computer vision defect detection model using Amazon SageMaker
+  url: https://aws.amazon.com/blogs/machine-learning/train-custom-computer-vision-defect-detection-model-using-amazon-sagemaker/
+- category: ai
+  published: '2025-11-25T22:00:00'
+  score: 0.963
+  source: OpenAI
+  summary: OpenAI is expanding data residency for ChatGPT Enterprise, ChatGPT Edu,
+    and the API Platform, enabling eligible customers to store data at rest in-region.
+  tags: []
+  title: Expanding data residency access to business customers worldwide
+  url: https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
+- category: webdev
+  published: '2025-11-25T18:00:00'
+  score: 0.771
+  source: Google AI Blog
+  summary: Google provides guidance on using its products like Gemini, Search, Shopping,
+    Pixel, and more during the holiday season.
+  tags:
+  - Search
+  - Shopping
+  - Pixel
+  - AI
+  - Maps
+  title: The Google guide for holiday help
+  url: https://blog.google/technology/ai/holiday-planning-ai-gemini-tips/
+- category: webdev
+  published: '2025-11-25T18:00:00'
+  score: 0.731
+  source: Smashing Magazine
+  summary: An excerpt from the upcoming Smashing book "Maturing Design Systems" by
+    Ben Callahan, discussing the importance of design system culture.
+  tags: []
+  title: 'Design System Culture: What It Is And Why It Matters (Excerpt)'
+  url: https://smashingmagazine.com/2025/11/design-system-culture/
+- category: ai
+  published: '2025-11-25T17:26:48'
+  score: 0.888
+  source: AWS Machine Learning
+  summary: Warner Bros. Discovery achieved a 60% cost savings and faster ML inference
+    by using AWS Graviton processors.
+  tags:
+  - Amazon Machine Learning
+  - Amazon SageMaker AI
+  - Customer Solutions
+  - Graviton
+  - Intermediate (200)
+  title: Warner Bros. Discovery achieves 60% cost savings and faster ML inference
+    with AWS Graviton
+  url: https://aws.amazon.com/blogs/machine-learning/warner-bros-discovery-achieves-60-cost-savings-and-faster-ml-inference-with-aws-graviton/
+- category: webdev
+  published: '2025-11-25T14:30:00'
+  score: 0.709
+  source: Towards Data Science
+  summary: Three use cases demonstrating the capabilities of the new Calendar-based
+    Time Intelligence feature introduced in the September 2025 release of Power BI.
+  tags:
+  - Power BI
+  - Data Analysis
+  - Data Science
+  - Dax
+  - Power Bi
+  title: How to Implement Three Use Cases for the New Calendar-Based Time Intelligence
+  url: https://towardsdatascience.com/use-cases-for-the-new-calendar-based-time-intelligence/
+- category: webdev
+  published: '2025-11-25T14:24:54'
+  score: 0.748
+  source: BleepingComputer
+  summary: Microsoft is speeding up the Teams desktop client for Windows by adding
+    a new Teams call handler beginning in January 2026 to reduce launch times and
+    boost call performance.
+  tags:
+  - Microsoft
+  - Software
+  title: Microsoft is speeding up the Teams desktop client for Windows
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-to-boost-teams-performance-with-new-call-handler/
+- category: cybersecurity
+  published: '2025-11-25T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Festo Compact Vision System, Control Block, Controller, and Operator
+    Unit products have a critical vulnerability (CVSS v3 9.8) that can be exploited
+    remotely with low attack complexity, requiring immediate vendor attention.
+  tags: []
+  title: Festo Compact Vision System, Control Block, Controller, and Operator Unit
+    products
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-329-05
+- category: cybersecurity
+  published: '2025-11-25T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Opto 22 groov View product has a critical vulnerability (CVSS v4 6.1)
+    that can be exploited remotely with low attack complexity, requiring vendor mitigation.
+  tags: []
+  title: Opto 22 groov View
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-329-04
+- category: cybersecurity
+  published: '2025-11-25T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Ashlar-Vellum Cobalt, Xenon, Argon, Lithium, and Cobalt Share products
+    have a critical vulnerability (CVSS v4 8.4) with low attack complexity, requiring
+    vendor attention.
+  tags: []
+  title: Ashlar-Vellum Cobalt, Xenon, Argon, Lithium, Cobalt Share
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-329-01
+- category: cybersecurity
+  published: '2025-11-25T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The SiRcom SMART Alert (SiSA) product has a critical vulnerability (CVSS
+    v4 8.8) that can be exploited remotely with low attack complexity, requiring vendor
+    mitigation.
+  tags: []
+  title: SiRcom SMART Alert (SiSA)
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-329-06
+- category: webdev
+  published: '2025-11-25T11:30:00'
+  score: 0.73
+  source: Towards Data Science
+  summary: A guide on how to rapidly create professional articles and presentations
+    with LaTeX in Cursor, a writing tool.
+  tags:
+  - LLM Applications
+  - Ai Agent
+  - Cursor
+  - Latex
+  - Llm
+  title: How to Create Professional Articles with LaTeX in Cursor
+  url: https://towardsdatascience.com/how-to-create-professional-articles-with-latex-in-cursor/
 - category: ai
   published: '2025-11-24T23:56:58'
   score: 1.077
@@ -12245,5 +12424,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-25T05:04:26.057093'
-total_articles: 951
+last_updated: '2025-11-26T05:04:24.208631'
+total_articles: 966
