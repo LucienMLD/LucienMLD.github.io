@@ -1,4 +1,168 @@
 articles:
+- category: ai
+  published: '2025-11-27T00:58:14'
+  score: 0.996
+  source: AWS Machine Learning
+  summary: The article describes how Myriad Genetics partnered with the AWS Generative
+    AI Innovation Center to transform their healthcare document processing pipeline
+    using Amazon Bedrock and Amazon Nova foundation models. This resulted in 98% classification
+    accuracy, a 77% reduction in costs, and faster processing times.
+  tags:
+  - Amazon Bedrock
+  - Amazon Nova
+  - Artificial Intelligence
+  - Customer Solutions
+  - Generative AI
+  title: How Myriad Genetics achieved fast, accurate, and cost-efficient document
+    processing using the AWS open-source Generative AI Intelligent Document Processing
+    Accelerator
+  url: https://aws.amazon.com/blogs/machine-learning/how-myriad-genetics-achieved-fast-accurate-and-cost-efficient-document-processing-using-the-aws-open-source-generative-ai-intelligent-document-processing-accelerator/
+- category: ai
+  published: '2025-11-27T00:56:27'
+  score: 0.996
+  source: AWS Machine Learning
+  summary: The article discusses how CBRE and AWS built a unified search and digital
+    assistant using Amazon Bedrock, enabling property management professionals to
+    access millions of documents and multiple databases through natural language queries.
+    The solution combines Amazon Nova P and other AWS services.
+  tags:
+  - Amazon Bedrock
+  - Amazon Nova
+  - Amazon OpenSearch Service
+  - Amazon Titan
+  - Architecture
+  title: How CBRE powers unified property management search and digital assistant
+    using Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/how-cbre-powers-unified-property-management-search-and-digital-assistant-using-amazon-bedrock/
+- category: ai
+  published: '2025-11-27T00:50:04'
+  score: 0.995
+  source: AWS Machine Learning
+  summary: The article introduces Managed Tiered KV Cache and Intelligent Routing
+    for Amazon SageMaker HyperPod, new capabilities that can reduce time to first
+    token by up to 40% and lower compute costs by up to 25% for long context prompts
+    and multi-turn conversations.
+  tags:
+  - Amazon SageMaker AI
+  - Amazon SageMaker HyperPod
+  title: Managed Tiered KV Cache and Intelligent Routing for Amazon SageMaker HyperPod
+  url: https://aws.amazon.com/blogs/machine-learning/managed-tiered-kv-cache-and-intelligent-routing-for-amazon-sagemaker-hyperpod/
+- category: cybersecurity
+  published: '2025-11-26T23:13:32'
+  score: 1.016
+  source: Ars Technica
+  summary: The article discusses how United Launch Alliance (ULA) had planned to launch
+    up to 10 Vulcan rockets this year, but will only be able to fly the rocket once.
+    The company is still working to increase its Vulcan launch cadence, but the goal
+    of 10 flights will not be achieved in 2023.
+  tags:
+  - Science
+  - Space
+  - launch
+  - military space
+  - united launch alliance
+  title: ULA aimed to launch up to 10 Vulcan rockets this year—it will fly just once
+  url: https://arstechnica.com/space/2025/11/ula-aimed-to-launch-up-to-10-vulcan-rockets-this-year-it-will-fly-just-once/
+- category: cybersecurity
+  published: '2025-11-26T22:24:14'
+  score: 1.006
+  source: BleepingComputer
+  summary: The article reports on a new Mirai-based botnet malware called 'ShadowV2'
+    that has been observed targeting IoT devices from D-Link, TP-Link, and other vendors
+    with exploits for known vulnerabilities. The botnet is using the recent AWS outage
+    as an opportunity to test its capabilities.
+  tags:
+  - Security
+  title: New ShadowV2 botnet malware used AWS outage as a test opportunity
+  url: https://www.bleepingcomputer.com/news/security/new-shadowv2-botnet-malware-used-aws-outage-as-a-test-opportunity/
+- category: ai
+  published: '2025-11-26T21:37:27'
+  score: 0.917
+  source: AWS Machine Learning
+  summary: The article explores how Condé Nast used Amazon Bedrock and Anthropic's
+    Claude to accelerate their contract processing and rights analysis workstreams,
+    managing an increasingly complex web of contracts and rights across their extensive
+    portfolio.
+  tags:
+  - Amazon Bedrock
+  - Amazon SageMaker AI
+  - Artificial Intelligence
+  - Customer Solutions
+  - Intermediate (200)
+  title: How Condé Nast accelerated contract processing and rights analysis with Amazon
+    Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/how-conde-nast-accelerated-contract-processing-and-rights-analysis-with-amazon-bedrock/
+- category: cybersecurity
+  published: '2025-11-26T20:00:37'
+  score: 0.988
+  source: BleepingComputer
+  summary: The article highlights the NordVPN Black Friday Deal, which offers a 77%
+    discount on VPN plans for 2025. This is touted as the best discount available,
+    providing an opportunity to upgrade online security, privacy, and streaming freedom.
+  tags:
+  - Security
+  title: 'NordVPN Black Friday Deal: Unlock 77% off VPN plans in 2025'
+  url: https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-unlock-77-percent-off-vpn-plans-in-2025/
+- category: webdev
+  published: '2025-11-26T19:13:17'
+  score: 0.738
+  source: Towards Data Science
+  summary: The article presents a 5-step Python workflow using Pandas to diagnose
+    and fix the most common data flaws in a messy CSV file, providing a repeatable
+    process for data cleaning.
+  tags:
+  - Data Science
+  - Data Analysis
+  - Data Cleaning
+  - Data Visualization
+  - Deep Dives
+  title: I Cleaned a Messy CSV File Using Pandas .  Here’s the Exact Process I Follow
+    Every Time.
+  url: https://towardsdatascience.com/i-cleaned-a-messy-csv-file-using-pandas-heres-the-exact-process-i-follow-every-time/
+- category: cybersecurity
+  published: '2025-11-26T14:31:00'
+  score: 0.995
+  source: The Hacker News
+  summary: The article reports on a sophisticated supply chain attack targeting South
+    Korea's financial sector, involving the deployment of Qilin ransomware. The attack
+    is believed to have potential involvement from North Korean actors.
+  tags: []
+  title: Qilin Ransomware Turns South Korean MSP Breach Into 28-Victim 'Korean Leaks'
+    Data Heist
+  url: https://thehackernews.com/2025/11/qilin-ransomware-turns-south-korean-msp.html
+- category: ai
+  published: '2025-11-26T14:24:54'
+  score: 0.955
+  source: Machine Learning Mastery
+  summary: The article provides an overview of how large language models (LLMs) based
+    on the transformer architecture work, explaining the complex deep neural network
+    and the input sequence of token embeddings.
+  tags: []
+  title: 'The Journey of a Token: What Really Happens Inside a Transformer'
+  url: https://machinelearningmastery.com/the-journey-of-a-token-what-really-happens-inside-a-transformer/
+- category: cybersecurity
+  published: '2025-11-26T13:26:06'
+  score: 0.987
+  source: BleepingComputer
+  summary: The article states that Microsoft will be enhancing the security of the
+    Entra ID authentication system against external script injection attacks starting
+    in mid-to-late October 2026.
+  tags:
+  - Microsoft
+  - Security
+  title: Microsoft to secure Entra ID sign-ins from script injection attacks
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-to-secure-entra-id-sign-ins-from-external-script-injection-attacks/
+- category: webdev
+  published: '2025-11-26T11:10:00'
+  score: 0.688
+  source: The Hacker News
+  summary: The article discusses the risks and challenges associated with using community-maintained
+    tools like Chocolatey or Winget to keep systems updated, and the importance of
+    proper risk assessment and safe patching practices.
+  tags: []
+  title: 'Webinar: Learn to Spot Risks and Patch Safely with Community-Maintained
+    Tools'
+  url: https://thehackernews.com/2025/11/webinar-learn-to-spot-risks-and-patch.html
 - category: cybersecurity
   published: '2025-11-26T04:29:00'
   score: 1.104
@@ -12424,5 +12588,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-26T05:04:24.208631'
-total_articles: 966
+last_updated: '2025-11-27T05:04:17.735504'
+total_articles: 978
