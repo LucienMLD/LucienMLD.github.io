@@ -1,4 +1,133 @@
 articles:
+- category: cybersecurity
+  published: '2025-11-27T18:13:00'
+  score: 0.927
+  source: The Hacker News
+  summary: The threat actor known as Bloody Wolf has been targeting Kyrgyzstan and
+    Uzbekistan with cyber attacks since at least June 2025, delivering the NetSupport
+    RAT malware. The group's activities have expanded to include Uzbekistan, and researchers
+    at Group-IB have been monitoring their tactics and techniques.
+  tags: []
+  title: Bloody Wolf Expands Java-based NetSupport RAT Attacks in Kyrgyzstan and Uzbekistan
+  url: https://thehackernews.com/2025/11/bloody-wolf-expands-java-based.html
+- category: ai
+  published: '2025-11-27T17:50:00'
+  score: 0.847
+  source: Towards Data Science
+  summary: This newsletter highlights the most-read stories from the past month, covering
+    topics such as GraphRAG, machine learning projects, and LLM-powered time-series
+    analysis. The article provides a concise overview of the key technical points
+    and implications of these stories for the data science community.
+  tags:
+  - The Variable
+  - Data Science
+  - Machine Learning
+  - Monthly Edition
+  - Tds Features
+  title: 'TDS Newsletter: November Must-Reads on GraphRAG, ML Projects, LLM-Powered
+    Time-Series Analysis, and More'
+  url: https://towardsdatascience.com/tds-newsletter-november-must-reads-on-graphrag-ml-projects-llm-powered-time-series-analysis-and-more/
+- category: ai
+  published: '2025-11-27T17:24:06'
+  score: 0.844
+  source: Towards Data Science
+  summary: The article discusses the fundamental differences between neural and symbolic
+    models in compressing the world, and how Sparse Autoencoders (SAEs) offer a bridge
+    to connect these two approaches. It highlights the potential benefits of combining
+    the strengths of both neural and symbolic systems.
+  tags:
+  - Deep Learning
+  - Artificial Intelligence
+  - Deep Dives
+  - Machine Learning
+  - Neural Network
+  title: Neural Networks Are Blurry, Symbolic Systems Are Fragmented. Sparse Autoencoders
+    Help Us Combine Them.
+  url: https://towardsdatascience.com/neuro-symbolic-systems-the-art-of-compromise-2/
+- category: ai
+  published: '2025-11-27T15:30:00'
+  score: 0.787
+  source: Towards Data Science
+  summary: The article explores the concept of the "AI bubble" and whether the industry
+    has been tricked into believing in an impossible and extremely expensive future.
+    It raises questions about the sustainability and viability of the current AI hype
+    and investment landscape.
+  tags:
+  - Artificial Intelligence
+  - Editors Pick
+  - Hype Cycle
+  - Machinelearning
+  - Technology
+  title: 'Water Cooler Small Talk, Ep. 10: So, What About the AI Bubble?'
+  url: https://towardsdatascience.com/water-cooler-small-talk-ep-10-so-what-about-the-ai-bubble/
+- category: ai
+  published: '2025-11-27T14:00:00'
+  score: 0.776
+  source: Towards Data Science
+  summary: The article examines the impact of noise on everyday decisions, from insurance
+    premiums to courtrooms. It discusses how AI can help mitigate the effects of noise
+    and improve the quality of decision-making in various domains.
+  tags:
+  - Data Science
+  - Artificial Intelligence
+  - Bias Variance Tradeoff
+  - Decision Making
+  - Editors Pick
+  title: Everyday Decisions are Noisier Than You Think — Here’s How AI Can Help Fix
+    That
+  url: https://towardsdatascience.com/everyday-decisions-are-noisier-than-you-think-heres-how-ai-can-help-fix-that/
+- category: webdev
+  published: '2025-11-27T12:30:00'
+  score: 0.696
+  source: Towards Data Science
+  summary: The article provides a beginner-friendly tutorial on implementing the rock-paper-scissors
+    game in Python. It demonstrates the use of conditional statements and the random
+    module to create a simple interactive game.
+  tags:
+  - Programming
+  - Coding
+  - Conditional Statements
+  - Games
+  - Python
+  title: Implementing the Rock Paper Scissors Game in Python
+  url: https://towardsdatascience.com/implementing-the-rock-paper-scissors-game-in-python/
+- category: cybersecurity
+  published: '2025-11-27T11:27:06'
+  score: 0.876
+  source: BleepingComputer
+  summary: OpenAI has disclosed a data breach that exposed limited identifying information
+    of some ChatGPT API customers. The breach occurred through a hack of Mixpanel,
+    OpenAI's third-party analytics provider. The article highlights the importance
+    of securing third-party services and the potential impact of such breaches on
+    customer trust.
+  tags:
+  - Security
+  title: OpenAI discloses API customer data breach via Mixpanel vendor hack
+  url: https://www.bleepingcomputer.com/news/security/openai-discloses-api-customer-data-breach-via-mixpanel-vendor-hack/
+- category: cybersecurity
+  published: '2025-11-27T10:03:00'
+  score: 0.961
+  source: The Hacker News
+  summary: The article discusses the latest cyber threats, including AI-powered malware,
+    voice bot flaws, cryptocurrency laundering, and IoT attacks. Hackers are becoming
+    increasingly creative in their methods, using techniques like stealing data, impersonating
+    real voices, and hiding in plain sight. The article emphasizes the need for vigilance
+    and proactive security measures to combat these evolving threats.
+  tags: []
+  title: 'ThreatsDay Bulletin: AI Malware, Voice Bot Flaws, Crypto Laundering, IoT
+    Attacks — and 20 More Stories'
+  url: https://thehackernews.com/2025/11/threatsday-bulletin-ai-malware-voice.html
+- category: cybersecurity
+  published: '2025-11-27T10:00:00'
+  score: 0.865
+  source: Smashing Magazine
+  summary: The article explores the accessibility issues with authentication methods
+    like CAPTCHAs, which often exclude people with disabilities. It emphasizes the
+    need for inclusive design and a better understanding of real user needs to improve
+    accessibility in security practices.
+  tags: []
+  title: The Accessibility Problem With Authentication Methods Like CAPTCHA
+  url: https://smashingmagazine.com/2025/11/accessibility-problem-authentication-methods-captcha/
 - category: ai
   published: '2025-11-27T00:58:14'
   score: 0.996
@@ -12588,5 +12717,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-27T05:04:17.735504'
-total_articles: 978
+last_updated: '2025-11-28T05:04:15.067227'
+total_articles: 987
