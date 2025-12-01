@@ -1,4 +1,138 @@
 articles:
+- category: ai
+  published: '2025-11-30T15:00:00'
+  score: 0.871
+  source: Towards Data Science
+  summary: The article introduces a "Machine Learning and Deep Learning Advent Calendar"
+    series that aims to open the black box of ML models by demonstrating concepts
+    directly in Excel, making advanced techniques more accessible to a wider audience.
+  tags:
+  - Machine Learning
+  - Algorithms
+  - Artificial Intelligence
+  - Data Science
+  - Deep Learning
+  title: 'The Machine Learning and Deep Learning “Advent Calendar” Series: The Blueprint'
+  url: https://towardsdatascience.com/machine-learning-and-deep-learning-in-excel-advent-calendar-announcement/
+- category: ai
+  published: '2025-11-30T14:49:19'
+  score: 0.825
+  source: Machine Learning Mastery
+  summary: The article discusses various techniques to speed up the training of language
+    models, including the use of optimizers, learning rate schedulers, sequence length
+    scheduling, and other methods to improve the efficiency of deep learning model
+    training.
+  tags: []
+  title: How to Speed-Up Training of Language Models
+  url: https://machinelearningmastery.com/how-to-speed-up-training-of-language-models/
+- category: ai
+  published: '2025-11-30T13:00:00'
+  score: 0.769
+  source: Towards Data Science
+  summary: The article presents the Greedy Boruta algorithm, a modification to the
+    Boruta feature selection algorithm that significantly reduces computational time
+    while maintaining high sensitivity, making it a more efficient tool for feature
+    selection tasks.
+  tags:
+  - Machine Learning
+  - Algorithms
+  - Data Science
+  - Editors Pick
+  - Feature Selection
+  title: 'The Greedy Boruta Algorithm: Faster Feature Selection Without Sacrificing
+    Recall'
+  url: https://towardsdatascience.com/the-greedy-boruta-algorithm-faster-feature-selection-without-sacrificing-recall/
+- category: webdev
+  published: '2025-11-30T12:10:21'
+  score: 0.694
+  source: Ars Technica
+  summary: The article revisits the classic DOS platformer "Jill of the Jungle," noting
+    that it was the last game designed by Tim Sweeney, the co-founder of Epic Games,
+    and that the game was surprisingly fun for the genre.
+  tags:
+  - Gaming
+  - C:\ArsGames
+  - DOS
+  - Epic Games
+  - Epic Megagames
+  title: Revisiting Jill of the Jungle, the last game Tim Sweeney designed
+  url: https://arstechnica.com/gaming/2025/11/revisiting-jill-of-the-jungle-the-last-game-tim-sweeney-designed/
+- category: cybersecurity
+  published: '2025-11-30T09:23:00'
+  score: 1.004
+  source: The Hacker News
+  summary: CISA has added a cross-site scripting (XSS) vulnerability, CVE-2021-26829,
+    affecting the OpenPLC ScadaBR software to its Known Exploited Vulnerabilities
+    (KEV) catalog, citing evidence of active exploitation. The vulnerability has a
+    CVSS score of 5.4 and could allow attackers to execute arbitrary code on affected
+    systems.
+  tags: []
+  title: CISA Adds Actively Exploited XSS Bug CVE-2021-26829 in OpenPLC ScadaBR to
+    KEV
+  url: https://thehackernews.com/2025/11/cisa-adds-actively-exploited-xss-bug.html
+- category: webdev
+  published: '2025-11-30T09:00:00'
+  score: 0.674
+  source: Smashing Magazine
+  summary: The article provides a collection of new desktop wallpapers to welcome
+    the December holiday season, offering a "Sparkle of December Magic" for users
+    to enjoy.
+  tags: []
+  title: A Sparkle Of December Magic (2025 Wallpapers Edition)
+  url: https://smashingmagazine.com/2025/11/desktop-wallpaper-calendars-december-2025/
+- category: cybersecurity
+  published: '2025-11-29T15:17:23'
+  score: 0.722
+  source: BleepingComputer
+  summary: Japanese beer giant Asahi Group Holdings has announced a data breach that
+    impacted up to 1.9 million individuals, following an investigation into a cyberattack
+    that occurred in September.
+  tags:
+  - Security
+  title: Japanese beer giant Asahi says data breach hit 1.5 million people
+  url: https://www.bleepingcomputer.com/news/security/japanese-beer-giant-asahi-says-data-breach-hit-15-million-people/
+- category: ai
+  published: '2025-11-29T13:00:00'
+  score: 0.598
+  source: Towards Data Science
+  summary: The article provides guidance on how to scale the usage of Large Language
+    Models (LLMs) to achieve increased productivity, exploring techniques and strategies
+    to effectively leverage these powerful AI models.
+  tags:
+  - Agentic AI
+  - Ai Scaling
+  - ChatGPT
+  - Gemini
+  - Llm
+  title: How to Scale Your LLM Usage
+  url: https://towardsdatascience.com/how-to-scale-your-llm-usage/
+- category: cybersecurity
+  published: '2025-11-29T12:15:27'
+  score: 0.603
+  source: Ars Technica
+  summary: The article discusses promising trials using engineered antibodies that
+    suggest "functional cures" for HIV may be within reach, potentially leading to
+    lasting remission for those affected by the disease.
+  tags:
+  - Health
+  - Science
+  - HIV
+  - remission
+  - syndication
+  title: Achieving lasting remission for HIV
+  url: https://arstechnica.com/science/2025/11/achieving-lasting-remission-for-hiv/
+- category: ai
+  published: '2025-11-29T11:31:22'
+  score: 0.676
+  source: BleepingComputer
+  summary: OpenAI is reportedly testing the integration of "ads" within ChatGPT, which
+    could potentially redefine the web economy and how users interact with AI-powered
+    conversational interfaces.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: Leak confirms OpenAI is preparing ads on ChatGPT for public roll out
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/
 - category: cybersecurity
   published: '2025-11-27T18:13:00'
   score: 0.927
@@ -12717,5 +12851,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-11-28T05:04:15.067227'
-total_articles: 987
+last_updated: '2025-12-01T05:10:01.129883'
+total_articles: 997
