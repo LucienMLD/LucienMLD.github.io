@@ -1,4 +1,161 @@
 articles:
+- category: cybersecurity
+  published: '2025-12-01T23:36:50'
+  score: 1.019
+  source: Ars Technica
+  summary: The article discusses the failure of one of Vladimir Putin's favorite missile
+    systems, which was meant to strike fear in Russia's enemies. This failure highlights
+    the challenges Russia faces in maintaining its military capabilities and the limitations
+    of its technological prowess.
+  tags:
+  - Science
+  - Space
+  - ICBM
+  - launch
+  - russia
+  title: The missile meant to strike fear in Russia’s enemies fails once again
+  url: https://arstechnica.com/space/2025/12/the-missile-meant-to-strike-fear-in-russias-enemies-fails-once-again/
+- category: ai
+  published: '2025-12-01T22:16:28'
+  score: 0.877
+  source: Ars Technica
+  summary: OpenAI has deleted pirated book datasets, risking increased fines. This
+    decision highlights the challenges faced by AI companies in navigating the complex
+    landscape of intellectual property rights and the need for transparent and ethical
+    data collection practices.
+  tags:
+  - AI
+  - Policy
+  - ChatGPT
+  - copyright infringement
+  - online piracy
+  title: OpenAI desperate to avoid explaining why it deleted pirated book datasets
+  url: https://arstechnica.com/tech-policy/2025/12/openai-desperate-to-avoid-explaining-why-it-deleted-pirated-book-datasets/
+- category: cybersecurity
+  published: '2025-12-01T21:08:15'
+  score: 0.949
+  source: BleepingComputer
+  summary: The Glassworm malware campaign has resurfaced on the OpenVSX and Microsoft
+    Visual Studio marketplaces, with 24 new malicious packages added. This ongoing
+    threat highlights the need for vigilance and security measures when downloading
+    software from these platforms.
+  tags:
+  - Security
+  title: Glassworm malware returns in third wave of malicious VS Code packages
+  url: https://www.bleepingcomputer.com/news/security/glassworm-malware-returns-in-third-wave-of-malicious-vs-code-packages/
+- category: ai
+  published: '2025-12-01T20:03:39'
+  score: 0.862
+  source: Towards Data Science
+  summary: The article shares lessons learned by the author in the field of machine
+    learning, covering topics such as Christmas connections, Copilot's costs, and
+    careful (no-)choices. These insights provide valuable lessons for practitioners
+    in the field.
+  tags:
+  - Machine Learning
+  - AI coding assistants
+  - Data Science
+  - Github Copilot
+  - Learning Rate
+  title: The Machine Learning Lessons I’ve Learned This Month
+  url: https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-3/
+- category: ai
+  published: '2025-12-01T20:00:00'
+  score: 0.862
+  source: Google AI Blog
+  summary: Google is bringing its most intelligent model, Gemini 3 Pro, to Google
+    Search in more countries around the world. This expansion of the Gemini model's
+    availability signals Google's ongoing efforts to enhance its search capabilities
+    and provide users with more intelligent and relevant results.
+  tags:
+  - Search
+  - Gemini Models
+  - AI
+  title: Gemini 3 and Nano Banana Pro in Search are coming to more countries around
+    the world.
+  url: https://blog.google/products/search/gemini-3-ai-mode-more-countries/
+- category: ai
+  published: '2025-12-01T19:52:19'
+  score: 0.861
+  source: Towards Data Science
+  summary: The article introduces the k-NN regressor, the simplest distance-based
+    machine learning model, and explores its implementation in Excel. It highlights
+    the importance of feature scaling and the challenges of working with heterogeneous
+    variables when using distance-based models.
+  tags:
+  - Machine Learning
+  - Algorithms
+  - Data Science
+  - Deep Dives
+  - Excel
+  title: 'The Machine Learning “Advent Calendar” Day 1: k-NN Regressor in Excel'
+  url: https://towardsdatascience.com/day-1-k-nn-regressor-in-excel-how-distance-drives-prediction/
+- category: cybersecurity
+  published: '2025-12-01T18:56:18'
+  score: 0.98
+  source: BleepingComputer
+  summary: The popular open-source SmartTube YouTube client for Android TV was compromised,
+    leading to a malicious update being pushed to users. This breach of the developer's
+    signing keys highlights the importance of secure software development practices
+    and the need for users to be cautious when downloading third-party applications.
+  tags:
+  - Security
+  - Google
+  title: SmartTube YouTube app for Android TV breached to push malicious update
+  url: https://www.bleepingcomputer.com/news/security/smarttube-youtube-app-for-android-tv-breached-to-push-malicious-update/
+- category: cybersecurity
+  published: '2025-12-01T18:15:39'
+  score: 0.975
+  source: Towards Data Science
+  summary: The article discusses the security and privacy concerns associated with
+    AI-powered browsers, such as Atlas. It argues that these browsers fail to adequately
+    address issues related to privacy, security, and censorship, posing a threat to
+    users' online experiences.
+  tags:
+  - Artificial Intelligence
+  - Ai Safety
+  - Browsers
+  - Machine Learning
+  - OpenAI
+  title: 'The Problem with AI Browsers: Security Flaws and the End of Privacy'
+  url: https://towardsdatascience.com/the-problem-with-ai-browsers-security-flaws-and-the-end-of-privacy/
+- category: cybersecurity
+  published: '2025-12-01T17:55:00'
+  score: 0.924
+  source: The Hacker News
+  summary: The Indian government has ordered mobile device manufacturers to preload
+    a government-backed cybersecurity app called Sanchar Saathi on all new phones
+    within 90 days. This move is aimed at tackling telecom fraud, but it raises concerns
+    about user privacy and the mandatory nature of the app.
+  tags: []
+  title: India Orders Phone Makers to Pre-Install Sanchar Saathi App to Tackle Telecom
+    Fraud
+  url: https://thehackernews.com/2025/12/india-orders-phone-makers-to-pre.html
+- category: webdev
+  published: '2025-12-01T17:25:28'
+  score: 0.767
+  source: CSS-Tricks
+  summary: The article discusses a new CSS property, `overscroll-behavior-contain`,
+    which can be used to prevent a page from scrolling while a dialog is open. This
+    feature helps improve the user experience and prevent unexpected scrolling behavior
+    when interacting with UI elements.
+  tags:
+  - Links
+  - css properties
+  - dialog
+  title: Prevent a page from scrolling while a dialog is open
+  url: https://css-tricks.com/prevent-a-page-from-scrolling-while-a-dialog-is-open/
+- category: ai
+  published: '2025-12-01T14:08:17'
+  score: 0.865
+  source: Machine Learning Mastery
+  summary: The article discusses prompt compression, a technique for optimizing the
+    generation of text by large language models (LLMs) and reducing the associated
+    costs. This approach can improve the efficiency and cost-effectiveness of LLM-based
+    applications.
+  tags: []
+  title: Prompt Compression for LLM Generation Optimization and Cost Reduction
+  url: https://machinelearningmastery.com/prompt-compression-for-llm-generation-optimization-and-cost-reduction/
 - category: ai
   published: '2025-11-30T15:00:00'
   score: 0.871
@@ -12851,5 +13008,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-01T05:10:01.129883'
-total_articles: 997
+last_updated: '2025-12-02T05:03:58.109560'
+total_articles: 1008
