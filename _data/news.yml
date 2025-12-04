@@ -1,4 +1,160 @@
 articles:
+- category: ai
+  published: '2025-12-04T00:06:58'
+  score: 0.946
+  source: Ars Technica
+  summary: Twelve former FDA chiefs have criticized an agency memo that they say "misrepresents
+    both the science and the regulatory record" regarding vaccines.
+  tags:
+  - Health
+  - Science
+  - CDC
+  - clinical trials
+  - COVID-19
+  title: 12 former FDA chiefs unite to say agency memo on vaccines is deeply stupid
+  url: https://arstechnica.com/health/2025/12/12-former-fda-chiefs-unite-to-say-agency-memo-on-vaccines-is-deeply-stupid/
+- category: cybersecurity
+  published: '2025-12-03T23:16:03'
+  score: 1.064
+  source: Ars Technica
+  summary: A critical vulnerability in open-source React allows unauthenticated remote
+    code execution by exploiting a flaw in how it executes malicious code with malformed
+    HTML.
+  tags:
+  - Biz & IT
+  - Security
+  - exploits
+  - react server components
+  - vulnerabilities
+  title: Admins and defenders gird themselves against maximum-severity server vuln
+  url: https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/
+- category: ai
+  published: '2025-12-03T23:01:26'
+  score: 0.838
+  source: Ars Technica
+  summary: The article provides an overview of the driving experience and advanced
+    EV technology in the 2027 BMW iX3, the first of BMW's clean-sheet "Neue Klasse"
+    EVs.
+  tags:
+  - Cars
+  - BMW iX3
+  - car review
+  - First drive
+  title: 'Great handling, advanced EV tech: We drive the 2027 BMW iX3'
+  url: https://arstechnica.com/cars/2025/12/great-handling-advanced-ev-tech-we-drive-the-2026-bmw-ix3/
+- category: cybersecurity
+  published: '2025-12-03T21:31:20'
+  score: 1.095
+  source: BleepingComputer
+  summary: Attackers are exploiting a critical-severity privilege escalation vulnerability
+    (CVE-2025-8489) in the King Addons for Elementor plugin for WordPress, which allows
+    them to obtain administrative permissions during the registration process.
+  tags:
+  - Security
+  title: Critical flaw in WordPress add-on for Elementor exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/critical-flaw-in-wordpress-add-on-for-elementor-exploited-in-attacks/
+- category: cybersecurity
+  published: '2025-12-03T18:19:00'
+  score: 1.071
+  source: The Hacker News
+  summary: A maximum-severity security flaw (CVE-2025-55182) has been discovered in
+    React Server Components (RSC), which, if successfully exploited, could result
+    in unauthenticated remote code execution with a CVSS score of 10.0.
+  tags: []
+  title: Critical RSC Bugs in React and Next.js Allow Unauthenticated Remote Code
+    Execution
+  url: https://thehackernews.com/2025/12/critical-rsc-bugs-in-react-and-nextjs.html
+- category: cybersecurity
+  published: '2025-12-03T17:08:00'
+  score: 1.11
+  source: The Hacker News
+  summary: A critical security flaw in the WordPress plugin King Addons for Elementor
+    allows unauthenticated attackers to grant themselves administrative privileges,
+    enabling them to take control of vulnerable websites. The vulnerability, CVE-2025-8489,
+    has a CVSS score of 9.8 and is currently being actively exploited in the wild.
+  tags: []
+  title: WordPress King Addons Flaw Under Active Attack Lets Hackers Make Admin Accounts
+  url: https://thehackernews.com/2025/12/wordpress-king-addons-flaw-under-active.html
+- category: webdev
+  published: '2025-12-03T17:00:00'
+  score: 0.765
+  source: Towards Data Science
+  summary: The article explores techniques to overcome the performance traps of variable-shaped
+    tensors in PyTorch, focusing on efficient data sampling strategies.
+  tags:
+  - Deep Learning
+  - Artificial Intelligence
+  - Data Sampling
+  - Editors Pick
+  - Machine Learning
+  title: 'Overcoming the Hidden Performance Traps of Variable-Shaped Tensors: Efficient
+    Data Sampling in PyTorch'
+  url: https://towardsdatascience.com/overcoming-the-hidden-performance-traps-of-variable-shaped-tensors-efficient-data-sampling-in-pytorch/
+- category: ai
+  published: '2025-12-03T16:59:32'
+  score: 0.885
+  source: Machine Learning Mastery
+  summary: The article discusses using Pydantic for validating the outputs of large
+    language models, as they generate text rather than structured data.
+  tags: []
+  title: The Complete Guide to Using Pydantic for Validating LLM Outputs
+  url: https://machinelearningmastery.com/the-complete-guide-to-using-pydantic-for-validating-llm-outputs/
+- category: cybersecurity
+  published: '2025-12-03T16:45:30'
+  score: 1.06
+  source: BleepingComputer
+  summary: Microsoft has silently "mitigated" a high-severity Windows LNK vulnerability
+    that was being exploited by multiple state-backed and cybercrime hacking groups
+    in zero-day attacks.
+  tags:
+  - Microsoft
+  - Security
+  title: Microsoft "mitigates" Windows LNK flaw exploited as zero-day
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-mitigates-windows-lnk-flaw-exploited-as-zero-day/
+- category: ai
+  published: '2025-12-03T16:30:00'
+  score: 0.838
+  source: Towards Data Science
+  summary: The article explains and demonstrates the use of Gaussian Naive Bayes (GNB),
+    Linear Discriminant Analysis (LDA), and Quadratic Discriminant Analysis (QDA)
+    in Excel for machine learning tasks.
+  tags:
+  - Machine Learning
+  - Algorithms
+  - Artificial Intelligence
+  - Data Science
+  - Data Visualization
+  title: 'The Machine Learning “Advent Calendar” Day 3: GNB, LDA and QDA in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-3-gnb-lda-and-qda-in-excel/
+- category: ai
+  published: '2025-12-03T15:30:00'
+  score: 0.831
+  source: Towards Data Science
+  summary: The article discusses how to turn a large language model (LLM) prototype
+    into a production-ready system, focusing on the challenges beyond the "wow effect"
+    of building initial LLM-based applications.
+  tags:
+  - LLM Applications
+  - Artificial Intelligence
+  - Deep Dives
+  - Large Language Models
+  - Prompt Engineering
+  title: How to Turn Your LLM Prototype into a Production-Ready System
+  url: https://towardsdatascience.com/how-to-turn-your-llm-prototype-into-a-production-ready-system/
+- category: webdev
+  published: '2025-12-03T12:30:00'
+  score: 0.696
+  source: Towards Data Science
+  summary: The article provides guidance on how to use AI to code your own website,
+    including the use of AI-powered tools and platforms.
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - Generative Ai
+  - Llm
+  - LLM Agents
+  title: How to Code Your Own Website with AI
+  url: https://towardsdatascience.com/how-to-code-your-own-website-with-ai/
 - category: webdev
   published: '2025-12-02T23:17:17'
   score: 0.864
@@ -96,6 +252,20 @@ articles:
   - Scroll Driven Animation
   title: Scrollytelling on Steroids With Scroll-State Queries
   url: https://css-tricks.com/scrollytelling-on-steroids-with-scroll-state-queries/
+- category: webdev
+  published: '2025-12-02T15:30:00'
+  score: 0.515
+  source: Towards Data Science
+  summary: The article benchmarks various JSON parsing libraries for handling large
+    payloads, focusing on balancing speed, memory usage, and scalability.
+  tags:
+  - Data Engineering
+  - Data Science
+  - Deep Dives
+  - Json
+  - Programming
+  title: 'JSON Parsing for Large Payloads: Balancing Speed, Memory, and Scalability'
+  url: https://towardsdatascience.com/json-parsing-for-large-payloads-balancing-speed-memory-and-scalability/
 - category: cybersecurity
   published: '2025-12-02T14:36:44'
   score: 0.996
@@ -190,6 +360,16 @@ articles:
   tags: []
   title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
   url: https://www.cisa.gov/news-events/alerts/2025/12/02/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: webdev
+  published: '2025-12-02T10:00:00'
+  score: 0.521
+  source: Smashing Magazine
+  summary: The article discusses the upcoming CSS Masonry feature, which will provide
+    built-in masonry layout capabilities in web browsers, reducing the need for external
+    libraries.
+  tags: []
+  title: 'Masonry: Things You Won’t Need A Library For Anymore'
+  url: https://smashingmagazine.com/2025/12/masonry-things-you-wont-need-library-anymore/
 - category: cybersecurity
   published: '2025-12-01T23:36:50'
   score: 1.019
@@ -13199,5 +13379,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-03T05:03:51.684207'
-total_articles: 1023
+last_updated: '2025-12-04T05:04:28.285236'
+total_articles: 1037
