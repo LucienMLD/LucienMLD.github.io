@@ -1,4 +1,174 @@
 articles:
+- category: cybersecurity
+  published: '2025-12-04T23:05:05'
+  score: 1.111
+  source: BleepingComputer
+  summary: Threat actors have been exploiting a command injection vulnerability in
+    Array AG Series VPN devices to plant webshells and create rogue users, allowing
+    them to gain unauthorized access to affected systems.
+  tags:
+  - Security
+  title: Hackers are exploiting ArrayOS AG VPN flaw to plant webshells
+  url: https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-arrayos-ag-vpn-flaw-to-plant-webshells/
+- category: ai
+  published: '2025-12-04T20:07:20'
+  score: 0.818
+  source: Ars Technica
+  summary: A massive study of political persuasion shows that AI chatbots have, at
+    best, a weak effect on changing people's political views.
+  tags:
+  - AI
+  - Science
+  - Behavioral science
+  - chat-gpt
+  - Computer science
+  title: Researchers find what makes AI chatbots politically persuasive
+  url: https://arstechnica.com/science/2025/12/researchers-find-what-makes-ai-chatbots-politically-persuasive/
+- category: webdev
+  published: '2025-12-04T19:53:14'
+  score: 0.743
+  source: Ars Technica
+  summary: Valve's Steam Machine is limited in its support for HDMI 2.1 due to open
+    source driver issues, which the company is trying to resolve.
+  tags:
+  - Gaming
+  - AMD
+  - drivers
+  - Steam
+  - steam machine
+  title: Why won’t Steam Machine support HDMI 2.1? Digging in on the display standard
+    drama.
+  url: https://arstechnica.com/gaming/2025/12/why-wont-steam-machine-support-hdmi-2-1-digging-in-on-the-display-standard-drama/
+- category: webdev
+  published: '2025-12-04T19:21:31'
+  score: 0.739
+  source: WebKit Blog
+  summary: The ::target-text CSS pseudo-element provides an easy way to style text
+    fragments, which can be useful for various web development applications.
+  tags:
+  - News
+  title: '::target-text: An easy way to style text fragments'
+  url: https://webkit.org/blog/17628/target-text-an-easy-way-to-style-text-fragments/
+- category: ai
+  published: '2025-12-04T19:00:00'
+  score: 0.855
+  source: OpenAI
+  summary: OpenAI is launching OpenAI for Australia to build sovereign AI infrastructure,
+    upskill more than 1.5 million workers, and accelerate innovation across the country's
+    growing AI ecosystem.
+  tags: []
+  title: Introducing OpenAI for Australia
+  url: https://openai.com/global-affairs/openai-for-australia
+- category: webdev
+  published: '2025-12-04T17:59:38'
+  score: 0.771
+  source: Ars Technica
+  summary: JavaScript, originally a 10-day hack in 1995, has become the glue that
+    holds the interactive web together, despite its warts.
+  tags:
+  - Tech
+  - '1995'
+  - Bill Joy
+  - brendan eich
+  - browser history
+  title: In 1995, a Netscape employee wrote a hack in 10 days that now runs the Internet
+  url: https://arstechnica.com/gadgets/2025/12/in-1995-a-netscape-employee-wrote-a-hack-in-10-days-that-now-runs-the-internet/
+- category: ai
+  published: '2025-12-04T17:30:00'
+  score: 0.8
+  source: Towards Data Science
+  summary: A new NeurIPS 2025 paper shows how self-supervised learning imbues Vision
+    Transformers (ViT) with better image understanding than supervised learning, solving
+    the age-old binding problem.
+  tags:
+  - Deep Learning
+  - Artificial Intelligence
+  - Editors Pick
+  - Machine Learning
+  - Neuroscience
+  title: Do Labels Make AI Blind? Self-Supervision Solves the Age-Old Binding Problem
+  url: https://towardsdatascience.com/emergent-object-binding-from-self-supervised-not-supervised-learning/
+- category: ai
+  published: '2025-12-04T17:02:33'
+  score: 0.885
+  source: Machine Learning Mastery
+  summary: Large language models (LLMs) can be leveraged for data analysis tasks,
+    including time series analysis, through prompt engineering techniques.
+  tags: []
+  title: Prompt Engineering for Time Series Analysis
+  url: https://machinelearningmastery.com/prompt-engineering-for-time-series-analysis/
+- category: ai
+  published: '2025-12-04T16:23:24'
+  score: 0.793
+  source: DeepMind
+  summary: Scientists are using AlphaFold to strengthen a photosynthesis enzyme for
+    resilient, heat-tolerant crops to address the challenges of a warming climate.
+  tags: []
+  title: Engineering more resilient crops for a warming climate
+  url: https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/
+- category: webdev
+  published: '2025-12-04T15:11:54'
+  score: 0.753
+  source: BleepingComputer
+  summary: A maximum severity vulnerability, dubbed 'React2Shell', in the React Server
+    Components (RSC) 'Flight' protocol allows remote code execution without authentication
+    in React and Next.js applications.
+  tags:
+  - Security
+  title: Critical React, Next.js flaw lets hackers execute code on servers
+  url: https://www.bleepingcomputer.com/news/security/critical-react2shell-flaw-in-react-nextjs-lets-hackers-run-javascript-code/
+- category: webdev
+  published: '2025-12-04T14:04:52'
+  score: 0.746
+  source: CSS-Tricks
+  summary: The measure, or the width of the text column, should inform layout decisions
+    to ensure comfortable reading, rather than allowing layout to dictate the measure.
+  tags:
+  - Articles
+  - container-queries
+  - layout
+  - typography
+  title: Getting Creative With “The Measure”
+  url: https://css-tricks.com/getting-creative-with-the-measure/
+- category: cybersecurity
+  published: '2025-12-04T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: A vulnerability in the Johnson Controls OpenBlue Mobile Web Application
+    for OpenBlue Workplace has been identified, with a CVSS v4 score of 6.5 and the
+    ability to be exploited remotely with low attack complexity.
+  tags: []
+  title: Johnson Controls OpenBlue Mobile Web Application for OpenBlue Workplace
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-338-03
+- category: cybersecurity
+  published: '2025-12-04T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The BRICKSTORM backdoor has been analyzed by the Cybersecurity and Infrastructure
+    Security Agency (CISA), National Security Agency (NSA), and Canadian Centre for
+    Cyber Security, providing insights into its capabilities and indicators of compromise.
+  tags: []
+  title: BRICKSTORM Backdoor
+  url: https://www.cisa.gov/news-events/analysis-reports/ar25-338a
+- category: cybersecurity
+  published: '2025-12-04T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: A vulnerability in the SolisCloud Monitoring Platform has been identified,
+    with a CVSS v4 score of 8.3 and the ability to be exploited remotely with low
+    attack complexity.
+  tags: []
+  title: SolisCloud Monitoring Platform
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-338-06
+- category: cybersecurity
+  published: '2025-12-04T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Advantech iView product has a vulnerability with a CVSS v4 score of
+    8.7, allowing for remote exploitation with low attack complexity.
+  tags: []
+  title: Advantech iView
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-338-07
 - category: ai
   published: '2025-12-04T00:06:58'
   score: 0.946
@@ -13379,5 +13549,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-04T05:04:28.285236'
-total_articles: 1037
+last_updated: '2025-12-05T05:04:34.763211'
+total_articles: 1052
