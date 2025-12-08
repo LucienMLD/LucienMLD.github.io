@@ -1,5 +1,140 @@
 articles:
 - category: cybersecurity
+  published: '2025-12-07T20:51:08'
+  score: 0.898
+  source: BleepingComputer
+  summary: OpenAI has denied allegations that it is rolling out ads on the paid ChatGPT
+    Plus subscription, clarifying that the feature in question is an app recommendation,
+    not an advertisement.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI denies rolling out ads on ChatGPT paid plans
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-denies-rolling-out-ads-on-chatgpt-paid-plans/
+- category: ai
+  published: '2025-12-07T16:00:00'
+  score: 0.79
+  source: Towards Data Science
+  summary: The article provides insights into the hidden career ladder of data science,
+    focusing on the behaviors and skills that can lead to professional advancement,
+    beyond just technical proficiency.
+  tags:
+  - Data Science
+  - Career Advancement
+  - Career Advice
+  - Deep Dives
+  - Leadership
+  title: How to Climb the Hidden Career Ladder of Data Science
+  url: https://towardsdatascience.com/the-hidden-career-ladder-of-data-science/
+- category: cybersecurity
+  published: '2025-12-07T15:09:44'
+  score: 0.904
+  source: BleepingComputer
+  summary: Portugal has updated its cybercrime law to create a legal safe harbor for
+    good-faith security research, allowing researchers to test systems and report
+    vulnerabilities without fear of prosecution, as long as they follow strict conditions.
+  tags:
+  - Security
+  - Legal
+  title: Portugal updates cybercrime law to exempt security researchers
+  url: https://www.bleepingcomputer.com/news/security/portugal-updates-cybercrime-law-to-exempt-security-researchers/
+- category: ai
+  published: '2025-12-07T14:30:00'
+  score: 0.824
+  source: Towards Data Science
+  summary: The article explores how a Decision Tree Classifier can be used for classification
+    tasks, as opposed to regression, with a focus on how the algorithm finds the optimal
+    split to minimize classification error.
+  tags:
+  - Machine Learning
+  - Algorithms
+  - Artificial Intelligence
+  - Data Science
+  - Decision Tree
+  title: 'The Machine Learning “Advent Calendar” Day 7: Decision Tree Classifier'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-7-decision-tree-classifier/
+- category: ai
+  published: '2025-12-07T13:00:00'
+  score: 0.945
+  source: Towards Data Science
+  summary: The article provides a clear explanation of the differences between artificial
+    intelligence, machine learning, deep learning, and generative AI. It highlights
+    the potential of these technologies and their implications for the future, particularly
+    in terms of machine learning and generative models.
+  tags:
+  - Artificial Intelligence
+  - Data Science
+  - Deep Learning
+  - Generative Ai
+  - Llm
+  title: Artificial Intelligence, Machine Learning, Deep Learning, and Generative
+    AI — Clearly Explained
+  url: https://towardsdatascience.com/artificial-intelligence-machine-learning-deep-learning-and-generative-ai-clearly-explained/
+- category: cybersecurity
+  published: '2025-12-07T12:08:58'
+  score: 0.833
+  source: Ars Technica
+  summary: The article discusses the complexity of dog behavior, which cannot be fully
+    explained by any single gene variant, highlighting the limitations of current
+    DNA tests in understanding the nuances of canine behavior.
+  tags:
+  - Science
+  - dna test kit
+  - dog behavior
+  - dog dna
+  - Dogs
+  title: Why is my dog like this? Current DNA tests won’t explain it to you.
+  url: https://arstechnica.com/science/2025/12/why-is-my-dog-like-this-current-dna-tests-wont-explain-it-to-you/
+- category: cybersecurity
+  published: '2025-12-06T19:07:33'
+  score: 0.847
+  source: BleepingComputer
+  summary: A critical vulnerability known as React2Shell (CVE-2025-55182) has been
+    exploited by attackers to breach over 30 organizations, and over 77,000 internet-exposed
+    IP addresses are vulnerable to this remote code execution flaw.
+  tags:
+  - Security
+  title: React2Shell flaw exploited to breach 30 orgs, 77k IP addresses vulnerable
+  url: https://www.bleepingcomputer.com/news/security/react2shell-flaw-exploited-to-breach-30-orgs-77k-ip-addresses-vulnerable/
+- category: ai
+  published: '2025-12-06T16:00:00'
+  score: 0.619
+  source: Towards Data Science
+  summary: The article discusses strategies for reading research papers in the age
+    of large language models (LLMs), combining manual and AI-assisted approaches to
+    keep up with the latest developments in the field.
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Arxiv
+  - Editors Pick
+  - Machine Learning
+  title: Reading Research Papers in the Age of LLMs
+  url: https://towardsdatascience.com/reading-research-papers-in-the-age-of-llms/
+- category: ai
+  published: '2025-12-06T15:24:00'
+  score: 0.615
+  source: The Hacker News
+  summary: Researchers have uncovered over 30 security vulnerabilities in various
+    AI-powered Integrated Development Environments (IDEs), allowing for data theft
+    and remote code execution attacks, highlighting the need for improved security
+    measures in these tools.
+  tags: []
+  title: Researchers Uncover 30+ Flaws in AI Coding Tools Enabling Data Theft and
+    RCE Attacks
+  url: https://thehackernews.com/2025/12/researchers-uncover-30-flaws-in-ai.html
+- category: cybersecurity
+  published: '2025-12-06T11:40:00'
+  score: 0.791
+  source: The Hacker News
+  summary: The critical React2Shell vulnerability (CVE-2025-55182) has been added
+    to the CISA's Known Exploited Vulnerabilities catalog, following reports of active
+    exploitation in the wild, highlighting the importance of addressing this security
+    flaw.
+  tags: []
+  title: Critical React2Shell Flaw Added to CISA KEV After Confirmed Active Exploitation
+  url: https://thehackernews.com/2025/12/critical-react2shell-flaw-added-to-cisa.html
+- category: cybersecurity
   published: '2025-12-04T23:05:05'
   score: 1.111
   source: BleepingComputer
@@ -13549,5 +13684,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-05T05:04:34.763211'
-total_articles: 1052
+last_updated: '2025-12-08T05:05:02.392579'
+total_articles: 1062
