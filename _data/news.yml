@@ -1,5 +1,168 @@
 articles:
 - category: cybersecurity
+  published: '2025-12-09T00:00:05'
+  score: 1.07
+  source: BleepingComputer
+  summary: Several ransomware groups are using a packer-as-a-service (PaaS) platform
+    called Shanya to help with evading endpoint detection and response (EDR) tools,
+    allowing them to more effectively deploy malware.
+  tags:
+  - Security
+  title: Ransomware gangs turn to Shanya EXE packer to hide EDR killers
+  url: https://www.bleepingcomputer.com/news/security/ransomware-gangs-turn-to-shanya-exe-packer-to-hide-edr-killers/
+- category: webdev
+  published: '2025-12-08T22:21:17'
+  score: 0.758
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 233 is now available for download for
+    macOS Tahoe and macOS Sequoia.
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 233
+  url: https://webkit.org/blog/17635/release-notes-for-safari-technology-preview-233/
+- category: webdev
+  published: '2025-12-08T18:36:16'
+  score: 0.735
+  source: Ars Technica
+  summary: Paramount has demonstrated its ability to execute a controversial merger,
+    and is now attempting a hostile takeover of Warner Bros. from Netflix.
+  tags:
+  - Tech
+  - acquisition
+  - hbo max
+  - paramount
+  - streaming
+  title: Paramount tries to swipe Warner Bros. from Netflix with a hostile takeover
+  url: https://arstechnica.com/gadgets/2025/12/paramount-says-it-could-get-antitrust-approval-for-wbd-before-netflix/
+- category: webdev
+  published: '2025-12-08T18:26:42'
+  score: 0.734
+  source: Towards Data Science
+  summary: The article explores the Isolation Forest algorithm, a simple yet powerful
+    anomaly detection technique, and demonstrates its implementation in Excel using
+    a small dataset.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Data Science
+  - Deep Dives
+  - Isolation Forests
+  title: 'The Machine Learning “Advent Calendar” Day 8: Isolation Forest in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-8-isolation-forest-in-excel/
+- category: webdev
+  published: '2025-12-08T18:08:52'
+  score: 0.732
+  source: BleepingComputer
+  summary: Google Chrome is introducing a new security architecture designed to protect
+    upcoming agentic AI browsing features powered by Gemini.
+  tags:
+  - Security
+  - Artificial Intelligence
+  - Google
+  title: Google Chrome adds new security layer for Gemini AI agentic browsing
+  url: https://www.bleepingcomputer.com/news/security/google-chrome-adds-new-security-layer-for-gemini-ai-agentic-browsing/
+- category: ai
+  published: '2025-12-08T18:04:12'
+  score: 0.892
+  source: Machine Learning Mastery
+  summary: The article explains the architecture of Llama or GPT models, which are
+    based on transformer blocks, and provides guidance on creating and pretraining
+    these models for next-token prediction.
+  tags: []
+  title: Creating a Llama or GPT Model for Next-Token Prediction
+  url: https://machinelearningmastery.com/creating-a-llama-or-gpt-model-for-next-token-prediction/
+- category: ai
+  published: '2025-12-08T17:23:32'
+  score: 0.844
+  source: AWS Machine Learning
+  summary: Experts from the Generative AI Innovation Center at AWS share strategies
+    to help organizations excel with generative AI, including accelerating time-to-value
+    and ensuring responsible deployment.
+  tags:
+  - Announcements
+  - Generative AI
+  - Public Sector
+  title: How AWS delivers generative AI to the public sector in weeks, not years
+  url: https://aws.amazon.com/blogs/machine-learning/how-aws-delivers-generative-ai-to-the-public-sector-in-weeks-not-years/
+- category: ai
+  published: '2025-12-08T16:42:39'
+  score: 0.883
+  source: AWS Machine Learning
+  summary: AgentCore Gateway now supports API Gateway, allowing organizations to securely
+    and reliably integrate enterprise data as context in invocation requests to large
+    language models (LLMs).
+  tags:
+  - Amazon API Gateway
+  - Amazon Bedrock AgentCore
+  - Artificial Intelligence
+  - Intermediate (200)
+  title: 'Streamline AI agent tool interactions: Connect API Gateway to AgentCore
+    Gateway with MCP'
+  url: https://aws.amazon.com/blogs/machine-learning/streamline-ai-agent-tool-interactions-connect-api-gateway-to-agentcore-gateway-with-mcp/
+- category: ai
+  published: '2025-12-08T15:02:12'
+  score: 0.828
+  source: BleepingComputer
+  summary: Picus Security explains the risks of relying on LLM-generated attack scripts
+    and how an agentic approach can safely map real threat intelligence to validated
+    defensive tactics.
+  tags:
+  - Security
+  title: How Agentic BAS AI Turns Threat Headlines Into Defense Strategies
+  url: https://www.bleepingcomputer.com/news/security/how-agentic-bas-ai-turns-threat-headlines-into-defense-strategies/
+- category: webdev
+  published: '2025-12-08T14:45:43'
+  score: 0.791
+  source: CSS-Tricks
+  summary: The article recounts the author's experience trying to explain HTML and
+    CSS to a 5-year-old child, highlighting the insights gained about their own understanding
+    and the challenges of teaching technical concepts.
+  tags:
+  - Articles
+  - learning
+  title: That Time I Tried Explaining HTML and CSS to My 5-Year Old Niece
+  url: https://css-tricks.com/that-time-i-tried-explaining-html-and-css-to-my-5-year-old-niece/
+- category: cybersecurity
+  published: '2025-12-08T12:44:00'
+  score: 0.981
+  source: The Hacker News
+  summary: This weekly recap covers a range of cybersecurity news, including a bug
+    that impacted the React framework, hackers targeting AI tools, fake apps stealing
+    cash, and record-breaking cyberattacks.
+  tags: []
+  title: '⚡ Weekly Recap: USB Malware, React2Shell, WhatsApp Worms, AI IDE Bugs &
+    More'
+  url: https://thehackernews.com/2025/12/weekly-recap-usb-malware-react2shell.html
+- category: cybersecurity
+  published: '2025-12-08T12:00:00'
+  score: 1.024
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, indicating that they are being actively exploited in the wild.
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/12/08/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2025-12-08T09:15:00'
+  score: 1.051
+  source: The Hacker News
+  summary: A critical security vulnerability in the Sneeit Framework plugin for WordPress
+    is being actively exploited in the wild, allowing remote code execution. This
+    vulnerability affects all versions of the plugin prior to and including 8.3.
+  tags: []
+  title: Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost
+    Botnet Attacks
+  url: https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html
+- category: ai
+  published: '2025-12-08T06:00:00'
+  score: 0.853
+  source: OpenAI
+  summary: Instacart and OpenAI are partnering to bring a fully integrated grocery
+    shopping and Instant Checkout payment app powered by ChatGPT.
+  tags: []
+  title: Instacart and OpenAI partner on AI shopping experiences
+  url: https://openai.com/index/instacart-partnership
+- category: cybersecurity
   published: '2025-12-07T20:51:08'
   score: 0.898
   source: BleepingComputer
@@ -13684,5 +13847,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-08T05:05:02.392579'
-total_articles: 1062
+last_updated: '2025-12-09T05:04:21.096071'
+total_articles: 1076
