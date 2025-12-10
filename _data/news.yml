@@ -1,5 +1,199 @@
 articles:
 - category: cybersecurity
+  published: '2025-12-10T04:50:00'
+  score: 1.298
+  source: The Hacker News
+  summary: Fortinet, Ivanti, and SAP have released critical security patches to address
+    vulnerabilities that could lead to authentication bypass and code execution. These
+    flaws affect various products, including FortiOS, FortiWeb, FortiProxy, and FortiSwitchManager,
+    and require prompt attention from users.
+  tags: []
+  title: Fortinet, Ivanti, and SAP Issue Urgent Patches for Authentication and Code
+    Execution Flaws
+  url: https://thehackernews.com/2025/12/fortinet-ivanti-and-sap-issue-urgent.html
+- category: cybersecurity
+  published: '2025-12-09T23:18:29'
+  score: 1.208
+  source: Krebs on Security
+  summary: Microsoft has released its final Patch Tuesday update for 2025, addressing
+    56 security vulnerabilities in Windows and related software. This includes a zero-day
+    bug that is already being exploited, as well as two publicly disclosed vulnerabilities,
+    highlighting the importance of timely software updates.
+  tags:
+  - Latest Warnings
+  - The Coming Storm
+  - Time to Patch
+  - Adam Barnett
+  - Ari Marzuk
+  title: Microsoft Patch Tuesday, December 2025 Edition
+  url: https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/
+- category: ai
+  published: '2025-12-09T21:08:11'
+  score: 0.825
+  source: Ars Technica
+  summary: The Agentic AI Foundation has been launched to support the standardization
+    of AI agents through initiatives like MCP, AGENTS.md, and goose, indicating a
+    collaborative effort by major tech companies to advance the interoperability and
+    adoption of AI-powered systems.
+  tags:
+  - AI
+  - Anthropic
+  - Artificial Intelligence
+  - MCP
+  - openai
+  title: Big Tech joins forces with Linux Foundation to standardize AI agents
+  url: https://arstechnica.com/ai/2025/12/big-tech-joins-forces-with-linux-foundation-to-standardize-ai-agents/
+- category: ai
+  published: '2025-12-09T20:50:42'
+  score: 0.823
+  source: AWS Machine Learning
+  summary: Amazon's latest AI model, Nova Lite 2.0, has demonstrated improved reasoning
+    capabilities compared to earlier versions, as evaluated using practical customer
+    support scenarios. This highlights the ongoing advancements in natural language
+    understanding and reasoning within AI systems.
+  tags:
+  - Amazon Bedrock
+  - Amazon Machine Learning
+  - Amazon Nova
+  - Artificial Intelligence
+  - Intermediate (200)
+  title: 'Real-world reasoning: How Amazon Nova Lite 2.0 handles complex customer
+    support scenarios'
+  url: https://aws.amazon.com/blogs/machine-learning/real-world-reasoning-how-amazon-nova-lite-2-0-handles-complex-customer-support-scenarios/
+- category: ai
+  published: '2025-12-09T20:06:56'
+  score: 0.818
+  source: Hugging Face
+  summary: The article discusses the Apriel-1.6-15b-Thinker, a cost-efficient multimodal
+    AI model that exhibits strong performance across various tasks, potentially offering
+    a balance between efficiency and capability for practical applications.
+  tags: []
+  title: 'Apriel-1.6-15b-Thinker: Cost-efficient Frontier Multimodal Performance'
+  url: https://huggingface.co/blog/ServiceNow-AI/apriel-1p6-15b-thinker
+- category: ai
+  published: '2025-12-09T17:45:00'
+  score: 0.846
+  source: Towards Data Science
+  summary: This article explores the Local Outlier Factor (LOF) algorithm for anomaly
+    detection using a step-by-step approach in Excel. It demonstrates how different
+    algorithms can perceive anomalies differently, underscoring the importance of
+    understanding the strengths and limitations of various machine learning techniques.
+  tags:
+  - Artificial Intelligence
+  - Machine Learning
+  - Data Science
+  title: 'The Machine Learning “Advent Calendar” Day 9: LOF in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-9-lof-in-excel/
+- category: webdev
+  published: '2025-12-09T17:00:28'
+  score: 0.724
+  source: Ars Technica
+  summary: Google is reviving wearable gesture controls, but this feature will be
+    exclusive to the Pixel Watch 4, indicating the company's focus on expanding the
+    capabilities of its wearable devices and exploring new input modalities.
+  tags:
+  - Google
+  - Tech
+  - google
+  - smartwatches
+  title: Google is reviving wearable gesture controls, but only for the Pixel Watch
+    4
+  url: https://arstechnica.com/gadgets/2025/12/google-is-reviving-wearable-gesture-controls-but-only-for-the-pixel-watch-4/
+- category: webdev
+  published: '2025-12-09T16:00:29'
+  score: 0.718
+  source: Ars Technica
+  summary: A recently discovered ancient Roman construction site has provided further
+    confirmation of the recipe for Roman concrete, which has intrigued researchers
+    due to its durability and resilience, offering insights into historical building
+    techniques.
+  tags:
+  - Science
+  - Archaeology
+  - materials science
+  - Pompeii
+  - Roman concrete
+  title: Pompeii construction site confirms recipe for Roman concrete
+  url: https://arstechnica.com/science/2025/12/study-confirms-romans-used-hot-mixing-to-make-concrete/
+- category: ai
+  published: '2025-12-09T16:00:00'
+  score: 0.834
+  source: OpenAI
+  summary: Scout24 has developed a GPT-5 powered conversational assistant that revolutionizes
+    real-estate search by guiding users with clarifying questions, summaries, and
+    tailored listing recommendations, showcasing the potential of AI to enhance customer
+    experiences.
+  tags: []
+  title: How Scout24 is building the next generation of real-estate search with AI
+  url: https://openai.com/index/scout24
+- category: webdev
+  published: '2025-12-09T16:00:00'
+  score: 0.718
+  source: Smashing Magazine
+  summary: The "Accessible UX Research" eBook, a new Smashing Book by Michele A. Williams,
+    is now available for download, providing guidance on incorporating accessibility
+    considerations into user experience research, a crucial aspect of building inclusive
+    digital experiences.
+  tags: []
+  title: Accessible UX Research, eBook Now Available For Download
+  url: https://smashingmagazine.com/2025/12/accessible-ux-research-ebook-release/
+- category: cybersecurity
+  published: '2025-12-09T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Pro-Russia hacktivists have conducted opportunistic attacks against critical
+    infrastructure in the US and globally. The Cybersecurity and Infrastructure Security
+    Agency (CISA) has issued a joint fact sheet with mitigations to help organizations
+    defend against these threats.
+  tags: []
+  title: Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global
+    Critical Infrastructure
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-343a
+- category: cybersecurity
+  published: '2025-12-09T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The Universal Boot Loader (U-Boot) has a vulnerability with a CVSS v4 score
+    of 8.6, which can be exploited with low attack complexity. This highlights the
+    need for organizations using U-Boot to prioritize patching and implement appropriate
+    security measures.
+  tags: []
+  title: Universal Boot Loader (U-Boot)
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-343-01
+- category: cybersecurity
+  published: '2025-12-09T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Multiple India-based CCTV cameras have a vulnerability with a CVSS v4 score
+    of 9.3, which can be exploited remotely with low attack complexity. This vulnerability
+    poses a significant risk and requires immediate attention from affected organizations.
+  tags: []
+  title: Multiple India-based CCTV Cameras
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-343-03
+- category: webdev
+  published: '2025-12-09T11:14:00'
+  score: 0.728
+  source: The Hacker News
+  summary: Google has implemented layered defenses in Chrome to mitigate the risk
+    of indirect prompt injection threats, which can be used to exploit vulnerabilities
+    and hijack user interactions, demonstrating the company's ongoing efforts to enhance
+    browser security.
+  tags: []
+  title: Google Adds Layered Defenses to Chrome to Block Indirect Prompt Injection
+    Threats
+  url: https://thehackernews.com/2025/12/google-adds-layered-defenses-to-chrome.html
+- category: webdev
+  published: '2025-12-09T10:00:00'
+  score: 0.761
+  source: Smashing Magazine
+  summary: CSS Wrapped 2025 showcases the evolving capabilities of CSS, which now
+    can handle logic, state, and complex interactions traditionally reserved for JavaScript,
+    signaling a shift towards a more declarative and integrated approach to modern
+    web development.
+  tags: []
+  title: 'State, Logic, And Native Power: CSS Wrapped 2025'
+  url: https://smashingmagazine.com/2025/12/state-logic-native-power-css-wrapped-2025/
+- category: cybersecurity
   published: '2025-12-09T00:00:05'
   score: 1.07
   source: BleepingComputer
@@ -13847,5 +14041,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-09T05:04:21.096071'
-total_articles: 1076
+last_updated: '2025-12-10T05:07:13.565284'
+total_articles: 1091
