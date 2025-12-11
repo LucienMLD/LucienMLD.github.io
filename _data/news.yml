@@ -1,4 +1,210 @@
 articles:
+- category: ai
+  published: '2025-12-11T00:29:54'
+  score: 0.948
+  source: Ars Technica
+  summary: NASA has lost contact with a Mars orbiter, and another one is soon to be
+    lost, indicating the need for new missions to explore Mars and maintain continuous
+    communication with the planet.
+  tags:
+  - Science
+  - Space
+  - Lockheed Martin
+  - Mars
+  - MAVEN
+  title: NASA just lost contact with a Mars orbiter, and will soon lose another one
+  url: https://arstechnica.com/space/2025/12/nasa-just-lost-contact-with-a-mars-orbiter-and-will-soon-lose-another-one/
+- category: ai
+  published: '2025-12-11T00:06:40'
+  score: 0.946
+  source: DeepMind
+  summary: Google DeepMind and the UK AI Security Institute (AISI) have strengthened
+    their collaboration on critical AI safety and security research, aiming to address
+    the challenges of developing safe and secure artificial intelligence systems.
+  tags: []
+  title: Deepening our partnership with the UK AI Security Institute
+  url: https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/
+- category: cybersecurity
+  published: '2025-12-10T23:50:56'
+  score: 1.069
+  source: BleepingComputer
+  summary: A new AMOS infostealer campaign is abusing Google search ads to lure users
+    into Grok and ChatGPT conversations, ultimately leading to the installation of
+    the AMOS info-stealing malware on macOS devices. This campaign highlights the
+    importance of verifying the legitimacy of online resources and being cautious
+    of downloads from untrusted sources.
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: Google ads for shared ChatGPT, Grok guides push macOS infostealer malware
+  url: https://www.bleepingcomputer.com/news/security/google-ads-for-shared-chatgpt-grok-guides-push-macos-infostealer-malware/
+- category: ai
+  published: '2025-12-10T23:16:52'
+  score: 0.94
+  source: Ars Technica
+  summary: After years of resistance, SpaceX now plans to go public, highlighting
+    the importance of amassing and deploying assets in the AI race, where "much of
+    the AI race comes down to amassing and deploying assets."
+  tags:
+  - Space
+  - data centers
+  - IPO
+  - space
+  - spacex
+  title: After years of resisting it, SpaceX now plans to go public. Why?
+  url: https://arstechnica.com/space/2025/12/after-years-of-resisting-it-spacex-now-plans-to-go-public-why/
+- category: webdev
+  published: '2025-12-10T21:05:44'
+  score: 0.75
+  source: Ars Technica
+  summary: Following the defunding of NPR and PBS stations, there are calls for the
+    FCC to take away station licenses, highlighting the ongoing challenges faced by
+    public media organizations.
+  tags:
+  - Policy
+  - FCC
+  - NPR
+  - PBS
+  title: After NPR and PBS defunding, FCC receives call to take away station licenses
+  url: https://arstechnica.com/tech-policy/2025/12/conservative-attacks-on-npr-and-pbs-continue-with-call-to-take-fcc-licenses/
+- category: cybersecurity
+  published: '2025-12-10T20:19:00'
+  score: 1.038
+  source: The Hacker News
+  summary: The React2Shell vulnerability continues to be actively exploited by threat
+    actors, allowing them to deliver cryptocurrency miners and new malware families
+    across multiple sectors. This underscores the need for organizations to promptly
+    address vulnerabilities in their software development infrastructure and maintain
+    robust security practices.
+  tags: []
+  title: React2Shell Exploitation Delivers Crypto Miners and New Malware Across Multiple
+    Sectors
+  url: https://thehackernews.com/2025/12/react2shell-exploitation-delivers.html
+- category: webdev
+  published: '2025-12-10T20:07:47'
+  score: 0.744
+  source: Ars Technica
+  summary: Cable channel subscribers grew for the first time in 8 years last quarter,
+    with sports and YouTube TV playing significant roles in this reversal of the industry's
+    decline.
+  tags:
+  - Tech
+  - cable
+  - streaming
+  title: Cable channel subscribers grew for the first time in 8 years last quarter
+  url: https://arstechnica.com/gadgets/2025/12/cable-channel-subscribers-grew-for-the-first-time-in-years-last-quarter/
+- category: webdev
+  published: '2025-12-10T19:04:24'
+  score: 0.777
+  source: AWS Machine Learning
+  summary: The post demonstrates how to implement automated smoke testing using Amazon
+    Nova Act headless mode in CI/CD pipelines, using the SauceDemo ecommerce application
+    as an example. This highlights the value of incorporating automated testing into
+    the development process.
+  tags:
+  - Advanced (300)
+  - Amazon Nova
+  - Technical How-to
+  title: Implement automated smoke testing using Amazon Nova Act headless mode
+  url: https://aws.amazon.com/blogs/machine-learning/implement-automated-smoke-testing-using-amazon-nova-act-headless-mode/
+- category: webdev
+  published: '2025-12-10T18:40:58'
+  score: 0.735
+  source: Ars Technica
+  summary: Amazon has added color e-ink to its Kindle Scribe Colorsoft device, bringing
+    color e-ink capabilities to its 11-inch e-reader. This development aligns with
+    the industry's gradual adoption of color e-ink technology.
+  tags:
+  - Tech
+  - Amazon
+  - kindle
+  - kindle colorsoft
+  - kindle scribe
+  title: Kindle Scribe Colorsoft brings color e-ink to Amazon’s 11-inch e-reader
+  url: https://arstechnica.com/gadgets/2025/12/kindle-scribe-colorsoft-brings-color-e-ink-to-amazons-11-inch-e-reader/
+- category: ai
+  published: '2025-12-10T16:30:00'
+  score: 0.837
+  source: Towards Data Science
+  summary: DBSCAN, a simple clustering algorithm, can be implemented in Excel, demonstrating
+    the versatility of machine learning techniques. However, its reliance on a fixed
+    radius leads to the need for HDBSCAN to handle more complex clustering scenarios.
+  tags:
+  - Machine Learning
+  - Algorithms
+  - Artificial Intelligence
+  - Clustering
+  - Dbscan
+  title: 'The Machine Learning “Advent Calendar” Day 10: DBSCAN in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-10-dbscan-in-excel/
+- category: webdev
+  published: '2025-12-10T15:04:08'
+  score: 0.752
+  source: CSS-Tricks
+  summary: The article explains how to create scroll-based animations in the Full
+    view() framework, which allows the application of traditional CSS animations on
+    a view timeline rather than a normal timeline, providing a novel approach to creating
+    engaging web experiences.
+  tags:
+  - Articles
+  - CSS functions
+  - Scroll Driven Animation
+  title: Creating Scroll-Based Animations in Full view()
+  url: https://css-tricks.com/creating-scroll-based-animations-in-full-view/
+- category: cybersecurity
+  published: '2025-12-10T15:00:10'
+  score: 0.998
+  source: BleepingComputer
+  summary: Recent supply-chain breaches have shown how attackers can exploit development
+    tools, compromised credentials, and malicious NPM packages to infiltrate manufacturing
+    and production environments. Implementing a secure software development life cycle
+    (SSDLC) is critical for manufacturers to evaluate their partners and mitigate
+    these types of attacks.
+  tags:
+  - Security
+  title: Why a secure software development life cycle is critical for manufacturers
+  url: https://www.bleepingcomputer.com/news/security/why-a-secure-software-development-life-cycle-is-critical-for-manufacturers/
+- category: ai
+  published: '2025-12-10T15:00:00'
+  score: 0.827
+  source: Towards Data Science
+  summary: The post discusses how to maximize agentic memory for continual learning
+    in large language models (LLMs), enabling engineers to become more effective in
+    their work with these models.
+  tags:
+  - LLM Applications
+  - Agentic Ai
+  - Ai Agent
+  - Engineering
+  - Llm
+  title: How to Maximize Agentic Memory for Continual Learning
+  url: https://towardsdatascience.com/how-to-maximize-agentic-memory-for-continual-learning/
+- category: cybersecurity
+  published: '2025-12-10T13:32:00'
+  score: 0.987
+  source: The Hacker News
+  summary: Three security vulnerabilities have been discovered in the Peripheral Component
+    Interconnect Express (PCIe) Integrity and Data Encryption (IDE) protocol specification,
+    which could expose local attackers to serious risks in PCIe 5.0+ systems. These
+    flaws highlight the importance of addressing security weaknesses in hardware-level
+    protocols to ensure the integrity of data handling.
+  tags: []
+  title: Three PCIe Encryption Weaknesses Expose PCIe 5.0+ Systems to Faulty Data
+    Handling
+  url: https://thehackernews.com/2025/12/three-pcie-encryption-weaknesses-expose.html
+- category: cybersecurity
+  published: '2025-12-10T11:54:00'
+  score: 1.071
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added
+    a security flaw in the WinRAR file archiver, tracked as CVE-2025-6218, to its
+    Known Exploited Vulnerabilities (KEV) catalog due to active exploitation by multiple
+    threat groups. This vulnerability could allow attackers to gain unauthorized access
+    to systems running WinRAR.
+  tags: []
+  title: 'Warning: WinRAR Vulnerability CVE-2025-6218 Under Active Attack by Multiple
+    Threat Groups'
+  url: https://thehackernews.com/2025/12/warning-winrar-vulnerability-cve-2025.html
 - category: cybersecurity
   published: '2025-12-10T04:50:00'
   score: 1.298
@@ -14041,5 +14247,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-10T05:07:13.565284'
-total_articles: 1091
+last_updated: '2025-12-11T05:05:23.563558'
+total_articles: 1106
