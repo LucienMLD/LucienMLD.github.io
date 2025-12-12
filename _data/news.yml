@@ -1,5 +1,203 @@
 articles:
 - category: ai
+  published: '2025-12-12T03:45:17'
+  score: 0.971
+  source: Hugging Face
+  summary: Partial Differential Equations (PDEs) are a powerful mathematical tool
+    with applications in various fields, including AI, and understanding their importance
+    can lead to advancements in these domains.
+  tags: []
+  title: Why You Should Care About Partial Differential Equations (PDEs)
+  url: https://huggingface.co/blog/hugging-science/pde
+- category: webdev
+  published: '2025-12-12T02:51:40'
+  score: 0.886
+  source: Ars Technica
+  summary: 'The announcement of "Star Wars: Fate of the Old Republic" as a spiritual
+    successor to the popular "Knights of the Old Republic" game, with the original
+    director''s involvement, has generated excitement among Star Wars fans.'
+  tags:
+  - Gaming
+  - Bioware
+  - casey hudson
+  - KOTOR
+  - old republic
+  title: 'Star Wars: Fate of the Old Republic announced as a KOTOR spiritual successor'
+  url: https://arstechnica.com/gaming/2025/12/star-wars-fate-of-the-old-republic-announced-as-a-kotor-spiritual-successor/
+- category: webdev
+  published: '2025-12-12T01:50:08'
+  score: 0.88
+  source: Ars Technica
+  summary: Jonathan Blow, the director of the original "Knights of the Old Republic,"
+    has spent the past decade designing over 1,400 puzzles for his upcoming game,
+    showcasing his dedication to creating a challenging and engaging experience.
+  tags:
+  - Gaming
+  - Jonathan Blow
+  - Order of the Sinking Star
+  - puzzle
+  - The Witness
+  title: Jonathan Blow has spent the past decade designing 1,400 puzzles for you
+  url: https://arstechnica.com/gaming/2025/12/jonathan-blow-has-spent-the-past-decade-designing-1400-puzzles-for-you/
+- category: ai
+  published: '2025-12-11T23:47:33'
+  score: 0.944
+  source: Ars Technica
+  summary: Runway's new GWM-1 "world models" claim to maintain coherence for minutes
+    at a time, positioning the company as a competitor in the growing field of advanced
+    AI models alongside Google, Nvidia, and others.
+  tags:
+  - AI
+  - Gen-4.5
+  - GWM-1
+  - ML
+  - Robotics
+  title: Runway claims its GWM-1 “world models” can stay coherent for minutes at a
+    time
+  url: https://arstechnica.com/ai/2025/12/with-gwm-1-family-of-world-models-runway-shows-ambitions-beyond-hollywood/
+- category: webdev
+  published: '2025-12-11T23:03:37'
+  score: 0.802
+  source: BleepingComputer
+  summary: Brave browser has introduced a new AI browsing feature that leverages its
+    privacy-respecting AI assistant, Leo, to perform automated tasks for users, highlighting
+    the integration of AI into web browsing experiences.
+  tags:
+  - Artificial Intelligence
+  - Software
+  title: Brave browser starts testing agentic AI mode for automated tasks
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/brave-browser-starts-testing-agentic-ai-mode-for-automated-tasks/
+- category: webdev
+  published: '2025-12-11T23:03:02'
+  score: 0.762
+  source: Ars Technica
+  summary: Blizzard has decided to make the "floating house" exploit in World of Warcraft
+    an official feature, rather than fixing it, demonstrating a willingness to embrace
+    community-discovered mechanics that enhance the gameplay experience.
+  tags:
+  - Gaming
+  - Blizzard
+  - exploit
+  - floating house
+  - Glitch
+  title: Instead of fixing WoW’s new floating house exploit, Blizzard makes it official
+  url: https://arstechnica.com/gaming/2025/12/instead-of-fixing-wows-new-floating-house-exploit-blizzard-makes-it-official/
+- category: ai
+  published: '2025-12-11T21:27:18'
+  score: 1.004
+  source: Ars Technica
+  summary: OpenAI has released GPT-5.2, which the company claims tops Gemini and matches
+    humans on 70% of work tasks, posing a potential threat to Google's dominance in
+    the AI landscape.
+  tags:
+  - AI
+  - Biz & IT
+  - agentic AI
+  - AI assistants
+  - AI benchmarks
+  title: OpenAI releases GPT-5.2 after “code red” Google threat alert
+  url: https://arstechnica.com/information-technology/2025/12/openai-releases-gpt-5-2-after-code-red-google-threat-alert/
+- category: webdev
+  published: '2025-12-11T20:25:08'
+  score: 0.746
+  source: Ars Technica
+  summary: The Supergirl teaser provides a glimpse of a likably imperfect Kara Zor-El,
+    setting the tone for the new DCU film directed by Craig Gillespie, which is part
+    of the "Gods and Monsters" chapter.
+  tags:
+  - Culture
+  - entertainment
+  - film trailers
+  - Supergirl
+  - Trailers
+  title: Supergirl teaser gives us a likably imperfect Kara Zor-El
+  url: https://arstechnica.com/culture/2025/12/milly-alcock-is-out-for-revenge-in-supergirl-teaser/
+- category: ai
+  published: '2025-12-11T18:16:19'
+  score: 1.026
+  source: AWS Machine Learning
+  summary: Amazon SageMaker AI with MLflow now includes a serverless capability that
+    dynamically manages infrastructure provisioning, scaling, and operations for AI/ML
+    development tasks, making it easier to scale enterprise-level AI projects.
+  tags:
+  - Amazon SageMaker AI
+  - Amazon SageMaker Studio
+  - Announcements
+  - Artificial Intelligence
+  title: 'Scaling MLflow for enterprise AI: What’s New in SageMaker AI with MLflow'
+  url: https://aws.amazon.com/blogs/machine-learning/scaling-mlflow-for-enterprise-ai-whats-new-in-sagemaker-ai-with-mlflow/
+- category: ai
+  published: '2025-12-11T17:06:05'
+  score: 0.974
+  source: Schneier on Security
+  summary: Research has shown that AI models can be trained to automatically exploit
+    vulnerabilities in smart contracts, highlighting the need for more secure contract
+    design and potential limitations of relying on smart contracts.
+  tags:
+  - Uncategorized
+  - academic papers
+  - AI
+  - blockchain
+  - exploits
+  title: AIs Exploiting Smart Contracts
+  url: https://www.schneier.com/blog/archives/2025/12/ais-exploiting-smart-contracts.html
+- category: cybersecurity
+  published: '2025-12-11T13:19:50'
+  score: 1.082
+  source: BleepingComputer
+  summary: An unpatched zero-day vulnerability in the self-hosted Git service Gogs
+    has enabled attackers to gain remote code execution on Internet-facing instances,
+    leading to the compromise of hundreds of servers. The vulnerability highlights
+    the importance of keeping software up-to-date and the potential for widespread
+    impact when critical vulnerabilities are exploited.
+  tags:
+  - Security
+  title: Hackers exploit unpatched Gogs zero-day to breach 700 servers
+  url: https://www.bleepingcomputer.com/news/security/unpatched-gogs-zero-day-rce-flaw-actively-exploited-in-attacks/
+- category: cybersecurity
+  published: '2025-12-11T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA will no longer be updating ICS security advisories for Siemens product
+    vulnerabilities beyond the initial advisory. For the most up-to-date information
+    on vulnerabilities in this advisory, users should refer to the Siemens website,
+    emphasizing the need for proactive monitoring of vendor-provided security information.
+  tags: []
+  title: Siemens IAM Client
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-345-04
+- category: cybersecurity
+  published: '2025-12-11T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA will no longer be updating ICS security advisories for Siemens product
+    vulnerabilities beyond the initial advisory. Users should refer to the Siemens
+    website for the latest information on vulnerabilities in this advisory, underscoring
+    the importance of relying on vendor-provided security updates.
+  tags: []
+  title: Siemens Energy Services
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-345-08
+- category: cybersecurity
+  published: '2025-12-11T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: A critical vulnerability (CVSS v4 8.7) has been identified in the Johnson
+    Controls iSTAR product, which is remotely exploitable with low attack complexity.
+    This highlights the need for prompt patching and attention to security vulnerabilities
+    in industrial control systems.
+  tags: []
+  title: Johnson Controls iSTAR
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-345-01
+- category: cybersecurity
+  published: '2025-12-11T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: A vulnerability (CVSS v4 8.5) has been found in the Varex Imaging Panoramic
+    Dental Imaging Software, with low attack complexity. This underscores the importance
+    of maintaining secure software in the healthcare technology sector.
+  tags: []
+  title: Varex Imaging Panoramic Dental Imaging Software
+  url: https://www.cisa.gov/news-events/ics-medical-advisories/icsma-25-345-02
+- category: ai
   published: '2025-12-11T00:29:54'
   score: 0.948
   source: Ars Technica
@@ -14247,5 +14445,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-11T05:05:23.563558'
-total_articles: 1106
+last_updated: '2025-12-12T05:04:37.885447'
+total_articles: 1121
