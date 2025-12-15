@@ -1,5 +1,169 @@
 articles:
 - category: ai
+  published: '2025-12-14T18:12:00'
+  score: 0.849
+  source: Towards Data Science
+  summary: The article explains Softmax Regression, which is an extension of Logistic
+    Regression to handle multiple classes. It describes how Softmax Regression computes
+    one linear score per class and normalizes them using Softmax, resulting in multiclass
+    probabilities without changing the core logic.
+  tags:
+  - Artificial Intelligence
+  - Machine Learning
+  - Data Science
+  - Statistics
+  title: 'The Machine Learning “Advent Calendar” Day 14: Softmax Regression in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-14-softmax-regression-in-excel/
+- category: cybersecurity
+  published: '2025-12-14T17:10:39'
+  score: 0.918
+  source: Schneier on Security
+  summary: The article provides a list of upcoming speaking engagements for the author,
+    including a book signing event at the Chicago Public Library on February 5, 2026.
+    The article aims to inform readers about the author's scheduled appearances and
+    speaking events.
+  tags:
+  - Uncategorized
+  - Schneier news
+  title: Upcoming Speaking Engagements
+  url: https://www.schneier.com/blog/archives/2025/12/upcoming-speaking-engagements-51.html
+- category: cybersecurity
+  published: '2025-12-14T16:06:10'
+  score: 0.862
+  source: BleepingComputer
+  summary: The article discusses a scam that abuses PayPal's "Subscriptions" billing
+    feature to send legitimate-looking PayPal emails containing fake purchase notifications.
+    The scam aims to deceive users into clicking on the embedded Customer service
+    URL, which could potentially lead to further malicious activities.
+  tags:
+  - Security
+  title: 'Beware: PayPal subscriptions abused to send fake purchase emails'
+  url: https://www.bleepingcomputer.com/news/security/beware-paypal-subscriptions-abused-to-send-fake-purchase-emails/
+- category: webdev
+  published: '2025-12-14T14:30:29'
+  score: 0.709
+  source: Towards Data Science
+  summary: The article discusses the skills that bridge technical work and business
+    impact, based on an interview with a data analyst and project manager. It emphasizes
+    the importance of developing a combination of technical, communication, and problem-solving
+    skills to drive meaningful business outcomes.
+  tags:
+  - Artificial Intelligence
+  - Author Spotlights
+  - Business
+  - Data Science
+  - Machine Learning
+  title: The Skills That Bridge Technical Work and Business Impact
+  url: https://towardsdatascience.com/the-skills-that-bridge-technical-work-and-business-impact/
+- category: webdev
+  published: '2025-12-14T10:24:00'
+  score: 0.843
+  source: Towards Data Science
+  summary: The article introduces the use of Python's match-case statement for parsing
+    JSON data, which can help simplify and streamline the code compared to traditional
+    if-else chains. It highlights the benefits of this approach in terms of readability
+    and maintainability.
+  tags:
+  - Programming
+  - Data Engineering
+  - Data Quality
+  - Data Validation
+  - Programing
+  title: 'Stop Writing Spaghetti if-else Chains: Parsing JSON with Python’s match-case'
+  url: https://towardsdatascience.com/stop-writing-spaghetti-if-else-chains-parsing-json-with-pythons-match-case/
+- category: ai
+  published: '2025-12-13T19:25:32'
+  score: 0.642
+  source: Machine Learning Mastery
+  summary: The article provides a practical walkthrough of how Large Language Models
+    (LLMs) choose their words, including an explanation of logits, softmax, and different
+    sampling techniques (temperature, top-k, and top-p).
+  tags: []
+  title: 'How LLMs Choose Their Words: A Practical Walk-Through of Logits, Softmax
+    and Sampling'
+  url: https://machinelearningmastery.com/how-llms-choose-their-words-a-practical-walk-through-of-logits-softmax-and-sampling/
+- category: ai
+  published: '2025-12-13T16:56:00'
+  score: 0.625
+  source: Towards Data Science
+  summary: The article explains Ridge and Lasso regression, which are forms of regularized
+    linear regression. It highlights that the core prediction model remains the same,
+    but the training objective changes by adding a penalty on the coefficients to
+    force the model to choose more stable solutions.
+  tags:
+  - Artificial Intelligence
+  - Machine Learning
+  - Data Science
+  title: 'The Machine Learning “Advent Calendar” Day 13: LASSO and Ridge Regression
+    in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-13-lasso-and-ridge-regression-in-excel/
+- category: cybersecurity
+  published: '2025-12-13T15:11:21'
+  score: 0.674
+  source: BleepingComputer
+  summary: The article reports that the pro-Russia hacktivist group CyberVolk launched
+    a ransomware-as-a-service (RaaS) called VolkLocker, which suffered from serious
+    implementation flaws, allowing victims to potentially decrypt their files for
+    free.
+  tags:
+  - Security
+  title: CyberVolk’s ransomware debut stumbles on cryptography weakness
+  url: https://www.bleepingcomputer.com/news/security/cybervolks-ransomware-debut-stumbles-on-cryptography-weakness/
+- category: webdev
+  published: '2025-12-13T13:30:00'
+  score: 0.502
+  source: Towards Data Science
+  summary: The article discusses techniques to increase coding iteration speed, focusing
+    on the importance of local testing to become a more efficient programmer.
+  tags:
+  - LLM Applications
+  - Agentic Ai
+  - claude
+  - Cursor
+  - Llm
+  title: How to Increase Coding Iteration Speed
+  url: https://towardsdatascience.com/how-to-increase-coding-iteration-speed/
+- category: cybersecurity
+  published: '2025-12-13T12:33:00'
+  score: 0.846
+  source: The Hacker News
+  summary: The article reports that the U.S. Cybersecurity and Infrastructure Security
+    Agency (CISA) has added a high-severity vulnerability (CVE-2018-4063) affecting
+    Sierra Wireless AirLink ALEOS routers to its Known Exploited Vulnerabilities (KEV)
+    catalog, as it is being actively exploited in the wild, enabling remote code execution
+    attacks.
+  tags: []
+  title: CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks
+  url: https://thehackernews.com/2025/12/cisa-adds-actively-exploited-sierra.html
+- category: ai
+  published: '2025-12-13T10:16:00'
+  score: 0.535
+  source: Towards Data Science
+  summary: The article presents a review of a NeurIPS 2025 best paper on Qwen's systematic
+    exploration of attention gating, which can bring about enhanced training stability,
+    the use of larger learning rates, and improved scaling properties.
+  tags:
+  - Artificial Intelligence
+  - Large Language Models
+  - LLM
+  - Data Science
+  - Editors Pick
+  title: 'NeurIPS 2025 Best Paper Review: Qwen’s Systematic Exploration of Attention
+    Gating'
+  url: https://towardsdatascience.com/neurips-2025-best-paper-review-qwens-systematic-exploration-of-attention-gating/
+- category: cybersecurity
+  published: '2025-12-13T05:32:00'
+  score: 0.793
+  source: The Hacker News
+  summary: Apple has released security updates for various operating systems and its
+    Safari web browser to address two security vulnerabilities that have been exploited
+    in the wild. One of these vulnerabilities is the same flaw that was previously
+    patched in Google Chrome.
+  tags: []
+  title: Apple Issues Security Updates After Two WebKit Flaws Found Exploited in the
+    Wild
+  url: https://thehackernews.com/2025/12/apple-issues-security-updates-after-two.html
+- category: ai
   published: '2025-12-12T03:45:17'
   score: 0.971
   source: Hugging Face
@@ -14445,5 +14609,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-12T05:04:37.885447'
-total_articles: 1121
+last_updated: '2025-12-15T05:06:45.113628'
+total_articles: 1133
