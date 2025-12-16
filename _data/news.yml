@@ -1,4 +1,166 @@
 articles:
+- category: cybersecurity
+  published: '2025-12-16T00:38:47'
+  score: 1.123
+  source: BleepingComputer
+  summary: SoundCloud confirmed a security breach where threat actors stole a database
+    containing user information, causing outages and VPN connection issues. The breach
+    resulted in disruption of the audio streaming platform's services.
+  tags:
+  - Security
+  title: SoundCloud confirms breach after member data stolen, VPN access disrupted
+  url: https://www.bleepingcomputer.com/news/security/soundcloud-confirms-breach-after-member-data-stolen-vpn-access-disrupted/
+- category: cybersecurity
+  published: '2025-12-15T23:24:57'
+  score: 1.065
+  source: BleepingComputer
+  summary: Google is discontinuing its "dark web report" security tool, stating that
+    it wants to focus on other tools it believes are more helpful.
+  tags:
+  - Google
+  - Security
+  title: Google is shutting down its dark web report feature in January
+  url: https://www.bleepingcomputer.com/news/google/google-is-shutting-down-its-dark-web-report-feature-in-january/
+- category: cybersecurity
+  published: '2025-12-15T23:13:44'
+  score: 1.112
+  source: BleepingComputer
+  summary: Japanese e-commerce giant Askul Corporation confirmed that RansomHouse
+    hackers stole around 740,000 customer records in a ransomware attack in October.
+  tags:
+  - Security
+  title: Askul confirms theft of 740k customer records in ransomware attack
+  url: https://www.bleepingcomputer.com/news/security/askul-confirms-theft-of-740k-customer-records-in-ransomhouse-attack/
+- category: ai
+  published: '2025-12-15T22:41:43'
+  score: 0.836
+  source: Ars Technica
+  summary: Merriam-Webster has named "AI-generated" as its word of the year, reflecting
+    the rise of low-quality AI-generated content in 2024.
+  tags:
+  - AI
+  - Biz & IT
+  - AI criticism
+  - ai slop
+  - dictionaries
+  title: Merriam-Webster’s word of the year delivers a dismissive verdict on junk
+    AI content
+  url: https://arstechnica.com/ai/2025/12/merriam-webster-crowns-slop-word-of-the-year-as-ai-content-floods-internet/
+- category: ai
+  published: '2025-12-15T19:41:01'
+  score: 0.859
+  source: Towards Data Science
+  summary: This article builds the Support Vector Machine (SVM) step by step from
+    familiar models, unifying logistic regression and SVM through optimization of
+    a common loss function and regularization.
+  tags:
+  - Machine Learning
+  - Algorithms
+  - Artificial Intelligence
+  - Deep Dives
+  - Excel
+  title: 'The Machine Learning “Advent Calendar” Day 15: SVM in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-15-svm-in-excel/
+- category: ai
+  published: '2025-12-15T18:12:22'
+  score: 0.849
+  source: AWS Machine Learning
+  summary: Amazon SageMaker HyperPod now supports elastic training, enabling machine
+    learning workloads to automatically scale based on resource availability, maximizing
+    GPU utilization, reducing costs, and accelerating model development.
+  tags:
+  - Amazon SageMaker
+  - Amazon SageMaker HyperPod
+  - Artificial Intelligence
+  - Intermediate (200)
+  title: Adaptive infrastructure for foundation model training with elastic training
+    on SageMaker HyperPod
+  url: https://aws.amazon.com/blogs/machine-learning/adaptive-infrastructure-for-foundation-model-training-with-elastic-training-on-sagemaker-hyperpod/
+- category: webdev
+  published: '2025-12-15T17:55:55'
+  score: 0.77
+  source: CSS-Tricks
+  summary: The Toon Title Text Generator is a new resource that generates fun, cartoon-style
+    typography for headings.
+  tags:
+  - Links
+  - generator
+  - SVG
+  - typography
+  title: Toon Title Text Generator
+  url: https://css-tricks.com/toon-title-text-generator/
+- category: ai
+  published: '2025-12-15T17:31:53'
+  score: 0.845
+  source: AWS Machine Learning
+  summary: This article showcases practical implementation strategies for evolving
+    existing DevOps architecture to support generative AI workloads and implement
+    GenAIOps practices.
+  tags:
+  - Amazon Bedrock
+  - Best Practices
+  - DevOps
+  - Generative AI
+  - Intermediate (200)
+  title: 'Operationalize generative AI workloads and scale to hundreds of use cases
+    with Amazon Bedrock – Part 1: GenAIOps'
+  url: https://aws.amazon.com/blogs/machine-learning/operationalize-generative-ai-workloads-and-scale-to-hundreds-of-use-cases-with-amazon-bedrock-part-1-genaiops/
+- category: webdev
+  published: '2025-12-15T16:19:23'
+  score: 0.76
+  source: CSS-Tricks
+  summary: The article presents a responsive list of avatars using modern CSS, with
+    the images slightly overlapping each other in a dynamic way to fit inside the
+    container.
+  tags:
+  - Articles
+  - images
+  - mask
+  title: Responsive List of Avatars Using Modern CSS (Part 1)
+  url: https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-1/
+- category: ai
+  published: '2025-12-15T16:01:04'
+  score: 0.834
+  source: Hugging Face
+  summary: CUGA on Hugging Face is a project that aims to democratize configurable
+    AI agents, allowing users to customize and deploy their own AI agents.
+  tags: []
+  title: 'CUGA on Hugging Face: Democratizing Configurable AI Agents'
+  url: https://huggingface.co/blog/ibm-research/cuga-on-hugging-face
+- category: cybersecurity
+  published: '2025-12-15T14:32:00'
+  score: 1.043
+  source: The Hacker News
+  summary: Multiple security vulnerabilities have been disclosed in the open-source
+    private branch exchange (PBX) platform FreePBX, including a critical flaw that
+    could result in an authentication bypass under certain configurations.
+  tags: []
+  title: FreePBX Patches Critical SQLi, File-Upload, and AUTHTYPE Bypass Flaws Enabling
+    RCE
+  url: https://thehackernews.com/2025/12/freepbx-authentication-bypass-exposed.html
+- category: cybersecurity
+  published: '2025-12-15T12:00:00'
+  score: 1.024
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation.
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/12/15/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: webdev
+  published: '2025-12-15T10:30:00'
+  score: 0.684
+  source: Towards Data Science
+  summary: The post discusses lessons learned from upgrading to LangChain 1.0 in production,
+    including what worked, what broke, and the reasons behind the upgrade.
+  tags:
+  - Agentic AI
+  - AI applications
+  - LLM Applications
+  - Artificial Intelligence
+  - Data Science
+  title: Lessons Learned from Upgrading to LangChain 1.0 in Production
+  url: https://towardsdatascience.com/lessons-learnt-from-upgrading-to-langchain-1-0-in-production/
 - category: ai
   published: '2025-12-14T18:12:00'
   score: 0.849
@@ -14609,5 +14771,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-15T05:06:45.113628'
-total_articles: 1133
+last_updated: '2025-12-16T05:05:30.208342'
+total_articles: 1146
