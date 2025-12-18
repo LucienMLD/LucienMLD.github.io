@@ -1,5 +1,196 @@
 articles:
 - category: ai
+  published: '2025-12-17T22:22:33'
+  score: 0.966
+  source: Ars Technica
+  summary: OpenAI's new GPT Image 1.5 model allows for more detailed and conversational
+    image editing, which could enable the easier creation of fake photos.
+  tags:
+  - AI
+  - Biz & IT
+  - AI image generator
+  - AI image generators
+  - API
+  title: OpenAI’s new ChatGPT image generator makes faking photos easy
+  url: https://arstechnica.com/ai/2025/12/openais-new-chatgpt-image-generator-makes-faking-photos-easy/
+- category: cybersecurity
+  published: '2025-12-17T18:45:36'
+  score: 1.074
+  source: BleepingComputer
+  summary: Cisco has warned customers about an unpatched, maximum-severity Cisco AsyncOS
+    zero-day that is actively being exploited in attacks targeting Secure Email Gateway
+    (SEG) and Secure Email and Web Manager (SEWM) appliances. Customers should monitor
+    for updates and apply patches as soon as available.
+  tags:
+  - Security
+  title: Cisco warns of unpatched AsyncOS zero-day exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisco-warns-of-unpatched-asyncos-zero-day-exploited-in-attacks/
+- category: cybersecurity
+  published: '2025-12-17T18:17:00'
+  score: 1.119
+  source: The Hacker News
+  summary: SonicWall has released fixes for a security vulnerability (CVE-2025-40602)
+    in its Secure Mobile Access (SMA) 100 series appliances that has been actively
+    exploited in the wild. The vulnerability, with a CVSS score of 6.6, allows for
+    local privilege escalation and needs to be addressed by SonicWall customers.
+  tags: []
+  title: SonicWall Fixes Actively Exploited CVE-2025-40602 in SMA 100 Appliances
+  url: https://thehackernews.com/2025/12/sonicwall-fixes-actively-exploited-cve.html
+- category: cybersecurity
+  published: '2025-12-17T17:44:18'
+  score: 1.115
+  source: BleepingComputer
+  summary: SonicWall has warned customers about a zero-day vulnerability in the SonicWall
+    SMA1000 Appliance Management Console (AMC) that has been chained in attacks to
+    escalate privileges. Customers are advised to patch the vulnerability to mitigate
+    the risk of exploitation.
+  tags:
+  - Security
+  title: Sonicwall warns of new SMA1000 zero-day exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-sma1000-zero-day-exploited-in-attacks/
+- category: ai
+  published: '2025-12-17T16:50:57'
+  score: 0.84
+  source: AWS Machine Learning
+  summary: This post demonstrates how to integrate Amazon SageMaker managed MLflow
+    as a central repository to log machine learning experiments and provide unified
+    monitoring, improving experiment tracking and model management.
+  tags:
+  - Amazon SageMaker AI
+  - Artificial Intelligence
+  - Intermediate (200)
+  - Technical How-to
+  title: Track machine learning experiments with MLflow on Amazon SageMaker using
+    Snowflake integration
+  url: https://aws.amazon.com/blogs/machine-learning/track-machine-learning-experiments-with-mlflow-on-amazon-sagemaker-using-snowflake-integration/
+- category: webdev
+  published: '2025-12-17T16:30:00'
+  score: 0.721
+  source: Towards Data Science
+  summary: This article provides a practical toolkit for time series anomaly detection
+    using Python, allowing users to identify point anomalies within each series and
+    anomalous signals across the whole dataset.
+  tags:
+  - Data Science
+  - Anomaly Detection
+  - Editors Pick
+  - Machine Learning
+  - Python
+  title: A Practical Toolkit for Time Series Anomaly Detection, Using Python
+  url: https://towardsdatascience.com/a-practical-toolkit-for-time-series-anomaly-detection-using-python/
+- category: cybersecurity
+  published: '2025-12-17T16:09:51'
+  score: 1.103
+  source: BleepingComputer
+  summary: A ransomware gang has exploited the critical React2Shell vulnerability
+    (CVE-2025-55182) to gain initial access to corporate networks and deploy file-encrypting
+    malware in less than a minute, highlighting the need for prompt patching.
+  tags:
+  - Security
+  title: Critical React2Shell flaw exploited in ransomware attacks
+  url: https://www.bleepingcomputer.com/news/security/critical-react2shell-flaw-exploited-in-ransomware-attacks/
+- category: ai
+  published: '2025-12-17T16:00:00'
+  score: 0.834
+  source: Google AI Blog
+  summary: Gemini 3 Flash is a new AI-powered text generation tool focused on speed
+    and performance for frontier intelligence applications.
+  tags:
+  - Gemini Models
+  - Google DeepMind
+  - AI
+  title: 'Gemini 3 Flash: frontier intelligence built for speed'
+  url: https://blog.google/products/gemini/gemini-3-flash/
+- category: webdev
+  published: '2025-12-17T15:21:34'
+  score: 0.754
+  source: CSS-Tricks
+  summary: This article builds on a previous work to create a responsive list of circular
+    avatar images, arranging them around a circle with a clean hover effect.
+  tags:
+  - Articles
+  - container-queries
+  - images
+  - list
+  - mask
+  title: Responsive List of Avatars Using Modern CSS (Part 2)
+  url: https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-2/
+- category: ai
+  published: '2025-12-17T15:10:03'
+  score: 0.828
+  source: Machine Learning Mastery
+  summary: This article reviews the top 5 vector databases for high-performance large
+    language model (LLM) applications, which are crucial for searching through massive
+    datasets and retrieving relevant context.
+  tags: []
+  title: Top 5 Vector Databases for High-Performance LLM Applications
+  url: https://machinelearningmastery.com/top-5-vector-databases-for-high-performance-llm-applications/
+- category: webdev
+  published: '2025-12-17T15:00:00'
+  score: 0.712
+  source: Towards Data Science
+  summary: This article walks through building a neural network regressor from scratch
+    using only Excel formulas, making the inner workings of neural networks more transparent.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Backpropagation
+  - Data Science
+  - Excel
+  title: 'The Machine Learning “Advent Calendar” Day 17: Neural Network Regressor
+    in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-17-neural-network-regressor-in-excel/
+- category: ai
+  published: '2025-12-17T13:30:00'
+  score: 0.817
+  source: Towards Data Science
+  summary: This article presents a minimal-code, configuration-first approach to providing
+    production-grade observability for AI agent systems, enabling regression testing
+    and end-to-end traceability.
+  tags:
+  - Agentic AI
+  - Ai Engineering
+  - Artificial Intelligence
+  - Deep Dives
+  - Llm Agent
+  title: 'Production-Grade Observability for AI Agents: A Minimal-Code, Configuration-First
+    Approach'
+  url: https://towardsdatascience.com/production-grade-observability-for-ai-agents-a-minimal-code-configuration-first-approach/
+- category: cybersecurity
+  published: '2025-12-17T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog based on evidence of active exploitation, underscoring the importance
+    of timely vulnerability management.
+  tags: []
+  title: CISA Adds Three Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/12/17/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- category: webdev
+  published: '2025-12-17T12:00:00'
+  score: 0.693
+  source: Towards Data Science
+  summary: This article presents 3 techniques for effectively utilizing AI agents
+    for coding, empowering engineers to be more productive and efficient in their
+    work.
+  tags:
+  - LLM Applications
+  - Ai Agent
+  - coding agents
+  - Cursor
+  - Data Science
+  title: 3 Techniques to Effectively Utilize AI Agents for Coding
+  url: https://towardsdatascience.com/3-techniques-to-effectively-utilize-ai-agents-for-coding/
+- category: webdev
+  published: '2025-12-17T10:00:00'
+  score: 0.761
+  source: Smashing Magazine
+  summary: This article demonstrates techniques for creating toon text titles using
+    modern CSS and SVG, showcasing creative web design techniques.
+  tags: []
+  title: 'Smashing Animations Part 7: Recreating Toon Text With CSS And SVG'
+  url: https://smashingmagazine.com/2025/12/smashing-animations-part-7-recreating-toon-text-css-svg/
+- category: ai
   published: '2025-12-16T21:25:05'
   score: 0.827
   source: Ars Technica
@@ -14935,5 +15126,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-17T05:05:26.893293'
-total_articles: 1160
+last_updated: '2025-12-18T05:05:43.021446'
+total_articles: 1175
