@@ -1,5 +1,187 @@
 articles:
 - category: ai
+  published: '2025-12-19T03:18:51'
+  score: 0.968
+  source: Ars Technica
+  summary: DiskSat's design offers a power-to-weight ratio unmatched by traditional
+    aluminum satellites, potentially enabling new capabilities for flying disc-shaped
+    spacecraft.
+  tags:
+  - Science
+  - Space
+  title: These are the flying discs the government wants you to know about
+  url: https://arstechnica.com/science/2025/12/heres-why-nasa-and-the-space-force-are-interested-in-pizza-shaped-satellites/
+- category: cybersecurity
+  published: '2025-12-19T01:15:19'
+  score: 1.079
+  source: BleepingComputer
+  summary: A recent Windows 11 security update broke the Message Queuing (MSMQ) feature,
+    which is commonly used by enterprises for managing background tasks. Microsoft
+    has released an out-of-band update to fix this issue and restore the functionality
+    of MSMQ.
+  tags:
+  - Microsoft
+  - Software
+  title: Windows 10 OOB update released to fix Message Queuing (MSMQ) issues
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-10-oob-update-released-to-fix-message-queuing-msmq-issues/
+- category: ai
+  published: '2025-12-18T22:39:54'
+  score: 0.836
+  source: Ars Technica
+  summary: Google has banned two popular YouTube channels that created fake AI-generated
+    movie trailers, indicating the company's desire to control the narrative around
+    AI content on its platform.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - Ai video
+  - Artificial Intelligence
+  title: YouTube bans two popular channels that created fake AI movie trailers
+  url: https://arstechnica.com/google/2025/12/youtube-bans-two-popular-channels-that-created-fake-ai-movie-trailers/
+- category: ai
+  published: '2025-12-18T20:54:36'
+  score: 0.868
+  source: Ars Technica
+  summary: As researchers turn to large language models (LLMs), paper counts go up,
+    but the overall quality of publications does not, suggesting that the widespread
+    use of LLMs in research may be impacting the quality of scientific output.
+  tags:
+  - Science
+  - AI
+  - LLMs
+  - science
+  - scientific publications
+  title: 'LLMs’ impact on science: Booming publications, stagnating quality'
+  url: https://arstechnica.com/science/2025/12/llms-impact-on-science-booming-publications-stagnating-quality/
+- category: webdev
+  published: '2025-12-18T17:56:43'
+  score: 0.73
+  source: Towards Data Science
+  summary: The article explains how to build a neural network classifier in Excel,
+    demonstrating the understanding of forward propagation and backpropagation through
+    explicit formulas.
+  tags:
+  - Machine Learning
+  - Algorithms
+  - Artificial Intelligence
+  - Data Science
+  - Neural Network
+  title: 'The Machine Learning “Advent Calendar” Day 18: Neural Network Classifier
+    in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-18-neural-network-classifier-in-excel/
+- category: webdev
+  published: '2025-12-18T17:55:22'
+  score: 0.73
+  source: Ars Technica
+  summary: Ars Technica staff have compiled a list of last-minute holiday gift picks,
+    including two wireless mice, two external hard drives, and other tech-related
+    items.
+  tags:
+  - Shopping
+  - Blu-ray
+  - buying guide
+  - gifts
+  - kagi
+  title: 'For the lazy techie: These are Ars staff’s last-minute holiday gift picks'
+  url: https://arstechnica.com/shopping/2025/12/for-the-lazy-techie-these-are-ars-staffs-last-minute-holiday-gift-picks/
+- category: webdev
+  published: '2025-12-18T15:40:37'
+  score: 0.716
+  source: Machine Learning Mastery
+  summary: The article provides five tips and tricks for "agentic coding," emphasizing
+    the importance of shipping correct diffs, passing tests, and leaving a paper trail
+    that can be trusted.
+  tags: []
+  title: 5 Agentic Coding Tips & Tricks
+  url: https://machinelearningmastery.com/5-agentic-coding-tips-tricks/
+- category: webdev
+  published: '2025-12-18T15:34:23'
+  score: 0.756
+  source: CSS-Tricks
+  summary: A new Raycast extension allows users to easily search the CSS-Tricks website,
+    providing a convenient way to find relevant articles and information.
+  tags:
+  - Links
+  - resource
+  title: Search CSS-Tricks Raycast Extension
+  url: https://css-tricks.com/search-css-tricks-raycast-extension/
+- category: webdev
+  published: '2025-12-18T13:52:45'
+  score: 0.705
+  source: Ars Technica
+  summary: Formula 1 is introducing new jargon for the 2026 season, including terms
+    like "corner mode," "straight mode," and "overtake mode," as the sport continues
+    to evolve its technical language.
+  tags:
+  - Cars
+  - F1
+  title: Formula 1 is deploying new jargon for 2026
+  url: https://arstechnica.com/cars/2025/12/formula-1-is-deploying-new-jargon-for-2026/
+- category: cybersecurity
+  published: '2025-12-18T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Successful exploitation of vulnerabilities in the Advantech WebAccess/SCADA
+    system could allow an authenticated attacker to read or modify a remote database.
+    The vulnerabilities were disclosed in a Cybersecurity Advisory (CSAF) from the
+    Cybersecurity and Infrastructure Security Agency (CISA).
+  tags: []
+  title: Advantech WebAccess/SCADA
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-06
+- category: cybersecurity
+  published: '2025-12-18T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Successful exploitation of a vulnerability in the Inductive Automation
+    Ignition system could grant an attacker SYSTEM-level code execution on the host
+    operating system. The vulnerability was disclosed in a CSAF from CISA.
+  tags: []
+  title: Inductive Automation Ignition
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-01
+- category: cybersecurity
+  published: '2025-12-18T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Successful exploitation of vulnerabilities in the National Instruments
+    LabView software could allow an attacker to disclose information and execute arbitrary
+    code. The vulnerabilities were disclosed in a CSAF from CISA.
+  tags: []
+  title: National Instruments LabView
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-03
+- category: cybersecurity
+  published: '2025-12-18T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Schneider Electric is aware of a vulnerability in the Microsoft Windows
+    Server Update Services (WSUS) used in the company's EcoStruxure Foxboro DCS Advisor
+    product. The vulnerability could be exploited by an attacker, but Schneider Electric
+    has not yet released a fix.
+  tags: []
+  title: Schneider Electric EcoStruxure Foxboro DCS Advisor
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-02
+- category: ai
+  published: '2025-12-18T11:00:00'
+  score: 0.888
+  source: OpenAI
+  summary: OpenAI is updating its Model Spec with new Under-18 Principles to provide
+    safer, age-appropriate guidance for teens using ChatGPT, strengthening guardrails
+    and clarifying expected model behavior in higher-risk situations.
+  tags: []
+  title: Updating our Model Spec with teen protections
+  url: https://openai.com/index/updating-model-spec-with-teen-protections
+- category: ai
+  published: '2025-12-18T11:00:00'
+  score: 0.888
+  source: OpenAI
+  summary: OpenAI has released new AI literacy resources to help teens and parents
+    use ChatGPT thoughtfully, safely, and with confidence, including expert-vetted
+    tips for responsible use, critical thinking, healthy boundaries, and supporting
+    teens through emotional or sensitive topics.
+  tags: []
+  title: AI literacy resources for teens and parents
+  url: https://openai.com/index/ai-literacy-resources-for-teens-and-parents
+- category: ai
   published: '2025-12-17T22:22:33'
   score: 0.966
   source: Ars Technica
@@ -15126,5 +15308,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-18T05:05:43.021446'
-total_articles: 1175
+last_updated: '2025-12-19T05:05:17.895068'
+total_articles: 1190
