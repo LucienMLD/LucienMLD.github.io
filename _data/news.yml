@@ -1,5 +1,138 @@
 articles:
 - category: ai
+  published: '2025-12-22T04:27:38'
+  score: 0.976
+  source: Machine Learning Mastery
+  summary: The article discusses training a tokenizer with special tokens, preparing
+    training data, and running pretraining for a Llama model using a local GPU. The
+    key technical points involve the model architecture and the process of pretraining
+    the model on custom data.
+  tags: []
+  title: Pretraining a Llama Model on Your Local GPU
+  url: https://machinelearningmastery.com/pretraining-a-llama-model-on-your-local-gpu/
+- category: ai
+  published: '2025-12-21T15:30:00'
+  score: 0.786
+  source: Towards Data Science
+  summary: The article discusses techniques for comparing metrics across datasets
+    and models, which is particularly relevant for evaluating a bloated Retrieval-Augmented
+    Generation (RAG) pipeline. The key technical points involve handling the complexities
+    of evaluating such a pipeline.
+  tags:
+  - Large Language Models
+  - Editors Pick
+  - Evals
+  - Llm
+  - Llm Evaluation
+  title: How to Do Evals on a Bloated RAG Pipeline
+  url: https://towardsdatascience.com/doing-evals-on-a-bloated-rag-pipeline/
+- category: ai
+  published: '2025-12-21T13:00:00'
+  score: 0.813
+  source: Towards Data Science
+  summary: The article provides a deep dive into MCP, a key enabler for turning a
+    large language model (LLM) into an agent by allowing it to retrieve real-time
+    information or perform actions. The article covers how MCP works, when to use
+    it, and what to watch out for.
+  tags:
+  - LLM Applications
+  - Agentic Ai
+  - Artificial Intelligence
+  - Machine Learning
+  - mcp
+  title: 'Tools for Your LLM: a Deep Dive into MCP'
+  url: https://towardsdatascience.com/tools-for-your-llm-a-deep-dive-into-mcp/
+- category: cybersecurity
+  published: '2025-12-21T04:22:00'
+  score: 0.868
+  source: The Hacker News
+  summary: The article discusses the resurfacing of the Iranian threat actor known
+    as Infy (Prince of Persia), which has been targeting victims in Sweden, the Netherlands,
+    and Turkey. The scale of the group's activity is significant, and it has been
+    observed deploying new malware after a long period of silence.
+  tags: []
+  title: Iranian Infy APT Resurfaces with New Malware Activity After Years of Silence
+  url: https://thehackernews.com/2025/12/iranian-infy-apt-resurfaces-with-new.html
+- category: ai
+  published: '2025-12-20T15:51:36'
+  score: 0.618
+  source: Machine Learning Mastery
+  summary: The article discusses Rotary Position Embeddings (RoPE), a technique for
+    improving the performance of Transformer models on long context lengths. The key
+    technical points involve the use of a rotation matrix to mutate the input tensor
+    and the comparison to sinusoidal position embeddings.
+  tags: []
+  title: Rotary Position Embeddings for Long Context Length
+  url: https://machinelearningmastery.com/rotary-position-embeddings-for-long-context-length/
+- category: cybersecurity
+  published: '2025-12-20T15:23:34'
+  score: 0.723
+  source: BleepingComputer
+  summary: The article reports that the RansomHouse ransomware-as-a-service (RaaS)
+    has upgraded its encryptor, switching from a relatively simple single-phase linear
+    technique to a more complex, multi-layered method. This indicates an increase
+    in the sophistication of the ransomware.
+  tags:
+  - Security
+  title: RansomHouse upgrades encryption with multi-layered data processing
+  url: https://www.bleepingcomputer.com/news/security/ransomhouse-upgrades-encryption-with-multi-layered-data-processing/
+- category: ai
+  published: '2025-12-20T15:00:00'
+  score: 0.612
+  source: Towards Data Science
+  summary: The article explores what regular technology users think and know about
+    generative AI. It provides insights into the user's understanding and perception
+    of this emerging technology.
+  tags:
+  - Product Management
+  - Ai Product Management
+  - Artificial Intelligence
+  - Editors Pick
+  - Machine Learning
+  title: Understanding the Generative AI User
+  url: https://towardsdatascience.com/understanding-the-generative-ai-user/
+- category: cybersecurity
+  published: '2025-12-20T13:48:00'
+  score: 0.663
+  source: The Hacker News
+  summary: The article announces the indictment of 54 individuals involved in a multi-million
+    dollar ATM jackpotting scheme using the Ploutus malware. The scheme involved hacking
+    into ATMs across the U.S. and forcing them to dispense cash.
+  tags: []
+  title: U.S. DOJ Charges 54 in ATM Jackpotting Scheme Using Ploutus Malware
+  url: https://thehackernews.com/2025/12/us-doj-charges-54-in-atm-jackpotting.html
+- category: webdev
+  published: '2025-12-20T13:00:00'
+  score: 0.539
+  source: Towards Data Science
+  summary: The article presents techniques for analyzing product performance, extracting
+    time-series features, and uncovering key seasonal trends in sales data using Pandas.
+    The key technical points involve the exploratory data analysis (EDA) process and
+    the use of Pandas for time-series analysis.
+  tags:
+  - Data Science
+  - Exploratory Data Analysis
+  - Machine Learning
+  - Pandas
+  - Programming
+  title: 'EDA in Public (Part 2): Product Deep Dive & Time-Series Analysis in Pandas'
+  url: https://towardsdatascience.com/eda-in-public-part-2-product-deep-dive-time-series-analysis-in-pandas/
+- category: cybersecurity
+  published: '2025-12-20T12:15:03'
+  score: 0.604
+  source: Ars Technica
+  summary: The article discusses the new carbon tax on imported goods that will be
+    implemented by the European Union. This regulation will have a significant impact
+    on global trade patterns.
+  tags:
+  - Policy
+  - carbon border adjustment mechanism
+  - EU
+  - european union
+  - global trade
+  title: How Europe’s new carbon tax on imported goods will change global trade
+  url: https://arstechnica.com/tech-policy/2025/12/how-europes-new-carbon-tax-on-imported-goods-will-change-global-trade/
+- category: ai
   published: '2025-12-19T03:18:51'
   score: 0.968
   source: Ars Technica
@@ -15308,5 +15441,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-19T05:05:17.895068'
-total_articles: 1190
+last_updated: '2025-12-22T05:06:14.660643'
+total_articles: 1200
