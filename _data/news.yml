@@ -1,4 +1,198 @@
 articles:
+- category: cybersecurity
+  published: '2025-12-22T23:51:44'
+  score: 1.021
+  source: Ars Technica
+  summary: Tory Bruno, the CEO of United Launch Alliance (ULA), has announced his
+    departure. Bruno's leadership has been instrumental in ULA's transformation and
+    the introduction of the Vulcan launch vehicle.
+  tags:
+  - Science
+  - Space
+  - atlas v
+  - Boeing
+  - launch
+  title: In a surprise announcement, Tory Bruno is out as CEO of United Launch Alliance
+  url: https://arstechnica.com/space/2025/12/in-a-surprise-announcement-tory-bruno-is-out-as-ceo-of-united-launch-alliance/
+- category: webdev
+  published: '2025-12-22T22:55:32'
+  score: 0.761
+  source: Towards Data Science
+  summary: The article delves into the concept of text embeddings, a fundamental technique
+    in natural language processing, and demonstrates its implementation in Microsoft
+    Excel. This provides a accessible way to understand and work with text embeddings.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Data Science
+  - Deep Learning
+  - Text Embedding
+  title: 'The Machine Learning “Advent Calendar” Day 22: Embeddings in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-22-embeddings-in-excel/
+- category: ai
+  published: '2025-12-22T22:48:11'
+  score: 0.881
+  source: Towards Data Science
+  summary: The article explains the gradient boosted decision tree regressor, a powerful
+    machine learning algorithm, and demonstrates its implementation in Microsoft Excel.
+    This provides a practical example of applying advanced ML techniques in a familiar
+    spreadsheet environment.
+  tags:
+  - Machine Learning
+  - Algorithms
+  - Artificial Intelligence
+  - Data Science
+  - Decision Tree
+  title: 'The Machine Learning “Advent Calendar” Day 21: Gradient Boosted Decision
+    Tree Regressor in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-21-gradient-boosted-decision-tree-regressor-in-excel/
+- category: ai
+  published: '2025-12-22T22:32:59'
+  score: 0.879
+  source: Towards Data Science
+  summary: The article explores gradient boosted linear regression, a machine learning
+    technique that combines the strengths of linear regression and gradient boosting.
+    The implementation in Microsoft Excel offers a hands-on approach to understanding
+    this algorithm.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Data Science
+  - Deep Dives
+  - Gradient Boosting
+  title: 'The Machine Learning “Advent Calendar” Day 20: Gradient Boosted Linear Regression
+    in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-20-gradient-boosted-linear-regression-in-excel/
+- category: ai
+  published: '2025-12-22T18:51:18'
+  score: 0.854
+  source: Towards Data Science
+  summary: ChatLLM is presented as a streamlined solution that addresses the real
+    bottleneck in AI, which is not the model size or performance, but the ability
+    to easily integrate and deploy these models in real-world applications.
+  tags:
+  - Artificial Intelligence
+  - LLM Applications
+  - Sponsored Content
+  - Chatbot
+  - Large Language Models
+  title: ChatLLM Presents a Streamlined Solution to Addressing the Real Bottleneck
+    in AI
+  url: https://towardsdatascience.com/chatllm-presents-a-streamlined-solution-to-addressing-the-real-bottleneck-in-ai/
+- category: ai
+  published: '2025-12-22T18:32:19'
+  score: 0.895
+  source: AWS Machine Learning
+  summary: This article demonstrates how to host Voxtral models, a large language
+    model (LLM) solution, on Amazon SageMaker AI endpoints using the Bring Your Own
+    Container (BYOC) approach. This allows for efficient deployment and scaling of
+    the Voxtral AI models.
+  tags:
+  - Amazon SageMaker AI
+  - Generative AI
+  - Technical How-to
+  title: Deploy Mistral AI’s Voxtral on Amazon SageMaker AI
+  url: https://aws.amazon.com/blogs/machine-learning/deploy-mistral-ais-voxtral-on-amazon-sagemaker-ai/
+- category: ai
+  published: '2025-12-22T18:21:28'
+  score: 0.894
+  source: AWS Machine Learning
+  summary: The article showcases a predictive maintenance solution using Foundation
+    Models (FMs) on Amazon Bedrock, with a case study in Amazon's manufacturing equipment
+    within their fulfillment centers. The solution is highly adaptable and can be
+    customized for other industries.
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Bedrock Guardrails
+  - Amazon Bedrock Knowledge Bases
+  - Amazon Monitron
+  title: Build a multimodal generative AI assistant for root cause diagnosis in predictive
+    maintenance using Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-multimodal-generative-ai-assistant-for-root-cause-diagnosis-in-predictive-maintenance-using-amazon-bedrock/
+- category: cybersecurity
+  published: '2025-12-22T17:05:09'
+  score: 1.062
+  source: Schneier on Security
+  summary: Microsoft is finally retiring the outdated encryption algorithm RC4, which
+    has been a security concern for over two decades. The removal of RC4 from Windows
+    will improve the overall security posture of the operating system.
+  tags:
+  - Uncategorized
+  - algorithms
+  - Applied Cryptography
+  - encryption
+  - Microsoft
+  title: Microsoft Is Finally Killing RC4
+  url: https://www.schneier.com/blog/archives/2025/12/microsoft-is-finally-killing-rc4.html
+- category: webdev
+  published: '2025-12-22T15:59:29'
+  score: 0.718
+  source: Machine Learning Mastery
+  summary: The article explores three smart ways to encode categorical features for
+    machine learning models, addressing the common challenge of handling non-numerical
+    data in predictive modeling tasks.
+  tags: []
+  title: 3 Smart Ways to Encode Categorical Features for Machine Learning
+  url: https://machinelearningmastery.com/3-smart-ways-to-encode-categorical-features-for-machine-learning/
+- category: webdev
+  published: '2025-12-22T14:39:52'
+  score: 0.75
+  source: CSS-Tricks
+  summary: The `text-decoration-inset` CSS property solves the issue of text decorations
+    (such as underlines) extending beyond the first and last characters, resulting
+    in vertical misalignment. This feature enhances the visual presentation of text
+    decorations.
+  tags:
+  - Articles
+  - typography
+  title: text-decoration-inset is Like Padding for Text Decorations
+  url: https://css-tricks.com/text-decoration-inset-is-like-padding-for-text-decorations/
+- category: cybersecurity
+  published: '2025-12-22T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: CISA has added a new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, indicating active exploitation. The vulnerability is related to
+    a security issue that could potentially be abused by attackers to compromise systems.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/12/22/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2025-12-22T12:00:00'
+  score: 1.024
+  source: The Hacker News
+  summary: Cyber threats last week highlighted how attackers are targeting everyday
+    tools like firewalls, browser add-ons, and smart TVs, turning small vulnerabilities
+    into serious breaches. The real danger now lies in the accumulation of numerous
+    smaller attacks rather than a single major incident.
+  tags: []
+  title: '⚡ Weekly Recap: Firewall Exploits, AI Data Theft, Android Hacks, APT Attacks,
+    Insider Leaks & More'
+  url: https://thehackernews.com/2025/12/weekly-recap-firewall-exploits-ai-data.html
+- category: webdev
+  published: '2025-12-22T11:55:00'
+  score: 0.733
+  source: The Hacker News
+  summary: The article discusses ways to browse the web more sustainably, highlighting
+    the environmental impact of data centers, constant connectivity, and resource-heavy
+    browsing habits. It provides tips on how users can adopt more eco-friendly browsing
+    practices.
+  tags: []
+  title: How to Browse the Web More Sustainably With a Green Browser
+  url: https://thehackernews.com/2025/12/how-to-browse-sustainably-with-a-green-browser.html
+- category: cybersecurity
+  published: '2025-12-22T09:00:55'
+  score: 1.049
+  source: BleepingComputer
+  summary: A critical remote code execution (RCE) vulnerability in WatchGuard firewalls
+    is being actively exploited, putting over 115,000 exposed devices at risk. Users
+    are advised to promptly patch their systems to mitigate the vulnerability and
+    prevent potential attacks.
+  tags:
+  - Security
+  title: Critical RCE flaw impacts over 115,000 WatchGuard firewalls
+  url: https://www.bleepingcomputer.com/news/security/over-115-000-watchguard-firewalls-vulnerable-to-ongoing-rce-attacks/
 - category: ai
   published: '2025-12-22T04:27:38'
   score: 0.976
@@ -15441,5 +15635,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-22T05:06:14.660643'
-total_articles: 1200
+last_updated: '2025-12-23T05:05:54.515807'
+total_articles: 1214
