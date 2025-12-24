@@ -1,4 +1,206 @@
 articles:
+- category: webdev
+  published: '2025-12-24T02:03:10'
+  score: 0.881
+  source: Towards Data Science
+  summary: The article presents a step-by-step 1D Convolutional Neural Network (CNN)
+    for text, built entirely in Excel, allowing users to fully understand and visualize
+    the inner workings of the model, which can be a valuable educational tool for
+    learning about machine learning.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Cnn
+  - Data Science
+  - Deep Learning
+  title: 'The Machine Learning “Advent Calendar” Day 23: CNN in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-23-cnn-in-excel/
+- category: ai
+  published: '2025-12-23T22:18:12'
+  score: 0.833
+  source: AWS Machine Learning
+  summary: Mantle, Amazon's next-generation inference engine for Amazon Bedrock, implements
+    a zero operator access (ZOA) design that eliminates any technical means for AWS
+    operators to access customer data, ensuring enhanced data privacy and security
+    for users.
+  tags:
+  - Amazon Bedrock
+  - Amazon Machine Learning
+  - Artificial Intelligence
+  - Thought Leadership
+  title: Exploring the zero operator access design of Mantle
+  url: https://aws.amazon.com/blogs/machine-learning/exploring-the-zero-operator-access-design-of-mantle/
+- category: cybersecurity
+  published: '2025-12-23T19:31:53'
+  score: 1.032
+  source: BleepingComputer
+  summary: The WebRAT malware is being distributed through fake GitHub repositories
+    that claim to host proof-of-concept exploits for recently disclosed vulnerabilities,
+    allowing attackers to spread the malware. This highlights the need for users to
+    be cautious when downloading and executing code from untrusted sources.
+  tags:
+  - Security
+  title: WebRAT malware spread via fake vulnerability exploits on GitHub
+  url: https://www.bleepingcomputer.com/news/security/webrat-malware-spread-via-fake-vulnerability-exploits-on-github/
+- category: ai
+  published: '2025-12-23T17:11:30'
+  score: 0.842
+  source: AWS Machine Learning
+  summary: Qbtech, a company that specializes in ADHD assessment, has leveraged Amazon
+    SageMaker AI and AWS Glue to streamline its machine learning workflow, enabling
+    the development of a mobile AI assessment model for ADHD diagnosis, which can
+    improve the accessibility and efficiency of clinical assessments.
+  tags:
+  - Amazon SageMaker AI
+  - AWS Glue
+  - Customer Solutions
+  - Healthcare
+  - Technical How-to
+  title: 'Advancing ADHD diagnosis: How Qbtech built a mobile AI assessment Model
+    Using Amazon SageMaker AI'
+  url: https://aws.amazon.com/blogs/machine-learning/advancing-adhd-diagnosis-how-qbtech-built-a-mobile-ai-assessment-model-using-amazon-sagemaker-ai/
+- category: ai
+  published: '2025-12-23T17:06:31'
+  score: 0.842
+  source: AWS Machine Learning
+  summary: The article explores how Bancolombia, a major Colombian bank, is using
+    Amazon Nova's generative AI models to accelerate and simplify the creation of
+    marketing campaigns, demonstrating the potential of these technologies to enhance
+    marketing ideation and content generation.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Artificial Intelligence
+  - Intermediate (200)
+  - Technical How-to
+  title: 'Accelerating your marketing ideation with generative AI – Part 1: From idea
+    to generation with the Amazon Nova foundation models'
+  url: https://aws.amazon.com/blogs/machine-learning/accelerating-your-marketing-ideation-with-generative-ai-part-1-from-idea-to-generation-with-the-amazon-nova-foundation-models/
+- category: cybersecurity
+  published: '2025-12-23T17:02:26'
+  score: 0.918
+  source: Ars Technica
+  summary: OpenAI's incident reports on child exploitation have sharply increased
+    during the first six months of 2025, highlighting the ongoing challenge of combating
+    the spread of harmful content on AI-powered platforms.
+  tags:
+  - AI
+  - Policy
+  - ai csam
+  - csam
+  - NCMEC
+  title: OpenAI’s child exploitation reports increased sharply this year
+  url: https://arstechnica.com/tech-policy/2025/12/openais-child-exploitation-reports-increased-sharply-this-year/
+- category: ai
+  published: '2025-12-23T17:00:00'
+  score: 0.841
+  source: Google AI Blog
+  summary: Google's research highlights breakthroughs in 8 key areas, including advancements
+    in computer vision, natural language processing, robotics, and other AI-related
+    fields, showcasing the ongoing progress in various domains of artificial intelligence.
+  tags:
+  - Research
+  - Google DeepMind
+  - AI
+  title: 'Google''s year in review: 8 areas with research breakthroughs in 2025'
+  url: https://blog.google/technology/ai/2025-research-breakthroughs/
+- category: webdev
+  published: '2025-12-23T15:52:53'
+  score: 0.757
+  source: CSS-Tricks
+  summary: The article expresses gratitude to the readers for their continued support
+    and engagement with the web development community, highlighting the importance
+    of collaborative learning and knowledge sharing in the tech industry.
+  tags:
+  - Articles
+  title: Thank You (2025 Edition)
+  url: https://css-tricks.com/thank-you-2025-edition/
+- category: webdev
+  published: '2025-12-23T15:25:38'
+  score: 0.715
+  source: Ars Technica
+  summary: The article discusses how a loophole in the Formula 1 engine regulations
+    might have given Mercedes and Red Bull a significant advantage, potentially causing
+    consternation among other teams and fans.
+  tags:
+  - Cars
+  - Formula 1
+  - Racing
+  title: F1’s new engines are causing consternation over compression ratios
+  url: https://arstechnica.com/cars/2025/12/f1s-new-engines-are-causing-consternation-over-compression-ratios/
+- category: ai
+  published: '2025-12-23T14:07:35'
+  score: 0.821
+  source: Hugging Face
+  summary: The article introduces AprielGuard, a framework designed to improve the
+    safety and adversarial robustness of modern large language model (LLM) systems,
+    addressing the critical need for enhanced security and reliability in AI-powered
+    applications.
+  tags: []
+  title: 'AprielGuard: A Guardrail for Safety and Adversarial Robustness in Modern
+    LLM Systems'
+  url: https://huggingface.co/blog/ServiceNow-AI/aprielguard
+- category: cybersecurity
+  published: '2025-12-23T12:02:32'
+  score: 0.928
+  source: Schneier on Security
+  summary: The Danish Defence Intelligence Service has accused Russia of conducting
+    two destructive and disruptive cyberattacks on a Danish water utility, underlining
+    the growing threat of state-sponsored cyber threats against critical infrastructure.
+  tags:
+  - Uncategorized
+  - cyberattack
+  - denial of service
+  - Denmark
+  - hacking
+  title: Denmark Accuses Russia of Conducting Two Cyberattacks
+  url: https://www.schneier.com/blog/archives/2025/12/denmark-accuses-russia-of-conducting-two-cyberattacks.html
+- category: cybersecurity
+  published: '2025-12-23T12:00:00'
+  score: 0.928
+  source: CISA
+  summary: CISA has released a new Industrial Control Systems (ICS) Advisory, providing
+    timely information about current security issues, vulnerabilities, and exploits
+    surrounding ICS systems, which are crucial for the operation of various industrial
+    and infrastructure facilities.
+  tags: []
+  title: CISA Releases One Industrial Control Systems Advisory
+  url: https://www.cisa.gov/news-events/alerts/2025/12/23/cisa-releases-one-industrial-control-systems-advisory
+- category: webdev
+  published: '2025-12-23T10:00:00'
+  score: 0.681
+  source: Smashing Magazine
+  summary: The article presents a solution that transforms scattered user research
+    into AI-powered personas, providing a consolidated multi-perspective feedback
+    from a single question, empowering users to have a stronger voice in the product
+    development process.
+  tags: []
+  title: Giving Users A Voice Through Virtual Personas
+  url: https://smashingmagazine.com/2025/12/giving-users-voice-virtual-personas/
+- category: cybersecurity
+  published: '2025-12-23T09:50:08'
+  score: 0.911
+  source: BleepingComputer
+  summary: Baker University has disclosed a data breach that occurred a year ago,
+    where attackers gained access to the university's network and stole the personal,
+    health, and financial information of over 53,000 individuals, underscoring the
+    importance of robust cybersecurity measures.
+  tags:
+  - Security
+  title: Baker University says 2024 data breach impacts 53,000 people
+  url: https://www.bleepingcomputer.com/news/security/baker-university-data-breach-impacts-over-53-000-individuals/
+- category: webdev
+  published: '2025-12-23T07:34:00'
+  score: 0.665
+  source: The Hacker News
+  summary: A critical security vulnerability (CVE-2025-68613) has been discovered
+    in the n8n workflow automation platform, which, if exploited, could result in
+    arbitrary code execution across thousands of instances, highlighting the need
+    for prompt patching and vulnerability management in widely-used software.
+  tags: []
+  title: Critical n8n Flaw (CVSS 9.9) Enables Arbitrary Code Execution Across Thousands
+    of Instances
+  url: https://thehackernews.com/2025/12/critical-n8n-flaw-cvss-99-enables.html
 - category: cybersecurity
   published: '2025-12-22T23:51:44'
   score: 1.021
@@ -15635,5 +15837,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-23T05:05:54.515807'
-total_articles: 1214
+last_updated: '2025-12-24T05:06:15.075510'
+total_articles: 1229
