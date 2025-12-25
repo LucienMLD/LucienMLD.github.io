@@ -1,4 +1,148 @@
 articles:
+- category: ai
+  published: '2025-12-24T22:31:28'
+  score: 1.011
+  source: BleepingComputer
+  summary: OpenAI is reportedly testing a new ChatGPT feature called "Skills," which
+    will be similar to Claude's feature also called Skills. The Skills feature aims
+    to enhance the capabilities of ChatGPT, allowing it to perform more specialized
+    tasks beyond its current natural language processing abilities.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI is reportedly testing Claude-like Skills for ChatGPT
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-reportedly-testing-claude-like-skills-for-chatgpt/
+- category: webdev
+  published: '2025-12-24T19:52:47'
+  score: 0.742
+  source: Towards Data Science
+  summary: The article provides an intuitive, step-by-step walkthrough of how Transformers
+    use self-attention to turn static word embeddings into contextual representations,
+    with simple examples and an Excel-friendly implementation.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Data Science
+  - Deep Dives
+  - Deep Learning
+  title: 'The Machine Learning “Advent Calendar” Day 24: Transformers for Text in
+    Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-day-24-transformers-for-text-in-excel/
+- category: cybersecurity
+  published: '2025-12-24T17:44:46'
+  score: 0.923
+  source: BleepingComputer
+  summary: A typosquatted domain impersonating the Microsoft Activation Scripts (MAS)
+    tool was used to distribute malicious PowerShell scripts that infect Windows systems
+    with the 'Cosmali Loader' malware. The attack exploits users' trust in legitimate
+    software to distribute malware and compromise their systems.
+  tags:
+  - Security
+  title: Fake MAS Windows activation domain used to spread PowerShell malware
+  url: https://www.bleepingcomputer.com/news/security/fake-mas-windows-activation-domain-used-to-spread-powershell-malware/
+- category: ai
+  published: '2025-12-24T17:43:03'
+  score: 0.846
+  source: Machine Learning Mastery
+  summary: 'The article discusses three topics: floating-point numbers, automatic
+    mixed precision training, and gradient checkpointing. These techniques can be
+    used to train machine learning models with limited memory, reducing the computational
+    resources required.'
+  tags: []
+  title: Training a Model with Limited Memory using Mixed Precision and Gradient Checkpointing
+  url: https://machinelearningmastery.com/training-a-model-with-limited-memory-using-mixed-precision-and-gradient-checkpointing/
+- category: ai
+  published: '2025-12-24T17:26:00'
+  score: 0.8
+  source: AWS Machine Learning
+  summary: The post explores how to programmatically create an intelligent document
+    processing (IDP) solution using Amazon Bedrock Data Automation. This solution
+    leverages Strands SDK, Amazon Bedrock AgentCore, Amazon Bedrock Knowledge Base,
+    and Bedrock Data Automation to enable users to upload multi-modal documents and
+    extract valuable insights.
+  tags:
+  - Amazon Bedrock
+  - Artificial Intelligence
+  - Generative AI
+  title: Programmatically creating an IDP solution with Amazon Bedrock Data Automation
+  url: https://aws.amazon.com/blogs/machine-learning/programmatically-creating-an-idp-solution-with-amazon-bedrock-data-automation/
+- category: ai
+  published: '2025-12-24T17:17:44'
+  score: 0.887
+  source: AWS Machine Learning
+  summary: The post demonstrates how to optimize large language model (LLM) inference
+    on Amazon SageMaker AI using BentoML's LLM-Optimizer. The optimization process
+    systematically identifies the best serving configurations for your workload, improving
+    the performance and efficiency of LLM inference.
+  tags:
+  - Advanced (300)
+  - Amazon Machine Learning
+  - Amazon SageMaker AI
+  - Open Source
+  - Amazon SageMaker
+  title: Optimizing LLM inference on Amazon SageMaker AI with BentoML’s LLM- Optimizer
+  url: https://aws.amazon.com/blogs/machine-learning/optimizing-llm-inference-on-amazon-sagemaker-ai-with-bentomls-llm-optimizer/
+- category: cybersecurity
+  published: '2025-12-24T16:23:00'
+  score: 0.913
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a new variant of a macOS information
+    stealer called MacSync, which is delivered by means of a digitally signed, notarized
+    Swift application masquerading as a messaging app installer. This technique allows
+    the malware to bypass Apple's Gatekeeper security checks and infect macOS systems.
+  tags: []
+  title: New MacSync macOS Stealer Uses Signed App to Bypass Apple Gatekeeper
+  url: https://thehackernews.com/2025/12/new-macsync-macos-stealer-uses-signed.html
+- category: cybersecurity
+  published: '2025-12-24T16:22:44'
+  score: 0.913
+  source: BleepingComputer
+  summary: Microsoft announced that security administrators will soon be able to block
+    external users from sending messages, calls, or meeting invitations to members
+    of their organization via Teams. This feature aims to enhance the security and
+    control of Teams communications within an organization.
+  tags:
+  - Microsoft
+  title: Microsoft Teams to let admins block external users via Defender portal
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-let-admins-block-external-users-via-defender-portal/
+- category: ai
+  published: '2025-12-24T15:00:00'
+  score: 0.827
+  source: Towards Data Science
+  summary: Cyclical encoding can improve the performance of machine learning models
+    by better representing cyclical features, such as time-related data. This approach
+    can help models understand the underlying patterns and make more accurate predictions.
+  tags:
+  - Data Science
+  - Machine Learning
+  - Math
+  - Python
+  - Time Series
+  title: Is Your Model Time-Blind? The Case for Cyclical Feature Encoding
+  url: https://towardsdatascience.com/is-your-model-time-blind-the-case-for-cyclical-feature-encoding/
+- category: cybersecurity
+  published: '2025-12-24T14:18:36'
+  score: 1.041
+  source: BleepingComputer
+  summary: MongoDB has warned IT administrators to immediately patch a high-severity
+    vulnerability that can be exploited in remote code execution (RCE) attacks targeting
+    vulnerable servers. The vulnerability allows attackers to gain unauthorized access
+    and execute malicious code on affected MongoDB instances.
+  tags:
+  - Security
+  title: MongoDB warns admins to patch severe RCE flaw immediately
+  url: https://www.bleepingcomputer.com/news/security/mongodb-warns-admins-to-patch-severe-rce-flaw-immediately/
+- category: cybersecurity
+  published: '2025-12-24T11:30:00'
+  score: 0.924
+  source: The Hacker News
+  summary: Cybercriminals are constantly evolving their tactics to steal money and
+    data from businesses. Breaching business networks, extracting sensitive data,
+    and selling it on the dark web has become a reliable payday, posing significant
+    challenges for small and medium-sized businesses (SMBs) in 2025.
+  tags: []
+  title: 'Attacks are Evolving: 3 Ways to Protect Your Business in 2026'
+  url: https://thehackernews.com/2025/12/attacks-are-evolving-3-ways-to-protect.html
 - category: webdev
   published: '2025-12-24T02:03:10'
   score: 0.881
@@ -140,6 +284,21 @@ articles:
   title: 'AprielGuard: A Guardrail for Safety and Adversarial Robustness in Modern
     LLM Systems'
   url: https://huggingface.co/blog/ServiceNow-AI/aprielguard
+- category: webdev
+  published: '2025-12-23T12:30:06'
+  score: 0.496
+  source: Ars Technica
+  summary: The Splay device can function as both a monitor and a portable projector,
+    reducing the stress and complexity typically associated with using projectors.
+    This versatile device aims to provide a more convenient solution for users who
+    require both monitor and projector functionalities.
+  tags:
+  - Reviews
+  - Tech
+  - Monitors
+  - Projectors
+  title: The Splay is a subpar monitor but an exciting portable projector
+  url: https://arstechnica.com/gadgets/2025/12/the-splay-is-a-subpar-monitor-but-an-exciting-portable-projector/
 - category: cybersecurity
   published: '2025-12-23T12:02:32'
   score: 0.928
@@ -15837,5 +15996,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-24T05:06:15.075510'
-total_articles: 1229
+last_updated: '2025-12-25T05:06:25.631206'
+total_articles: 1241
