@@ -1,4 +1,109 @@
 articles:
+- category: webdev
+  published: '2025-12-25T22:39:19'
+  score: 0.76
+  source: BleepingComputer
+  summary: OpenAI has quietly rolled out 'formatting blocks' in ChatGPT, which tweak
+    the layout to match the UI of the task it is supposed to execute, making it look
+    more like a task tool.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT’s new formatting blocks make its UI look more like a task tool
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-new-formatting-blocks-make-its-ui-look-more-like-a-task-tool/
+- category: ai
+  published: '2025-12-25T16:44:48'
+  score: 0.795
+  source: Machine Learning Mastery
+  summary: This article provides a two-part guide on using PyTorch's `torch.compile()`
+    and gradient accumulation to train models faster.
+  tags: []
+  title: Train a Model Faster with torch.compile and Gradient Accumulation
+  url: https://machinelearningmastery.com/train-a-model-faster-with-torch-compile-and-gradient-accumulation/
+- category: ai
+  published: '2025-12-25T15:00:00'
+  score: 0.783
+  source: Towards Data Science
+  summary: The article explains the Jacobian adjustment, an intuitive way to transform
+    random variables correctly and keep probabilities honest.
+  tags:
+  - Data Science
+  - Editors Pick
+  - Machine Learning
+  - Probability
+  - Python
+  title: 'Keeping Probabilities Honest: The Jacobian Adjustment'
+  url: https://towardsdatascience.com/keeping-probabilities-honest-the-jacobian-adjustment/
+- category: cybersecurity
+  published: '2025-12-25T14:30:58'
+  score: 0.851
+  source: BleepingComputer
+  summary: Google will finally allow users to change their @gmail.com address or create
+    a new alias, a long-awaited feature for Gmail users.
+  tags:
+  - Google
+  - Technology
+  title: Google will finally allow you to change your @gmail.com address
+  url: https://www.bleepingcomputer.com/news/google/google-will-finally-allow-you-to-change-your-gmailcom-address/
+- category: cybersecurity
+  published: '2025-12-25T14:01:00'
+  score: 0.943
+  source: The Hacker News
+  summary: Attackers are increasingly blending in and hijacking everyday tools, trusted
+    apps, and even AI assistants, making it harder to distinguish between normal tech
+    and malicious intent. The ThreatsDay bulletin covers various cybersecurity threats,
+    from stealthy loaders to AI exploits and Docker hacks.
+  tags: []
+  title: 'ThreatsDay Bulletin: Stealth Loaders, AI Chatbot Flaws AI Exploits, Docker
+    Hack, and 15 More Stories'
+  url: https://thehackernews.com/2025/12/threatsday-bulletin-stealth-loaders-ai.html
+- category: ai
+  published: '2025-12-25T13:00:00'
+  score: 0.769
+  source: Towards Data Science
+  summary: MAP and MRR, commonly used metrics for search ranking evaluation, are shown
+    to be flawed, and better alternatives are suggested to fix the issues.
+  tags:
+  - Data Science
+  - Editors Pick
+  - Evaluation Metrics
+  - Recommendation System
+  - Recommender Systems
+  title: Why MAP and MRR Fail for Search Ranking (and What to Use Instead)
+  url: https://towardsdatascience.com/why-map-and-mrr-fail-for-search-ranking-and-what-to-use-instead/
+- category: cybersecurity
+  published: '2025-12-25T12:46:00'
+  score: 0.886
+  source: The Hacker News
+  summary: The encrypted vault backups stolen in the 2022 LastPass data breach have
+    enabled attackers to crack open weak master passwords and drain cryptocurrency
+    assets as recently as late 2025, according to TRM Labs' findings.
+  tags: []
+  title: LastPass 2022 Breach Led to Years-Long Cryptocurrency Thefts, TRM Labs Finds
+  url: https://thehackernews.com/2025/12/lastpass-2022-breach-led-to-years-long.html
+- category: cybersecurity
+  published: '2025-12-25T08:22:00'
+  score: 1.045
+  source: The Hacker News
+  summary: Fortinet warns of active exploitation of a five-year-old security flaw
+    in FortiOS SSL VPN that could allow unauthorized access under certain configurations.
+    The vulnerability, CVE-2020-12812, is an improper authentication issue that Fortinet
+    has observed recent abuse of in the wild.
+  tags: []
+  title: Fortinet Warns of Active Exploitation of FortiOS SSL VPN 2FA Bypass Vulnerability
+  url: https://thehackernews.com/2025/12/fortinet-warns-of-active-exploitation.html
+- category: cybersecurity
+  published: '2025-12-25T08:07:00'
+  score: 1.043
+  source: The Hacker News
+  summary: CISA has added a security flaw in Digiever DS-2105 Pro network video recorders
+    (NVRs) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of
+    active exploitation. The vulnerability, CVE-2023-52163, allows remote code execution
+    with a CVSS score of 9.8.
+  tags: []
+  title: CISA Flags Actively Exploited Digiever NVR Vulnerability Allowing Remote
+    Code Execution
+  url: https://thehackernews.com/2025/12/cisa-flags-actively-exploited-digiever.html
 - category: ai
   published: '2025-12-24T22:31:28'
   score: 1.011
@@ -66,6 +171,33 @@ articles:
   - Generative AI
   title: Programmatically creating an IDP solution with Amazon Bedrock Data Automation
   url: https://aws.amazon.com/blogs/machine-learning/programmatically-creating-an-idp-solution-with-amazon-bedrock-data-automation/
+- category: webdev
+  published: '2025-12-24T17:22:30'
+  score: 0.567
+  source: AWS Machine Learning
+  summary: Enterprise organizations can leverage AI agent-driven browser automation
+    to address the challenges of manually intensive workflows across web-based applications,
+    improving operational efficiency and compliance.
+  tags:
+  - Amazon Bedrock AgentCore
+  - Amazon Nova
+  - Strands Agents
+  - Technical How-to
+  title: AI agent-driven browser automation for enterprise workflow management
+  url: https://aws.amazon.com/blogs/machine-learning/ai-agent-driven-browser-automation-for-enterprise-workflow-management/
+- category: webdev
+  published: '2025-12-24T17:20:16'
+  score: 0.567
+  source: AWS Machine Learning
+  summary: The post explores how agentic QA automation using Amazon Bedrock AgentCore
+    Browser and Amazon Nova Act can automate testing for a sample retail application.
+  tags:
+  - Amazon Bedrock AgentCore
+  - Amazon Nova
+  - Technical How-to
+  title: Agentic QA automation using Amazon Bedrock AgentCore Browser and Amazon Nova
+    Act
+  url: https://aws.amazon.com/blogs/machine-learning/agentic-qa-automation-using-amazon-bedrock-agentcore-browser-and-amazon-nova-act/
 - category: ai
   published: '2025-12-24T17:17:44'
   score: 0.887
@@ -143,6 +275,16 @@ articles:
   tags: []
   title: 'Attacks are Evolving: 3 Ways to Protect Your Business in 2026'
   url: https://thehackernews.com/2025/12/attacks-are-evolving-3-ways-to-protect.html
+- category: webdev
+  published: '2025-12-24T06:15:00'
+  score: 0.497
+  source: The Hacker News
+  summary: Italy's antitrust authority has fined Apple €98.6 million ($116 million)
+    for its App Tracking Transparency (ATT) privacy framework, which the authority
+    found restricted App Store competition.
+  tags: []
+  title: Italy Fines Apple €98.6 Million Over ATT Rules Limiting App Store Competition
+  url: https://thehackernews.com/2025/12/italy-fines-apple-986-million-over-att.html
 - category: webdev
   published: '2025-12-24T02:03:10'
   score: 0.881
@@ -15996,5 +16138,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-25T05:06:25.631206'
-total_articles: 1241
+last_updated: '2025-12-26T05:05:08.520963'
+total_articles: 1253
