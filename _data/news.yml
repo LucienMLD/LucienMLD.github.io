@@ -1,5 +1,174 @@
 articles:
 - category: cybersecurity
+  published: '2025-12-30T00:08:42'
+  score: 1.119
+  source: BleepingComputer
+  summary: Chinese state hackers have been using a rootkit to hide the activities
+    of the ToneShell backdoor malware in attacks targeting government organizations.
+    The malware is typically seen in Chinese cyberespionage campaigns and has been
+    delivered through a kernel-mode loader.
+  tags:
+  - Security
+  title: Chinese state hackers use rootkit to hide ToneShell malware activity
+  url: https://www.bleepingcomputer.com/news/security/chinese-state-hackers-use-rootkit-to-hide-toneshell-malware-activity/
+- category: cybersecurity
+  published: '2025-12-29T22:27:01'
+  score: 0.958
+  source: BleepingComputer
+  summary: Coupang, the largest retailer in South Korea, announced a $1.17 billion
+    (1.685 trillion Won) total compensation for the 33.7 million customers whose information
+    was exposed in a recent data breach. The breach was discovered last month, and
+    the company is taking responsibility for the incident.
+  tags:
+  - Security
+  title: Coupang to split $1.17 billion among 33.7 million data breach victims
+  url: https://www.bleepingcomputer.com/news/security/coupang-to-split-117-billion-among-337-million-data-breach-victims/
+- category: ai
+  published: '2025-12-29T20:56:53'
+  score: 0.824
+  source: Machine Learning Mastery
+  summary: This article discusses pipeline parallelism, a technique for training large
+    models on multiple GPUs. It covers model preparation, stage and pipeline scheduling,
+    the training loop, distributed checkpointing, and the limitations of pipeline
+    parallelism.
+  tags: []
+  title: Train Your Large Model on Multiple GPUs with Pipeline Parallelism
+  url: https://machinelearningmastery.com/train-your-large-model-on-multiple-gpus-with-pipeline-parallelism/
+- category: webdev
+  published: '2025-12-29T19:30:47'
+  score: 0.74
+  source: Ars Technica
+  summary: The article reveals that Leonardo da Vinci's wood charring method predates
+    the Japanese technique of Yakisugi, which creates a protective carbonized layer
+    on wood surfaces.
+  tags:
+  - Science
+  - architecture
+  - bioarchitecture
+  - Leonardo da Vinci
+  - materials science
+  title: Leonardo’s wood charring method predates Japanese practice
+  url: https://arstechnica.com/science/2025/12/did-one-line-in-a-leonardo-codex-anticipate-yakisugi/
+- category: ai
+  published: '2025-12-29T18:15:00'
+  score: 0.849
+  source: Google AI Blog
+  summary: The article highlights three AI-related application preview cards, including
+    an AI chess interface, Gemini 3 Flash logo, and a Google search bar.
+  tags:
+  - Search
+  - Translate
+  - YouTube
+  - Google Labs
+  - Developers
+  title: The latest AI news we announced in December
+  url: https://blog.google/technology/ai/google-ai-updates-december-2025/
+- category: webdev
+  published: '2025-12-29T15:30:52'
+  score: 0.715
+  source: Ars Technica
+  summary: 'The article discusses a new book, "Mythopedia: A Brief Compendium of Natural
+    History Lore," written by folklorist and historian Adrienne Mayor, which explores
+    myths and lore based on actual science.'
+  tags:
+  - Culture
+  - Science
+  - books
+  - Folklore
+  - geomythology
+  title: A quirky guide to myths and lore based in actual science
+  url: https://arstechnica.com/science/2025/12/a-quirky-guide-to-myths-and-lore-based-in-actual-science/
+- category: ai
+  published: '2025-12-29T15:00:00'
+  score: 0.915
+  source: BleepingComputer
+  summary: OpenAI is rolling out an update to ChatGPT on mobile that finally allows
+    users to select the "Thinking time" toggle, also called the "juice" of the model.
+    This feature provides users with more control over the AI's response generation
+    process.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT finally rolls out Thinking time toggle on mobile
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-finally-rolls-out-thinking-time-toggle-on-mobile/
+- category: ai
+  published: '2025-12-29T13:30:00'
+  score: 0.817
+  source: Towards Data Science
+  summary: The article explores the differences between AI engineers and machine learning
+    engineers, two in-demand tech roles with six-figure salaries. It highlights the
+    importance of choosing the right path to avoid wasting time learning the wrong
+    skills and missing out on quality job opportunities.
+  tags:
+  - Career Advice
+  - AI Careers
+  - Ai Engineer
+  - Artificial Intelligence
+  - Machine Learning
+  title: 'Machine Learning vs AI Engineer: What Are the Differences?'
+  url: https://towardsdatascience.com/machine-learning-vs-ai-engineer-no-confusing-jargon/
+- category: webdev
+  published: '2025-12-29T13:00:01'
+  score: 0.699
+  source: Ars Technica
+  summary: The article reflects on the rollout of Windows 10 and how it can help diagnose
+    the issues with Windows 11. It highlights the aspects of Windows 10 that were
+    done right and how they contributed to the modern Windows experience.
+  tags:
+  - Tech
+  - microsoft
+  - Windows
+  - windows 10
+  - windows 10 22h2
+  title: Remembering what Windows 10 did right—and how it made modern Windows more
+    annoying
+  url: https://arstechnica.com/gadgets/2025/12/remembering-the-best-and-worst-about-windows-10-on-the-year-it-technically-died/
+- category: cybersecurity
+  published: '2025-12-29T12:00:00'
+  score: 1.024
+  source: CISA
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has added a
+    new vulnerability, CVE-2025-14847, to its Known Exploited Vulnerabilities (KEV)
+    Catalog based on evidence of active exploitation. The vulnerability has a CVSS
+    score of 8.7 and affects MongoDB.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2025/12/29/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2025-12-29T11:16:03'
+  score: 1.066
+  source: BleepingComputer
+  summary: Fortinet has warned customers that threat actors are actively exploiting
+    a critical FortiOS vulnerability that allows them to bypass two-factor authentication
+    (2FA) when targeting vulnerable FortiGate firewalls. The vulnerability has been
+    known for over 5 years, but threat actors are still actively exploiting it.
+  tags:
+  - Security
+  title: Fortinet warns of 5-year-old FortiOS 2FA bypass still exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/fortinet-warns-of-5-year-old-fortios-2fa-bypass-still-exploited-in-attacks/
+- category: cybersecurity
+  published: '2025-12-29T09:46:00'
+  score: 1.055
+  source: The Hacker News
+  summary: 'A recently disclosed security vulnerability in MongoDB, CVE-2025-14847
+    (CVSS score: 8.7), has come under active exploitation in the wild. The vulnerability
+    allows an unauthenticated attacker to remotely execute code on vulnerable MongoDB
+    instances, with over 87,000 potentially susceptible instances identified worldwide.'
+  tags: []
+  title: MongoDB Vulnerability CVE-2025-14847 Under Active Exploitation Worldwide
+  url: https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html
+- category: ai
+  published: '2025-12-29T06:34:00'
+  score: 0.813
+  source: The Hacker News
+  summary: Traditional security frameworks are insufficient in addressing AI-specific
+    attack vectors. The article cites examples of AI library compromises, credential
+    leaks, and ChatGPT vulnerabilities that have exposed organizations to new threats.
+  tags: []
+  title: Traditional Security Frameworks Leave Organizations Exposed to AI-Specific
+    Attack Vectors
+  url: https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html
+- category: cybersecurity
   published: '2025-12-28T20:38:15'
   score: 1.04
   source: BleepingComputer
@@ -16257,5 +16426,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-29T05:10:03.185957'
-total_articles: 1262
+last_updated: '2025-12-30T05:06:48.308080'
+total_articles: 1275
