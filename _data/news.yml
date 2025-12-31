@@ -1,4 +1,130 @@
 articles:
+- category: ai
+  published: '2025-12-30T22:12:18'
+  score: 0.833
+  source: Machine Learning Mastery
+  summary: This article covers the technical details of using Fully Sharded Data Parallelism
+    (FSDP) to train large models on multiple GPUs, including preparing the model,
+    the training loop, fine-tuning FSDP behavior, and checkpointing FSDP models.
+  tags: []
+  title: Train Your Large Model on Multiple GPUs with Fully Sharded Data Parallelism
+  url: https://machinelearningmastery.com/train-your-large-model-on-multiple-gpus-with-fully-sharded-data-parallelism/
+- category: ai
+  published: '2025-12-30T20:30:01'
+  score: 0.821
+  source: Ars Technica
+  summary: Despite claims by Musk allies that Dogecoin found $2 trillion in federal
+    budget fraud, this appears to be an unfounded claim.
+  tags:
+  - Policy
+  - doge
+  - Donald Trump
+  - Elon Musk
+  - federal budget
+  title: DOGE did not find $2T in fraud, but that doesn’t matter, Musk allies say
+  url: https://arstechnica.com/tech-policy/2025/12/doge-did-not-find-2t-in-fraud-but-that-doesnt-matter-musk-allies-say/
+- category: cybersecurity
+  published: '2025-12-30T16:28:00'
+  score: 1.057
+  source: The Hacker News
+  summary: The Cyber Security Agency of Singapore has issued an alert about a critical
+    security flaw in SmarterTools SmarterMail email software that could be exploited
+    to achieve remote code execution, with a CVSS score of 10.0.
+  tags: []
+  title: CSA Issues Alert on Critical SmarterMail Bug Allowing Remote Code Execution
+  url: https://thehackernews.com/2025/12/csa-issues-alert-on-critical.html
+- category: ai
+  published: '2025-12-30T16:00:00'
+  score: 0.79
+  source: Towards Data Science
+  summary: This article discusses techniques for overcoming nonsmoothness and control
+    chattering in nonconvex optimal control problems, providing hints for good numerical
+    optimization.
+  tags:
+  - Robotics
+  - Autonomous Cars
+  - Editors Pick
+  - Optimization
+  - Path Planning
+  title: Overcoming Nonsmoothness and Control Chattering in Nonconvex Optimal Control
+    Problems
+  url: https://towardsdatascience.com/optimal-path-planning-for-wheeled-robots/
+- category: cybersecurity
+  published: '2025-12-30T15:25:17'
+  score: 1.001
+  source: BleepingComputer
+  summary: Two former employees of cybersecurity companies have pleaded guilty to
+    targeting U.S. companies in BlackCat (ALPHV) ransomware attacks in 2023.
+  tags:
+  - Security
+  title: US cybersecurity experts plead guilty to BlackCat ransomware attacks
+  url: https://www.bleepingcomputer.com/news/security/us-cybersecurity-experts-plead-guilty-to-blackcat-alphv-ransomware-attacks/
+- category: cybersecurity
+  published: '2025-12-30T14:40:13'
+  score: 1.044
+  source: BleepingComputer
+  summary: CISA has ordered U.S. federal agencies to patch an actively exploited vulnerability
+    in MongoDB, known as MongoBleed, that can be used to steal credentials, API keys,
+    and other sensitive data.
+  tags:
+  - Security
+  title: CISA orders feds to patch MongoBleed flaw exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-patch-mongobleed-flaw-actively-exploited-in-attacks/
+- category: ai
+  published: '2025-12-30T14:00:00'
+  score: 0.82
+  source: Towards Data Science
+  summary: This article explains how to calculate the Area Under the Curve (AUC) metric,
+    which measures how well a model ranks positives above negatives, using a simple
+    Excel-based approach.
+  tags:
+  - Machine Learning
+  - Area Under The Curve
+  - Confusion Matrix
+  - Data Science
+  - Statistics
+  title: 'The Machine Learning “Advent Calendar” Bonus 1: AUC in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-bonus-1-auc-in-excel/
+- category: cybersecurity
+  published: '2025-12-30T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The WHILL Model C2 and Model F electric wheelchairs and power chairs have
+    a vulnerability that could allow an attacker within Bluetooth range to take control
+    of the product, as detailed in the CSAF report.
+  tags: []
+  title: WHILL Model C2 Electric Wheelchairs and Model F Power Chairs
+  url: https://www.cisa.gov/news-events/ics-medical-advisories/icsma-25-364-01
+- category: cybersecurity
+  published: '2025-12-30T10:46:00'
+  score: 0.966
+  source: The Hacker News
+  summary: The threat actor known as Silver Fox has shifted its focus to India, using
+    income tax-themed phishing lures to distribute a modular remote access trojan
+    called ValleyRAT.
+  tags: []
+  title: Silver Fox Targets Indian Users With Tax-Themed Emails Delivering ValleyRAT
+    Malware
+  url: https://thehackernews.com/2025/12/silver-fox-targets-indian-users-with.html
+- category: webdev
+  published: '2025-12-30T10:00:00'
+  score: 0.681
+  source: Smashing Magazine
+  summary: This article provides practical UX guidelines for designing for and with
+    deaf people, a population of 466 million people experiencing hearing loss.
+  tags: []
+  title: How To Design For (And With) Deaf People
+  url: https://smashingmagazine.com/2025/12/how-design-for-with-deaf-people/
+- category: ai
+  published: '2025-12-30T09:30:00'
+  score: 0.833
+  source: The Hacker News
+  summary: Integrating AI into modern security operations centers (SOCs) can be challenging,
+    as teams often adopt AI without a strategic approach to operational integration,
+    leading to inconsistent value.
+  tags: []
+  title: How to Integrate AI into Modern SOC Workflows
+  url: https://thehackernews.com/2025/12/how-to-integrate-ai-into-modern-soc.html
 - category: cybersecurity
   published: '2025-12-30T00:08:42'
   score: 1.119
@@ -16426,5 +16552,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-30T05:06:48.308080'
-total_articles: 1275
+last_updated: '2025-12-31T05:06:28.565485'
+total_articles: 1286
