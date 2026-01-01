@@ -1,5 +1,172 @@
 articles:
 - category: ai
+  published: '2025-12-31T21:22:39'
+  score: 0.827
+  source: Machine Learning Mastery
+  summary: This article discusses tensor parallelism, a technique for training large
+    models on multiple GPUs, and provides a step-by-step guide on setting up and implementing
+    tensor parallelism, including how to combine it with Fully Sharded Data Parallelism
+    (FSDP) for improved performance.
+  tags: []
+  title: Train Your Large Model on Multiple GPUs with Tensor Parallelism
+  url: https://machinelearningmastery.com/train-your-large-model-on-multiple-gpus-with-tensor-parallelism/
+- category: ai
+  published: '2025-12-31T16:30:33'
+  score: 0.793
+  source: Ars Technica
+  summary: A coal-fired power plant in Colorado that was scheduled to be retired will
+    now be kept on standby by the Trump administration, delaying the transition to
+    cleaner energy sources in the region.
+  tags:
+  - Science
+  - coal
+  - department of energy
+  - Energy
+  - pollution
+  title: 'Here we go again: Retiring coal plant forced to stay open by Trump Admin'
+  url: https://arstechnica.com/science/2025/12/trump-admin-orders-another-coal-plant-to-stay-open/
+- category: cybersecurity
+  published: '2025-12-31T16:29:00'
+  score: 0.913
+  source: The Hacker News
+  summary: The Trust Wallet Google Chrome extension was hacked in a supply chain attack,
+    resulting in the theft of approximately $8.5 million in assets. The attack was
+    likely carried out by the Shai-Hulud threat actor, highlighting the importance
+    of securing software supply chains to prevent such incidents.
+  tags: []
+  title: Trust Wallet Chrome Extension Hack Drains $8.5M via Shai-Hulud Supply Chain
+    Attack
+  url: https://thehackernews.com/2025/12/trust-wallet-chrome-extension-hack.html
+- category: webdev
+  published: '2025-12-31T16:18:23'
+  score: 0.76
+  source: CSS-Tricks
+  summary: This article covers various CSS-related topics, including conditional view
+    transitions, creative text effects, and the latest developments in the CSS Bluesky
+    initiative, providing web developers with a roundup of the latest advancements
+    and techniques in the field.
+  tags:
+  - Articles
+  - news
+  title: 'What’s !important #2: Conditional View Transitions, CSS/SVG Text Effects,
+    the Best of CSS Bluesky, and More'
+  url: https://css-tricks.com/whats-important-2/
+- category: cybersecurity
+  published: '2025-12-31T16:14:00'
+  score: 0.959
+  source: The Hacker News
+  summary: The threat actor behind the ShadyPanda and GhostPoster malicious browser
+    extension campaigns has been attributed to a third attack campaign codenamed DarkSpectre,
+    which has impacted over 8.8 million users of Google Chrome, Microsoft Edge, and
+    Mozilla Firefox globally. This demonstrates the widespread reach and impact of
+    malicious browser extensions.
+  tags: []
+  title: DarkSpectre Browser Extension Campaigns Exposed After Impacting 8.8 Million
+    Users Worldwide
+  url: https://thehackernews.com/2025/12/darkspectre-browser-extension-campaigns.html
+- category: ai
+  published: '2025-12-31T15:30:00'
+  score: 0.83
+  source: Towards Data Science
+  summary: The NeMo Agent Toolkit provides a simple and production-ready solution
+    for deploying large language models (LLMs), enabling developers to create applications
+    ranging from simple chatbots to complex multi-agent reasoning systems with real-time
+    REST APIs.
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - Artificial Intelligence
+  - Deep Dives
+  - Llm
+  title: Production-Ready LLMs Made Simple with the NeMo Agent Toolkit
+  url: https://towardsdatascience.com/production-ready-llms-made-simple-with-nemo-agent-toolkit/
+- category: cybersecurity
+  published: '2025-12-31T14:58:51'
+  score: 1.046
+  source: BleepingComputer
+  summary: The RondoDox botnet has been exploiting the critical React2Shell vulnerability
+    (CVE-2025-55182) in Next.js servers to infect them with malware and cryptominers.
+    This attack campaign highlights the need for prompt patching of vulnerabilities
+    in web application frameworks to prevent such breaches.
+  tags:
+  - Security
+  title: RondoDox botnet exploits React2Shell flaw to breach Next.js servers
+  url: https://www.bleepingcomputer.com/news/security/rondodox-botnet-exploits-react2shell-flaw-to-breach-nextjs-servers/
+- category: cybersecurity
+  published: '2025-12-31T13:37:00'
+  score: 1.083
+  source: The Hacker News
+  summary: IBM has disclosed a critical vulnerability (CVE-2025-13915) in its API
+    Connect enterprise platform that could allow remote attackers to bypass authentication
+    and access applications. The vulnerability is rated 9.8 out of 10 on the CVSS
+    scale, indicating its severity, and IBM has urged customers to patch the issue
+    immediately.
+  tags: []
+  title: IBM Warns of Critical API Connect Bug Allowing Remote Authentication Bypass
+  url: https://thehackernews.com/2025/12/ibm-warns-of-critical-api-connect-bug.html
+- category: webdev
+  published: '2025-12-31T13:30:00'
+  score: 0.702
+  source: Towards Data Science
+  summary: The author shares five key learnings from their experience with the Advent
+    of Code programming challenge, and how these lessons can be applied to data science,
+    such as the importance of problem-solving, thinking algorithmically, and leveraging
+    existing libraries and tools.
+  tags:
+  - Programming
+  - Data Science
+  - Data Validation
+  - Deep Dives
+  - Productivity
+  title: What Advent of Code Has Taught Me About Data Science
+  url: https://towardsdatascience.com/what-advent-of-code-has-taught-me-about-data-science/
+- category: ai
+  published: '2025-12-31T13:15:40'
+  score: 0.771
+  source: Ars Technica
+  summary: The article discusses several high-profile failures in 2025, including
+    supply chain disruptions, AI model failures, and cloud service outages, highlighting
+    the ongoing challenges in these areas and the need for more robust and resilient
+    systems.
+  tags:
+  - AI
+  - Apple
+  - Biz & IT
+  - Security
+  - 2025 year end
+  title: 'Supply chains, AI, and the cloud: The biggest failures (and one success)
+    of 2025'
+  url: https://arstechnica.com/security/2025/12/supply-chains-ai-and-the-cloud-the-biggest-failures-and-one-success-of-2025/
+- category: ai
+  published: '2025-12-31T11:00:00'
+  score: 0.799
+  source: Towards Data Science
+  summary: The article explores various gradient descent variants, including Momentum,
+    RMSProp, and Adam, and demonstrates their implementation in Excel. These techniques
+    aim to improve the efficiency and stability of the gradient descent optimization
+    algorithm used in machine learning models.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Data Science
+  - Excel
+  - Gradient Descent
+  title: 'The Machine Learning “Advent Calendar” Bonus 2: Gradient Descent Variants
+    in Excel'
+  url: https://towardsdatascience.com/the-machine-learning-advent-calendar-bonus-2-gradient-descent-variants-in-excel/
+- category: cybersecurity
+  published: '2025-12-31T10:34:38'
+  score: 1.013
+  source: BleepingComputer
+  summary: IBM has warned customers of a critical authentication bypass vulnerability
+    in its API Connect enterprise platform that could allow remote attackers to access
+    applications. The vulnerability is rated 9.8 out of 10 on the CVSS scale, and
+    IBM has advised users to apply the necessary patches to mitigate the risk.
+  tags:
+  - Security
+  title: IBM warns of critical API Connect auth bypass vulnerability
+  url: https://www.bleepingcomputer.com/news/security/ibm-warns-of-critical-api-connect-auth-bypass-vulnerability/
+- category: ai
   published: '2025-12-30T22:12:18'
   score: 0.833
   source: Machine Learning Mastery
@@ -16552,5 +16719,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2025-12-31T05:06:28.565485'
-total_articles: 1286
+last_updated: '2026-01-01T05:09:30.351489'
+total_articles: 1298
