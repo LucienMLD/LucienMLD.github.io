@@ -1,4 +1,116 @@
 articles:
+- category: cybersecurity
+  published: '2026-01-01T20:18:26'
+  score: 0.894
+  source: Ars Technica
+  summary: The article announces the release of a new trailer for the Marvel character
+    Wonder Man, focusing on the theme of acting and the various emotional experiences
+    that contribute to it. While not a technical article, this highlights the continued
+    growth and popularity of the Marvel cinematic universe.
+  tags:
+  - Culture
+  - disney plus
+  - entertainment
+  - marvel studios
+  - streaming television
+  title: Marvel rings in new year with Wonder Man trailer
+  url: https://arstechnica.com/culture/2026/01/marvel-rings-in-new-year-with-wonder-man-trailer/
+- category: cybersecurity
+  published: '2026-01-01T16:15:26'
+  score: 1.104
+  source: BleepingComputer
+  summary: The article summarizes the biggest cybersecurity and cyberattack stories
+    of 2025, which include high-profile data breaches, the rise of new threat groups,
+    and the exploitation of zero-day vulnerabilities. These incidents highlight the
+    evolving and persistent nature of cyber threats, and the need for continued vigilance
+    and adaptation in cybersecurity practices.
+  tags:
+  - Security
+  title: The biggest cybersecurity and cyberattack stories of 2025
+  url: https://www.bleepingcomputer.com/news/security/the-biggest-cybersecurity-and-cyberattack-stories-of-2025/
+- category: cybersecurity
+  published: '2026-01-01T15:52:00'
+  score: 1.005
+  source: The Hacker News
+  summary: The ThreatsDay Bulletin for 2026 covers a range of cybersecurity topics,
+    including the GhostAd malware that drains device resources, macOS attacks, proxy
+    botnets, and cloud exploits. The bulletin emphasizes that threat actors are continuously
+    evolving and adapting, and defenders must stay vigilant and agile to keep pace
+    with these threats.
+  tags: []
+  title: 'ThreatsDay Bulletin: GhostAd Drain, macOS Attacks, Proxy Botnets, Cloud
+    Exploits, and 12+ Stories'
+  url: https://thehackernews.com/2026/01/threatsday-bulletin-ghostad-drain-macos.html
+- category: cybersecurity
+  published: '2026-01-01T15:18:23'
+  score: 0.904
+  source: BleepingComputer
+  summary: The article reports on a fourth wave of the "GlassWorm" campaign, which
+    is targeting macOS developers with malicious VSCode/OpenVSX extensions that deliver
+    trojanized versions of cryptocurrency wallet applications. This campaign demonstrates
+    the ongoing threat to Mac users and the importance of security measures for software
+    development tools and supply chains.
+  tags:
+  - Security
+  - CryptoCurrency
+  title: New GlassWorm malware wave targets Macs with trojanized crypto wallets
+  url: https://www.bleepingcomputer.com/news/security/new-glassworm-malware-wave-targets-macs-with-trojanized-crypto-wallets/
+- category: ai
+  published: '2026-01-01T15:00:00'
+  score: 0.783
+  source: Towards Data Science
+  summary: The article provides a step-by-step guide on how to perform RFM (Recency,
+    Frequency, Monetary) analysis for customer segmentation using Pandas in Python.
+    This technique can be used to gain insights into customer behavior and improve
+    marketing strategies.
+  tags:
+  - Data Science
+  - Deep Dives
+  - Exploratory Data Analysis
+  - Machine Learning
+  - Pandas
+  title: 'EDA in Public (Part 3): RFM Analysis for Customer Segmentation in Pandas'
+  url: https://towardsdatascience.com/eda-in-public-part-3-rfm-analysis-for-customer-segmentation-in-pandas/
+- category: ai
+  published: '2026-01-01T13:00:00'
+  score: 0.769
+  source: Towards Data Science
+  summary: The article discusses the Actor-Critic method, a type of deep reinforcement
+    learning where an "actor" learns to take actions, and a "critic" evaluates the
+    actions and provides feedback to the actor. This approach can be used in various
+    applications, such as drone flight control.
+  tags:
+  - Reinforcement Learning
+  - Artificial Intelligence
+  - Deep Dives
+  - Deep Learning
+  - Deep Reinforcement
+  title: 'Deep Reinforcement Learning: The Actor-Critic Method'
+  url: https://towardsdatascience.com/deep-reinforcement-learning-the-actor-critic-method/
+- category: cybersecurity
+  published: '2026-01-01T09:19:00'
+  score: 0.955
+  source: The Hacker News
+  summary: Researchers have disclosed details of a persistent nine-month-long campaign
+    that has targeted IoT devices and web applications, using the recently disclosed
+    React2Shell vulnerability to enroll them into a botnet known as RondoDox. This
+    highlights the ongoing threat of botnets and the need to address vulnerabilities
+    in IoT and web application security.
+  tags: []
+  title: RondoDox Botnet Exploits Critical React2Shell Flaw to Hijack IoT Devices
+    and Web Servers
+  url: https://thehackernews.com/2026/01/rondodox-botnet-exploits-critical.html
+- category: webdev
+  published: '2026-01-01T05:47:00'
+  score: 0.734
+  source: The Hacker News
+  summary: The article discusses the Adapt browser, which aims to improve browsing
+    performance and productivity by reducing feature overload, background processes,
+    and fragmented workflows. This can be particularly beneficial for users who rely
+    on the browser as their primary work environment.
+  tags: []
+  title: How To Browse Faster and Get More Done Using Adapt Browser
+  url: https://thehackernews.com/2026/01/how-to-browse-fast-using-a-lightweight-browser.html
 - category: ai
   published: '2025-12-31T21:22:39'
   score: 0.827
@@ -16719,5 +16831,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-01T05:09:30.351489'
-total_articles: 1298
+last_updated: '2026-01-02T05:07:18.714170'
+total_articles: 1306
