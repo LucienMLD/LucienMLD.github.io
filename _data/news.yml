@@ -1,4 +1,78 @@
 articles:
+- category: ai
+  published: '2026-01-04T15:00:00'
+  score: 0.782
+  source: Towards Data Science
+  summary: The article compares the use of Prompt Engineering and Retrieval Augmented
+    Generation (RAG) for editing resumes in a code-free comparison in Azure, exploring
+    the potential benefits and tradeoffs of each approach.
+  tags:
+  - LLM Applications
+  - Azure
+  - Prompt Engineering
+  - Rag
+  - Resume
+  title: Prompt Engineering vs RAG for Editing Resumes
+  url: https://towardsdatascience.com/prompting-engineering-vs-rag-for-editing-resumes/
+- category: ai
+  published: '2026-01-04T13:00:00'
+  score: 0.768
+  source: Towards Data Science
+  summary: The article discusses how to filter for dates, including or excluding future
+    dates, in Semantic Models, providing a solution to the common issue of displaying
+    planning or previous year's data beyond the current date.
+  tags:
+  - Data analysis
+  - Business Analytics
+  - Data Modeling
+  - Data Science
+  - Power Bi
+  title: How to Filter for Dates, Including or Excluding Future Dates, in Semantic
+    Models
+  url: https://towardsdatascience.com/how-to-filter-for-dates-including-or-excluding-future-dates-in-semantic-models/
+- category: cybersecurity
+  published: '2026-01-03T20:34:22'
+  score: 0.809
+  source: BleepingComputer
+  summary: The hacking group ShinyHunters claims to have breached the systems of cybersecurity
+    firm Resecurity, but Resecurity states that the attackers only accessed a deliberately
+    deployed honeypot containing fake information, which was used to monitor their
+    activity.
+  tags:
+  - Security
+  title: Hackers claim to hack Resecurity, firm says it was a honeypot
+  url: https://www.bleepingcomputer.com/news/security/hackers-claim-resecurity-hack-firm-says-it-was-a-honeypot/
+- category: ai
+  published: '2026-01-03T15:00:00'
+  score: 0.567
+  source: Towards Data Science
+  summary: The article provides a deep dive on data transfer bottlenecks in AI/ML
+    workloads, their identification, and their resolution with the help of NVIDIA
+    Nsight™ Systems, highlighting the importance of optimizing data transfer for efficient
+    AI/ML workflows.
+  tags:
+  - Deep Learning
+  - Artificial Intelligence
+  - Deep Dives
+  - Machine Learning
+  - Model Optimization
+  title: Optimizing Data Transfer in AI/ML Workloads
+  url: https://towardsdatascience.com/optimizing-data-transfer-in-ai-ml-workloads/
+- category: ai
+  published: '2026-01-03T13:00:00'
+  score: 0.597
+  source: Towards Data Science
+  summary: The article focuses on how to keep Master Control Programs (MCPs) useful
+    in Agentic Pipelines, emphasizing the importance of checking the tools used by
+    Language Models before replacing them with more powerful models.
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - Artificial Intelligence
+  - Llm
+  - Llm Applications
+  title: How to Keep MCPs Useful in Agentic Pipelines
+  url: https://towardsdatascience.com/master-mcp-as-a-way-to-keep-mcps-useful-in-agentic-pipelines/
 - category: cybersecurity
   published: '2026-01-01T20:18:26'
   score: 0.894
@@ -16831,5 +16905,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-02T05:07:18.714170'
-total_articles: 1306
+last_updated: '2026-01-05T05:14:07.848410'
+total_articles: 1311
