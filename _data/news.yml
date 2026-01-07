@@ -1,4 +1,213 @@
 articles:
+- category: cybersecurity
+  published: '2026-01-07T04:31:00'
+  score: 1.295
+  source: The Hacker News
+  summary: 'A critical security flaw in legacy D-Link DSL gateway routers, tracked
+    as CVE-2026-0625 (CVSS score: 9.3), allows remote command injection through the
+    "dnscfg.cgi" endpoint due to improper sanitization. The vulnerability is under
+    active exploitation, and users are advised to update their routers or switch to
+    a more secure alternative.'
+  tags: []
+  title: Ongoing Attacks Exploiting Critical RCE Vulnerability in Legacy D-Link DSL
+    Routers
+  url: https://thehackernews.com/2026/01/active-exploitation-hits-legacy-d-link.html
+- category: webdev
+  published: '2026-01-07T01:00:06'
+  score: 0.874
+  source: Ars Technica
+  summary: Motorola has revealed the Razr Fold, a book-style foldable smartphone launching
+    this summer. While details are limited, the announcement indicates Motorola's
+    continued focus on foldable devices and its efforts to compete in the evolving
+    smartphone market.
+  tags:
+  - Tech
+  - Foldables
+  - motorola
+  - motorola razr fold
+  - smartphones
+  title: Motorola reveals the Razr Fold, a book-style foldable launching this summer
+  url: https://arstechnica.com/gadgets/2026/01/motorola-reveals-the-razr-fold-a-book-style-foldable-launching-this-summer/
+- category: ai
+  published: '2026-01-07T00:30:39'
+  score: 1.036
+  source: BleepingComputer
+  summary: OpenAI is testing a new model for Codex called "GPT-5.2-Codex-Max" and
+    rolling it out to users with a subscription. The new model is likely to offer
+    improved code generation capabilities, though the specific technical details and
+    performance improvements are not yet publicly known.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI is rolling out GPT-5.2 “Codex-Max” for some users
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-rolling-out-gpt-52-codex-max-for-some-users/
+- category: ai
+  published: '2026-01-06T23:21:15'
+  score: 0.984
+  source: Machine Learning Mastery
+  summary: This article provides a gentle introduction to language model fine-tuning,
+    covering the reasons for fine-tuning, dataset preparation, the fine-tuning procedure,
+    and other fine-tuning techniques. It serves as a useful primer for developers
+    and researchers looking to adapt large language models to specific tasks or domains.
+  tags: []
+  title: A Gentle Introduction to Language Model Fine-tuning
+  url: https://machinelearningmastery.com/a-gentle-introduction-to-language-model-fine-tuning/
+- category: webdev
+  published: '2026-01-06T22:40:08'
+  score: 0.76
+  source: Ars Technica
+  summary: HP's EliteBoard G1a is a Windows 11 PC integrated into a membrane keyboard,
+    providing a familiar and full-fledged PC experience in a compact form factor.
+    This device highlights the ongoing efforts to develop innovative PC form factors
+    that cater to evolving user needs and preferences.
+  tags:
+  - Tech
+  - CES 2026
+  - HP
+  - Keyboards
+  - Raspberry Pi
+  title: HP’s EliteBoard G1a is a Ryzen-powered Windows 11 PC in a membrane keyboard
+  url: https://arstechnica.com/gadgets/2026/01/hps-eliteboard-g1a-is-a-ryzen-powered-windows-11-pc-in-a-membrane-keyboard/
+- category: cybersecurity
+  published: '2026-01-06T22:27:15'
+  score: 1.006
+  source: BleepingComputer
+  summary: Taiwan's National Security Bureau reports that China's attacks on the country's
+    energy sector increased tenfold in 2025 compared to the previous year. This significant
+    increase in cyber threats underscores the growing tensions between Taiwan and
+    China, and the need for Taiwan to strengthen its cybersecurity defenses.
+  tags:
+  - Security
+  - Government
+  title: Taiwan says China's attacks on its energy sector increased tenfold
+  url: https://www.bleepingcomputer.com/news/security/taiwan-says-chinas-attacks-on-its-energy-sector-increased-tenfold/
+- category: webdev
+  published: '2026-01-06T21:56:18'
+  score: 0.755
+  source: Ars Technica
+  summary: Nvidia has focused on software improvements rather than announcing new
+    GeForce Super GPUs this year. This shift in strategy suggests the company is prioritizing
+    optimization and software-driven enhancements to its existing hardware lineup
+    rather than introducing major new GPU models.
+  tags:
+  - Gaming
+  - Tech
+  - CES 2026
+  - dlss
+  - dlss 4
+  title: With GeForce Super GPUs missing in action, Nvidia focuses on software upgrades
+  url: https://arstechnica.com/gadgets/2026/01/nvidia-leans-on-dlss-improvements-to-make-up-for-a-lack-of-gpus-at-ces/
+- category: ai
+  published: '2026-01-06T21:16:17'
+  score: 0.826
+  source: Hugging Face
+  summary: This article discusses how to improve accuracy in multimodal search and
+    visual document retrieval using Llama Nemotron Retrieval Augmented Generation
+    (RAG) models. The techniques described can help enhance the performance of large
+    language models in tasks involving multiple data modalities.
+  tags: []
+  title: 'Small Yet Mighty: Improve Accuracy In Multimodal Search and Visual Document
+    Retrieval with Llama Nemotron RAG Models'
+  url: https://huggingface.co/blog/nvidia/llama-nemotron-vl-1b
+- category: cybersecurity
+  published: '2026-01-06T19:52:52'
+  score: 1.035
+  source: BleepingComputer
+  summary: Threat actors are actively exploiting a recently discovered command injection
+    vulnerability in legacy D-Link DSL gateway routers that went out of support years
+    ago. The vulnerability, which has a CVSS score of 9.3, allows attackers to execute
+    arbitrary commands on affected devices, highlighting the importance of updating
+    or replacing unsupported hardware.
+  tags:
+  - Security
+  - Hardware
+  title: New D-Link flaw in legacy DSL routers actively exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/new-d-link-flaw-in-legacy-dsl-routers-actively-exploited-in-attacks/
+- category: ai
+  published: '2026-01-06T18:59:21'
+  score: 0.942
+  source: Ars Technica
+  summary: OpenAI has lost a privacy fight, allowing news organizations to access
+    20 million ChatGPT logs. This could lead to even more deleted chat data being
+    shared, raising concerns about user privacy and the transparency of large language
+    models.
+  tags:
+  - AI
+  - Policy
+  - ChatGPT
+  - copilot
+  - copyright
+  title: News orgs win fight to access 20M ChatGPT logs. Now they want more.
+  url: https://arstechnica.com/ai/2026/01/news-orgs-want-openai-to-dig-up-millions-of-deleted-chatgpt-logs/
+- category: webdev
+  published: '2026-01-06T18:05:05'
+  score: 0.731
+  source: Ars Technica
+  summary: An appeals court has agreed that the Trump administration cannot arbitrarily
+    set low flat rates for university reimbursements, blocking cuts to research costs.
+    This ruling preserves the funding mechanisms for academic research, which is crucial
+    for driving innovation and scientific progress.
+  tags:
+  - Policy
+  - Science
+  - Appeals court
+  - Grant funding
+  - indirect costs
+  title: Appeals court agrees that Congress blocked cuts to research costs
+  url: https://arstechnica.com/science/2026/01/appeals-court-upholds-block-on-one-of-trumps-cuts-to-research-funds/
+- category: webdev
+  published: '2026-01-06T17:32:14'
+  score: 0.728
+  source: Ars Technica
+  summary: Nvidia's new G-Sync Pulsar monitors promise "effective motion clarity of
+    a theoretical 1,000 Hz monitor," targeting motion blur at the human retinal level.
+    This technology aims to provide a more seamless and immersive visual experience,
+    particularly for fast-paced gaming and content consumption.
+  tags:
+  - Gaming
+  - g-sync
+  - NVIDIA
+  - pulsar
+  title: Nvidia’s new G-Sync Pulsar monitors target motion blur at the human retina
+    level
+  url: https://arstechnica.com/gaming/2026/01/nvidias-new-g-sync-pulsar-monitors-target-motion-blur-at-the-human-retina-level/
+- category: cybersecurity
+  published: '2026-01-06T15:47:00'
+  score: 1.052
+  source: The Hacker News
+  summary: 'An unpatched security flaw, CVE-2025-65606 (CVSS score: N/A), in the TOTOLINK
+    EX200 wireless range extender could allow a remote authenticated attacker to gain
+    full control of the device. The vulnerability underscores the need for manufacturers
+    to promptly address security issues in their products to protect users from potential
+    exploits.'
+  tags: []
+  title: Unpatched Firmware Flaw Exposes TOTOLINK EX200 to Full Remote Device Takeover
+  url: https://thehackernews.com/2026/01/unpatched-firmware-flaw-exposes.html
+- category: cybersecurity
+  published: '2026-01-06T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The CERT Coordination Center (CERT/CC) has disclosed vulnerabilities in
+    the Columbia Weather Systems MicroServer, which could allow an attacker to redirect
+    connections to a malicious device, gain unauthorized access to the device, or
+    perform other malicious actions. The vulnerabilities highlight the importance
+    of regularly updating and securing industrial control systems.
+  tags: []
+  title: Columbia Weather Systems MicroServer
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-006-01
+- category: ai
+  published: '2026-01-06T11:00:39'
+  score: 0.887
+  source: Machine Learning Mastery
+  summary: Most ChatGPT users are unaware that the model uses tool calling to search
+    the web for current information or run Python code to analyze data. This article
+    presents a complete framework for connecting large language models to the real
+    world through tool calling, a crucial capability for making these models more
+    useful and practical.
+  tags: []
+  title: 'Mastering LLM Tool Calling: The Complete Framework for Connecting Models
+    to the Real World'
+  url: https://machinelearningmastery.com/mastering-llm-tool-calling-the-complete-framework-for-connecting-models-to-the-real-world/
 - category: ai
   published: '2026-01-06T03:30:30'
   score: 0.969
@@ -17129,5 +17338,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-06T05:06:32.907081'
-total_articles: 1326
+last_updated: '2026-01-07T05:07:24.996111'
+total_articles: 1341
