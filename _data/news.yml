@@ -1,5 +1,185 @@
 articles:
 - category: cybersecurity
+  published: '2026-01-08T01:58:33'
+  score: 1.037
+  source: Ars Technica
+  summary: A "medical concern" involving a crew member has prompted the cancellation
+    of a planned spacewalk outside the International Space Station, with NASA stating
+    that the situation is stable.
+  tags:
+  - Science
+  - Space
+  - expedition 74
+  - human spaceflight
+  - international space station
+  title: A crew member’s “medical concern” foils a planned spacewalk outside the ISS
+  url: https://arstechnica.com/space/2026/01/nasa-postpones-space-station-spacewalk-due-to-crew-members-medical-concern/
+- category: ai
+  published: '2026-01-08T00:00:33'
+  score: 0.945
+  source: Ars Technica
+  summary: Ford is working on integrating AI assistants into its vehicles, as part
+    of its efforts to enhance the driving experience.
+  tags:
+  - AI
+  - Cars
+  - CES 2026
+  - Ford
+  - software defined vehicle
+  title: Ford is getting ready to put AI assistants in its cars
+  url: https://arstechnica.com/cars/2026/01/in-car-ai-assistant-coming-to-fords-and-lincolns-in-2027/
+- category: cybersecurity
+  published: '2026-01-07T23:28:45'
+  score: 1.066
+  source: BleepingComputer
+  summary: OpenAI is launching a dedicated space for health-related conversations
+    with ChatGPT, and has assured that it will not use users' health data to train
+    its models, addressing privacy concerns.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI says ChatGPT won't use your health information to train its models
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-wont-use-your-health-information-to-train-its-models/
+- category: cybersecurity
+  published: '2026-01-07T23:18:14'
+  score: 1.112
+  source: BleepingComputer
+  summary: A new wave of GoBruteforcer botnet malware attacks is targeting databases
+    of cryptocurrency and blockchain projects on exposed servers, potentially using
+    AI-generated examples to configure the attacks.
+  tags:
+  - Security
+  title: New GoBruteforcer attack wave targets crypto, blockchain projects
+  url: https://www.bleepingcomputer.com/news/security/new-gobruteforcer-attack-wave-targets-crypto-blockchain-projects/
+- category: ai
+  published: '2026-01-07T22:50:10'
+  score: 0.837
+  source: Ars Technica
+  summary: Samsung has demoted its Ballie home robot, which was once promised for
+    a summer 2025 release, to internal use only, six years after its CES debut.
+  tags:
+  - Tech
+  - CES 2026
+  - robots
+  - Samsung
+  - smart home
+  title: Samsung’s Ballie home robot, once promised for summer 2025, gets grim update
+  url: https://arstechnica.com/gadgets/2026/01/samsung-squashes-hopes-that-it-will-release-its-ballie-home-robot/
+- category: ai
+  published: '2026-01-07T22:20:08'
+  score: 0.833
+  source: Ars Technica
+  summary: An AI program in Utah now autonomously writes prescription refills for
+    190 common medications, providing patients with a convenient way to obtain their
+    medications.
+  tags:
+  - AI
+  - Health
+  - fda
+  - prescription
+  - refill
+  title: AI starts autonomously writing prescription refills in Utah
+  url: https://arstechnica.com/health/2026/01/utah-allows-ai-to-autonomously-prescribe-medication-refills/
+- category: ai
+  published: '2026-01-07T20:58:02'
+  score: 0.956
+  source: BleepingComputer
+  summary: New data suggests that ChatGPT is losing market share to Google's Gemini,
+    but it's unclear if Gemini is also gaining ground in the mobile space.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT is losing market share as Google Gemini gains ground
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-losing-market-share-as-google-gemini-gains-ground/
+- category: webdev
+  published: '2026-01-07T18:51:37'
+  score: 0.736
+  source: Ars Technica
+  summary: Bose has open-sourced its SoundTouch home theater smart speakers ahead
+    of their end-of-life, providing a better alternative to bricking the devices.
+  tags:
+  - Tech
+  - audio
+  - bose
+  - smart home
+  - Speakers
+  title: Bose open-sources its SoundTouch home theater smart speakers ahead of end-of-life
+  url: https://arstechnica.com/gadgets/2026/01/bose-open-sources-its-soundtouch-home-theater-smart-speakers-ahead-of-eol/
+- category: webdev
+  published: '2026-01-07T17:31:30'
+  score: 0.728
+  source: Ars Technica
+  summary: SteamOS, Valve's Linux-based operating system, continues to gain support,
+    with the announcement of Legion Go 2 support and upcoming wide support for Arm
+    hardware.
+  tags:
+  - Gaming
+  - AMD
+  - ARM
+  - Lenovo
+  - NVIDIA
+  title: SteamOS continues its slow spread across the PC gaming landscape
+  url: https://arstechnica.com/gaming/2026/01/steamos-continues-its-slow-spread-across-the-pc-gaming-landscape/
+- category: webdev
+  published: '2026-01-07T15:16:47'
+  score: 0.754
+  source: CSS-Tricks
+  summary: The CSS Tricks article discusses potential future CSS features, such as
+    the `:drag` and `::dragged-image` pseudo-classes, which could make it easier to
+    style elements while they are being dragged.
+  tags:
+  - Articles
+  - csswg
+  - pseudo classes
+  title: 'Future CSS: :drag (and Maybe ::dragged-image?)'
+  url: https://css-tricks.com/future-css-drag-and-maybe-dragged-image/
+- category: ai
+  published: '2026-01-07T15:06:53'
+  score: 0.828
+  source: Ars Technica
+  summary: AI pioneer Yann LeCun has stepped down from his role at Meta and discussed
+    the limits of large language models, emphasizing that intelligence is about learning.
+  tags:
+  - AI
+  - Advanced Machine Intelligence
+  - LLMs
+  - meta
+  - syndication
+  title: 'Computer scientist Yann LeCun: “Intelligence really is about learning”'
+  url: https://arstechnica.com/ai/2026/01/computer-scientist-yann-lecun-intelligence-really-is-about-learning/
+- category: cybersecurity
+  published: '2026-01-07T13:48:00'
+  score: 1.037
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed a critical vulnerability in the
+    popular workflow automation platform n8n, which allows unauthenticated remote
+    attackers to gain complete control over susceptible instances.
+  tags: []
+  title: Critical n8n Vulnerability (CVSS 10.0) Allows Unauthenticated Attackers to
+    Take Full Control
+  url: https://thehackernews.com/2026/01/critical-n8n-vulnerability-cvss-100.html
+- category: cybersecurity
+  published: '2026-01-07T13:06:11'
+  score: 1.032
+  source: BleepingComputer
+  summary: Veeam has released security updates to patch multiple vulnerabilities,
+    including a critical remote code execution (RCE) flaw, in its Backup & Replication
+    software.
+  tags:
+  - Security
+  title: New Veeam vulnerabilities expose backup servers to RCE attacks
+  url: https://www.bleepingcomputer.com/news/security/new-veeam-vulnerabilities-expose-backup-servers-to-rce-attacks/
+- category: webdev
+  published: '2026-01-07T10:00:00'
+  score: 0.681
+  source: Smashing Magazine
+  summary: The article explores how developers can pivot their careers without starting
+    from scratch, by leveraging their existing skills and experience to move into
+    a new direction.
+  tags: []
+  title: Pivoting Your Career Without Starting From Scratch
+  url: https://smashingmagazine.com/2026/01/pivoting-career-without-starting-from-scratch/
+- category: cybersecurity
   published: '2026-01-07T04:31:00'
   score: 1.295
   source: The Hacker News
@@ -208,6 +388,15 @@ articles:
   title: 'Mastering LLM Tool Calling: The Complete Framework for Connecting Models
     to the Real World'
   url: https://machinelearningmastery.com/mastering-llm-tool-calling-the-complete-framework-for-connecting-models-to-the-real-world/
+- category: webdev
+  published: '2026-01-06T08:00:00'
+  score: 0.468
+  source: Chrome Developers
+  summary: New rate limits for websites that send a large number of web push notifications
+    with little engagement aim to increase the value of these notifications for users.
+  tags: []
+  title: Increasing web push notification value with rate limits
+  url: https://developer.chrome.com/blog/web-push-rate-limits?hl=en
 - category: ai
   published: '2026-01-06T03:30:30'
   score: 0.969
@@ -17338,5 +17527,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-07T05:07:24.996111'
-total_articles: 1341
+last_updated: '2026-01-08T05:06:25.524573'
+total_articles: 1356
