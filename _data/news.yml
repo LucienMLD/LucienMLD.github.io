@@ -1,5 +1,177 @@
 articles:
 - category: cybersecurity
+  published: '2026-01-09T04:26:28'
+  score: 1.055
+  source: Ars Technica
+  summary: NASA has ordered a "controlled medical evacuation" from the International
+    Space Station, with the crew responding promptly to assist their colleague.
+  tags:
+  - Science
+  - Space
+  - commercial crew
+  - crew dragon
+  - crew-11
+  title: NASA orders “controlled medical evacuation” from the International Space
+    Station
+  url: https://arstechnica.com/space/2026/01/in-a-first-nasa-orders-astronauts-home-after-unspecified-medical-issue/
+- category: cybersecurity
+  published: '2026-01-09T03:46:07'
+  score: 1.098
+  source: BleepingComputer
+  summary: CISA has retired 10 Emergency Directives issued between 2019 and 2024,
+    as the required actions have been completed or are now covered by a new Binding
+    Operational Directive.
+  tags:
+  - Security
+  title: CISA retires 10 emergency cyber orders in rare bulk closure
+  url: https://www.bleepingcomputer.com/news/security/cisa-retires-10-emergency-cyber-orders-in-rare-bulk-closure/
+- category: ai
+  published: '2026-01-08T23:46:30'
+  score: 0.987
+  source: BleepingComputer
+  summary: Google is rolling out a new "AI Inbox" feature in Gmail that summarizes
+    emails, but the company has promised not to train its models on users' emails.
+  tags:
+  - Google
+  - Artificial Intelligence
+  title: Gmail's new AI Inbox uses Gemini, but Google says it won’t train AI on user
+    emails
+  url: https://www.bleepingcomputer.com/news/google/gmails-new-ai-inbox-uses-gemini-but-google-says-it-wont-train-ai-on-user-emails/
+- category: cybersecurity
+  published: '2026-01-08T23:39:12'
+  score: 1.163
+  source: BleepingComputer
+  summary: A sophisticated China-linked threat actor has expanded its operations to
+    target telecommunications providers in Southeastern Europe using Linux-based malware
+    and exploiting edge devices.
+  tags:
+  - Security
+  title: New China-linked hackers breach telcos using edge device exploits
+  url: https://www.bleepingcomputer.com/news/security/new-china-linked-hackers-breach-telcos-using-edge-device-exploits/
+- category: webdev
+  published: '2026-01-08T21:13:55'
+  score: 0.751
+  source: Ars Technica
+  summary: The FCC has voted to allow a new category of Wi-Fi devices to operate outdoors
+    and at higher power, a win for Wi-Fi advocates.
+  tags:
+  - Policy
+  - FCC
+  - wi-fi
+  title: Wi-Fi advocates get win from FCC with vote to allow higher-power devices
+  url: https://arstechnica.com/tech-policy/2026/01/fcc-to-authorize-more-powerful-wireless-devices-in-6-ghz-wi-fi-band/
+- category: ai
+  published: '2026-01-08T18:25:01'
+  score: 0.85
+  source: AWS Machine Learning
+  summary: Flo Health is exploring the use of generative AI for medical content verification,
+    as detailed in a two-part series exploring their proof of concept and scaling
+    challenges.
+  tags:
+  - Amazon Bedrock
+  - Amazon Textract
+  - Customer Solutions
+  - Foundation models
+  - Generative AI
+  title: Scaling medical content review at Flo Health using Amazon Bedrock (Part 1)
+  url: https://aws.amazon.com/blogs/machine-learning/scaling-medical-content-review-at-flo-health-using-amazon-bedrock-part-1/
+- category: ai
+  published: '2026-01-08T18:00:52'
+  score: 0.892
+  source: Ars Technica
+  summary: The new ChatGPT Health feature will allow users to link their medical and
+    wellness records to the AI chatbot, which may generate inaccurate or misleading
+    information.
+  tags:
+  - AI
+  - Biz & IT
+  - AI assistants
+  - AI confabulation
+  - AI hallucination
+  title: ChatGPT Health lets you connect medical records to an AI that makes things
+    up
+  url: https://arstechnica.com/ai/2026/01/chatgpt-health-lets-you-connect-medical-records-to-an-ai-that-makes-things-up/
+- category: ai
+  published: '2026-01-08T14:00:07'
+  score: 0.908
+  source: Ars Technica
+  summary: ChatGPT has fallen victim to a new data-pilfering attack, highlighting
+    the ongoing challenges in addressing the root causes of such attacks on large
+    language models.
+  tags:
+  - AI
+  - Biz & IT
+  - Security
+  - chatbots
+  - data exfiltration
+  title: ChatGPT falls to new data-pilfering attack as a vicious cycle in AI continues
+  url: https://arstechnica.com/security/2026/01/chatgpt-falls-to-new-data-pilfering-attack-as-a-vicious-cycle-in-ai-continues/
+- category: cybersecurity
+  published: '2026-01-08T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: Hitachi Energy has disclosed a vulnerability in the Jasper Report feature
+    of its Asset Suite product that could be exploited by attackers.
+  tags: []
+  title: Hitachi Energy Asset Suite
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-008-01
+- category: webdev
+  published: '2026-01-08T12:00:00'
+  score: 0.693
+  source: Towards Data Science
+  summary: This article compares and benchmarks various PostgreSQL insert strategies
+    in Python, focusing on trade-offs between safety, abstraction, and throughput
+    to choose the right approach.
+  tags:
+  - Data Engineering
+  - Data Science
+  - Databases
+  - Postgres
+  - Postgresql
+  title: 'Faster Is Not Always Better: Choosing the Right PostgreSQL Insert Strategy
+    in Python (+Benchmarks)'
+  url: https://towardsdatascience.com/faster-is-not-always-better-choosing-the-right-postgresql-insert-strategy-in-python-benchmarks/
+- category: webdev
+  published: '2026-01-08T11:50:00'
+  score: 0.692
+  source: The Hacker News
+  summary: Chainguard's analysis of open-source software consumption and risk provides
+    insights into the state of trusted open source for modern organizations.
+  tags: []
+  title: The State of Trusted Open Source
+  url: https://thehackernews.com/2026/01/the-state-of-trusted-open-source.html
+- category: cybersecurity
+  published: '2026-01-08T10:44:00'
+  score: 1.062
+  source: The Hacker News
+  summary: Cisco has released updates to address a security vulnerability in its Identity
+    Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC) products that
+    could be exploited using a public proof-of-concept exploit.
+  tags: []
+  title: Cisco Patches ISE Security Vulnerability After Public PoC Exploit Release
+  url: https://thehackernews.com/2026/01/cisco-patches-ise-security.html
+- category: webdev
+  published: '2026-01-08T09:53:00'
+  score: 0.68
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed multiple critical-severity vulnerabilities
+    in the Coolify open-source, self-hosting platform that could enable authentication
+    bypass and remote code execution.
+  tags: []
+  title: Coolify Discloses 11 Critical Flaws Enabling Full Server Compromise on Self-Hosted
+    Instances
+  url: https://thehackernews.com/2026/01/coolify-discloses-11-critical-flaws.html
+- category: ai
+  published: '2026-01-08T06:57:00'
+  score: 0.904
+  source: The Hacker News
+  summary: OpenAI has launched ChatGPT Health, a dedicated space that allows users
+    to securely connect their medical records and have conversations with the chatbot
+    about their health.
+  tags: []
+  title: OpenAI Launches ChatGPT Health with Isolated, Encrypted Health Data Controls
+  url: https://thehackernews.com/2026/01/openai-launches-chatgpt-health-with.html
+- category: cybersecurity
   published: '2026-01-08T01:58:33'
   score: 1.037
   source: Ars Technica
@@ -17527,5 +17699,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-08T05:06:25.524573'
-total_articles: 1356
+last_updated: '2026-01-09T05:06:51.588467'
+total_articles: 1370
