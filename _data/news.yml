@@ -1,5 +1,150 @@
 articles:
 - category: cybersecurity
+  published: '2026-01-11T20:35:33'
+  score: 0.896
+  source: Ars Technica
+  summary: Footage of a 2024 discovery of a new species of anaconda appears in NatGeo's
+    documentary series "Pole to Pole with Will Smith." The involvement of the famous
+    actor in this scientific endeavor raises awareness and interest in biodiversity
+    conservation efforts.
+  tags:
+  - Culture
+  - Science
+  - anacondas
+  - Biology
+  - disney plus
+  title: That time Will Smith helped discover new species of anaconda
+  url: https://arstechnica.com/science/2026/01/that-time-will-smith-helped-discover-new-species-of-anaconda/
+- category: cybersecurity
+  published: '2026-01-11T19:13:01'
+  score: 0.933
+  source: BleepingComputer
+  summary: Instagram claims to have fixed a bug that allowed threat actors to mass-request
+    password reset emails, denying a breach despite claims of over 17 million account
+    data being leaked online. The incident highlights the importance of secure password
+    management and the need for platforms to swiftly address vulnerabilities.
+  tags:
+  - Security
+  title: Instagram denies breach amid claims of 17 million account data leak
+  url: https://www.bleepingcomputer.com/news/security/instagram-denies-breach-amid-claims-of-17-million-account-data-leak/
+- category: cybersecurity
+  published: '2026-01-11T15:23:34'
+  score: 0.905
+  source: BleepingComputer
+  summary: The California Privacy Protection Agency has taken action against a data
+    broker, Datamasters, for selling the health and personal data of millions of users
+    without being registered. This move underscores the growing regulatory efforts
+    to protect consumer data privacy and hold companies accountable for their data
+    practices.
+  tags:
+  - Legal
+  title: California bans data broker reselling health data of millions
+  url: https://www.bleepingcomputer.com/news/legal/california-bans-data-broker-reselling-health-data-of-millions/
+- category: ai
+  published: '2026-01-11T15:00:00'
+  score: 0.871
+  source: Towards Data Science
+  summary: The article provides a walkthrough on using open-source prompt optimization
+    algorithms in Python to improve the accuracy of an autonomous vehicle safety agent
+    running on OpenAI's GPT 5.2. This demonstrates the potential of leveraging advanced
+    language models and prompt engineering techniques to enhance the performance of
+    multimodal vision agents.
+  tags:
+  - Agentic AI
+  - Computer Vision
+  - Deep Dives
+  - Multimodal
+  - Prompt Engineering
+  title: 'Automatic Prompt Optimization for Multimodal Vision Agents: A Self-Driving
+    Car Example'
+  url: https://towardsdatascience.com/automatic-prompt-optimization-for-multimodal-vision-agents-a-self-driving-car-example/
+- category: webdev
+  published: '2026-01-11T13:00:00'
+  score: 0.699
+  source: Towards Data Science
+  summary: The article discusses how the author utilizes slash commands to be a more
+    efficient engineer, demonstrating the benefits of leveraging productivity-enhancing
+    tools and shortcuts in software development workflows.
+  tags:
+  - LLM Applications
+  - Agentic Ai
+  - Command Line Interface
+  - Cursor
+  - Gemini
+  title: How to Leverage Slash Commands to Code Effectively
+  url: https://towardsdatascience.com/how-to-leverage-slash-commands-to-code-effectively/
+- category: cybersecurity
+  published: '2026-01-11T12:00:50'
+  score: 0.831
+  source: Ars Technica
+  summary: For the eighth consecutive year, the world's oceans have absorbed a record-breaking
+    amount of heat in 2025, highlighting the ongoing trend of global warming and its
+    impact on the marine environment.
+  tags:
+  - Science
+  - global warming
+  - ocean ecology
+  - syndication
+  title: The oceans just keep getting hotter
+  url: https://arstechnica.com/science/2026/01/the-oceans-just-keep-getting-hotter/
+- category: webdev
+  published: '2026-01-11T00:29:10'
+  score: 0.571
+  source: BleepingComputer
+  summary: Microsoft is retiring the "Send to Kindle" feature in Microsoft Word, which
+    allowed users to directly send their documents to their Kindle devices. This change
+    may impact the workflows of some users who relied on this integration.
+  tags:
+  - Microsoft
+  - Software
+  title: Microsoft is retiring 'Send to Kindle' in Word
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-is-retiring-send-to-kindle-in-word/
+- category: cybersecurity
+  published: '2026-01-10T18:17:31'
+  score: 0.696
+  source: BleepingComputer
+  summary: The data breach of the BreachForums hacking forum has resulted in the leakage
+    of its user database table, exposing over 324,000 accounts. This incident underscores
+    the need for robust cybersecurity measures to protect online communities and the
+    sensitive information they handle.
+  tags:
+  - Security
+  title: BreachForums hacking forum database leaked, exposing 324,000 accounts
+  url: https://www.bleepingcomputer.com/news/security/breachforums-hacking-forum-database-leaked-exposing-324-000-accounts/
+- category: ai
+  published: '2026-01-10T15:00:00'
+  score: 0.568
+  source: Towards Data Science
+  summary: The article provides an overview of the foundations of federated learning,
+    a machine learning approach where models are trained on distributed data sources
+    without the need to centralize the data. This technique offers promising implications
+    for privacy-preserving and scalable model development.
+  tags:
+  - Federated Learning
+  - Artificial Intelligence
+  - Data Science
+  - Editors Pick
+  - Machine Learning
+  title: 'Federated Learning, Part 1: The Basics of Training Models Where the Data Lives'
+  url: https://towardsdatascience.com/federated-learning-part-1-the-basics-of-training-models-where-the-data-lives/
+- category: webdev
+  published: '2026-01-10T13:00:00'
+  score: 0.499
+  source: Towards Data Science
+  summary: The article describes a step-by-step journey of building an enterprise-grade
+    financial model in Power BI, covering data transformation, star schema modeling,
+    and DAX variance analysis. This serves as a valuable reference for data analysts
+    and business intelligence professionals seeking to develop robust and sophisticated
+    data models.
+  tags:
+  - Data Science
+  - Busines Intelligence
+  - Data Analytics
+  - Data Modeling
+  - Data Visualization
+  title: 'Beyond the Flat Table: Building an Enterprise-Grade Financial Model in Power BI'
+  url: https://towardsdatascience.com/beyond-the-flat-table-building-an-enterprise-grade-financial-model-in-power-bi/
+- category: cybersecurity
   published: '2026-01-09T04:26:28'
   score: 1.055
   source: Ars Technica
@@ -17699,5 +17844,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-09T05:06:51.588467'
-total_articles: 1370
+last_updated: '2026-01-12T05:10:34.787721'
+total_articles: 1380
