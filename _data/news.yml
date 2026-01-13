@@ -1,4 +1,196 @@
 articles:
+- category: ai
+  published: '2026-01-12T23:42:09'
+  score: 1.031
+  source: Ars Technica
+  summary: Anthropic has launched Cowork, a tool that allows users to give Claude,
+    their AI assistant, access to a folder and provide instructions for it to perform
+    various tasks, expanding the capabilities of the general-purpose AI system.
+  tags:
+  - AI
+  - agentic AI
+  - Anthropic
+  - Claude
+  - Claude Code
+  title: Anthropic launches Cowork, a Claude Code-like for general computing
+  url: https://arstechnica.com/ai/2026/01/anthropic-launches-cowork-a-claude-code-like-for-general-computing/
+- category: cybersecurity
+  published: '2026-01-12T23:06:47'
+  score: 0.963
+  source: BleepingComputer
+  summary: A 44-year-old Dutch national has been sentenced to seven years in prison
+    for hacking the computer systems of the ports of Rotterdam and Antwerp, as well
+    as other crimes, underscoring the serious consequences for cybercriminal activities.
+  tags:
+  - Security
+  - Legal
+  title: Hacker gets seven years for breaching Rotterdam and Antwerp ports
+  url: https://www.bleepingcomputer.com/news/security/hacker-gets-seven-years-for-breaching-rotterdam-and-antwerp-ports/
+- category: webdev
+  published: '2026-01-12T22:27:50'
+  score: 0.758
+  source: Ars Technica
+  summary: Linus Torvalds, the creator of the Linux operating system, has tried his
+    hand at "vibe coding," a method of writing code without the traditional coding
+    process, highlighting the ongoing exploration of alternative programming approaches.
+  tags:
+  - AI
+  - Tech
+  - coding
+  - GitHub
+  - Google Antigravity
+  title: Even Linus Torvalds is trying his hand at vibe coding (but just a little)
+  url: https://arstechnica.com/ai/2026/01/hobby-github-repo-shows-linus-torvalds-vibe-codes-sometimes/
+- category: cybersecurity
+  published: '2026-01-12T20:09:16'
+  score: 1.133
+  source: BleepingComputer
+  summary: CISA has ordered federal agencies to patch a high-severity vulnerability
+    in the Gogs platform that has been exploited in zero-day attacks. The vulnerability
+    allows remote code execution, posing a significant security risk that must be
+    addressed promptly.
+  tags:
+  - Security
+  title: CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-gogs-rce-flaw-exploited-in-zero-day-attacks/
+- category: cybersecurity
+  published: '2026-01-12T18:48:20'
+  score: 1.075
+  source: BleepingComputer
+  summary: The University of Hawaii's Cancer Center was hit by a ransomware attack,
+    leading to the theft of data on study participants, including decades-old documents
+    containing sensitive information like Social Security numbers. The breach highlights
+    the ongoing threat of ransomware and the importance of robust data security measures
+    in the healthcare sector.
+  tags:
+  - Security
+  title: University of Hawaii Cancer Center hit by ransomware attack
+  url: https://www.bleepingcomputer.com/news/security/university-of-hawaii-cancer-center-hit-by-ransomware-attack/
+- category: ai
+  published: '2026-01-12T17:57:32'
+  score: 0.979
+  source: Ars Technica
+  summary: Apple has chosen to use Google's Gemini technology to power the next generation
+    of its Siri virtual assistant, despite also using OpenAI's ChatGPT in other parts
+    of iOS, highlighting the tech giant's strategy for leveraging various AI capabilities.
+  tags:
+  - AI
+  - Apple
+  - Tech
+  - apple
+  - gemini
+  title: Apple chooses Google’s Gemini over OpenAI’s ChatGPT to power next-gen Siri
+  url: https://arstechnica.com/apple/2026/01/apple-says-its-new-ai-powered-siri-will-use-googles-gemini-language-models/
+- category: webdev
+  published: '2026-01-12T17:08:56'
+  score: 0.725
+  source: Ars Technica
+  summary: The sudden closure of hundreds of GameStop storefronts raises questions
+    about the company's future, as the shift towards digital gaming and e-commerce
+    continues to impact traditional retail models in the video game industry.
+  tags:
+  - Gaming
+  - digital
+  - game discs
+  - game downloads
+  - Gamestop
+  title: Is this the beginning of the end for GameStop?
+  url: https://arstechnica.com/gaming/2026/01/is-this-the-beginning-of-the-end-for-gamestop/
+- category: webdev
+  published: '2026-01-12T15:48:37'
+  score: 0.717
+  source: BleepingComputer
+  summary: Microsoft is retiring the Microsoft Lens PDF scanner app for Android and
+    iOS devices, as the company focuses on integrating its scanning and document management
+    capabilities into other Microsoft 365 applications, reflecting the evolving landscape
+    of productivity tools.
+  tags:
+  - Microsoft
+  - Software
+  title: Microsoft is retiring the Lens scanner app for iOS, Android
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-is-retiring-the-lens-scanner-app-for-ios-android/
+- category: webdev
+  published: '2026-01-12T14:54:32'
+  score: 0.751
+  source: CSS-Tricks
+  summary: The article provides a personal account of a speaker's experience at the
+    Web Directions Dev Summit 2025, sharing their perspective on navigating the event
+    while dealing with anxiety and imposter syndrome, a common challenge faced by
+    many in the web development community.
+  tags:
+  - Articles
+  - event
+  - public speaking
+  title: Postcard From Web Directions Dev Summit, 2025
+  url: https://css-tricks.com/postcard-from-web-directions-dev-summit-2025/
+- category: cybersecurity
+  published: '2026-01-12T14:05:54'
+  score: 0.943
+  source: BleepingComputer
+  summary: A maximum-severity vulnerability dubbed "Ni8mare" has been discovered in
+    the open-source workflow automation tool n8n, affecting nearly 60,000 instances
+    that remain unpatched, posing a significant security risk that requires immediate
+    attention.
+  tags:
+  - Security
+  title: Max severity Ni8mare flaw impacts nearly 60,000 n8n instances
+  url: https://www.bleepingcomputer.com/news/security/max-severity-ni8mare-flaw-impacts-nearly-60-000-n8n-instances/
+- category: cybersecurity
+  published: '2026-01-12T12:00:00'
+  score: 1.024
+  source: CISA
+  summary: CISA has added a new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, indicating that it is being actively exploited and requires immediate
+    patching by government agencies to mitigate the risk.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/01/12/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2026-01-12T11:00:31'
+  score: 0.843
+  source: Machine Learning Mastery
+  summary: The article explores 10 ways in which embeddings, numerical representations
+    of typically unstructured data like text, can be leveraged for various tabular
+    machine learning tasks, demonstrating the versatility of this technique beyond
+    its traditional applications in natural language processing.
+  tags: []
+  title: 10 Ways to Use Embeddings for Tabular ML Tasks
+  url: https://machinelearningmastery.com/10-ways-to-use-embeddings-for-tabular-ml-tasks/
+- category: webdev
+  published: '2026-01-12T10:00:00'
+  score: 0.68
+  source: Smashing Magazine
+  summary: The article explores career paths for UX and product designers in 2026,
+    providing decision trees and a skills self-assessment matrix to help designers
+    shape their professional development and stay competitive in the rapidly evolving
+    design landscape.
+  tags: []
+  title: UX And Product Designer’s Career Paths In 2026
+  url: https://smashingmagazine.com/2026/01/ux-product-designer-career-paths/
+- category: ai
+  published: '2026-01-12T09:01:16'
+  score: 0.962
+  source: BleepingComputer
+  summary: Anthropic is bringing its Claude AI assistant to the healthcare industry,
+    allowing healthcare providers, payers, and consumers to utilize the platform for
+    medical purposes while ensuring compliance with HIPAA regulations, addressing
+    the growing demand for AI-powered healthcare solutions.
+  tags:
+  - Artificial Intelligence
+  - Healthcare
+  title: Anthropic brings Claude to healthcare with HIPAA-ready Enterprise tools
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-brings-claude-to-healthcare-with-hipaa-ready-enterprise-tools/
+- category: ai
+  published: '2026-01-12T08:37:00'
+  score: 0.871
+  source: The Hacker News
+  summary: Anthropic has launched Claude for Healthcare, a suite of features that
+    allows users of its Claude AI platform to better understand their health information,
+    positioning the company as a key player in the growing field of AI-powered healthcare
+    solutions.
+  tags: []
+  title: Anthropic Launches Claude AI for Healthcare with Secure Health Record Access
+  url: https://thehackernews.com/2026/01/anthropic-launches-claude-ai-for.html
 - category: cybersecurity
   published: '2026-01-11T20:35:33'
   score: 0.896
@@ -17844,5 +18036,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-12T05:10:34.787721'
-total_articles: 1380
+last_updated: '2026-01-13T05:07:28.825052'
+total_articles: 1395
