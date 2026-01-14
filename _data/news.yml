@@ -1,4 +1,192 @@
 articles:
+- category: cybersecurity
+  published: '2026-01-13T23:13:18'
+  score: 1.112
+  source: AWS Machine Learning
+  summary: The article discusses the security considerations and best practices for
+    implementing Amazon Bedrock cross-Region inference profiles, highlighting the
+    importance of understanding the secure architecture and compliance requirements
+    for generative AI applications.
+  tags:
+  - Amazon Bedrock
+  - Intermediate (200)
+  - Security
+  title: 'Securing Amazon Bedrock cross-Region inference: Geographic and global'
+  url: https://aws.amazon.com/blogs/machine-learning/securing-amazon-bedrock-cross-region-inference-geographic-and-global/
+- category: webdev
+  published: '2026-01-13T23:01:44'
+  score: 0.762
+  source: Ars Technica
+  summary: The article discusses the upcoming release of BMW's first electric M car
+    in 2027, which will feature one motor per wheel.
+  tags:
+  - Cars
+  - BMW M
+  - BMW Neue Klasse
+  title: BMW’s first electric M car is coming in 2027—with one motor per wheel
+  url: https://arstechnica.com/cars/2026/01/bmws-first-electric-m-car-is-coming-in-2027-with-one-motor-per-wheel/
+- category: ai
+  published: '2026-01-13T22:34:41'
+  score: 0.835
+  source: Ars Technica
+  summary: The article discusses the silver lining of the RAM shortage, noting that
+    it has reduced the hype around "AI PCs".
+  tags:
+  - AI
+  - Biz & IT
+  - Tech
+  - apple
+  - dell
+  title: 'The RAM shortage’s silver lining: Less talk about “AI PCs”'
+  url: https://arstechnica.com/gadgets/2026/01/the-ram-shortages-silver-lining-less-talk-about-ai-pcs/
+- category: ai
+  published: '2026-01-13T21:13:07'
+  score: 0.826
+  source: Ars Technica
+  summary: The article discusses the US defense secretary's plans to integrate Musk's
+    Grok AI into military networks this month, despite recent controversies.
+  tags:
+  - AI
+  - Biz & IT
+  - Policy
+  - agentic AI
+  - AI image generator
+  title: Hegseth wants to integrate Musk’s Grok AI into military networks this month
+  url: https://arstechnica.com/ai/2026/01/hegseth-wants-to-integrate-musks-grok-ai-into-military-networks-this-month/
+- category: webdev
+  published: '2026-01-13T19:28:15'
+  score: 0.74
+  source: Ars Technica
+  summary: The article discusses Google's updated Veo model, which can now make vertical
+    videos from reference images with 4K upscaling, and has been added to YouTube
+    creator tools.
+  tags:
+  - AI
+  - Google
+  - Ai video
+  - generative ai
+  - Google Veo
+  title: Google’s updated Veo model can make vertical videos from reference images
+    with 4K upscaling
+  url: https://arstechnica.com/google/2026/01/googles-updated-veo-model-can-make-vertical-videos-from-reference-images-with-4k-upscaling/
+- category: cybersecurity
+  published: '2026-01-13T18:56:21'
+  score: 1.028
+  source: BleepingComputer
+  summary: The article discusses the release of the KB5073724 extended security update
+    by Microsoft, which fixes the Patch Tuesday security updates, including 3 zero-days
+    and a fix for expiring Secure Boot certificates.
+  tags:
+  - Microsoft
+  - Security
+  title: Microsoft releases Windows 10 KB5073724 extended security update
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5073724-extended-security-update/
+- category: webdev
+  published: '2026-01-13T18:24:03'
+  score: 0.733
+  source: Ars Technica
+  summary: The article discusses Apple's decision to bundle its Mac and iPad creative
+    apps into a "Creator Studio" subscription, launching on January 28.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - Final Cut Pro
+  - Logic Pro
+  title: Apple’s Mac and iPad creative apps get bundled into “Creator Studio” subscription
+  url: https://arstechnica.com/gadgets/2026/01/apple-creator-studio-bundles-final-cut-pro-logic-and-other-apps-for-129-year/
+- category: webdev
+  published: '2026-01-13T18:15:01'
+  score: 0.732
+  source: Ars Technica
+  summary: The article reports on the death of Scott Adams, the creator of the Dilbert
+    comic strip, at the age of 68.
+  tags:
+  - Culture
+  - dilbert
+  - scott adams
+  title: Scott Adams, Dilbert creator, dead at 68
+  url: https://arstechnica.com/culture/2026/01/scott-adams-dilbert-creator-dead-at-68/
+- category: ai
+  published: '2026-01-13T18:00:00'
+  score: 0.848
+  source: Towards Data Science
+  summary: The article provides an introduction to AWS Bedrock, Amazon's LLM access
+    layer, discussing the "how, why, what and where" of this new technology.
+  tags:
+  - Artificial Intelligence
+  - AWS
+  - Aws Bedrock
+  - Data Science
+  - Llm Applications
+  title: An introduction to AWS Bedrock
+  url: https://towardsdatascience.com/an-introduction-to-aws-bedrock/
+- category: webdev
+  published: '2026-01-13T16:30:00'
+  score: 0.801
+  source: Towards Data Science
+  summary: The article discusses the performance improvements in Microsoft Fabric's
+    Dataflows, which were previously considered the "slowest and least performant
+    option" for ingesting data into Power BI/Microsoft Fabric.
+  tags:
+  - Data
+  - Data analysis
+  - Data Engineering
+  - Microsoft Fabric
+  title: 'From ‘Dataslows’ to Dataflows: The Gen2 Performance Revolution in Microsoft
+    Fabric'
+  url: https://towardsdatascience.com/from-dataslows-to-dataflows-the-gen2-performance-revolution-in-microsoft-fabric/
+- category: ai
+  published: '2026-01-13T16:00:00'
+  score: 0.878
+  source: OpenAI
+  summary: The article discusses how Zenken has boosted its sales performance, cut
+    preparation time, and increased proposal success rates by rolling out ChatGPT
+    Enterprise company-wide, leveraging AI-supported workflows to deliver more personalized
+    and effective customer engagement.
+  tags: []
+  title: Zenken boosts a lean sales team with ChatGPT Enterprise
+  url: https://openai.com/index/zenken
+- category: ai
+  published: '2026-01-13T13:44:00'
+  score: 0.818
+  source: The Hacker News
+  summary: The article discusses the security challenges posed by the increasing use
+    of AI agents that can build, test, and deploy software end-to-end in minutes,
+    creating a security gap that most teams don't see until something breaks.
+  tags: []
+  title: '[Webinar] Securing Agentic AI: From MCPs and Tool Access to Shadow API Key
+    Sprawl'
+  url: https://thehackernews.com/2026/01/webinar-t-from-mcps-and-tool-access-to.html
+- category: cybersecurity
+  published: '2026-01-13T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The article discusses vulnerabilities in the YoSmart YoLink Smart Hub that
+    could allow an attacker to remotely control other users' smart home devices, intercept
+    communications, and potentially gain unauthorized access.
+  tags: []
+  title: YoSmart YoLink Smart Hub
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-013-03
+- category: cybersecurity
+  published: '2026-01-13T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The article discusses a vulnerability in the Rockwell Automation FactoryTalk
+    DataMosaix Private Cloud that could allow an attacker to perform unauthorized
+    sensitive database operations.
+  tags: []
+  title: Rockwell Automation FactoryTalk DataMosaix Private Cloud
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-013-02
+- category: cybersecurity
+  published: '2026-01-13T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The article discusses a vulnerability in the Rockwell Automation 432ES-IG3
+    Series A that could result in a denial-of-service condition.
+  tags: []
+  title: Rockwell Automation 432ES-IG3 Series A
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-013-01
 - category: ai
   published: '2026-01-12T23:42:09'
   score: 1.031
@@ -18036,5 +18224,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-13T05:07:28.825052'
-total_articles: 1395
+last_updated: '2026-01-14T05:06:49.368040'
+total_articles: 1410
