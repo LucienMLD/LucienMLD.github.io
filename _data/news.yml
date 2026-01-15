@@ -1,4 +1,174 @@
 articles:
+- category: ai
+  published: '2026-01-15T03:00:00'
+  score: 1.097
+  source: BleepingComputer
+  summary: OpenAI is internally testing a new feature called "Agora" which could be
+    related to some sort of cross-platform feature that works in real-time or a new
+    product.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT's upcoming cross-platform feature is codenamed "Agora"
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-upcoming-cross-platform-feature-is-codenamed-agora/
+- category: webdev
+  published: '2026-01-15T01:30:00'
+  score: 0.917
+  source: BleepingComputer
+  summary: Google is testing a new feature that integrates Gemini into Chrome for
+    Android, allowing users to access agentic browser capabilities on their mobile
+    devices.
+  tags:
+  - Artificial Intelligence
+  - Software
+  title: Google plans to make Chrome for Android an agentic browser with Gemini
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/google-plans-to-make-chrome-for-android-an-agentic-browser-with-gemini/
+- category: ai
+  published: '2026-01-15T00:00:00'
+  score: 0.989
+  source: BleepingComputer
+  summary: Google is rolling out 'Personal Intelligence,' a new Gemini feature that
+    pulls user data from Gmail, Photos, Google Search, and other products.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: Google's Personal Intelligence links Gmail, Photos and Search to Gemini
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/googles-personal-intelligence-links-gmail-photos-and-search-to-gemini/
+- category: ai
+  published: '2026-01-14T22:52:16'
+  score: 0.969
+  source: BleepingComputer
+  summary: OpenAI has quietly rolled out a new ChatGPT feature called ChatGPT Translate,
+    which appears to be a competitor to Google Translate.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI's hidden ChatGPT Translate tool takes on Google Translate
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openais-hidden-chatgpt-translate-tool-takes-on-google-translate/
+- category: webdev
+  published: '2026-01-14T22:45:00'
+  score: 0.8
+  source: WebKit Blog
+  summary: Safari Technology Preview 234 has landed the final plan for supporting
+    masonry-style layouts in CSS.
+  tags:
+  - CSS
+  - Web Inspector
+  title: New Safari developer tools provide insight into CSS Grid Lanes
+  url: https://webkit.org/blog/17746/new-safari-developer-tools-provide-insight-into-css-grid-lanes/
+- category: webdev
+  published: '2026-01-14T22:28:19'
+  score: 0.758
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 235 is now available for download for
+    macOS Tahoe and macOS Sequoia.
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 235
+  url: https://webkit.org/blog/17739/release-notes-for-safari-technology-preview-235/
+- category: ai
+  published: '2026-01-14T21:13:42'
+  score: 0.87
+  source: AWS Machine Learning
+  summary: New serverless model customization capabilities, elastic training, checkpointless
+    training, and serverless MLflow in Amazon SageMaker accelerate AI development
+    from months to days.
+  tags:
+  - Amazon SageMaker AI
+  - Artificial Intelligence
+  title: Transform AI development with new Amazon SageMaker AI model customization
+    and large-scale training capabilities
+  url: https://aws.amazon.com/blogs/machine-learning/transform-ai-development-with-new-amazon-sagemaker-ai-model-customization-and-large-scale-training-capabilities/
+- category: cybersecurity
+  published: '2026-01-14T19:22:15'
+  score: 1.031
+  source: Schneier on Security
+  summary: Researchers have demonstrated the ability to remotely control a wheelchair
+    over Bluetooth, highlighting security risks in medical devices.
+  tags:
+  - Uncategorized
+  - Bluetooth
+  - hacking
+  - Internet of Things
+  - transportation
+  title: Hacking Wheelchairs over Bluetooth
+  url: https://www.schneier.com/blog/archives/2026/01/hacking-wheelchairs-over-bluetooth.html
+- category: cybersecurity
+  published: '2026-01-14T18:51:54'
+  score: 1.075
+  source: BleepingComputer
+  summary: A critical vulnerability affecting Fortinet's Security Information and
+    Event Management (SIEM) solution could be leveraged by a remote, unauthenticated
+    attacker to execute commands or code.
+  tags:
+  - Security
+  title: Exploit code public for critical FortiSIEM command injection flaw
+  url: https://www.bleepingcomputer.com/news/security/exploit-code-public-for-critical-fortisiem-command-injection-flaw/
+- category: webdev
+  published: '2026-01-14T18:45:50'
+  score: 0.735
+  source: Ars Technica
+  summary: Apple's platforms are getting Civilization VII "Arcade Edition" and Retrocade,
+    a library of classic arcade games.
+  tags:
+  - Apple
+  - Gaming
+  - 2K Games
+  - 4X
+  - apple
+  title: Civilization VII is headed to iPhone and iPad with “Arcade Edition”
+  url: https://arstechnica.com/gaming/2026/01/civilization-vii-is-headed-to-iphone-and-ipad-with-arcade-edition/
+- category: cybersecurity
+  published: '2026-01-14T15:01:11'
+  score: 1.046
+  source: BleepingComputer
+  summary: ConsentFix is an OAuth phishing technique that abuses browser-based authorization
+    flows to hijack Microsoft accounts, and researchers have shared new insights on
+    evolving attacker techniques.
+  tags:
+  - Security
+  title: 'ConsentFix debrief: Insights from the new OAuth phishing attack'
+  url: https://www.bleepingcomputer.com/news/security/consentfix-debrief-insights-from-the-new-oauth-phishing-attack/
+- category: webdev
+  published: '2026-01-14T14:59:07'
+  score: 0.752
+  source: CSS-Tricks
+  summary: CodePen has introduced a new feature called "slideVars" that allows users
+    to change values on the fly from a UI panel embedded directly in the demo.
+  tags:
+  - Articles
+  title: Playing With CodePen slideVars
+  url: https://css-tricks.com/playing-with-codepen-slidevars/
+- category: cybersecurity
+  published: '2026-01-14T14:18:00'
+  score: 1.089
+  source: The Hacker News
+  summary: Attackers are exploiting a DLL side-loading vulnerability in the open-source
+    c-ares library to bypass security controls and deliver a wide range of commodity
+    trojans and stealers.
+  tags: []
+  title: Hackers Exploit c-ares DLL Side-Loading to Bypass Security and Deploy Malware
+  url: https://thehackernews.com/2026/01/hackers-exploit-c-ares-dll-side-loading.html
+- category: ai
+  published: '2026-01-14T14:00:00'
+  score: 0.908
+  source: OpenAI
+  summary: OpenAI has partnered with Cerebras to add 750MW of high-speed AI compute,
+    reducing inference latency and making ChatGPT faster for real-time AI workloads.
+  tags: []
+  title: OpenAI partners with Cerebras
+  url: https://openai.com/index/cerebras-partnership
+- category: cybersecurity
+  published: '2026-01-14T11:53:00'
+  score: 1.023
+  source: The Hacker News
+  summary: Fortinet has released updates to fix a critical security flaw in FortiSIEM
+    that could allow an unauthenticated attacker to achieve code execution on susceptible
+    instances.
+  tags: []
+  title: Fortinet Fixes Critical FortiSIEM Flaw Allowing Unauthenticated Remote Code
+    Execution
+  url: https://thehackernews.com/2026/01/fortinet-fixes-critical-fortisiem-flaw.html
 - category: cybersecurity
   published: '2026-01-13T23:13:18'
   score: 1.112
@@ -18224,5 +18394,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-14T05:06:49.368040'
-total_articles: 1410
+last_updated: '2026-01-15T05:07:33.933963'
+total_articles: 1425
