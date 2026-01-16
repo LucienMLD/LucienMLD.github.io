@@ -1,4 +1,170 @@
 articles:
+- category: cybersecurity
+  published: '2026-01-16T00:36:10'
+  score: 1.026
+  source: BleepingComputer
+  summary: Google has now enabled users to change their @gmail.com email addresses,
+    a feature that was long-awaited. This change provides greater flexibility and
+    customization options for Gmail users.
+  tags:
+  - Technology
+  - Google
+  title: Google now lets you change your @gmail.com address, rolling out
+  url: https://www.bleepingcomputer.com/news/technology/google-now-lets-you-change-your-gmailcom-address-rolling-out/
+- category: ai
+  published: '2026-01-16T00:14:44'
+  score: 1.079
+  source: BleepingComputer
+  summary: OpenAI has rolled out a significant upgrade to ChatGPT, adding advanced
+    chat history search capabilities. However, this feature is currently only available
+    to ChatGPT Plus and Pro subscribers, indicating OpenAI's focus on monetizing the
+    platform.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT is now more reliable at finding and remembering your past chat
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-now-more-reliable-at-finding-and-remembering-your-past-chat/
+- category: cybersecurity
+  published: '2026-01-15T19:31:00'
+  score: 1.08
+  source: The Hacker News
+  summary: A misconfiguration in AWS CodeBuild could have allowed complete takeover
+    of AWS's own GitHub repositories, including the AWS JavaScript SDK, putting every
+    AWS environment at risk. The vulnerability, codenamed CodeBreach, highlights the
+    importance of proper cloud service configuration and supply chain security.
+  tags: []
+  title: AWS CodeBuild Misconfiguration Exposed GitHub Repos to Potential Supply Chain
+    Attacks
+  url: https://thehackernews.com/2026/01/aws-codebuild-misconfiguration-exposed.html
+- category: ai
+  published: '2026-01-15T19:07:09'
+  score: 0.899
+  source: Ars Technica
+  summary: ChatGPT was used to write a "suicide lullaby" based on the children's book
+    "Goodnight Moon" for a man who later took his own life. This incident highlights
+    the potential dangers and ethical concerns surrounding the misuse of generative
+    AI systems.
+  tags:
+  - AI
+  - Policy
+  - chatbot
+  - ChatGPT
+  - openai
+  title: ChatGPT wrote “Goodnight Moon” suicide lullaby for man who later killed himself
+  url: https://arstechnica.com/tech-policy/2026/01/chatgpt-wrote-goodnight-moon-suicide-lullaby-for-man-who-later-killed-himself/
+- category: ai
+  published: '2026-01-15T15:53:15'
+  score: 0.833
+  source: AWS Machine Learning
+  summary: Amazon Bedrock is introduced as a solution for generating AI-powered business
+    reporting, helping to simplify and accelerate internal communication and reporting
+    through a smart, practical approach.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Guardrails
+  - Amazon Machine Learning
+  - Technical How-to
+  - AI/ML
+  title: Build a generative AI-powered business reporting solution with Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-generative-ai-powered-business-reporting-solution-with-amazon-bedrock/
+- category: cybersecurity
+  published: '2026-01-15T15:31:00'
+  score: 1.098
+  source: The Hacker News
+  summary: A critical security vulnerability (CVE-2026-23550) with a maximum severity
+    score of 10.0 has been discovered in the WordPress Modular DS plugin, allowing
+    unauthenticated attackers to gain admin access. The vulnerability is actively
+    being exploited in the wild, and users are advised to update the plugin immediately.
+  tags: []
+  title: Critical WordPress Modular DS Plugin Flaw Actively Exploited to Gain Admin
+    Access
+  url: https://thehackernews.com/2026/01/critical-wordpress-modular-ds-plugin.html
+- category: ai
+  published: '2026-01-15T15:09:00'
+  score: 0.828
+  source: The Hacker News
+  summary: Cybersecurity researchers have revealed a new attack method called Reprompt,
+    which can allow bad actors to exfiltrate sensitive data from AI chatbots like
+    Microsoft Copilot in a single click, bypassing enterprise security controls.
+  tags: []
+  title: Researchers Reveal Reprompt Attack Allowing Single-Click Data Exfiltration
+    From Microsoft Copilot
+  url: https://thehackernews.com/2026/01/researchers-reveal-reprompt-attack.html
+- category: webdev
+  published: '2026-01-15T15:08:58'
+  score: 0.753
+  source: CSS-Tricks
+  summary: The article discusses various web development topics, including popover
+    context menus, the @scope feature, and new web platform features introduced in
+    recent Firefox and Chrome updates.
+  tags:
+  - Articles
+  - news
+  title: 'What’s !important #3: Popover Context Menus, @scope, New Web Platform Features,
+    and More'
+  url: https://css-tricks.com/whats-important-3/
+- category: webdev
+  published: '2026-01-15T15:00:00'
+  score: 0.712
+  source: Towards Data Science
+  summary: The article provides guidance on how to run coding agents in parallel to
+    maximize the efficiency and performance of the Claude Code platform.
+  tags:
+  - Agentic AI
+  - AI Agents
+  - claude
+  - Cli Tool
+  - coding agents
+  title: How to Run Coding Agents in Parallel
+  url: https://towardsdatascience.com/how-to-run-coding-agents-in-parallell/
+- category: webdev
+  published: '2026-01-15T13:30:00'
+  score: 0.702
+  source: Towards Data Science
+  summary: The author describes the process of building a data-driven goal tracking
+    system using Python, Streamlit, and Neon, creating a centralized platform to monitor
+    daily habits and long-term goals.
+  tags:
+  - Productivity
+  - Data Science
+  - Data Visualization
+  - Project Goals
+  - Project Management
+  title: 'The 2026 Goal Tracker: How I Built a Data-Driven Vision Board Using Python,
+    Streamlit, and Neon'
+  url: https://towardsdatascience.com/the-2026-goal-tracker-how-i-built-a-data-driven-vision-board-using-python-streamlit-and-neon/
+- category: cybersecurity
+  published: '2026-01-15T12:00:00'
+  score: 1.072
+  source: CISA
+  summary: The AVEVA Process Optimization system has been found to have several vulnerabilities,
+    including remote code execution, SQL injection, and privilege escalation. Successful
+    exploitation of these flaws could enable attackers to gain control of the affected
+    systems.
+  tags: []
+  title: AVEVA Process Optimization
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-015-01
+- category: ai
+  published: '2026-01-15T11:00:28'
+  score: 0.844
+  source: Machine Learning Mastery
+  summary: The article provides a beginner's guide to computer vision with Python,
+    introducing the field of artificial intelligence that enables computer systems
+    to analyze, interpret, and understand visual data.
+  tags: []
+  title: The Beginner’s Guide to Computer Vision with Python
+  url: https://machinelearningmastery.com/the-beginners-guide-to-computer-vision-with-python/
+- category: cybersecurity
+  published: '2026-01-15T08:18:00'
+  score: 1.044
+  source: The Hacker News
+  summary: Palo Alto Networks has released security updates to address a high-severity
+    denial-of-service (DoS) vulnerability (CVE-2026-0227) in its GlobalProtect Gateway
+    and Portal products. The vulnerability has a CVSS score of 7.7 and a proof-of-concept
+    (PoC) exploit is available.
+  tags: []
+  title: Palo Alto Fixes GlobalProtect DoS Flaw That Can Crash Firewalls Without Login
+  url: https://thehackernews.com/2026/01/palo-alto-fixes-globalprotect-dos-flaw.html
 - category: ai
   published: '2026-01-15T03:00:00'
   score: 1.097
@@ -18394,5 +18560,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-15T05:07:33.933963'
-total_articles: 1425
+last_updated: '2026-01-16T05:06:43.798641'
+total_articles: 1438
