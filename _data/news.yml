@@ -1,4 +1,120 @@
 articles:
+- category: ai
+  published: '2026-01-19T00:29:05'
+  score: 1.08
+  source: BleepingComputer
+  summary: OpenAI is testing a new update for ChatGPT that will begin rolling out
+    in the coming weeks, hinting at upcoming features for the popular AI chatbot.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: New OpenAI leak hints at upcoming ChatGPT features
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/new-openai-leak-hints-at-upcoming-chatgpt-features/
+- category: cybersecurity
+  published: '2026-01-18T18:16:27'
+  score: 0.926
+  source: BleepingComputer
+  summary: Microsoft has released emergency, out-of-band updates for Windows to fix
+    two issues caused by the January Patch Tuesday updates, including problems with
+    shutdowns and Cloud PC.
+  tags:
+  - Microsoft
+  title: Microsoft releases OOB Windows updates to fix shutdown, Cloud PC bugs
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-oob-windows-updates-to-fix-shutdown-cloud-pc-bugs/
+- category: cybersecurity
+  published: '2026-01-18T15:17:45'
+  score: 0.904
+  source: BleepingComputer
+  summary: The Canadian Investment Regulatory Organization (CIRO) confirmed that a
+    data breach last year exposed information on approximately 750,000 Canadian investors.
+  tags:
+  - Security
+  title: CIRO confirms data breach exposed info on 750,000 Canadian investors
+  url: https://www.bleepingcomputer.com/news/security/ciro-data-breach-last-year-exposed-info-on-750-000-canadian-investors/
+- category: ai
+  published: '2026-01-18T15:00:00'
+  score: 0.782
+  source: Towards Data Science
+  summary: Low-tech companies can leverage n8n, a workflow automation tool, along
+    with multimodal AI and optimization tools to accelerate their digital transformation.
+  tags:
+  - Artificial Intelligence
+  - AI
+  - Deep Dives
+  - Logistics
+  - n8n
+  title: The Hidden Opportunity in AI Workflow Automation with n8n for Low-Tech Companies
+  url: https://towardsdatascience.com/the-hidden-opportunity-in-ai-workflow-automation-with-n8n-for-low-tech-companies/
+- category: ai
+  published: '2026-01-18T13:00:00'
+  score: 0.769
+  source: Towards Data Science
+  summary: The healthcare industry has the most mature semantic infrastructure, driven
+    by science, regulation, collaboration, and public funding, making it a leader
+    in knowledge graphs.
+  tags:
+  - Data Science
+  - Artificial Intelligence
+  - Data Governance
+  - Healthcare
+  - Knowledge Graphs
+  title: Why Healthcare Leads in Knowledge Graphs
+  url: https://towardsdatascience.com/why-healthcare-leads-in-knowledge-graphs/
+- category: cybersecurity
+  published: '2026-01-18T12:00:56'
+  score: 0.831
+  source: Ars Technica
+  summary: Ignoring the "blue economy" has left a multi-trillion-dollar blind spot
+    in climate finance, as ocean damage nearly doubles the cost of climate change.
+  tags:
+  - Science
+  - climate change
+  - ocean ecology
+  - syndication
+  title: Ocean damage nearly doubles the cost of climate change
+  url: https://arstechnica.com/science/2026/01/ocean-damage-nearly-doubles-the-cost-of-climate-change/
+- category: ai
+  published: '2026-01-18T12:00:00'
+  score: 0.762
+  source: OpenAI
+  summary: AI can expand human agency by helping people, businesses, and countries
+    unlock real productivity, growth, and opportunity, closing the capability overhang.
+  tags: []
+  title: AI for self empowerment
+  url: https://openai.com/index/ai-for-human-agency
+- category: ai
+  published: '2026-01-18T10:00:00'
+  score: 0.88
+  source: OpenAI
+  summary: OpenAI's business model scales with the increasing intelligence and adoption
+    of its products, particularly ChatGPT, across various revenue streams like subscriptions,
+    API, ads, and compute.
+  tags: []
+  title: A business that scales with the value of intelligence
+  url: https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence
+- category: cybersecurity
+  published: '2026-01-18T02:05:01'
+  score: 0.707
+  source: BleepingComputer
+  summary: Google Chrome now allows users to delete the local AI models that power
+    the "Enhanced Protection" feature, which was upgraded with AI capabilities last
+    year.
+  tags:
+  - Artificial Intelligence
+  - Google
+  title: Google Chrome now lets you turn off on-device AI model powering scam detection
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-now-lets-you-turn-off-on-device-ai-model-powering-scam-detection/
+- category: cybersecurity
+  published: '2026-01-17T16:19:30'
+  score: 0.73
+  source: BleepingComputer
+  summary: Malicious Chrome extensions on the Chrome Web Store are targeting enterprise
+    HR and ERP platforms, stealing authentication credentials and blocking security
+    incident response.
+  tags:
+  - Security
+  title: Credential-stealing Chrome extensions target enterprise HR platforms
+  url: https://www.bleepingcomputer.com/news/security/credential-stealing-chrome-extensions-target-enterprise-hr-platforms/
 - category: cybersecurity
   published: '2026-01-16T00:36:10'
   score: 1.026
@@ -18560,5 +18676,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-16T05:06:43.798641'
-total_articles: 1438
+last_updated: '2026-01-19T05:11:28.402078'
+total_articles: 1448
