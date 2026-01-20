@@ -1,5 +1,162 @@
 articles:
 - category: ai
+  published: '2026-01-20T03:20:57'
+  score: 1.012
+  source: Hugging Face
+  summary: '[No summary provided due to lack of article description]'
+  tags: []
+  title: Differential Transformer V2
+  url: https://huggingface.co/blog/microsoft/diff-attn-v2
+- category: cybersecurity
+  published: '2026-01-19T22:01:52'
+  score: 0.907
+  source: Ars Technica
+  summary: The article discusses the progress of the Artemis II mission, which is
+    the fastest human spaceflight mission in history and is currently nearing its
+    final preparations before its launch to the Moon.
+  tags:
+  - Science
+  - Space
+  - artemis
+  - artemis II
+  - Christina Koch
+  title: The fastest human spaceflight mission in history crawls closer to liftoff
+  url: https://arstechnica.com/space/2026/01/nasas-artemis-ii-rocket-rolls-to-launch-pad-but-key-test-looms-ahead/
+- category: ai
+  published: '2026-01-19T19:04:18'
+  score: 0.943
+  source: Ars Technica
+  summary: The article discusses Elon Musk's accusation that the inventors of ChatGPT
+    have had their contributions reduced to "zero" by his math, which OpenAI has argued
+    against.
+  tags:
+  - AI
+  - Policy
+  - Elon Musk
+  - microsoft
+  - openai
+  title: Elon Musk accused of making up math to squeeze $134B from OpenAI, Microsoft
+  url: https://arstechnica.com/tech-policy/2026/01/elon-musk-accused-of-making-up-math-to-squeeze-134b-from-openai-microsoft/
+- category: cybersecurity
+  published: '2026-01-19T17:21:00'
+  score: 1.063
+  source: The Hacker News
+  summary: The article discusses a security vulnerability in Google Gemini that allows
+    attackers to bypass authorization controls and extract private calendar data through
+    malicious calendar invites. The flaw, dubbed "Miggo," was discovered by cybersecurity
+    researchers and could be exploited to access sensitive information.
+  tags: []
+  title: Google Gemini Prompt Injection Flaw Exposed Private Calendar Data via Malicious
+    Invites
+  url: https://thehackernews.com/2026/01/google-gemini-prompt-injection-flaw.html
+- category: webdev
+  published: '2026-01-19T16:30:00'
+  score: 0.721
+  source: Towards Data Science
+  summary: The article discusses an interview with Marco Hening Tallarico, who shares
+    insights on diluting complex research, spotting silent data leaks, and why the
+    best way to learn is often backwards, in the context of bridging the gap between
+    research and readability.
+  tags:
+  - Author Spotlights
+  - Artificial Intelligence
+  - Data Science
+  - Machine Learning
+  - Writing
+  title: Bridging the Gap Between Research and Readability with Marco Hening Tallarico
+  url: https://towardsdatascience.com/bridging-the-gap-between-research-and-readability-with-marco-hening-tallarico/
+- category: ai
+  published: '2026-01-19T13:30:00'
+  score: 0.816
+  source: Towards Data Science
+  summary: The article explores how the author used open-source local language models
+    (LLMs) to discover high-performance algorithms, demonstrating the potential for
+    these models to drive innovation in efficient code generation.
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Editors Pick
+  - Llm
+  - Programming
+  title: Using Local LLMs to Discover High-Performance Algorithms
+  url: https://towardsdatascience.com/using-local-llms-to-discover-high-performance-algorithms/
+- category: cybersecurity
+  published: '2026-01-19T13:17:00'
+  score: 0.985
+  source: The Hacker News
+  summary: The article provides a weekly recap of significant cybersecurity incidents,
+    including Fortinet exploits, RedLine Clipjack, NTLM cracking, and Copilot attacks.
+    It highlights the increasing pace of change in the cybersecurity landscape, with
+    new AI tools, connected devices, and automated systems creating more potential
+    attack vectors faster than security teams can react.
+  tags: []
+  title: '⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot
+    Attack & More'
+  url: https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html
+- category: webdev
+  published: '2026-01-19T12:17:36'
+  score: 0.735
+  source: Machine Learning Mastery
+  summary: The article presents a list of top agentic AI website builders that actually
+    ship products, intended to help the author build a payment platform without a
+    frontend background.
+  tags: []
+  title: Top 5 Agentic AI Website Builders (That Actually Ship)
+  url: https://machinelearningmastery.com/top-5-agentic-ai-website-builders-that-actually-ship/
+- category: ai
+  published: '2026-01-19T12:00:45'
+  score: 0.762
+  source: Ars Technica
+  summary: The article shares the author's personal experience of burning out from
+    excessive use of AI coding agents, highlighting the potential for these tools
+    to increase workloads rather than reduce them.
+  tags:
+  - AI
+  - Biz & IT
+  - Features
+  - Gaming
+  - AI coding
+  title: 10 things I learned from burning myself out with AI coding agents
+  url: https://arstechnica.com/information-technology/2026/01/10-things-i-learned-from-burning-myself-out-with-ai-coding-agents/
+- category: ai
+  published: '2026-01-19T12:00:00'
+  score: 0.806
+  source: Towards Data Science
+  summary: The article explains how graph neural networks can enhance demand forecasting
+    by modeling product relationships as a network, revealing insights that traditional
+    time-series forecasts miss.
+  tags:
+  - Data Science
+  - Demand Forecasting
+  - Editors Pick
+  - Gnn
+  - Graph Neural Network
+  title: 'Time Series Isn’t Enough: How Graph Neural Networks Change Demand Forecasting'
+  url: https://towardsdatascience.com/time-series-isnt-enough-how-graph-neural-networks-change-demand-forecasting/
+- category: cybersecurity
+  published: '2026-01-19T11:31:00'
+  score: 0.924
+  source: The Hacker News
+  summary: Researchers have disclosed a new hardware vulnerability, called StackWarp,
+    that affects AMD processors from Zen 1 to Zen 5. The flaw can allow bad actors
+    with privileged control over a host server to run malicious code while bypassing
+    the AMD SEV-SNP security protections.
+  tags: []
+  title: New StackWarp Hardware Flaw Breaks AMD SEV-SNP Protections on Zen 1–5 CPUs
+  url: https://thehackernews.com/2026/01/new-stackwarp-hardware-flaw-breaks-amd.html
+- category: cybersecurity
+  published: '2026-01-19T06:53:00'
+  score: 0.985
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a cross-site scripting (XSS)
+    vulnerability in the web-based control panel used by the operators of the StealC
+    information stealer malware. This allowed the researchers to gather crucial insights
+    into the threat actor's operations.
+  tags: []
+  title: Security Bug in StealC Malware Panel Let Researchers Spy on Threat Actor
+    Operations
+  url: https://thehackernews.com/2026/01/security-bug-in-stealc-malware-panel.html
+- category: ai
   published: '2026-01-19T00:29:05'
   score: 1.08
   source: BleepingComputer
@@ -18676,5 +18833,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-19T05:11:28.402078'
-total_articles: 1448
+last_updated: '2026-01-20T05:09:14.228862'
+total_articles: 1460
