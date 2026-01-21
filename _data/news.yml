@@ -1,5 +1,198 @@
 articles:
 - category: ai
+  published: '2026-01-21T02:00:00'
+  score: 1.09
+  source: BleepingComputer
+  summary: The Chromium-based ChatGPT Atlas browser is testing a new "Actions" feature,
+    and it can also understand videos, allowing it to generate timestamps for video
+    content. This suggests the ChatGPT browser is expanding its capabilities beyond
+    just text-based interactions.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI's ChatGPT Atlas browser is testing actions feature
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-atlas-browser-is-testing-actions-feature/
+- category: ai
+  published: '2026-01-21T00:00:00'
+  score: 1.121
+  source: BleepingComputer
+  summary: Google says its Gemini AI assistant will not have ads, unlike OpenAI's
+    ChatGPT which recently introduced a paid subscription model with ads. This highlights
+    the different approaches being taken by major tech companies in monetizing their
+    AI services.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: Google says Gemini won’t have ads, as ChatGPT prepares to add them
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/google-says-gemini-wont-have-ads-as-chatgpt-prepares-to-add-them/
+- category: webdev
+  published: '2026-01-20T22:17:02'
+  score: 0.757
+  source: Ars Technica
+  summary: Google has temporarily disabled YouTube's advanced captions feature (SRV3)
+    due to playback errors, highlighting the potential disruptions that can occur
+    when platform providers make changes to their systems without adequate testing
+    or user communication.
+  tags:
+  - Google
+  - Tech
+  - google
+  - YouTube
+  title: Google temporarily disabled YouTube's advanced captions without warning
+  url: https://arstechnica.com/gadgets/2026/01/google-temporarily-disabled-youtubes-advanced-captions-without-warning/
+- category: cybersecurity
+  published: '2026-01-20T22:12:27'
+  score: 1.052
+  source: BleepingComputer
+  summary: 'A critical vulnerability in the Advanced Custom Fields: Extended (ACF
+    Extended) plugin for WordPress can be exploited by unauthenticated attackers to
+    obtain administrative permissions, potentially affecting over 50,000 sites. This
+    emphasizes the importance of keeping WordPress plugins up-to-date to mitigate
+    such risks.'
+  tags:
+  - Security
+  title: ACF plugin bug gives hackers admin on 50,000 WordPress sites
+  url: https://www.bleepingcomputer.com/news/security/acf-plugin-bug-gives-hackers-admin-on-50-000-wordpress-sites/
+- category: ai
+  published: '2026-01-20T21:00:00'
+  score: 0.868
+  source: OpenAI
+  summary: OpenAI and the Gates Foundation have launched the Horizon 1000 initiative,
+    a $50M pilot aimed at advancing AI capabilities for healthcare in Africa. This
+    demonstrates the potential of AI to address pressing healthcare challenges, particularly
+    in underserved regions.
+  tags: []
+  title: 'Horizon 1000: Advancing AI for primary healthcare'
+  url: https://openai.com/index/horizon-1000
+- category: ai
+  published: '2026-01-20T19:35:31'
+  score: 0.858
+  source: BleepingComputer
+  summary: The recently discovered cloud-focused VoidLink malware framework is believed
+    to have been developed with the help of an artificial intelligence model, indicating
+    the growing use of AI in malware development. This underscores the need for enhanced
+    security measures to detect and mitigate AI-generated threats.
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: VoidLink cloud malware shows clear signs of being AI-generated
+  url: https://www.bleepingcomputer.com/news/security/voidlink-cloud-malware-shows-clear-signs-of-being-ai-generated/
+- category: webdev
+  published: '2026-01-20T16:33:30'
+  score: 0.721
+  source: BleepingComputer
+  summary: Microsoft has released a new version of PowerToys with a new mouse utility
+    for multi-monitor setups and improvements to the Command Palette quick launcher.
+    This demonstrates Microsoft's ongoing efforts to enhance the user experience and
+    productivity features in its software tools.
+  tags:
+  - Microsoft
+  title: Microsoft PowerToys adds new CursorWrap mouse 'teleport' tool
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-new-cursorwrap-mouse-teleport-tool/
+- category: webdev
+  published: '2026-01-20T16:30:00'
+  score: 0.721
+  source: Towards Data Science
+  summary: The article discusses how calendar-based time intelligence can impact custom
+    logic when calculating moving averages over time. This highlights the importance
+    of considering the impact of time-related factors when designing and implementing
+    data analysis algorithms.
+  tags:
+  - Data Science
+  - Data Analyitcs
+  - Dax
+  - Dax Tutorial
+  - Power Bi
+  title: Does Calendar-Based Time-Intelligence Change Custom Logic?
+  url: https://towardsdatascience.com/does-calendar-based-time-intelligence-change-custom-logic/
+- category: webdev
+  published: '2026-01-20T15:00:00'
+  score: 0.712
+  source: Towards Data Science
+  summary: The article provides guidance on performing large-scale code refactoring
+    using large language models (LLMs), which can assist developers in efficiently
+    managing and improving codebase complexity. This showcases the potential of AI-powered
+    tools to enhance software development workflows.
+  tags:
+  - Agentic AI
+  - Code Architecture
+  - Code Refactoring
+  - Llm
+  - LLM Agents
+  title: How to Perform Large Code Refactors in Cursor
+  url: https://towardsdatascience.com/how-to-perform-large-code-refactors-in-cursor/
+- category: cybersecurity
+  published: '2026-01-20T13:46:00'
+  score: 1.037
+  source: The Hacker News
+  summary: Cybersecurity researchers have uncovered a new phishing campaign that uses
+    LinkedIn private messages to spread malicious payloads, likely with the intent
+    to deploy a remote access trojan (RAT). This highlights the evolving tactics used
+    by threat actors to compromise systems through social engineering.
+  tags: []
+  title: Hackers Use LinkedIn Messages to Spread RAT Malware Through DLL Sideloading
+  url: https://thehackernews.com/2026/01/hackers-use-linkedin-messages-to-spread.html
+- category: ai
+  published: '2026-01-20T12:08:09'
+  score: 0.939
+  source: Schneier on Security
+  summary: While AI assistants like ChatGPT have the potential to be used for commercial
+    purposes, there are concerns that they could be used to manipulate users into
+    buying products, similar to the issues seen with social media platforms. This
+    raises questions about the ethical deployment of AI in commercial applications.
+  tags:
+  - Uncategorized
+  - AI
+  - Google
+  - LLM
+  - search engines
+  title: Could ChatGPT Convince You to Buy Something?
+  url: https://www.schneier.com/blog/archives/2026/01/could-chatgpt-convince-you-to-buy-something.html
+- category: cybersecurity
+  published: '2026-01-20T12:00:00'
+  score: 1.071
+  source: CISA
+  summary: Schneider Electric is aware of a vulnerability in its EcoStruxure Foxboro
+    DCS product that could allow attackers to access sensitive information. This highlights
+    the need for continuous security monitoring and patching in industrial control
+    systems.
+  tags: []
+  title: Schneider Electric EcoStruxure Foxboro DCS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-020-01
+- category: cybersecurity
+  published: '2026-01-20T12:00:00'
+  score: 1.071
+  source: CISA
+  summary: Successful exploitation of vulnerabilities in Rockwell Automation's Verve
+    Asset Manager could allow attackers to access sensitive information stored in
+    variables. This emphasizes the importance of securing industrial automation software
+    to protect critical assets.
+  tags: []
+  title: Rockwell Automation Verve Asset Manager
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-020-03
+- category: cybersecurity
+  published: '2026-01-20T12:00:00'
+  score: 1.071
+  source: CISA
+  summary: Schneider Electric is aware of multiple vulnerabilities in the CODESYS
+    runtime system V3 communication server, which is used by many vendors. This underscores
+    the need for comprehensive security assessments and updates across the industrial
+    automation ecosystem.
+  tags: []
+  title: Schneider Electric devices using CODESYS Runtime
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-020-02
+- category: webdev
+  published: '2026-01-20T11:00:14'
+  score: 0.727
+  source: Machine Learning Mastery
+  summary: The article provides guidance on deploying machine learning models using
+    the FastAPI framework, a common challenge for many practitioners. It emphasizes
+    the importance of streamlining the deployment process to effectively leverage
+    trained models in real-world applications.
+  tags: []
+  title: The Machine Learning Practitioner’s Guide to Model Deployment with FastAPI
+  url: https://machinelearningmastery.com/the-machine-learning-practitioners-guide-to-model-deployment-with-fastapi/
+- category: ai
   published: '2026-01-20T03:20:57'
   score: 1.012
   source: Hugging Face
@@ -18833,5 +19026,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-20T05:09:14.228862'
-total_articles: 1460
+last_updated: '2026-01-21T05:09:35.673128'
+total_articles: 1475
