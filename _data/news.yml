@@ -1,5 +1,202 @@
 articles:
 - category: ai
+  published: '2026-01-21T22:51:26'
+  score: 0.837
+  source: Ars Technica
+  summary: Moderna and Merck have announced that their mRNA cancer vaccine has shown
+    protection at a 5-year follow-up, demonstrating the potential of this personalized
+    approach to cancer treatment.
+  tags:
+  - Health
+  - cancer
+  - clinical trial
+  - melanoma
+  - moderna
+  title: mRNA cancer vaccine shows protection at 5-year follow-up, Moderna and Merck
+    say
+  url: https://arstechnica.com/health/2026/01/mrna-cancer-vaccine-shows-protection-at-5-year-follow-up-moderna-and-merck-say/
+- category: cybersecurity
+  published: '2026-01-21T22:16:21'
+  score: 1.148
+  source: BleepingComputer
+  summary: Cisco has patched a critical remote code execution vulnerability in its
+    Unified Communications and Webex Calling products that has been actively exploited
+    as a zero-day in attacks. The vulnerability, tracked as CVE-2026-20045, could
+    allow attackers to execute arbitrary code on vulnerable systems.
+  tags:
+  - Security
+  title: Cisco fixes Unified Communications RCE zero day exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisco-fixes-unified-communications-rce-zero-day-exploited-in-attacks/
+- category: webdev
+  published: '2026-01-21T21:03:02'
+  score: 0.749
+  source: Ars Technica
+  summary: The article discusses the challenges of adding modern controls to the 1996
+    game Tomb Raider, highlighting the difficulties of updating the controls of early
+    3D games.
+  tags:
+  - Gaming
+  - Shopping
+  - C:\ArsGames
+  - dos gaming
+  - gog
+  title: Why adding modern controls to 1996's Tomb Raider simply doesn't work
+  url: https://arstechnica.com/gaming/2026/01/the-problem-with-revisiting-tomb-raider-reacclimating-to-tank-controls/
+- category: webdev
+  published: '2026-01-21T17:51:30'
+  score: 0.849
+  source: CSS-Tricks
+  summary: The article discusses the importance of using semantic HTML and ARIA (Accessible
+    Rich Internet Applications) correctly to ensure accessibility, and cautions against
+    using ARIA as a shortcut or supplement to well-structured HTML.
+  tags:
+  - Articles
+  - accessibility
+  - aria
+  - semantics
+  title: I Learned The First Rule of ARIA the Hard Way
+  url: https://css-tricks.com/i-learned-the-first-rule-of-aria-the-hard-way/
+- category: ai
+  published: '2026-01-21T17:50:35'
+  score: 0.846
+  source: AWS Machine Learning
+  summary: The article showcases how the Dutch fintech company bunq uses Amazon Bedrock,
+    a generative AI service, to transform its user support and banking operations,
+    making them seamless, multilingual, and available 24/7.
+  tags:
+  - Amazon Bedrock
+  - Amazon Machine Learning
+  - Customer Solutions
+  - Generative AI
+  title: How bunq handles 97% of support with Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/how-bunq-handles-97-of-support-with-amazon-bedrock/
+- category: cybersecurity
+  published: '2026-01-21T17:49:08'
+  score: 1.115
+  source: BleepingComputer
+  summary: Fortinet customers are reporting that attackers are exploiting a patch
+    bypass for a previously fixed critical FortiGate authentication vulnerability
+    (CVE-2025-59718) to hack into patched firewalls. This highlights the need for
+    vigilance even after applying security updates.
+  tags:
+  - Security
+  title: Fortinet admins report patched FortiGate firewalls getting hacked
+  url: https://www.bleepingcomputer.com/news/security/fortinet-admins-report-patched-fortigate-firewalls-getting-hacked/
+- category: webdev
+  published: '2026-01-21T17:30:58'
+  score: 0.727
+  source: Ars Technica
+  summary: Volvo has announced its new EX60 electric midsize SUV, which is expected
+    to go into production in April 2026 and carry a price tag of around $60,000.
+  tags:
+  - Cars
+  - Volvo EX60
+  - Volvo EX60 Cross Country
+  title: Here's Volvo's new EX60 $60,000 electric midsize SUV
+  url: https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/
+- category: ai
+  published: '2026-01-21T16:30:00'
+  score: 0.837
+  source: Towards Data Science
+  summary: The article highlights the limitations of using Google Trends data for
+    machine learning, as it can be easily misused due to a fundamental property of
+    the data, especially when working with time-series analysis.
+  tags:
+  - Data Science
+  - Data Cleaning
+  - Editors Pick
+  - Google Trends
+  - Machine Learning
+  title: 'Google Trends is Misleading You: How to Do Machine Learning with Google
+    Trends Data'
+  url: https://towardsdatascience.com/google-trends-is-misleading-you-how-to-do-machine-learning-with-google-trends-data/
+- category: cybersecurity
+  published: '2026-01-21T15:42:00'
+  score: 1.051
+  source: The Hacker News
+  summary: Zoom and GitLab have released security updates to address several vulnerabilities,
+    including critical flaws that could lead to denial-of-service (DoS) and remote
+    code execution. The most severe vulnerability affects Zoom Node Multimedia Routers
+    (MMRs) and could allow a meeting participant to execute arbitrary code.
+  tags: []
+  title: Zoom and GitLab Release Security Updates Fixing RCE, DoS, and 2FA Bypass
+    Flaws
+  url: https://thehackernews.com/2026/01/zoom-and-gitlab-release-security.html
+- category: webdev
+  published: '2026-01-21T15:12:59'
+  score: 0.713
+  source: BleepingComputer
+  summary: Microsoft has provided a temporary workaround for customers experiencing
+    Outlook freezes after installing the latest Windows security updates.
+  tags:
+  - Microsoft
+  title: Microsoft shares workaround for Outlook freezes after Windows update
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-outlook-freezes-after-windows-update/
+- category: ai
+  published: '2026-01-21T15:03:39'
+  score: 0.959
+  source: Ars Technica
+  summary: The article compares the performance of Gemini, an AI model, to ChatGPT,
+    but does not provide any clear conclusions about whether Gemini has surpassed
+    ChatGPT.
+  tags:
+  - AI
+  - Features
+  - Artificial Intelligence
+  - ChatGPT
+  - gemini
+  title: Has Gemini surpassed ChatGPT? We put the AI models to the test.
+  url: https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/
+- category: cybersecurity
+  published: '2026-01-21T14:00:00'
+  score: 1.038
+  source: BleepingComputer
+  summary: Threat actors are exploiting misconfigured web applications used for security
+    training and internal penetration testing, such as DVWA, OWASP Juice Shop, Hackazon,
+    and bWAPP, to gain access to the cloud environments of Fortune 500 companies and
+    security vendors.
+  tags:
+  - Security
+  - Cloud
+  title: Hackers exploit security testing apps to breach Fortune 500 firms
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploit-security-testing-apps-to-breach-fortune-500-firms/
+- category: webdev
+  published: '2026-01-21T13:30:00'
+  score: 0.702
+  source: Towards Data Science
+  summary: The article describes how the author built a self-healing data pipeline
+    that can automatically fix issues with bad CSVs, schema changes, and weird delimiters,
+    demonstrating the potential for autonomous data processing systems.
+  tags:
+  - LLM Applications
+  - Artificial Intelligence
+  - Data Science
+  - Llm
+  - Machine Learning
+  title: Building a Self-Healing Data Pipeline That Fixes Its Own Python Errors
+  url: https://towardsdatascience.com/building-a-self-healing-data-pipeline-that-fixes-its-own-python-errors/
+- category: cybersecurity
+  published: '2026-01-21T12:00:00'
+  score: 1.023
+  source: CISA
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has added a
+    new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based
+    on evidence of active exploitation. The specific vulnerability is not named in
+    the article.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/01/21/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2026-01-21T10:00:00'
+  score: 0.836
+  source: OpenAI
+  summary: The article describes how Higgsfield, a creative studio, uses OpenAI GPT-4.1,
+    GPT-5, and Sora 2 to transform simple ideas into cinematic, social-first video
+    content.
+  tags: []
+  title: How Higgsfield turns simple ideas into cinematic social videos
+  url: https://openai.com/index/higgsfield
+- category: ai
   published: '2026-01-21T02:00:00'
   score: 1.09
   source: BleepingComputer
@@ -19026,5 +19223,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-21T05:09:35.673128'
-total_articles: 1475
+last_updated: '2026-01-22T05:09:53.974080'
+total_articles: 1490
