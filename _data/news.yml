@@ -1,5 +1,198 @@
 articles:
 - category: ai
+  published: '2026-01-22T21:32:28'
+  score: 0.872
+  source: Ars Technica
+  summary: Apple is reportedly planning to launch an AI-powered wearable pin device
+    as soon as 2027, as the company, along with OpenAI, Meta, and others, races toward
+    developing AI hardware products.
+  tags:
+  - AI
+  - Apple
+  - apple
+  - gemini
+  - Humane
+  title: 'Report: Apple plans to launch AI-powered wearable pin device as soon as
+    2027'
+  url: https://arstechnica.com/apple/2026/01/report-apple-plans-to-launch-ai-powered-wearable-pin-device-as-soon-as-2027/
+- category: ai
+  published: '2026-01-22T20:46:10'
+  score: 0.866
+  source: Ars Technica
+  summary: Google is now offering free SAT practice tests powered by its Gemini AI
+    technology, with plans to add more types of standardized tests in the future.
+  tags:
+  - AI
+  - Google
+  - Artificial Intelligence
+  - education
+  - google
+  title: Google begins offering free SAT practice tests powered by Gemini
+  url: https://arstechnica.com/google/2026/01/google-begins-offering-free-sat-practice-tests-powered-by-gemini/
+- category: webdev
+  published: '2026-01-22T19:18:34'
+  score: 0.739
+  source: Ars Technica
+  summary: The first trailer for the new Masters of the Universe series has been released,
+    showcasing the iconic characters and fantastical elements of the beloved franchise.
+  tags:
+  - Culture
+  - amazon mgm studios
+  - entertainment
+  - film trailers
+  - He-Man
+  title: Check out the first trailer for Masters of the Universe
+  url: https://arstechnica.com/culture/2026/01/check-out-the-first-trailer-for-masters-of-the-universe/
+- category: webdev
+  published: '2026-01-22T17:49:24'
+  score: 0.729
+  source: Ars Technica
+  summary: Blue Origin has made impressive strides with its reusable launch vehicle,
+    with the next launch set to refly the same booster, a step toward faster launch
+    cadence.
+  tags:
+  - Space
+  - ast spacemobile
+  - blue origin
+  - reuse
+  - space
+  title: Blue Origin makes impressive strides with reuse—next launch will refly booster
+  url: https://arstechnica.com/space/2026/01/blue-origin-makes-impressive-strides-with-reuse-next-launch-will-refly-booster/
+- category: ai
+  published: '2026-01-22T17:11:47'
+  score: 0.798
+  source: AWS Machine Learning
+  summary: PDI Technologies has built an enterprise-grade risk assessment and governance
+    (RAG) system for AI applications using AWS, enabling better monitoring and control
+    of their AI initiatives.
+  tags:
+  - Customer Solutions
+  - Generative AI
+  title: How PDI built an enterprise-grade RAG system for AI applications with AWS
+  url: https://aws.amazon.com/blogs/machine-learning/how-pdi-built-an-enterprise-grade-rag-system-for-ai-applications-with-aws/
+- category: cybersecurity
+  published: '2026-01-22T16:30:00'
+  score: 1.105
+  source: The Hacker News
+  summary: A critical security flaw (CVE-2026-24061) has been discovered in the GNU
+    InetUtils telnet daemon (telnetd) that allows attackers to bypass login and gain
+    root access. The vulnerability is rated 9.8 out of 10 on the CVSS scoring system
+    and affects all versions of GNU InetUtils from 1.9.3 up to the latest.
+  tags: []
+  title: Critical GNU InetUtils telnetd Flaw Lets Attackers Bypass Login and Gain
+    Root Access
+  url: https://thehackernews.com/2026/01/critical-gnu-inetutils-telnetd-flaw.html
+- category: webdev
+  published: '2026-01-22T16:30:00'
+  score: 0.721
+  source: Towards Data Science
+  summary: The article discusses the importance of evaluating multi-step, LLM-generated
+    content for customer journeys, highlighting the need for structural metrics beyond
+    just language quality to deliver effective business outcomes.
+  tags:
+  - Large Language Models
+  - Customer Journey
+  - Editors Pick
+  - Llm Evaluation
+  - Metrics And Analytics
+  title: 'Evaluating Multi-Step LLM-Generated Content: Why Customer Journeys Require
+    Structural Metrics'
+  url: https://towardsdatascience.com/evaluating-multi-step-llm-generated-content-why-customer-journeys-require-structural-metrics/
+- category: ai
+  published: '2026-01-22T14:22:23'
+  score: 0.822
+  source: BleepingComputer
+  summary: Microsoft has updated its Notepad and Paint apps for Windows 11 Insiders
+    with new artificial intelligence features, demonstrating the growing integration
+    of AI capabilities in desktop applications.
+  tags:
+  - Microsoft
+  title: Microsoft updates Notepad and Paint with more AI features
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-updates-notepad-and-paint-with-more-ai-features/
+- category: webdev
+  published: '2026-01-22T13:30:00'
+  score: 0.742
+  source: Towards Data Science
+  summary: The article provides 10 elegant ways to filter Pandas DataFrames using
+    techniques like .query(), .isin(), and advanced vectorized logic, improving the
+    readability and performance of data selection code.
+  tags:
+  - Data Science
+  - Data Analytics
+  - Pandas
+  - Pandas Dataframe
+  - Programming
+  title: 'Stop Writing Messy Boolean Masks: 10 Elegant Ways to Filter Pandas DataFrames'
+  url: https://towardsdatascience.com/stop-writing-messy-boolean-masks-10-elegant-ways-to-filter-pandas-dataframes/
+- category: ai
+  published: '2026-01-22T12:35:46'
+  score: 0.854
+  source: Schneier on Security
+  summary: AI models are susceptible to prompt injection attacks, where malicious
+    instructions are embedded in user prompts to manipulate the model's behavior,
+    highlighting the need for improved AI safety and security measures.
+  tags:
+  - Uncategorized
+  - AI
+  - chatbots
+  - cons
+  - fraud
+  title: Why AI Keeps Falling for Prompt Injection Attacks
+  url: https://www.schneier.com/blog/archives/2026/01/why-ai-keeps-falling-for-prompt-injection-attacks.html
+- category: cybersecurity
+  published: '2026-01-22T12:00:00'
+  score: 1.071
+  source: CISA
+  summary: A vulnerability in the Rockwell Automation CompactLogix 5370 system could
+    allow an attacker to cause a denial-of-service condition. The vulnerability is
+    detailed in the CSAF report, which provides mitigation steps for affected users.
+  tags: []
+  title: Rockwell Automation CompactLogix 5370
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-022-03
+- category: cybersecurity
+  published: '2026-01-22T12:00:00'
+  score: 1.071
+  source: CISA
+  summary: Schneider Electric has disclosed a vulnerability in its EcoStruxureTM Process
+    and EcoStruxure™ Process Expert for AVEVA System Platform products. Successful
+    exploitation could lead to degraded service, denial-of-service, or unauthorized
+    remote command execution.
+  tags: []
+  title: Schneider Electric EcoStruxure Process Expert
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-022-01
+- category: cybersecurity
+  published: '2026-01-22T12:00:00'
+  score: 1.071
+  source: CISA
+  summary: The EVMAPA system has multiple vulnerabilities that could lead to degraded
+    service, denial-of-service, or unauthorized remote command execution. The CSAF
+    report provides details on the affected components and recommended mitigation
+    actions.
+  tags: []
+  title: EVMAPA
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-022-08
+- category: cybersecurity
+  published: '2026-01-22T12:00:00'
+  score: 1.071
+  source: CISA
+  summary: Vulnerabilities in the Weintek cMT X Series HMI EasyWeb Service could allow
+    a low-level user to alter privileges and gain full control of the device. The
+    CSAF report outlines the affected versions and provides guidance for users.
+  tags: []
+  title: Weintek cMT X Series HMI EasyWeb Service
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-022-05
+- category: webdev
+  published: '2026-01-22T10:00:30'
+  score: 0.76
+  source: WebKit Blog
+  summary: The finalized syntax for CSS Grid Lanes is currently available in Safari
+    Technology Preview, bringing developers closer to being able to use this exciting
+    new web technology.
+  tags:
+  - CSS
+  title: When will CSS Grid Lanes arrive? How long until we can use it?
+  url: https://webkit.org/blog/17758/when-will-css-grid-lanes-arrive-how-long-until-we-can-use-it/
+- category: ai
   published: '2026-01-21T22:51:26'
   score: 0.837
   source: Ars Technica
@@ -19223,5 +19416,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-22T05:09:53.974080'
-total_articles: 1490
+last_updated: '2026-01-23T05:08:23.348168'
+total_articles: 1505
