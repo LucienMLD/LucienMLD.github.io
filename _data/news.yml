@@ -1,5 +1,163 @@
 articles:
 - category: ai
+  published: '2026-01-26T01:01:12'
+  score: 1.083
+  source: BleepingComputer
+  summary: OpenAI is testing an upgrade for ChatGPT's temporary chat feature that
+    will allow users to retain personalization while still blocking temporary chat
+    from influencing their account. This update aims to improve the usability and
+    functionality of the temporary chat feature.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT Temporary chat feature is getting a much-needed upgrade
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-temporary-chat-feature-is-getting-a-much-needed-upgrade/
+- category: cybersecurity
+  published: '2026-01-25T15:17:12'
+  score: 0.904
+  source: BleepingComputer
+  summary: The 1Password digital vault and password manager has added built-in protection
+    against phishing URLs to help users identify malicious pages and prevent them
+    from sharing account credentials with threat actors. This feature aims to enhance
+    the security of user accounts and protect against phishing attacks.
+  tags:
+  - Security
+  title: 1Password adds pop-up warnings for suspected phishing sites
+  url: https://www.bleepingcomputer.com/news/security/1password-adds-pop-up-warnings-for-suspected-phishing-sites/
+- category: ai
+  published: '2026-01-25T15:00:00'
+  score: 0.782
+  source: Towards Data Science
+  summary: The article compares the performance of SAM 3, a large language model,
+    with specialist models, highlighting that specialized models still hold a 30x
+    speed advantage in production environments. This information is relevant for organizations
+    choosing the appropriate AI models for their specific use cases.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Computer Vision
+  - Editors Pick
+  - Object Detection
+  title: SAM 3 vs. Specialist Models — A Performance Benchmark
+  url: https://towardsdatascience.com/sam-3-vs-specialist-models-a-performance-benchmark/
+- category: cybersecurity
+  published: '2026-01-25T13:20:28'
+  score: 0.937
+  source: BleepingComputer
+  summary: Microsoft is investigating reports of Windows 11 devices failing to boot
+    with "UNMOUNTABLE_BOOT_VOLUME" errors after installing the January 2026 Patch
+    Tuesday security updates. The company is working to identify and address the issue
+    to ensure the stability of Windows 11 systems.
+  tags:
+  - Microsoft
+  title: Microsoft investigates Windows 11 boot failures after January updates
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-windows-11-boot-failures-after-january-updates/
+- category: ai
+  published: '2026-01-25T13:00:00'
+  score: 0.769
+  source: Towards Data Science
+  summary: The article provides a deep dive comparison of Azure ML and AWS SageMaker
+    for scalable model training, focusing on project setup, permission management,
+    and data storage patterns. This information can help organizations align their
+    platform choices with their existing cloud ecosystem and preferred MLOps workflows.
+  tags:
+  - Machine Learning
+  - AWS
+  - Azure
+  - Data Science
+  - Mlops
+  title: 'Azure ML vs. AWS SageMaker: A Deep Dive into Model Training — Part 1'
+  url: https://towardsdatascience.com/azure-ml-vs-aws-sagemaker-a-deep-dive-into-scalable-model-training-part-1/
+- category: webdev
+  published: '2026-01-25T12:00:25'
+  score: 0.692
+  source: Ars Technica
+  summary: The article discusses how two podcasters turned a Star Trek-themed side
+    project into a full-time career, celebrating the 10-year anniversary of their
+    podcast "The Greatest Generation." This story showcases the potential for passion
+    projects to evolve into successful ventures.
+  tags:
+  - Culture
+  - greatest generation
+  - podcast
+  - Star Trek
+  title: 'A decade of Star Trek-themed fart jokes: The Greatest Generation podcast
+    turns 10'
+  url: https://arstechnica.com/culture/2026/01/a-decade-of-star-trek-themed-fart-jokes-the-greatest-generation-podcast-turns-10/
+- category: cybersecurity
+  published: '2026-01-24T21:58:42'
+  score: 0.772
+  source: BleepingComputer
+  summary: A cyberattack targeting Poland's power grid in late December 2025 has been
+    linked to the Russian state-sponsored hacking group Sandworm, which attempted
+    to deploy a new destructive data-wiping malware dubbed DynoWiper during the attack.
+    This incident underscores the ongoing threat of state-sponsored cyber attacks
+    on critical infrastructure.
+  tags:
+  - Security
+  title: Sandworm hackers linked to failed wiper attack on Poland’s energy systems
+  url: https://www.bleepingcomputer.com/news/security/sandworm-hackers-linked-to-failed-wiper-attack-on-polands-energy-systems/
+- category: cybersecurity
+  published: '2026-01-24T19:08:06'
+  score: 0.75
+  source: Ars Technica
+  summary: The article reports that the destructive payload unleashed on Poland's
+    energy grid on the 10-year anniversary of Russia's attack on Ukraine's grid was
+    a never-before-seen wiper malware. This highlights the ongoing evolution and sophistication
+    of cyber threats targeting critical infrastructure.
+  tags:
+  - Policy
+  - Security
+  - electricity
+  - malware
+  - russia
+  title: Poland's energy grid was targeted by never-before-seen wiper malware
+  url: https://arstechnica.com/security/2026/01/wiper-malware-targeted-poland-energy-grid-but-failed-to-knock-out-electricity/
+- category: ai
+  published: '2026-01-24T18:36:11'
+  score: 0.592
+  source: Ars Technica
+  summary: 'Rice University chemists replicated Thomas Edison''s seminal experiment
+    and found a surprising byproduct: graphene. This discovery suggests that Edison
+    may have accidentally produced graphene in 1879, predating its modern scientific
+    discovery.'
+  tags:
+  - Science
+  - graphene
+  - lightbulbs
+  - materials science
+  - Physics
+  title: Did Edison accidentally make graphene in 1879?
+  url: https://arstechnica.com/science/2026/01/did-edison-accidentally-make-graphene-in-1879/
+- category: ai
+  published: '2026-01-24T15:00:00'
+  score: 0.567
+  source: Towards Data Science
+  summary: The article provides an introduction to building a neural machine translation
+    system for a low-resource language, highlighting the challenges and techniques
+    involved in this process. This information is valuable for researchers and developers
+    working on machine translation for underrepresented languages.
+  tags:
+  - Machine Learning
+  - Data Science
+  - Deep Dives
+  - Machine Translation
+  - NLP
+  title: How to Build a Neural Machine Translation System for a Low-Resource Language
+  url: https://towardsdatascience.com/how-to-build-a-neural-machine-translation-system-for-a-low-resource-language/
+- category: cybersecurity
+  published: '2026-01-24T08:09:00'
+  score: 0.812
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added
+    a critical security flaw affecting Broadcom VMware vCenter Server, which was patched
+    in June 2024, to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence
+    of active exploitation in the wild. This highlights the importance of applying
+    security updates promptly to mitigate known vulnerabilities.
+  tags: []
+  title: CISA Adds Actively Exploited VMware vCenter Flaw CVE-2024-37079 to KEV Catalog
+  url: https://thehackernews.com/2026/01/cisa-adds-actively-exploited-vmware.html
+- category: ai
   published: '2026-01-22T21:32:28'
   score: 0.872
   source: Ars Technica
@@ -19416,5 +19574,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-23T05:08:23.348168'
-total_articles: 1505
+last_updated: '2026-01-26T05:12:40.366085'
+total_articles: 1516
