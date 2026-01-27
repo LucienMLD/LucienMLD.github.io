@@ -1,5 +1,199 @@
 articles:
 - category: ai
+  published: '2026-01-27T01:53:15'
+  score: 1.002
+  source: Hugging Face
+  summary: This article provides a practical retrospective on unlocking Agentic RL
+    (Reinforcement Learning) training for GPT-OSS (OpenAI's Generative Pre-trained
+    Transformer - Open Source), discussing the technical details and challenges involved
+    in the process.
+  tags: []
+  title: 'Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective'
+  url: https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl
+- category: cybersecurity
+  published: '2026-01-26T23:46:09'
+  score: 1.116
+  source: BleepingComputer
+  summary: A new malware-as-a-service (MaaS) called 'Stanley' promises to provide
+    malicious Chrome extensions that can bypass Google's review process and be published
+    on the Chrome Web Store. This service poses a significant threat as it enables
+    the widespread distribution of malware through seemingly legitimate channels.
+  tags:
+  - Security
+  title: New malware service guarantees phishing extensions on Chrome web store
+  url: https://www.bleepingcomputer.com/news/security/new-malware-service-guarantees-phishing-extensions-on-chrome-web-store/
+- category: ai
+  published: '2026-01-26T23:05:17'
+  score: 0.882
+  source: Ars Technica
+  summary: OpenAI has published an unusually detailed post explaining the technical
+    workings of its Codex AI agent, which is designed to assist with code generation
+    and understanding. The post provides insights into the agent's loop and how it
+    handles various aspects of the coding task.
+  tags:
+  - AI
+  - Biz & IT
+  - agentic AI
+  - AI agents
+  - AI coding
+  title: OpenAI spills technical details about how its AI coding agent works
+  url: https://arstechnica.com/ai/2026/01/openai-spills-technical-details-about-how-its-ai-coding-agent-works/
+- category: ai
+  published: '2026-01-26T20:13:47'
+  score: 0.863
+  source: Ars Technica
+  summary: The U.S. Department of Transportation's (DOT) use of the Gemini AI tool
+    to draft safety rules has raised concerns among staffers, who warn that the tool's
+    potential biases and inaccuracies could lead to injuries and deaths. The article
+    highlights the need for cautious and responsible deployment of AI in critical
+    decision-making processes.
+  tags:
+  - AI
+  - Google
+  - Policy
+  - AI hallucination
+  - Artificial Intelligence
+  title: '“Wildly irresponsible”: DOT''s use of AI to draft safety rules sparks concerns'
+  url: https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/
+- category: cybersecurity
+  published: '2026-01-26T18:20:35'
+  score: 1.119
+  source: BleepingComputer
+  summary: Microsoft has released emergency security updates to patch a high-severity
+    Office zero-day vulnerability that was actively being exploited in attacks. The
+    vulnerability, if exploited, could allow remote code execution, highlighting the
+    need for prompt patching to mitigate potential security breaches.
+  tags:
+  - Microsoft
+  - Security
+  title: Microsoft patches actively exploited Office zero-day vulnerability
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-actively-exploited-office-zero-day-vulnerability/
+- category: webdev
+  published: '2026-01-26T18:05:50'
+  score: 0.731
+  source: Ars Technica
+  summary: The trailer for the Super Mario Galaxy Movie features the introduction
+    of Yoshi, the iconic dinosaur companion, to the group of characters, including
+    the Mario brothers. This integration of Yoshi into the film's narrative is likely
+    to be a highlight for fans of the Super Mario franchise.
+  tags:
+  - Culture
+  - entertainment
+  - film trailers
+  - Super Mario Galaxy (film)
+  - Trailers
+  title: The brothers meet Yoshi in Super Mario Galaxy Movie trailer
+  url: https://arstechnica.com/culture/2026/01/yoshi-joins-the-fun-in-latest-super-mario-galaxy-movie-trailer/
+- category: ai
+  published: '2026-01-26T17:14:29'
+  score: 0.842
+  source: BleepingComputer
+  summary: The European Commission has launched an investigation into X, a company
+    that deployed its Grok AI tool to generate sexually explicit images, to determine
+    whether the risks were properly assessed before the tool's deployment. This case
+    underscores the importance of thorough risk evaluation when using AI systems,
+    especially in sensitive domains.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: EU launches investigation into X over Grok-generated sexual images
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/eu-launches-investigation-into-x-over-grok-generated-sexual-images/
+- category: ai
+  published: '2026-01-26T17:09:50'
+  score: 0.842
+  source: Machine Learning Mastery
+  summary: This article provides guidance for individuals who have completed Andrew
+    Ng's machine learning course and are looking to further their skills. It suggests
+    various steps, such as exploring advanced machine learning concepts, working on
+    personal projects, and engaging with the broader machine learning community.
+  tags: []
+  title: 'Leveling Up Your Machine Learning: What To Do After Andrew Ng’s Course'
+  url: https://machinelearningmastery.com/leveling-up-your-machine-learning-what-to-do-after-andrew-ngs-course/
+- category: webdev
+  published: '2026-01-26T16:30:00'
+  score: 0.721
+  source: Towards Data Science
+  summary: This article explores the technical details of how the Cursor code indexing
+    and retrieval system powers coding agents. It delves into the RAG (Retrieval Augmented
+    Generation) pipeline used by Cursor to index and retrieve code snippets, providing
+    insights into the underlying mechanisms.
+  tags:
+  - Large Language Models
+  - AI coding assistants
+  - coding agents
+  - Cursor
+  - Llm
+  title: How Cursor Actually Indexes Your Codebase
+  url: https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/
+- category: webdev
+  published: '2026-01-26T16:13:22'
+  score: 0.719
+  source: Ars Technica
+  summary: The article showcases a project called "Doombuds" that successfully runs
+    the classic game Doom on a pair of earbuds without the need for a display. This
+    innovative approach demonstrates the ability to run complex software on seemingly
+    limited hardware through clever engineering.
+  tags:
+  - Gaming
+  - can it run doom
+  - coding
+  - Doom
+  - hack
+  title: How to get Doom running on a pair of earbuds
+  url: https://arstechnica.com/gaming/2026/01/how-to-get-doom-running-on-a-pair-of-earbuds/
+- category: cybersecurity
+  published: '2026-01-26T15:19:14'
+  score: 1.096
+  source: BleepingComputer
+  summary: Shadowserver, an internet security watchdog, has identified nearly 800,000
+    IP addresses with Telnet fingerprints, indicating a large number of Telnet servers
+    exposed to remote attacks. This vulnerability in the GNU InetUtils telnetd server
+    can be exploited to bypass authentication, potentially leading to unauthorized
+    access and further compromise.
+  tags:
+  - Security
+  title: Nearly 800,000 Telnet servers exposed to remote attacks
+  url: https://www.bleepingcomputer.com/news/security/nearly-800-000-telnet-servers-exposed-to-remote-attacks/
+- category: webdev
+  published: '2026-01-26T15:02:27'
+  score: 0.792
+  source: CSS-Tricks
+  summary: The article discusses the accessibility advice around modals and the need
+    to trap focus within the `<dialog>` element. However, it suggests that based on
+    further research, this practice may no longer be necessary, as the browser's built-in
+    functionality can handle focus management effectively.
+  tags:
+  - Articles
+  - accessibility
+  - dialog
+  - modal
+  title: There is No Need to Trap Focus on a Dialog Element
+  url: https://css-tricks.com/there-is-no-need-to-trap-focus-on-a-dialog-element/
+- category: cybersecurity
+  published: '2026-01-26T12:00:00'
+  score: 1.071
+  source: CISA
+  summary: CISA (Cybersecurity and Infrastructure Security Agency) has added five
+    new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based
+    on evidence of active exploitation. These vulnerabilities, if left unpatched,
+    can be leveraged by attackers to gain unauthorized access or execute malicious
+    code on affected systems.
+  tags: []
+  title: CISA Adds Five Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/01/26/cisa-adds-five-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-01-26T11:55:00'
+  score: 1.071
+  source: The Hacker News
+  summary: This week's security recap highlights the ongoing challenges faced by defenders,
+    as attackers continue to exploit both new and old vulnerabilities through trusted
+    tools and half-fixed problems. The report emphasizes that "patched" no longer
+    means "safe," and constant vigilance is required to stay ahead of evolving threats.
+  tags: []
+  title: '⚡ Weekly Recap: Firewall Flaws, AI-Built Malware, Browser Traps, Critical
+    CVEs & More'
+  url: https://thehackernews.com/2026/01/weekly-recap-firewall-flaws-ai-built.html
+- category: ai
   published: '2026-01-26T01:01:12'
   score: 1.083
   source: BleepingComputer
@@ -19574,5 +19768,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-26T05:12:40.366085'
-total_articles: 1516
+last_updated: '2026-01-27T05:08:57.399564'
+total_articles: 1530
