@@ -1,4 +1,181 @@
 articles:
+- category: cybersecurity
+  published: '2026-01-28T04:49:00'
+  score: 1.298
+  source: The Hacker News
+  summary: Fortinet has released security updates to address a critical vulnerability
+    (CVE-2026-24858) in its FortiOS software that allows authentication bypass and
+    has been actively exploited in the wild. The vulnerability has a high CVSS score
+    of 9.4, and Fortinet has taken steps to mitigate the attacks until a patch is
+    available.
+  tags: []
+  title: Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected
+  url: https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html
+- category: ai
+  published: '2026-01-28T00:56:10'
+  score: 0.951
+  source: Hugging Face
+  summary: The article discusses the Nemotron-Personas-Brazil project, which involves
+    co-designed data for sovereign AI.
+  tags: []
+  title: 'Nemotron-Personas-Brazil: Co-Designed Data for Sovereign AI'
+  url: https://huggingface.co/blog/nvidia/nemotron-personas-brazil
+- category: ai
+  published: '2026-01-28T00:04:45'
+  score: 1.077
+  source: BleepingComputer
+  summary: OpenAI plans to begin rolling out ads on ChatGPT in the United States,
+    and the ad costs could be on par with live NFL broadcasts, making it an expensive
+    option for advertisers.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI's ChatGPT ad costs are on par with live NFL broadcasts
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ad-costs-are-on-par-with-live-nfl-broadcasts/
+- category: cybersecurity
+  published: '2026-01-27T23:19:42'
+  score: 1.256
+  source: BleepingComputer
+  summary: Fortinet has confirmed a new, actively exploited critical FortiCloud single
+    sign-on (SSO) authentication bypass vulnerability (CVE-2026-24858) and has mitigated
+    the zero-day attacks by blocking FortiCloud SSO connections from devices running
+    vulnerable firmware versions.
+  tags:
+  - Security
+  title: Fortinet blocks exploited FortiCloud SSO zero day until patch is ready
+  url: https://www.bleepingcomputer.com/news/security/fortinet-blocks-exploited-forticloud-sso-zero-day-until-patch-is-ready/
+- category: ai
+  published: '2026-01-27T17:39:57'
+  score: 0.845
+  source: AWS Machine Learning
+  summary: Pushpay used Amazon Bedrock to create a custom generative AI evaluation
+    framework for continuous quality assurance and rapid iteration feedback loops
+    on AWS.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Prompt Management
+  - Amazon Machine Learning
+  - Customer Solutions
+  title: 'Build reliable Agentic AI solution with Amazon Bedrock: Learn from Pushpay’s
+    journey on GenAI evaluation'
+  url: https://aws.amazon.com/blogs/machine-learning/build-reliable-agentic-ai-solution-with-amazon-bedrock-learn-from-pushpays-journey-on-genai-evaluation/
+- category: webdev
+  published: '2026-01-27T17:37:58'
+  score: 0.728
+  source: Ars Technica
+  summary: Bruce of Drain Cleaning Australia has become a YouTube sensation, sharing
+    his love for free-flowing drains.
+  tags:
+  - Culture
+  - competence porn
+  - Internet culture
+  - plumbing
+  - YouTube
+  title: Australian plumber is a YouTube sensation
+  url: https://arstechnica.com/culture/2026/01/australian-plumber-is-a-youtube-sensation/
+- category: ai
+  published: '2026-01-27T17:00:58'
+  score: 0.841
+  source: Ars Technica
+  summary: AI Overviews may get more accurate with the move to Gemini 3 and the addition
+    of an AI Mode.
+  tags:
+  - AI
+  - Google
+  - ai overviews
+  - Artificial Intelligence
+  - generative ai
+  title: AI Overviews gets upgraded to Gemini 3 with a dash of AI Mode
+  url: https://arstechnica.com/google/2026/01/ai-overviews-gets-upgraded-to-gemini-3-with-a-dash-of-ai-mode/
+- category: webdev
+  published: '2026-01-27T16:16:32'
+  score: 0.72
+  source: Ars Technica
+  summary: Volvo has improved its three-point seat belt, with the EX60 sensing a passenger's
+    size and weight to determine the appropriate force to use.
+  tags:
+  - Cars
+  - road safety
+  - seat belts
+  - volvo
+  title: Volvo invented the three-point seat belt 67 years ago; now it has improved
+    it
+  url: https://arstechnica.com/cars/2026/01/how-volvos-new-adaptive-seat-belts-will-reduce-injuries-during-a-crash/
+- category: webdev
+  published: '2026-01-27T15:17:13'
+  score: 0.713
+  source: Ars Technica
+  summary: IMSA Labs will use the vast amount of race car data collected during a
+    race to improve simulations, in collaboration with NASA and tech companies.
+  tags:
+  - Cars
+  - IMSA
+  - Rolex 24
+  - tech transfer
+  title: Why NASA, IMSA, and tech companies are teaming up on tech transfer
+  url: https://arstechnica.com/cars/2026/01/why-nasa-imsa-and-tech-companies-are-teaming-up-on-tech-transfer/
+- category: webdev
+  published: '2026-01-27T14:16:32'
+  score: 0.707
+  source: Ars Technica
+  summary: A ground station company is seeking to cash in on the spike in data from
+    space, as the demand for their services grows.
+  tags:
+  - Space
+  - northwood space
+  - phased array
+  - space
+  title: As data from space spikes, an innovative ground station company seeks to
+    cash in
+  url: https://arstechnica.com/space/2026/01/as-data-from-space-spikes-an-innovative-ground-station-company-seeks-to-cash-in/
+- category: cybersecurity
+  published: '2026-01-27T14:09:47'
+  score: 1.088
+  source: BleepingComputer
+  summary: Nonprofit security organization Shadowserver has found over 6,000 SmarterMail
+    servers exposed online and likely vulnerable to attacks exploiting a critical
+    authentication bypass vulnerability.
+  tags:
+  - Security
+  title: Over 6,000 SmarterMail servers exposed to automated hijacking attacks
+  url: https://www.bleepingcomputer.com/news/security/over-6-000-smartermail-servers-exposed-to-automated-hijacking-attacks/
+- category: cybersecurity
+  published: '2026-01-27T12:00:00'
+  score: 1.071
+  source: CISA
+  summary: Successful exploitation of a vulnerability in Johnson Controls products
+    could result in remote SQL execution, leading to alteration or loss of data.
+  tags: []
+  title: Johnson Controls Products
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-027-04
+- category: cybersecurity
+  published: '2026-01-27T12:00:00'
+  score: 1.071
+  source: CISA
+  summary: CISA has added a new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/01/27/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: webdev
+  published: '2026-01-27T10:00:00'
+  score: 0.72
+  source: Smashing Magazine
+  summary: Stacking contexts in CSS are widely misunderstood and often mistakenly
+    created, leading to a slew of layout issues.
+  tags: []
+  title: Unstacking CSS Stacking Contexts
+  url: https://smashingmagazine.com/2026/01/unstacking-css-stacking-contexts/
+- category: ai
+  published: '2026-01-27T06:00:00'
+  score: 0.853
+  source: OpenAI
+  summary: PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting
+    ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer
+    engagement.
+  tags: []
+  title: PVH reimagines the future of fashion with OpenAI
+  url: https://openai.com/index/pvh-future-of-fashion
 - category: ai
   published: '2026-01-27T01:53:15'
   score: 1.002
@@ -19768,5 +19945,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-27T05:08:57.399564'
-total_articles: 1530
+last_updated: '2026-01-28T05:08:54.218501'
+total_articles: 1545
