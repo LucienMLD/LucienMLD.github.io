@@ -1,5 +1,205 @@
 articles:
 - category: cybersecurity
+  published: '2026-01-28T23:29:00'
+  score: 1.112
+  source: BleepingComputer
+  summary: Initial access broker TA584 has been observed using the Tsundere Bot and
+    XWorm remote access trojan to gain network access, potentially leading to ransomware
+    attacks. This highlights the evolving tactics of cybercriminal groups in leveraging
+    new tools and techniques for initial access and subsequent malicious activities.
+  tags:
+  - Security
+  title: Initial access hackers switch to Tsundere Bot for ransomware attacks
+  url: https://www.bleepingcomputer.com/news/security/initial-access-hackers-switch-to-tsundere-bot-for-ransomware-attacks/
+- category: ai
+  published: '2026-01-28T18:00:14'
+  score: 0.802
+  source: Ars Technica
+  summary: Google has begun rolling out its "Auto Browse" AI agent feature, which
+    is currently available to AI Pro and AI Ultra subscribers. This feature aims to
+    provide an enhanced browsing experience by leveraging artificial intelligence
+    capabilities, though there are some limitations in its current implementation.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - browser agent
+  - gemini
+  title: Google begins rolling out Chrome's "Auto Browse" AI agent today
+  url: https://arstechnica.com/google/2026/01/google-begins-rolling-out-chromes-auto-browse-ai-agent-today/
+- category: ai
+  published: '2026-01-28T17:21:29'
+  score: 0.798
+  source: Ars Technica
+  summary: China has approved the import of high-end Nvidia AI chips, specifically
+    the H200 model, after a period of uncertainty. This development reflects China's
+    efforts to balance its technology needs with its pursuit of self-reliance in the
+    semiconductor industry.
+  tags:
+  - AI
+  - Biz & IT
+  - AI chips
+  - AI GPU
+  - AI infrastructure
+  title: 'Report: China approves import of high-end Nvidia AI chips after weeks of
+    uncertainty'
+  url: https://arstechnica.com/ai/2026/01/report-china-approves-import-of-high-end-nvidia-ai-chips-after-weeks-of-uncertainty/
+- category: webdev
+  published: '2026-01-28T16:41:40'
+  score: 0.721
+  source: Ars Technica
+  summary: The review of the AMD Ryzen 9850X3D CPU highlights the tradeoffs in its
+    $499 price point, making it challenging to get excited about the performance improvements
+    over previous models. The article provides a nuanced assessment of the chip's
+    capabilities and its positioning in the market.
+  tags:
+  - Features
+  - Gaming
+  - Tech
+  - 3d V-cache
+  - am5
+  title: 'Ryzen 9850X3D review: AMD''s bragging-rights gaming CPU gets more to brag
+    about'
+  url: https://arstechnica.com/gadgets/2026/01/review-amds-ryzen-7-9850x3d-is-a-little-faster-and-a-lot-more-power-hungry/
+- category: ai
+  published: '2026-01-28T16:30:00'
+  score: 0.792
+  source: Towards Data Science
+  summary: The article presents a step-by-step implementation of cross-silo federated
+    learning using the Flower framework, a popular open-source library for building
+    federated learning systems. This provides a practical guide for developers interested
+    in deploying federated learning solutions.
+  tags:
+  - Federated Learning
+  - Artificial Intelligence
+  - Data Science
+  - Deep Dives
+  - Machine Learning
+  title: 'Federated Learning, Part 2: Implementation with the Flower Framework 🌼'
+  url: https://towardsdatascience.com/federated-learning-part-2-implementation-with-the-flower-framework-%f0%9f%8c%bc/
+- category: webdev
+  published: '2026-01-28T15:08:04'
+  score: 0.751
+  source: CSS-Tricks
+  summary: Chrome 144 has introduced the `::search-text` pseudo-element, which allows
+    developers to style the text highlighted during a find-in-page search. This addition,
+    along with other highlight-related pseudo-elements, enables more customization
+    and visual feedback in web-based search functionality.
+  tags:
+  - Articles
+  - pseudo elements
+  title: How to Style the New ::search-text and Other Highlight-y Pseudo-Elements
+  url: https://css-tricks.com/how-to-style-the-new-search-text-and-other-highlight-pseudo-elements/
+- category: ai
+  published: '2026-01-28T15:00:00'
+  score: 0.826
+  source: Towards Data Science
+  summary: The article discusses the transition from machine learning in notebooks
+    to deploying models in production environments, emphasizing the practical challenges
+    and considerations involved in this process. It underscores the importance of
+    engineering practices and infrastructure to support the effective deployment of
+    machine learning systems.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Editors Pick
+  - Mlops
+  - Model Deployment
+  title: Machine Learning in Production? What This Really Means
+  url: https://towardsdatascience.com/machine-learning-in-production-what-this-really-means/
+- category: webdev
+  published: '2026-01-28T13:30:00'
+  score: 0.741
+  source: Towards Data Science
+  summary: The article describes a project that enables computer control using hand
+    gestures, implemented in 60 lines of Python code using OpenCV and MediaPipe. This
+    "Minority Report-style" interface showcases the potential for novel user interaction
+    methods leveraging computer vision and machine learning techniques.
+  tags:
+  - Computer Vision
+  - Artificial Intelligence
+  - Data Science
+  - Machine Learning
+  - Programming
+  title: 'I Ditched My Mouse: How I Control My Computer With Hand Gestures (In 60
+    Lines of Python)'
+  url: https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/
+- category: webdev
+  published: '2026-01-28T13:25:00'
+  score: 0.741
+  source: CSS-Tricks
+  summary: ReliCSS is a tool that can identify outdated CSS in a codebase and suggest
+    modern CSS solutions as alternatives. This can help developers optimize their
+    stylesheets and improve the maintenance and performance of their web applications.
+  tags:
+  - Links
+  - audit
+  - css analysis
+  - resource
+  title: ReliCSS
+  url: https://css-tricks.com/relicss/
+- category: ai
+  published: '2026-01-28T13:15:03'
+  score: 0.858
+  source: BleepingComputer
+  summary: Malicious actors are targeting exposed LLM (Large Language Model) service
+    endpoints to gain unauthorized access to AI infrastructure and commercialize it,
+    in a campaign dubbed "Bizarre Bazaar." This highlights the need for robust security
+    measures and access controls around AI systems and services to prevent such misuse.
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: Hackers hijack exposed LLM endpoints in Bizarre Bazaar operation
+  url: https://www.bleepingcomputer.com/news/security/hackers-hijack-exposed-llm-endpoints-in-bizarre-bazaar-operation/
+- category: cybersecurity
+  published: '2026-01-28T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: Fortinet has released guidance to address the ongoing exploitation of a
+    newly disclosed authentication bypass vulnerability, CVE-2026-24858, which could
+    allow attackers to gain unauthorized access to affected systems. Administrators
+    are advised to apply the necessary patches and security measures to mitigate the
+    risk posed by this vulnerability.
+  tags: []
+  title: Fortinet Releases Guidance to Address Ongoing Exploitation of Authentication
+    Bypass Vulnerability CVE-2026-24858
+  url: https://www.cisa.gov/news-events/alerts/2026/01/28/fortinet-releases-guidance-address-ongoing-exploitation-authentication-bypass-vulnerability-cve-2026
+- category: cybersecurity
+  published: '2026-01-28T11:50:00'
+  score: 1.021
+  source: The Hacker News
+  summary: A critical sandbox escape vulnerability, CVE-2026-22709, has been disclosed
+    in the popular vm2 Node.js library, allowing attackers to potentially execute
+    arbitrary code on the underlying operating system. With a CVSS score of 9.8, this
+    flaw poses a significant risk and requires immediate attention from developers
+    and organizations utilizing the affected library.
+  tags: []
+  title: Critical vm2 Node.js Flaw Allows Sandbox Escape and Arbitrary Code Execution
+  url: https://thehackernews.com/2026/01/critical-vm2-nodejs-flaw-allows-sandbox.html
+- category: cybersecurity
+  published: '2026-01-28T10:30:00'
+  score: 1.059
+  source: The Hacker News
+  summary: Password reuse, although often overlooked, remains a significant risk to
+    organizational security. While threats like phishing and malware garner attention,
+    the persistence of password reuse-related risks underscores the need for robust
+    password management strategies and user awareness campaigns.
+  tags: []
+  title: 'Password Reuse in Disguise: An Often-Missed Risky Workaround'
+  url: https://thehackernews.com/2026/01/password-reuse-in-disguise-often-missed.html
+- category: cybersecurity
+  published: '2026-01-28T09:46:00'
+  score: 1.053
+  source: The Hacker News
+  summary: Google has warned that multiple threat actors, including nation-state groups
+    and financially motivated cybercriminals, are actively exploiting a critical vulnerability
+    (CVE-2025-8088) in RARLAB WinRAR to establish initial access and deploy various
+    payloads. Prompt patching and vigilance are crucial to protect against this ongoing
+    exploitation.
+  tags: []
+  title: Google Warns of Active Exploitation of WinRAR Vulnerability CVE-2025-8088
+  url: https://thehackernews.com/2026/01/google-warns-of-active-exploitation-of.html
+- category: cybersecurity
   published: '2026-01-28T04:49:00'
   score: 1.298
   source: The Hacker News
@@ -87,6 +287,20 @@ articles:
   - generative ai
   title: AI Overviews gets upgraded to Gemini 3 with a dash of AI Mode
   url: https://arstechnica.com/google/2026/01/ai-overviews-gets-upgraded-to-gemini-3-with-a-dash-of-ai-mode/
+- category: webdev
+  published: '2026-01-27T17:00:00'
+  score: 0.523
+  source: Google AI Blog
+  summary: The article describes a new "Ask anything" search experience feature, which
+    presents a centered, elongated oval shape resembling a search bar with the text
+    "Ask anything" inside it. This suggests an upcoming change in the user interface
+    and interaction model for search functionality on the web.
+  tags:
+  - Search
+  - Gemini models
+  - AI
+  title: 'Just ask anything: a seamless new Search experience'
+  url: https://blog.google/products-and-platforms/products/search/ai-mode-ai-overviews-updates/
 - category: webdev
   published: '2026-01-27T16:16:32'
   score: 0.72
@@ -19945,5 +20159,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-28T05:08:54.218501'
-total_articles: 1545
+last_updated: '2026-01-29T05:19:14.030000'
+total_articles: 1560
