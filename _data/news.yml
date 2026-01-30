@@ -1,5 +1,162 @@
 articles:
 - category: cybersecurity
+  published: '2026-01-30T04:43:00'
+  score: 1.295
+  source: The Hacker News
+  summary: Ivanti has released security updates to address two critical vulnerabilities
+    (CVE-2026-1281 and CVE-2026-1340) in its Ivanti Endpoint Manager Mobile (EPMM)
+    software that were being actively exploited in zero-day attacks. The U.S. Cybersecurity
+    and Infrastructure Security Agency (CISA) has added one of the vulnerabilities
+    to its Known Exploited Vulnerabilities (KEV) catalog, highlighting the significance
+    of the issue.
+  tags: []
+  title: Two Ivanti EPMM Zero-Day RCE Flaws Actively Exploited, Security Updates Released
+  url: https://thehackernews.com/2026/01/two-ivanti-epmm-zero-day-rce-flaws.html
+- category: cybersecurity
+  published: '2026-01-30T00:21:49'
+  score: 1.071
+  source: BleepingComputer
+  summary: Microsoft has linked recent reports of Windows 11 boot failures after installing
+    the January 2026 updates to previously failed attempts to install the December
+    2025 security update, which left systems in an "improper state." The company is
+    investigating the issue and working on a resolution.
+  tags:
+  - Microsoft
+  title: Microsoft links Windows 11 boot failures to failed December 2025 update
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-links-windows-11-boot-failures-to-failed-december-2025-update/
+- category: ai
+  published: '2026-01-29T23:32:14'
+  score: 0.94
+  source: AWS Machine Learning
+  summary: The agent-based approach presented in this article is applicable to content
+    review operations in various enterprise scenarios, such as product documentation,
+    knowledge bases, marketing materials, and technical specifications. The system
+    leverages multi-agent workflows to scale content review efficiently.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Intermediate (200)
+  - Strands Agents
+  title: Scaling content review operations with multi-agent workflow
+  url: https://aws.amazon.com/blogs/machine-learning/scaling-content-review-operations-with-multi-agent-workflow/
+- category: cybersecurity
+  published: '2026-01-29T22:07:33'
+  score: 1.098
+  source: BleepingComputer
+  summary: Ivanti has disclosed two critical vulnerabilities in its Ivanti Endpoint
+    Manager Mobile (EPMM) software that have been exploited in zero-day attacks. The
+    company has released security updates to address these vulnerabilities, which
+    could potentially allow an attacker to execute remote code on affected systems.
+  tags:
+  - Security
+  title: Ivanti warns of two EPMM flaws exploited in zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/ivanti-warns-of-two-epmm-flaws-exploited-in-zero-day-attacks/
+- category: ai
+  published: '2026-01-29T22:05:59'
+  score: 0.874
+  source: Ars Technica
+  summary: Anthropic's latest paper on "user disempowerment" has uncovered some concerning
+    findings about the potential for AI chatbots to lead users down harmful paths.
+    The study highlights the need for increased scrutiny and safeguards in the development
+    and deployment of these systems.
+  tags:
+  - AI
+  - Anthropic
+  - Artificial Intelligence
+  - Claude
+  - disempowerment
+  title: How often do AI chatbots lead users down a harmful path?
+  url: https://arstechnica.com/ai/2026/01/how-often-do-ai-chatbots-lead-users-down-a-harmful-path/
+- category: ai
+  published: '2026-01-29T18:37:00'
+  score: 0.85
+  source: The Hacker News
+  summary: A joint investigation by SentinelOne SentinelLABS and Censys has revealed
+    that the open-source artificial intelligence (AI) deployment Ollama has created
+    a vast "unmanaged, publicly accessible layer of AI compute infrastructure" spanning
+    175,000 unique hosts across 130 countries, raising security and privacy concerns.
+  tags: []
+  title: Researchers Find 175,000 Publicly Exposed Ollama AI Servers Across 130 Countries
+  url: https://thehackernews.com/2026/01/researchers-find-175000-publicly.html
+- category: ai
+  published: '2026-01-29T17:51:49'
+  score: 0.845
+  source: Ars Technica
+  summary: The launch of OpenAI's "Prism" workspace has renewed fears about the potential
+    for "AI slop" to overwhelm scientific research, as studies have shown an influx
+    of AI-assisted papers with diminished quality flooding academic journals.
+  tags:
+  - AI
+  - Science
+  - Academic publishing
+  - AI assistants
+  - ai slop
+  title: New OpenAI tool renews fears that “AI slop” will overwhelm scientific research
+  url: https://arstechnica.com/ai/2026/01/new-openai-tool-renews-fears-that-ai-slop-will-overwhelm-scientific-research/
+- category: ai
+  published: '2026-01-29T15:19:56'
+  score: 0.916
+  source: Ars Technica
+  summary: Anthropic, the company behind the AI model Claude, acts as if their AI
+    models might suffer, even though there is no proof that they are conscious. This
+    raises questions about Anthropic's intentions and the transparency surrounding
+    the capabilities and limitations of their AI system.
+  tags:
+  - AI
+  - Biz & IT
+  - Features
+  - AI alignment
+  - AI anthropomorphism
+  title: Does Anthropic believe its AI is conscious, or is that just what it wants
+    Claude to think?
+  url: https://arstechnica.com/information-technology/2026/01/does-anthropic-believe-its-ai-is-conscious-or-is-that-just-what-it-wants-claude-to-think/
+- category: webdev
+  published: '2026-01-29T13:30:00'
+  score: 0.701
+  source: Towards Data Science
+  summary: The article presents the author's "confessions of a vibe coder," exploring
+    the challenges and the "unbearable lightness of coding" in the modern software
+    development landscape.
+  tags:
+  - LLM Applications
+  - AI coding assistants
+  - Editors Pick
+  - Llm
+  - Programming
+  title: The Unbearable Lightness of Coding
+  url: https://towardsdatascience.com/the-unbearable-lightness-of-coding/
+- category: cybersecurity
+  published: '2026-01-29T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The KiloView Encoder Series contains a vulnerability that could allow an
+    unauthenticated attacker to create or delete administrator accounts, grant themselves
+    elevated privileges, and potentially execute arbitrary code on affected systems.
+  tags: []
+  title: KiloView Encoder Series
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-029-01
+- category: cybersecurity
+  published: '2026-01-29T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The Rockwell Automation ArmorStart LT product contains several vulnerabilities
+    that could allow an attacker to cause a denial-of-service condition. The issues
+    have been addressed by the vendor, and users are advised to apply the necessary
+    security updates.
+  tags: []
+  title: Rockwell Automation ArmorStart LT
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-029-02
+- category: webdev
+  published: '2026-01-29T00:00:00'
+  score: 0.567
+  source: Hugging Face
+  summary: Daggr is a new tool that allows developers to chain apps programmatically
+    and inspect them visually, providing a more intuitive and streamlined approach
+    to building complex applications.
+  tags: []
+  title: 'Introducing Daggr: Chain apps programmatically, inspect visually'
+  url: https://huggingface.co/blog/daggr
+- category: cybersecurity
   published: '2026-01-28T23:29:00'
   score: 1.112
   source: BleepingComputer
@@ -20159,5 +20316,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-29T05:19:14.030000'
-total_articles: 1560
+last_updated: '2026-01-30T05:20:14.121648'
+total_articles: 1572
