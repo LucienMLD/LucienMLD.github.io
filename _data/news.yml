@@ -1,5 +1,146 @@
 articles:
 - category: cybersecurity
+  published: '2026-02-02T05:04:00'
+  score: 1.153
+  source: The Hacker News
+  summary: Cybersecurity researchers discovered a supply chain attack targeting the
+    Open VSX Registry, where threat actors compromised a legitimate developer's account
+    to push malicious updates to downstream users, highlighting the need for robust
+    security measures in software supply chains.
+  tags: []
+  title: Open VSX Supply Chain Attack Used Compromised Dev Account to Spread GlassWorm
+  url: https://thehackernews.com/2026/02/open-vsx-supply-chain-attack-used.html
+- category: cybersecurity
+  published: '2026-02-01T16:27:00'
+  score: 0.91
+  source: BleepingComputer
+  summary: Threat actors are targeting exposed MongoDB instances in automated data
+    extortion attacks, demanding low ransoms from owners to restore the data, underscoring
+    the importance of properly securing cloud-based databases.
+  tags:
+  - Security
+  title: Exposed MongoDB instances still targeted in data extortion attacks
+  url: https://www.bleepingcomputer.com/news/security/exposed-mongodb-instances-still-targeted-in-data-extortion-attacks/
+- category: cybersecurity
+  published: '2026-02-01T15:20:40'
+  score: 0.902
+  source: BleepingComputer
+  summary: Apple is introducing a new privacy feature that allows users to limit the
+    precision of location data shared with cellular networks on some iPhone and iPad
+    models, enhancing user privacy and control over their data.
+  tags:
+  - Apple
+  - Security
+  title: New Apple privacy feature limits location tracking on iPhones, iPads
+  url: https://www.bleepingcomputer.com/news/apple/new-apple-privacy-feature-limits-location-tracking-on-iphones-ipads/
+- category: ai
+  published: '2026-02-01T15:00:00'
+  score: 0.78
+  source: Towards Data Science
+  summary: Researchers have developed a distributed reinforcement learning approach
+    that leverages massive parallelism, asynchronous updates, and multi-machine training
+    to match and exceed human-level performance, showcasing advancements in scalable
+    high-performance policy optimization.
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Deep Reinforcement
+  - Distributed Learning
+  - Editors Pick
+  title: Distributed Reinforcement Learning for Scalable High-Performance Policy Optimization
+  url: https://towardsdatascience.com/distributed-reinforcement-learning-for-scalable-high-performance-policy-optimization/
+- category: cybersecurity
+  published: '2026-02-01T12:15:50'
+  score: 0.831
+  source: Ars Technica
+  summary: The National Institutes of Health is experiencing a power struggle over
+    institute directorships, raising concerns about the potential politicization of
+    these roles and their impact on the research agency's operations.
+  tags:
+  - Science
+  - National Institutes of Health
+  - NIH
+  - NIH funding
+  - NIH grants
+  title: At NIH, a power struggle over institute directorships deepens
+  url: https://arstechnica.com/science/2026/02/at-nih-a-power-struggle-over-institute-directorships-deepens/
+- category: ai
+  published: '2026-02-01T12:00:13'
+  score: 0.76
+  source: Ars Technica
+  summary: A fungus could be the insecticide of the future, as it is able to detoxify
+    plant chemicals made more potent by insect pests, providing a potential alternative
+    to traditional pesticides.
+  tags:
+  - Science
+  - biochemistry
+  - Biology
+  - fungus
+  - insecticides
+  title: Fungus could be the insecticide of the future
+  url: https://arstechnica.com/science/2026/02/fungus-could-be-the-insecticide-of-the-future/
+- category: ai
+  published: '2026-02-01T02:00:00'
+  score: 0.773
+  source: BleepingComputer
+  summary: OpenAI is preparing to roll out ads in ChatGPT for free and $8 Go accounts,
+    while also assuring users that they can trust the accuracy of ChatGPT's responses,
+    as the company explores monetization strategies for its popular language model.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI says you can trust ChatGPT answers, as it kicks off ads rollout preparation
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-you-can-trust-chatgpt-answers-as-it-kicks-off-ads-rollout-preparation/
+- category: ai
+  published: '2026-02-01T01:26:02'
+  score: 0.769
+  source: BleepingComputer
+  summary: OpenAI is retiring the famous GPT-4o model and several other models, indicating
+    that the company believes its latest GPT 5.2 model is sufficient, suggesting continuous
+    advancements in language model capabilities.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI is retiring famous GPT-4o model, says GPT 5.2 is good enough
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-retiring-famous-gpt-4o-model-says-gpt-52-is-good-enough/
+- category: cybersecurity
+  published: '2026-01-31T15:02:12'
+  score: 0.765
+  source: BleepingComputer
+  summary: Mandiant reports that a wave of recent ShinyHunters SaaS data-theft attacks
+    is being fueled by targeted voice phishing (vishing) attacks and company-branded
+    phishing sites that steal single sign-on (SSO) credentials and multi-factor authentication
+    (MFA) codes, highlighting the need for robust identity and access management practices.
+  tags:
+  - Security
+  title: Mandiant details how ShinyHunters abuse SSO to steal cloud data
+  url: https://www.bleepingcomputer.com/news/security/mandiant-details-how-shinyhunters-abuse-sso-to-steal-cloud-data/
+- category: ai
+  published: '2026-01-31T13:00:00'
+  score: 0.64
+  source: Towards Data Science
+  summary: Ollama now offers Anthropic API compatibility, allowing users to run Claude
+    code for free with both local and cloud models, expanding access to Anthropic's
+    language models.
+  tags:
+  - Programming
+  - AI coding assistants
+  - Artificial Intelligence
+  - Claude Code
+  - Python
+  title: How to Run Claude Code for Free with Local and Cloud Models from Ollama
+  url: https://towardsdatascience.com/run-claude-code-for-free-with-local-and-cloud-models-from-ollama/
+- category: webdev
+  published: '2026-01-31T09:00:00'
+  score: 0.472
+  source: Smashing Magazine
+  summary: A new collection of desktop wallpapers designed by the community for the
+    community is available for free, providing a opportunity to celebrate the shortest
+    month of the year and potentially spark creativity.
+  tags: []
+  title: Short Month, Big Ideas (February 2026 Wallpapers Edition)
+  url: https://smashingmagazine.com/2026/01/desktop-wallpaper-calendars-february-2026/
+- category: cybersecurity
   published: '2026-01-30T04:43:00'
   score: 1.295
   source: The Hacker News
@@ -20316,5 +20457,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-01-30T05:20:14.121648'
-total_articles: 1572
+last_updated: '2026-02-02T05:30:36.984885'
+total_articles: 1583
