@@ -1,5 +1,199 @@
 articles:
 - category: cybersecurity
+  published: '2026-02-03T04:55:00'
+  score: 1.152
+  source: The Hacker News
+  summary: The Lotus Blossom hacking group, a China-linked threat actor, has been
+    attributed with medium confidence to the recent compromise of the infrastructure
+    hosting Notepad++. The attack enabled the delivery of a previously undocumented
+    backdoor codenamed Chrysalis to users, potentially compromising their systems.
+  tags: []
+  title: Notepad++ Hosting Breach Attributed to China-Linked Lotus Blossom Hacking
+    Group
+  url: https://thehackernews.com/2026/02/notepad-hosting-breach-attributed-to.html
+- category: webdev
+  published: '2026-02-03T00:08:11'
+  score: 0.867
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 236 is now available for download on
+    macOS Tahoe and macOS Sequoia.
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 236
+  url: https://webkit.org/blog/17791/release-notes-for-safari-technology-preview-236/
+- category: webdev
+  published: '2026-02-02T22:57:56'
+  score: 0.76
+  source: Ars Technica
+  summary: The article looks back at Catacomb 3D, an oft-forgotten piece of PC gaming
+    history that paved the way for the development of Wolfenstein 3D.
+  tags:
+  - Gaming
+  - Carmack
+  - Doom
+  - History
+  - id Software
+  title: Looking back at Catacomb 3D, the game that led to Wolfenstein 3D
+  url: https://arstechnica.com/gaming/2026/02/looking-back-at-catacomb-3d-the-game-that-led-to-wolfenstein-3d/
+- category: webdev
+  published: '2026-02-02T22:31:46'
+  score: 0.757
+  source: Ars Technica
+  summary: Sony, the owner of Crunchyroll, has raised prices for the streaming service
+    weeks after killing its free tier.
+  tags:
+  - Tech
+  - acquisitions
+  - anime
+  - Sony
+  - streaming
+  title: Streaming service Crunchyroll raises prices weeks after killing its free
+    tier
+  url: https://arstechnica.com/gadgets/2026/02/streaming-service-crunchyroll-raises-prices-weeks-after-killing-its-free-tier/
+- category: cybersecurity
+  published: '2026-02-02T22:04:19'
+  score: 1.001
+  source: BleepingComputer
+  summary: A new GlassWorm malware attack is targeting macOS systems through compromised
+    OpenVSX extensions, with the goal of stealing passwords, crypto-wallet data, and
+    developer credentials and configurations.
+  tags:
+  - Security
+  title: New GlassWorm attack targets macOS via compromised OpenVSX extensions
+  url: https://www.bleepingcomputer.com/news/security/new-glassworm-attack-targets-macos-via-compromised-openvsx-extensions/
+- category: ai
+  published: '2026-02-02T21:55:44'
+  score: 0.829
+  source: Ars Technica
+  summary: SpaceX has acquired xAI and plans to launch a massive satellite constellation
+    to power it, marking a significant move in the company's mission.
+  tags:
+  - AI
+  - Space
+  - orbital data centers
+  - space
+  - spacex
+  title: SpaceX acquires xAI, plans to launch a massive satellite constellation to
+    power it
+  url: https://arstechnica.com/ai/2026/02/spacex-acquires-xai-plans-1-million-satellite-constellation-to-power-it/
+- category: cybersecurity
+  published: '2026-02-02T21:00:07'
+  score: 1.137
+  source: BleepingComputer
+  summary: Ukrainian authorities have reported that Russian hackers are actively exploiting
+    a recently patched vulnerability (CVE-2026-21509) in multiple versions of Microsoft
+    Office, which could enable them to launch attacks on vulnerable systems.
+  tags:
+  - Security
+  title: Russian hackers exploit recently patched Microsoft Office bug in attacks
+  url: https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-recently-patched-microsoft-office-bug-in-attacks/
+- category: webdev
+  published: '2026-02-02T20:43:31'
+  score: 0.746
+  source: Ars Technica
+  summary: A court order has been issued to restart all US offshore wind construction,
+    overturning the "it's classified" ploy used by the Trump administration in five
+    different cases.
+  tags:
+  - Policy
+  - Science
+  - department of the interior
+  - green
+  - injunction
+  title: Court orders restart of all US offshore wind construction
+  url: https://arstechnica.com/science/2026/02/court-orders-restart-of-all-us-offshore-wind-construction/
+- category: ai
+  published: '2026-02-02T18:00:20'
+  score: 0.89
+  source: Ars Technica
+  summary: OpenAI has released a macOS app for its Codex language model, which provides
+    the same functionality as the existing command-line interface, IDE, and web interfaces.
+  tags:
+  - AI
+  - agentic AI
+  - Claude Code
+  - Codex
+  - coding
+  title: OpenAI picks up pace against Claude Code with new Codex desktop app
+  url: https://arstechnica.com/ai/2026/02/openai-picks-up-pace-against-claude-code-with-new-codex-desktop-app/
+- category: ai
+  published: '2026-02-02T17:00:00'
+  score: 0.839
+  source: Towards Data Science
+  summary: The article discusses the transition from data science to AI engineering,
+    using LLMs as a bridge to DevOps, and the importance of the one engineering skill
+    junior data scientists need to stay competitive.
+  tags:
+  - Author Spotlights
+  - Artificial Intelligence
+  - Data Science
+  - Machine Learning
+  - Writing
+  title: Building Systems That Survive Real Life
+  url: https://towardsdatascience.com/building-systems-that-survive-real-life/
+- category: ai
+  published: '2026-02-02T16:34:21'
+  score: 0.836
+  source: AWS Machine Learning
+  summary: Clarus Care, a healthcare contact center solutions provider, worked with
+    the AWS Generative AI Innovation Center (GenAIIC) team to develop a generative
+    AI-powered contact center prototype, enabling conversational interaction and multi-intent
+    resolution.
+  tags:
+  - Amazon Bedrock
+  - Amazon Connect
+  - Amazon Lex
+  - Amazon Nova
+  - AWS Lambda
+  title: How Clarus Care uses Amazon Bedrock to deliver conversational contact center
+    interactions
+  url: https://aws.amazon.com/blogs/machine-learning/how-clarus-care-uses-amazon-bedrock-to-deliver-conversational-contact-center-interactions/
+- category: cybersecurity
+  published: '2026-02-02T16:28:00'
+  score: 1.007
+  source: The Hacker News
+  summary: A high-severity security flaw (CVE-2026-25253) has been disclosed in OpenClaw,
+    formerly known as Clawdbot and Moltbot, which could allow remote code execution
+    through a crafted malicious link. The issue has been addressed in the latest version
+    of the software.
+  tags: []
+  title: OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link
+  url: https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html
+- category: webdev
+  published: '2026-02-02T14:51:01'
+  score: 0.749
+  source: CSS-Tricks
+  summary: The article discusses the process of creating a Visual Studio Code theme
+    extension, which was found to be less time-consuming than initially thought.
+  tags:
+  - Articles
+  - ide
+  - vs code
+  title: 'No-Hassle Visual Studio Code Theming: Building an Extension'
+  url: https://css-tricks.com/no-hassle-visual-studio-code-theming-building-an-extension/
+- category: cybersecurity
+  published: '2026-02-02T11:59:00'
+  score: 1.021
+  source: The Hacker News
+  summary: The weekly cybersecurity recap highlights new discoveries, attacks, and
+    defenses that shape the evolving landscape. Threats can be stopped quickly or
+    go undetected until they cause significant damage, and individual incidents can
+    change how we perceive risk and protection.
+  tags: []
+  title: '⚡ Weekly Recap: Proxy Botnet, Office Zero-Day, MongoDB Ransoms, AI Hijacks
+    & New Threats'
+  url: https://thehackernews.com/2026/02/weekly-recap-proxy-botnet-office-zero.html
+- category: ai
+  published: '2026-02-02T11:00:57'
+  score: 0.842
+  source: Machine Learning Mastery
+  summary: A beginner's reading list for large language models (LLMs) highlights the
+    rapid pace of transformation and reinvention in this field, which is shaping the
+    industry as a whole.
+  tags: []
+  title: A Beginner’s Reading List for Large Language Models for 2026
+  url: https://machinelearningmastery.com/a-beginners-reading-list-for-large-language-models-for-2026/
+- category: cybersecurity
   published: '2026-02-02T05:04:00'
   score: 1.153
   source: The Hacker News
@@ -20457,5 +20651,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-02T05:30:36.984885'
-total_articles: 1583
+last_updated: '2026-02-03T05:24:00.596517'
+total_articles: 1598
