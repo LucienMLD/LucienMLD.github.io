@@ -1,4 +1,194 @@
 articles:
+- category: webdev
+  published: '2026-02-03T23:41:39'
+  score: 0.865
+  source: Ars Technica
+  summary: Netflix says users can cancel service if a proposed merger between HBO
+    Max and the streaming service makes it too expensive.
+  tags:
+  - Tech
+  - hbo max
+  - Netflix
+  - paramount plus
+  - Paramount Skydance
+  title: Netflix says users can cancel service if HBO Max merger makes it too expensive
+  url: https://arstechnica.com/gadgets/2026/02/netflix-claims-subscribers-will-get-more-content-for-less-if-it-buys-hbo-max/
+- category: ai
+  published: '2026-02-03T22:55:59'
+  score: 0.836
+  source: Ars Technica
+  summary: 'The trailer for Monarch: Legacy of Monsters Season 2 teases a "Godlike
+    Titan" that threatens humanity, with sea creatures worshiping it.'
+  tags:
+  - Culture
+  - Apple TV
+  - entertainment
+  - 'Monarch: Legacy of Monsters'
+  - streaming television
+  title: 'Godlike Titan threatens humanity in Monarch: Legacy of Monsters S2 trailer'
+  url: https://arstechnica.com/culture/2026/02/meet-the-new-tentacled-titan-x-in-monarch-legacy-of-monsters-s2-trailer/
+- category: ai
+  published: '2026-02-03T22:44:15'
+  score: 0.879
+  source: Ars Technica
+  summary: Nvidia's $100 billion investment deal with OpenAI has seemingly vanished,
+    shaking market confidence in the two AI giants.
+  tags:
+  - AI
+  - Biz & IT
+  - AI chips
+  - AI infrastructure
+  - AI investment
+  title: Nvidia's $100 billion OpenAI deal has seemingly vanished
+  url: https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/
+- category: ai
+  published: '2026-02-03T20:28:29'
+  score: 0.863
+  source: AWS Machine Learning
+  summary: BGL, a provider of self-managed superannuation fund (SMSF) administration
+    solutions, has built a business intelligence solution using the Claude Agent SDK
+    and Amazon Bedrock AgentCore to democratize access to data and insights.
+  tags:
+  - Amazon Bedrock AgentCore
+  - Artificial Intelligence
+  - Customer Solutions
+  - Generative BI
+  title: 'Democratizing business intelligence: BGL’s journey with Claude Agent SDK
+    and Amazon Bedrock AgentCore'
+  url: https://aws.amazon.com/blogs/machine-learning/democratizing-business-intelligence-bgls-journey-with-claude-agent-sdk-and-amazon-bedrock-agentcore/
+- category: webdev
+  published: '2026-02-03T19:14:30'
+  score: 0.777
+  source: AWS Machine Learning
+  summary: Amazon Quick Suite custom action connectors can be used to securely upload
+    text files to Google Drive using an OpenAPI specification.
+  tags:
+  - Amazon Quick Suite
+  - Artificial Intelligence
+  title: Use Amazon Quick Suite custom action connectors to upload text files to Google
+    Drive using OpenAPI specification
+  url: https://aws.amazon.com/blogs/machine-learning/use-amazon-quick-suite-custom-action-connectors-to-upload-text-files-to-google-drive-using-openapi-specification/
+- category: webdev
+  published: '2026-02-03T18:56:20'
+  score: 0.735
+  source: Ars Technica
+  summary: The Nintendo Switch has become the second-bestselling game console ever,
+    behind only the PlayStation 2.
+  tags:
+  - Gaming
+  - Tech
+  - Nintendo
+  - Nintendo DS
+  - nintendo switch
+  title: Nintendo Switch is the second-bestselling game console ever, behind only
+    the PS2
+  url: https://arstechnica.com/gadgets/2026/02/original-nintendo-switch-passes-the-ds-to-become-nintendos-bestselling-console/
+- category: webdev
+  published: '2026-02-03T18:25:18'
+  score: 0.732
+  source: Ars Technica
+  summary: Google's court filings suggest that ChromeOS may have an expiration date,
+    as the current support guarantee runs its course.
+  tags:
+  - Google
+  - aluminium
+  - android
+  - ChromeOS
+  - google
+  title: Google court filings suggest ChromeOS has an expiration date
+  url: https://arstechnica.com/google/2026/02/google-court-filings-suggest-googles-chromeos-has-an-expiration-date/
+- category: ai
+  published: '2026-02-03T18:01:49'
+  score: 0.846
+  source: Ars Technica
+  summary: Xcode 26.3 adds support for Claude, Codex, and other agentic tools via
+    the Model Context Protocol (MCP), allowing integration with a wider range of AI-powered
+    tools.
+  tags:
+  - AI
+  - Apple
+  - Anthropic
+  - apple
+  - Claude Agent
+  title: Xcode 26.3 adds support for Claude, Codex, and other agentic tools via MCP
+  url: https://arstechnica.com/apple/2026/02/xcode-26-3-adds-support-for-claude-codex-and-other-agentic-tools-via-mcp/
+- category: webdev
+  published: '2026-02-03T15:54:59'
+  score: 0.756
+  source: CSS-Tricks
+  summary: Publishing a Visual Studio Code extension can be a complex process, as
+    themes need to be published in at least two places.
+  tags:
+  - Articles
+  - ide
+  - vs code
+  title: 'No Hassle Visual Code Theming: Publishing an Extension'
+  url: https://css-tricks.com/no-hassle-visual-code-theming-publishing-an-extension/
+- category: ai
+  published: '2026-02-03T14:02:57'
+  score: 0.907
+  source: Ars Technica
+  summary: Senior staff are departing OpenAI as the company prioritizes the development
+    of its flagship chatbot, ChatGPT, redirecting resources from long-term research.
+  tags:
+  - AI
+  - ChatGPT
+  - openai
+  - syndication
+  title: Senior staff departing OpenAI as firm prioritizes ChatGPT development
+  url: https://arstechnica.com/ai/2026/02/senior-staff-departing-openai-as-firm-prioritizes-chatgpt-development/
+- category: cybersecurity
+  published: '2026-02-03T14:00:00'
+  score: 1.085
+  source: The Hacker News
+  summary: Hackers have been exploiting a critical security flaw in the "@react-native-community/cli"
+    npm package, which could allow them to execute remote code on the Metro Development
+    Server. The vulnerability, known as CVE-2025-11953 or Metro4Shell, was first observed
+    being exploited on December 21, 2025.
+  tags: []
+  title: Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package
+  url: https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html
+- category: cybersecurity
+  published: '2026-02-03T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The Synectix LAN 232 TRIO device has a vulnerability that could allow an
+    unauthenticated attacker to modify critical device settings or factory settings,
+    potentially leading to unauthorized access, modification, deletion, or destruction
+    of information.
+  tags: []
+  title: Synectix LAN 232 TRIO
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-034-04
+- category: cybersecurity
+  published: '2026-02-03T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The Mitsubishi Electric FREQSHIP-mini for Windows software has a vulnerability
+    that could allow an attacker to gain unauthorized access to, modify, delete, or
+    destroy information.
+  tags: []
+  title: Mitsubishi Electric FREQSHIP-mini for Windows
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-034-01
+- category: cybersecurity
+  published: '2026-02-03T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The Avation Light Engine Pro device has a vulnerability that could allow
+    an attacker to take full control of the device.
+  tags: []
+  title: Avation Light Engine Pro
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-034-02
+- category: cybersecurity
+  published: '2026-02-03T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. These include vulnerabilities
+    in React Native CLI, Synectix LAN 232 TRIO, Mitsubishi Electric FREQSHIP-mini
+    for Windows, and Avation Light Engine Pro.
+  tags: []
+  title: CISA Adds Four Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/02/03/cisa-adds-four-known-exploited-vulnerabilities-catalog
 - category: cybersecurity
   published: '2026-02-03T04:55:00'
   score: 1.152
@@ -20651,5 +20841,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-03T05:24:00.596517'
-total_articles: 1598
+last_updated: '2026-02-04T05:20:52.386578'
+total_articles: 1613
