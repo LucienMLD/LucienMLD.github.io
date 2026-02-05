@@ -1,4 +1,178 @@
 articles:
+- category: ai
+  published: '2026-02-05T00:00:00'
+  score: 1.031
+  source: OpenAI
+  summary: ChatGPT assisted a family in preparing for critical cancer treatment decisions
+    for their son, complementing the expert guidance from his doctors. The AI-powered
+    chatbot helped the family navigate health-related questions and gather information
+    to make informed decisions.
+  tags:
+  - ChatGPT
+  title: Navigating health questions with ChatGPT
+  url: https://openai.com/index/navigating-health-questions
+- category: cybersecurity
+  published: '2026-02-04T23:26:56'
+  score: 1.063
+  source: BleepingComputer
+  summary: Threat actors are compromising NGINX servers to hijack user traffic and
+    reroute it through the attacker's backend infrastructure. This campaign allows
+    the attackers to intercept and potentially monitor or manipulate user traffic,
+    posing a significant security risk.
+  tags:
+  - Security
+  title: Hackers compromise NGINX servers to redirect user traffic
+  url: https://www.bleepingcomputer.com/news/security/hackers-compromise-nginx-servers-to-redirect-user-traffic/
+- category: ai
+  published: '2026-02-04T21:15:07'
+  score: 0.956
+  source: Ars Technica
+  summary: Anthropic, a ChatGPT competitor, has released a Super Bowl ad mocking AI
+    product pitches, stating that its AI chatbot will not have ads. This stance highlights
+    Anthropic's commitment to providing a user-centric experience without the influence
+    of commercial interests.
+  tags:
+  - AI
+  - Biz & IT
+  - AI advertising
+  - AI assistants
+  - AI business models
+  title: Should AI chatbots have ads? Anthropic says no.
+  url: https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/
+- category: ai
+  published: '2026-02-04T21:01:05'
+  score: 0.822
+  source: Ars Technica
+  summary: The U.S. House of Representatives has taken the first step towards creating
+    a "commercial" deep space program, signaling a shift towards relying on the private
+    sector's ingenuity and capabilities in space exploration.
+  tags:
+  - Space
+  - Commercial
+  - congress
+  - deep space transportation
+  - NASA
+  title: US House takes first step toward creating "commercial" deep space program
+  url: https://arstechnica.com/space/2026/02/us-house-takes-first-step-toward-creating-commercial-deep-space-program/
+- category: webdev
+  published: '2026-02-04T17:55:13'
+  score: 0.728
+  source: Ars Technica
+  summary: Adobe has decided to continue supporting a 30-year-old 2D animation app
+    after facing user backlash, though some customers believe the damage has already
+    been done. This decision reflects the company's responsiveness to its user community's
+    needs.
+  tags:
+  - Tech
+  - Adobe
+  - software
+  title: User blowback convinces Adobe to keep supporting 30-year-old 2D animation
+    app
+  url: https://arstechnica.com/gadgets/2026/02/adobe-reverses-decision-to-discontinue-animate-after-a-lot-of-confusion-and-angst/
+- category: ai
+  published: '2026-02-04T17:52:00'
+  score: 0.933
+  source: The Hacker News
+  summary: Microsoft has developed a lightweight scanner that can detect backdoors
+    in open-weight large language models (LLMs), aiming to improve the overall trust
+    in artificial intelligence (AI) systems. The scanner leverages observable signals
+    to identify potential security vulnerabilities in these AI models.
+  tags: []
+  title: Microsoft Develops Scanner to Detect Backdoors in Open-Weight Large Language
+    Models
+  url: https://thehackernews.com/2026/02/microsoft-develops-scanner-to-detect.html
+- category: cybersecurity
+  published: '2026-02-04T17:38:46'
+  score: 1.112
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) confirmed
+    that ransomware gangs are exploiting a high-severity VMware ESXi sandbox escape
+    vulnerability, which was previously used in zero-day attacks. The vulnerability
+    allows attackers to escape the VMware ESXi sandbox and execute arbitrary code
+    on the host system, leading to potential ransomware infections.
+  tags:
+  - Security
+  title: 'CISA: VMware ESXi flaw now exploited in ransomware attacks'
+  url: https://www.bleepingcomputer.com/news/security/cisa-vmware-esxi-flaw-now-exploited-in-ransomware-attacks/
+- category: ai
+  published: '2026-02-04T15:57:24'
+  score: 0.831
+  source: AWS Machine Learning
+  summary: This article demonstrates how to enhance image generation for marketing
+    campaigns by learning from previous marketing materials. It showcases the integration
+    of Amazon Bedrock, AWS Lambda, and Amazon OpenSearch Serverless to create custom
+    marketing images from historical references.
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Artificial Intelligence
+  - Generative AI
+  - Marketing & Advertising
+  title: 'Accelerating your marketing ideation with generative AI – Part 2: Generate
+    custom marketing images from historical references'
+  url: https://aws.amazon.com/blogs/machine-learning/accelerating-your-marketing-ideation-with-generative-ai-part-2-generate-custom-marketing-images-from-historical-references/
+- category: cybersecurity
+  published: '2026-02-04T15:42:31'
+  score: 1.097
+  source: BleepingComputer
+  summary: CISA ordered government agencies to patch a five-year-old GitLab vulnerability
+    that is actively being exploited in attacks. The vulnerability, if left unpatched,
+    could allow attackers to gain unauthorized access to GitLab servers and potentially
+    launch further attacks.
+  tags:
+  - Security
+  title: CISA warns of five-year-old GitLab flaw exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-warns-of-five-year-old-gitlab-flaw-exploited-in-attacks/
+- category: webdev
+  published: '2026-02-04T15:00:00'
+  score: 0.79
+  source: Towards Data Science
+  summary: This article provides guidance on how to be an effective full-stack engineer,
+    highlighting the importance of understanding both frontend and backend code to
+    work efficiently in web development.
+  tags:
+  - LLM Applications
+  - Agentic Ai
+  - Artificial Intelligence
+  - Claude Code
+  - coding agents
+  title: How to Work Effectively with Frontend and Backend Code
+  url: https://towardsdatascience.com/how-to-effectively-work-with-frontend-and-backend-code/
+- category: cybersecurity
+  published: '2026-02-04T14:00:00'
+  score: 1.036
+  source: BleepingComputer
+  summary: A new threat actor called Amaranth Dragon, linked to APT41 state-sponsored
+    Chinese operations, exploited the CVE-2025-8088 vulnerability in WinRAR in espionage
+    attacks on government and law enforcement agencies. The vulnerability allowed
+    the attackers to gain unauthorized access and conduct targeted surveillance on
+    their victims.
+  tags:
+  - Security
+  title: New Amaranth Dragon cyberespionage group exploits WinRAR flaw
+  url: https://www.bleepingcomputer.com/news/security/new-amaranth-dragon-cyberespionage-group-exploits-winrar-flaw/
+- category: webdev
+  published: '2026-02-04T06:26:00'
+  score: 0.696
+  source: The Hacker News
+  summary: The Eclipse Foundation, which maintains the Open VSX Registry, will enforce
+    security checks before Microsoft Visual Studio Code (VS Code) extensions are published
+    to the repository. This proactive approach aims to combat supply chain threats
+    and improve the overall security of the open-source ecosystem.
+  tags: []
+  title: Eclipse Foundation Mandates Pre-Publish Security Checks for Open VSX Extensions
+  url: https://thehackernews.com/2026/02/eclipse-foundation-mandates-pre-publish.html
+- category: cybersecurity
+  published: '2026-02-04T05:50:00'
+  score: 1.023
+  source: The Hacker News
+  summary: CISA has added a critical security flaw impacting SolarWinds Web Help Desk
+    (WHD) to its Known Exploited Vulnerabilities (KEV) catalog, indicating that it
+    is actively being exploited in attacks. The vulnerability, if left unpatched,
+    could allow attackers to gain remote code execution on affected systems.
+  tags: []
+  title: CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog
+  url: https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html
 - category: webdev
   published: '2026-02-03T23:41:39'
   score: 0.865
@@ -20841,5 +21015,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-04T05:20:52.386578'
-total_articles: 1613
+last_updated: '2026-02-05T05:25:45.019780'
+total_articles: 1626
