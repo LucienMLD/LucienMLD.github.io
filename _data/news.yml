@@ -1,5 +1,198 @@
 articles:
 - category: ai
+  published: '2026-02-05T22:47:54'
+  score: 0.923
+  source: Ars Technica
+  summary: AI companies like Claude Opus 4.6 and OpenAI Frontier are pitching a future
+    where humans manage AI agents, rather than simply chatting with bots. This shift
+    in focus emphasizes the importance of human oversight and control in AI systems.
+  tags:
+  - AI
+  - Biz & IT
+  - agentic AI
+  - AI agents
+  - AI and work
+  title: AI companies want you to stop chatting with bots and start managing them
+  url: https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/
+- category: webdev
+  published: '2026-02-05T22:14:34'
+  score: 0.755
+  source: Ars Technica
+  summary: The Nintendo Switch 2 is getting a new "Console Archives" feature from
+    Hamster Corp., which provides a sort of virtual console experience, filling a
+    gap in Nintendo's own offering.
+  tags:
+  - Gaming
+  - Classics
+  - Nintendo
+  - retro
+  - switch 2
+  title: The Switch 2 is getting a new Virtual Console (kind of)
+  url: https://arstechnica.com/gaming/2026/02/the-virtual-console-is-sort-of-back-on-the-switch-2/
+- category: ai
+  published: '2026-02-05T21:47:06'
+  score: 0.916
+  source: Ars Technica
+  summary: With GPT-5.3-Codex, OpenAI is showcasing its Codex model's capabilities
+    beyond just writing code, emphasizing features like "mid-turn steering and frequent
+    progress updates" to improve the user experience.
+  tags:
+  - AI
+  - agentic AI
+  - ChatGPT
+  - Codex
+  - coding
+  title: With GPT-5.3-Codex, OpenAI pitches Codex for more than just writing code
+  url: https://arstechnica.com/ai/2026/02/with-gpt-5-3-codex-openai-pitches-codex-for-more-than-just-writing-code/
+- category: ai
+  published: '2026-02-05T20:41:52'
+  score: 0.864
+  source: AWS Machine Learning
+  summary: Associa collaborated with the AWS Generative AI Innovation Center to build
+    a generative AI-powered document classification system, demonstrating the potential
+    for using AI to improve operational efficiency in document management.
+  tags:
+  - Amazon Bedrock
+  - Customer Solutions
+  - Generative AI
+  title: How Associa transforms document classification with the GenAI IDP Accelerator
+    and Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/how-associa-transforms-document-classification-with-the-genai-idp-accelerator-and-amazon-bedrock/
+- category: webdev
+  published: '2026-02-05T18:07:41'
+  score: 0.77
+  source: BleepingComputer
+  summary: Microsoft announced that the Exchange Web Services (EWS) API for Exchange
+    Online will be shut down in April 2027, after nearly 20 years, signaling a shift
+    in the company's technology strategy.
+  tags:
+  - Microsoft
+  title: Microsoft to shut down Exchange Online EWS in April 2027
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-to-shut-down-exchange-web-services-in-cloud-in-2027/
+- category: ai
+  published: '2026-02-05T17:46:59'
+  score: 0.888
+  source: Ars Technica
+  summary: OpenAI's Sam Altman has criticized Anthropic's new Super Bowl TV ads, calling
+    them "dishonest" and "authoritarian," highlighting the growing competition and
+    tensions in the AI industry.
+  tags:
+  - AI
+  - Biz & IT
+  - advertising
+  - AI assistants
+  - AI behavior
+  title: OpenAI is hoppin' mad about Anthropic's new Super Bowl TV ads
+  url: https://arstechnica.com/information-technology/2026/02/openai-is-hoppin-mad-about-anthropics-new-super-bowl-tv-ads/
+- category: webdev
+  published: '2026-02-05T17:00:00'
+  score: 0.802
+  source: Google AI Blog
+  summary: The "Natively Adaptive Interfaces" framework aims to enhance AI accessibility
+    by creating interfaces that can adapt to the user's needs, providing a more inclusive
+    and personalized experience.
+  tags:
+  - Accessibility
+  - Google.org
+  - Google Research
+  - AI
+  title: 'Natively Adaptive Interfaces: A new framework for AI accessibility'
+  url: https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/
+- category: webdev
+  published: '2026-02-05T15:13:14'
+  score: 0.751
+  source: CSS-Tricks
+  summary: The article "CSS Bar Charts Using Modern Functions" explores how modern
+    CSS features can be used to create simple and visually appealing bar charts without
+    the need for additional libraries or complex JavaScript.
+  tags:
+  - Articles
+  - charts
+  - data visualization
+  title: CSS Bar Charts Using Modern Functions
+  url: https://css-tricks.com/css-bar-charts-using-modern-functions/
+- category: ai
+  published: '2026-02-05T15:00:00'
+  score: 0.869
+  source: Towards Data Science
+  summary: 'The post "Mechanistic Interpretability: Peeking Inside an LLM" explores
+    the question of whether the human-like cognitive abilities of large language models
+    (LLMs) are real or just an illusion, and aims to provide insights into the inner
+    workings of these models.'
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Deep Dives
+  - Explainable Ai
+  - Llm
+  title: 'Mechanistic Interpretability: Peeking Inside an LLM'
+  url: https://towardsdatascience.com/mechanistic-interpretability-peeking-inside-an-llm/
+- category: webdev
+  published: '2026-02-05T13:30:00'
+  score: 0.741
+  source: Towards Data Science
+  summary: The post "Why Is My Code So Slow? A Guide to Py-Spy Python Profiling" provides
+    a guide to using the Py-Spy tool to diagnose performance issues in Python code,
+    helping developers identify and address performance bottlenecks.
+  tags:
+  - Programming
+  - Data Science
+  - Debugging
+  - Deep Dives
+  - Profiling
+  title: Why Is My Code So Slow? A Guide to Py-Spy Python Profiling
+  url: https://towardsdatascience.com/why-is-my-code-so-slow-a-guide-to-py-spy-python-profiling/
+- category: cybersecurity
+  published: '2026-02-05T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: The TP-Link Systems Inc. VIGI Series IP Camera has a vulnerability that
+    could allow unauthorized users to gain administrative access. Successful exploitation
+    of this vulnerability could result in significant security risks.
+  tags: []
+  title: TP-Link Systems Inc. VIGI Series IP Camera
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-036-01
+- category: cybersecurity
+  published: '2026-02-05T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: The Mitsubishi Electric MELSEC iQ-R Series has a vulnerability that could
+    allow an attacker to read device data or part of a control program. This could
+    potentially enable unauthorized access and data theft.
+  tags: []
+  title: Mitsubishi Electric MELSEC iQ-R Series
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-036-02
+- category: cybersecurity
+  published: '2026-02-05T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: The Hitachi Energy FOX61x has a vulnerability that could be exploited to
+    gain unauthorized access. Successful exploitation could lead to serious security
+    breaches and potential disruptions in affected systems.
+  tags: []
+  title: Hitachi Energy FOX61x
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-036-06
+- category: cybersecurity
+  published: '2026-02-05T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: The o6 Automation GmbH Open62541 has a vulnerability that could allow an
+    attacker to cause a denial-of-service condition and memory corruption. This could
+    potentially disrupt the functioning of systems relying on this software.
+  tags: []
+  title: o6 Automation GmbH Open62541
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-036-03
+- category: cybersecurity
+  published: '2026-02-05T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, indicating active exploitation of these vulnerabilities in the
+    wild. This highlights the need for prompt patching and mitigation.
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/02/05/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: ai
   published: '2026-02-05T00:00:00'
   score: 1.031
   source: OpenAI
@@ -21015,5 +21208,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-05T05:25:45.019780'
-total_articles: 1626
+last_updated: '2026-02-06T05:24:13.415778'
+total_articles: 1641
