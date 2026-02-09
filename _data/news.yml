@@ -1,4 +1,88 @@
 articles:
+- category: webdev
+  published: '2026-02-08T23:26:37'
+  score: 0.762
+  source: Ars Technica
+  summary: The trailer for the upcoming sci-fi film "Project Hail Mary" teases the
+    potential for things to go wrong, hinting at the challenges and risks the characters
+    may face in the story.
+  tags:
+  - Culture
+  - amazon mgm studios
+  - andy weir
+  - entertainment
+  - project hail mary
+  title: A Project Hail Mary final trailer? Yes please
+  url: https://arstechnica.com/culture/2026/02/a-project-hail-mary-final-trailer-yes-please/
+- category: cybersecurity
+  published: '2026-02-08T15:26:48'
+  score: 0.902
+  source: BleepingComputer
+  summary: A new open-source tool called Tirith can detect homoglyph attacks over
+    command-line environments by analyzing URLs in typed commands and stopping their
+    execution, providing a defense against imposter attacks disguised as safe commands.
+  tags:
+  - Security
+  title: New tool blocks imposter attacks disguised as safe commands
+  url: https://www.bleepingcomputer.com/news/security/new-tool-blocks-imposter-attacks-disguised-as-safe-commands/
+- category: cybersecurity
+  published: '2026-02-08T07:32:00'
+  score: 0.843
+  source: The Hacker News
+  summary: OpenClaw has partnered with VirusTotal to scan skills being uploaded to
+    its ClawHub skill marketplace, as part of broader efforts to bolster the security
+    of the agentic ecosystem and detect any malicious content.
+  tags: []
+  title: OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills
+  url: https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html
+- category: cybersecurity
+  published: '2026-02-07T15:09:46'
+  score: 0.622
+  source: BleepingComputer
+  summary: A state-aligned cyberespionage threat group, TGR-STA-1030/UNC6619, has
+    conducted a global-scale operation dubbed the "Shadow Campaigns," targeting government
+    infrastructure in 155 countries.
+  tags:
+  - Security
+  title: State actor targets 155 countries in 'Shadow Campaigns' espionage op
+  url: https://www.bleepingcomputer.com/news/security/state-actor-targets-155-countries-in-shadow-campaigns-espionage-op/
+- category: ai
+  published: '2026-02-07T15:00:00'
+  score: 0.565
+  source: Towards Data Science
+  summary: The article discusses strategies for a senior analytics consultant to stay
+    relevant in 2026, including the need to work with AI while strengthening unique
+    human skills that technology cannot replace.
+  tags:
+  - Data analysis
+  - Artificial Intelligence
+  - Career Advice
+  - Data Science
+  - Editors Pick
+  title: What I Am Doing to Stay Relevant as a Senior Analytics Consultant in 2026
+  url: https://towardsdatascience.com/what-i-am-doing-to-stay-relevant-as-a-senior-analytics-consultant-in-2026/
+- category: cybersecurity
+  published: '2026-02-07T11:15:00'
+  score: 0.737
+  source: The Hacker News
+  summary: German federal agencies have warned of a malicious cyber campaign by a
+    likely state-sponsored threat actor targeting politicians, military, and journalists
+    through Signal phishing attacks.
+  tags: []
+  title: German Agencies Warn of Signal Phishing Targeting Politicians, Military,
+    Journalists
+  url: https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html
+- category: cybersecurity
+  published: '2026-02-07T09:47:10'
+  score: 0.678
+  source: BleepingComputer
+  summary: Payment gateway and solutions provider BridgePay has confirmed that a ransomware
+    attack has knocked its key systems offline, leading to a widespread outage affecting
+    multiple services.
+  tags:
+  - Security
+  title: Payments platform BridgePay confirms ransomware attack behind outage
+  url: https://www.bleepingcomputer.com/news/security/payments-platform-bridgepay-confirms-ransomware-attack-behind-outage/
 - category: ai
   published: '2026-02-05T22:47:54'
   score: 0.923
@@ -21208,5 +21292,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-06T05:24:13.415778'
-total_articles: 1641
+last_updated: '2026-02-09T05:31:38.595663'
+total_articles: 1648
