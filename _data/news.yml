@@ -1,4 +1,187 @@
 articles:
+- category: cybersecurity
+  published: '2026-02-10T02:30:00'
+  score: 1.085
+  source: Google AI Blog
+  summary: The article discusses ways to help kids and teens learn and grow safely
+    online, particularly on Safer Internet Day. It highlights the importance of security,
+    media, and settings controls on smartphones to ensure a safe online experience
+    for young users.
+  tags:
+  - Safety & Security
+  - AI
+  title: Helping kids and teens learn and grow online on Safer Internet Day
+  url: https://blog.google/innovation-and-ai/technology/safety-security/safer-internet-day-2026-kids-teens/
+- category: webdev
+  published: '2026-02-09T22:51:16'
+  score: 0.758
+  source: Ars Technica
+  summary: The article highlights the massive size and weight of the Ayaneo Next II,
+    a Windows gaming "handheld" that pushes past 3 pounds, 13 inches wide, and costs
+    up to $4,300, challenging the traditional notion of portable gaming devices.
+  tags:
+  - Gaming
+  - gaming handheld
+  - Handheld Gaming
+  - handheld gaming pc
+  title: Just look at Ayaneo's absolute unit of a Windows gaming "handheld"
+  url: https://arstechnica.com/gaming/2026/02/just-look-at-ayaneos-absolute-unit-of-a-windows-gaming-handheld/
+- category: webdev
+  published: '2026-02-09T20:40:13'
+  score: 0.745
+  source: Ars Technica
+  summary: The article reports that YouTube Music is making lyrics a premium feature,
+    locking this previously free functionality behind a paywall after a lengthy test
+    period.
+  tags:
+  - Google
+  - google
+  - Streaming music
+  - youtube music
+  title: Google experiments with locking YouTube Music lyrics behind paywall
+  url: https://arstechnica.com/google/2026/02/google-locks-youtube-music-lyrics-behind-paywall/
+- category: ai
+  published: '2026-02-09T20:38:42'
+  score: 0.863
+  source: Towards Data Science
+  summary: The article shares lessons learned from the author's experience in the
+    machine learning field, including dealing with deadlines, downtime, and maintaining
+    a productive workflow.
+  tags:
+  - Machine Learning
+  - Inspiration
+  - Ml Product Manager
+  - Productivity
+  - Project Management
+  title: The Machine Learning Lessons I’ve Learned Last Month
+  url: https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-last-month/
+- category: webdev
+  published: '2026-02-09T17:34:56'
+  score: 0.805
+  source: CSS-Tricks
+  summary: The article explores the challenges of creating a semantic, flexible, and
+    JavaScript-free pie chart in CSS, and the techniques used to achieve a visually
+    appealing and responsive solution.
+  tags:
+  - Articles
+  - charts
+  - data visualization
+  title: Trying to Make the Perfect Pie Chart in CSS
+  url: https://css-tricks.com/trying-to-make-the-perfect-pie-chart-in-css/
+- category: ai
+  published: '2026-02-09T16:48:46'
+  score: 0.881
+  source: AWS Machine Learning
+  summary: The article showcases how an integrated approach using Hugging Face and
+    Amazon SageMaker AI can streamline and scale the process of fine-tuning large
+    language models (LLMs) for enterprise-specific applications, improving model performance.
+  tags:
+  - Amazon SageMaker AI
+  - Amazon SageMaker HyperPod
+  - Amazon SageMaker Studio
+  - Best Practices
+  - Foundation models
+  title: Scale LLM fine-tuning with Hugging Face and Amazon SageMaker AI
+  url: https://aws.amazon.com/blogs/machine-learning/scale-llm-fine-tuning-with-hugging-face-and-amazon-sagemaker-ai/
+- category: ai
+  published: '2026-02-09T16:45:16'
+  score: 0.836
+  source: AWS Machine Learning
+  summary: The article describes how New Relic transformed its productivity by leveraging
+    generative AI on AWS, evolving its virtual assistant (NOVA) into a comprehensive
+    productivity engine. It highlights the technical architecture, development journey,
+    and key lessons learned in building an enterprise-grade generative AI solution.
+  tags:
+  - Amazon Bedrock
+  - Amazon Nova
+  - Customer Solutions
+  - Generative AI
+  - Software
+  title: New Relic transforms productivity with generative AI on AWS
+  url: https://aws.amazon.com/blogs/machine-learning/new-relic-transforms-productivity-with-generative-ai-on-aws/
+- category: cybersecurity
+  published: '2026-02-09T14:42:00'
+  score: 0.993
+  source: The Hacker News
+  summary: The article discusses a multi-stage intrusion that involved the exploitation
+    of internet-exposed SolarWinds Web Help Desk instances to gain initial access
+    and move laterally within an organization's network. It emphasizes the importance
+    of securing web-facing applications and monitoring for such sophisticated attacks.
+  tags: []
+  title: SolarWinds Web Help Desk Exploited for RCE in Multi-Stage Attacks on Exposed
+    Servers
+  url: https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html
+- category: cybersecurity
+  published: '2026-02-09T12:59:00'
+  score: 1.028
+  source: The Hacker News
+  summary: The article provides a weekly recap of cybersecurity threats, including
+    the use of AI-powered malware, record-breaking DDoS attacks, hacks of popular
+    developer tools, and the emergence of LLM-based backdoors. It emphasizes the evolving
+    nature of cyber threats as organizations increasingly rely on interconnected tools
+    and platforms.
+  tags: []
+  title: '⚡ Weekly Recap: AI Skill Malware, 31Tbps DDoS, Notepad++ Hack, LLM Backdoors
+    and More'
+  url: https://thehackernews.com/2026/02/weekly-recap-ai-skill-malware-31tbps.html
+- category: cybersecurity
+  published: '2026-02-09T12:04:29'
+  score: 1.021
+  source: Schneier on Security
+  summary: The article explores how large language models (LLMs) are rapidly improving
+    their ability to find and exploit zero-day vulnerabilities, posing a significant
+    challenge for security teams. It highlights the automation of vulnerability discovery
+    and the need for proactive security measures to keep pace with these advancements.
+  tags:
+  - Uncategorized
+  - AI
+  - LLM
+  - zero-day
+  title: LLMs are Getting a Lot Better and Faster at Finding and Exploiting Zero-Days
+  url: https://www.schneier.com/blog/archives/2026/02/llms-are-getting-a-lot-better-and-faster-at-finding-and-exploiting-zero-days.html
+- category: ai
+  published: '2026-02-09T11:00:00'
+  score: 0.885
+  source: OpenAI
+  summary: The article announces that OpenAI has begun testing ads in ChatGPT to support
+    free access, while ensuring clear labeling, answer independence, strong privacy
+    protections, and user control over the experience.
+  tags:
+  - Company
+  title: Testing ads in ChatGPT
+  url: https://openai.com/index/testing-ads-in-chatgpt
+- category: ai
+  published: '2026-02-09T11:00:00'
+  score: 0.885
+  source: OpenAI
+  summary: The article discusses the deployment of a custom version of ChatGPT on
+    the GenAI.mil platform, bringing secure and safety-forward AI capabilities to
+    U.S. defense teams.
+  tags:
+  - Global Affairs
+  title: Bringing ChatGPT to GenAI.mil
+  url: https://openai.com/index/bringing-chatgpt-to-genaimil
+- category: cybersecurity
+  published: '2026-02-09T08:03:00'
+  score: 0.991
+  source: The Hacker News
+  summary: The article reports on a critical remote code execution vulnerability in
+    BeyondTrust's Remote Support and Privileged Remote Access products. The vulnerability,
+    if exploited, could allow attackers to gain control of affected systems, highlighting
+    the need for prompt patching and vulnerability management.
+  tags: []
+  title: BeyondTrust Fixes Critical Pre-Auth RCE Vulnerability in Remote Support and
+    PRA
+  url: https://thehackernews.com/2026/02/beyondtrust-fixes-critical-pre-auth-rce.html
+- category: webdev
+  published: '2026-02-09T00:00:00'
+  score: 0.565
+  source: Hugging Face
+  summary: The article announces the availability of Transformers.js v4 on NPM, a
+    library for working with transformer-based models in JavaScript.
+  tags: []
+  title: 'Transformers.js v4 Preview: Now Available on NPM!'
+  url: https://huggingface.co/blog/transformersjs-v4
 - category: webdev
   published: '2026-02-08T23:26:37'
   score: 0.762
@@ -21292,5 +21475,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-09T05:31:38.595663'
-total_articles: 1648
+last_updated: '2026-02-10T05:31:43.865501'
+total_articles: 1662
