@@ -1,5 +1,151 @@
 articles:
 - category: cybersecurity
+  published: '2026-02-10T21:49:53'
+  score: 1.142
+  source: Krebs on Security
+  summary: Microsoft released updates to fix over 50 security vulnerabilities, including
+    6 "zero-day" vulnerabilities that are already being exploited by attackers. The
+    patches address issues in Windows and other Microsoft software, highlighting the
+    ongoing need for comprehensive cybersecurity measures.
+  tags:
+  - Latest Warnings
+  - Security Tools
+  - Time to Patch
+  - Chris Goettl
+  - CVE-2026-21256
+  title: Patch Tuesday, February 2026 Edition
+  url: https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/
+- category: ai
+  published: '2026-02-10T18:34:09'
+  score: 0.849
+  source: AWS Machine Learning
+  summary: Amazon uses its Amazon Nova models to automate operational readiness testing
+    for new fulfillment centers, leveraging AI-powered image recognition to streamline
+    processes and improve accuracy.
+  tags:
+  - Amazon API Gateway
+  - Amazon Bedrock
+  - Amazon DynamoDB
+  - Amazon Nova
+  - Amazon Simple Storage Service (S3)
+  title: How Amazon uses Amazon Nova models to automate operational readiness testing
+    for new fulfillment centers
+  url: https://aws.amazon.com/blogs/machine-learning/how-amazon-uses-amazon-nova-models-to-automate-operational-readiness-testing-for-new-fulfillment-centers/
+- category: ai
+  published: '2026-02-10T18:31:57'
+  score: 0.804
+  source: AWS Machine Learning
+  summary: Iberdrola, a major utility company, has implemented different agentic architectures
+    using Amazon Bedrock AgentCore to optimize its IT operations in ServiceNow, demonstrating
+    the potential of AI-driven solutions in enhancing enterprise-level operations.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon Machine Learning
+  - Customer Solutions
+  title: Iberdrola enhances IT operations using Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/iberdrola-enhances-it-operations-using-amazon-bedrock-agentcore/
+- category: ai
+  published: '2026-02-10T18:29:05'
+  score: 0.804
+  source: AWS Machine Learning
+  summary: Amazon Nova Sonic delivers real-time, human-like voice conversations, addressing
+    challenges faced by cascaded approaches and simplifying the development of voice
+    AI agents with natural conversational abilities.
+  tags:
+  - Amazon Bedrock
+  - Amazon Machine Learning
+  - Amazon Nova
+  - Artificial Intelligence
+  title: Building real-time voice assistants with Amazon Nova Sonic compared to cascading
+    architectures
+  url: https://aws.amazon.com/blogs/machine-learning/building-real-time-voice-assistants-with-amazon-nova-sonic-compared-to-cascading-architectures/
+- category: webdev
+  published: '2026-02-10T13:30:00'
+  score: 0.7
+  source: Towards Data Science
+  summary: The article provides a step-by-step guide to implementing the classic Snake
+    game in Python, offering a hands-on learning experience for aspiring web developers.
+  tags:
+  - Programming
+  - Coding
+  - Editors Pick
+  - Game Development
+  - Python
+  title: Implementing the Snake Game in Python
+  url: https://towardsdatascience.com/implementing-the-snake-game-in-python/
+- category: ai
+  published: '2026-02-10T12:03:50'
+  score: 0.936
+  source: Schneier on Security
+  summary: AI-generated text is posing challenges for literary magazines, as they
+    struggle to distinguish between human-written and AI-generated submissions, sparking
+    a "detection arms race" and raising questions about the role of AI in creative
+    industries.
+  tags:
+  - Uncategorized
+  - AI
+  - LLM
+  title: AI-Generated Text and the Detection Arms Race
+  url: https://www.schneier.com/blog/archives/2026/02/the-ai-generated-text-arms-race.html
+- category: cybersecurity
+  published: '2026-02-10T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Yokogawa FAST/TOOLS has vulnerabilities that could allow an attacker to
+    redirect users to malicious sites and decrypt communication, underscoring the
+    importance of securing industrial control systems and addressing vulnerabilities
+    in critical infrastructure.
+  tags: []
+  title: Yokogawa FAST/TOOLS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-041-01
+- category: cybersecurity
+  published: '2026-02-10T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: AVEVA PI Data Archive has a vulnerability that could result in a denial-of-service
+    condition, emphasizing the need for organizations to stay vigilant and apply security
+    updates promptly to maintain the integrity and availability of their systems.
+  tags: []
+  title: AVEVA PI Data Archive
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-041-03
+- category: cybersecurity
+  published: '2026-02-10T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: AVEVA PI to CONNECT Agent has a vulnerability that could lead to unauthorized
+    access to the proxy server, illustrating the importance of implementing robust
+    access controls and monitoring for potential security breaches in industrial automation
+    systems.
+  tags: []
+  title: AVEVA PI to CONNECT Agent
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-041-04
+- category: cybersecurity
+  published: '2026-02-10T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation, highlighting the ongoing
+    efforts to identify and mitigate security risks in a timely manner.
+  tags: []
+  title: CISA Adds Six Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/02/10/cisa-adds-six-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2026-02-10T12:00:00'
+  score: 0.804
+  source: Towards Data Science
+  summary: Personalizing Claude code by providing it with more information can help
+    users get more value from the AI model, highlighting the importance of context
+    and data in driving effective AI-powered applications.
+  tags:
+  - LLM Applications
+  - Artificial Intelligence
+  - Claude Code
+  - coding agents
+  - Information Retrieval
+  title: How to Personalize Claude Code
+  url: https://towardsdatascience.com/how-to-personalize-claude-code/
+- category: cybersecurity
   published: '2026-02-10T02:30:00'
   score: 1.085
   source: Google AI Blog
@@ -21475,5 +21621,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-10T05:31:43.865501'
-total_articles: 1662
+last_updated: '2026-02-11T05:31:21.695591'
+total_articles: 1673
