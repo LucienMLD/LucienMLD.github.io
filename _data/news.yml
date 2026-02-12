@@ -1,4 +1,198 @@
 articles:
+- category: webdev
+  published: '2026-02-12T02:23:50'
+  score: 0.881
+  source: Ars Technica
+  summary: SpaceX has taken down the Dragon crew arm, and its crew missions will now
+    launch from Cape Canaveral Space Force Station.
+  tags:
+  - Science
+  - Space
+  - crew dragon
+  - falcon 9
+  - human spaceflight
+  title: SpaceX takes down Dragon crew arm, giving Starship a leg up in Florida
+  url: https://arstechnica.com/space/2026/02/heres-why-americas-most-historic-launch-pad-is-getting-yet-another-facelift/
+- category: cybersecurity
+  published: '2026-02-12T00:02:53'
+  score: 1.019
+  source: Ars Technica
+  summary: The Trump administration has ordered the military to make agreements with
+    coal power plants, but the reasoning behind this decision has little connection
+    to reality.
+  tags:
+  - Policy
+  - Science
+  - climate change
+  - coal
+  - Energy
+  title: Trump orders the military to make agreements with coal power plants
+  url: https://arstechnica.com/science/2026/02/trumps-latest-plan-to-revive-coal-power-make-the-military-buy-it/
+- category: cybersecurity
+  published: '2026-02-11T23:50:01'
+  score: 1.017
+  source: Ars Technica
+  summary: The El Paso airport was closed after the military used a new anti-drone
+    laser to zap a party balloon, which the official states should have never happened.
+  tags:
+  - Space
+  - drone
+  - el paso airport
+  - laser
+  - space
+  title: El Paso airport closed after military used new anti-drone laser to zap party
+    balloon
+  url: https://arstechnica.com/space/2026/02/el-paso-airport-closed-after-military-used-new-anti-drone-laser-to-zap-party-balloon/
+- category: cybersecurity
+  published: '2026-02-11T23:15:41'
+  score: 1.057
+  source: BleepingComputer
+  summary: Microsoft has fixed a vulnerability in Windows 11 Notepad that allowed
+    attackers to execute programs by tricking users into clicking specially crafted
+    Markdown links, without displaying any Windows security warnings. This vulnerability
+    could have been exploited for remote code execution attacks.
+  tags:
+  - Microsoft
+  - Security
+  title: Windows 11 Notepad flaw let files execute silently via Markdown links
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-11-notepad-flaw-let-files-execute-silently-via-markdown-links/
+- category: ai
+  published: '2026-02-11T20:44:19'
+  score: 0.952
+  source: Ars Technica
+  summary: An OpenAI researcher, Zoë Hitzig, has resigned due to concerns over the
+    introduction of ads in the company's ChatGPT chatbot, warning of a potential "Facebook"
+    path.
+  tags:
+  - AI
+  - Biz & IT
+  - advertising
+  - AI behavior
+  - AI ethics
+  title: OpenAI researcher quits over ChatGPT ads, warns of "Facebook" path
+  url: https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/
+- category: webdev
+  published: '2026-02-11T20:05:44'
+  score: 0.741
+  source: Ars Technica
+  summary: The US has labeled SpaceX a common carrier by air, which will regulate
+    the firm under railway law, exempting it from the Labor Relations Act.
+  tags:
+  - Policy
+  - nlrb
+  - spacex
+  title: US decides SpaceX is like an airline, exempting it from Labor Relations Act
+  url: https://arstechnica.com/tech-policy/2026/02/victory-for-elon-musk-us-labor-board-abandons-authority-over-spacex/
+- category: webdev
+  published: '2026-02-11T19:49:13'
+  score: 0.739
+  source: Ars Technica
+  summary: Apple's iOS 26.3 update mainly benefits non-Apple devices, making it a
+    little easier to move from iOS to Android.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - ios 26
+  - ipados 26
+  title: Apple releases iOS 26.3 with updates that mainly benefit non-Apple devices
+  url: https://arstechnica.com/gadgets/2026/02/apple-releases-ios-26-3-with-updates-that-mainly-benefit-non-apple-devices/
+- category: ai
+  published: '2026-02-11T19:38:47'
+  score: 0.856
+  source: AWS Machine Learning
+  summary: The NVIDIA Nemotron 3 Nano 30B model with 3B active parameters is now generally
+    available in the Amazon SageMaker JumpStart model catalog, allowing users to accelerate
+    innovation and deliver business value on AWS.
+  tags:
+  - Amazon SageMaker AI
+  - Amazon SageMaker JumpStart
+  - Announcements
+  title: NVIDIA Nemotron 3 Nano 30B MoE model is now available in Amazon SageMaker
+    JumpStart
+  url: https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-nano-30b-is-now-available-in-amazon-sagemaker-jumpstart/
+- category: ai
+  published: '2026-02-11T19:35:41'
+  score: 0.812
+  source: Ars Technica
+  summary: China has showcased a new Moon ship and reusable rocket in one extraordinary
+    test, marking a significant step in its push to land humans on the Moon by 2030.
+  tags:
+  - Space
+  - china
+  - human spaceflight
+  - launch
+  - long march 10
+  title: China showcases new Moon ship and reusable rocket in one extraordinary test
+  url: https://arstechnica.com/space/2026/02/china-showcases-new-moon-ship-and-reusable-rocket-in-one-extraordinary-test/
+- category: cybersecurity
+  published: '2026-02-11T19:29:14'
+  score: 0.981
+  source: BleepingComputer
+  summary: A member of the Crazy ransomware gang is abusing legitimate employee monitoring
+    software and the SimpleHelp remote support tool to maintain persistence in corporate
+    networks, evade detection, and prepare for ransomware deployment.
+  tags:
+  - Security
+  title: Crazy ransomware gang abuses employee monitoring tool in attacks
+  url: https://www.bleepingcomputer.com/news/security/crazy-ransomware-gang-abuses-employee-monitoring-tool-in-attacks/
+- category: webdev
+  published: '2026-02-11T18:00:49'
+  score: 0.768
+  source: WebKit Blog
+  summary: Safari 26.3 has practical improvements for performance and user experience.
+  tags:
+  - News
+  title: WebKit features for Safari 26.3
+  url: https://webkit.org/blog/17798/webkit-features-for-safari-26-3/
+- category: ai
+  published: '2026-02-11T15:48:15'
+  score: 0.83
+  source: AWS Machine Learning
+  summary: Swann Communications has implemented intelligent notification filtering
+    using Amazon Bedrock and its gen-AI capabilities, providing generative AI to millions
+    of IoT devices.
+  tags:
+  - Amazon Bedrock
+  - Customer Solutions
+  - Internet of Things
+  title: Swann provides Generative AI to millions of IoT Devices using Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/swann-provides-generative-ai-to-millions-of-iot-devices-using-amazon-bedrock/
+- category: webdev
+  published: '2026-02-11T15:01:09'
+  score: 0.789
+  source: CSS-Tricks
+  summary: The new `contrast-color()` function is not fully supported yet, but the
+    article explores ways to approximate it using other new CSS features.
+  tags:
+  - Articles
+  - accessibility
+  - color
+  - color-contrast()
+  - relative color
+  title: Approximating contrast-color() With Other CSS Features
+  url: https://css-tricks.com/approximating-contrast-color-with-other-css-features/
+- category: cybersecurity
+  published: '2026-02-11T13:28:00'
+  score: 1.032
+  source: The Hacker News
+  summary: Several software vendors, including Microsoft, have released patches for
+    various security vulnerabilities impacting their products and services. The updates
+    address 59 flaws, including six actively exploited zero-days in various Windows
+    components that could be used to bypass security measures.
+  tags: []
+  title: Over 60 Software Vendors Issue Security Fixes Across OS, Cloud, and Network
+    Platforms
+  url: https://thehackernews.com/2026/02/over-60-software-vendors-issue-security.html
+- category: ai
+  published: '2026-02-11T11:00:11'
+  score: 0.841
+  source: Machine Learning Mastery
+  summary: Large language models generate text one token at a time, and the article
+    discusses the machine learning practitioner's guide to speculative decoding.
+  tags: []
+  title: The Machine Learning Practitioner’s Guide to Speculative Decoding
+  url: https://machinelearningmastery.com/the-machine-learning-practitioners-guide-to-speculative-decoding/
 - category: cybersecurity
   published: '2026-02-10T21:49:53'
   score: 1.142
@@ -21621,5 +21815,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-11T05:31:21.695591'
-total_articles: 1673
+last_updated: '2026-02-12T05:30:25.898792'
+total_articles: 1688
