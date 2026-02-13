@@ -1,5 +1,190 @@
 articles:
 - category: webdev
+  published: '2026-02-13T00:34:29'
+  score: 0.869
+  source: Ars Technica
+  summary: The successful launch of the Ariane 64, Europe's most powerful rocket,
+    marks an important milestone for the European space industry, providing a reliable
+    launch option for critical payloads.
+  tags:
+  - Science
+  - Space
+  - Amazon
+  - amazon leo
+  - ariane 6
+  title: When Amazon badly needed a ride, Europe's Ariane 6 rocket delivered
+  url: https://arstechnica.com/space/2026/02/when-amazon-badly-needed-a-ride-europes-ariane-6-rocket-delivered/
+- category: ai
+  published: '2026-02-12T22:56:02'
+  score: 0.923
+  source: Ars Technica
+  summary: OpenAI's new GPT-5.3-Codex-Spark model is 15 times faster at coding tasks
+    than its predecessor, demonstrating significant advancements in generative AI
+    capabilities for software development.
+  tags:
+  - AI
+  - Biz & IT
+  - AI agents
+  - AI chips
+  - AI coding
+  title: OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips
+  url: https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/
+- category: webdev
+  published: '2026-02-12T22:36:33'
+  score: 0.757
+  source: Ars Technica
+  summary: A former Trump administration official reportedly overruled FDA scientists
+    to reject Moderna's flu shot, highlighting potential political interference in
+    the scientific decision-making process.
+  tags:
+  - Health
+  - fda
+  - moderna
+  - vinay prasad
+  title: Trump official overruled FDA scientists to reject Moderna's flu shot
+  url: https://arstechnica.com/health/2026/02/trump-official-overruled-fda-scientists-to-reject-modernas-flu-shot/
+- category: cybersecurity
+  published: '2026-02-12T21:34:12'
+  score: 1.141
+  source: BleepingComputer
+  summary: A critical remote code execution vulnerability in BeyondTrust Remote Support
+    and Privileged Remote Access appliances is being actively exploited. Users are
+    advised to patch the vulnerability immediately to prevent potential attacks.
+  tags:
+  - Security
+  title: Critical BeyondTrust RCE flaw now exploited in attacks, patch now
+  url: https://www.bleepingcomputer.com/news/security/critical-beyondtrust-rce-flaw-now-exploited-in-attacks-patch-now/
+- category: ai
+  published: '2026-02-12T20:18:58'
+  score: 0.817
+  source: AWS Machine Learning
+  summary: Amazon Bedrock, a set of AI services, is being used to create an AI-powered
+    recruitment system that enhances job description creation, candidate communication,
+    and interview preparation, while maintaining human oversight.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Knowledge Bases
+  - AWS Lambda
+  - Best Practices
+  - Technical How-to
+  title: 'AI meets HR: Transforming talent acquisition with Amazon Bedrock'
+  url: https://aws.amazon.com/blogs/machine-learning/ai-meets-hr-transforming-talent-acquisition-with-amazon-bedrock/
+- category: webdev
+  published: '2026-02-12T20:03:58'
+  score: 0.781
+  source: Ars Technica
+  summary: DIY PC maker Framework has had to implement monthly price hikes to navigate
+    the ongoing RAM shortage, reflecting the challenges faced by hardware manufacturers
+    in the current supply chain environment.
+  tags:
+  - Tech
+  - framework
+  - framework desktop
+  - framework laptop
+  title: DIY PC maker Framework has needed monthly price hikes to navigate the RAM
+    shortage
+  url: https://arstechnica.com/gadgets/2026/02/frameworks-ram-prices-climbing-on-a-monthly-cadence-with-more-hikes-to-come/
+- category: ai
+  published: '2026-02-12T17:57:00'
+  score: 0.889
+  source: The Hacker News
+  summary: Google has observed the North Korea-linked threat actor UNC2970 using its
+    generative AI model, Gemini, for reconnaissance and attack support, highlighting
+    the potential misuse of such AI tools by malicious actors.
+  tags: []
+  title: Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack
+    Support
+  url: https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html
+- category: webdev
+  published: '2026-02-12T17:07:24'
+  score: 0.763
+  source: Mozilla Hacks
+  summary: The Interop Project, a cross-browser initiative, aims to improve web compatibility
+    by addressing the most impactful areas for both users and developers, involving
+    major browser vendors such as Apple, Google, Microsoft, and Mozilla.
+  tags:
+  - Featured Article
+  - Firefox
+  - Uncategorized
+  - Web Developers
+  title: Launching Interop 2026
+  url: https://hacks.mozilla.org/2026/02/launching-interop-2026/
+- category: webdev
+  published: '2026-02-12T17:00:59'
+  score: 0.762
+  source: WebKit Blog
+  summary: The Interop 2026 initiative continues the mission of enhancing cross-browser
+    interoperability, benefiting web developers, designers, and browser enthusiasts.
+  tags:
+  - News
+  title: Announcing Interop 2026
+  url: https://webkit.org/blog/17818/announcing-interop-2026/
+- category: ai
+  published: '2026-02-12T16:13:00'
+  score: 0.833
+  source: Google AI Blog
+  summary: Gemini 3 Deep Think, an AI initiative, aims to advance science, research,
+    and engineering through the capabilities of generative AI models.
+  tags:
+  - Gemini models
+  - Google One
+  - Google DeepMind
+  - AI
+  title: 'Gemini 3 Deep Think: Advancing science, research and engineering'
+  url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/
+- category: cybersecurity
+  published: '2026-02-12T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Multiple Siemens products are affected by two local privilege escalation
+    vulnerabilities that could allow low-privileged attackers to gain elevated access.
+    Patching these vulnerabilities is crucial to mitigate the security risks.
+  tags: []
+  title: Siemens SINEC NMS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-01
+- category: cybersecurity
+  published: '2026-02-12T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has added four
+    new vulnerabilities to its Known Exploited Vulnerabilities Catalog, indicating
+    evidence of active exploitation. Addressing these vulnerabilities is a high priority
+    for organizations to enhance their cybersecurity posture.
+  tags: []
+  title: CISA Adds Four Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/02/12/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-02-12T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Siveillance Video Management Servers contain a vulnerability in their Webhooks
+    implementation that could allow authenticated remote attackers to gain unauthorized
+    access. Users should apply the necessary patches to address this security flaw.
+  tags: []
+  title: Siemens Siveillance Video Management Servers
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-07
+- category: cybersecurity
+  published: '2026-02-12T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Solid Edge, a Siemens product, uses a Parasolid Translator Component with
+    an out-of-bounds read vulnerability. This vulnerability could be triggered when
+    the application processes certain files, potentially leading to security issues.
+  tags: []
+  title: Siemens Solid Edge
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-05
+- category: ai
+  published: '2026-02-12T10:00:00'
+  score: 0.834
+  source: OpenAI
+  summary: OpenAI has introduced GPT-5.3-Codex-Spark, a real-time coding model that
+    is 15 times faster than its predecessor, offering significant performance improvements
+    for AI-assisted software development.
+  tags:
+  - Product
+  title: Introducing GPT-5.3-Codex-Spark
+  url: https://openai.com/index/introducing-gpt-5-3-codex-spark
+- category: webdev
   published: '2026-02-12T02:23:50'
   score: 0.881
   source: Ars Technica
@@ -21815,5 +22000,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-12T05:30:25.898792'
-total_articles: 1688
+last_updated: '2026-02-13T05:28:59.646276'
+total_articles: 1703
