@@ -1,4 +1,80 @@
 articles:
+- category: cybersecurity
+  published: '2026-02-16T04:45:32'
+  score: 1.102
+  source: BleepingComputer
+  summary: The data extortion group ShinyHunters claims to have stolen over 600,000
+    Canada Goose customer records containing personal and payment-related data. Canada
+    Goose is investigating the incident and has not found evidence of a breach in
+    its systems, indicating the dataset may relate to past customer transactions.
+  tags:
+  - Security
+  title: Canada Goose investigating as hackers leak 600K customer records
+  url: https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/
+- category: cybersecurity
+  published: '2026-02-16T00:29:00'
+  score: 1.118
+  source: BleepingComputer
+  summary: Threat actors are abusing DNS queries as part of ClickFix social engineering
+    attacks to deliver malware, making this the first known use of DNS as a channel
+    in these campaigns. The attack exploits the nslookup command to retrieve a PowerShell
+    payload, demonstrating a new technique in the ClickFix attack vector.
+  tags:
+  - Security
+  title: New ClickFix attack abuses nslookup to retrieve PowerShell payload via DNS
+  url: https://www.bleepingcomputer.com/news/security/new-clickfix-attack-abuses-nslookup-to-retrieve-powershell-payload-via-dns/
+- category: cybersecurity
+  published: '2026-02-15T22:08:53'
+  score: 1.001
+  source: BleepingComputer
+  summary: Microsoft has released a fix for a Windows 11 bug that caused some commercial
+    systems to fail to boot with an "UNMOUNTABLE_BOOT_VOLUME" error after installing
+    recent security updates. The fix was delivered in the February 2026 Patch Tuesday
+    update, resolving the issue.
+  tags:
+  - Microsoft
+  title: Windows 11 KB5077181 fixes boot failures linked to failed updates
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077181-fixes-boot-failures-linked-to-failed-updates/
+- category: cybersecurity
+  published: '2026-02-15T16:30:41'
+  score: 0.958
+  source: BleepingComputer
+  summary: CTM360 reports over 4,000 malicious Google Groups and 3,500 Google-hosted
+    URLs used to spread the Lumma Stealer infostealing malware and a trojanized "Ninja
+    Browser." The attackers are abusing trusted Google services to steal credentials
+    and maintain persistence across Windows and Linux systems.
+  tags:
+  - Security
+  title: 'CTM360: Lumma Stealer and Ninja Browser malware campaign abusing Google
+    Groups'
+  url: https://www.bleepingcomputer.com/news/security/ctm360-lumma-stealer-and-ninja-browser-malware-campaign-abusing-google-groups/
+- category: cybersecurity
+  published: '2026-02-15T14:10:00'
+  score: 0.941
+  source: The Hacker News
+  summary: Microsoft has disclosed details of a new version of the ClickFix social
+    engineering tactic where attackers trick users into running commands that carry
+    out a DNS lookup to retrieve the next-stage payload. The attack relies on using
+    the "nslookup" command to retrieve the malware, demonstrating a novel approach
+    in the ClickFix attack vector.
+  tags: []
+  title: Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware
+    Staging
+  url: https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html
+- category: webdev
+  published: '2026-02-15T11:50:00'
+  score: 0.689
+  source: Towards Data Science
+  summary: Tmux, a Terminal Multiplexer, allows users to split up a single terminal
+    into multiple sessions, windows, and panes, providing a multitasking superpower
+    for the command line. This tool can enhance productivity and efficiency for developers
+    and system administrators working in a terminal-based environment.
+  tags:
+  - Developer Tools
+  - Programming
+  - Technology
+  title: 'A beginner’s guide to Tmux: a multitasking superpower for your terminal'
+  url: https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/
 - category: webdev
   published: '2026-02-13T00:34:29'
   score: 0.869
@@ -22000,5 +22076,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-13T05:28:59.646276'
-total_articles: 1703
+last_updated: '2026-02-16T05:31:12.327620'
+total_articles: 1709
