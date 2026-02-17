@@ -1,5 +1,148 @@
 articles:
 - category: cybersecurity
+  published: '2026-02-16T21:10:38'
+  score: 0.994
+  source: BleepingComputer
+  summary: The Washington Hotel brand in Japan has announced a ransomware attack that
+    compromised its servers and exposed various business data. The incident highlights
+    the ongoing threat of ransomware and the importance of robust cybersecurity measures
+    for organizations.
+  tags:
+  - Security
+  - Software
+  title: Washington Hotel in Japan discloses ransomware infection incident
+  url: https://www.bleepingcomputer.com/news/security/washington-hotel-in-japan-discloses-ransomware-infection-incident/
+- category: ai
+  published: '2026-02-16T20:30:15'
+  score: 0.818
+  source: Ars Technica
+  summary: Apple has announced a "Special Experience" event on March 4, where the
+    company is expected to unveil new Macs and iPads, indicating the continued development
+    and release of Apple's hardware products.
+  tags:
+  - Apple
+  - 14-inch MacBook Pro
+  - 16-inch MacBook Pro
+  - apple
+  - iphone 17e
+  title: 'Get ready for new Macs and iPads: Apple announces "Special Experience" on
+    March 4'
+  url: https://arstechnica.com/apple/2026/02/get-ready-for-new-macs-and-ipads-apple-announces-special-experience-on-march-4/
+- category: ai
+  published: '2026-02-16T17:42:37'
+  score: 0.799
+  source: Ars Technica
+  summary: ByteDance's launch of Seedance 2.0, which turned Hollywood icons into AI
+    "clip art," has faced backlash from the entertainment industry, highlighting the
+    ethical concerns surrounding the use of AI technology in the creative arts.
+  tags:
+  - AI
+  - Policy
+  - ai deepfake
+  - Artificial Intelligence
+  - bytedance
+  title: ByteDance backpedals after Seedance 2.0 turned Hollywood icons into AI “clip
+    art”
+  url: https://arstechnica.com/tech-policy/2026/02/bytedance-backpedals-after-seedance-2-0-turned-hollywood-icons-into-ai-clip-art/
+- category: ai
+  published: '2026-02-16T17:30:38'
+  score: 0.798
+  source: Ars Technica
+  summary: Researchers have discovered a fluid that can store solar energy and then
+    release it as heat months later, a promising development in renewable energy storage
+    technology.
+  tags:
+  - Science
+  - chemistry
+  - green
+  - heating
+  - materials science
+  title: A fluid can store solar energy and then release it as heat months later
+  url: https://arstechnica.com/science/2026/02/dna-inspired-molecule-breaks-records-for-storing-solar-heat/
+- category: ai
+  published: '2026-02-16T14:47:38'
+  score: 0.779
+  source: Ars Technica
+  summary: A Michigan antitrust lawsuit alleges that oil companies have hobbled the
+    development of electric vehicles and renewable energy, highlighting the ongoing
+    tensions between fossil fuel interests and the transition to clean energy.
+  tags:
+  - Policy
+  title: Michigan antitrust lawsuit says oil companies hobbled EVs and renewables
+  url: https://arstechnica.com/tech-policy/2026/02/michigan-accuses-oil-companies-of-antitrust-violations-in-climate-change-lawsuit/
+- category: cybersecurity
+  published: '2026-02-16T12:55:00'
+  score: 1.028
+  source: The Hacker News
+  summary: This week's cybersecurity recap shows how small gaps, such as those in
+    tools, add-ons, cloud setups, or workflows that people already trust, are becoming
+    big entry points for attackers. Additionally, attackers are mixing old and new
+    methods, combining legacy botnet tactics with modern techniques.
+  tags: []
+  title: 'Weekly Recap: Outlook Add-Ins Hijack, 0-Day Patches, Wormable Botnet & AI
+    Malware'
+  url: https://thehackernews.com/2026/02/weekly-recap-outlook-add-ins-hijack-0.html
+- category: cybersecurity
+  published: '2026-02-16T12:33:11'
+  score: 0.977
+  source: BleepingComputer
+  summary: CISA has ordered U.S. government agencies to secure their BeyondTrust Remote
+    Support instances against an actively exploited vulnerability within three days,
+    emphasizing the need for prompt patching of known vulnerabilities to mitigate
+    the risk of cyber attacks.
+  tags:
+  - Security
+  title: CISA gives feds 3 days to patch actively exploited BeyondTrust flaw
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-beyondtrust-flaw-within-three-days/
+- category: ai
+  published: '2026-02-16T11:14:00'
+  score: 0.799
+  source: Towards Data Science
+  summary: The article discusses the "strangest bottleneck" in modern large language
+    models (LLMs), where even insanely fast GPUs cannot make LLMs feel instant, suggesting
+    that the bottleneck may lie in the fundamental architecture of these models.
+  tags:
+  - Artificial Intelligence
+  - Autoregression
+  - Deep Dives
+  - Llm
+  - Machine Learning
+  title: The Strangest Bottleneck in Modern LLMs
+  url: https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/
+- category: cybersecurity
+  published: '2026-02-16T08:19:19'
+  score: 1.041
+  source: BleepingComputer
+  summary: Google has released emergency updates to fix a high-severity Chrome vulnerability
+    that has been exploited in zero-day attacks. This marks the first such security
+    flaw patched since the start of the year, highlighting the need for users to promptly
+    update their Chrome browsers to stay protected.
+  tags:
+  - Security
+  - Google
+  title: Google patches first Chrome zero-day exploited in attacks this year
+  url: https://www.bleepingcomputer.com/news/security/google-patches-first-chrome-zero-day-exploited-in-attacks-this-year/
+- category: webdev
+  published: '2026-02-16T08:00:00'
+  score: 0.666
+  source: Chrome Developers
+  summary: The article provides an overview of the new features and updates in the
+    Chrome DevTools, which are used for web development and debugging.
+  tags: []
+  title: What's new in DevTools (Chrome 145)
+  url: https://developer.chrome.com/blog/new-in-devtools-145?hl=en
+- category: cybersecurity
+  published: '2026-02-16T06:38:00'
+  score: 1.029
+  source: The Hacker News
+  summary: Google has released security updates for Chrome to address a high-severity
+    vulnerability, CVE-2026-2441, which has been described as a use-after-free bug
+    in CSS and is being actively exploited. Users are advised to update their Chrome
+    browsers immediately to mitigate the risk.
+  tags: []
+  title: New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released
+  url: https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html
+- category: cybersecurity
   published: '2026-02-16T04:45:32'
   score: 1.102
   source: BleepingComputer
@@ -22076,5 +22219,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-16T05:31:12.327620'
-total_articles: 1709
+last_updated: '2026-02-17T05:28:15.199607'
+total_articles: 1720
