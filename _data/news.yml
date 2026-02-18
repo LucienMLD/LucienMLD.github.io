@@ -1,4 +1,196 @@
 articles:
+- category: ai
+  published: '2026-02-18T00:31:16'
+  score: 0.946
+  source: Towards Data Science
+  summary: Advance planning for AI project evaluation is crucial to ensure the success
+    and sustainability of AI initiatives. This article discusses the importance of
+    defining clear objectives, metrics, and evaluation processes before the actual
+    implementation of an AI project.
+  tags:
+  - Artificial Intelligence
+  - Ai Product Management
+  - Editors Pick
+  - Evaluation
+  - Project Management
+  title: Advance Planning for AI Project Evaluation
+  url: https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/
+- category: ai
+  published: '2026-02-18T00:25:14'
+  score: 0.945
+  source: Towards Data Science
+  summary: OpenClaw is a framework that allows users to create personalized AI assistants.
+    The article demonstrates how to set up and configure OpenClaw to build a customized
+    AI agent that can assist with various tasks.
+  tags:
+  - Agentic AI
+  - Ai Assistant
+  - Claude Code
+  - Llm
+  - Machine Learning
+  title: Use OpenClaw to Make a Personal AI Assistant
+  url: https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/
+- category: webdev
+  published: '2026-02-17T22:45:07'
+  score: 0.758
+  source: Ars Technica
+  summary: GameHub, a Windows emulator for Mac, aims to provide an additional way
+    for Mac users to play Windows games, but the solution comes with its own set of
+    issues and limitations.
+  tags:
+  - Apple
+  - Gaming
+  - emulation
+  - Mac
+  - Macintosh
+  title: GameHub will give Mac owners another imperfect way to play Windows games
+  url: https://arstechnica.com/gaming/2026/02/gamehub-will-give-mac-owners-another-imperfect-way-to-play-windows-games/
+- category: cybersecurity
+  published: '2026-02-17T20:15:03'
+  score: 1.083
+  source: BleepingComputer
+  summary: Chinese state-backed hackers have been exploiting a critical zero-day vulnerability
+    in Dell systems since mid-2024, allowing them to conduct targeted attacks. The
+    vulnerability was likely discovered and weaponized by the hackers before Dell
+    could patch it, demonstrating the ongoing threat of state-sponsored cyber espionage.
+  tags:
+  - Security
+  title: Chinese hackers exploiting Dell zero-day flaw since mid-2024
+  url: https://www.bleepingcomputer.com/news/security/chinese-hackers-exploiting-dell-zero-day-flaw-since-mid-2024/
+- category: webdev
+  published: '2026-02-17T19:01:05'
+  score: 0.735
+  source: Ars Technica
+  summary: CBS reportedly forbid an interview with a Democrat due to a threat from
+    the FCC, highlighting the potential impact of regulatory pressures on media content
+    and journalistic freedom.
+  tags:
+  - Policy
+  - brendan carr
+  - Equal Time Rule
+  - FCC
+  - Stephen Colbert
+  title: Stephen Colbert says CBS forbid interview of Democrat because of FCC threat
+  url: https://arstechnica.com/tech-policy/2026/02/stephen-colbert-says-cbs-forbid-interview-of-democrat-because-of-fcc-threat/
+- category: ai
+  published: '2026-02-17T18:08:00'
+  score: 0.846
+  source: The Hacker News
+  summary: Researchers have discovered that AI assistants with web browsing or URL
+    fetching capabilities can be abused as stealthy command-and-control (C2) relays,
+    allowing attackers to blend into legitimate enterprise communications and evade
+    detection.
+  tags: []
+  title: Researchers Show Copilot and Grok Can Be Abused as Malware C2 Proxies
+  url: https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html
+- category: webdev
+  published: '2026-02-17T15:17:25'
+  score: 0.751
+  source: CSS-Tricks
+  summary: The article demonstrates how to create a spiral scrollytelling effect using
+    CSS and the `sibling-index()` function, allowing for an engaging and visually
+    appealing user experience.
+  tags:
+  - Articles
+  - CSS functions
+  - GSAP
+  - Scroll Driven Animation
+  title: Spiral Scrollytelling in CSS With sibling-index()
+  url: https://css-tricks.com/spiral-scrollytelling-in-css-with-sibling-index/
+- category: webdev
+  published: '2026-02-17T14:40:49'
+  score: 0.787
+  source: BleepingComputer
+  summary: A study of 5 million applications revealed the widespread problem of leaked
+    API keys and other sensitive information hidden in front-end JavaScript code,
+    highlighting the need for better security practices in web development.
+  tags:
+  - Security
+  title: What 5 Million Apps Revealed About Secrets in JavaScript
+  url: https://www.bleepingcomputer.com/news/security/what-5-million-apps-revealed-about-secrets-in-javascript/
+- category: webdev
+  published: '2026-02-17T14:17:30'
+  score: 0.785
+  source: CSS-Tricks
+  summary: Interop 2026 is an initiative that aims to improve cross-browser compatibility
+    and consistency for various CSS features. The article discusses the upcoming changes
+    and improvements that web developers can look forward to.
+  tags:
+  - Articles
+  - browser
+  - cross-browser
+  - news
+  title: Interop 2026
+  url: https://css-tricks.com/interop-2026/
+- category: ai
+  published: '2026-02-17T12:01:45'
+  score: 0.98
+  source: Schneier on Security
+  summary: Several papers describe side-channel attacks against large language models
+    (LLMs), which could allow attackers to extract sensitive information from these
+    models by monitoring their performance characteristics during inference.
+  tags:
+  - Uncategorized
+  - academic papers
+  - LLM
+  - side-channel attacks
+  title: Side-Channel Attacks Against LLMs
+  url: https://www.schneier.com/blog/archives/2026/02/side-channel-attacks-against-llms.html
+- category: cybersecurity
+  published: '2026-02-17T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Successful exploitation of vulnerabilities in Honeywell CCTV products could
+    lead to account takeovers and unauthorized access to camera feeds, as well as
+    potential unauthenticated remote code execution. The CSAF (Cybersecurity Advisory
+    Format) provides details on the affected products and recommended mitigations.
+  tags: []
+  title: Honeywell CCTV Products
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-04
+- category: cybersecurity
+  published: '2026-02-17T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. The vulnerabilities affect
+    various software products and could lead to remote code execution, privilege escalation,
+    and other serious security consequences if left unpatched.
+  tags: []
+  title: CISA Adds Four Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/02/17/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-02-17T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Successful exploitation of vulnerabilities in Delta Electronics ASDA-Soft
+    could allow an attacker to write arbitrary data beyond the bounds of a stack-allocated
+    buffer, potentially leading to code execution with elevated privileges. The CSAF
+    provides information on the affected versions and recommended actions.
+  tags: []
+  title: Delta Electronics ASDA-Soft
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-02
+- category: cybersecurity
+  published: '2026-02-17T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Vulnerabilities in GE Vernova Enervista UR Setup could allow code execution
+    with elevated privileges. The CSAF outlines the affected versions and advises
+    users to apply the available patches or mitigations to address these security
+    issues.
+  tags: []
+  title: GE Vernova Enervista UR Setup
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-03
+- category: ai
+  published: '2026-02-17T11:00:58'
+  score: 0.841
+  source: Machine Learning Mastery
+  summary: The article compares the performance of different text representation techniques,
+    including LLM embeddings, TF-IDF, and bag-of-words, when used in scikit-learn
+    machine learning models. It provides insights into the strengths and weaknesses
+    of each approach in handling unstructured text data.
+  tags: []
+  title: 'LLM Embeddings vs TF-IDF vs Bag-of-Words: Which Works Better in Scikit-learn?'
+  url: https://machinelearningmastery.com/llm-embeddings-vs-tf-idf-vs-bag-of-words-which-works-better-in-scikit-learn/
 - category: cybersecurity
   published: '2026-02-16T21:10:38'
   score: 0.994
@@ -22219,5 +22411,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-17T05:28:15.199607'
-total_articles: 1720
+last_updated: '2026-02-18T05:29:28.237761'
+total_articles: 1735
