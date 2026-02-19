@@ -1,5 +1,191 @@
 articles:
 - category: ai
+  published: '2026-02-19T04:30:00'
+  score: 0.973
+  source: Google AI Blog
+  summary: The article discusses Google's focus on AI, with a stylized design resembling
+    the Ashoka Chakra and the text "भारत 2026 INDIA," indicating Google's ambitions
+    in the Indian market.
+  tags:
+  - A message from our CEO
+  - AI
+  title: “No technology has me dreaming bigger than AI”
+  url: https://blog.google/company-news/inside-google/message-ceo/sundar-pichai-ai-impact-summit-2026/
+- category: ai
+  published: '2026-02-19T04:30:00'
+  score: 0.973
+  source: Google AI Blog
+  summary: The article provides an overview of the partnerships and investments Google
+    announced at the AI Impact Summit 2026, highlighting the company's efforts to
+    drive AI adoption and impact.
+  tags:
+  - AI
+  title: AI Impact Summit 2026
+  url: https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/
+- category: ai
+  published: '2026-02-18T23:54:29'
+  score: 0.942
+  source: AWS Machine Learning
+  summary: The article demonstrates how to build unified intelligence systems using
+    Amazon Bedrock AgentCore, showcasing a real-world implementation of the Customer
+    Agent and Knowledge Engine (CAKE).
+  tags:
+  - Amazon Bedrock
+  - Artificial Intelligence
+  - Technical How-to
+  title: Build unified intelligence with Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/build-unified-intelligence-with-amazon-bedrock-agentcore/
+- category: ai
+  published: '2026-02-18T21:00:00'
+  score: 0.866
+  source: OpenAI
+  summary: OpenAI for India aims to expand AI access across the country by building
+    local infrastructure, powering enterprises, and advancing workforce skills.
+  tags:
+  - Global Affairs
+  title: Introducing OpenAI for India
+  url: https://openai.com/index/openai-for-india
+- category: webdev
+  published: '2026-02-18T20:58:34'
+  score: 0.747
+  source: Ars Technica
+  summary: Verizon acknowledges the "pain" of its new unlock policy and suggests that
+    a change is coming, indicating that the company may be addressing customer concerns
+    regarding device unlocking.
+  tags:
+  - Policy
+  - FCC
+  - phone unlock
+  - verizon
+  title: Verizon acknowledges "pain" of new unlock policy, suggests change is coming
+  url: https://arstechnica.com/tech-policy/2026/02/verizon-might-drop-its-annoying-35-day-wait-for-unlocking-paid-off-phones/
+- category: webdev
+  published: '2026-02-18T19:28:26'
+  score: 0.738
+  source: Ars Technica
+  summary: The article highlights five notable changes in Apple's latest iOS, macOS,
+    and iPadOS betas, which are more significant than the mostly invisible updates
+    in the previous 26.3 release.
+  tags:
+  - Apple
+  - Tech
+  - ios 26
+  - ipados 26
+  - macos 26 tahoe
+  title: 5 changes to know about in Apple's latest iOS, macOS, and iPadOS betas
+  url: https://arstechnica.com/gadgets/2026/02/5-changes-to-know-about-in-apples-latest-ios-macos-and-ipados-betas/
+- category: webdev
+  published: '2026-02-18T19:00:00'
+  score: 0.735
+  source: Towards Data Science
+  summary: The article emphasizes the importance of understanding data architecture
+    for analytics engineers, as getting the data architecture right can have a significant
+    impact on downstream processes and decision-making.
+  tags:
+  - Data Engineering
+  - Analytics Engineering
+  - Data Analysis
+  - Data Architecture
+  - Data Science
+  title: Why Every Analytics Engineer Needs to Understand Data Architecture
+  url: https://towardsdatascience.com/why-every-analytics-engineer-needs-to-understand-data-architecture/
+- category: ai
+  published: '2026-02-18T18:20:33'
+  score: 0.847
+  source: Towards Data Science
+  summary: The article introduces "Agentic AI," a solution for autonomous experiment
+    management in modern deep learning research, enabling researchers to focus on
+    their work rather than babysitting training runs.
+  tags:
+  - Agentic AI
+  - Artificial Intelligence
+  - Deep Dives
+  - Deep Learning
+  - Experiment Management
+  title: Agentic AI for Modern Deep Learning Experimentation
+  url: https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/
+- category: cybersecurity
+  published: '2026-02-18T16:35:00'
+  score: 1.055
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed a critical remote code execution
+    vulnerability in the Grandstream GXP1600 series of VoIP phones, which carries
+    a CVSS score of 9.3 out of 10. The vulnerability could enable attackers to seize
+    control of susceptible devices.
+  tags: []
+  title: Grandstream GXP1600 VoIP Phones Exposed to Unauthenticated Remote Code Execution
+  url: https://thehackernews.com/2026/02/grandstream-gxp1600-voip-phones-exposed.html
+- category: cybersecurity
+  published: '2026-02-18T16:27:38'
+  score: 1.006
+  source: BleepingComputer
+  summary: Telegram channels have been used to rapidly weaponize and share proof-of-concept
+    exploits for recently disclosed vulnerabilities in the SmarterMail email server
+    software, which are tied to ransomware activity.
+  tags:
+  - Security
+  title: Telegram channels expose rapid weaponization of SmarterMail flaws
+  url: https://www.bleepingcomputer.com/news/security/telegram-channels-expose-rapid-weaponization-of-smartermail-flaws/
+- category: webdev
+  published: '2026-02-18T16:21:41'
+  score: 0.758
+  source: CSS-Tricks
+  summary: The article explores the distinction between "components" and "utilities"
+    in Tailwind, a utility-first CSS framework, highlighting the nuances in their
+    usage and application.
+  tags:
+  - Articles
+  title: Distinguishing “Components” and “Utilities” in Tailwind
+  url: https://css-tricks.com/distinguishing-components-and-utilities-in-tailwind/
+- category: webdev
+  published: '2026-02-18T15:00:34'
+  score: 0.71
+  source: Ars Technica
+  summary: Google's new budget smartphone, the Pixel 10a, is set to launch on March
+    5 for $499, but it features specifications and design that are considered outdated
+    compared to the current market trends.
+  tags:
+  - Google
+  - Tech
+  - android
+  - google
+  - pixel 10a
+  title: Google's Pixel 10a arrives on March 5 for $499 with specs and design of yesteryear
+  url: https://arstechnica.com/gadgets/2026/02/googles-pixel-10a-arrives-on-march-5-for-499-with-specs-and-design-of-yesteryear/
+- category: cybersecurity
+  published: '2026-02-18T12:00:00'
+  score: 1.021
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, indicating that they are being actively exploited. The vulnerabilities
+    affect various software and systems, and organizations are advised to prioritize
+    their remediation.
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/02/18/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-02-18T10:32:00'
+  score: 1.058
+  source: The Hacker News
+  summary: A critical security vulnerability in Dell RecoverPoint for Virtual Machines
+    has been actively exploited as a zero-day since mid-2024 by a suspected China-nexus
+    threat cluster. The vulnerability allows attackers to gain unauthorized access
+    and control over affected systems.
+  tags: []
+  title: Dell RecoverPoint for VMs Zero-Day CVE-2026-22769 Exploited Since Mid-2024
+  url: https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html
+- category: cybersecurity
+  published: '2026-02-18T06:52:00'
+  score: 1.03
+  source: The Hacker News
+  summary: CISA has added four security vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) catalog, citing evidence of active exploitation in the wild. The vulnerabilities
+    range in severity from 8.8 to 9.8 on the CVSS scale and can lead to various types
+    of attacks.
+  tags: []
+  title: CISA Flags Four Security Flaws Under Active Exploitation in Latest KEV Update
+  url: https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html
+- category: ai
   published: '2026-02-18T00:31:16'
   score: 0.946
   source: Towards Data Science
@@ -22411,5 +22597,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-18T05:29:28.237761'
-total_articles: 1735
+last_updated: '2026-02-19T05:28:25.577064'
+total_articles: 1750
