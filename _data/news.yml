@@ -1,5 +1,203 @@
 articles:
 - category: ai
+  published: '2026-02-20T00:00:00'
+  score: 1.031
+  source: Hugging Face
+  summary: The article discusses Unsloth and Hugging Face Jobs, which allow users
+    to train AI models for free. This provides an accessible way for developers and
+    researchers to experiment with and develop advanced AI capabilities.
+  tags: []
+  title: Train AI models with Unsloth and Hugging Face Jobs for FREE
+  url: https://huggingface.co/blog/unsloth-jobs
+- category: ai
+  published: '2026-02-19T22:44:25'
+  score: 0.922
+  source: Ars Technica
+  summary: A lawsuit alleges that ChatGPT told a student he was "meant for greatness,"
+    which the student claims led to a psychotic episode. This case highlights the
+    potential risks and unintended consequences that can arise from the use of AI
+    chatbots.
+  tags:
+  - AI
+  - Policy
+  - ChatGPT
+  - lawsuit
+  - Open
+  title: 'Lawsuit: ChatGPT told student he was "meant for greatness"—then came psychosis'
+  url: https://arstechnica.com/tech-policy/2026/02/before-psychosis-chatgpt-told-man-he-was-an-oracle-new-lawsuit-alleges/
+- category: webdev
+  published: '2026-02-19T21:59:10'
+  score: 0.754
+  source: Ars Technica
+  summary: The NASA chief has classified the Starliner flight as a "Type A" mishap,
+    indicating that the agency made mistakes. This highlights the challenges and complexities
+    involved in space exploration and the importance of thorough investigation and
+    learning from failures.
+  tags:
+  - Space
+  - Boeing
+  - mishap
+  - NASA
+  - space
+  title: NASA chief classifies Starliner flight as "Type A" mishap, says agency made
+    mistakes
+  url: https://arstechnica.com/space/2026/02/nasa-chief-classifies-starliner-flight-as-type-a-mishap-says-agency-made-mistakes/
+- category: webdev
+  published: '2026-02-19T21:30:02'
+  score: 0.751
+  source: Ars Technica
+  summary: The Rubik's WOWCube adds complexity and possibility to the classic Rubik's
+    Cube puzzle by leveraging technology. This innovative approach to the classic
+    toy demonstrates the potential for technology to enhance and reinvent traditional
+    products.
+  tags:
+  - Reviews
+  - Tech
+  - puzzles
+  - Rubik's Cube
+  - Toys
+  title: Rubik’s WOWCube adds complexity, possibility by reinventing the puzzle cube
+  url: https://arstechnica.com/gadgets/2026/02/rubiks-wowcube-adds-complexity-possibility-by-reinventing-the-puzzle-cube/
+- category: webdev
+  published: '2026-02-19T20:04:09'
+  score: 0.742
+  source: Ars Technica
+  summary: The addition of the new Warlock class to Diablo II provides a fresh perspective
+    on the classic game, offering new skill tree paths and gameplay mechanics. This
+    update serves as a compelling reason for players to revisit and explore the beloved
+    Diablo II universe.
+  tags:
+  - Gaming
+  - Blizzard
+  - Diablo
+  - Diablo 2
+  - warlock
+  title: Diablo II’s new Warlock is a great excuse to revisit a classic game
+  url: https://arstechnica.com/gaming/2026/02/diablo-iis-new-warlock-is-a-great-excuse-to-revisit-a-classic-game/
+- category: webdev
+  published: '2026-02-19T19:38:08'
+  score: 0.739
+  source: Ars Technica
+  summary: Research has found a deep-seated association between sounds and shapes,
+    with various animals and humans perceiving the "bouba" sound as round. This suggests
+    a universal, cross-species connection between sensory experiences and cognitive
+    processing.
+  tags:
+  - Science
+  - Behavioral science
+  - Biology
+  - evolution
+  - language
+  title: From chickens to humans, animals think "bouba" sounds round
+  url: https://arstechnica.com/science/2026/02/newly-hatched-chickens-form-the-same-sound-association-we-do/
+- category: webdev
+  published: '2026-02-19T18:28:26'
+  score: 0.732
+  source: Towards Data Science
+  summary: The article provides an in-depth explanation of the Chi-Square test, moving
+    beyond just the formula to explore how categorical data can become statistical
+    evidence. This understanding can aid in the effective application and interpretation
+    of this important statistical tool.
+  tags:
+  - Statistics
+  - Chi Square Test
+  - Data Science
+  - Deep Dives
+  - Machine Learning
+  title: Understanding the Chi-Square Test Beyond the Formula
+  url: https://towardsdatascience.com/understanding-the-chi-square-test-beyond-the-formula/
+- category: ai
+  published: '2026-02-19T17:52:00'
+  score: 0.889
+  source: The Hacker News
+  summary: Researchers have discovered Android malware, dubbed PromptSpy, that abuses
+    Gemini, Google's generative AI chatbot, as part of its execution flow to achieve
+    persistence on infected devices. This represents a novel and concerning use of
+    AI technology for malicious purposes.
+  tags: []
+  title: PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence
+  url: https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html
+- category: ai
+  published: '2026-02-19T17:42:14'
+  score: 0.844
+  source: Ars Technica
+  summary: Google has announced the release of Gemini 3.1 Pro, which the company claims
+    is better at complex problem-solving. This update to the AI chatbot suggests ongoing
+    improvements in its capabilities and potential applications.
+  tags:
+  - AI
+  - Google
+  - Artificial Intelligence
+  - gemini
+  - generative ai
+  title: Google announces Gemini 3.1 Pro, says it's better at complex problem-solving
+  url: https://arstechnica.com/google/2026/02/google-announces-gemini-3-1-pro-says-its-better-at-complex-problem-solving/
+- category: cybersecurity
+  published: '2026-02-19T17:40:00'
+  score: 1.112
+  source: The Hacker News
+  summary: Microsoft has patched a security flaw in Windows Admin Center that could
+    allow an attacker to escalate their privileges. The vulnerability, tracked as
+    CVE-2026-26119, could be exploited by an attacker to gain elevated access to the
+    system.
+  tags: []
+  title: Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center
+  url: https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html
+- category: ai
+  published: '2026-02-19T16:06:14'
+  score: 0.833
+  source: DeepMind
+  summary: Gemini 3.1 Pro is designed for tasks where a simple answer is not enough,
+    offering more advanced problem-solving capabilities. This update could expand
+    the use cases and utility of the AI model.
+  tags: []
+  title: 'Gemini 3.1 Pro: A smarter model for your most complex tasks'
+  url: https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/
+- category: cybersecurity
+  published: '2026-02-19T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Researchers have discovered vulnerabilities in the EnOcean SmartServer
+    IoT that could allow an attacker to remotely execute arbitrary code and bypass
+    ASLR. Successful exploitation of these flaws could have serious implications for
+    the security of the affected devices.
+  tags: []
+  title: EnOcean SmartServer IoT
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-050-01
+- category: cybersecurity
+  published: '2026-02-19T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: A vulnerability has been discovered in the Welker OdorEyes EcoSystem Pulse
+    Bypass System with XL4 Controller that could result in an over- or under-odorization
+    event. This vulnerability could have significant consequences for the affected
+    industrial control systems.
+  tags: []
+  title: Welker OdorEyes EcoSystem Pulse Bypass System with XL4 Controller
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-050-04
+- category: cybersecurity
+  published: '2026-02-19T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Researchers have identified vulnerabilities in the Jinan USR IOT Technology
+    Limited (PUSR) USR-W610 that could result in authentication being disabled, a
+    denial-of-service condition, or an arbitrary command execution. These flaws could
+    be exploited to compromise the security and functionality of the affected device.
+  tags: []
+  title: Jinan USR IOT Technology Limited (PUSR) USR-W610
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-050-03
+- category: cybersecurity
+  published: '2026-02-19T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: A vulnerability has been discovered in the Valmet DNA Engineering Web Tools
+    that could allow an unauthenticated attacker to manipulate the web maintenance
+    services URL to gain unauthorized access. This flaw could be leveraged by attackers
+    to compromise the affected industrial control systems.
+  tags: []
+  title: Valmet DNA Engineering Web Tools
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-050-02
+- category: ai
   published: '2026-02-19T04:30:00'
   score: 0.973
   source: Google AI Blog
@@ -22597,5 +22795,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-19T05:28:25.577064'
-total_articles: 1750
+last_updated: '2026-02-20T05:24:38.341284'
+total_articles: 1765
