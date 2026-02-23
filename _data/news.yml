@@ -1,4 +1,83 @@
 articles:
+- category: cybersecurity
+  published: '2026-02-22T15:33:26'
+  score: 0.903
+  source: BleepingComputer
+  summary: Arkanix Stealer is a short-lived information-stealing malware operation
+    that was likely developed as an AI-assisted experiment. The malware was promoted
+    on multiple dark web forums towards the end of 2025, indicating it was a recent
+    cybersecurity threat.
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: Arkanix Stealer pops up as short-lived AI info-stealer experiment
+  url: https://www.bleepingcomputer.com/news/security/arkanix-stealer-pops-up-as-short-lived-ai-info-stealer-experiment/
+- category: cybersecurity
+  published: '2026-02-22T15:00:00'
+  score: 0.899
+  source: Towards Data Science
+  summary: The article discusses the "vibe coding" phenomenon, where software applications
+    are optimized for speed over safety, leading to a security debt crisis. It emphasizes
+    the need to prioritize security alongside performance to avoid leaving applications
+    vulnerable.
+  tags:
+  - LLM Applications
+  - Agentic Ai
+  - AI coding assistants
+  - Editors Pick
+  - Programming
+  title: 'The Reality of Vibe Coding: AI Agents and the Security Debt Crisis'
+  url: https://towardsdatascience.com/the-reality-of-vibe-coding-ai-agents-and-the-security-debt-crisis/
+- category: cybersecurity
+  published: '2026-02-22T11:20:03'
+  score: 0.824
+  source: Ars Technica
+  summary: The article examines the issue of atmospheric pollution caused by rocket
+    launches, suggesting that the global atmospheric commons is at risk of becoming
+    an industrial waste dumping ground.
+  tags:
+  - Space
+  - industrial waste
+  - space pollution
+  - spacex
+  - syndication
+  title: Study shows how rocket launches pollute the atmosphere
+  url: https://arstechnica.com/space/2026/02/study-shows-how-rocket-launches-pollute-the-atmosphere/
+- category: ai
+  published: '2026-02-21T15:00:00'
+  score: 0.565
+  source: Towards Data Science
+  summary: The article discusses the architecture of GPUaaS (GPU-as-a-Service) for
+    enterprise AI deployments on-premises, focusing on aspects such as multi-tenancy,
+    scheduling, and cost modeling on Kubernetes.
+  tags:
+  - Artificial Intelligence
+  - AI
+  - Ai Engineering
+  - Data Science
+  - Kubernetes
+  title: Architecting GPUaaS for Enterprise AI On-Prem
+  url: https://towardsdatascience.com/architecting-gpuaas-for-enterprise-ai-on-prem/
+- category: cybersecurity
+  published: '2026-02-21T07:58:00'
+  score: 0.712
+  source: The Hacker News
+  summary: Anthropic has launched a new security feature called Claude Code Security,
+    which allows users to scan their software codebase for vulnerabilities and receive
+    suggestions for patches, aiming to improve the security of AI-powered applications.
+  tags: []
+  title: Anthropic Launches Claude Code Security for AI-Powered Vulnerability Scanning
+  url: https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html
+- category: cybersecurity
+  published: '2026-02-21T07:21:00'
+  score: 0.756
+  source: The Hacker News
+  summary: CISA has added two actively exploited vulnerabilities in the Roundcube
+    webmail software to its Known Exploited Vulnerabilities (KEV) catalog, urging
+    users to address these security flaws.
+  tags: []
+  title: CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog
+  url: https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html
 - category: ai
   published: '2026-02-20T00:00:00'
   score: 1.031
@@ -22795,5 +22874,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-20T05:24:38.341284'
-total_articles: 1765
+last_updated: '2026-02-23T05:31:45.400221'
+total_articles: 1771
