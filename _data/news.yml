@@ -1,4 +1,202 @@
 articles:
+- category: ai
+  published: '2026-02-24T00:00:21'
+  score: 0.942
+  source: Hugging Face
+  summary: The article discusses the deployment of open-source vision language models
+    (VLMs) on the Nvidia Jetson platform, a powerful edge computing device, enabling
+    the integration of advanced computer vision capabilities into various applications
+    and devices.
+  tags: []
+  title: Deploying Open Source Vision Language Models (VLM) on Jetson
+  url: https://huggingface.co/blog/nvidia/cosmos-on-jetson
+- category: ai
+  published: '2026-02-23T23:20:37'
+  score: 0.882
+  source: AWS Machine Learning
+  summary: Bedrock Robotics, a startup, has partnered with the AWS Generative AI Innovation
+    Center to apply vision-language models in analyzing construction video footage,
+    extracting operational details, and generating labeled datasets to power their
+    physical AI systems, showcasing the potential of these models to accelerate data
+    annotation and model training for robotics applications.
+  tags:
+  - Amazon Bedrock
+  - Artificial Intelligence
+  title: Scaling data annotation using vision-language models to power physical AI
+    systems
+  url: https://aws.amazon.com/blogs/machine-learning/scaling-data-annotation-using-vision-language-models-to-power-physical-ai-systems/
+- category: webdev
+  published: '2026-02-23T22:14:28'
+  score: 0.755
+  source: Ars Technica
+  summary: The Pentagon's buyer expressed satisfaction with the launch industry but
+    noted that payload development is too slow, highlighting the need for faster turnaround
+    times to support mission-critical operations.
+  tags:
+  - Science
+  - Space
+  - Commercial space
+  - military space
+  - space force
+  title: 'Pentagon buyer: We''re happy with our launch industry, but payloads are
+    lagging'
+  url: https://arstechnica.com/space/2026/02/pentagon-buyer-were-happy-with-our-launch-industry-but-payloads-are-lagging/
+- category: cybersecurity
+  published: '2026-02-23T21:59:42'
+  score: 1.0
+  source: BleepingComputer
+  summary: Spanish authorities arrested four alleged members of a hacktivist group
+    believed to have carried out distributed denial-of-service (DDoS) attacks targeting
+    government ministries, political parties, and various public institutions, underscoring
+    the ongoing threat of cybercrime against critical infrastructure.
+  tags:
+  - Security
+  title: Spain arrests suspected hacktivists for DDoSing govt sites
+  url: https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/
+- category: webdev
+  published: '2026-02-23T21:48:44'
+  score: 0.752
+  source: Ars Technica
+  summary: Even in a fragile farm economy, data center builders are finding that million-dollar
+    offers cannot sway dedicated farmers, who are unwilling to sell their land, underscoring
+    the complexities involved in securing suitable sites for large-scale data infrastructure.
+  tags:
+  - AI
+  - Policy
+  - Artificial Intelligence
+  - data centers
+  title: Data center builders thought farmers would willingly sell land, learn otherwise
+  url: https://arstechnica.com/tech-policy/2026/02/im-not-for-sale-farmers-refuse-to-take-millions-in-data-center-deals/
+- category: webdev
+  published: '2026-02-23T21:34:57'
+  score: 0.751
+  source: Towards Data Science
+  summary: The article provides a comparative overview of common Pandas operations
+    and their equivalents in PySpark, a popular distributed data processing framework,
+    aiming to help Pandas users transition to the PySpark ecosystem.
+  tags:
+  - Data Engineering
+  - Deep Dives
+  - Pandas
+  - Programming
+  - Pyspark
+  title: PySpark for Pandas Users
+  url: https://towardsdatascience.com/pyspark-for-pandas-users/
+- category: ai
+  published: '2026-02-23T21:19:58'
+  score: 0.868
+  source: Towards Data Science
+  summary: The article provides a detailed explanation and implementation of gradient
+    accumulation and data parallelism, two techniques used in training AI models on
+    multiple GPUs, allowing for increased batch sizes and efficient resource utilization.
+  tags:
+  - Artificial Intelligence
+  - Data Parallelism
+  - Gradient Accumulation
+  - Machine Learning
+  - Pytorch
+  title: 'AI in Multiple GPUs: Gradient Accumulation & Data Parallelism'
+  url: https://towardsdatascience.com/ai-in-multiple-gpus-grad-accum-data-parallelism/
+- category: webdev
+  published: '2026-02-23T21:16:20'
+  score: 0.749
+  source: Ars Technica
+  summary: Panasonic, a former leader in the plasma TV market, will no longer manufacture
+    its own televisions, marking the end of an era for the company and the broader
+    TV manufacturing industry, which has seen significant changes and consolidation.
+  tags:
+  - Tech
+  - panasonic
+  - TVs
+  title: Panasonic, the former plasma king, will no longer make its own TVs
+  url: https://arstechnica.com/gadgets/2026/02/panasonic-the-former-plasma-king-will-no-longer-make-its-own-tvs/
+- category: cybersecurity
+  published: '2026-02-23T19:41:00'
+  score: 0.983
+  source: The Hacker News
+  summary: The Russia-linked state-sponsored threat actor APT28 has been attributed
+    to a new campaign targeting specific entities in Western and Central Europe, using
+    a webhook-based macro malware. The activity was active between September 2025
+    and January 2026, demonstrating the persistent nature of nation-state cyber threats.
+  tags: []
+  title: APT28 Targeted European Entities Using Webhook-Based Macro Malware
+  url: https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html
+- category: cybersecurity
+  published: '2026-02-23T18:04:01'
+  score: 1.018
+  source: BleepingComputer
+  summary: Optimizely, an ad tech company, suffered a data breach after threat actors
+    compromised its systems through a voice phishing attack. The breach affected an
+    undisclosed number of customers, highlighting the need for robust cybersecurity
+    measures against targeted attacks.
+  tags:
+  - Security
+  title: Ad tech firm Optimizely confirms data breach after vishing attack
+  url: https://www.bleepingcomputer.com/news/security/ad-tech-firm-optimizely-confirms-data-breach-after-vishing-attack/
+- category: ai
+  published: '2026-02-23T17:29:11'
+  score: 0.842
+  source: AWS Machine Learning
+  summary: Hexagon, a technology company, collaborated with Amazon Web Services to
+    scale their AI model production by pretraining state-of-the-art segmentation models
+    using the model training infrastructure of Amazon SageMaker HyperPod, demonstrating
+    the benefits of leveraging cloud-based solutions for accelerating AI development.
+  tags:
+  - Amazon SageMaker
+  - Amazon SageMaker HyperPod
+  - Artificial Intelligence
+  - Intermediate (200)
+  title: Accelerating AI model production at Hexagon with Amazon SageMaker HyperPod
+  url: https://aws.amazon.com/blogs/machine-learning/accelerating-ai-model-production-at-hexagon-with-amazon-sagemaker-hyperpod/
+- category: cybersecurity
+  published: '2026-02-23T13:00:00'
+  score: 0.98
+  source: The Hacker News
+  summary: The weekly cybersecurity recap covers a range of topics, including double-tap
+    skimmers, PromptSpy AI, a 30Tbps DDoS attack, and Docker malware, highlighting
+    the diverse and evolving nature of security challenges across devices, cloud services,
+    and research labs.
+  tags: []
+  title: '⚡ Weekly Recap: Double-Tap Skimmers, PromptSpy AI, 30Tbps DDoS, Docker Malware
+    & More'
+  url: https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html
+- category: cybersecurity
+  published: '2026-02-23T12:03:33'
+  score: 0.973
+  source: Schneier on Security
+  summary: New research has shown that claims made by password managers about their
+    inability to access user vaults are not always true, particularly when account
+    recovery or synchronization features are involved, raising concerns about the
+    security and privacy of sensitive data stored in these applications.
+  tags:
+  - Uncategorized
+  - backdoors
+  - Password Safe
+  - passwords
+  title: On the Security of Password Managers
+  url: https://www.schneier.com/blog/archives/2026/02/on-the-security-of-password-managers.html
+- category: ai
+  published: '2026-02-23T11:58:00'
+  score: 0.848
+  source: The Hacker News
+  summary: As organizations deploy more internal services and APIs to support their
+    Large Language Models (LLMs), security risks are being introduced more from the
+    infrastructure that serves these models, rather than the models themselves, highlighting
+    the importance of securing exposed endpoints and the overall LLM ecosystem.
+  tags: []
+  title: How Exposed Endpoints Increase Risk Across LLM Infrastructure
+  url: https://thehackernews.com/2026/02/how-exposed-endpoints-increase-risk.html
+- category: webdev
+  published: '2026-02-23T10:00:00'
+  score: 0.758
+  source: Smashing Magazine
+  summary: The article discusses the concept of "Sustainable UX," which challenges
+    the era of "unlimited pixels" and reframes performance as a responsibility, emphasizing
+    the need for designers to create eco-friendly interfaces that minimize the environmental
+    impact of digital products.
+  tags: []
+  title: A Designer’s Guide To Eco-Friendly Interfaces
+  url: https://smashingmagazine.com/2026/02/designer-guide-eco-friendly-interfaces/
 - category: cybersecurity
   published: '2026-02-22T15:33:26'
   score: 0.903
@@ -22874,5 +23072,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-23T05:31:45.400221'
-total_articles: 1771
+last_updated: '2026-02-24T05:28:13.908478'
+total_articles: 1786
