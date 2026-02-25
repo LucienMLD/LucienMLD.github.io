@@ -1,4 +1,137 @@
 articles:
+- category: cybersecurity
+  published: '2026-02-24T23:57:58'
+  score: 1.115
+  source: BleepingComputer
+  summary: A financially motivated threat group dubbed "Diesel Vortex" is stealing
+    credentials from freight and logistics operators in the U.S. and Europe through
+    phishing attacks using 52 domains.
+  tags:
+  - Security
+  title: Phishing campaign targets freight and logistics orgs in the US, Europe
+  url: https://www.bleepingcomputer.com/news/security/phishing-campaign-targets-freight-and-logistics-orgs-in-the-us-europe/
+- category: webdev
+  published: '2026-02-24T20:00:00'
+  score: 0.741
+  source: Towards Data Science
+  summary: The post explores techniques for optimizing token generation in PyTorch
+    decoder models, including hiding host-device synchronization via CUDA stream interleaving.
+  tags:
+  - Artificial Intelligence
+  - Cuda
+  - Deep Dives
+  - Deep Learning
+  - Optimization
+  title: Optimizing Token Generation in PyTorch Decoder Models
+  url: https://towardsdatascience.com/optimizing-token-generation-in-pytorch-decoder-models/
+- category: cybersecurity
+  published: '2026-02-24T18:52:00'
+  score: 1.12
+  source: The Hacker News
+  summary: A vulnerability in GitHub Codespaces, dubbed "RoguePilot" by Orca Security,
+    could have allowed bad actors to seize control of repositories by injecting malicious
+    Copilot instructions in a GitHub issue. This AI-driven vulnerability has been
+    patched by GitHub.
+  tags: []
+  title: RoguePilot Flaw in GitHub Codespaces Enabled Copilot to Leak GITHUB_TOKEN
+  url: https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html
+- category: ai
+  published: '2026-02-24T15:46:50'
+  score: 0.874
+  source: AWS Machine Learning
+  summary: CodeFu-7B, a specialized 7-billion parameter model for competitive programming,
+    can be trained using Group Relative Policy Optimization (GRPO) with veRL on Amazon
+    SageMaker Training jobs.
+  tags:
+  - Amazon SageMaker AI
+  - Artificial Intelligence
+  - Foundation models
+  - Generative AI
+  - Technical How-to
+  title: Train CodeFu-7B with veRL and Ray on Amazon SageMaker Training jobs
+  url: https://aws.amazon.com/blogs/machine-learning/train-codefu-7b-with-verl-and-ray-on-amazon-sagemaker-training-jobs/
+- category: ai
+  published: '2026-02-24T15:42:34'
+  score: 0.829
+  source: AWS Machine Learning
+  summary: Dottxt's Outlines framework provides a practical approach to implementing
+    structured outputs using AWS Marketplace in Amazon SageMaker.
+  tags:
+  - Amazon SageMaker
+  - Amazon SageMaker AI
+  - Artificial Intelligence
+  - Customer Solutions
+  title: Generate structured output from LLMs with Dottxt Outlines in AWS
+  url: https://aws.amazon.com/blogs/machine-learning/generate-structured-output-from-llms-with-dottxt-outlines-in-aws/
+- category: ai
+  published: '2026-02-24T15:38:22'
+  score: 0.873
+  source: AWS Machine Learning
+  summary: Anthropic's latest Claude Opus, Sonnet, and Haiku models are now available
+    through Amazon Bedrock's global cross-Region inference for customers in Thailand,
+    Malaysia, Singapore, Indonesia, and Taiwan.
+  tags:
+  - Amazon Bedrock
+  - Artificial Intelligence
+  title: Global cross-Region inference for latest Anthropic Claude Opus, Sonnet and
+    Haiku models on Amazon Bedrock in Thailand, Malaysia, Singapore, Indonesia, and
+    Taiwan
+  url: https://aws.amazon.com/blogs/machine-learning/global-cross-region-inference-for-latest-anthropic-claude-opus-sonnet-and-haiku-models-on-amazon-bedrock-in-thailand-malaysia-singapore-indonesia-and-taiwan/
+- category: ai
+  published: '2026-02-24T15:33:51'
+  score: 0.916
+  source: AWS Machine Learning
+  summary: Anthropic's Claude Opus 4.6, Claude Sonnet 4.6, Claude Opus 4.5, Claude
+    Sonnet 4.5, and Claude Haiku 4.5 models are now available through Amazon Bedrock
+    global cross-Region inference for customers in the Middle East.
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Artificial Intelligence
+  title: Introducing Amazon Bedrock global cross-Region inference for Anthropic’s
+    Claude models in the Middle East Regions (UAE and Bahrain)
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-amazon-bedrock-global-cross-region-inference-for-anthropics-claude-models-in-the-middle-east-regions/
+- category: cybersecurity
+  published: '2026-02-24T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Successful exploitation of vulnerabilities in InSAT MasterSCADA BUK-TS
+    could allow remote code execution. The CSAF (Cybersecurity Advisory Format) report
+    provides details on these vulnerabilities.
+  tags: []
+  title: InSAT MasterSCADA BUK-TS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-055-01
+- category: cybersecurity
+  published: '2026-02-24T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Schneider Electric is aware of a vulnerability in EcoStruxure Building
+    Operation Workstation and EcoStruxure Building Operation WebStation that could
+    allow unauthorized access and control of edge devices and cloud-based services.
+  tags: []
+  title: Schneider Electric EcoStruxure Building Operation Workstation
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-055-02
+- category: cybersecurity
+  published: '2026-02-24T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Successful exploitation of vulnerabilities in the Gardyn Home Kit could
+    allow unauthenticated users to access and control edge devices and cloud-based
+    services. The CSAF report provides more information.
+  tags: []
+  title: Gardyn Home Kit
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-055-03
+- category: ai
+  published: '2026-02-24T06:04:00'
+  score: 0.939
+  source: The Hacker News
+  summary: Anthropic has identified "industrial-scale campaigns" by three Chinese
+    AI companies, DeepSeek, Moonshot AI, and MiniMax, to illegally extract capabilities
+    from Anthropic's Claude model to improve their own models. The attacks generated
+    over 16 million exchanges.
+  tags: []
+  title: Anthropic Says Chinese AI Firms Used 16 Million Claude Queries to Copy Model
+  url: https://thehackernews.com/2026/02/anthropic-says-chinese-ai-firms-used-16.html
 - category: ai
   published: '2026-02-24T00:00:21'
   score: 0.942
@@ -23072,5 +23205,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-24T05:28:13.908478'
-total_articles: 1786
+last_updated: '2026-02-25T05:29:22.268284'
+total_articles: 1797
