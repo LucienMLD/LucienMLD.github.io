@@ -1,4 +1,206 @@
 articles:
+- category: webdev
+  published: '2026-02-25T23:02:16'
+  score: 0.76
+  source: BleepingComputer
+  summary: Medical device manufacturer UFP Technologies has disclosed a cybersecurity
+    incident that compromised its IT systems and data, highlighting the ongoing threat
+    of cyberattacks in the healthcare industry.
+  tags:
+  - Security
+  - Healthcare
+  title: Medical device maker UFP Technologies warns of data stolen in cyberattack
+  url: https://www.bleepingcomputer.com/news/security/medical-device-maker-ufp-technologies-warns-of-data-stolen-in-cyberattack/
+- category: ai
+  published: '2026-02-25T22:09:21'
+  score: 0.874
+  source: Ars Technica
+  summary: A judge has ruled that Elon Musk's xAI has no proof that OpenAI stole trade
+    secrets, rejecting Musk's lawsuit and highlighting the challenges in proving such
+    claims.
+  tags:
+  - AI
+  - Policy
+  - Antitrust law
+  - Artificial Intelligence
+  - data centers
+  title: Musk has no proof OpenAI stole xAI trade secrets, judge rules, tossing lawsuit
+  url: https://arstechnica.com/tech-policy/2026/02/judge-xai-cant-claim-openai-stole-trade-secrets-just-by-hiring-ex-staffers/
+- category: ai
+  published: '2026-02-25T21:41:27'
+  score: 0.827
+  source: Ars Technica
+  summary: Samsung's latest Galaxy S26 series features improved performance, increased
+    pricing, and enhanced AI capabilities, further advancing the company's smartphone
+    offerings.
+  tags:
+  - AI
+  - Tech
+  - android
+  - Galaxy s26
+  - Samsung
+  title: The Galaxy S26 is faster, more expensive, and even more chock-full of AI
+  url: https://arstechnica.com/gadgets/2026/02/samsung-reveals-galaxy-s26-lineup-with-privacy-display-and-exclusive-gemini-smarts/
+- category: cybersecurity
+  published: '2026-02-25T21:31:39'
+  score: 1.093
+  source: CSS-Tricks
+  summary: A recent vulnerability, CVE-2026-2441, was found in CSS that allowed a
+    remote attacker to execute arbitrary code inside a sandbox via a crafted HTML
+    page, demonstrating the potential for vulnerabilities in unexpected places like
+    CSS.
+  tags:
+  - Articles
+  - news
+  - security
+  title: An Exploit … in CSS?!
+  url: https://css-tricks.com/an-exploit-in-css/
+- category: ai
+  published: '2026-02-25T20:56:13'
+  score: 0.909
+  source: AWS Machine Learning
+  summary: Amazon has implemented multi-LoRA inference for Mixture of Experts (MoE)
+    models in vLLM, utilizing kernel-level optimizations to efficiently serve dozens
+    of fine-tuned models on Amazon SageMaker AI and Amazon Bedrock.
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon Machine Learning
+  - Amazon SageMaker
+  title: Efficiently serve dozens of fine-tuned models with vLLM on Amazon SageMaker
+    AI and Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/efficiently-serve-dozens-of-fine-tuned-models-with-vllm-on-amazon-sagemaker-ai-and-amazon-bedrock/
+- category: webdev
+  published: '2026-02-25T18:43:18'
+  score: 0.773
+  source: Towards Data Science
+  summary: Researchers at Habana Labs have developed a solution called "Peer Direct"
+    that leverages RDMA-like performance over cloud host NICs, addressing the host
+    memory bottleneck and restoring distributed training scalability.
+  tags:
+  - Artificial Intelligence
+  - Ai Engineering
+  - Editors Pick
+  - GAUDI
+  - HCCL
+  title: 'Breaking the Host Memory Bottleneck: How Peer Direct Transformed Gaudi’s
+    Cloud Performance'
+  url: https://towardsdatascience.com/breaking-the-host-memory-bottleneck/
+- category: webdev
+  published: '2026-02-25T18:27:27'
+  score: 0.731
+  source: Ars Technica
+  summary: The 2026 Lexus RZ 550e, while likable, has room for improvement in terms
+    of efficiency and the user experience with synthetic gearshifts.
+  tags:
+  - Cars
+  - car review
+  - Lexus RZ 550e F Sport
+  title: '2026 Lexus RZ 550e review: Likable, but it needs improvement'
+  url: https://arstechnica.com/cars/2026/02/2026-lexus-rz-550e-review-likable-but-it-needs-improvement/
+- category: webdev
+  published: '2026-02-25T18:21:38'
+  score: 0.731
+  source: Ars Technica
+  summary: RAM now represents 35 percent of the bill of materials for HP PCs, a significant
+    increase from the previous 15-18 percent, indicating the growing importance of
+    memory components in modern computing devices.
+  tags:
+  - Tech
+  - Desktops
+  - HP
+  - laptops
+  - RAM
+  title: RAM now represents 35 percent of bill of materials for HP PCs
+  url: https://arstechnica.com/gadgets/2026/02/ram-now-represents-35-percent-of-bill-of-materials-for-hp-pcs/
+- category: cybersecurity
+  published: '2026-02-25T18:01:51'
+  score: 1.114
+  source: BleepingComputer
+  summary: A critical vulnerability (CVE-2026-20127) in Cisco Catalyst SD-WAN is being
+    actively exploited in zero-day attacks, allowing remote attackers to compromise
+    controllers and add malicious rogue peers to targeted networks. Cisco is warning
+    organizations to apply the available patch to address this critical flaw.
+  tags:
+  - Security
+  title: Critical Cisco SD-WAN bug exploited in zero-day attacks since 2023
+  url: https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/
+- category: cybersecurity
+  published: '2026-02-25T15:54:44'
+  score: 1.05
+  source: BleepingComputer
+  summary: Marquis Software Solutions has filed a lawsuit against SonicWall, alleging
+    that the company's negligence and misrepresentation led to a ransomware attack
+    that disrupted operations at 74 U.S. banks.
+  tags:
+  - Security
+  - CryptoCurrency
+  - Legal
+  title: Marquis sues SonicWall over backup breach that led to ransomware attack
+  url: https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/
+- category: webdev
+  published: '2026-02-25T14:50:58'
+  score: 0.829
+  source: CSS-Tricks
+  summary: Browsers allow users to bookmark JavaScript, enabling the creation of powerful
+    "bookmarklets" that can enhance web browsing experiences beyond just saving pages.
+  tags:
+  - Articles
+  - bookmarklet
+  - JavaScript
+  title: A Complete Guide to Bookmarklets
+  url: https://css-tricks.com/a-complete-guide-to-bookmarklets/
+- category: ai
+  published: '2026-02-25T14:29:23'
+  score: 0.821
+  source: Ars Technica
+  summary: After attempting to limit military use of its technology, Anthropic's CEO
+    was summoned to Washington, where he was told by Pete Hegseth to fall in line
+    with the Department of Defense's desires.
+  tags:
+  - AI
+  - Anthropic
+  - Department of Defense
+  - LLM
+  - Pete Hegseth
+  title: Pete Hegseth tells Anthropic to fall in line with DoD desires, or else
+  url: https://arstechnica.com/ai/2026/02/pete-hegseth-wants-unfettered-access-to-anthropics-models-for-the-military/
+- category: ai
+  published: '2026-02-25T12:01:23'
+  score: 0.98
+  source: Schneier on Security
+  summary: Researchers have demonstrated how an attacker can "poison" AI training
+    data by creating a website, highlighting the importance of securing and validating
+    training data to prevent malicious exploitation.
+  tags:
+  - Uncategorized
+  - AI
+  - hacking
+  - trust
+  title: Poisoning AI Training Data
+  url: https://www.schneier.com/blog/archives/2026/02/poisoning-ai-training-data.html
+- category: cybersecurity
+  published: '2026-02-25T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, indicating that they are actively being exploited and should be
+    prioritized for patching by organizations.
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-02-25T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: CISA and partners have released guidance to help organizations with Cisco
+    SD-WAN systems address ongoing exploitation of multiple vulnerabilities, emphasizing
+    the need for timely patching and monitoring.
+  tags: []
+  title: CISA and Partners Release Guidance for Ongoing Global Exploitation of Cisco
+    SD-WAN Systems
+  url: https://www.cisa.gov/news-events/alerts/2026/02/25/cisa-and-partners-release-guidance-ongoing-global-exploitation-cisco-sd-wan-systems
 - category: cybersecurity
   published: '2026-02-24T23:57:58'
   score: 1.115
@@ -23205,5 +23407,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-25T05:29:22.268284'
-total_articles: 1797
+last_updated: '2026-02-26T05:27:09.029996'
+total_articles: 1812
