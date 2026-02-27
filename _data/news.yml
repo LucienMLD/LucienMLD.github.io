@@ -1,4 +1,198 @@
 articles:
+- category: ai
+  published: '2026-02-26T22:53:18'
+  score: 0.835
+  source: Ars Technica
+  summary: Perplexity has announced "Computer," an AI agent that can assign work to
+    other AI agents. This represents a more buttoned-down and ostensibly safer approach
+    to the OpenClaw concept.
+  tags:
+  - AI
+  - agentic AI
+  - Claude Code
+  - Claude Cowork
+  - LLM
+  title: Perplexity announces "Computer," an AI agent that assigns work to other AI
+    agents
+  url: https://arstechnica.com/ai/2026/02/perplexity-announces-computer-an-ai-agent-that-assigns-work-to-other-ai-agents/
+- category: webdev
+  published: '2026-02-26T22:36:22'
+  score: 0.758
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 238 is now available for download for
+    macOS Tahoe and macOS Sequoia, bringing various updates and improvements to the
+    Safari browser.
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 238
+  url: https://webkit.org/blog/17848/release-notes-for-safari-technology-preview-238/
+- category: ai
+  published: '2026-02-26T17:45:59'
+  score: 0.844
+  source: AWS Machine Learning
+  summary: AWS has released significant updates to its Large Model Inference (LMI)
+    container, focusing on reducing operational complexity and delivering comprehensive
+    performance improvements, expanded model support, and streamlined deployment capabilities
+    for customers hosting large language models on AWS.
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker
+  - Artificial Intelligence
+  title: Large model inference container – latest capabilities and performance enhancements
+  url: https://aws.amazon.com/blogs/machine-learning/large-model-inference-container-latest-capabilities-and-performance-enhancements/
+- category: ai
+  published: '2026-02-26T17:12:10'
+  score: 0.84
+  source: Ars Technica
+  summary: Google has revealed its new Nano Banana 2 AI image model, which is set
+    to replace the previous versions and come to the Gemini platform. This new model
+    is expected to offer improved capabilities and performance.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - Artificial Intelligence
+  - generative ai
+  title: Google reveals Nano Banana 2 AI image model, coming to Gemini today
+  url: https://arstechnica.com/ai/2026/02/google-releases-nano-banana-2-ai-image-generator-promises-pro-results-with-flash-speed/
+- category: webdev
+  published: '2026-02-26T16:02:36'
+  score: 0.717
+  source: Mozilla Hacks
+  summary: This article discusses the efforts to make WebAssembly a first-class language
+    on the web, building on its evolution since its initial release in 2017. WebAssembly
+    has become an increasingly important technology for enabling new use cases and
+    capabilities in web-based applications.
+  tags:
+  - Featured Article
+  - wasm
+  - WebAssembly
+  title: Making WebAssembly a first-class language on the Web
+  url: https://hacks.mozilla.org/2026/02/making-webassembly-a-first-class-language-on-the-web/
+- category: ai
+  published: '2026-02-26T14:43:49'
+  score: 0.823
+  source: Machine Learning Mastery
+  summary: Key-value (KV) caching is an important consideration for developers working
+    with large language models (LLMs), as LLMs generate text one token at a time and
+    need to reprocess the entire sequence at each step. Understanding KV caching can
+    help improve the performance and efficiency of LLM-based applications.
+  tags: []
+  title: 'KV Caching in LLMs: A Guide for Developers'
+  url: https://machinelearningmastery.com/kv-caching-in-llms-a-guide-for-developers/
+- category: webdev
+  published: '2026-02-26T14:00:59'
+  score: 0.704
+  source: Ars Technica
+  summary: Subaru has introduced a new electric vehicle, the 2026 Subaru Uncharted,
+    which is based on the platform it shares with Toyota. The vehicle is priced at
+    $34,995, making it an affordable option in the EV market.
+  tags:
+  - Cars
+  - car review
+  - First drive
+  - Subaru Uncharted
+  - Toyota bZ
+  title: 'Badge engineering could be worse than this: The 2026 Subaru Uncharted'
+  url: https://arstechnica.com/cars/2026/02/2026-subaru-uncharted-first-drive-fwd-might-be-the-biggest-selling-point/
+- category: webdev
+  published: '2026-02-26T13:04:02'
+  score: 0.698
+  source: BleepingComputer
+  summary: Microsoft has expanded its Windows restore functionality to more enterprise
+    devices, allowing more users to restore their personal settings and Microsoft
+    Store apps from a previous Windows 11 device.
+  tags:
+  - Security
+  title: Microsoft expands Windows restore to more enterprise devices
+  url: https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/
+- category: ai
+  published: '2026-02-26T12:07:10'
+  score: 0.849
+  source: Schneier on Security
+  summary: Large language models (LLMs) have been found to generate predictable passwords,
+    which could make them vulnerable to password-guessing attacks. The article highlights
+    the patterns in the passwords generated by LLMs, indicating their limited effectiveness
+    in generating secure passwords.
+  tags:
+  - Uncategorized
+  - AI
+  - LLM
+  - passwords
+  - random numbers
+  title: LLMs Generate Predictable Passwords
+  url: https://www.schneier.com/blog/archives/2026/02/llms-generate-predictable-passwords.html
+- category: cybersecurity
+  published: '2026-02-26T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The Chargemap platform is vulnerable to multiple security issues that could
+    enable attackers to gain unauthorized administrative control over the system.
+    Successful exploitation of these vulnerabilities could have serious consequences
+    for the platform and its users.
+  tags: []
+  title: Chargemap chargemap.com
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-05
+- category: cybersecurity
+  published: '2026-02-26T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The Yokogawa CENTUM VP R6 and R7 software systems are vulnerable to vulnerabilities
+    that could allow an attacker to terminate the software stack process and cause
+    a denial-of-service condition. These vulnerabilities could have significant impact
+    on the functionality and availability of the affected systems.
+  tags: []
+  title: Yokogawa CENTUM VP R6, R7
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-09
+- category: cybersecurity
+  published: '2026-02-26T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The Pelco Sarix Pro 3 Series IP Cameras have a vulnerability that could
+    allow attackers to gain unauthorized access to sensitive device data and bypass
+    surveillance measures. This could compromise the security and privacy of the devices
+    and their users.
+  tags: []
+  title: Pelco, Inc. Sarix Pro 3 Series IP Cameras
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-02
+- category: cybersecurity
+  published: '2026-02-26T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The Copeland XWEB and XWEB Pro systems are vulnerable to issues that could
+    enable attackers to bypass authentication, cause denial-of-service conditions,
+    and gain unauthorized access to the systems. These vulnerabilities could have
+    serious implications for the affected devices and their users.
+  tags: []
+  title: Copeland XWEB and XWEB Pro
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-10
+- category: cybersecurity
+  published: '2026-02-26T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The EV Energy platform is vulnerable to security issues that could enable
+    attackers to gain unauthorized administrative control over the system. Successful
+    exploitation of these vulnerabilities could have significant consequences for
+    the platform and its users.
+  tags: []
+  title: EV Energy ev.energy
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-07
+- category: webdev
+  published: '2026-02-26T12:00:00'
+  score: 0.691
+  source: Towards Data Science
+  summary: This article provides a deep dive into the topic of filtering in DAX, the
+    data analysis expression language used in Power BI. It explores the underlying
+    mechanisms and implications of applying filters in DAX expressions, offering insights
+    for data analysts and developers working with Power BI.
+  tags:
+  - Data analysis
+  - Dax
+  - Deep Dives
+  - Performance Analysis
+  - Power Bi
+  title: Take a Deep Dive into Filtering in DAX
+  url: https://towardsdatascience.com/take-a-deep-dive-into-filtering-in-dax/
 - category: webdev
   published: '2026-02-25T23:02:16'
   score: 0.76
@@ -23407,5 +23601,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-26T05:27:09.029996'
-total_articles: 1812
+last_updated: '2026-02-27T05:24:06.247010'
+total_articles: 1827
