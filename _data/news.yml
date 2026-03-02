@@ -1,4 +1,171 @@
 articles:
+- category: cybersecurity
+  published: '2026-03-01T21:44:55'
+  score: 1.047
+  source: BleepingComputer
+  summary: The "ClawJacked" vulnerability in the OpenClaw AI agent allowed malicious
+    websites to silently brute-force access and take control of a locally running
+    instance, potentially compromising sensitive data. This high-severity vulnerability
+    has been disclosed and patched by the OpenClaw team.
+  tags:
+  - Security
+  title: ClawJacked attack let malicious websites hijack OpenClaw to steal data
+  url: https://www.bleepingcomputer.com/news/security/clawjacked-attack-let-malicious-websites-hijack-openclaw-to-steal-data/
+- category: cybersecurity
+  published: '2026-03-01T15:23:34'
+  score: 0.855
+  source: BleepingComputer
+  summary: Samsung has reached a settlement agreement with the State of Texas over
+    the alleged unlawful collection of content-viewing information through its smart
+    TVs. The agreement requires Samsung to obtain express consent from Texans before
+    collecting such data.
+  tags:
+  - Security
+  - Legal
+  title: Samsung TVs to stop collecting Texans’ data without express consent
+  url: https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/
+- category: ai
+  published: '2026-03-01T15:00:00'
+  score: 0.825
+  source: Towards Data Science
+  summary: The article proposes a "Zero-Waste Agentic RAG" caching architecture to
+    reduce Large Language Model (LLM) costs by 30% while minimizing latency. The approach
+    involves a multi-tier caching system and validation-aware techniques to optimize
+    the use of LLMs at scale.
+  tags:
+  - Large Language Models
+  - Agentic Ai
+  - Ai Engineering
+  - Deep Dives
+  - Llm Agent
+  title: 'Zero-Waste Agentic RAG: Designing Caching Architectures to Minimize Latency
+    and LLM Costs at Scale'
+  url: https://towardsdatascience.com/zero-waste-agentic-rag-designing-caching-architectures-to-minimize-latency-and-llm-costs-at-scale/
+- category: ai
+  published: '2026-03-01T13:00:00'
+  score: 0.767
+  source: Towards Data Science
+  summary: The article discusses "context engineering" as a competitive edge for AI
+    systems, where unique domain expertise is leveraged to make it usable and effective
+    for AI models, giving the system a distinct advantage.
+  tags:
+  - Large Language Models
+  - AI Agents
+  - Artificial Intelligence
+  - Context Engineering
+  - Deep Dives
+  title: Context Engineering as Your Competitive Edge
+  url: https://towardsdatascience.com/context-engineering-as-your-competitive-edge/
+- category: ai
+  published: '2026-03-01T12:07:22'
+  score: 0.761
+  source: Ars Technica
+  summary: The article explores some strange animals that can dramatically alter their
+    internal temperature, allowing them to outlast storms, floods, and predators,
+    providing insights into potential applications for temperature regulation in AI
+    systems.
+  tags:
+  - Science
+  - heterothermy
+  - homeothermy
+  - mammals
+  - syndication
+  title: The strange animals that control their body heat
+  url: https://arstechnica.com/science/2026/03/the-strange-animals-that-control-their-body-heat/
+- category: ai
+  published: '2026-02-28T20:00:26'
+  score: 0.644
+  source: Ars Technica
+  summary: The U.S. Defense Department has pressured Anthropic, an AI research company,
+    to drop restrictions on how its AI can be used by the military, leading to a move
+    by former President Trump to ban Anthropic from the U.S. government.
+  tags:
+  - AI
+  - Policy
+  - Anthrophic
+  - Department of Defense
+  - department of war
+  title: Trump moves to ban Anthropic from the US government
+  url: https://arstechnica.com/tech-policy/2026/02/trump-moves-to-ban-anthropic-from-the-us-government/
+- category: cybersecurity
+  published: '2026-02-28T19:18:52'
+  score: 0.75
+  source: BleepingComputer
+  summary: The "QuickLens - Search Screen with Google Lens" Chrome extension was compromised
+    to push malware and attempt to steal cryptocurrency from thousands of users, highlighting
+    the importance of caution when installing browser extensions.
+  tags:
+  - Security
+  title: QuickLens Chrome extension steals crypto, shows ClickFix attack
+  url: https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/
+- category: ai
+  published: '2026-02-28T18:17:12'
+  score: 0.677
+  source: Ars Technica
+  summary: In a puzzling outbreak investigation, a ChatGPT chatbot convinced health
+    officials that they had the right answer, showcasing the potential for AI assistants
+    to influence decision-making in unexpected ways.
+  tags:
+  - Health
+  - AI
+  - beer
+  - ChatGPT
+  - MMWR
+  title: In puzzling outbreak, officials look to cold beer, gross ice, and ChatGPT
+  url: https://arstechnica.com/health/2026/02/did-chatgpt-help-health-officials-solve-a-weird-outbreak-maybe/
+- category: cybersecurity
+  published: '2026-02-28T17:21:00'
+  score: 0.784
+  source: The Hacker News
+  summary: The "ClawJacked" vulnerability in the OpenClaw AI agent allowed malicious
+    websites to connect to a locally running AI agent and take control of it. This
+    high-severity issue has been fixed by the OpenClaw team.
+  tags: []
+  title: ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via
+    WebSocket
+  url: https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html
+- category: webdev
+  published: '2026-02-28T13:00:00'
+  score: 0.498
+  source: Towards Data Science
+  summary: The article presents techniques for scaling machine learning (ML) inference
+    on the Databricks platform, exploring the trade-offs between "Liquid" and "Partitioned"
+    approaches, as well as "Salted" and "Not Salted" strategies, to maximize cluster
+    performance.
+  tags:
+  - Data Engineering
+  - Big Data
+  - Data Science
+  - Machine Learning
+  - Mlops
+  title: 'Scaling ML Inference on Databricks: Liquid or Partitioned? Salted or Not?'
+  url: https://towardsdatascience.com/liquid-or-partitioned-salted-or-not-scaling-ml-inference-on-databricks/
+- category: cybersecurity
+  published: '2026-02-28T12:01:57'
+  score: 0.792
+  source: Krebs on Security
+  summary: The article investigates the identity of the "Dort" botmaster, who is behind
+    the Kimwolf botnet, one of the largest and most disruptive botnets in the world.
+    The botnet was assembled using a disclosed vulnerability, and the article aims
+    to shed light on the person responsible for its operations.
+  tags:
+  - A Little Sunshine
+  - Breadcrumbs
+  - DDoS-for-Hire
+  - Ne'er-Do-Well News
+  - Constella Intelligence
+  title: Who is the Kimwolf Botmaster “Dort”?
+  url: https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/
+- category: webdev
+  published: '2026-02-28T09:00:00'
+  score: 0.473
+  source: Smashing Magazine
+  summary: The article introduces a new batch of community-designed desktop wallpapers
+    for March 2026, providing users with inspiration and the opportunity to customize
+    their desktops for the spring season.
+  tags: []
+  title: Fresh Energy In March (2026 Wallpapers Edition)
+  url: https://smashingmagazine.com/2026/02/desktop-wallpaper-calendars-march-2026/
 - category: ai
   published: '2026-02-26T22:53:18'
   score: 0.835
@@ -23601,5 +23768,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-02-27T05:24:06.247010'
-total_articles: 1827
+last_updated: '2026-03-02T05:23:39.067599'
+total_articles: 1839
