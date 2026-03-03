@@ -1,5 +1,213 @@
 articles:
 - category: cybersecurity
+  published: '2026-03-03T00:06:39'
+  score: 1.212
+  source: BleepingComputer
+  summary: Researchers warn that the open-source AI security testing platform CyberStrikeAI
+    was used by the same threat actor behind a recent campaign that breached hundreds
+    of Fortinet FortiGate firewalls, highlighting the potential for misuse of such
+    tools in AI-powered attacks.
+  tags:
+  - Security
+  title: CyberStrikeAI tool adopted by hackers for AI-powered attacks
+  url: https://www.bleepingcomputer.com/news/security/cyberstrikeai-tool-adopted-by-hackers-for-ai-powered-attacks/
+- category: ai
+  published: '2026-03-02T22:30:00'
+  score: 0.877
+  source: Towards Data Science
+  summary: The article provides a PyTorch implementation and walkthrough of the YOLOv3
+    architecture, a popular object detection model, discussing its technical advancements
+    and implications for computer vision applications.
+  tags:
+  - Artificial Intelligence
+  - Computer Vision
+  - Deep Dives
+  - Deep Learning
+  - Neural Network
+  title: 'YOLOv3 Paper Walkthrough: Even Better, But Not That Much'
+  url: https://towardsdatascience.com/yolov3-paper-walkthrough-even-better-but-not-that-much/
+- category: ai
+  published: '2026-03-02T21:25:38'
+  score: 0.869
+  source: Towards Data Science
+  summary: The article shares lessons learned in machine learning, including the importance
+    of exchanging ideas with others, effective documentation practices, and the significance
+    of MLOps in streamlining machine learning workflows.
+  tags:
+  - Machine Learning
+  - Communication
+  - Documentation
+  - Editors Pick
+  - Mlops
+  title: The Machine Learning Lessons I’ve Learned This Month
+  url: https://towardsdatascience.com/the-machine-learning-lessons-ive-learned-this-month-4/
+- category: webdev
+  published: '2026-03-02T21:00:00'
+  score: 0.788
+  source: Towards Data Science
+  summary: The post showcases the advantages of using the FastAPI framework for building
+    APIs, including its ease of use, Pydantic model integration, and automatic documentation
+    generation, demonstrating its potential to improve developer productivity and
+    streamline API development.
+  tags:
+  - Programming
+  - API
+  - Api Development
+  - Fastapi
+  - Python
+  title: 'Code Less, Ship Faster: Building APIs with FastAPI'
+  url: https://towardsdatascience.com/code-less-ship-faster-building-apis-with-fastapi/
+- category: cybersecurity
+  published: '2026-03-02T20:23:41'
+  score: 1.037
+  source: BleepingComputer
+  summary: A phishing campaign is using a fake Google Account security page to deliver
+    a web-based app capable of stealing one-time passcodes, harvesting cryptocurrency
+    wallet addresses, and proxying attacker traffic through victims' browsers, highlighting
+    the ongoing threat of sophisticated social engineering attacks.
+  tags:
+  - Security
+  title: Fake Google Security site uses PWA app to steal credentials, MFA codes
+  url: https://www.bleepingcomputer.com/news/security/fake-google-security-site-uses-pwa-app-to-steal-credentials-mfa-codes/
+- category: ai
+  published: '2026-03-02T18:51:43'
+  score: 0.852
+  source: AWS Machine Learning
+  summary: The post explores building an intelligent conversational agent using Amazon
+    Bedrock, LangGraph, and managed MLflow on Amazon SageMaker AI, showcasing the
+    capabilities of cloud-based AI services in developing advanced conversational
+    AI applications.
+  tags:
+  - Amazon Bedrock
+  - Amazon DynamoDB
+  - Amazon SageMaker AI
+  - Generative AI
+  - Intermediate (200)
+  title: Build a serverless conversational AI agent using Claude with LangGraph and
+    managed MLflow on Amazon SageMaker AI
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-serverless-conversational-ai-agent-using-claude-with-langgraph-and-managed-mlflow-on-amazon-sagemaker-ai/
+- category: ai
+  published: '2026-03-02T18:48:25'
+  score: 0.851
+  source: AWS Machine Learning
+  summary: The article outlines best practices for configuring Amazon Bedrock Guardrails
+    to ensure the safe and responsible deployment of generative AI applications, emphasizing
+    the need for proactive measures to balance performance and user protection.
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Bedrock Guardrails
+  - Best Practices
+  - Responsible AI
+  title: 'Build safe generative AI applications like a Pro: Best Practices with Amazon
+    Bedrock Guardrails'
+  url: https://aws.amazon.com/blogs/machine-learning/build-safe-generative-ai-applications-like-a-pro-best-practices-with-amazon-bedrock-guardrails/
+- category: webdev
+  published: '2026-03-02T18:19:03'
+  score: 0.731
+  source: Ars Technica
+  summary: The FCC has granted Charter permission to acquire Cox Communications, a
+    move that will create the largest internet service provider (ISP) in the US, raising
+    concerns about the potential impact on market competition and consumer choice.
+  tags:
+  - Policy
+  - Charter
+  - Cox
+  - FCC
+  - spectrum
+  title: Charter gets FCC permission to buy Cox and become largest ISP in the US
+  url: https://arstechnica.com/tech-policy/2026/03/fcc-lets-charter-buy-cox-says-no-reason-to-worry-about-higher-internet-prices/
+- category: cybersecurity
+  published: '2026-03-02T17:08:00'
+  score: 1.108
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of a now-patched security
+    flaw in Google Chrome that could have permitted attackers to escalate privileges
+    and gain access to local files on the system, underscoring the need for prompt
+    software updates to address such vulnerabilities.
+  tags: []
+  title: New Chrome Vulnerability Let Malicious Extensions Escalate Privileges via
+    Gemini Panel
+  url: https://thehackernews.com/2026/03/new-chrome-vulnerability-let-malicious.html
+- category: cybersecurity
+  published: '2026-03-02T15:54:33'
+  score: 0.955
+  source: BleepingComputer
+  summary: The United Kingdom's National Cyber Security Centre (NCSC) alerted British
+    organizations to a heightened risk of Iranian cyberattacks amid the ongoing conflict
+    in the Middle East, emphasizing the need for vigilance and proactive cybersecurity
+    measures in response to geopolitical tensions.
+  tags:
+  - Security
+  title: UK warns of Iranian cyberattack risks amid Middle-East conflict
+  url: https://www.bleepingcomputer.com/news/security/uk-warns-of-iranian-cyberattack-risks-amid-middle-east-conflict/
+- category: webdev
+  published: '2026-03-02T15:34:42'
+  score: 0.714
+  source: Ars Technica
+  summary: Iowa county has adopted strict zoning rules for data centers, but some
+    residents still express concerns that the regulations may not be sufficient to
+    address the environmental and infrastructure challenges posed by the proliferation
+    of data centers in the region.
+  tags:
+  - AI
+  - data centers
+  - envirtonme
+  - regulation
+  - syndication
+  title: Iowa county adopts strict zoning rules for data centers, but residents still
+    worry
+  url: https://arstechnica.com/ai/2026/03/iowa-county-adopts-strict-zoning-rules-for-data-centers-but-residents-still-worry/
+- category: webdev
+  published: '2026-03-02T15:10:07'
+  score: 0.831
+  source: CSS-Tricks
+  summary: The article compares the Popover API and Dialog API, two browser-native
+    features for creating interactive UI elements, discussing their differences in
+    terms of accessibility and use cases to help developers choose the appropriate
+    tool for their needs.
+  tags:
+  - Articles
+  - accessibility
+  - dialog
+  - popover
+  title: 'Popover API or Dialog API: Which to Choose?'
+  url: https://css-tricks.com/popover-api-or-dialog-api-which-to-choose/
+- category: ai
+  published: '2026-03-02T12:23:00'
+  score: 0.851
+  source: BleepingComputer
+  summary: Anthropic, the company behind the AI assistant Claude, has confirmed a
+    major worldwide outage, highlighting the potential impact of service disruptions
+    on AI-powered applications and the importance of robust system resilience.
+  tags:
+  - Artificial Intelligence
+  - Software
+  title: Anthropic confirms Claude is down in a worldwide outage
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-a-worldwide-outage/
+- category: cybersecurity
+  published: '2026-03-02T10:36:00'
+  score: 1.059
+  source: The Hacker News
+  summary: A recently disclosed security flaw patched by Microsoft, CVE-2026-21513,
+    may have been exploited by the Russia-linked state-sponsored threat actor APT28,
+    showcasing the importance of closely monitoring and addressing zero-day vulnerabilities
+    to mitigate potential attacks.
+  tags: []
+  title: APT28 Tied to CVE-2026-21513 MSHTML 0-Day Exploited Before Feb 2026 Patch
+    Tuesday
+  url: https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html
+- category: webdev
+  published: '2026-03-02T10:00:00'
+  score: 0.839
+  source: Smashing Magazine
+  summary: The article explores the Popover API, a native browser feature that enables
+    the creation of tooltips and other UI elements without relying on external libraries,
+    improving accessibility and user experience.
+  tags: []
+  title: Getting Started With The Popover API
+  url: https://smashingmagazine.com/2026/03/getting-started-popover-api/
+- category: cybersecurity
   published: '2026-03-01T21:44:55'
   score: 1.047
   source: BleepingComputer
@@ -23768,5 +23976,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-02T05:23:39.067599'
-total_articles: 1839
+last_updated: '2026-03-03T05:23:13.960951'
+total_articles: 1854
