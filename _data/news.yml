@@ -1,5 +1,190 @@
 articles:
 - category: cybersecurity
+  published: '2026-03-03T23:40:37'
+  score: 1.258
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added
+    a VMware Aria Operations vulnerability to its Known Exploited Vulnerabilities
+    catalog, indicating that the flaw is being actively exploited in attacks. Successful
+    exploitation of this vulnerability could allow attackers to gain unauthorized
+    control over vulnerable systems.
+  tags:
+  - Security
+  title: CISA flags VMware Aria Operations RCE flaw as exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-flags-vmware-aria-operations-rce-flaw-as-exploited-in-attacks/
+- category: webdev
+  published: '2026-03-03T22:54:21'
+  score: 0.76
+  source: Ars Technica
+  summary: NASA is targeting April 1 for the Artemis II launch to the Moon, as engineers
+    investigate the issue that led to a seal becoming dislodged during a previous
+    attempt.
+  tags:
+  - Space
+  - artemis
+  - artemis II
+  - human spaceflight
+  - Kennedy Space Center
+  title: 'No fooling: NASA targets April 1 for Artemis II launch to the Moon'
+  url: https://arstechnica.com/space/2026/03/no-fooling-nasa-targets-april-1-for-artemis-ii-launch-to-the-moon/
+- category: webdev
+  published: '2026-03-03T22:20:06'
+  score: 0.756
+  source: Ars Technica
+  summary: Accenture plans to acquire Ookla, which includes Downdetector, Speedtest,
+    RootMetrics, and Ekahau, in a $1.2 billion deal.
+  tags:
+  - Biz & IT
+  - Accenture
+  - acquisition
+  - mergers
+  title: Downdetector, Speedtest sold to IT service provider Accenture in $1.2B deal
+  url: https://arstechnica.com/information-technology/2026/03/downdetector-speedtest-sold-to-it-service-provider-accenture-in-1-2b-deal/
+- category: webdev
+  published: '2026-03-03T22:05:36'
+  score: 0.755
+  source: Ars Technica
+  summary: The FCC chair has indicated that the Paramount/Warner Bros. Discovery merger
+    will be a "lot cleaner" review process compared to the now-defunct Netflix deal.
+  tags:
+  - Policy
+  - brendan carr
+  - Paramount Skydance
+  - warner bros. discovery
+  title: FCC chair calls Paramount/WBD merger "a lot cleaner" than defunct Netflix
+    deal
+  url: https://arstechnica.com/tech-policy/2026/03/trump-fcc-chair-paramount-warner-bros-merger-likely-to-get-quick-approval/
+- category: webdev
+  published: '2026-03-03T17:00:00'
+  score: 0.763
+  source: BleepingComputer
+  summary: Google Chrome will shift to a two-week release cycle to roll out new features,
+    bug fixes, and performance improvements more frequently, aiming for increased
+    stability.
+  tags:
+  - Security
+  - Software
+  title: Google Chrome shifts to two-week release cycle for increased stability
+  url: https://www.bleepingcomputer.com/news/security/google-chrome-shifts-to-two-week-release-cycle-for-increased-stability/
+- category: ai
+  published: '2026-03-03T16:34:00'
+  score: 0.836
+  source: Google AI Blog
+  summary: Gemini 3.1 Flash Lite is an AI-powered platform designed for intelligence
+    at scale, offering enhanced capabilities for enterprises.
+  tags:
+  - Gemini models
+  - AI
+  title: 'Gemini 3.1 Flash-Lite: Built for intelligence at scale'
+  url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/
+- category: ai
+  published: '2026-03-03T16:18:30'
+  score: 0.835
+  source: AWS Machine Learning
+  summary: Lendi Group built an AI-powered Home Loan Guardian using Amazon Bedrock,
+    achieving significant business outcomes by improving the refinance journey for
+    their customers.
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon Bedrock Agents
+  - Customer Solutions
+  - Financial Services
+  title: How Lendi revamped the refinance journey for its customers using agentic
+    AI in 16 weeks using Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/how-lendi-revamped-the-refinance-journey-for-its-customers-using-agentic-ai-in-12-weeks-using-amazon-bedrock/
+- category: webdev
+  published: '2026-03-03T15:00:00'
+  score: 0.75
+  source: Smashing Magazine
+  summary: The new Smashing Book, "Accessible UX Research" by Michele Williams, provides
+    guidance on incorporating accessibility into the entire design process, including
+    research.
+  tags: []
+  title: 'Now Shipping: Accessible UX Research, A New Smashing Book By Michele Williams'
+  url: https://smashingmagazine.com/2026/03/accessible-ux-research-release/
+- category: ai
+  published: '2026-03-03T14:29:00'
+  score: 0.822
+  source: The Hacker News
+  summary: Threat actors leveraged an open-source, AI-native security testing platform
+    called CyberStrikeAI to execute attacks targeting Fortinet FortiGate appliances
+    across 55 countries.
+  tags: []
+  title: Open-Source CyberStrikeAI Deployed in AI-Driven FortiGate Attacks Across
+    55 Countries
+  url: https://thehackernews.com/2026/03/open-source-cyberstrikeai-deployed-in.html
+- category: ai
+  published: '2026-03-03T12:30:24'
+  score: 0.808
+  source: Ars Technica
+  summary: Large language models (LLMs) can potentially unmask pseudonymous users
+    with surprising accuracy, reducing the effectiveness of pseudonymity for privacy
+    preservation.
+  tags:
+  - AI
+  - Biz & IT
+  - Security
+  - deanonymization
+  - LLMs
+  title: LLMs can unmask pseudonymous users at scale with surprising accuracy
+  url: https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/
+- category: cybersecurity
+  published: '2026-03-03T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The CSAF document outlines vulnerabilities affecting the Mobiliti e-mobi.hu
+    product. Successful exploitation of these vulnerabilities could enable attackers
+    to gain unauthorized administrative control over vulnerable systems, potentially
+    leading to disruption or unauthorized access.
+  tags: []
+  title: Mobiliti e-mobi.hu
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-06
+- category: cybersecurity
+  published: '2026-03-03T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The CSAF document describes vulnerabilities affecting the Hitachi Energy
+    RTU500 product. Successful exploitation of these flaws could allow attackers to
+    gain unauthorized control over system operations, potentially leading to disruption
+    or unauthorized access.
+  tags: []
+  title: Hitachi Energy RTU500 Product
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-03
+- category: cybersecurity
+  published: '2026-03-03T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The CSAF document highlights a vulnerability in the Labkotec LID-3300IP
+    product. Successful exploitation of this flaw could enable attackers to gain unauthorized
+    control over system operations, potentially leading to disruption or unauthorized
+    access.
+  tags: []
+  title: Labkotec LID-3300IP
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-05
+- category: cybersecurity
+  published: '2026-03-03T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: The CSAF document outlines vulnerabilities affecting the ePower epower.ie
+    product. Successful exploitation of these flaws could enable attackers to gain
+    unauthorized administrative control over vulnerable systems, potentially leading
+    to disruption or unauthorized access.
+  tags: []
+  title: ePower epower.ie
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-07
+- category: ai
+  published: '2026-03-03T11:30:00'
+  score: 0.801
+  source: The Hacker News
+  summary: The rise of Model Context Protocol (MCP) enables the deployment of prompt-driven
+    AI agents that can retrieve information, take action, and automate tasks within
+    enterprise applications, APIs, and data sources.
+  tags: []
+  title: 'AI Agents: The Next Wave Identity Dark Matter - Powerful, Invisible, and
+    Unmanaged'
+  url: https://thehackernews.com/2026/03/ai-agents-next-wave-identity-dark.html
+- category: cybersecurity
   published: '2026-03-03T00:06:39'
   score: 1.212
   source: BleepingComputer
@@ -23976,5 +24161,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-03T05:23:13.960951'
-total_articles: 1854
+last_updated: '2026-03-04T05:19:35.960829'
+total_articles: 1869
