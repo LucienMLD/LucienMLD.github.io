@@ -1,4 +1,191 @@
 articles:
+- category: ai
+  published: '2026-03-04T22:34:58'
+  score: 0.833
+  source: BleepingComputer
+  summary: Bitwarden has added support for logging into Windows 11 devices using passkeys
+    stored in the password manager's vault, enabling phishing-resistant authentication.
+  tags:
+  - Security
+  - Microsoft
+  - Software
+  title: Bitwarden adds support for passkey login on Windows 11
+  url: https://www.bleepingcomputer.com/news/security/bitwarden-adds-support-for-passkey-login-on-windows-11/
+- category: ai
+  published: '2026-03-04T22:14:54'
+  score: 0.831
+  source: Ars Technica
+  summary: A large genome model developed as an open-source AI system can identify
+    genes, regulatory sequences, splice sites, and more, demonstrating its capabilities
+    in the bioinformatics domain.
+  tags:
+  - AI
+  - Science
+  - Biology
+  - DNA
+  - genes
+  title: 'Large genome model: Open source AI trained on trillions of bases'
+  url: https://arstechnica.com/science/2026/03/large-genome-model-open-source-ai-trained-on-trillions-of-bases/
+- category: cybersecurity
+  published: '2026-03-04T21:51:32'
+  score: 1.048
+  source: BleepingComputer
+  summary: The Mail2Shell vulnerability in the FreeScout helpdesk platform allows
+    remote code execution without user interaction or authentication, posing a severe
+    security risk for affected systems.
+  tags:
+  - Security
+  title: Mail2Shell zero-click attack lets hackers hijack FreeScout mail servers
+  url: https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets-hackers-hijack-freescout-mail-servers/
+- category: webdev
+  published: '2026-03-04T21:27:50'
+  score: 0.751
+  source: Towards Data Science
+  summary: The article discusses five powerful methods for transforming continuous
+    variables into discrete ones, providing an overview of variable discretization
+    techniques.
+  tags:
+  - Data Engineering
+  - Data Science
+  - Machine Learning
+  - Programming
+  - Variable Transformation
+  title: 5 Ways to Implement Variable Discretization
+  url: https://towardsdatascience.com/5-ways-for-variable-discretization/
+- category: ai
+  published: '2026-03-04T21:20:58'
+  score: 0.825
+  source: AWS Machine Learning
+  summary: Amazon's Quick Suite chat agents can be embedded in enterprise applications,
+    providing a secure and easy-to-implement solution for organizations that struggle
+    to build their own chat infrastructure.
+  tags:
+  - Amazon API Gateway
+  - Amazon CloudFront
+  - Amazon Cognito
+  - Amazon Quick Suite
+  - Artificial Intelligence
+  title: Embed Amazon Quick Suite chat agents in enterprise applications
+  url: https://aws.amazon.com/blogs/machine-learning/embed-amazon-quick-suite-chat-agents-in-enterprise-applications/
+- category: ai
+  published: '2026-03-04T21:16:59'
+  score: 0.824
+  source: AWS Machine Learning
+  summary: Amazon Nova foundation models show capabilities in conversational analytics,
+    call classification, and other use cases relevant to contact center solutions,
+    including both single-call and multi-call analytics.
+  tags:
+  - Advanced (300)
+  - Amazon Athena
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon Machine Learning
+  title: Unlock powerful call center analytics with Amazon Nova foundation models
+  url: https://aws.amazon.com/blogs/machine-learning/unlock-powerful-call-center-analytics-with-amazon-nova-foundation-models/
+- category: webdev
+  published: '2026-03-04T20:48:16'
+  score: 0.746
+  source: Ars Technica
+  summary: Google and Epic have reached a settlement to end their app store antitrust
+    case, marking the end of the era of the 30 percent app store cut.
+  tags:
+  - Google
+  - Tech
+  - app stores
+  - Epic Games
+  - google
+  title: Google and Epic announce settlement to end app store antitrust case
+  url: https://arstechnica.com/gadgets/2026/03/google-and-epic-look-to-bury-the-hatchet-with-new-app-store-settlement/
+- category: ai
+  published: '2026-03-04T20:42:45'
+  score: 0.821
+  source: AWS Machine Learning
+  summary: Ricoh has built a scalable intelligent document processing solution on
+    AWS, transforming their document processing from a custom-engineering bottleneck
+    into a standardized, multi-tenant service.
+  tags:
+  - Amazon Bedrock
+  - Amazon Textract
+  - Customer Solutions
+  - Generative AI
+  title: How Ricoh built a scalable intelligent document processing solution on AWS
+  url: https://aws.amazon.com/blogs/machine-learning/how-ricoh-built-a-scalable-intelligent-document-processing-solution-on-aws/
+- category: cybersecurity
+  published: '2026-03-04T19:12:43'
+  score: 1.028
+  source: BleepingComputer
+  summary: Cisco has released security updates to address two critical vulnerabilities
+    in its Secure Firewall Management Center (FMC) software, which could potentially
+    grant root access to attackers.
+  tags:
+  - Security
+  title: Cisco warns of max severity Secure FMC flaws giving root access
+  url: https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-secure-fmc-flaws-giving-root-access/
+- category: cybersecurity
+  published: '2026-03-04T19:06:13'
+  score: 0.979
+  source: BleepingComputer
+  summary: A previously undocumented set of 23 iOS exploits named "Coruna" has been
+    deployed by multiple threat actors in targeted espionage campaigns and financially
+    motivated attacks.
+  tags:
+  - Security
+  - Apple
+  - Mobile
+  title: Spyware-grade Coruna iOS exploit kit now used in crypto theft attacks
+  url: https://www.bleepingcomputer.com/news/security/spyware-grade-coruna-ios-exploit-kit-now-used-in-crypto-theft-attacks/
+- category: cybersecurity
+  published: '2026-03-04T17:21:00'
+  score: 1.014
+  source: The Hacker News
+  summary: Researchers have warned of a surge in retaliatory hacktivist activity in
+    the Middle East following a U.S.-Israel military campaign, with two groups, Keymous+
+    and DieNet, driving the majority of the 149 DDoS attacks against 110 organizations
+    in 16 countries.
+  tags: []
+  title: 149 Hacktivist DDoS Attacks Hit 110 Organizations in 16 Countries After Middle
+    East Conflict
+  url: https://thehackernews.com/2026/03/149-hacktivist-ddos-attacks-hit-110.html
+- category: webdev
+  published: '2026-03-04T14:54:24'
+  score: 0.71
+  source: Ars Technica
+  summary: Data center operators have pledged to supply their own power instead of
+    relying on the grid, addressing concerns about the impact of data center buildouts
+    on electricity prices for consumers.
+  tags:
+  - AI
+  - ai data centers
+  - big tech
+  - Data Ce nters
+  - data centers
+  title: Are consumers doomed to pay more for electricity due to data center buildouts?
+  url: https://arstechnica.com/ai/2026/03/are-consumers-doomed-to-pay-more-for-electricity-due-to-data-center-buildouts/
+- category: webdev
+  published: '2026-03-04T12:00:00'
+  score: 0.691
+  source: Towards Data Science
+  summary: The article explores how keyword search, TF-IDF, and BM25 work in the context
+    of Retrieval Augmented Generation (RAG) and hybrid search.
+  tags:
+  - Machine Learning
+  - Data Science
+  - Editors Pick
+  - Natural Language Processing
+  - Rag
+  title: 'RAG with Hybrid Search: How Does Keyword Search Work?'
+  url: https://towardsdatascience.com/rag-with-hybrid-search-how-does-keyword-search-work/
+- category: cybersecurity
+  published: '2026-03-04T08:14:00'
+  score: 0.994
+  source: The Hacker News
+  summary: The APT group Silver Dragon has been targeting entities in Europe and Southeast
+    Asia since mid-2024, gaining initial access by exploiting public-facing internet-facing
+    systems and using Cobalt Strike and Google Drive for command and control.
+  tags: []
+  title: APT41-Linked Silver Dragon Targets Governments Using Cobalt Strike and Google
+    Drive C2
+  url: https://thehackernews.com/2026/03/apt41-linked-silver-dragon-targets.html
 - category: cybersecurity
   published: '2026-03-03T23:40:37'
   score: 1.258
@@ -24161,5 +24348,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-04T05:19:35.960829'
-total_articles: 1869
+last_updated: '2026-03-05T05:22:01.882719'
+total_articles: 1883
