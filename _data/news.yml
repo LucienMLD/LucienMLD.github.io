@@ -1,4 +1,158 @@
 articles:
+- category: cybersecurity
+  published: '2026-03-05T23:36:04'
+  score: 1.065
+  source: Ars Technica
+  summary: Meta accused of "concealing the facts" about smart glass users' privacy....
+  tags:
+  - AI
+  - Policy
+  - Tech
+  - AI privacy
+  - lawsuit
+  title: Workers report watching Ray-Ban Meta-shot footage of people using the bathroom
+  url: https://arstechnica.com/gadgets/2026/03/workers-report-watching-ray-ban-meta-shot-footage-of-people-using-the-bathroom/
+- category: webdev
+  published: '2026-03-05T21:39:43'
+  score: 0.752
+  source: Ars Technica
+  summary: Project Helix is set to open the closed-console ecosystem, but the details
+    will matter....
+  tags:
+  - Gaming
+  - console
+  - microsoft
+  - sharma
+  - Windows
+  title: 'MS exec: Microsoft''s next console will play "Xbox and PC games"'
+  url: https://arstechnica.com/gaming/2026/03/ms-exec-microsofts-next-console-will-play-xbox-and-pc-games/
+- category: ai
+  published: '2026-03-05T20:55:25'
+  score: 0.91
+  source: Ars Technica
+  summary: Updates come amid user blowback over the company's Pentagon deal....
+  tags:
+  - AI
+  - Anthropic
+  - ChatGPT
+  - Claude
+  - GPT-5.4
+  title: OpenAI introduces GPT-5.4 with more knowledge-work capability
+  url: https://arstechnica.com/ai/2026/03/openai-introduces-gpt-5-4-with-more-knowledge-work-capability/
+- category: ai
+  published: '2026-03-05T20:00:44'
+  score: 0.86
+  source: Towards Data Science
+  summary: 'Learn how Zero Redundancy Optimizer works, how to implement it from scratch,
+    and how to use it in PyTorch The post AI in Multiple GPUs: ZeRO &amp; FSDP appeared
+    first on Towards Data Science....'
+  tags:
+  - Artificial Intelligence
+  - Deep Learning
+  - Editors Pick
+  - FSDP
+  - Machine Learning
+  title: 'AI in Multiple GPUs: ZeRO & FSDP'
+  url: https://towardsdatascience.com/ai-in-multiple-gpus-zero-fsdp/
+- category: ai
+  published: '2026-03-05T16:30:00'
+  score: 0.836
+  source: Google AI Blog
+  summary: an MP4 of a carousel with images reading "Gemini 3.1 Pro" and "Nano Banana
+    2"...
+  tags:
+  - A message from our CEO
+  - Google DeepMind
+  - Developer tools
+  - Google Labs
+  - Google.org
+  title: The latest AI news we announced in February
+  url: https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/
+- category: ai
+  published: '2026-03-05T16:15:41'
+  score: 0.834
+  source: AWS Machine Learning
+  summary: This post demonstrates how to build custom model parsers for Strands agents
+    when working with LLMs hosted on SageMaker that don't natively support the Bedrock
+    Messages API format. We'll walk through d...
+  tags:
+  - Amazon Machine Learning
+  - Amazon SageMaker AI
+  - Strands Agents
+  title: Building custom model provider for Strands Agents with LLMs hosted on SageMaker
+    AI endpoints
+  url: https://aws.amazon.com/blogs/machine-learning/building-custom-model-provider-for-strands-agents-with-llms-hosted-on-sagemaker-ai-endpoints/
+- category: cybersecurity
+  published: '2026-03-05T15:22:00'
+  score: 1.047
+  source: The Hacker News
+  summary: Cisco has disclosed that two more vulnerabilities affecting Catalyst SD-WAN
+    Manager (formerly SD-WAN vManage) have come under active exploitation in the wild.
+    The vulnerabilities in question are liste...
+  tags: []
+  title: Cisco Confirms Active Exploitation of Two Catalyst SD-WAN Manager Vulnerabilities
+  url: https://thehackernews.com/2026/03/cisco-confirms-active-exploitation-of.html
+- category: webdev
+  published: '2026-03-05T14:01:04'
+  score: 0.784
+  source: CSS-Tricks
+  summary: Sure, we can select the &#60;html&#62; element in CSS with, you know, a
+    simple element selector, html. But what other (trivial and perhaps useless) ways
+    can we do it? The Different Ways to Select &lt;...
+  tags:
+  - Articles
+  - selectors
+  title: The Different Ways to Select <html> in CSS
+  url: https://css-tricks.com/the-different-ways-to-select-html-in-css/
+- category: cybersecurity
+  published: '2026-03-05T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could result
+    in an attacker achieving remote code execution on the device. The following versions
+    of Delta Electronics CNCSoft-G2 are af...
+  tags: []
+  title: Delta Electronics CNCSoft-G2
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-064-01
+- category: cybersecurity
+  published: '2026-03-05T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2017-7921 Hikvision
+    Multiple Products Improper Authenticatio...
+  tags: []
+  title: CISA Adds Five Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/03/05/cisa-adds-five-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-03-05T10:10:00'
+  score: 1.008
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of a new Russian cyber
+    campaign that has targeted Ukrainian entities with two previously undocumented
+    malware families named BadPaw and MeowMeow. "The ...
+  tags: []
+  title: APT28-Linked Campaign Deploys BadPaw Loader and MeowMeow Backdoor in Ukraine
+  url: https://thehackernews.com/2026/03/apt28-linked-campaign-deploys-badpaw.html
+- category: ai
+  published: '2026-03-05T10:00:00'
+  score: 0.835
+  source: OpenAI
+  summary: Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier
+    model for professional work, with state-of-the-art coding, computer use, tool
+    search, and 1M-token context....
+  tags:
+  - Product
+  title: Introducing GPT-5.4
+  url: https://openai.com/index/introducing-gpt-5-4
+- category: webdev
+  published: '2026-03-05T08:00:00'
+  score: 0.667
+  source: Chrome Developers
+  summary: Try out focusgroup and comment on the proposal....
+  tags: []
+  title: 'Request for developer feedback: focusgroup'
+  url: https://developer.chrome.com/blog/focusgroup-rfc?hl=en
 - category: ai
   published: '2026-03-04T22:34:58'
   score: 0.833
@@ -146,6 +300,18 @@ articles:
   title: 149 Hacktivist DDoS Attacks Hit 110 Organizations in 16 Countries After Middle
     East Conflict
   url: https://thehackernews.com/2026/03/149-hacktivist-ddos-attacks-hit-110.html
+- category: webdev
+  published: '2026-03-04T17:00:00'
+  score: 0.563
+  source: Google AI Blog
+  summary: Canvas in AI Mode is now available for everyone in the U.S. Plus, it can
+    now help you draft documents or build interactive tools....
+  tags:
+  - Search
+  - AI
+  title: Use Canvas in AI Mode to get things done and bring your ideas to life, right
+    in Search.
+  url: https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/
 - category: webdev
   published: '2026-03-04T14:54:24'
   score: 0.71
@@ -24348,5 +24514,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-05T05:22:01.882719'
-total_articles: 1883
+last_updated: '2026-03-06T05:20:03.640040'
+total_articles: 1897
