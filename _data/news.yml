@@ -1,5 +1,166 @@
 articles:
 - category: cybersecurity
+  published: '2026-03-08T23:35:42'
+  score: 1.064
+  source: Krebs on Security
+  summary: AI-based assistants or "agents" are gaining popularity, but they also raise
+    security concerns as they can access users' devices, files, and online services,
+    potentially leading to cybersecurity risks. Developers and IT workers need to
+    carefully consider the security implications of these AI-powered assistants.
+  tags:
+  - A Little Sunshine
+  - Latest Warnings
+  - The Coming Storm
+  - Web Fraud 2.0
+  - agentic AI
+  title: How AI Assistants are Moving the Security Goalposts
+  url: https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/
+- category: cybersecurity
+  published: '2026-03-08T15:25:37'
+  score: 0.903
+  source: BleepingComputer
+  summary: According to a European Union court adviser, banks must immediately refund
+    account holders affected by unauthorized transactions, even if the account holder
+    is at fault, which could have significant implications for banking security and
+    customer protection.
+  tags:
+  - Legal
+  title: EU court adviser says banks must immediately refund phishing victims
+  url: https://www.bleepingcomputer.com/news/legal/eu-court-adviser-says-banks-must-immediately-refund-phishing-victims/
+- category: webdev
+  published: '2026-03-08T15:00:00'
+  score: 0.71
+  source: Towards Data Science
+  summary: PythoC allows developers to write C code using the Python syntax they already
+    know, making it easier for Python programmers to work with low-level system programming.
+  tags:
+  - Programming
+  - C Programming
+  - Developer Tools
+  - Python
+  - Software Engineering
+  title: 'Write C Code Without Learning C: The Magic of PythoC'
+  url: https://towardsdatascience.com/write-c-code-without-learning-c-the-magic-of-pythoc/
+- category: cybersecurity
+  published: '2026-03-08T14:12:22'
+  score: 0.942
+  source: BleepingComputer
+  summary: Threat actors are exploiting the ".arpa" domain and IPv6 reverse DNS in
+    phishing campaigns to evade domain reputation checks and email security gateways,
+    making it harder for organizations to detect and prevent these attacks.
+  tags:
+  - Security
+  title: Hackers abuse .arpa DNS and ipv6 to evade phishing defenses
+  url: https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/
+- category: webdev
+  published: '2026-03-08T13:13:03'
+  score: 0.699
+  source: Ars Technica
+  summary: 'The Daredevil: Born Again trailer features the return of Jessica Jones,
+    indicating a continued expansion of the Marvel Cinematic Universe''s street-level
+    superhero stories.'
+  tags:
+  - Culture
+  - 'Daredevil: Born Again'
+  - disney plus
+  - marvel studios
+  - mcu
+  title: 'Jessica Jones joins the fray in Daredevil: Born Again trailer'
+  url: https://arstechnica.com/culture/2026/03/jessica-jones-joins-the-fray-in-daredevil-born-again-trailer/
+- category: ai
+  published: '2026-03-08T13:00:00'
+  score: 0.767
+  source: Towards Data Science
+  summary: The LatentVLA model explores the use of latent reasoning instead of natural
+    language as an abstraction for autonomous driving, potentially offering a new
+    approach to this challenge.
+  tags:
+  - Artificial Intelligence
+  - Autonomous Driving
+  - Editors Pick
+  - Llm
+  - Machine Learning
+  title: 'LatentVLA: Latent Reasoning Models for Autonomous Driving'
+  url: https://towardsdatascience.com/latentvla-latent-reasoning-models-for-autonomous-driving/
+- category: ai
+  published: '2026-03-08T11:30:06'
+  score: 0.757
+  source: Ars Technica
+  summary: A newly discovered small, long-armed dinosaur species has led researchers
+    to rethink the evolution of dinosaur miniaturization, suggesting that small size
+    may have come before changes in diet.
+  tags:
+  - Science
+  - Biology
+  - dinosaurs
+  - evolution
+  - paleontology
+  title: Tiny, long-armed dinosaur leads to rethink of dinosaur miniaturization
+  url: https://arstechnica.com/science/2026/03/tiny-long-armed-dinosaur-leads-to-rethink-of-dinosaur-miniaturization/
+- category: ai
+  published: '2026-03-07T21:06:46'
+  score: 0.608
+  source: Ars Technica
+  summary: The NatGeo documentary directed by Werner Herzog follows an ornithologist's
+    quest to find a new species of "ghost elephants", providing an evocative exploration
+    of this scientific pursuit.
+  tags:
+  - Culture
+  - Science
+  - elephant conservation
+  - elephants
+  - National Geographic
+  title: Hunting for elusive "ghost elephants"
+  url: https://arstechnica.com/science/2026/03/hunting-for-elusive-ghost-elephants/
+- category: cybersecurity
+  published: '2026-03-07T16:28:00'
+  score: 0.681
+  source: The Hacker News
+  summary: OpenAI's Codex Security AI agent has scanned 1.2 million code commits and
+    found over 10,000 high-severity vulnerabilities, highlighting the potential of
+    AI-powered tools in improving software security.
+  tags: []
+  title: OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity
+    Issues
+  url: https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html
+- category: cybersecurity
+  published: '2026-03-07T16:14:32'
+  score: 0.823
+  source: BleepingComputer
+  summary: The Termite ransomware group is using the ClickFix technique and legitimate
+    Windows utilities to deploy the DonutLoader malware and the CastleRAT backdoor,
+    highlighting the evolving tactics used by ransomware threat actors.
+  tags:
+  - Security
+  title: Termite ransomware breaches linked to ClickFix CastleRAT attacks
+  url: https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/
+- category: ai
+  published: '2026-03-07T15:15:25'
+  score: 0.611
+  source: BleepingComputer
+  summary: Microsoft reports that threat actors are increasingly using AI in their
+    operations to accelerate attacks, scale malicious activity, and lower technical
+    barriers across all stages of a cyberattack.
+  tags:
+  - Security
+  title: 'Microsoft: Hackers abusing AI at every stage of cyberattacks'
+  url: https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks/
+- category: ai
+  published: '2026-03-07T15:00:00'
+  score: 0.566
+  source: Towards Data Science
+  summary: The post discusses how traditional Retrieval-Augmented Generation (RAG)
+    models can lose context, and how contextual retrieval can dramatically improve
+    the accuracy of these models.
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Context Engineering
+  - Deep Dives
+  - Llm
+  title: Understanding Context and Contextual Retrieval in RAG
+  url: https://towardsdatascience.com/understanding-context-and-contextual-retrieval-in-rag/
+- category: cybersecurity
   published: '2026-03-05T23:36:04'
   score: 1.065
   source: Ars Technica
@@ -24514,5 +24675,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-06T05:20:03.640040'
-total_articles: 1897
+last_updated: '2026-03-09T05:27:08.981658'
+total_articles: 1909
