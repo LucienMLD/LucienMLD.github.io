@@ -1,4 +1,205 @@
 articles:
+- category: webdev
+  published: '2026-03-09T23:00:18'
+  score: 0.76
+  source: Ars Technica
+  summary: After falling behind the industry, Blue Origin has created a new stock
+    option plan, which is seen as a positive step in retaining talent and boosting
+    morale.
+  tags:
+  - Space
+  - blue origin
+  - employee incentive plan
+  - space
+  - stock options
+  title: After falling far behind the rest of industry, Blue Origin creates new stock
+    option plan
+  url: https://arstechnica.com/space/2026/03/after-years-of-missteps-blue-origin-to-finally-offer-meaningful-stock-options/
+- category: cybersecurity
+  published: '2026-03-09T22:50:38'
+  score: 1.007
+  source: BleepingComputer
+  summary: Hackers are using Microsoft Teams to target employees at financial and
+    healthcare organizations, tricking them into granting remote access and deploying
+    the A0Backdoor malware. This highlights the importance of user awareness and robust
+    security controls in collaboration platforms.
+  tags:
+  - Security
+  title: Microsoft Teams phishing targets employees with A0Backdoor malware
+  url: https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/
+- category: cybersecurity
+  published: '2026-03-09T21:45:34'
+  score: 0.999
+  source: BleepingComputer
+  summary: Hackers are increasingly exploiting newly disclosed vulnerabilities in
+    third-party software to gain initial access to cloud environments, with the window
+    for attacks shrinking from weeks to just days. This emphasizes the need for organizations
+    to prioritize prompt patching and vulnerability management.
+  tags:
+  - Security
+  - Cloud
+  title: 'Google: Cloud attacks exploit flaws more than weak credentials'
+  url: https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/
+- category: ai
+  published: '2026-03-09T20:48:46'
+  score: 0.865
+  source: AWS Machine Learning
+  summary: NVIDIA's Nemotron 3 Nano is now available as a fully managed and serverless
+    model in Amazon Bedrock, providing users with access to advanced AI capabilities
+    through a streamlined, cloud-based platform.
+  tags:
+  - Amazon Bedrock
+  - Artificial Intelligence
+  title: Run NVIDIA Nemotron 3 Nano as a fully managed serverless model on Amazon
+    Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-3-nano-as-a-fully-managed-serverless-model-on-amazon-bedrock/
+- category: ai
+  published: '2026-03-09T20:44:13'
+  score: 0.953
+  source: AWS Machine Learning
+  summary: The article demonstrates how to use Amazon Bedrock's Global cross-Region
+    Inference for Claude models in India, enabling the development of generative AI
+    applications across different regions.
+  tags:
+  - Amazon Bedrock
+  - Artificial Intelligence
+  - Generative AI
+  title: Access Anthropic Claude models in India on Amazon Bedrock with Global cross-Region
+    inference
+  url: https://aws.amazon.com/blogs/machine-learning/access-anthropic-claude-models-in-india-on-amazon-bedrock-with-global-cross-region-inference/
+- category: webdev
+  published: '2026-03-09T20:36:25'
+  score: 0.745
+  source: Ars Technica
+  summary: The Quad Cortex mini amp modeler packs a warehouse of guitar gear into
+    a compact form factor, providing musicians with a versatile and portable solution.
+  tags:
+  - Reviews
+  - amp modeling
+  - machine learning
+  - Neural DSP
+  - Quad Cortex mini
+  title: 'Quad Cortex mini amp modeler: All the power, half the size'
+  url: https://arstechnica.com/reviews/2026/03/quad-cortex-mini-insane-amp-modeling-power-for-the-discerning-guitarist/
+- category: ai
+  published: '2026-03-09T20:00:21'
+  score: 0.816
+  source: Ars Technica
+  summary: The article examines the performance capabilities of Apple's upcoming 16-inch
+    MacBook Pro, including the M5 Max chip and its "performance" CPU cores, which
+    are not just rebranded E-cores.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - Apple M5
+  - apple m5 max
+  title: Testing Apple's 2026 16-inch MacBook Pro, M5 Max, and its new "performance"
+    cores
+  url: https://arstechnica.com/gadgets/2026/03/testing-apples-2026-16-inch-macbook-pro-m5-max-and-its-new-performance-cores/
+- category: webdev
+  published: '2026-03-09T19:59:04'
+  score: 0.742
+  source: Towards Data Science
+  summary: The article outlines three common mistakes to avoid when setting up OpenClaw
+    and provides guidance on how to fix them, helping users to effectively utilize
+    this data science tool.
+  tags:
+  - Agentic AI
+  - AI coding assistants
+  - Claude Code
+  - coding agents
+  - LLM Agents
+  title: Three OpenClaw Mistakes to Avoid and How to Fix Them
+  url: https://towardsdatascience.com/three-openclaw-mistakes-to-avoid-and-how-to-fix-them/
+- category: webdev
+  published: '2026-03-09T19:51:51'
+  score: 0.741
+  source: Ars Technica
+  summary: The U.S. government has unexpectedly settled in the Live Nation/Ticketmaster
+    trial, surprising the states involved and potentially influencing the jury's perception
+    of the case.
+  tags:
+  - Policy
+  - live nation
+  - Ticketmaster
+  title: US blindsides states with surprise settlement in Live Nation/Ticketmaster
+    trial
+  url: https://arstechnica.com/tech-policy/2026/03/us-blindsides-states-with-surprise-settlement-in-live-nation-ticketmaster-trial/
+- category: ai
+  published: '2026-03-09T18:58:03'
+  score: 0.809
+  source: Ars Technica
+  summary: The study combines Shang Dynasty oracle bones and modern weather models
+    to reconstruct ancient Chinese disasters, demonstrating the value of interdisciplinary
+    approaches in understanding historical events.
+  tags:
+  - Science
+  - ancient china
+  - anthropogenic climate change
+  - Archaeology
+  - El Niño
+  title: An unlikely set of clues helps reconstruct ancient Chinese disasters
+  url: https://arstechnica.com/science/2026/03/an-unlikely-set-of-clues-helps-reconstruct-ancient-chinese-disasters/
+- category: ai
+  published: '2026-03-09T18:36:33'
+  score: 0.806
+  source: Hugging Face
+  summary: Granite 4.0 1B Speech is a compact, multilingual, and edge-optimized speech
+    recognition model, offering improved capabilities for various applications.
+  tags: []
+  title: 'Granite 4.0 1B Speech: Compact, Multilingual, and Built for the Edge'
+  url: https://huggingface.co/blog/ibm-granite/granite-4-speech
+- category: webdev
+  published: '2026-03-09T14:20:01'
+  score: 0.746
+  source: CSS-Tricks
+  summary: The article explores the importance of understanding the stacking order
+    and the implications of using `z-index` in web development, emphasizing the need
+    for a thoughtful approach to managing element layering.
+  tags:
+  - Articles
+  - css properties
+  - stacking contexts
+  title: The Value of z-index
+  url: https://css-tricks.com/the-value-of-z-index/
+- category: cybersecurity
+  published: '2026-03-09T13:46:00'
+  score: 1.035
+  source: The Hacker News
+  summary: The article recaps the latest cybersecurity incidents, including a Qualcomm
+    0-day, iOS exploit chains, the AirSnitch attack, and vibe-coded malware. These
+    events highlight the ongoing challenges faced by security professionals in defending
+    against evolving threats.
+  tags: []
+  title: '⚡ Weekly Recap: Qualcomm 0-Day, iOS Exploit Chains, AirSnitch Attack & Vibe-Coded
+    Malware'
+  url: https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html
+- category: cybersecurity
+  published: '2026-03-09T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities
+    Catalog, indicating active exploitation of these flaws. Patching these vulnerabilities
+    is crucial for organizations to mitigate potential security breaches.
+  tags: []
+  title: CISA Adds Three Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/03/09/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-03-09T10:57:18'
+  score: 1.014
+  source: Schneier on Security
+  summary: The AirSnitch attack exploits core features in Wi-Fi Layers 1 and 2, enabling
+    the breaking of Wi-Fi encryption in homes, offices, and enterprises. This attack
+    underscores the need for robust security measures in wireless networks.
+  tags:
+  - Uncategorized
+  - academic papers
+  - cyberattack
+  - man-in-the-middle attacks
+  - Wi-Fi
+  title: New Attack Against Wi-Fi
+  url: https://www.schneier.com/blog/archives/2026/03/new-attack-against-wi-fi.html
 - category: cybersecurity
   published: '2026-03-08T23:35:42'
   score: 1.064
@@ -24675,5 +24876,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-09T05:27:08.981658'
-total_articles: 1909
+last_updated: '2026-03-10T05:20:38.204859'
+total_articles: 1924
