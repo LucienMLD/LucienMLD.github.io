@@ -1,4 +1,182 @@
 articles:
+- category: ai
+  published: '2026-03-12T15:00:00'
+  score: 1.046
+  source: Google AI Blog
+  summary: AI technology is being used in rural Australia to improve heart health
+    monitoring and management, allowing doctors to provide more personalized care
+    to patients remotely.
+  tags:
+  - Health
+  - AI
+  title: How AI is helping improve heart health in rural Australia
+  url: https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/
+- category: ai
+  published: '2026-03-12T03:53:34'
+  score: 0.97
+  source: Hugging Face
+  summary: NVIDIA's AI-Q model achieved the top performance on the DeepResearch Bench
+    I and II benchmarks, demonstrating the company's advancements in AI technology.
+  tags: []
+  title: How NVIDIA AI-Q Reached \#1 on DeepResearch Bench I and II
+  url: https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench
+- category: webdev
+  published: '2026-03-11T23:00:36'
+  score: 0.76
+  source: Ars Technica
+  summary: Google is expanding its Google Play Games for PC initiative with more premium
+    game titles and cross-buy functionality between Android and PC versions.
+  tags:
+  - Gaming
+  - Google
+  - android
+  - google
+  - google play
+  title: Google Play Games for PC is getting more premium titles and cross-buy with
+    Android
+  url: https://arstechnica.com/gaming/2026/03/google-play-games-for-pc-is-getting-more-premium-titles-and-cross-buy-with-android/
+- category: webdev
+  published: '2026-03-11T22:04:42'
+  score: 0.754
+  source: Ars Technica
+  summary: The FCC chair criticized Amazon's comments about the time it would take
+    for SpaceX to deploy its satellite internet megaconstellation.
+  tags:
+  - Policy
+  - Space
+  - Amazon
+  - FCC
+  - megaconstellation
+  title: FCC chair blasts Amazon after it criticizes SpaceX megaconstellation
+  url: https://arstechnica.com/space/2026/03/fcc-chair-blasts-amazon-after-it-criticizes-spacex-megaconstellation/
+- category: webdev
+  published: '2026-03-11T21:09:12'
+  score: 0.748
+  source: Ars Technica
+  summary: The article humorously explains why people often use speakerphone in public,
+    when holding the phone to their ear is still an option.
+  tags:
+  - Culture
+  - speakerphone
+  title: 'Explain it like I''m 5: Why is everyone on speakerphone in public?'
+  url: https://arstechnica.com/culture/2026/03/explain-it-like-im-5-why-is-everyone-on-speakerphone-in-public/
+- category: webdev
+  published: '2026-03-11T20:55:50'
+  score: 0.747
+  source: Ars Technica
+  summary: Windows 11 is bringing a Steam Deck-inspired, streamlined Xbox gaming UI
+    to all PCs in an April update, improving the desktop gaming experience.
+  tags:
+  - Gaming
+  - Tech
+  - microsoft
+  - rog xbox ally x
+  - windows 11
+  title: Windows 11's Steam Deck-ish, streamlined Xbox gaming UI comes to all PCs
+    in April
+  url: https://arstechnica.com/gadgets/2026/03/windows-11s-steam-deck-ish-streamlined-xbox-gaming-ui-comes-to-all-pcs-in-april/
+- category: ai
+  published: '2026-03-11T20:52:23'
+  score: 0.865
+  source: AWS Machine Learning
+  summary: The AWS Generative AI Innovation Center shares guidance for leaders across
+    the C-suite on successfully operationalizing agentic AI to drive productivity
+    gains.
+  tags:
+  - Generative AI
+  - Thought Leadership
+  title: 'Operationalizing Agentic AI Part 1: A Stakeholder’s Guide'
+  url: https://aws.amazon.com/blogs/machine-learning/operationalizing-agentic-ai-part-1-a-stakeholders-guide/
+- category: cybersecurity
+  published: '2026-03-11T19:38:14'
+  score: 1.031
+  source: BleepingComputer
+  summary: A SQL injection vulnerability in the Ally WordPress plugin, which has over
+    400,000 installations, could be exploited to steal sensitive data without authentication.
+  tags:
+  - Security
+  title: SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites
+  url: https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/
+- category: cybersecurity
+  published: '2026-03-11T18:21:15'
+  score: 1.117
+  source: BleepingComputer
+  summary: CISA ordered federal agencies to patch a remote code execution vulnerability
+    in the n8n workflow automation platform that was being actively exploited in attacks.
+    The flaw could allow attackers to execute arbitrary code on affected systems.
+  tags:
+  - Security
+  title: CISA orders feds to patch n8n RCE flaw exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/
+- category: cybersecurity
+  published: '2026-03-11T14:51:00'
+  score: 0.995
+  source: The Hacker News
+  summary: Researchers disclosed two critical vulnerabilities in the n8n workflow
+    automation platform, including an RCE flaw (CVE-2026-27577) that could enable
+    arbitrary command execution.
+  tags: []
+  title: Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials
+  url: https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html
+- category: webdev
+  published: '2026-03-11T13:59:15'
+  score: 0.744
+  source: CSS-Tricks
+  summary: The article explores creative ways to abuse the new customizable `<select>`
+    feature in CSS, demonstrating the flexibility and power of the technology.
+  tags:
+  - Articles
+  - CSS functions
+  - html elements
+  - select
+  title: Abusing Customizable Selects
+  url: https://css-tricks.com/abusing-customizable-selects/
+- category: cybersecurity
+  published: '2026-03-11T12:26:00'
+  score: 1.073
+  source: The Hacker News
+  summary: SAP released security updates to address two critical vulnerabilities,
+    including a code injection flaw (CVE-2019-17571) that could enable arbitrary code
+    execution on impacted systems. Multiple enterprise software and network device
+    vendors also patched security flaws.
+  tags: []
+  title: Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network
+    Devices
+  url: https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html
+- category: cybersecurity
+  published: '2026-03-11T12:00:00'
+  score: 1.022
+  source: CISA
+  summary: CISA has added a new vulnerability, CVE-2025-68613, to its Known Exploited
+    Vulnerabilities Catalog, indicating evidence of active exploitation in the wild.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2026-03-11T11:30:00'
+  score: 0.845
+  source: OpenAI
+  summary: ChatGPT has been designed to resist prompt injection and social engineering
+    attacks by constraining risky actions and protecting sensitive data in its agent
+    workflows.
+  tags:
+  - Security
+  title: Designing AI agents to resist prompt injection
+  url: https://openai.com/index/designing-agents-to-resist-prompt-injection
+- category: ai
+  published: '2026-03-11T11:04:06'
+  score: 0.93
+  source: Schneier on Security
+  summary: Canada is facing a choice in its artificial intelligence strategy, with
+    the government investing $2 billion to develop a "Sovereign AI Compute Strategy"
+    - a decision that could impact the value generated by AI in the country.
+  tags:
+  - Uncategorized
+  - AI
+  - Canada
+  - LLM
+  title: Canada Needs Nationalized, Public AI
+  url: https://www.schneier.com/blog/archives/2026/03/canada-needs-nationalized-public-ai.html
 - category: cybersecurity
   published: '2026-03-11T00:32:51'
   score: 1.168
@@ -25062,5 +25240,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-11T05:23:39.420815'
-total_articles: 1939
+last_updated: '2026-03-12T05:24:02.788581'
+total_articles: 1954
