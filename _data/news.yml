@@ -1,5 +1,155 @@
 articles:
 - category: ai
+  published: '2026-03-15T23:13:28'
+  score: 0.968
+  source: BleepingComputer
+  summary: OpenAI has not rolled out ChatGPT ads globally outside the US, despite
+    some users noticing references to ads in the updated privacy policy. The company
+    has clarified that ChatGPT ads on Free and Go plans are not yet available globally.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI says ChatGPT ads are not rolling out globally for now
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/
+- category: ai
+  published: '2026-03-15T15:00:00'
+  score: 0.78
+  source: Towards Data Science
+  summary: The 2026 EU data mandate will require a shift towards human-in-the-loop
+    oversight and active metadata management. Businesses need to ensure their data
+    governance architecture is ready to meet these new requirements and take advantage
+    of the strategic benefits of European data sovereignty.
+  tags:
+  - Data Governance
+  - AI Literacy
+  - Data Strategy
+  - Editors Pick
+  - EU AI Act
+  title: 'The 2026 Data Mandate: Is Your Governance Architecture a Fortress or a Liability?'
+  url: https://towardsdatascience.com/the-2026-data-mandate-is-your-governance-architecture-a-fortress-or-a-liability/
+- category: cybersecurity
+  published: '2026-03-15T14:17:23'
+  score: 0.845
+  source: BleepingComputer
+  summary: Betterleaks is a new open-source tool that can scan directories, files,
+    and git repositories to identify valid secrets using default or customized rules.
+    This tool is intended to replace the popular Gitleaks tool for detecting sensitive
+    data in code repositories.
+  tags:
+  - Security
+  - Software
+  title: Betterleaks, a new open-source secrets scanner to replace Gitleaks
+  url: https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/
+- category: ai
+  published: '2026-03-15T13:00:00'
+  score: 0.766
+  source: Towards Data Science
+  summary: The article covers six advanced causal inference methods that data scientists
+    should master, including doubly robust estimation, instrumental variables, regression
+    discontinuity, modern difference-in-differences, heterogeneous treatment effects,
+    and sensitivity analysis. It provides code and a practical decision framework
+    for applying these techniques.
+  tags:
+  - Data Science
+  - Causal Inference
+  - Deep Dives
+  - Difference In Differences
+  - Machine Learning
+  title: 'The Causal Inference Playbook: Advanced Methods Every Data Scientist Should
+    Master'
+  url: https://towardsdatascience.com/the-causal-inference-playbook-advanced-methods-every-data-scientist-should-master/
+- category: webdev
+  published: '2026-03-15T11:15:48'
+  score: 0.685
+  source: Ars Technica
+  summary: The Honda Prelude, a classic sports coupe, has a history of pioneering
+    engineering features like four-wheel steering and variable valve timing, making
+    it an "engineering thesis disguised as a coupe."
+  tags:
+  - Cars
+  - Honda Prelude
+  title: 'An engineering thesis disguised as a coupe: A history of the Honda Prelude'
+  url: https://arstechnica.com/cars/2026/03/an-engineering-thesis-disguised-as-a-coupe-a-history-of-the-honda-prelude/
+- category: cybersecurity
+  published: '2026-03-14T21:48:14'
+  score: 0.767
+  source: BleepingComputer
+  summary: Microsoft has released an out-of-band (OOB) update to fix a security vulnerability
+    affecting Windows 11 Enterprise devices that receive hotpatch updates. The vulnerability,
+    a remote code execution (RCE) flaw in the Routing and Remote Access Service (RRAS),
+    was patched to protect affected systems.
+  tags:
+  - Microsoft
+  - Security
+  title: Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/
+- category: cybersecurity
+  published: '2026-03-14T16:17:00'
+  score: 0.678
+  source: The Hacker News
+  summary: China's CNCERT has issued a warning about security flaws in the OpenClaw
+    AI agent that could enable prompt injection and data exfiltration. Developers
+    using OpenClaw should be aware of these vulnerabilities and take appropriate measures
+    to secure their systems.
+  tags: []
+  title: OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration
+  url: https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html
+- category: ai
+  published: '2026-03-14T15:00:00'
+  score: 0.565
+  source: Towards Data Science
+  summary: Google DeepMind found that multi-agent networks can amplify errors 17x.
+    The article presents three architecture patterns that can help separate successful
+    multi-agent systems from those that get canceled due to performance issues.
+  tags:
+  - Agentic AI
+  - AI Agents
+  - Artificial Intelligence
+  - Data Science
+  - Machine Learning
+  title: The Multi-Agent Trap
+  url: https://towardsdatascience.com/the-multi-agent-trap/
+- category: cybersecurity
+  published: '2026-03-14T14:36:42'
+  score: 0.665
+  source: BleepingComputer
+  summary: The AppsFlyer Web SDK was temporarily hijacked in a supply-chain attack,
+    with malicious code used to steal cryptocurrency from users. This incident highlights
+    the importance of securing third-party dependencies and monitoring for potential
+    supply-chain threats.
+  tags:
+  - Security
+  - CryptoCurrency
+  title: AppsFlyer Web SDK hijacked to spread crypto-stealing JavaScript code
+  url: https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/
+- category: ai
+  published: '2026-03-14T13:00:00'
+  score: 0.551
+  source: Towards Data Science
+  summary: The article provides an overview of the current state of the quantum software
+    stack, discussing how we can program quantum computers today. It explores the
+    various layers of the stack, from hardware to high-level programming languages
+    and tools.
+  tags:
+  - Quantum Computing
+  - Editors Pick
+  - Programming
+  - Quantum
+  - Quantum Computer
+  title: The Current Status of The Quantum Software Stack
+  url: https://towardsdatascience.com/the-current-status-of-the-quantum-software-stack/
+- category: cybersecurity
+  published: '2026-03-14T12:55:00'
+  score: 0.701
+  source: The Hacker News
+  summary: Researchers have identified a new iteration of the GlassWorm supply-chain
+    attack that now abuses 72 open VSX extensions to target developers. This represents
+    a significant escalation in the campaign's propagation method, moving beyond the
+    need to embed the malicious loader directly.
+  tags: []
+  title: GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers
+  url: https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html
+- category: ai
   published: '2026-03-13T01:02:47'
   score: 0.95
   source: Hugging Face
@@ -25424,5 +25574,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-13T05:22:30.242933'
-total_articles: 1969
+last_updated: '2026-03-16T05:36:57.395235'
+total_articles: 1980
