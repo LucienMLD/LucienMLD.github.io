@@ -1,5 +1,197 @@
 articles:
 - category: ai
+  published: '2026-03-16T21:58:40'
+  score: 0.872
+  source: Hugging Face
+  summary: A new healthcare robotics dataset and foundational physical AI models have
+    been developed to advance the field of healthcare robotics, which has significant
+    implications for improving medical care and patient outcomes.
+  tags: []
+  title: The First Healthcare Robotics Dataset and Foundational Physical AI Models
+    for Healthcare Robotics
+  url: https://huggingface.co/blog/nvidia/physical-ai-for-healthcare-robotics
+- category: ai
+  published: '2026-03-16T20:06:56'
+  score: 0.86
+  source: Ars Technica
+  summary: A new "vibe coded" AI translation tool has sparked controversy in the video
+    game preservation community, with the creator apologizing for using Patreon funds
+    to develop a Gemini-powered magazine scan processor.
+  tags:
+  - AI
+  - Gaming
+  - gaming alexandria
+  - gemini
+  - History
+  title: New "vibe coded" AI translation tool splits the video game preservation community
+  url: https://arstechnica.com/ai/2026/03/new-vibe-coded-ai-translation-tool-splits-the-video-game-preservation-community/
+- category: cybersecurity
+  published: '2026-03-16T19:37:00'
+  score: 1.03
+  source: The Hacker News
+  summary: The GlassWorm malware campaign is using stolen GitHub tokens to inject
+    malware into hundreds of Python repositories, including Django apps, ML research
+    code, Streamlit dashboards, and PyPI packages, posing a serious cybersecurity
+    threat to the Python ecosystem.
+  tags: []
+  title: GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python
+    Repos
+  url: https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html
+- category: cybersecurity
+  published: '2026-03-16T19:17:20'
+  score: 0.98
+  source: BleepingComputer
+  summary: A recent cyberattack on medical technology giant Stryker remotely wiped
+    tens of thousands of employee devices without the use of any malware, highlighting
+    the need for robust cybersecurity measures to protect critical infrastructure.
+  tags:
+  - Security
+  title: Stryker attack wiped tens of thousands of devices, no malware needed
+  url: https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/
+- category: ai
+  published: '2026-03-16T19:15:31'
+  score: 0.854
+  source: Towards Data Science
+  summary: Hallucinations in large language models (LLMs) are not a bug in the data,
+    but rather a feature of the architecture, which has implications for the development
+    and use of these AI systems.
+  tags:
+  - Large Language Models
+  - Ai Hallucination
+  - Artificial Intelligence
+  - Deep Learning
+  - Editors Pick
+  title: Hallucinations in LLMs Are Not a Bug in the Data
+  url: https://towardsdatascience.com/hallucinations-in-llms-are-not-a-bug-in-the-data/
+- category: webdev
+  published: '2026-03-16T18:04:24'
+  score: 0.729
+  source: Towards Data Science
+  summary: Building a production-ready Claude Code Skill, a conversational AI assistant,
+    involves several key considerations, such as handling edge cases, optimizing performance,
+    and distributing the skill effectively.
+  tags:
+  - Agentic AI
+  - AI coding assistants
+  - Claude Code
+  - claude skills
+  - Data Science
+  title: How to Build a Production-Ready Claude Code Skill
+  url: https://towardsdatascience.com/how-to-build-a-production-ready-claude-code-skill/
+- category: cybersecurity
+  published: '2026-03-16T18:00:22'
+  score: 1.018
+  source: BleepingComputer
+  summary: CISA has warned U.S. government agencies to secure their Wing FTP Server
+    instances against an actively exploited vulnerability that could be chained in
+    remote code execution attacks, emphasizing the importance of timely vulnerability
+    patching.
+  tags:
+  - Security
+  title: CISA flags Wing FTP Server flaw as actively exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/
+- category: webdev
+  published: '2026-03-16T18:00:13'
+  score: 0.728
+  source: Ars Technica
+  summary: Porsche's new 911 Cup race car debuted in the iRacing simulation game before
+    being driven on a real-world race track, highlighting the growing integration
+    between video games and the automotive industry.
+  tags:
+  - Cars
+  - iRacing
+  - Porsche 911
+  - Porsche 911 GT3
+  title: Driving the $375,000 Porsche race car that debuted as a $12 DLC in iRacing
+  url: https://arstechnica.com/cars/2026/03/from-pixels-to-pavement-testing-the-new-porsche-911-cup-in-iracing-and-irl/
+- category: ai
+  published: '2026-03-16T17:55:54'
+  score: 0.845
+  source: AWS Machine Learning
+  summary: The second part of a two-part series on agentic AI in the enterprise focuses
+    on the guidance provided by different personas, such as business leaders and enterprise
+    architects, to turn the shared foundation into action.
+  tags:
+  - Generative AI
+  - Thought Leadership
+  title: 'Agentic AI in the Enterprise Part 2: Guidance by Persona'
+  url: https://aws.amazon.com/blogs/machine-learning/agentic-ai-in-the-enterprise-part-2-guidance-by-persona/
+- category: webdev
+  published: '2026-03-16T17:11:42'
+  score: 0.723
+  source: Ars Technica
+  summary: Formula 1's new style of racing, featuring a sprint weekend format, has
+    attracted large crowds in China, indicating the sport's growing popularity and
+    ability to engage audiences.
+  tags:
+  - Cars
+  - F1
+  - Formula 1
+  title: 'F1 in China: I''ve never seen so many people in those grandstands'
+  url: https://arstechnica.com/cars/2026/03/f1-in-china-ive-never-seen-so-many-people-in-those-grandstands/
+- category: ai
+  published: '2026-03-16T16:55:53'
+  score: 0.838
+  source: AWS Machine Learning
+  summary: Amazon Web Services has introduced disaggregated inference, a new approach
+    to large language model inference that offers benefits such as improved performance
+    and cost-efficiency.
+  tags:
+  - Amazon Elastic Kubernetes Service
+  - Amazon SageMaker AI
+  - Amazon SageMaker HyperPod
+  - Announcements
+  - Amazon SageMaker
+  title: Introducing Disaggregated Inference on AWS powered by llm-d
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-disaggregated-inference-on-aws-powered-by-llm-d/
+- category: webdev
+  published: '2026-03-16T15:06:01'
+  score: 0.79
+  source: CSS-Tricks
+  summary: The latest edition of "What's !important" covers a variety of new and old
+    CSS features, including random(), folded corners, backdrop-filter, font-variant-numeric,
+    and the Popover API.
+  tags:
+  - Articles
+  - news
+  title: 'What’s !important #7: random(), Folded Corners, Anchored Container Queries,
+    and More'
+  url: https://css-tricks.com/whats-important-7/
+- category: webdev
+  published: '2026-03-16T14:01:02'
+  score: 0.743
+  source: CSS-Tricks
+  summary: Tailwind is a great CSS framework for building layouts due to its flexibility,
+    modularity, and ability to create responsive and customizable designs.
+  tags:
+  - Articles
+  - framework
+  - layout
+  - tailwind
+  title: 4 Reasons That Make Tailwind Great for Building Layouts
+  url: https://css-tricks.com/4-reasons-that-make-tailwind-great-for-building-layouts/
+- category: cybersecurity
+  published: '2026-03-16T12:00:00'
+  score: 1.021
+  source: CISA
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has added a
+    new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, which
+    is being actively exploited and may pose a risk to government agencies and other
+    organizations.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/03/16/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2026-03-16T11:58:00'
+  score: 0.973
+  source: The Hacker News
+  summary: Security validation is becoming more agentic, with organizations using
+    a range of tools and techniques, such as BAS tools, pentesting, and attack surface
+    management platforms, to assess and improve their security posture.
+  tags: []
+  title: Why Security Validation Is Becoming Agentic
+  url: https://thehackernews.com/2026/03/why-security-validation-is-becoming.html
+- category: ai
   published: '2026-03-15T23:13:28'
   score: 0.968
   source: BleepingComputer
@@ -25574,5 +25766,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-16T05:36:57.395235'
-total_articles: 1980
+last_updated: '2026-03-17T05:28:25.753913'
+total_articles: 1995
