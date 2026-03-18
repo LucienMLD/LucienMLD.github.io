@@ -1,4 +1,190 @@
 articles:
+- category: cybersecurity
+  published: '2026-03-18T01:06:31'
+  score: 1.123
+  source: BleepingComputer
+  summary: Apple has released a Background Security Improvements update to fix a WebKit
+    flaw (CVE-2026-20643) on iPhones, iPads, and Macs without requiring a full operating
+    system upgrade. This update addresses a security vulnerability that could potentially
+    be exploited by attackers.
+  tags:
+  - Security
+  - Apple
+  title: Apple pushes first Background Security Improvements update to fix WebKit
+    flaw
+  url: https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/
+- category: ai
+  published: '2026-03-17T23:17:07'
+  score: 0.837
+  source: Hugging Face
+  summary: The Nemotron 3 Nano 4B is a compact hybrid AI model designed for efficient
+    local deployment, providing a balance between performance and resource requirements
+    for edge computing applications.
+  tags: []
+  title: 'Nemotron 3 Nano 4B: A Compact Hybrid Model for Efficient Local AI'
+  url: https://huggingface.co/blog/nvidia/nemotron-3-nano-4b
+- category: webdev
+  published: '2026-03-17T21:38:33'
+  score: 0.751
+  source: Ars Technica
+  summary: A judge has ruled that Apple can delist apps "with or without cause," dismissing
+    a case brought by the Musi app and sanctioning the lawyers for "making up facts,"
+    a setback for app developers challenging Apple's App Store policies.
+  tags:
+  - Policy
+  - App Store
+  - apple
+  - iphone
+  - musi youtube
+  title: Apple can delist apps "with or without cause," judge says in loss for Musi
+    app
+  url: https://arstechnica.com/tech-policy/2026/03/judge-upholds-apple-delisting-of-free-musi-app-that-streams-songs-from-youtube/
+- category: webdev
+  published: '2026-03-17T20:00:00'
+  score: 0.741
+  source: Towards Data Science
+  summary: This article provides guidance on effectively reviewing the output of coding
+    agents like Claude, emphasizing techniques to make the review process more efficient
+    and extracting maximum value from the AI-generated code.
+  tags:
+  - Agentic AI
+  - Claude Code
+  - Code Review
+  - coding agents
+  - Llm Agent
+  title: How to Effectively Review Claude Code Output
+  url: https://towardsdatascience.com/how-to-effectively-review-claude-code-output/
+- category: ai
+  published: '2026-03-17T18:06:03'
+  score: 0.845
+  source: Towards Data Science
+  summary: This article provides a step-by-step guide on how to self-host a large
+    language model (LLM) for increased privacy, cost control, and customization, offering
+    an alternative to relying on cloud-based LLM services.
+  tags:
+  - Large Language Models
+  - Ai Engineering
+  - Editors Pick
+  - Llm
+  - Mlops
+  title: Self-Hosting Your First LLM
+  url: https://towardsdatascience.com/self-hosting-your-first-llm/
+- category: ai
+  published: '2026-03-17T16:39:00'
+  score: 0.836
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered vulnerabilities in Amazon Bedrock,
+    LangSmith, and SGLang that could enable data exfiltration and remote code execution,
+    highlighting the need for robust security measures in AI systems.
+  tags: []
+  title: AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration
+    and RCE
+  url: https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html
+- category: ai
+  published: '2026-03-17T16:37:55'
+  score: 0.835
+  source: Hugging Face
+  summary: This article provides an overview of the state of open-source AI models
+    and tools on the Hugging Face platform, highlighting the latest developments and
+    trends in the open-source AI ecosystem.
+  tags: []
+  title: 'State of Open Source on Hugging Face: Spring 2026'
+  url: https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026
+- category: ai
+  published: '2026-03-17T16:29:16'
+  score: 0.834
+  source: Ars Technica
+  summary: Gamers have expressed significant discontent with Nvidia's DLSS 5 technology,
+    which incorporates generative AI features that are perceived as undesirable and
+    detracting from the gaming experience.
+  tags:
+  - AI
+  - Gaming
+  - dlss
+  - frame generation
+  - NVIDIA
+  title: Gamers react with overwhelming disgust to DLSS 5's generative AI glow-ups
+  url: https://arstechnica.com/gaming/2026/03/gamers-react-with-overwhelming-disgust-to-dlss-5s-generative-ai-glow-ups/
+- category: webdev
+  published: '2026-03-17T13:00:14'
+  score: 0.697
+  source: Ars Technica
+  summary: The 2027 Kia Telluride offers a premium look and feel at a mass-market
+    price, with the addition of a 35 mpg hybrid variant, providing a compelling option
+    in the three-row SUV segment.
+  tags:
+  - Cars
+  - car review
+  - First drive
+  - Kia Telluride
+  title: 'Upmarket looks, mass-market price: The 2027 Kia Telluride, driven'
+  url: https://arstechnica.com/cars/2026/03/upmarket-looks-mass-market-price-the-2027-kia-telluride-driven/
+- category: webdev
+  published: '2026-03-17T12:03:38'
+  score: 0.691
+  source: BleepingComputer
+  summary: Microsoft has provided guidance to address C:\ drive access issues and
+    app failures on some Samsung laptops running Windows 11, versions 25H2 and 24H2,
+    aiming to resolve these problems for affected users.
+  tags:
+  - Microsoft
+  title: 'Microsoft shares fix for Windows C: drive access issues on Samsung PCs'
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/
+- category: cybersecurity
+  published: '2026-03-17T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: The SICAM SIAPP SDK developed by Siemens contains multiple vulnerabilities
+    that could allow an attacker to disrupt the customer-developed SIAPP or its simulation
+    environment. These vulnerabilities need to be addressed to ensure the security
+    and integrity of the SICAM SIAPP SDK.
+  tags: []
+  title: Siemens SICAM SIAPP SDK
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-04
+- category: cybersecurity
+  published: '2026-03-17T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Schneider Electric has identified a hard-coded credentials vulnerability
+    in its EcoStruxure IT Data Center Expert (DCE) product that requires user intervention
+    to mitigate. This vulnerability could potentially allow unauthorized access to
+    the DCE system.
+  tags: []
+  title: Schneider Electric EcoStruxure Data Center Expert
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-03
+- category: cybersecurity
+  published: '2026-03-17T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Schneider Electric has identified a vulnerability in its SCADAPack™ x70
+    RTU products, including the SCADAPack™ 47xi, SCADAPack™ 47x, and SCADAPack™ 57x
+    models. This vulnerability could potentially lead to denial-of-service or other
+    security issues and needs to be addressed.
+  tags: []
+  title: Schneider Electric SCADAPack and RemoteConnect
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-02
+- category: cybersecurity
+  published: '2026-03-17T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: The CODESYS software used in the Festo Automation Suite is affected by
+    multiple vulnerabilities that could enable remote code execution, denial-of-service
+    attacks, and other security breaches. Users of the Festo Automation Suite need
+    to update to the patched versions to mitigate these vulnerabilities.
+  tags: []
+  title: CODESYS in Festo Automation Suite
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-076-01
+- category: webdev
+  published: '2026-03-17T11:07:05'
+  score: 0.685
+  source: BleepingComputer
+  summary: Microsoft has released an emergency update to fix a Bluetooth device visibility
+    issue on hotpatch-enabled Windows 11 Enterprise devices, addressing this specific
+    problem for the affected users.
+  tags:
+  - Microsoft
+  title: New Windows 11 hotpatch fixes Bluetooth device visibility issue
+  url: https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/
 - category: ai
   published: '2026-03-16T21:58:40'
   score: 0.872
@@ -25766,5 +25952,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-17T05:28:25.753913'
-total_articles: 1995
+last_updated: '2026-03-18T05:31:18.993908'
+total_articles: 2010
