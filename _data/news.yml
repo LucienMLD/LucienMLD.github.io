@@ -1,4 +1,177 @@
 articles:
+- category: ai
+  published: '2026-03-18T22:06:32'
+  score: 0.873
+  source: Ars Technica
+  summary: Kagi Translate's AI system has demonstrated the ability to generate humorous
+    and creative responses to prompts, such as imagining what a "horny Margaret Thatcher"
+    would say, showcasing the capabilities of large language models in generating
+    entertaining and engaging content.
+  tags:
+  - AI
+  - Google Translate
+  - kagi
+  - large language models
+  - LLMs
+  title: Kagi Translate's AI answers the question "What would horny Margaret Thatcher
+    say?"
+  url: https://arstechnica.com/ai/2026/03/kagi-translates-ai-answers-the-question-what-would-horny-margaret-thatcher-say/
+- category: webdev
+  published: '2026-03-18T21:32:20'
+  score: 0.75
+  source: Ars Technica
+  summary: Elon Musk's tactic of blaming users for the generation of inappropriate
+    images on Grok may be challenged by the planned EU law that would likely force
+    him to make the platform less "spicy" and limit the ability to shift blame to
+    users.
+  tags:
+  - AI
+  - Policy
+  - AI Act
+  - ai csam
+  - Artificial Intelligence
+  title: Musk’s tactic of blaming users for Grok sex images may be foiled by EU law
+  url: https://arstechnica.com/tech-policy/2026/03/eu-moves-to-ban-nudify-apps-after-grok-made-them-mainstream/
+- category: cybersecurity
+  published: '2026-03-18T19:57:13'
+  score: 1.08
+  source: BleepingComputer
+  summary: CISA has ordered U.S. government agencies to secure their servers against
+    an actively exploited vulnerability in the Zimbra Collaboration Suite (ZCS). The
+    vulnerability, if left unpatched, could be exploited by attackers to execute arbitrary
+    code on the affected systems.
+  tags:
+  - Security
+  title: CISA orders feds to patch Zimbra XSS flaw exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-zimbra-xss-flaw-exploited-in-attacks/
+- category: webdev
+  published: '2026-03-18T19:36:14'
+  score: 0.738
+  source: Ars Technica
+  summary: Cloudflare is appealing a fine imposed by Italy's site-blocking law, arguing
+    that the requirement to block sites within 30 minutes breaks the core architecture
+    of the internet and should be overturned.
+  tags:
+  - Policy
+  - cloudflare
+  - piracy shield
+  title: Cloudflare appeals Piracy Shield fine, hopes to kill Italy's site-blocking
+    law
+  url: https://arstechnica.com/tech-policy/2026/03/cloudflare-appeals-piracy-shield-fine-hopes-to-kill-italys-site-blocking-law/
+- category: cybersecurity
+  published: '2026-03-18T16:53:42'
+  score: 1.106
+  source: BleepingComputer
+  summary: The Interlock ransomware gang has been exploiting a critical remote code
+    execution vulnerability in Cisco's Secure Firewall Management Center (FMC) software
+    since January. The vulnerability allows the attackers to gain root access to the
+    affected systems, enabling them to deploy ransomware.
+  tags:
+  - Security
+  title: Ransomware gang exploits Cisco flaw in zero-day attacks since January
+  url: https://www.bleepingcomputer.com/news/security/interlock-ransomware-exploited-secure-fmc-flaw-in-zero-day-attacks-since-january/
+- category: ai
+  published: '2026-03-18T16:30:00'
+  score: 0.791
+  source: Towards Data Science
+  summary: The post discusses the use of two-stage hurdle models for predicting zero-inflated
+    outcomes, where a single model cannot effectively handle both the binary decision
+    of whether an outcome occurs and the continuous or count-based value of the outcome
+    when it does occur.
+  tags:
+  - Machine Learning
+  - Data Science
+  - Editors Pick
+  - Prediction Model
+  - Python
+  title: 'Two-Stage Hurdle Models: Predicting Zero-Inflated Outcomes'
+  url: https://towardsdatascience.com/two-stage-hurdle-models-predicting-zero-inflated-outcomes/
+- category: ai
+  published: '2026-03-18T16:06:21'
+  score: 0.832
+  source: AWS Machine Learning
+  summary: Nova Forge SDK has been launched to make the customization of large language
+    models (LLMs) more accessible for enterprise teams, simplifying the process of
+    dependency management, image selection, and recipe configuration, ultimately lowering
+    the barrier of entry for LLM adoption.
+  tags:
+  - Amazon Nova
+  - Artificial Intelligence
+  title: Introducing Nova Forge SDK, a seamless way to customize Nova models for enterprise
+    AI
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-nova-forge-sdk-a-seamless-way-to-customize-nova-models-for-enterprise-ai/
+- category: cybersecurity
+  published: '2026-03-18T16:00:00'
+  score: 1.099
+  source: The Hacker News
+  summary: Amazon Threat Intelligence has warned of an active Interlock ransomware
+    campaign that is exploiting a recently disclosed critical vulnerability, CVE-2026-20131,
+    in Cisco Secure Firewall Management Center (FMC) Software. The vulnerability,
+    which has a CVSS score of 10.0, allows for insecure deserialization and can be
+    exploited for remote code execution.
+  tags: []
+  title: Interlock Ransomware Exploits Cisco FMC Zero-Day CVE-2026-20131 for Root
+    Access
+  url: https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html
+- category: ai
+  published: '2026-03-18T15:24:13'
+  score: 0.827
+  source: AWS Machine Learning
+  summary: Bark.com, in collaboration with the AWS Generative AI Innovation Center,
+    has developed an AI-powered content generation solution that demonstrated a substantial
+    reduction in production time while improving content quality scores during experimental
+    trials, showcasing the potential of AI-driven content creation.
+  tags:
+  - Amazon Bedrock
+  - Amazon SageMaker Data & AI Governance
+  - Customer Solutions
+  - Experience-Based Acceleration
+  title: How Bark.com and AWS collaborated to build a scalable video generation solution
+  url: https://aws.amazon.com/blogs/machine-learning/how-bark-com-and-aws-collaborated-to-build-a-scalable-video-generation-solution/
+- category: ai
+  published: '2026-03-18T14:01:29'
+  score: 0.818
+  source: Machine Learning Mastery
+  summary: The article discusses seven readability features that can be incorporated
+    into machine learning models to improve the handling and processing of text data,
+    which is often less structured than tabular data, requiring tasks like tokenization,
+    embeddings, or sentiment analysis.
+  tags: []
+  title: 7 Readability Features for Your Next Machine Learning Model
+  url: https://machinelearningmastery.com/7-readability-features-for-your-next-machine-learning-model/
+- category: cybersecurity
+  published: '2026-03-18T12:30:00'
+  score: 1.073
+  source: The Hacker News
+  summary: Researchers have disclosed a critical security flaw, CVE-2026-32746, in
+    the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated
+    remote attacker to execute arbitrary code with elevated privileges. The vulnerability
+    has a CVSS score of 9.8, indicating its high severity.
+  tags: []
+  title: Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated
+    Root RCE
+  url: https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html
+- category: cybersecurity
+  published: '2026-03-18T12:00:00'
+  score: 1.021
+  source: CISA
+  summary: CISA has added a new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. The vulnerability, CVE-2023-24446,
+    affects the Zimbra Collaboration Suite (ZCS) and can be exploited for remote code
+    execution.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/03/18/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: webdev
+  published: '2026-03-18T07:00:00'
+  score: 0.659
+  source: Chrome Developers
+  summary: Chrome has introduced a feature that automatically opens a video Picture-in-Picture
+    (PiP) window for sites that have not registered a media session action handler,
+    providing a more seamless user experience for watching videos.
+  tags: []
+  title: Enter video Picture-in-Picture automatically on more sites
+  url: https://developer.chrome.com/blog/automatic-picture-in-picture-initiated-by-the-browser?hl=en
 - category: cybersecurity
   published: '2026-03-18T01:06:31'
   score: 1.123
@@ -185,6 +358,17 @@ articles:
   - Microsoft
   title: New Windows 11 hotpatch fixes Bluetooth device visibility issue
   url: https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/
+- category: webdev
+  published: '2026-03-17T10:00:00'
+  score: 0.478
+  source: Smashing Magazine
+  summary: The article explores how the design principles and emotional flows observed
+    in anime and superhero films can be applied to the development of digital products,
+    highlighting the importance of pacing and evoking specific emotions through design
+    decisions, rather than just focusing on pixels and patterns.
+  tags: []
+  title: 'Anime vs. Marvel/DC: Designing Digital Products With Emotion In Flow'
+  url: https://smashingmagazine.com/2026/03/anime-marvel-dc-designing-digital-products-emotion-flow/
 - category: ai
   published: '2026-03-16T21:58:40'
   score: 0.872
@@ -25952,5 +26136,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-18T05:31:18.993908'
-total_articles: 2010
+last_updated: '2026-03-19T05:29:29.580098'
+total_articles: 2024
