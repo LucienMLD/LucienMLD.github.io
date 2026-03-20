@@ -1,4 +1,206 @@
 articles:
+- category: cybersecurity
+  published: '2026-03-20T00:49:19'
+  score: 1.122
+  source: Krebs on Security
+  summary: The U.S. Justice Department, along with authorities in Canada and Germany,
+    disrupted the infrastructure of four IoT botnets that had compromised over 3 million
+    devices, highlighting the ongoing efforts to combat large-scale DDoS attacks.
+  tags:
+  - A Little Sunshine
+  - DDoS-for-Hire
+  - Internet of Things (IoT)
+  - Ne'er-Do-Well News
+  - Aisuru
+  title: Feds Disrupt IoT Botnets Behind Huge DDoS Attacks
+  url: https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/
+- category: ai
+  published: '2026-03-19T19:45:22'
+  score: 0.814
+  source: Ars Technica
+  summary: The post discusses the potential for "dogfighting in space," drawing parallels
+    between the current state of space warfare and the early days of air superiority,
+    highlighting the emerging interest in this domain.
+  tags:
+  - Science
+  - Space
+  - Commercial space
+  - golden dome
+  - military space
+  title: Dogfighting in space won't look like the movies, but this company wants in
+    on it
+  url: https://arstechnica.com/space/2026/03/dogfighting-in-space-this-company-builds-satellites-for-high-tempo-engagement/
+- category: cybersecurity
+  published: '2026-03-19T18:52:00'
+  score: 1.073
+  source: The Hacker News
+  summary: A new analysis revealed that 54 EDR killer programs leverage the "bring
+    your own vulnerable driver" (BYOVD) technique, exploiting 34 vulnerable drivers
+    to disable security solutions, posing a significant threat to endpoint security.
+  tags: []
+  title: 54 EDR Killers Use BYOVD to Exploit 34 Signed Vulnerable Drivers and Disable
+    Security
+  url: https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html
+- category: ai
+  published: '2026-03-19T18:44:58'
+  score: 0.851
+  source: Ars Technica
+  summary: OpenAI, the company behind the Codex language model, is acquiring the open-source
+    Python tool-maker Astral, indicating a move to support and integrate open-source
+    projects into its AI ecosystem.
+  tags:
+  - AI
+  - astral
+  - Codex
+  - open source
+  - openai
+  title: OpenAI is acquiring open source Python tool-maker Astral
+  url: https://arstechnica.com/ai/2026/03/openai-is-acquiring-open-source-python-tool-maker-astral/
+- category: webdev
+  published: '2026-03-19T17:50:40'
+  score: 0.728
+  source: Ars Technica
+  summary: Meta has decided not to shut down Horizon Worlds VR, but will instead focus
+    on mobile as the primary platform, with VR remaining a secondary focus and on
+    "life support."
+  tags:
+  - Tech
+  - Horizon Worlds
+  - meta
+  - VR
+  title: Meta decides not to kill Horizon Worlds VR after all
+  url: https://arstechnica.com/gadgets/2026/03/at-the-last-minute-meta-decides-not-to-kill-horizon-worlds-vr-after-all/
+- category: webdev
+  published: '2026-03-19T17:28:26'
+  score: 0.725
+  source: Ars Technica
+  summary: Google has introduced a new 24-hour process to allow users to sideload
+    unverified Android apps, providing more flexibility in app installation before
+    enforcement of verification requirements later this year.
+  tags:
+  - Google
+  - Security
+  - Tech
+  - android
+  - app developers
+  title: Google details new 24-hour process to sideload unverified Android apps
+  url: https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/
+- category: ai
+  published: '2026-03-19T17:25:44'
+  score: 0.842
+  source: AWS Machine Learning
+  summary: This post explores the technical capabilities of the NVIDIA Nemotron 3
+    Super model and provides guidance on how to use it for generative AI applications
+    within the Amazon Bedrock environment.
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Artificial Intelligence
+  - Partner solutions
+  title: Run NVIDIA Nemotron 3 Super on Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-3-super-on-amazon-bedrock/
+- category: webdev
+  published: '2026-03-19T16:50:10'
+  score: 0.722
+  source: Ars Technica
+  summary: Despite hardware limitations, Parallels has found a way to support running
+    Windows on the MacBook Neo, with a minimum practical configuration of 8GB unified
+    memory.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - macbook neo
+  title: Despite hardware limits, Parallels supports running Windows on MacBook Neo
+  url: https://arstechnica.com/gadgets/2026/03/despite-hardware-limits-parallels-supports-running-windows-on-macbook-neo/
+- category: ai
+  published: '2026-03-19T16:45:50'
+  score: 0.793
+  source: AWS Machine Learning
+  summary: This post explores the use of Retrieval Augmented Generation (RAG) for
+    video generation, leveraging Amazon Bedrock and Amazon Nova Reel to transform
+    text prompts and images into high-quality, grounded video sequences.
+  tags:
+  - Amazon Bedrock
+  - Amazon Nova
+  - Amazon SageMaker AI
+  - Artificial Intelligence
+  - Generative AI
+  title: Use RAG for video generation using Amazon Bedrock and Amazon Nova Reel
+  url: https://aws.amazon.com/blogs/machine-learning/use-rag-for-video-generation-using-amazon-bedrock-and-amazon-nova-reel/
+- category: ai
+  published: '2026-03-19T16:45:42'
+  score: 0.837
+  source: AWS Machine Learning
+  summary: The introduction of Video Retrieval-Augmented Generation (V-RAG) offers
+    a novel approach to AI-powered video production, combining retrieval-augmented
+    generation with advanced video AI models for efficient and reliable video content
+    creation.
+  tags:
+  - Artificial Intelligence
+  - Best Practices
+  - Generative AI
+  title: 'Introducing V-RAG: revolutionizing AI-powered video production with Retrieval
+    Augmented Generation'
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-v-rag-revolutionizing-ai-powered-video-production-with-retrieval-augmented-generation/
+- category: webdev
+  published: '2026-03-19T16:30:00'
+  score: 0.719
+  source: Towards Data Science
+  summary: The post introduces the concept of "Vibe Engineering," which focuses on
+    building products without the coding part, emphasizing the importance of understanding
+    user needs and creating the right "vibe" for successful product development.
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - AI coding assistants
+  - Claude Code
+  - Editors Pick
+  title: The Basics of Vibe Engineering
+  url: https://towardsdatascience.com/the-basics-of-vibe-engineering/
+- category: webdev
+  published: '2026-03-19T13:06:30'
+  score: 0.778
+  source: CSS-Tricks
+  summary: The post provides an excerpt from the "JavaScript for Everyone" course,
+    focusing on the topic of JavaScript destructuring, a powerful feature for working
+    with data structures in JavaScript.
+  tags:
+  - Articles
+  - destructuring
+  - JavaScript
+  title: 'JavaScript for Everyone: Destructuring'
+  url: https://css-tricks.com/javascript-for-everyone-destructuring/
+- category: cybersecurity
+  published: '2026-03-19T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: Successful exploitation of vulnerabilities in Schneider Electric's Modicon
+    M241, M251, M258, and LMC058 controllers could lead to cross-site scripting or
+    open redirect attacks, potentially compromising system security.
+  tags: []
+  title: Schneider Electric Modicon Controllers M241, M251, M258, and LMC058
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-02
+- category: cybersecurity
+  published: '2026-03-19T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: Successful exploitation of vulnerabilities in Schneider Electric's Modicon
+    M241, M251, and M262 controllers could result in a denial-of-service condition,
+    disrupting the operation of these industrial control systems.
+  tags: []
+  title: Schneider Electric Modicon M241, M251, and M262
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-01
+- category: cybersecurity
+  published: '2026-03-19T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: Vulnerabilities in Automated Logic WebCTRL Premium Server could allow attackers
+    to read, intercept, or modify communications, highlighting the need for secure
+    communication protocols in building automation systems.
+  tags: []
+  title: Automated Logic WebCTRL Premium Server
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-08
 - category: ai
   published: '2026-03-18T22:06:32'
   score: 0.873
@@ -26136,5 +26338,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-19T05:29:29.580098'
-total_articles: 2024
+last_updated: '2026-03-20T05:23:51.059112'
+total_articles: 2039
