@@ -1,4 +1,160 @@
 articles:
+- category: ai
+  published: '2026-03-22T15:00:00'
+  score: 0.824
+  source: Towards Data Science
+  summary: The tutorial provides a step-by-step guide on using prompt caching with
+    the OpenAI API to make your applications faster, cheaper, and more efficient.
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Editors Pick
+  - Programming
+  - Prompt Caching
+  title: 'Prompt Caching with the OpenAI API: A Full Hands-On Python tutorial'
+  url: https://towardsdatascience.com/prompt-caching-with-openai-api-full-hands-on-python-tutorial/
+- category: cybersecurity
+  published: '2026-03-22T14:32:46'
+  score: 0.944
+  source: BleepingComputer
+  summary: The VoidStealer malware uses a new approach to bypass Chrome's Application-Bound
+    Encryption and extract the master key for decrypting sensitive data stored in
+    the browser, enabling the theft of critical information.
+  tags:
+  - Security
+  title: VoidStealer malware steals Chrome master key via debugger trick
+  url: https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/
+- category: webdev
+  published: '2026-03-22T14:10:30'
+  score: 0.704
+  source: Ars Technica
+  summary: The article discusses the enduring appeal of the Highlander franchise,
+    even 40 years after its release, despite its cheesy elements.
+  tags:
+  - Culture
+  - 20th century fox
+  - entertainment
+  - film anniversaries
+  - highlander
+  title: 'There can (still) be only one: Highlander is 40'
+  url: https://arstechnica.com/culture/2026/03/there-can-still-be-only-one-highlander-is-40/
+- category: ai
+  published: '2026-03-22T13:00:00'
+  score: 0.766
+  source: Towards Data Science
+  summary: The article presents a hands-on guide to implementing computational fluid
+    dynamics (CFD) with NumPy, from discretization to simulating airflow around a
+    bird's wing.
+  tags:
+  - Physics
+  - Aerodynamics
+  - Cfd
+  - Python
+  - Simulation
+  title: 'Building a Navier-Stokes Solver in Python from Scratch: Simulating Airflow'
+  url: https://towardsdatascience.com/building-a-navier-stokes-solver-in-python-from-scratch-simulating-airflow/
+- category: ai
+  published: '2026-03-22T11:00:58'
+  score: 0.753
+  source: Ars Technica
+  summary: Policymakers are debating the necessity and safety of deep ocean mining,
+    as the industry seeks to extract valuable resources from the seafloor.
+  tags:
+  - Policy
+  - Science
+  - mining
+  - sea floor mining
+  title: Mining the deep ocean
+  url: https://arstechnica.com/science/2026/03/mining-the-deep-ocean/
+- category: cybersecurity
+  published: '2026-03-21T17:30:41'
+  score: 0.832
+  source: BleepingComputer
+  summary: The Trivy vulnerability scanner was compromised in a supply-chain attack,
+    with threat actors distributing credential-stealing malware through official releases
+    and GitHub Actions, posing a significant risk to users.
+  tags:
+  - Security
+  title: Trivy vulnerability scanner breach pushed infostealer via GitHub Actions
+  url: https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/
+- category: webdev
+  published: '2026-03-21T15:00:00'
+  score: 0.549
+  source: Towards Data Science
+  summary: The article explores how complex data platforms can grow into a "SQL jungle"
+    over time and provides strategies to bring structure back to the system.
+  tags:
+  - Data Science
+  - Data Engineering
+  - Etl
+  - Programming
+  - Sql
+  title: Escaping the SQL Jungle
+  url: https://towardsdatascience.com/escaping-the-sql-jungle/
+- category: cybersecurity
+  published: '2026-03-21T14:09:19'
+  score: 0.759
+  source: BleepingComputer
+  summary: Microsoft Azure Monitor alerts are being abused to send callback phishing
+    emails that impersonate warnings from the Microsoft Security Team about unauthorized
+    charges, tricking users into providing sensitive information.
+  tags:
+  - Security
+  title: Microsoft Azure Monitor alerts abused for callback phishing attacks
+  url: https://www.bleepingcomputer.com/news/security/microsoft-azure-monitor-alerts-abused-in-callback-phishing-campaigns/
+- category: ai
+  published: '2026-03-21T13:00:00'
+  score: 0.551
+  source: Towards Data Science
+  summary: The article introduces a practical approach to handling nonlinear constrained
+    optimization models using piecewise linear approximations and LP/MIP solvers like
+    Gurobi.
+  tags:
+  - Data Science
+  - Applied Mathematics
+  - Deep Dives
+  - Math
+  - Operations Research
+  title: A Gentle Introduction to Nonlinear Constrained Optimization with Piecewise
+    Linear Approximations
+  url: https://towardsdatascience.com/a-gentle-introduction-to-nonlinear-constrained-optimization-with-piecewise-linear-approximations/
+- category: ai
+  published: '2026-03-21T11:00:37'
+  score: 0.538
+  source: Ars Technica
+  summary: The latest discovery of raw material of DNA in asteroids adds to the growing
+    evidence that the building blocks of life may have originated in space, providing
+    insights into the origins of life on Earth.
+  tags:
+  - Science
+  - asteroids
+  - astronomy
+  - chemistry
+  - DNA
+  title: We keep finding the raw material of DNA in asteroids—what's it telling us?
+  url: https://arstechnica.com/science/2026/03/we-keep-finding-the-raw-material-of-dna-in-asteroids-whats-it-telling-us/
+- category: cybersecurity
+  published: '2026-03-21T10:24:00'
+  score: 0.826
+  source: The Hacker News
+  summary: Oracle has released security updates to address a critical vulnerability
+    (CVE-2026-21992) in Identity Manager and Web Services Manager that could be exploited
+    to achieve remote code execution, with a CVSS score of 9.8 out of 10.
+  tags: []
+  title: Oracle Patches Critical CVE-2026-21992 Enabling Unauthenticated RCE in Identity
+    Manager
+  url: https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html
+- category: cybersecurity
+  published: '2026-03-21T08:25:00'
+  score: 0.812
+  source: The Hacker News
+  summary: CISA has added five security flaws impacting Apple, Craft CMS, and Laravel
+    Livewire to its Known Exploited Vulnerabilities catalog, urging federal agencies
+    to patch them by April 3, 2026.
+  tags: []
+  title: CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April
+    3, 2026
+  url: https://thehackernews.com/2026/03/cisa-flags-apple-craft-cms-laravel-bugs.html
 - category: cybersecurity
   published: '2026-03-20T00:49:19'
   score: 1.122
@@ -26338,5 +26494,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-20T05:23:51.059112'
-total_articles: 2039
+last_updated: '2026-03-23T05:32:12.118505'
+total_articles: 2051
