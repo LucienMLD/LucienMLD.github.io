@@ -1,5 +1,197 @@
 articles:
 - category: ai
+  published: '2026-03-24T02:01:52'
+  score: 0.956
+  source: Hugging Face
+  summary: The article introduces a new framework called Evaluation of Voice Agents
+    (EVA) for assessing the capabilities and performance of voice agents.
+  tags: []
+  title: A New Framework for Evaluating Voice Agents (EVA)
+  url: https://huggingface.co/blog/ServiceNow-AI/eva
+- category: ai
+  published: '2026-03-23T23:47:14'
+  score: 1.073
+  source: BleepingComputer
+  summary: OpenAI is rolling out a new 'Library' feature for ChatGPT, which allows
+    users to store personal files and images on OpenAI's cloud storage, enabling them
+    to reference those items during future conversations with the AI assistant.
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI rolls out ChatGPT Library to store your personal files
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-chatgpt-library-to-store-your-personal-files/
+- category: cybersecurity
+  published: '2026-03-23T22:12:52'
+  score: 1.001
+  source: BleepingComputer
+  summary: Mazda Motor Corporation disclosed a security incident that exposed information
+    belonging to its employees and business partners, highlighting the ongoing need
+    for robust cybersecurity measures in the automotive industry.
+  tags:
+  - Security
+  title: Mazda discloses security breach exposing employee and partner data
+  url: https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/
+- category: ai
+  published: '2026-03-23T21:19:51'
+  score: 0.824
+  source: Ars Technica
+  summary: Nvidia's CEO tries to explain why DLSS 5, the company's latest deep learning
+    super-sampling technology, is not just "AI slop" and why game makers should consider
+    using it.
+  tags:
+  - AI
+  - Gaming
+  - dlss
+  - DLSS 5
+  - geforce rtx
+  title: Nvidia CEO tries to explain why DLSS 5 isn’t just “AI slop”
+  url: https://arstechnica.com/gaming/2026/03/nvidia-ceo-tries-to-explain-why-dlss-5-isnt-just-ai-slop/
+- category: webdev
+  published: '2026-03-23T20:29:09'
+  score: 0.744
+  source: Ars Technica
+  summary: LG Display has started mass-producing LTPO-like 1 Hz LCD displays for laptops,
+    with Dell XPS laptops being the first to use this display technology that can
+    reach up to 120 Hz.
+  tags:
+  - Tech
+  - laptops
+  - lcd
+  - LG
+  - LG Display
+  title: LG Display starts mass-producing LTPO-like 1 Hz LCD displays for laptops
+  url: https://arstechnica.com/gadgets/2026/03/lg-display-starts-mass-producing-ltpo-like-1-hz-lcd-displays-for-laptops/
+- category: cybersecurity
+  published: '2026-03-23T18:09:00'
+  score: 0.971
+  source: The Hacker News
+  summary: North Korean hackers have been attributed to a malware family called StoatWaffle,
+    which is distributed via malicious Microsoft Visual Studio Code (VS Code) projects
+    that abuse the "tasks.json" feature to deploy the malware.
+  tags: []
+  title: North Korean Hackers Abuse VS Code Auto-Run Tasks to Deploy StoatWaffle Malware
+  url: https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html
+- category: webdev
+  published: '2026-03-23T17:59:46'
+  score: 0.728
+  source: Ars Technica
+  summary: An undergraduate has developed a prototype conductive nail polish that
+    could help people with long fingernails use touchscreen devices more effectively.
+  tags:
+  - Science
+  - chemistry
+  - cosmetics
+  title: 'Long fingernails vs. touchscreens: This nail polish could help'
+  url: https://arstechnica.com/science/2026/03/long-fingernails-vs-touchscreens-this-nail-polish-could-help/
+- category: cybersecurity
+  published: '2026-03-23T17:40:27'
+  score: 0.967
+  source: BleepingComputer
+  summary: The TeamPCP hackers continued their supply chain attack on Aqua Security,
+    pushing malicious Docker images and hijacking the company's GitHub organization
+    to tamper with dozens of repositories.
+  tags:
+  - Security
+  title: Trivy supply-chain attack spreads to Docker, GitHub repos
+  url: https://www.bleepingcomputer.com/news/security/trivy-supply-chain-attack-spreads-to-docker-github-repos/
+- category: webdev
+  published: '2026-03-23T16:38:56'
+  score: 0.72
+  source: AWS Machine Learning
+  summary: The article demonstrates how to build a Slack integration using AWS Cloud
+    Development Kit (AWS CDK), including deploying infrastructure with specialized
+    AWS Lambda functions, configuring event subscriptions, and implementing conversational
+    capabilities.
+  tags:
+  - Amazon API Gateway
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon Cognito
+  - Amazon Nova
+  title: Integrating Amazon Bedrock AgentCore with Slack
+  url: https://aws.amazon.com/blogs/machine-learning/integrating-amazon-bedrock-agentcore-with-slack/
+- category: ai
+  published: '2026-03-23T16:34:37'
+  score: 0.835
+  source: AWS Machine Learning
+  summary: AWS ISV Partner Artificial Genius is using Amazon SageMaker AI and Amazon
+    Nova to deliver a solution that is probabilistic on input but deterministic on
+    output, helping to enable safe, enterprise-grade adoption of large language models.
+  tags:
+  - Amazon Nova
+  - Amazon SageMaker AI
+  - Customer Solutions
+  - Innovation and Reinvention
+  - AI/ML
+  title: 'Overcoming LLM hallucinations in regulated industries: Artificial Genius’s
+    deterministic models on Amazon Nova'
+  url: https://aws.amazon.com/blogs/machine-learning/overcoming-llm-hallucinations-in-regulated-industries-artificial-geniuss-deterministic-models-on-amazon-nova/
+- category: ai
+  published: '2026-03-23T15:00:00'
+  score: 0.824
+  source: Towards Data Science
+  summary: The article discusses how causal inference is becoming an important tool
+    in machine learning, as it can help address issues where an ML model's predictions
+    are accurate but the recommended actions are wrong.
+  tags:
+  - Data Science
+  - Causal Inference
+  - Machine Learning
+  - Python
+  - Statistics
+  title: Causal Inference Is Eating Machine Learning
+  url: https://towardsdatascience.com/causal-inference-is-eating-machine-learning/
+- category: webdev
+  published: '2026-03-23T13:51:15'
+  score: 0.742
+  source: CSS-Tricks
+  summary: The article explores the use of the new CSS `corner-shape()` property to
+    create interesting UI effects through scroll-driven corner-shape animations.
+  tags:
+  - Articles
+  - animation
+  - corner-shape
+  - Scroll Driven Animation
+  title: Experimenting With Scroll-Driven corner-shape Animations
+  url: https://css-tricks.com/experimenting-with-scroll-driven-corner-shape-animations/
+- category: cybersecurity
+  published: '2026-03-23T13:14:00'
+  score: 0.982
+  source: The Hacker News
+  summary: This weekly recap covers various cybersecurity issues, including supply
+    chain attacks targeting CI/CD setups, the shutdown of long-abused IoT devices,
+    and the exploitation of a high-severity vulnerability in Quest KACE Systems Management
+    Appliance.
+  tags: []
+  title: '⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches
+    Numbers & More'
+  url: https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html
+- category: webdev
+  published: '2026-03-23T12:00:00'
+  score: 0.731
+  source: Towards Data Science
+  summary: The author built a podcast clipping app in one weekend using Vibe, a rapid
+    prototyping tool that leverages AI agents and minimal manual coding.
+  tags:
+  - Agentic AI
+  - AI coding assistants
+  - Artificial Intelligence
+  - Editors Pick
+  - Software Development
+  title: I Built a Podcast Clipping App in One Weekend Using Vibe Coding
+  url: https://towardsdatascience.com/i-built-a-podcast-clipping-app-in-one-weekend-using-vibe-coding/
+- category: cybersecurity
+  published: '2026-03-23T06:15:00'
+  score: 0.978
+  source: The Hacker News
+  summary: Threat actors are suspected of exploiting a maximum-severity security flaw
+    (CVE-2025-32975) in Quest KACE Systems Management Appliance, allowing them to
+    hijack unpatched systems, as reported by Arctic Wolf.
+  tags: []
+  title: Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE
+    SMA Systems
+  url: https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html
+- category: ai
   published: '2026-03-22T15:00:00'
   score: 0.824
   source: Towards Data Science
@@ -26494,5 +26686,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-23T05:32:12.118505'
-total_articles: 2051
+last_updated: '2026-03-24T05:29:48.684802'
+total_articles: 2066
