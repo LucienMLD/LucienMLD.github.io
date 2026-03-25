@@ -1,4 +1,181 @@
 articles:
+- category: cybersecurity
+  published: '2026-03-25T03:43:55'
+  score: 1.047
+  source: Ars Technica
+  summary: Robert Malone, an anti-vaccine ally of Robert F. Kennedy Jr., angrily quit
+    a CDC panel after a reported spat with an HHS spokesperson.
+  tags:
+  - Health
+  - ACIP
+  - CDC
+  - robert f kennedy jr
+  - robert malone
+  title: '"The last straw"—RFK Jr.''s anti-vaccine ally angrily quits CDC panel after
+    spat'
+  url: https://arstechnica.com/health/2026/03/rfk-jr-anti-vaccine-ally-dramatically-quits-cdc-panel-complaining-of-drama/
+- category: ai
+  published: '2026-03-24T21:19:50'
+  score: 0.868
+  source: Ars Technica
+  summary: OpenAI has announced plans to shut down its Sora video generator, reportedly
+    as part of a shift to focus on business and productivity use cases.
+  tags:
+  - AI
+  - bytedance
+  - openai
+  - OpenAI Sora
+  - seedance
+  title: OpenAI announces plans to shut down its Sora video generator
+  url: https://arstechnica.com/ai/2026/03/openai-plans-to-shut-down-sora-just-15-months-after-its-launch/
+- category: webdev
+  published: '2026-03-24T19:06:03'
+  score: 0.735
+  source: Ars Technica
+  summary: Apple has released iOS, iPadOS, and macOS 26.4 updates with a long list
+    of medium-size tweaks, more significant than the last few updates.
+  tags:
+  - Apple
+  - Tech
+  - ios 26
+  - ipados 26
+  - macos 26 tahoe
+  title: Apple releases iOS, iPadOS, macOS 26.4 with a long list of medium-size tweaks
+  url: https://arstechnica.com/gadgets/2026/03/apple-releases-ios-ipados-macos-26-4-with-a-long-list-of-medium-size-tweaks/
+- category: webdev
+  published: '2026-03-24T18:27:53'
+  score: 0.731
+  source: Ars Technica
+  summary: Google wants to move Android in cars beyond the infotainment box, expanding
+    its presence in the automotive ecosystem.
+  tags:
+  - Cars
+  - Google
+  - Android automotive os
+  - cars
+  - google
+  title: Google's new version of Android Automotive will move beyond infotainment
+  url: https://arstechnica.com/cars/2026/03/google-wants-android-automotive-to-control-more-of-your-car/
+- category: webdev
+  published: '2026-03-24T18:04:00'
+  score: 0.729
+  source: Ars Technica
+  summary: Apple has confirmed that its Maps app will begin showing ads to users "this
+    summer," similar to the current App Store ads.
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - apple maps
+  title: Apple confirms that its Maps app will begin showing ads to users "this summer"
+  url: https://arstechnica.com/gadgets/2026/03/apple-confirms-that-its-maps-app-will-begin-showing-ads-to-users-this-summer/
+- category: ai
+  published: '2026-03-24T17:56:00'
+  score: 0.933
+  source: AWS Machine Learning
+  summary: Amazon Bedrock's Claude tool use enables accelerated custom entity recognition,
+    leveraging the power of large language models (LLMs) for dynamic, adaptable entity
+    recognition without extensive setup or training.
+  tags:
+  - Amazon Bedrock
+  - Amazon CloudWatch
+  - Amazon Simple Storage Service (S3)
+  - Artificial Intelligence
+  - AWS Lambda
+  title: Accelerating custom entity recognition with Claude tool use in Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/accelerating-custom-entity-recognition-with-claude-tool-use-in-amazon-bedrock/
+- category: webdev
+  published: '2026-03-24T17:00:30'
+  score: 0.722
+  source: WebKit Blog
+  summary: The article highlights the new WebKit features for Safari 26.4, continuing
+    the trend of regular updates and improvements to the browser engine.
+  tags:
+  - News
+  title: WebKit Features for Safari 26.4
+  url: https://webkit.org/blog/17862/webkit-features-for-safari-26-4/
+- category: ai
+  published: '2026-03-24T16:30:00'
+  score: 0.835
+  source: Towards Data Science
+  summary: The article explores how to make Claude Code improve from its own mistakes,
+    using continual learning to supercharge the system.
+  tags:
+  - Agentic AI
+  - Claude Code
+  - coding agents
+  - Continual Learning
+  - Llm Agent
+  title: How to Make Claude Code Improve from its Own Mistakes
+  url: https://towardsdatascience.com/how-to-make-claude-code-improve-from-its-mistakes/
+- category: webdev
+  published: '2026-03-24T13:00:00'
+  score: 0.737
+  source: Smashing Magazine
+  summary: The article explains how to use Figma variables to test font scaling for
+    accessibility, integrating accessibility testing into the design workflow.
+  tags: []
+  title: Testing Font Scaling For Accessibility With Figma Variables
+  url: https://smashingmagazine.com/2026/03/testing-font-scaling-accessibility-figma-variables/
+- category: cybersecurity
+  published: '2026-03-24T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: The Pharos Controls Mosaic Show Controller has a vulnerability that allows
+    unauthenticated attackers to execute arbitrary commands with root privileges,
+    posing a significant security risk.
+  tags: []
+  title: Pharos Controls Mosaic Show Controller
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-083-01
+- category: cybersecurity
+  published: '2026-03-24T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: The Schneider Electric Plant iT/Brewmaxx software has vulnerabilities that
+    could lead to privilege escalation and remote code execution, which could be exploited
+    by attackers.
+  tags: []
+  title: Schneider Electric Plant iT/Brewmaxx
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-083-03
+- category: cybersecurity
+  published: '2026-03-24T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: Schneider Electric is aware of a vulnerability in its EcoStruxure Foxboro
+    DCS Control Software, which could potentially allow remote code execution on affected
+    workstations and servers.
+  tags: []
+  title: Schneider Electric EcoStruxure Foxboro DCS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-083-02
+- category: cybersecurity
+  published: '2026-03-24T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: The Grassroots DICOM (GDCM) software has a vulnerability that could allow
+    an attacker to send a specially crafted file, which, when parsed, could result
+    in arbitrary code execution.
+  tags: []
+  title: Grassroots DICOM (GDCM)
+  url: https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-083-01
+- category: ai
+  published: '2026-03-24T11:00:00'
+  score: 0.841
+  source: OpenAI
+  summary: OpenAI has released prompt-based teen safety policies for developers using
+    GPT-OSS-Safeguard, helping to moderate age-specific risks in AI systems.
+  tags:
+  - Safety
+  title: Helping developers build safer AI experiences for teens
+  url: https://openai.com/index/teen-safety-policies-gpt-oss-safeguard
+- category: ai
+  published: '2026-03-24T09:00:03'
+  score: 0.827
+  source: Machine Learning Mastery
+  summary: The post discusses building the full data layer for AI applications, going
+    beyond the vector store to address the architectural needs of modern AI systems.
+  tags: []
+  title: 'Beyond the Vector Store: Building the Full Data Layer for AI Applications'
+  url: https://machinelearningmastery.com/beyond-the-vector-store-building-the-full-data-layer-for-ai-applications/
 - category: ai
   published: '2026-03-24T02:01:52'
   score: 0.956
@@ -26686,5 +26863,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-24T05:29:48.684802'
-total_articles: 2066
+last_updated: '2026-03-25T05:29:31.081222'
+total_articles: 2081
