@@ -1,4 +1,189 @@
 articles:
+- category: ai
+  published: '2026-03-25T23:23:39'
+  score: 0.838
+  source: BleepingComputer
+  summary: GitHub is adopting AI-based scanning for its Code Security tool to expand
+    vulnerability detections beyond the CodeQL static analysis and cover more languages
+    and frameworks, enhancing the platform's security capabilities.
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: GitHub adds AI-powered bug detection to expand security coverage
+  url: https://www.bleepingcomputer.com/news/security/github-adds-ai-powered-bug-detection-to-expand-security-coverage/
+- category: cybersecurity
+  published: '2026-03-25T21:40:21'
+  score: 0.997
+  source: BleepingComputer
+  summary: Attacks leveraging the 'PolyShell' vulnerability in Magento Open Source
+    and Adobe Commerce version 2 installations are targeting more than half of all
+    vulnerable stores. The attacks are aimed at exploiting this vulnerability to compromise
+    e-commerce websites.
+  tags:
+  - Security
+  title: PolyShell attacks target 56% of all vulnerable Magento stores
+  url: https://www.bleepingcomputer.com/news/security/polyshell-attacks-target-56-percent-of-all-vulnerable-magento-stores/
+- category: ai
+  published: '2026-03-25T20:21:51'
+  score: 0.817
+  source: Ars Technica
+  summary: NASA is considering a plan to use a nuclear reactor to power a Gateway
+    outpost and send it to Mars, as only one US-built nuclear reactor has ever flown
+    in space, and that was more than 60 years ago.
+  tags:
+  - Science
+  - Space
+  - Gateway
+  - Mars
+  - NASA
+  title: Here is NASA's plan for nuking Gateway and sending it to Mars
+  url: https://arstechnica.com/space/2026/03/here-is-nasas-plan-for-nuking-gateway-and-sending-it-to-mars/
+- category: ai
+  published: '2026-03-25T20:04:57'
+  score: 0.815
+  source: Ars Technica
+  summary: Reddit will require "fishy" accounts, which may be AI-generated, to verify
+    they are run by a human, though AI-generated content is still acceptable for now
+    on the platform.
+  tags:
+  - AI
+  - Tech
+  - bots
+  - reddit
+  - social media
+  title: Reddit will require "fishy" accounts to verify they are run by a human
+  url: https://arstechnica.com/gadgets/2026/03/reddit-will-require-fishy-accounts-to-verify-they-are-run-by-a-human/
+- category: webdev
+  published: '2026-03-25T18:57:43'
+  score: 0.734
+  source: Ars Technica
+  summary: Nintendo is raising the prices of Switch 2 game cartridges starting in
+    May, with the first physical game affected costing $10 more than a digital copy.
+  tags:
+  - Gaming
+  - game key cards
+  - Nintendo
+  - nintendo switch
+  - nintendo switch 2
+  title: Nintendo is raising prices of Switch 2 game cartridges starting in May
+  url: https://arstechnica.com/gaming/2026/03/nintendo-will-start-charging-more-for-physical-switch-2-games-than-digital-copies/
+- category: ai
+  published: '2026-03-25T17:59:12'
+  score: 0.889
+  source: Ars Technica
+  summary: Google's TurboQuant AI-compression algorithm can reduce the memory usage
+    of large language models by up to 6 times without significantly reducing output
+    quality, making AI models more efficient.
+  tags:
+  - AI
+  - Google
+  - Artificial Intelligence
+  - generative ai
+  - google
+  title: Google's TurboQuant AI-compression algorithm can reduce LLM memory usage
+    by 6x
+  url: https://arstechnica.com/ai/2026/03/google-says-new-turboquant-compression-can-lower-ai-memory-usage-without-sacrificing-quality/
+- category: ai
+  published: '2026-03-25T17:30:56'
+  score: 0.841
+  source: AWS Machine Learning
+  summary: This post provides a technical walkthrough of using Reinforcement Fine-Tuning
+    (RFT) on Amazon Bedrock with OpenAI-compatible APIs, including setting up authentication,
+    deploying a Lambda-based reward function, and training and running inference on
+    a fine-tuned model.
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Artificial Intelligence
+  title: 'Reinforcement fine-tuning on Amazon Bedrock with OpenAI-Compatible APIs:
+    a technical walkthrough'
+  url: https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-on-amazon-bedrock-with-openai-compatible-apis-a-technical-walkthrough/
+- category: webdev
+  published: '2026-03-25T16:17:11'
+  score: 0.717
+  source: Mozilla Hacks
+  summary: Mozilla has introduced the Firefox Beta package for RPM-based Linux distributions,
+    allowing developers to test their sites in a version of Firefox that will reach
+    regular users in the coming weeks.
+  tags:
+  - Featured Article
+  - Firefox
+  - Linux
+  title: 'Firefox Developer Edition and Beta: Try out Mozilla’s .rpm package!'
+  url: https://hacks.mozilla.org/2026/03/firefox-developer-edition-and-beta-try-out-mozillas-rpm-package/
+- category: cybersecurity
+  published: '2026-03-25T15:52:10'
+  score: 1.049
+  source: BleepingComputer
+  summary: Citrix has patched two vulnerabilities in its NetScaler ADC and NetScaler
+    Gateway products, one of which is similar to the previously exploited CitrixBleed
+    and CitrixBleed2 flaws. Citrix urges administrators to patch these vulnerabilities
+    as soon as possible to prevent potential attacks.
+  tags:
+  - Security
+  title: Citrix urges admins to patch NetScaler flaws as soon as possible
+  url: https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-netscaler-flaws-as-soon-as-possible/
+- category: webdev
+  published: '2026-03-25T15:00:00'
+  score: 0.709
+  source: Towards Data Science
+  summary: This article discusses an interesting issue that arose after implementing
+    a "Like-for-Like" (L4L) solution for stores, which brought additional requirements
+    to the original solution.
+  tags:
+  - Data analysis
+  - Business Analytics
+  - Data Science
+  - Power Bi
+  - Power Bi Tutorials
+  title: 'Following Up on Like-for-Like for Stores: Handling PY'
+  url: https://towardsdatascience.com/follow-up-on-like-for-like-for-stores-handling-py/
+- category: cybersecurity
+  published: '2026-03-25T14:26:00'
+  score: 0.943
+  source: The Hacker News
+  summary: Cybersecurity researchers have identified a new evolution of the GlassWorm
+    malware campaign, which delivers a multi-stage framework capable of comprehensive
+    data theft and installing a remote access trojan (RAT) that includes an information-stealing
+    Google Chrome extension.
+  tags: []
+  title: GlassWorm Malware Uses Solana Dead Drops to Deliver RAT and Steal Browser,
+    Crypto Data
+  url: https://thehackernews.com/2026/03/glassworm-malware-uses-solana-dead.html
+- category: cybersecurity
+  published: '2026-03-25T12:00:00'
+  score: 1.02
+  source: CISA
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has added a
+    new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, indicating
+    evidence of active exploitation. The catalog is a repository of vulnerabilities
+    that federal agencies must patch within a specific timeframe.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/03/25/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: webdev
+  published: '2026-03-25T11:11:00'
+  score: 0.685
+  source: BleepingComputer
+  summary: TP-Link has patched several vulnerabilities in its Archer NX router series,
+    including a critical-severity flaw that may allow attackers to bypass authentication
+    and upload new firmware, and urges users to apply the updates.
+  tags:
+  - Security
+  title: TP-Link warns users to patch critical router auth bypass flaw
+  url: https://www.bleepingcomputer.com/news/security/tp-link-warns-users-to-patch-critical-router-auth-bypass-flaw/
+- category: cybersecurity
+  published: '2026-03-25T08:47:29'
+  score: 0.948
+  source: BleepingComputer
+  summary: A Russian national has been sentenced to two years in prison for managing
+    a phishing botnet that was used to launch BitPaymer ransomware attacks against
+    72 U.S. companies. The botnet was used to deliver the ransomware and carry out
+    the attacks.
+  tags:
+  - Security
+  title: Manager of botnet used in ransomware attacks gets 2 years in prison
+  url: https://www.bleepingcomputer.com/news/security/russian-man-sentenced-for-operating-botnet-used-in-ransomware-attacks/
 - category: cybersecurity
   published: '2026-03-25T03:43:55'
   score: 1.047
@@ -26863,5 +27048,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-25T05:29:31.081222'
-total_articles: 2081
+last_updated: '2026-03-26T05:32:50.090872'
+total_articles: 2095
