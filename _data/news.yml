@@ -1,4 +1,187 @@
 articles:
+- category: webdev
+  published: '2026-03-26T23:15:35'
+  score: 0.761
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 240 is now available for download, providing
+    updates and improvements to the Safari web browser on macOS Tahoe and macOS Sequoia.
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 240
+  url: https://webkit.org/blog/17896/release-notes-for-safari-technology-preview-240/
+- category: ai
+  published: '2026-03-26T23:08:53'
+  score: 0.968
+  source: AWS Machine Learning
+  summary: Amazon Bedrock, a cloud-based generative AI service, is now available in
+    the Asia Pacific (New Zealand) region, allowing customers in New Zealand to access
+    Anthropic and Amazon-developed AI models.
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Artificial Intelligence
+  title: Run Generative AI inference with Amazon Bedrock in Asia Pacific (New Zealand)
+  url: https://aws.amazon.com/blogs/machine-learning/run-generative-ai-inference-with-amazon-bedrock-in-asia-pacific-new-zealand/
+- category: webdev
+  published: '2026-03-26T21:50:26'
+  score: 0.752
+  source: Ars Technica
+  summary: Elon Musk's lawsuit against X (formerly Twitter) for an ad boycott has
+    been dismissed, with the judge admonishing Musk for a "fishing expedition".
+  tags:
+  - Policy
+  title: Elon Musk loses big in court; X boycott perfectly legal
+  url: https://arstechnica.com/tech-policy/2026/03/elon-musk-loses-big-in-court-x-boycott-perfectly-legal/
+- category: webdev
+  published: '2026-03-26T20:30:48'
+  score: 0.743
+  source: Ars Technica
+  summary: Netflix has raised prices for all of its subscription tiers by up to 12.5%,
+    the latest increase since the last price hike in January 2025.
+  tags:
+  - Tech
+  - Netflix
+  - streaming
+  title: Netflix raises prices for every subscription tier by up to 12.5 percent
+  url: https://arstechnica.com/gadgets/2026/03/netflix-increases-prices-for-all-plans-by-up-to-2-per-month/
+- category: cybersecurity
+  published: '2026-03-26T19:17:43'
+  score: 1.075
+  source: BleepingComputer
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) warns of a
+    critical vulnerability in the Langflow framework for building AI agents, which
+    is actively being exploited by hackers to hijack AI workflows.
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: 'CISA: New Langflow flaw actively exploited to hijack AI workflows'
+  url: https://www.bleepingcomputer.com/news/security/cisa-new-langflow-flaw-actively-exploited-to-hijack-ai-workflows/
+- category: ai
+  published: '2026-03-26T17:44:07'
+  score: 0.843
+  source: Ars Technica
+  summary: Google's new conversational audio AI, Gemini 3.1 Flash Live, is rolling
+    out in search, Gemini, and developer tools, potentially making it harder to distinguish
+    between human and AI conversations.
+  tags:
+  - AI
+  - Google
+  - Artificial Intelligence
+  - gemini
+  - generative ai
+  title: The debut of Gemini 3.1 Flash Live could make it harder to know if you're
+    talking to a robot
+  url: https://arstechnica.com/ai/2026/03/the-debut-of-gemini-3-1-flash-live-could-make-it-harder-to-know-if-youre-talking-to-a-robot/
+- category: ai
+  published: '2026-03-26T17:20:26'
+  score: 0.884
+  source: AWS Machine Learning
+  summary: AWS has integrated Amazon SageMaker Unified Studio with Amazon S3, making
+    it easier for teams to use unstructured data stored in S3 for machine learning
+    and data analytics.
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker
+  - Amazon SageMaker Unified Studio
+  - Amazon Simple Storage Service (S3)
+  - Artificial Intelligence
+  title: Accelerating LLM fine-tuning with unstructured data using SageMaker Unified
+    Studio and S3
+  url: https://aws.amazon.com/blogs/machine-learning/accelerating-llm-fine-tuning-with-unstructured-data-using-sagemaker-unified-studio-and-s3/
+- category: ai
+  published: '2026-03-26T17:10:20'
+  score: 0.883
+  source: AWS Machine Learning
+  summary: Amazon Polly has introduced a new Bidirectional Streaming API, which enables
+    streamlined real-time text-to-speech synthesis for conversational AI applications.
+  tags:
+  - Advanced (300)
+  - Amazon Polly
+  - Announcements
+  - Artificial Intelligence
+  - Customer Solutions
+  title: 'Introducing Amazon Polly Bidirectional Streaming: Real-time speech synthesis
+    for conversational AI'
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-amazon-polly-bidirectional-streaming-real-time-speech-synthesis-for-conversational-ai/
+- category: webdev
+  published: '2026-03-26T16:46:20'
+  score: 0.76
+  source: Ars Technica
+  summary: The Intel Core Ultra 270K and 250K Plus CPUs offer great performance for
+    the price, but the overall system cost may be high due to the need for expensive
+    RAM, SSDs, and GPUs.
+  tags:
+  - Features
+  - Tech
+  - arrow lake
+  - core ultra 200
+  - core ultra 200S
+  title: 'Intel Core Ultra 270K and 250K Plus review: Conditionally great CPUs'
+  url: https://arstechnica.com/gadgets/2026/03/intel-core-ultra-270k-and-250k-plus-review-conditionally-great-cpus/
+- category: ai
+  published: '2026-03-26T16:21:10'
+  score: 0.921
+  source: Ars Technica
+  summary: OpenAI has indefinitely shelved plans for a more erotic version of ChatGPT,
+    with some staff reportedly questioning how such a feature would benefit humanity.
+  tags:
+  - AI
+  - Policy
+  - chatbot
+  - ChatGPT
+  - child safety
+  title: OpenAI “indefinitely” shelves plans for erotic ChatGPT
+  url: https://arstechnica.com/tech-policy/2026/03/chatgpt-wont-talk-dirty-any-time-soon-as-sexy-mode-turns-off-investors-report-says/
+- category: webdev
+  published: '2026-03-26T14:59:55'
+  score: 0.749
+  source: CSS-Tricks
+  summary: Researchers are exploring the use of generative AI techniques to automatically
+    generate user interfaces based on user preferences and design goals.
+  tags:
+  - Articles
+  - artificial intelligence
+  title: Generative UI Notes
+  url: https://css-tricks.com/generative-ui-notes/
+- category: cybersecurity
+  published: '2026-03-26T12:00:00'
+  score: 1.068
+  source: CISA
+  summary: CISA has added a new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, indicating evidence of active exploitation.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2026-03-26T12:00:00'
+  score: 1.068
+  source: CISA
+  summary: The PTC Windchill Product Lifecycle Management vulnerability could allow
+    an attacker to achieve remote code execution, which could have significant security
+    implications.
+  tags: []
+  title: PTC Windchill Product Lifecycle Management
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-03
+- category: cybersecurity
+  published: '2026-03-26T12:00:00'
+  score: 1.068
+  source: CISA
+  summary: The OpenCode Systems OC Messaging and USSD Gateway vulnerability could
+    allow an authenticated low-privileged user to gain access to SMS messages outside
+    of their intended scope.
+  tags: []
+  title: OpenCode Systems OC Messaging and USSD Gateway
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-02
+- category: cybersecurity
+  published: '2026-03-26T12:00:00'
+  score: 1.068
+  source: CISA
+  summary: The WAGO GmbH & Co. KG Industrial Managed Switches vulnerability could
+    allow an unauthenticated remote attacker to escape the restricted interface and
+    gain full control of the device.
+  tags: []
+  title: WAGO GmbH & Co. KG Industrial Managed Switches
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-085-01
 - category: ai
   published: '2026-03-25T23:23:39'
   score: 0.838
@@ -27048,5 +27231,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-26T05:32:50.090872'
-total_articles: 2095
+last_updated: '2026-03-27T05:33:27.066203'
+total_articles: 2110
