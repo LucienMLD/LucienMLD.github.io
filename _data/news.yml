@@ -1,4 +1,145 @@
 articles:
+- category: ai
+  published: '2026-03-29T22:15:00'
+  score: 0.873
+  source: OpenAI
+  summary: The Gates Foundation is partnering with OpenAI to develop AI-based solutions
+    for disaster response efforts in Asia, leveraging the capabilities of AI to improve
+    the efficiency and effectiveness of relief operations during emergencies.
+  tags:
+  - Global Affairs
+  title: Helping disaster response teams turn AI into action across Asia
+  url: https://openai.com/index/helping-disaster-response-teams-asia
+- category: cybersecurity
+  published: '2026-03-29T21:09:50'
+  score: 0.944
+  source: BleepingComputer
+  summary: The FBI has confirmed that the personal email account of Director Kash
+    Patel has been breached by the Handala hackers associated with Iran, leading to
+    the publication of photos and documents from the account. This incident highlights
+    the cybersecurity risks faced by high-profile government officials and the need
+    for robust security measures to protect sensitive information.
+  tags:
+  - Security
+  title: FBI confirms hack of Director Patel's personal email inbox
+  url: https://www.bleepingcomputer.com/news/security/fbi-confirms-hack-of-director-patels-personal-email-inbox/
+- category: ai
+  published: '2026-03-29T16:15:00'
+  score: 0.787
+  source: Towards Data Science
+  summary: Becoming an AI engineer requires a substantial investment of time and effort,
+    as it involves mastering a range of skills, building practical projects, and gaining
+    relevant experience, rather than a quick path to success.
+  tags:
+  - Artificial Intelligence
+  - Data Science
+  - Data Visualization
+  - Deep Learning
+  - Machine Learning
+  title: How to Become an AI Engineer Fast (Skills, Projects, Salary)
+  url: https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/
+- category: cybersecurity
+  published: '2026-03-29T14:38:25'
+  score: 0.943
+  source: BleepingComputer
+  summary: A vulnerability in the Smart Slider 3 WordPress plugin, which is active
+    on more than 800,000 websites, can be exploited by subscriber-level users to access
+    arbitrary files on the server. This flaw poses a significant security risk and
+    underscores the importance of keeping WordPress plugins up-to-date and properly
+    securing web applications.
+  tags:
+  - Security
+  title: File read flaw in Smart Slider plugin impacts 500K WordPress sites
+  url: https://www.bleepingcomputer.com/news/security/file-read-flaw-in-smart-slider-plugin-impacts-500k-wordpress-sites/
+- category: ai
+  published: '2026-03-29T13:00:00'
+  score: 0.853
+  source: Towards Data Science
+  summary: This article presents a self-healing neural network that can detect and
+    adapt to model drift in real-time without requiring retraining, allowing for continuous
+    model improvement and recovery of performance without disruption to production
+    systems.
+  tags:
+  - Deep Learning
+  - Artificial Intelligence
+  - Concept Drift
+  - Deep Dives
+  - Machine Learning
+  title: 'Self-Healing Neural Networks in PyTorch: Fix Model Drift in Real Time Without
+    Retraining'
+  url: https://towardsdatascience.com/self-healing-neural-networks-in-pytorch-fix-model-drift-in-real-time-without-retraining/
+- category: cybersecurity
+  published: '2026-03-29T11:35:10'
+  score: 0.824
+  source: Ars Technica
+  summary: Polymarket, a leading prediction market, has opened a physical "Situation
+    Room" bar in Washington, D.C., blending the worlds of finance, technology, and
+    entertainment, likely to foster engagement and discussion around its platform.
+  tags:
+  - Culture
+  - dc
+  - polymarket
+  - prediction market
+  title: 'Pints meet prop bets: Polymarket’s “Situation Room” pop-up bar in DC'
+  url: https://arstechnica.com/culture/2026/03/pints-meet-prop-bets-polymarkets-situation-room-pop-up-bar-in-dc/
+- category: cybersecurity
+  published: '2026-03-29T11:01:46'
+  score: 0.82
+  source: Ars Technica
+  summary: Polygraph tests have significant flaws, and research is ongoing to explore
+    alternative lie detection methods, though some experts doubt whether true lie
+    detection is possible due to the complexities of human behavior and cognition.
+  tags:
+  - Science
+  - polygraph
+  - syndication
+  - undark
+  title: Polygraphs have major flaws. Are there better options?
+  url: https://arstechnica.com/science/2026/03/polygraphs-have-major-flaws-are-there-better-options/
+- category: ai
+  published: '2026-03-28T16:30:00'
+  score: 0.574
+  source: Towards Data Science
+  summary: The article discusses how the use of agentic AI, such as OpenClaw, can
+    serve as a "force multiplier," enabling individuals to significantly increase
+    their output and productivity by leveraging autonomous agent-based systems.
+  tags:
+  - Agentic AI
+  - Artificial Intelligence
+  - Deep Dives
+  - Generative Ai
+  - Machine Learning
+  title: 'Using OpenClaw as a Force Multiplier: What One Person Can Ship with Autonomous
+    Agents'
+  url: https://towardsdatascience.com/using-openclaw-as-a-force-multiplier-what-one-person-can-ship-with-autonomous-agents/
+- category: ai
+  published: '2026-03-28T14:30:00'
+  score: 0.56
+  source: Towards Data Science
+  summary: The article outlines a practical pipeline for city-level climate risk analysis,
+    integrating CMIP6 projections, ERA5 reanalysis, and impact models into a lightweight,
+    interpretable workflow, providing insights for addressing climate-related challenges.
+  tags:
+  - Climate Change
+  - Machine Learning
+  - Artificial Intelligence
+  - Data Science
+  - Programming
+  title: 'From NetCDF to Insights: A Practical Pipeline for City-Level Climate Risk
+    Analysis'
+  url: https://towardsdatascience.com/from-netcdf-to-insights-a-practical-pipeline-for-city-level-climate-risk-analysis/
+- category: cybersecurity
+  published: '2026-03-28T09:11:00'
+  score: 0.816
+  source: The Hacker News
+  summary: A critical security vulnerability (CVE-2026-3055) with a CVSS score of
+    9.3 has been discovered in Citrix NetScaler ADC and NetScaler Gateway, leading
+    to active reconnaissance activity from malicious actors, highlighting the need
+    for timely patching and security vigilance.
+  tags: []
+  title: Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread
+    Bug
+  url: https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html
 - category: webdev
   published: '2026-03-26T23:15:35'
   score: 0.761
@@ -27231,5 +27372,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-27T05:33:27.066203'
-total_articles: 2110
+last_updated: '2026-03-30T05:43:55.101674'
+total_articles: 2120
