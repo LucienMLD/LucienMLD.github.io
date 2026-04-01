@@ -1,5 +1,181 @@
 articles:
 - category: cybersecurity
+  published: '2026-04-01T05:33:43'
+  score: 1.107
+  source: BleepingComputer
+  summary: Microsoft released an emergency update to fix installation issues with
+    the March 2026 KB5079391 non-security preview update for Windows 11, which was
+    pulled over the weekend due to these problems.
+  tags:
+  - Microsoft
+  title: New Windows 11 emergency update fixes preview update install issues
+  url: https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/
+- category: ai
+  published: '2026-04-01T01:36:50'
+  score: 0.952
+  source: Ars Technica
+  summary: NASA is leading the way to the Moon, but the U.S. military is also preparing
+    to protect American interests in space.
+  tags:
+  - Science
+  - Space
+  - artemis
+  - artemis II
+  - Department of Defense
+  title: NASA is leading the way to the Moon, but the military won't be far behind
+  url: https://arstechnica.com/space/2026/03/nasa-is-leading-the-way-to-the-moon-but-the-military-wont-be-far-behind/
+- category: ai
+  published: '2026-04-01T00:32:25'
+  score: 1.033
+  source: BleepingComputer
+  summary: Anthropic accidentally leaked the source code for its closed-source Claude
+    Code AI, though no customer data or credentials were exposed.
+  tags:
+  - Artificial Intelligence
+  - Security
+  title: Claude Code source code accidentally leaked in NPM package
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/
+- category: webdev
+  published: '2026-03-31T23:13:56'
+  score: 0.76
+  source: BleepingComputer
+  summary: Google is rolling out a new feature in the U.S. that allows users to change
+    their @gmail address or create a new alias.
+  tags:
+  - Google
+  - Software
+  title: Google now allows you to change your @gmail.com address
+  url: https://www.bleepingcomputer.com/news/google/google-now-allows-you-to-change-your-gmailcom-address/
+- category: ai
+  published: '2026-03-31T23:00:23'
+  score: 0.834
+  source: Ars Technica
+  summary: Apple Silicon Macs are getting a performance boost for running local AI
+    models, thanks to better unified memory usage enabled by Ollama's MLX support.
+  tags:
+  - AI
+  - Apple
+  - alibaba
+  - apple
+  - Apple silicon
+  title: Running local models on Macs gets faster with Ollama's MLX support
+  url: https://arstechnica.com/apple/2026/03/running-local-models-on-macs-gets-faster-with-ollamas-mlx-support/
+- category: ai
+  published: '2026-03-31T19:09:33'
+  score: 0.852
+  source: Ars Technica
+  summary: The entire 512,000-line source code for Anthropic's closed-source Claude
+    Code CLI was accidentally leaked, providing competitors and hobbyists with valuable
+    insight.
+  tags:
+  - AI
+  - Anthropic
+  - Claude Code
+  - cli
+  - GitHub
+  title: Entire Claude Code CLI source code leaks thanks to exposed map file
+  url: https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks-thanks-to-exposed-map-file/
+- category: webdev
+  published: '2026-03-31T18:30:06'
+  score: 0.77
+  source: WebKit Blog
+  summary: Google, Mozilla, and others have announced JetStream 3.0, a major update
+    to the cross-browser benchmark suite.
+  tags:
+  - Performance
+  title: Introducing the JetStream 3 Benchmark Suite
+  url: https://webkit.org/blog/17899/introducing-the-jetstream-3-benchmark-suite/
+- category: webdev
+  published: '2026-03-31T17:55:39'
+  score: 0.727
+  source: Ars Technica
+  summary: Gmail users can now change their long-standing, goofy email addresses while
+    keeping all their existing data intact.
+  tags:
+  - Google
+  - Tech
+  - gmail
+  - google
+  title: You can finally change the goofy Gmail address you chose years ago
+  url: https://arstechnica.com/gadgets/2026/03/you-can-finally-change-the-goofy-gmail-address-you-chose-years-ago/
+- category: cybersecurity
+  published: '2026-03-31T16:03:00'
+  score: 1.098
+  source: The Hacker News
+  summary: A high-severity security flaw in the TrueConf client video conferencing
+    software has been exploited in the wild as a zero-day, targeting government entities
+    in Southeast Asia in a campaign dubbed TrueChaos.
+  tags: []
+  title: TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks
+  url: https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html
+- category: webdev
+  published: '2026-03-31T15:00:57'
+  score: 0.708
+  source: Ars Technica
+  summary: The key to optimizing aircraft cabin layouts for evacuation is to evenly
+    distribute elderly passengers, who move more slowly, among the different cabins.
+  tags:
+  - Science
+  - air safety
+  - air travel
+  - aircraft
+  - Computer simulations
+  title: What's the best cabin layout for aircraft evacuation?
+  url: https://arstechnica.com/science/2026/03/whats-the-best-cabin-layout-for-aircraft-evacuation/
+- category: webdev
+  published: '2026-03-31T14:14:07'
+  score: 0.743
+  source: CSS-Tricks
+  summary: This issue of "What's !important" covers light/dark favicons, @mixin, anchor-interpolated
+    morphing, object-view-box, and other new web features.
+  tags:
+  - Articles
+  - news
+  title: 'What’s !important #8: Light/Dark Favicons, @mixin, object-view-box, and
+    More'
+  url: https://css-tricks.com/whats-important-8/
+- category: ai
+  published: '2026-03-31T13:00:00'
+  score: 0.897
+  source: OpenAI
+  summary: OpenAI has raised $122 billion in new funding to expand frontier AI globally,
+    invest in next-generation compute, and meet growing demand for its products like
+    ChatGPT and Codex.
+  tags:
+  - Company
+  title: Accelerating the next phase of AI
+  url: https://openai.com/index/accelerating-the-next-phase-ai
+- category: cybersecurity
+  published: '2026-03-31T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: A vulnerability in the Anritsu Remote Spectrum Monitor could allow attackers
+    with network access to alter operational settings, obtain sensitive information,
+    or potentially execute arbitrary commands.
+  tags: []
+  title: Anritsu Remote Spectrum Monitor
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-090-01
+- category: cybersecurity
+  published: '2026-03-31T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: A vulnerability in the PX4 Autopilot system could allow an attacker with
+    access to the MAVLink interface to execute arbitrary shell commands, potentially
+    compromising the integrity and functionality of the system.
+  tags: []
+  title: PX4 Autopilot
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-090-02
+- category: cybersecurity
+  published: '2026-03-31T07:05:25'
+  score: 0.983
+  source: BleepingComputer
+  summary: CISA ordered federal agencies to patch a Citrix NetScaler vulnerability
+    that is being actively exploited by attackers, by Thursday.
+  tags:
+  - Security
+  title: CISA orders feds to patch actively exploited Citrix flaw by Thursday
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-citrix-flaw-by-thursday/
+- category: cybersecurity
   published: '2026-03-30T21:44:31'
   score: 0.949
   source: BleepingComputer
@@ -27528,5 +27704,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-03-31T05:33:54.365564'
-total_articles: 2132
+last_updated: '2026-04-01T05:40:43.852542'
+total_articles: 2147
