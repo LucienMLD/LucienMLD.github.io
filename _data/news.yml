@@ -1,5 +1,194 @@
 articles:
 - category: cybersecurity
+  published: '2026-04-01T21:50:49'
+  score: 1.046
+  source: BleepingComputer
+  summary: Apple has expanded the availability of security updates for iOS 18 to more
+    iPhones, helping to protect against the actively exploited DarkSword exploit kit.
+    This demonstrates Apple's commitment to providing security updates for older devices,
+    ensuring their users remain protected.
+  tags:
+  - Security
+  - Apple
+  title: Apple expands iOS 18 updates to more iPhones to block DarkSword attacks
+  url: https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/
+- category: cybersecurity
+  published: '2026-04-01T21:35:47'
+  score: 1.092
+  source: BleepingComputer
+  summary: Hackers have exploited a zero-day vulnerability in the TrueConf conference
+    server software, allowing them to execute arbitrary files on all connected endpoints.
+    This attack highlights the importance of keeping software up-to-date and implementing
+    robust security measures to protect against such vulnerabilities.
+  tags:
+  - Security
+  - Government
+  title: Hackers exploit TrueConf zero-day to push malicious software updates
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploit-trueconf-zero-day-to-push-malicious-software-updates/
+- category: webdev
+  published: '2026-04-01T20:46:48'
+  score: 0.745
+  source: Ars Technica
+  summary: Nvidia has rolled out a solution to address the "compiling shaders" issue
+    that has plagued PC gaming, resulting in long wait times. This fix, along with
+    efforts from Microsoft and Intel, aims to improve the overall gaming experience
+    for PC users.
+  tags:
+  - Gaming
+  - gaming
+  - Intel
+  - microsoft
+  - NVIDIA
+  title: Nvidia rolls out its fix for PC gaming's "compiling shaders" wait times
+  url: https://arstechnica.com/gaming/2026/04/nvidias-new-app-lets-you-precompile-gaming-shaders-during-machine-idle-time/
+- category: ai
+  published: '2026-04-01T20:04:04'
+  score: 0.903
+  source: Ars Technica
+  summary: A leaked source code for Anthropic's Claude Code AI assistant reveals details
+    about the company's plans, including a persistent agent, a stealth "Undercover"
+    mode, and a virtual assistant named Buddy. This leak provides insights into Anthropic's
+    AI development roadmap and the features they are exploring.
+  tags:
+  - AI
+  - Anthropic
+  - Claude
+  - Claude Code
+  title: Here's what that Claude Code source leak reveals about Anthropic's plans
+  url: https://arstechnica.com/ai/2026/04/heres-what-that-claude-code-source-leak-reveals-about-anthropics-plans/
+- category: ai
+  published: '2026-04-01T18:57:01'
+  score: 0.807
+  source: AWS Machine Learning
+  summary: This article demonstrates how to build an automated competitive price intelligence
+    system that leverages Amazon's Nova Act, streamlining manual workflows and providing
+    real-time market insights to support data-driven pricing decisions.
+  tags:
+  - Amazon Bedrock
+  - Amazon Nova
+  - Intermediate (200)
+  - Retail
+  title: Automating competitive price intelligence with Amazon Nova Act
+  url: https://aws.amazon.com/blogs/machine-learning/automating-competitive-price-intelligence-with-amazon-nova-act/
+- category: webdev
+  published: '2026-04-01T16:36:15'
+  score: 0.719
+  source: Hugging Face
+  summary: The article discusses Holo3, a technology that aims to break the current
+    limitations of computer use by providing a more immersive and intuitive interface.
+  tags: []
+  title: 'Holo3: Breaking the Computer Use Frontier'
+  url: https://huggingface.co/blog/Hcompany/holo3
+- category: cybersecurity
+  published: '2026-04-01T16:10:00'
+  score: 1.052
+  source: The Hacker News
+  summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed
+    details of a phishing campaign in which the organization itself was impersonated
+    to distribute a remote administration tool known as AGEWHEEZE. This highlights
+    the need for users to be vigilant and verify the source of emails, especially
+    those claiming to be from official organizations.
+  tags: []
+  title: CERT-UA Impersonation Campaign Spread AGEWHEEZE Malware to 1 Million Emails
+  url: https://thehackernews.com/2026/04/cert-ua-impersonation-campaign-spread.html
+- category: ai
+  published: '2026-04-01T15:00:46'
+  score: 0.824
+  source: Machine Learning Mastery
+  summary: Seven key machine learning trends to watch in 2026 include the rise of
+    federated learning, the increasing use of transformer models, advancements in
+    few-shot and zero-shot learning, the integration of machine learning with other
+    technologies, the growing importance of responsible AI, the emergence of edge
+    AI, and the continued evolution of large language models.
+  tags: []
+  title: 7 Machine Learning Trends to Watch in 2026
+  url: https://machinelearningmastery.com/7-machine-learning-trends-to-watch-in-2026/
+- category: webdev
+  published: '2026-04-01T14:00:26'
+  score: 0.743
+  source: CSS-Tricks
+  summary: The article highlights the top 10 most noteworthy April Fools' UI pranks,
+    showcasing creative and sometimes controversial attempts to prank users through
+    front-end web development.
+  tags:
+  - Articles
+  - news
+  title: 'Front-End Fools: Top 10 April Fools’ UI Pranks of All Time'
+  url: https://css-tricks.com/front-end-april-fools-top-10/
+- category: webdev
+  published: '2026-04-01T13:54:47'
+  score: 0.782
+  source: CSS-Tricks
+  summary: The article explores the new CSS Olfactive API, a set of proposed features
+    that aim to enable immersive user experiences using smell, opening up new possibilities
+    for web-based olfactory interactions.
+  tags:
+  - Articles
+  - api
+  title: Sniffing Out the CSS Olfactive API
+  url: https://css-tricks.com/css-olfactive-api/
+- category: ai
+  published: '2026-04-01T12:45:00'
+  score: 0.853
+  source: Towards Data Science
+  summary: A smaller AI model can sometimes outperform a larger, more complex model
+    like ChatGPT by focusing on specific tasks and optimizing for longer thinking
+    times. This highlights the importance of model design and optimization, rather
+    than solely relying on model size, in achieving superior performance.
+  tags:
+  - Artificial Intelligence
+  - Deep Learning
+  - Llm
+  - Machine Learning
+  - Reasoning
+  title: How Can A Model 10,000× Smaller Outsmart ChatGPT?
+  url: https://towardsdatascience.com/how-can-a-model-10000x-smaller-outsmart-chatgpt-2/
+- category: cybersecurity
+  published: '2026-04-01T12:00:00'
+  score: 1.02
+  source: CISA
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has added a
+    new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based
+    on evidence of active exploitation. Inclusion in the catalog indicates the vulnerability
+    poses a significant risk, and organizations are urged to prioritize patching these
+    known exploited vulnerabilities.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/04/01/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2026-04-01T11:42:00'
+  score: 1.066
+  source: The Hacker News
+  summary: Google has released security updates for its Chrome web browser to address
+    21 vulnerabilities, including a zero-day flaw (CVE-2026-5281) that is actively
+    being exploited in the wild. Users are advised to update their Chrome installations
+    to the latest version to mitigate the risk of this exploit.
+  tags: []
+  title: New Chrome Zero-Day CVE-2026-5281 Under Active Exploitation — Patch Released
+  url: https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html
+- category: webdev
+  published: '2026-04-01T10:00:00'
+  score: 0.678
+  source: Smashing Magazine
+  summary: The article presents a practical guide to design principles, offering references,
+    examples, and methods for quick reference, with a focus on principles applicable
+    to user experience and AI interface design.
+  tags: []
+  title: A Practical Guide To Design Principles
+  url: https://smashingmagazine.com/2026/04/practical-guide-design-principles/
+- category: ai
+  published: '2026-04-01T06:12:00'
+  score: 0.852
+  source: The Hacker News
+  summary: Anthropic has confirmed that the source code for its Claude Code AI assistant
+    was inadvertently released due to a packaging error, but no sensitive customer
+    data or credentials were exposed. This incident underscores the need for robust
+    software release processes and the potential risks associated with unintended
+    code disclosures.
+  tags: []
+  title: Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms
+  url: https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html
+- category: cybersecurity
   published: '2026-04-01T05:33:43'
   score: 1.107
   source: BleepingComputer
@@ -27704,5 +27893,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-01T05:40:43.852542'
-total_articles: 2147
+last_updated: '2026-04-02T05:32:32.972473'
+total_articles: 2162
