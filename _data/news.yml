@@ -1,4 +1,152 @@
 articles:
+- category: ai
+  published: '2026-04-02T19:58:37'
+  score: 0.814
+  source: Ars Technica
+  summary: Google Vids brings together Google's most capable AI creation tools, including
+    the Veo and Lyria models and directable AI avatars.
+  tags:
+  - AI
+  - Google
+  - Ai video
+  - google
+  - Google Veo
+  title: Google Vids gets AI upgrade with Veo and Lyria models, directable AI avatars
+  url: https://arstechnica.com/ai/2026/04/google-vids-gets-ai-upgrade-with-veo-and-lyria-models-directable-ai-avatars/
+- category: cybersecurity
+  published: '2026-04-02T19:30:00'
+  score: 1.077
+  source: The Hacker News
+  summary: A large-scale credential harvesting operation has been observed exploiting
+    the React2Shell vulnerability as an initial infection vector to steal various
+    sensitive information from compromised Next.js hosts.
+  tags: []
+  title: Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials
+  url: https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html
+- category: ai
+  published: '2026-04-02T16:01:33'
+  score: 0.831
+  source: Ars Technica
+  summary: Gemma 4 brings the first major update to Google's open models in a year,
+    and the models are now available under the Apache 2.0 license.
+  tags:
+  - AI
+  - Google
+  - Artificial Intelligence
+  - gemma
+  - generative ai
+  title: Google announces Gemma 4 open AI models, switches to Apache 2.0 license
+  url: https://arstechnica.com/ai/2026/04/google-announces-gemma-4-open-ai-models-switches-to-apache-2-0-license/
+- category: ai
+  published: '2026-04-02T16:00:00'
+  score: 0.831
+  source: Google AI Blog
+  summary: The Gemini API now offers new ways to balance cost and reliability, allowing
+    users to control the tradeoff between these factors.
+  tags:
+  - Developer tools
+  - AI
+  title: New ways to balance cost and reliability in the Gemini API
+  url: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/
+- category: webdev
+  published: '2026-04-02T16:00:00'
+  score: 0.715
+  source: Google AI Blog
+  summary: Google Vids allows users to create, edit, and share videos at no cost,
+    providing a free video editing solution.
+  tags:
+  - Google Workspace
+  - Google One
+  - AI
+  title: Create, edit and share videos at no cost in Google Vids
+  url: https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/
+- category: cybersecurity
+  published: '2026-04-02T15:21:00'
+  score: 1.094
+  source: The Hacker News
+  summary: Cisco has released updates to address a critical security flaw in the Integrated
+    Management Controller (IMC) that could allow an unauthenticated, remote attacker
+    to bypass authentication and gain access to the system with elevated privileges.
+  tags: []
+  title: Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise
+  url: https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html
+- category: webdev
+  published: '2026-04-02T13:58:24'
+  score: 0.743
+  source: CSS-Tricks
+  summary: The article explains how to create complex CSS shapes using the shape()
+    function, allowing for the creation of shapes beyond basic rectangles and circles.
+  tags:
+  - Articles
+  - clip-path
+  - CSS functions
+  - css shapes
+  - shapes
+  title: Making Complex CSS Shapes Using shape()
+  url: https://css-tricks.com/complex-css-shapes-with-shape-function/
+- category: ai
+  published: '2026-04-02T13:35:00'
+  score: 0.814
+  source: Towards Data Science
+  summary: The article discusses workflows and encoding techniques for handling classical
+    data in quantum machine learning models.
+  tags:
+  - Quantum Computing
+  - Data Science
+  - Machine Learning
+  - Python
+  - Quantum
+  title: How to Handle Classical Data in Quantum Models
+  url: https://towardsdatascience.com/how-to-handle-classical-data-in-quantum-models/
+- category: cybersecurity
+  published: '2026-04-02T12:00:00'
+  score: 1.068
+  source: CISA
+  summary: Multiple SICAM 8 products from Siemens are affected by multiple vulnerabilities
+    that could lead to denial of service, and Siemens has provided updates to address
+    these issues.
+  tags: []
+  title: Siemens SICAM 8 Products
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-01
+- category: cybersecurity
+  published: '2026-04-02T12:00:00'
+  score: 1.068
+  source: CISA
+  summary: A vulnerability in the Yokogawa CENTUM VP product could allow an attacker
+    to login as the PROG user and modify permissions, and Yokogawa has released updates
+    to address this issue.
+  tags: []
+  title: Yokogawa CENTUM VP
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-02
+- category: cybersecurity
+  published: '2026-04-02T12:00:00'
+  score: 1.068
+  source: CISA
+  summary: Hitachi Energy is aware of a Jasper Report vulnerability that affects the
+    Ellipse product, and the company has provided mitigations to address the issue.
+  tags: []
+  title: Hitachi Energy Ellipse
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-092-03
+- category: ai
+  published: '2026-04-02T10:00:00'
+  score: 0.834
+  source: OpenAI
+  summary: Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise,
+    providing teams a more flexible option to start and scale adoption.
+  tags:
+  - Product
+  title: Codex now offers more flexible pricing for teams
+  url: https://openai.com/index/codex-flexible-pricing-for-teams
+- category: webdev
+  published: '2026-04-02T09:12:12'
+  score: 0.673
+  source: BleepingComputer
+  summary: Microsoft is investigating a known issue that prevents some Classic Outlook
+    users from sending emails via Outlook.com.
+  tags:
+  - Microsoft
+  title: Microsoft links Classic Outlook issue to email delivery problems
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-links-classic-outlook-bug-to-email-delivery-issues/
 - category: cybersecurity
   published: '2026-04-01T21:50:49'
   score: 1.046
@@ -27893,5 +28041,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-02T05:32:32.972473'
-total_articles: 2162
+last_updated: '2026-04-03T05:32:50.819968'
+total_articles: 2175
