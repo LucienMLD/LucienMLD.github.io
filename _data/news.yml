@@ -1,5 +1,212 @@
 articles:
 - category: cybersecurity
+  published: '2026-04-06T23:54:04'
+  score: 1.065
+  source: BleepingComputer
+  summary: The Federal Police in Germany (BKA) has identified two Russian nationals
+    as the leaders of GandCrab and REvil ransomware operations between 2019 and 2021.
+    This breakthrough in identifying the key figures behind these notorious ransomware
+    groups could aid in future investigations and disruptions of their activities.
+  tags:
+  - Security
+  - Legal
+  title: German authorities identify REvil and GandCrab ransomware bosses
+  url: https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/
+- category: ai
+  published: '2026-04-06T22:34:11'
+  score: 0.832
+  source: Ars Technica
+  summary: Robert F. Kennedy Jr. has been granted broad authority to pick anyone for
+    the CDC vaccine advisory panel through a charter renewal, following a court loss.
+    This development raises concerns about the objectivity and balance of the panel's
+    composition.
+  tags:
+  - Health
+  - ACIP
+  - anti-vaccine
+  - CDC
+  - robert f kennedy jr
+  title: After court loss, RFK Jr. gives himself more power over CDC vaccine panel
+  url: https://arstechnica.com/health/2026/04/after-court-loss-rfk-jr-gives-himself-more-power-over-cdc-vaccine-panel/
+- category: ai
+  published: '2026-04-06T22:18:33'
+  score: 0.83
+  source: Ars Technica
+  summary: A new GEN-1 robotics model has achieved a 99% reliability in tasks ranging
+    from folding boxes to fixing vacuums, demonstrating its ability to respond to
+    disruptions and figure out moves it wasn't trained for. This advancement in robotic
+    capabilities could have significant implications for various industries.
+  tags:
+  - AI
+  - generalist
+  - Model
+  - Robotics
+  - robots
+  title: From folding boxes to fixing vacuums, GEN-1 robotics model hits 99% reliability
+  url: https://arstechnica.com/ai/2026/04/generalists-new-physical-robotics-ai-brings-production-level-success-rates/
+- category: ai
+  published: '2026-04-06T21:23:36'
+  score: 0.868
+  source: Ars Technica
+  summary: Insiders at OpenAI express distrust in the company's CEO, Sam Altman, and
+    the organization's efforts to counter the negative perception around its work
+    on beneficial AI. This internal conflict highlights the challenges faced by AI
+    companies in navigating the complexities of developing transformative technologies.
+  tags:
+  - AI
+  - Policy
+  - Artificial Intelligence
+  - openai
+  - sam altman
+  title: '“The problem is Sam Altman”: OpenAI Insiders don’t trust CEO'
+  url: https://arstechnica.com/tech-policy/2026/04/the-problem-is-sam-altman-openai-insiders-dont-trust-ceo/
+- category: cybersecurity
+  published: '2026-04-06T19:19:27'
+  score: 1.075
+  source: BleepingComputer
+  summary: A disgruntled researcher has leaked the "BlueHammer" Windows zero-day exploit,
+    which allows attackers to gain SYSTEM or elevated administrator permissions. This
+    unpatched vulnerability in Windows can be exploited by attackers to escalate their
+    privileges.
+  tags:
+  - Security
+  - Microsoft
+  title: Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit
+  url: https://www.bleepingcomputer.com/news/security/disgruntled-researcher-leaks-bluehammer-windows-zero-day-exploit/
+- category: ai
+  published: '2026-04-06T17:49:32'
+  score: 0.843
+  source: AWS Machine Learning
+  summary: This post demonstrates how to implement a generative AI agentic assistant
+    that uses both semantic and text-based search using Amazon Bedrock, Amazon Bedrock
+    AgentCore, Strands Agents, and Amazon OpenSearch. This approach combines the power
+    of natural language processing and information retrieval to enhance search capabilities.
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon OpenSearch Service
+  - Foundation models
+  title: Building Intelligent Search with Amazon Bedrock and Amazon OpenSearch for
+    hybrid RAG solutions
+  url: https://aws.amazon.com/blogs/machine-learning/building-intelligent-search-with-amazon-bedrock-and-amazon-opensearch-for-hybrid-rag-solutions/
+- category: ai
+  published: '2026-04-06T17:48:54'
+  score: 0.843
+  source: AWS Machine Learning
+  summary: Windward's blog post showcases how the company uses geospatial intelligence
+    and generative AI to enhance and accelerate alert investigation processes in the
+    maritime domain. This approach enables analysts to focus on decision-making rather
+    than data collection.
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - AWS Step Functions
+  - Customer Solutions
+  title: 'From isolated alerts to contextual intelligence: Agentic maritime anomaly
+    analysis with generative AI'
+  url: https://aws.amazon.com/blogs/machine-learning/from-isolated-alerts-to-contextual-intelligence-agentic-maritime-anomaly-analysis-with-generative-ai/
+- category: webdev
+  published: '2026-04-06T17:39:07'
+  score: 0.725
+  source: Ars Technica
+  summary: A teardown of the unreleased LG Rollable smartphone reveals the technical
+    challenges that have hindered the widespread adoption of rollable phones. The
+    complexity of the internal design and components highlights the engineering hurdles
+    that need to be overcome for such form factors to become viable.
+  tags:
+  - Tech
+  - LG
+  - smartphones
+  - teardown
+  title: Teardown of unreleased LG Rollable shows why rollable phones aren't a thing
+  url: https://arstechnica.com/gadgets/2026/04/teardown-of-unreleased-lg-rollable-shows-why-rollable-phones-arent-a-thing/
+- category: cybersecurity
+  published: '2026-04-06T16:56:01'
+  score: 1.057
+  source: BleepingComputer
+  summary: Microsoft has linked the China-based cybercriminal group Storm-1175, known
+    for deploying Medusa ransomware, to the use of n-day and zero-day exploits in
+    high-velocity attacks. This reveals the group's sophisticated tactics and the
+    need for organizations to promptly patch vulnerabilities to mitigate the risk
+    of such attacks.
+  tags:
+  - Security
+  - Microsoft
+  title: Microsoft links Medusa ransomware affiliate to zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/microsoft-links-medusa-ransomware-affiliate-to-zero-day-attacks/
+- category: cybersecurity
+  published: '2026-04-06T16:02:14'
+  score: 1.05
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered
+    federal agencies to secure FortiClient Enterprise Management Server (EMS) instances
+    against an actively exploited vulnerability by Friday. This directive highlights
+    the urgency in addressing known and actively exploited vulnerabilities to protect
+    critical systems.
+  tags:
+  - Security
+  title: CISA orders feds to patch exploited Fortinet EMS flaw by Friday
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-fortinet-flaw-exploited-in-attacks-by-friday/
+- category: webdev
+  published: '2026-04-06T13:55:49'
+  score: 0.742
+  source: CSS-Tricks
+  summary: Chrome 145 introduces the `column-height` and `column-wrap` properties
+    in CSS Multi-Column Layout, enabling content to wrap into a new row below and
+    creating a vertical scroll instead of a horizontal scroll. This feature enhances
+    the flexibility and control over multi-column layouts in web development.
+  tags:
+  - Articles
+  - css properties
+  - layout
+  - multi-column layout
+  title: Looking at New CSS Multi-Column Layout Wrapping Features
+  url: https://css-tricks.com/css-multi-column-layout-wrapping-features/
+- category: webdev
+  published: '2026-04-06T13:54:12'
+  score: 0.702
+  source: Ars Technica
+  summary: The market for used electric vehicles (EVs) has seen a spike in sales alongside
+    rising gas prices, as Americans seek more affordable options in the face of the
+    current economic climate. This trend suggests a shift in consumer preferences
+    and the growing demand for cost-effective EV alternatives.
+  tags:
+  - Cars
+  - EV sales
+  - EVs
+  - syndication
+  - Used EVs
+  title: Used EV sales spike alongside gas prices
+  url: https://arstechnica.com/cars/2026/04/used-ev-sales-spike-alongside-gas-prices/
+- category: webdev
+  published: '2026-04-06T12:26:49'
+  score: 0.693
+  source: Ars Technica
+  summary: The 25th anniversary of the release of the film "Memento" highlights its
+    exploration of the themes of the nature of memory and personal identity. The film's
+    unique narrative structure and its insights into human nature continue to captivate
+    audiences and inspire discussions about the complexities of memory and self.
+  tags:
+  - Culture
+  - Christopher Nolan
+  - entertainment
+  - film anniversaries
+  - memento
+  title: What Memento reveals about human nature, 25 years later
+  url: https://arstechnica.com/culture/2026/04/memento-turns-25/
+- category: cybersecurity
+  published: '2026-04-06T12:00:00'
+  score: 1.02
+  source: CISA
+  summary: CISA has added a new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. This serves as a warning
+    to organizations to prioritize the patching of this vulnerability to mitigate
+    the risk of potential attacks.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/04/06/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
   published: '2026-04-06T02:07:17'
   score: 1.081
   source: Krebs on Security
@@ -65,6 +272,22 @@ articles:
   - Security
   title: Hackers exploit React2Shell in automated credential theft campaign
   url: https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/
+- category: webdev
+  published: '2026-04-05T13:00:00'
+  score: 0.496
+  source: Towards Data Science
+  summary: A data scientist provides a perspective on the $599 MacBook Neo, explaining
+    why it may not fit their workflow but still makes sense for beginners. This analysis
+    offers a nuanced view on the suitability of this affordable laptop option for
+    different user profiles and their specific needs.
+  tags:
+  - Data Science
+  - Machine Learning
+  - Productivity
+  - Programming
+  - Technology
+  title: A Data Scientist’s Take on the $599 MacBook Neo
+  url: https://towardsdatascience.com/a-data-scientists-take-on-the-599-macbook-neo/
 - category: cybersecurity
   published: '2026-04-05T04:32:00'
   score: 0.961
@@ -28161,5 +28384,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-06T05:43:32.733665'
-total_articles: 2184
+last_updated: '2026-04-07T05:34:34.984445'
+total_articles: 2199
