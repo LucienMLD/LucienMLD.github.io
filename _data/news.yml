@@ -1,4 +1,204 @@
 articles:
+- category: webdev
+  published: '2026-04-09T03:44:24'
+  score: 0.888
+  source: Ars Technica
+  summary: While the Artemis II mission provided valuable data and public engagement,
+    experts suggest that the Moon is already well-mapped on Google Maps, and the mission
+    may not have revealed significantly new information about the lunar surface.
+  tags:
+  - Science
+  - Space
+  - artemis
+  - artemis II
+  - human spaceflight
+  title: The Moon is already on Google Maps—did Artemis II really tell us anything
+    new?
+  url: https://arstechnica.com/space/2026/04/the-moon-is-already-on-google-maps-did-artemis-ii-really-tell-us-anything-new/
+- category: webdev
+  published: '2026-04-08T21:21:17'
+  score: 0.749
+  source: WebKit Blog
+  summary: Apple has released Safari Technology Preview 241, introducing updates and
+    improvements for macOS Tahoe and macOS Sequoia.
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 241
+  url: https://webkit.org/blog/17917/release-notes-for-safari-technology-preview-241/
+- category: ai
+  published: '2026-04-08T19:59:10'
+  score: 0.814
+  source: Ars Technica
+  summary: Meta's Superintelligence Lab has unveiled its first public AI model, Muse
+    Spark, which demonstrates strong performance on benchmarks but admits to "performance
+    gaps" in certain areas like agentic and coding systems.
+  tags:
+  - AI
+  - LLaMA
+  - meta
+  - Model
+  - muse
+  title: Meta's Superintelligence Lab unveils its first public model, Muse Spark
+  url: https://arstechnica.com/ai/2026/04/metas-superintelligence-lab-unveils-its-first-public-model-muse-spark/
+- category: cybersecurity
+  published: '2026-04-08T18:55:43'
+  score: 0.976
+  source: BleepingComputer
+  summary: A new campaign is delivering the Atomic Stealer malware to macOS users
+    by abusing the Script Editor in a variation of the ClickFix attack, tricking users
+    into executing commands in Terminal. This attack highlights the need for increased
+    security awareness and the implementation of robust endpoint protection measures
+    for macOS users.
+  tags:
+  - Security
+  title: New macOS stealer campaign uses Script Editor in ClickFix attack
+  url: https://www.bleepingcomputer.com/news/security/new-macos-stealer-campaign-uses-script-editor-in-clickfix-attack/
+- category: webdev
+  published: '2026-04-08T18:39:08'
+  score: 0.732
+  source: Ars Technica
+  summary: Motorola has suddenly raised prices on its budget phones by up to 50%,
+    likely due to the increased costs associated with the integration of AI technology
+    in their production.
+  tags:
+  - Tech
+  - motorola
+  - smartphones
+  title: Motorola suddenly raises budget phone prices up to 50%—you can probably thank
+    AI
+  url: https://arstechnica.com/gadgets/2026/04/motorolas-budget-phones-are-now-up-to-50-more-expensive-as-memory-shortage-drags-on/
+- category: cybersecurity
+  published: '2026-04-08T18:15:27'
+  score: 1.067
+  source: BleepingComputer
+  summary: CISA has ordered U.S. government agencies to patch a critical vulnerability
+    in Ivanti Endpoint Manager Mobile (EPMM) within four days, as it has been actively
+    exploited by attackers since January. The vulnerability, if left unpatched, could
+    allow remote code execution on affected systems.
+  tags:
+  - Security
+  title: CISA orders feds to patch exploited Ivanti EPMM flaw by Sunday
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-ivanti-epmm-flaw-by-sunday/
+- category: ai
+  published: '2026-04-08T17:37:06'
+  score: 0.842
+  source: Ars Technica
+  summary: Elon Musk has offered to give all damages to the OpenAI nonprofit in an
+    effort to beat Sam Altman in court, rather than seeking any personal financial
+    gain from the lawsuit.
+  tags:
+  - AI
+  - Policy
+  - Artificial Intelligence
+  - Elon Musk
+  - openai
+  title: To beat Altman in court, Musk offers to give all damages to OpenAI nonprofit
+  url: https://arstechnica.com/tech-policy/2026/04/to-beat-altman-in-court-musk-offers-to-give-all-damages-to-open-ai-nonprofit/
+- category: cybersecurity
+  published: '2026-04-08T17:26:40'
+  score: 1.013
+  source: BleepingComputer
+  summary: Researchers have discovered a 13-year-old remote code execution (RCE) vulnerability
+    in Apache ActiveMQ Classic that could allow attackers to execute arbitrary commands.
+    The vulnerability has gone undetected for over a decade, underscoring the importance
+    of regular security audits and updates for critical software components.
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: 13-year-old bug in ActiveMQ lets hackers remotely execute commands
+  url: https://www.bleepingcomputer.com/news/security/13-year-old-bug-in-activemq-lets-hackers-remotely-execute-commands/
+- category: cybersecurity
+  published: '2026-04-08T16:30:00'
+  score: 1.006
+  source: The Hacker News
+  summary: Cybersecurity researchers have uncovered a stealthy botnet called Masjesu,
+    which is designed for distributed denial-of-service (DDoS) attacks and has been
+    advertised as a DDoS-for-hire service on Telegram since 2023. The botnet targets
+    a wide range of Internet of Things (IoT) devices, posing a significant threat
+    to global connectivity.
+  tags: []
+  title: Masjesu Botnet Emerges as DDoS-for-Hire Service Targeting Global IoT Devices
+  url: https://thehackernews.com/2026/04/masjesu-botnet-emerges-as-ddos-for-hire.html
+- category: webdev
+  published: '2026-04-08T15:37:04'
+  score: 0.753
+  source: Ars Technica
+  summary: Steam client files suggest that a "framerate estimator" feature is in development,
+    which could provide users with performance charts based on the framerates of other
+    Steam users, potentially enhancing the user experience.
+  tags:
+  - Gaming
+  - framerate
+  - pc
+  - PC gaming
+  - performance
+  title: Steam client files point to "framerate estimator" feature in the works
+  url: https://arstechnica.com/gaming/2026/04/steam-client-files-point-to-framerate-estimator-feature-in-the-works/
+- category: webdev
+  published: '2026-04-08T15:26:57'
+  score: 0.712
+  source: Ars Technica
+  summary: Amazon is cutting off older Kindle models from accessing the Kindle Store,
+    though post-2013 Kindles will continue to function even without receiving further
+    updates.
+  tags:
+  - Tech
+  - Amazon
+  - amazon kindle
+  - kindle
+  title: For the first time ever, Amazon is cutting old Kindles off from the Kindle
+    Store
+  url: https://arstechnica.com/gadgets/2026/04/starting-in-may-pre-2013-kindles-wont-be-able-to-buy-or-download-new-books/
+- category: ai
+  published: '2026-04-08T14:00:00'
+  score: 0.905
+  source: OpenAI
+  summary: OpenAI outlines the next phase of enterprise AI adoption, as companies
+    across industries accelerate the use of AI technologies like Frontier, ChatGPT
+    Enterprise, Codex, and company-wide AI agents to streamline operations and drive
+    innovation.
+  tags:
+  - Company
+  title: The next phase of enterprise AI
+  url: https://openai.com/index/next-phase-of-enterprise-ai
+- category: ai
+  published: '2026-04-08T13:30:00'
+  score: 0.813
+  source: Towards Data Science
+  summary: The article provides a guide on how to effectively present product ideas
+    by building minimum viable products (MVPs) using coding agents, such as those
+    powered by Anthropic's Claude AI system.
+  tags:
+  - Agentic AI
+  - Artificial Intelligence
+  - coding agents
+  - Llm Agent
+  - MVP
+  title: How to Use Claude Code to Build a Minimum Viable Product
+  url: https://towardsdatascience.com/how-to-use-claude-code-to-build-a-minimum-viable-product/
+- category: cybersecurity
+  published: '2026-04-08T12:00:00'
+  score: 1.02
+  source: CISA
+  summary: CISA has added a new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, indicating that it has evidence of active exploitation. This addition
+    highlights the importance of promptly addressing known vulnerabilities to mitigate
+    potential security risks.
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/04/08/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2026-04-08T09:16:00'
+  score: 0.872
+  source: The Hacker News
+  summary: Anthropic's AI model, Claude Mythos, has discovered thousands of zero-day
+    vulnerabilities across major systems as part of the company's new Project Glasswing
+    initiative, highlighting the potential of AI-powered security research to identify
+    and address critical security flaws.
+  tags: []
+  title: Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major
+    Systems
+  url: https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html
 - category: cybersecurity
   published: '2026-04-08T04:23:00'
   score: 1.147
@@ -28577,5 +28777,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-08T05:34:40.106798'
-total_articles: 2214
+last_updated: '2026-04-09T05:35:18.693954'
+total_articles: 2229
