@@ -1,4 +1,168 @@
 articles:
+- category: ai
+  published: '2026-04-10T00:55:51'
+  score: 0.947
+  source: Ars Technica
+  summary: The Orion spacecraft has experienced helium leaks on the Artemis I and
+    II missions, and the next flight to the Moon will require a redesign of the valves
+    to address this issue.
+  tags:
+  - Science
+  - Space
+  - airbus
+  - artemis
+  - artemis II
+  title: Orion helium leak no threat to Artemis II reentry, but will require redesign
+  url: https://arstechnica.com/space/2026/04/nasa-homes-in-on-likely-redesign-to-fix-orion-spacecrafts-leaky-valves/
+- category: ai
+  published: '2026-04-09T22:32:37'
+  score: 0.831
+  source: Ars Technica
+  summary: RFK Jr. has rewritten the CDC panel's charter, opening the door for anti-vaccine
+    groups to have a greater influence on the agency's policies and recommendations.
+  tags:
+  - Health
+  - ACIP
+  - anti-vaccine
+  - CDC
+  - robert f kennedy jr
+  title: RFK Jr. rewrites CDC panel's charter, opening door to anti-vaccine quacks
+  url: https://arstechnica.com/health/2026/04/rfk-jr-rewrites-cdc-panels-charter-opening-door-to-anti-vaccine-quacks/
+- category: cybersecurity
+  published: '2026-04-09T22:04:31'
+  score: 1.047
+  source: BleepingComputer
+  summary: The new LucidRook malware is being used in targeted attacks on non-governmental
+    organizations and universities in Taiwan, and is a Lua-based malware that is delivered
+    through spear-phishing campaigns.
+  tags:
+  - Security
+  title: New ‘LucidRook’ malware used in targeted attacks on NGOs, universities
+  url: https://www.bleepingcomputer.com/news/security/new-lucidrook-malware-used-in-targeted-attacks-on-ngos-universities/
+- category: ai
+  published: '2026-04-09T21:20:31'
+  score: 0.91
+  source: Ars Technica
+  summary: Anthropic has given their AI model Claude 20 hours of psychiatric training,
+    making it the "most psychologically settled model" they have trained to date.
+  tags:
+  - AI
+  - Anthropic
+  - chatbot
+  - Claude
+  - psychiatry
+  title: 'AI on the couch: Anthropic gives Claude 20 hours of psychiatry'
+  url: https://arstechnica.com/ai/2026/04/why-anthropic-sent-its-claude-ai-to-an-actual-psychiatrist/
+- category: ai
+  published: '2026-04-09T18:07:56'
+  score: 0.844
+  source: Ars Technica
+  summary: A Trump-appointed judge has refused to block Anthropic's AI technology
+    from being blacklisted, denying the company's emergency motion for a stay.
+  tags:
+  - AI
+  - Policy
+  - Anthropic
+  - Pete Hegseth
+  - Trump
+  title: Trump-appointed judges refuse to block Trump blacklisting of Anthropic AI
+    tech
+  url: https://arstechnica.com/tech-policy/2026/04/trump-appointed-judges-refuse-to-block-trump-blacklisting-of-anthropic-ai-tech/
+- category: cybersecurity
+  published: '2026-04-09T17:26:00'
+  score: 1.012
+  source: The Hacker News
+  summary: A security vulnerability in the EngageLab SDK, a widely used third-party
+    Android SDK, could have put millions of cryptocurrency wallet users at risk by
+    allowing apps on the same device to bypass Android's security restrictions.
+  tags: []
+  title: EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallets
+  url: https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html
+- category: webdev
+  published: '2026-04-09T16:30:00'
+  score: 0.717
+  source: Towards Data Science
+  summary: A comprehensive visual explanation of linear regression, covering how to
+    build, measure, and improve linear regression models.
+  tags:
+  - Data Science
+  - Machine Learning
+  - Data Visualization
+  - Deep Dives
+  - Editors Pick
+  title: A Visual Explanation of Linear Regression
+  url: https://towardsdatascience.com/a-visual-explanation-of-the-linear-regression/
+- category: ai
+  published: '2026-04-09T14:47:57'
+  score: 0.821
+  source: AWS Machine Learning
+  summary: Amazon Bedrock AgentCore Runtime now supports stateful MCP client capabilities,
+    allowing users to build servers that can request user input, invoke LLM sampling,
+    and stream progress updates for long-running tasks.
+  tags:
+  - Amazon Bedrock AgentCore
+  - Artificial Intelligence
+  - Generative AI
+  - Technical How-to
+  title: Introducing stateful MCP client capabilities on Amazon Bedrock AgentCore
+    Runtime
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-stateful-mcp-client-capabilities-on-amazon-bedrock-agentcore-runtime/
+- category: webdev
+  published: '2026-04-09T13:52:56'
+  score: 0.781
+  source: CSS-Tricks
+  summary: A clever CSS-only approach for selecting a date range on a calendar, using
+    the `:nth-child()` selector to handle the heavy lifting.
+  tags:
+  - Articles
+  - nth-child
+  - pseudo elements
+  title: Selecting a Date Range in CSS
+  url: https://css-tricks.com/selecting-a-date-range-in-css/
+- category: cybersecurity
+  published: '2026-04-09T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: The BASC 20T vulnerability allows an attacker to enumerate the functionality
+    of each component associated with the device, potentially leading to a loss of
+    availability or confidentiality. Successful exploitation could result in the attacker
+    manipulating register values, which could impact the normal operation of the device.
+  tags: []
+  title: Contemporary Controls BASC 20T
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-01
+- category: cybersecurity
+  published: '2026-04-09T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: The GPL750 vulnerability allows a low privileged remote attacker to manipulate
+    register values, which could impact the normal operation of the device. Successful
+    exploitation could lead to a loss of availability or confidentiality.
+  tags: []
+  title: GPL Odorizers GPL750
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-099-02
+- category: cybersecurity
+  published: '2026-04-09T09:22:35'
+  score: 0.999
+  source: BleepingComputer
+  summary: Attackers have been exploiting a zero-day vulnerability in Adobe Reader
+    using maliciously crafted PDF documents since at least December, allowing them
+    to potentially gain unauthorized access to affected systems.
+  tags:
+  - Security
+  title: Hackers exploiting Acrobat Reader zero-day flaw since December
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploiting-acrobat-reader-zero-day-flaw-since-december/
+- category: webdev
+  published: '2026-04-09T06:46:26'
+  score: 0.657
+  source: BleepingComputer
+  summary: Microsoft has suspended developer accounts used to maintain multiple high-profile
+    open-source projects without proper notification, effectively blocking them from
+    publishing new software builds and security patches.
+  tags:
+  - Microsoft
+  - Security
+  title: Microsoft suspends dev accounts for high-profile open source projects
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/
 - category: webdev
   published: '2026-04-09T03:44:24'
   score: 0.888
@@ -199,6 +363,15 @@ articles:
   title: Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major
     Systems
   url: https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html
+- category: webdev
+  published: '2026-04-08T07:00:00'
+  score: 0.458
+  source: Chrome Developers
+  summary: The current Chrome 148 beta includes a preview of the features that will
+    be included in the next Chrome release.
+  tags: []
+  title: Chrome 148 beta
+  url: https://developer.chrome.com/blog/chrome-148-beta?hl=en
 - category: cybersecurity
   published: '2026-04-08T04:23:00'
   score: 1.147
@@ -28777,5 +28950,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-09T05:35:18.693954'
-total_articles: 2229
+last_updated: '2026-04-10T05:42:51.815899'
+total_articles: 2243
