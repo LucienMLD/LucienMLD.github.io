@@ -1,5 +1,173 @@
 articles:
 - category: ai
+  published: '2026-04-12T16:00:00'
+  score: 0.785
+  source: Towards Data Science
+  summary: The article argues that storing and retrieving data is not enough to build
+    reliable AI memory systems, as AI memory should be treated as more than just a
+    search problem. It suggests the need for a more comprehensive approach to AI memory
+    development.
+  tags:
+  - Agentic AI
+  - AI Memory Systems
+  - Artificial Intelligence
+  - Deep Dives
+  - Machine Learning
+  title: Stop Treating AI Memory Like a Search Problem
+  url: https://towardsdatascience.com/stop-treating-ai-memory-like-a-search-problem/
+- category: webdev
+  published: '2026-04-12T15:00:00'
+  score: 0.707
+  source: Towards Data Science
+  summary: The article discusses how to write cleaner, more testable, and production-ready
+    Pandas code using method chaining pipelines, the assign() function, and the pipe()
+    method. It emphasizes the importance of these techniques for intermediate Pandas
+    users.
+  tags:
+  - Programming
+  - Coding
+  - Data Science
+  - Method Chaining
+  - Pandas
+  title: Write Pandas Like a Pro With Method Chaining Pipelines
+  url: https://towardsdatascience.com/this-one-pandas-pattern-separates-beginners-from-intermediate-users/
+- category: cybersecurity
+  published: '2026-04-12T14:20:31'
+  score: 0.987
+  source: BleepingComputer
+  summary: A critical pre-authentication remote code execution (RCE) vulnerability
+    in the Marimo software has been actively exploited, allowing attackers to steal
+    credentials. The flaw is being actively exploited in the wild, posing a significant
+    security risk.
+  tags:
+  - Security
+  title: Critical Marimo pre-auth RCE flaw now under active exploitation
+  url: https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/
+- category: ai
+  published: '2026-04-12T13:00:00'
+  score: 0.764
+  source: Towards Data Science
+  summary: Most ReAct-style AI agents waste a significant portion of their retry budget
+    on errors that can never succeed, due to architectural flaws rather than model
+    mistakes. The article highlights the need for improved prompt tuning and structural
+    changes to address this issue.
+  tags:
+  - Agentic AI
+  - Ai Engineering
+  - Editors Pick
+  - LLM Agents
+  - React
+  title: Your ReAct Agent Is Wasting 90% of Its Retries — Here’s How to Stop It
+  url: https://towardsdatascience.com/your-react-agent-is-wasting-90-of-its-retries-heres-how-to-stop-it/
+- category: webdev
+  published: '2026-04-12T11:17:26'
+  score: 0.684
+  source: Ars Technica
+  summary: The article discusses how the shock from the Iran war has impacted Trump's
+    vision for US energy dominance, as record domestic oil and gas production has
+    not shielded US drivers from price spikes.
+  tags:
+  - Science
+  - diesel
+  - donald trump iran war
+  - energy poilcy
+  - gasoline
+  title: Shock from Iran war has Trump's vision for US energy dominance flailing
+  url: https://arstechnica.com/science/2026/04/shock-from-iran-war-has-trumps-vision-for-us-energy-dominance-flailing/
+- category: cybersecurity
+  published: '2026-04-12T05:54:00'
+  score: 0.828
+  source: The Hacker News
+  summary: Threat actors compromised the CPUID website, which hosts popular hardware
+    monitoring tools, to distribute malicious executables and deploy the STX RAT remote
+    access trojan. The compromise occurred for less than 24 hours, highlighting the
+    need for vigilance and security measures to protect such critical software distribution
+    platforms.
+  tags: []
+  title: CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads
+  url: https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html
+- category: cybersecurity
+  published: '2026-04-12T04:25:00'
+  score: 0.959
+  source: The Hacker News
+  summary: Adobe has released emergency updates to address a critical security vulnerability
+    in Acrobat Reader that has been actively exploited in the wild. The vulnerability,
+    CVE-2026-34621, has a CVSS score of 8.6 and successful exploitation could allow
+    attackers to gain unauthorized access to affected systems.
+  tags: []
+  title: Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621
+  url: https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html
+- category: cybersecurity
+  published: '2026-04-11T14:20:40'
+  score: 0.613
+  source: BleepingComputer
+  summary: An international law enforcement action led by the UK's National Crime
+    Agency (NCA) has identified over 20,000 victims of cryptocurrency fraud across
+    Canada, the UK, and the US, demonstrating the ongoing threat of crypto-related
+    scams.
+  tags:
+  - Security
+  - CryptoCurrency
+  title: Over 20,000 crypto fraud victims identified in international crackdown
+  url: https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/
+- category: ai
+  published: '2026-04-11T13:00:00'
+  score: 0.593
+  source: Towards Data Science
+  summary: The article argues that AI coding assistants need a persistent memory layer
+    to overcome the statelessness of large language models (LLMs) and improve code
+    quality by providing context across sessions, as the current approach is insufficient.
+  tags:
+  - Agentic AI
+  - AI Agents
+  - AI coding assistants
+  - Editors Pick
+  - Llm
+  title: Why Every AI Coding Assistant Needs a Memory Layer
+  url: https://towardsdatascience.com/why-every-ai-coding-assistant-needs-a-memory-layer/
+- category: ai
+  published: '2026-04-11T12:00:00'
+  score: 0.586
+  source: Towards Data Science
+  summary: The article provides a step-by-step interactive guide to introducing reinforcement
+    learning agents using the Unity Game Engine, addressing the complexities of this
+    area of machine learning.
+  tags:
+  - Reinforcement Learning
+  - Artificial Intelligence
+  - C#
+  - Programming
+  - Unity
+  title: Introduction to Reinforcement Learning Agents with the Unity Game Engine
+  url: https://towardsdatascience.com/introduction-to-reinforcement-learning-agents-with-the-unity-game-engine/
+- category: ai
+  published: '2026-04-11T11:15:17'
+  score: 0.669
+  source: Ars Technica
+  summary: AI models, including those from Google, OpenAI, Anthropic, and xAI Grok,
+    struggle with accurately betting on soccer matches in the Premier League, highlighting
+    the limitations of current AI systems in complex prediction tasks.
+  tags:
+  - AI
+  - ChatGPT
+  - gambling
+  - Grok sucks
+  - LLMs
+  title: AI models are terrible at betting on soccer—especially xAI Grok
+  url: https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-especially-xai-grok/
+- category: cybersecurity
+  published: '2026-04-11T06:02:00'
+  score: 0.551
+  source: The Hacker News
+  summary: Hungarian domestic intelligence, the national police in El Salvador, and
+    several US law enforcement and police departments have been attributed to the
+    use of an advertising-based global geolocation surveillance system called Webloc,
+    developed by the Israeli company Cobwebs Technologies.
+  tags: []
+  title: 'Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via
+    Ad Data'
+  url: https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html
+- category: ai
   published: '2026-04-10T00:55:51'
   score: 0.947
   source: Ars Technica
@@ -28950,5 +29118,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-10T05:42:51.815899'
-total_articles: 2243
+last_updated: '2026-04-13T05:53:20.109612'
+total_articles: 2255
