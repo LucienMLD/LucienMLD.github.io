@@ -1,4 +1,193 @@
 articles:
+- category: webdev
+  published: '2026-04-14T04:29:20'
+  score: 0.892
+  source: WebKit Blog
+  summary: Safari 26.4 has introduced name-only @container queries, a solution to
+    the long-standing "naming wars" in the web development community. This feature
+    allows developers to target elements based on their container's name, simplifying
+    the use of container queries.
+  tags:
+  - News
+  title: 'Name-only @container queries: A solution to the naming wars'
+  url: https://webkit.org/blog/17923/name-only-container-queries-a-solution-to-the-naming-wars/
+- category: ai
+  published: '2026-04-13T21:58:41'
+  score: 0.827
+  source: Ars Technica
+  summary: '"Retro Rewind" is a nostalgic game that recreates the experience of working
+    in a ''90s video store. While it may lack complexity, the game''s repetitive charm
+    and attention to detail provide a satisfying and immersive experience for those
+    who are fond of that era.'
+  tags:
+  - Gaming
+  - Blockbuster
+  - blood pact
+  - retro rewind
+  - simulation
+  title: Retro Rewind re-creates the glorious drudgery of working a '90s video store
+  url: https://arstechnica.com/gaming/2026/04/retro-rewind-re-creates-the-glorious-drudgery-of-working-a-90s-video-store/
+- category: webdev
+  published: '2026-04-13T21:32:48'
+  score: 0.749
+  source: Ars Technica
+  summary: Idaho has the worst measles vaccination rate in the US, with only 78.5%
+    of kindergartners having the measles vaccination in the 2024-2025 school year.
+    This low vaccination rate has led to a measles outbreak, with the disease being
+    brought in on a plane to the state.
+  tags:
+  - Health
+  - idaho
+  - measles
+  - MMR
+  - vaccine
+  title: Measles takes a plane to Idaho, which has worst vaccination rate in US
+  url: https://arstechnica.com/health/2026/04/airport-measles-case-reported-in-idaho-state-with-lowest-vaccination-rate/
+- category: webdev
+  published: '2026-04-13T20:55:35'
+  score: 0.745
+  source: Ars Technica
+  summary: NZXT, a PC hardware company, has agreed to a class-action settlement that
+    allows customers of its Flex program to keep their rental PCs. The company will
+    also forgive up to $5,000 in debt for these customers.
+  tags:
+  - Policy
+  - Tech
+  - Desktops
+  - gaming PC
+  - subscriptions
+  title: NZXT agrees to let customers keep their rental PCs in class-action settlement
+  url: https://arstechnica.com/gadgets/2026/04/nzxt-agrees-to-3-45-million-settlement-over-controversial-rental-pc-program/
+- category: cybersecurity
+  published: '2026-04-13T20:08:10'
+  score: 0.984
+  source: BleepingComputer
+  summary: Rockstar Games has suffered a data breach linked to a recent security incident
+    at Anodot, with the ShinyHunters extortion gang now leaking the stolen data on
+    its data leak site. The breach has exposed sensitive analytics data from the game
+    developer.
+  tags:
+  - Security
+  title: Stolen Rockstar Games analytics data leaked by extortion gang
+  url: https://www.bleepingcomputer.com/news/security/stolen-rockstar-games-analytics-data-leaked-by-extortion-gang/
+- category: ai
+  published: '2026-04-13T20:00:43'
+  score: 0.813
+  source: Machine Learning Mastery
+  summary: The open-weights model ecosystem has recently shifted with the release
+    of Gemma 4 and its integration with Python. This article explains how to implement
+    tool calling, a feature that allows users to leverage Gemma 4 and Python together
+    for various applications.
+  tags: []
+  title: How to Implement Tool Calling with Gemma 4 and Python
+  url: https://machinelearningmastery.com/how-to-implement-tool-calling-with-gemma-4-and-python/
+- category: cybersecurity
+  published: '2026-04-13T19:56:03'
+  score: 0.983
+  source: BleepingComputer
+  summary: A critical vulnerability in the wolfSSL SSL/TLS library can weaken security
+    by allowing attackers to forge ECDSA signatures. This flaw, if exploited, could
+    lead to the improper verification of the hash algorithm or its size when checking
+    Elliptic Curve Digital Signature Algorithm (ECDSA) signatures.
+  tags:
+  - Security
+  title: Critical flaw in wolfSSL library enables forged certificate use
+  url: https://www.bleepingcomputer.com/news/security/critical-flaw-in-wolfssl-library-enables-forged-certificate-use/
+- category: cybersecurity
+  published: '2026-04-13T16:52:57'
+  score: 1.056
+  source: Schneier on Security
+  summary: Anthropic's new language model, Claude Mythos Preview, has raised concerns
+    in the cybersecurity industry due to its potential cyberattack capabilities. Anthropic
+    has decided not to release the model to the general public, citing the need to
+    mitigate the risks associated with such a powerful tool.
+  tags:
+  - Uncategorized
+  - AI
+  - cyberattack
+  - cybersecurity
+  - exploits
+  title: On Anthropic’s Mythos Preview and Project Glasswing
+  url: https://www.schneier.com/blog/archives/2026/04/on-anthropics-mythos-preview-and-project-glasswing.html
+- category: ai
+  published: '2026-04-13T16:30:00'
+  score: 0.833
+  source: Towards Data Science
+  summary: The article explores how to apply coding agents, such as Claude, to non-technical
+    tasks on a computer. It demonstrates how these AI-powered tools can be utilized
+    for a wide range of everyday tasks, beyond just technical or programming-related
+    work.
+  tags:
+  - Agentic AI
+  - AI coding assistants
+  - Claude Code
+  - Data Visualization
+  - Llm Agent
+  title: How to Apply Claude Code to Non-technical Tasks
+  url: https://towardsdatascience.com/how-to-apply-claude-code-to-non-technical-tasks/
+- category: cybersecurity
+  published: '2026-04-13T15:37:05'
+  score: 1.094
+  source: BleepingComputer
+  summary: Adobe has released an emergency security update for Acrobat Reader to fix
+    a vulnerability that has been exploited in zero-day attacks since at least December.
+    The vulnerability, tracked as CVE-2026-34621, is a critical flaw that could allow
+    attackers to execute arbitrary code on affected systems.
+  tags:
+  - Security
+  title: Adobe rolls out emergency fix for Acrobat, Reader zero-day flaw
+  url: https://www.bleepingcomputer.com/news/security/adobe-rolls-out-emergency-fix-for-acrobat-reader-zero-day-flaw/
+- category: webdev
+  published: '2026-04-13T14:14:43'
+  score: 0.743
+  source: CSS-Tricks
+  summary: The article presents seven view transition recipes that developers can
+    easily implement on their websites. These transitions provide a smooth and visually
+    appealing user experience when navigating between different views or pages.
+  tags:
+  - Articles
+  - view transitions
+  title: 7 View Transitions Recipes to Try
+  url: https://css-tricks.com/7-view-transitions-recipes-to-try/
+- category: cybersecurity
+  published: '2026-04-13T12:00:00'
+  score: 1.019
+  source: CISA
+  summary: CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. These vulnerabilities
+    span various software and systems, and organizations are advised to prioritize
+    patching and mitigation measures to address these threats.
+  tags: []
+  title: CISA Adds Seven Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/04/13/cisa-adds-seven-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2026-04-13T11:00:32'
+  score: 0.883
+  source: Ars Technica
+  summary: The use of large language models (LLMs) like ChatGPT has become a demoralizing
+    problem for college instructors, as they struggle to adapt their teaching methods
+    and assessment strategies to address the challenges posed by these advanced AI
+    systems.
+  tags:
+  - AI
+  - Features
+  - Science
+  - LLMs
+  - Science teaching
+  title: To teach in the time of ChatGPT is to know pain
+  url: https://arstechnica.com/science/2026/04/to-teach-in-the-time-of-chatgpt-is-to-know-pain/
+- category: ai
+  published: '2026-04-13T06:00:00'
+  score: 0.805
+  source: OpenAI
+  summary: Cloudflare has integrated OpenAI's GPT-5.4 and Codex models into its Agent
+    Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world
+    tasks with speed and security. This partnership aims to empower businesses to
+    leverage the power of large language models in their workflows.
+  tags:
+  - Global Affairs
+  title: Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI
+  url: https://openai.com/index/cloudflare-openai-agent-cloud
 - category: ai
   published: '2026-04-12T16:00:00'
   score: 0.785
@@ -29118,5 +29307,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-13T05:53:20.109612'
-total_articles: 2255
+last_updated: '2026-04-14T05:42:23.717919'
+total_articles: 2269
