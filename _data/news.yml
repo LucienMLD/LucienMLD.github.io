@@ -1,4 +1,198 @@
 articles:
+- category: ai
+  published: '2026-04-14T22:42:22'
+  score: 0.832
+  source: Ars Technica
+  summary: Ukraine is replacing more soldiers with robots in the battlefield kill
+    zone to offset the risks of drone usage.
+  tags:
+  - AI
+  - killer robots
+  - military drones
+  - weaponized robots
+  title: Ukraine’s military robot surge aims to offset drone risks to humans
+  url: https://arstechnica.com/ai/2026/04/ukraines-military-robot-surge-aims-to-offset-drone-risks-to-humans/
+- category: cybersecurity
+  published: '2026-04-14T22:23:33'
+  score: 1.001
+  source: BleepingComputer
+  summary: Microsoft has introduced new Windows protections to defend against phishing
+    attacks that abuse Remote Desktop connection (.rdp) files, adding warnings and
+    disabling risky shared resources by default.
+  tags:
+  - Microsoft
+  - Security
+  title: Microsoft adds Windows protections for malicious Remote Desktop files
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-windows-protections-for-malicious-remote-desktop-files/
+- category: webdev
+  published: '2026-04-14T22:00:31'
+  score: 0.752
+  source: Ars Technica
+  summary: Sony is killing features for antenna and set-top box users of Bravia smart
+    TVs in May 2023, affecting some 2023 and 2024 models.
+  tags:
+  - Tech
+  - Sony
+  - TVs
+  title: Sony killing features for antenna, set-top box users of Bravia smart TVs
+    in May
+  url: https://arstechnica.com/gadgets/2026/04/sony-killing-features-for-antenna-set-top-box-users-of-bravia-smart-tvs-in-may/
+- category: cybersecurity
+  published: '2026-04-14T21:47:59'
+  score: 1.093
+  source: Krebs on Security
+  summary: Microsoft released a large security update for Windows, patching 167 vulnerabilities,
+    including a SharePoint Server zero-day and a weakness in Windows Defender. Google
+    Chrome also fixed its fourth vulnerability of the year.
+  tags:
+  - Latest Warnings
+  - The Coming Storm
+  - Time to Patch
+  - Action1
+  - adobe reader
+  title: Patch Tuesday, April 2026 Edition
+  url: https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/
+- category: webdev
+  published: '2026-04-14T19:58:52'
+  score: 0.739
+  source: Ars Technica
+  summary: Two-year-old Microsoft Surface PCs are getting $300 price hikes as sub-$1,000
+    models go away, reflecting the "paying more for the same stuff" trend in consumer
+    technology.
+  tags:
+  - Tech
+  - Microsoft Surface
+  title: Two-year-old Surface PCs get $300 price hikes as sub-$1,000 models go away
+  url: https://arstechnica.com/gadgets/2026/04/two-year-old-surface-pcs-get-300-price-hikes-as-sub-1000-models-go-away/
+- category: webdev
+  published: '2026-04-14T19:50:16'
+  score: 0.738
+  source: Ars Technica
+  summary: Amazon announces an $11.6 billion merger with Globalstar and a satellite
+    deal with Apple, years after Apple rejected a Starlink offer.
+  tags:
+  - Apple
+  - Policy
+  - Amazon
+  - amazon leo
+  - apple
+  title: Apple chooses Amazon satellites for iPhone, years after rejecting Starlink
+    offer
+  url: https://arstechnica.com/tech-policy/2026/04/amazon-to-merge-with-globalstar-become-iphones-primary-satellite-provider/
+- category: ai
+  published: '2026-04-14T18:19:43'
+  score: 0.846
+  source: AWS Machine Learning
+  summary: AWS introduces the Generative AI Path-to-Value (P2V) framework, a structured
+    approach to help organizations move generative AI initiatives from concept to
+    production and sustained value creation.
+  tags:
+  - Advanced (300)
+  - Best Practices
+  - Generative AI
+  - Intermediate (200)
+  - Technical How-to
+  title: 'Navigating the generative AI journey: The Path-to-Value framework from AWS'
+  url: https://aws.amazon.com/blogs/machine-learning/navigating-the-generative-ai-journey-the-path-to-value-framework-from-aws/
+- category: cybersecurity
+  published: '2026-04-14T18:09:39'
+  score: 1.017
+  source: BleepingComputer
+  summary: Microsoft released the Windows 10 KB5082200 extended security update to
+    fix the April 2026 Patch Tuesday vulnerabilities, including 2 zero-days.
+  tags:
+  - Microsoft
+  - Security
+  title: Microsoft releases Windows 10 KB5082200 extended security update
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5082200-extended-security-update/
+- category: ai
+  published: '2026-04-14T18:09:22'
+  score: 0.845
+  source: AWS Machine Learning
+  summary: Amazon SageMaker HyperPod provides a comprehensive solution for inference
+    workloads, with capabilities for dynamic scaling, simplified deployment, and intelligent
+    resource management.
+  tags:
+  - Amazon SageMaker HyperPod
+  - Artificial Intelligence
+  - Best Practices
+  title: Best practices to run inference on Amazon SageMaker HyperPod
+  url: https://aws.amazon.com/blogs/machine-learning/best-practices-to-run-inference-on-amazon-sagemaker-hyperpod/
+- category: ai
+  published: '2026-04-14T18:02:56'
+  score: 0.888
+  source: AWS Machine Learning
+  summary: Guidesly built an AI-generated trip report service on AWS, using AWS Lambda,
+    AWS Step Functions, Amazon S3, Amazon RDS, Amazon SageMaker, and Amazon Bedrock
+    to ingest trip media, enrich it with context, and apply computer vision.
+  tags:
+  - Amazon API Gateway
+  - Amazon Bedrock AgentCore
+  - Amazon RDS
+  - Amazon SageMaker Autopilot
+  - Amazon Simple Notification Service (SNS)
+  title: How Guidesly built AI-generated trip reports for outdoor guides on AWS
+  url: https://aws.amazon.com/blogs/machine-learning/how-guidesly-built-ai-generated-trip-reports-for-outdoor-guides-on-aws/
+- category: ai
+  published: '2026-04-14T18:00:00'
+  score: 0.843
+  source: Towards Data Science
+  summary: The article presents a full context engineering system built in Python
+    that controls memory, compression, re-ranking, and token budgets to address the
+    problem of context growth in large language model (LLM) systems.
+  tags:
+  - Large Language Models
+  - Machine Learning
+  - Context Engineering
+  - Deep Dives
+  - Generative Ai
+  title: RAG Isn’t Enough — I Built the Missing Context Layer That Makes LLM Systems
+    Work
+  url: https://towardsdatascience.com/rag-isnt-enough-i-built-the-missing-context-layer-that-makes-llm-systems-work/
+- category: webdev
+  published: '2026-04-14T17:46:31'
+  score: 0.725
+  source: BleepingComputer
+  summary: Microsoft has released Windows 11 KB5083769 and KB5082052 cumulative updates
+    to fix security vulnerabilities, bugs, and add new features.
+  tags:
+  - Microsoft
+  - Software
+  title: Windows 11 cumulative updates KB5083769 & KB5082052 released
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5083769-and-kb5082052-released/
+- category: webdev
+  published: '2026-04-14T13:55:38'
+  score: 0.741
+  source: CSS-Tricks
+  summary: The article introduces the Radio State Machine, a CSS state management
+    technique that allows for more than two states in a component.
+  tags:
+  - Articles
+  - checkbox hack
+  - forms
+  - state
+  - state machines
+  title: The Radio State Machine
+  url: https://css-tricks.com/the-radio-state-machine/
+- category: cybersecurity
+  published: '2026-04-14T12:00:00'
+  score: 1.019
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, indicating active exploitation in the wild.
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-04-14T05:50:00'
+  score: 1.021
+  source: The Hacker News
+  summary: A critical vulnerability in the ShowDoc document management service in
+    China, CVE-2025-0520, has been actively exploited in the wild, with a CVSS score
+    of 9.4 out of 10.
+  tags: []
+  title: ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers
+  url: https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html
 - category: webdev
   published: '2026-04-14T04:29:20'
   score: 0.892
@@ -29307,5 +29501,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-14T05:42:23.717919'
-total_articles: 2269
+last_updated: '2026-04-15T05:43:02.572975'
+total_articles: 2284
