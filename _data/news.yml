@@ -1,4 +1,173 @@
 articles:
+- category: cybersecurity
+  published: '2026-04-15T22:35:09'
+  score: 1.05
+  source: BleepingComputer
+  summary: A critical vulnerability in Nginx UI with Model Context Protocol (MCP)
+    support is now being exploited in the wild, enabling full server takeover without
+    authentication.
+  tags:
+  - Security
+  title: Critical Nginx UI auth bypass flaw now actively exploited in the wild
+  url: https://www.bleepingcomputer.com/news/security/critical-nginx-ui-auth-bypass-flaw-now-actively-exploited-in-the-wild/
+- category: cybersecurity
+  published: '2026-04-15T21:57:17'
+  score: 1.046
+  source: BleepingComputer
+  summary: A new malware family named 'AgingFly' has been identified in attacks against
+    local governments and hospitals, stealing authentication data from Chromium-based
+    browsers and WhatsApp messenger.
+  tags:
+  - Security
+  title: New AgingFly malware used in attacks on Ukraine govt, hospitals
+  url: https://www.bleepingcomputer.com/news/security/new-agingfly-malware-used-in-attacks-on-ukraine-govt-hospitals/
+- category: webdev
+  published: '2026-04-15T20:36:28'
+  score: 0.743
+  source: Ars Technica
+  summary: The "TotalRecall Reloaded" tool has found a way to access Windows 11's
+    Recall database, which is designed to be secure.
+  tags:
+  - Security
+  - Tech
+  - windows 11
+  - windows 11 24h2
+  - windows 11 25h2
+  title: '"TotalRecall Reloaded" tool finds a side entrance to Windows 11''s Recall
+    database'
+  url: https://arstechnica.com/gadgets/2026/04/totalrecall-reloaded-tool-finds-a-side-entrance-to-windows-11s-recall-database/
+- category: webdev
+  published: '2026-04-15T19:46:43'
+  score: 0.738
+  source: Ars Technica
+  summary: Google has released new desktop apps for Windows and macOS, expanding its
+    product offerings beyond web-based applications.
+  tags:
+  - AI
+  - Google
+  - Tech
+  - gemini
+  - google
+  title: Google releases new apps for Windows and MacOS
+  url: https://arstechnica.com/gadgets/2026/04/google-launches-search-app-for-windows-gemini-app-for-mac/
+- category: cybersecurity
+  published: '2026-04-15T17:09:00'
+  score: 1.058
+  source: The Hacker News
+  summary: Threat actors have been abusing the n8n workflow automation platform to
+    facilitate sophisticated phishing campaigns and deliver malicious payloads or
+    fingerprint devices by sending automated emails through the platform's trusted
+    infrastructure.
+  tags: []
+  title: n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails
+  url: https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html
+- category: ai
+  published: '2026-04-15T16:54:33'
+  score: 0.836
+  source: Ars Technica
+  summary: Adobe is taking its Creative Cloud suite into the realm of AI-powered code
+    generation, similar to the capabilities of tools like Claude.
+  tags:
+  - AI
+  - Adobe
+  - Adobe Creative Cloud
+  - Adobe Firefly
+  - Adobe Firefly AI Assistant
+  title: Adobe takes Creative Cloud into Claude Code-esque territory
+  url: https://arstechnica.com/ai/2026/04/adobe-takes-creative-cloud-into-claude-code-esque-territory/
+- category: ai
+  published: '2026-04-15T16:30:00'
+  score: 0.833
+  source: Towards Data Science
+  summary: The article provides tips on how to get the most out of the Claude Cowork
+    platform, a collaborative AI tool.
+  tags:
+  - Large Language Models
+  - Agentic Ai
+  - coding agents
+  - Data Visualization
+  - LLM Agents
+  title: How to Maximize Claude Cowork
+  url: https://towardsdatascience.com/how-to-maximize-claude-cowork/
+- category: ai
+  published: '2026-04-15T15:20:58'
+  score: 0.825
+  source: AWS Machine Learning
+  summary: Speculative decoding can help reduce the cost per generated token on AWS
+    Trainium2 for decode-heavy large language model (LLM) inference.
+  tags:
+  - Advanced (300)
+  - Amazon Elastic Kubernetes Service
+  - Artificial Intelligence
+  - AWS Trainium
+  - Compute
+  title: Accelerating decode-heavy LLM inference with speculative decoding on AWS
+    Trainium and vLLM
+  url: https://aws.amazon.com/blogs/machine-learning/accelerating-decode-heavy-llm-inference-with-speculative-decoding-on-aws-trainium-and-vllm/
+- category: ai
+  published: '2026-04-15T15:00:00'
+  score: 0.823
+  source: Google AI Blog
+  summary: Gemini 3.1 Flash TTS is the next generation of expressive AI speech, offering
+    improvements over previous versions.
+  tags:
+  - Gemini models
+  - AI
+  title: 'Gemini 3.1 Flash TTS: the next generation of expressive AI speech'
+  url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/
+- category: ai
+  published: '2026-04-15T15:00:00'
+  score: 0.823
+  source: Towards Data Science
+  summary: Disaggregated LLM inference, where prefill and decode operations are handled
+    by separate components, can lead to a 2-4x cost reduction compared to a single
+    GPU-based approach.
+  tags:
+  - Large Language Models
+  - Ai Engineering
+  - Deep Dives
+  - Gpu
+  - Inference
+  title: Prefill Is Compute-Bound. Decode Is Memory-Bound. Why Your GPU Shouldn’t
+    Do Both.
+  url: https://towardsdatascience.com/prefill-is-compute-bound-decode-is-memory-bound-why-your-gpu-shouldnt-do-both/
+- category: cybersecurity
+  published: '2026-04-15T14:51:05'
+  score: 0.992
+  source: BleepingComputer
+  summary: CISA has warned U.S. government agencies to secure their systems against
+    a Windows Task Host privilege escalation vulnerability that could allow attackers
+    to gain SYSTEM privileges.
+  tags:
+  - Security
+  - Microsoft
+  title: CISA flags Windows Task Host vulnerability as exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/
+- category: cybersecurity
+  published: '2026-04-15T12:56:00'
+  score: 1.074
+  source: The Hacker News
+  summary: A critical security flaw in the nginx-ui management tool allows for authentication
+    bypass and full takeover of Nginx servers. The vulnerability, known as CVE-2026-33032,
+    has a CVSS score of 9.8 and is actively being exploited in the wild.
+  tags: []
+  title: Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server
+    Takeover
+  url: https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html
+- category: webdev
+  published: '2026-04-15T12:00:00'
+  score: 0.729
+  source: Towards Data Science
+  summary: The article demonstrates how to turn OpenStreetMap data into an interactive
+    map of wild swimming spots using Overpass API and Power BI.
+  tags:
+  - Data Science
+  - App Development
+  - Editors Pick
+  - Geospatial Data
+  - Openstreetmap
+  title: 'From OpenStreetMap to Power BI: Visualizing Wild Swimming Locations'
+  url: https://towardsdatascience.com/from-openstreetmap-to-power-bi-visualizing-wild-swimming-locations/
 - category: ai
   published: '2026-04-14T22:42:22'
   score: 0.832
@@ -94,6 +263,18 @@ articles:
   - Technical How-to
   title: 'Navigating the generative AI journey: The Path-to-Value framework from AWS'
   url: https://aws.amazon.com/blogs/machine-learning/navigating-the-generative-ai-journey-the-path-to-value-framework-from-aws/
+- category: webdev
+  published: '2026-04-14T18:14:54'
+  score: 0.568
+  source: AWS Machine Learning
+  summary: Amazon SageMaker JumpStart has introduced optimized deployments, allowing
+    for rich and straightforward deployment customization for specific use cases.
+  tags:
+  - Amazon SageMaker
+  - Amazon SageMaker JumpStart
+  - Artificial Intelligence
+  title: Use-case based deployments on SageMaker JumpStart
+  url: https://aws.amazon.com/blogs/machine-learning/use-case-based-deployments-on-sagemaker-jumpstart/
 - category: cybersecurity
   published: '2026-04-14T18:09:39'
   score: 1.017
@@ -29501,5 +29682,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-15T05:43:02.572975'
-total_articles: 2284
+last_updated: '2026-04-16T05:44:50.486597'
+total_articles: 2298
