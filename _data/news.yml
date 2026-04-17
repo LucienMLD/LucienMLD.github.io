@@ -1,5 +1,195 @@
 articles:
 - category: cybersecurity
+  published: '2026-04-17T03:22:00'
+  score: 1.234
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added
+    a high-severity security vulnerability in Apache ActiveMQ Classic, tracked as
+    CVE-2026-34197, to its Known Exploited Vulnerabilities (KEV) catalog due to active
+    exploitation in the wild. This vulnerability could allow an unauthenticated attacker
+    to execute arbitrary code on affected systems.
+  tags: []
+  title: Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation
+  url: https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html
+- category: webdev
+  published: '2026-04-17T03:15:54'
+  score: 0.885
+  source: Ars Technica
+  summary: Europe's first Mars rover mission, which has faced a series of delays,
+    now has a ride to the red planet on SpaceX's Falcon Heavy rocket.
+  tags:
+  - Science
+  - Space
+  title: After a saga of broken promises, a European rover finally has a ride to Mars
+  url: https://arstechnica.com/space/2026/04/after-a-saga-of-broken-promises-a-european-rover-finally-has-a-ride-to-mars/
+- category: webdev
+  published: '2026-04-16T23:20:33'
+  score: 0.76
+  source: Ars Technica
+  summary: Lucasfilm has released the final trailer for the upcoming season of "The
+    Mandalorian," teasing the continued adventures of the Mandalorian and Grogu.
+  tags:
+  - Culture
+  - entertainment
+  - film trailers
+  - Lucasfilm
+  - Star Wars
+  title: Lucasfilm drops The Mandalorian and Grogu final trailer at CinemaCon
+  url: https://arstechnica.com/culture/2026/04/lucasfilm-drops-mandalorian-and-grogu-final-trailer-at-cinemacon/
+- category: webdev
+  published: '2026-04-16T21:33:33'
+  score: 0.749
+  source: Ars Technica
+  summary: Intel is refreshing its non-Ultra Core CPUs with new silicon, bringing
+    the benefits of its latest technology to more affordable processors for the first
+    time in a while.
+  tags:
+  - Tech
+  - core series 3
+  - Intel
+  - wildcat lake
+  title: Intel refreshes non-Ultra Core CPUs with new silicon for the first time
+  url: https://arstechnica.com/gadgets/2026/04/intels-non-ultra-core-cpus-are-new-silicon-this-year-for-a-change/
+- category: ai
+  published: '2026-04-16T21:17:47'
+  score: 0.954
+  source: Ars Technica
+  summary: OpenAI has released GPT-Rosalind, a large language model (LLM) trained
+    on biology workflows, which is available in a closed access format.
+  tags:
+  - AI
+  - Science
+  - Biology
+  - gpt
+  - GPT-Rosalind
+  title: OpenAI starts offering a biology-tuned LLM
+  url: https://arstechnica.com/science/2026/04/openai-starts-offering-a-biology-tuned-llm/
+- category: webdev
+  published: '2026-04-16T18:30:44'
+  score: 0.77
+  source: Ars Technica
+  summary: The latest Codex features include an in-app browser that provides visual
+    feedback while building websites, allowing developers to use their computers in
+    the background.
+  tags:
+  - AI
+  - agentic AI
+  - Codex
+  - enterprise AI
+  - openai
+  title: New Codex features include the ability to use your computer in the background
+  url: https://arstechnica.com/ai/2026/04/new-codex-features-include-the-ability-to-use-your-computer-in-the-background/
+- category: ai
+  published: '2026-04-16T17:39:56'
+  score: 0.841
+  source: AWS Machine Learning
+  summary: Amazon's generative AI services can help online retailers improve the shopping
+    experience by allowing customers to better visualize product fit and appearance,
+    reducing returns and increasing purchase confidence.
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Nova
+  - Amazon OpenSearch Service
+  - Amazon Rekognition
+  title: Transform retail with AWS generative AI services
+  url: https://aws.amazon.com/blogs/machine-learning/transform-retail-with-aws-generative-ai-services/
+- category: ai
+  published: '2026-04-16T17:34:42'
+  score: 0.84
+  source: AWS Machine Learning
+  summary: Automated Reasoning checks in Amazon Bedrock use formal verification to
+    provide mathematically proven results, addressing the limitations of probabilistic
+    AI validation in regulated industries.
+  tags:
+  - Amazon Bedrock
+  - Artificial Intelligence
+  - Generative AI
+  - Responsible AI
+  title: How Automated Reasoning checks in Amazon Bedrock transform generative AI
+    compliance
+  url: https://aws.amazon.com/blogs/machine-learning/how-automated-reasoning-checks-in-amazon-bedrock-transform-generative-ai-compliance/
+- category: ai
+  published: '2026-04-16T15:24:14'
+  score: 0.87
+  source: BleepingComputer
+  summary: Google is expanding its use of Gemini AI models to detect and block harmful
+    ads on its advertising platforms, as scammers and threat actors continue to evolve
+    their tactics to evade detection.
+  tags:
+  - Google
+  - Security
+  title: Google expands Gemini AI use to fight malicious ads on its platform
+  url: https://www.bleepingcomputer.com/news/google/google-expands-gemini-ai-use-to-fight-malicious-ads-on-its-platform/
+- category: webdev
+  published: '2026-04-16T13:53:58'
+  score: 0.781
+  source: CSS-Tricks
+  summary: Establishing a well-designed JavaScript module system is a crucial first
+    step in building a maintainable and scalable web application architecture.
+  tags:
+  - Articles
+  - architecture
+  - JavaScript
+  - javascript modules
+  title: A Well-Designed JavaScript Module System is Your First Architecture Decision
+  url: https://css-tricks.com/the-javascript-module-system-architecture/
+- category: cybersecurity
+  published: '2026-04-16T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: AVEVA's pipeline simulation software is affected by a vulnerability that
+    could allow an unauthenticated attacker to modify simulation parameters and training
+    configurations, potentially leading to disruptions in critical infrastructure.
+  tags: []
+  title: AVEVA Pipeline Simulation
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-04
+- category: cybersecurity
+  published: '2026-04-16T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: Vulnerabilities in Horner Automation's Cscape and XL4, XL7 PLC could allow
+    an attacker to gain unauthorized access to systems and services, potentially leading
+    to further compromise.
+  tags: []
+  title: Horner Automation Cscape and XL4, XL7 PLC
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-02
+- category: cybersecurity
+  published: '2026-04-16T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: A vulnerability in Delta Electronics' ASDA-Soft software could allow an
+    attacker to execute arbitrary code, potentially leading to system takeover and
+    data breaches.
+  tags: []
+  title: Delta Electronics ASDA-Soft
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-01
+- category: cybersecurity
+  published: '2026-04-16T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: Multiple vulnerabilities in Anviz products could allow attackers to conduct
+    reconnaissance, capture or decrypt sensitive data, and potentially gain unauthorized
+    access to systems.
+  tags: []
+  title: Anviz Multiple Products
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-03
+- category: ai
+  published: '2026-04-16T12:00:00'
+  score: 0.846
+  source: Towards Data Science
+  summary: Deep Evidential Regression (DER) is a method that allows neural networks
+    to rapidly express their uncertainty, addressing the issue of overconfident predictions
+    in machine learning models.
+  tags:
+  - Deep Learning
+  - Artificial Intelligence
+  - Editors Pick
+  - Machine Learning
+  - Statistics
+  title: Introduction to Deep Evidential Regression for Uncertainty Quantification
+  url: https://towardsdatascience.com/introduction-to-deep-evidential-regression-for-uncertainty-quantification/
+- category: cybersecurity
   published: '2026-04-15T22:35:09'
   score: 1.05
   source: BleepingComputer
@@ -29682,5 +29872,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-16T05:44:50.486597'
-total_articles: 2298
+last_updated: '2026-04-17T05:43:46.280059'
+total_articles: 2313
