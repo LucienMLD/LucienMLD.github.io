@@ -1,5 +1,158 @@
 articles:
 - category: cybersecurity
+  published: '2026-04-20T03:35:00'
+  score: 1.187
+  source: The Hacker News
+  summary: Vercel, a web infrastructure provider, suffered a security breach due to
+    the compromise of a third-party AI tool, Context.ai, used by an employee. The
+    incident allowed unauthorized access to certain internal Vercel systems, leading
+    to a disclosure of the breach.
+  tags: []
+  title: Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials
+  url: https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html
+- category: webdev
+  published: '2026-04-19T18:19:19'
+  score: 0.728
+  source: Ars Technica
+  summary: Blue Origin's reused first stage hit its targets, but the New Glenn's upper
+    stage failed during a recent launch, marring the company's rocket reuse achievement.
+  tags:
+  - Science
+  - Space
+  title: Blue Origin's rocket reuse achievement marred by upper stage failure
+  url: https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/
+- category: cybersecurity
+  published: '2026-04-19T17:32:45'
+  score: 0.964
+  source: BleepingComputer
+  summary: Vercel, a cloud development platform, has confirmed a security incident
+    after threat actors claimed to have breached its systems and are attempting to
+    sell stolen data.
+  tags:
+  - Security
+  title: Vercel confirms breach as hackers claim to be selling stolen data
+  url: https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/
+- category: cybersecurity
+  published: '2026-04-19T16:03:01'
+  score: 0.904
+  source: BleepingComputer
+  summary: Apple account change notifications are being abused by threat actors to
+    send fake iPhone purchase phishing scams within legitimate emails sent from Apple's
+    servers, increasing the legitimacy of the scams and potentially bypassing spam
+    filters.
+  tags:
+  - Security
+  - Apple
+  title: Apple account change alerts abused to send phishing emails
+  url: https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/
+- category: ai
+  published: '2026-04-19T15:00:00'
+  score: 0.778
+  source: Towards Data Science
+  summary: The article discusses Proxy-Pointer RAG, a novel approach to structure-meets-scale
+    vector retrieval that achieves 100% accuracy with smarter retrieval methods.
+  tags:
+  - Large Language Model
+  - Ai Engineering
+  - Document Retrieval
+  - Llm
+  - Llm Applications
+  title: 'Proxy-Pointer RAG: Structure Meets Scale at 100% Accuracy with Smarter Retrieval'
+  url: https://towardsdatascience.com/proxy-pointer-rag-structure-meets-scale-100-accuracy-with-smarter-retrieval/
+- category: cybersecurity
+  published: '2026-04-19T14:17:43'
+  score: 0.843
+  source: BleepingComputer
+  summary: The National Institute of Standards and Technology (NIST) will stop assigning
+    severity scores to lower-priority vulnerabilities due to the growing workload
+    from rising submission volumes.
+  tags:
+  - Security
+  title: NIST to stop rating non-priority flaws due to volume increase
+  url: https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/
+- category: ai
+  published: '2026-04-19T13:00:00'
+  score: 0.808
+  source: Towards Data Science
+  summary: The article describes the use of Vector Quantized Variational Autoencoders
+    (VQ-VAE) and Transformers to generate Minecraft worlds, demonstrating the capabilities
+    of these AI techniques in creating virtual environments.
+  tags:
+  - Deep Learning
+  - Attention
+  - Deep Dives
+  - Gpt
+  - Minecraft
+  title: Dreaming in Cubes
+  url: https://towardsdatascience.com/dreaming-in-cubes/
+- category: ai
+  published: '2026-04-19T11:17:28'
+  score: 0.752
+  source: Ars Technica
+  summary: The article provides an insider's account of firing one of America's most
+    powerful lasers, used to study the physics of stellar interiors and fusion energy,
+    among other things.
+  tags:
+  - Science
+  - laser
+  - lasers
+  - petawatt lasers
+  - syndication
+  title: I’ve fired one of America’s most powerful lasers—here’s what a shot day looks like
+  url: https://arstechnica.com/science/2026/04/ive-fired-one-of-americas-most-powerful-lasers-heres-what-a-shot-day-looks-like/
+- category: ai
+  published: '2026-04-19T11:00:00'
+  score: 0.75
+  source: Towards Data Science
+  summary: The article explores TurboQuant, a novel KV cache quantization framework
+    developed by Google to address the issue of KV cache eating up VRAM, using multi-stage
+    compression to achieve near-lossless storage.
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Deep Learning
+  - Llm
+  - Machine Learning
+  title: KV Cache Is Eating Your VRAM. Here’s How Google Fixed It With TurboQuant.
+  url: https://towardsdatascience.com/kv-cache-is-eating-your-vram-heres-how-google-fixed-it-with-turboquant/
+- category: ai
+  published: '2026-04-18T15:00:00'
+  score: 0.563
+  source: Towards Data Science
+  summary: The article discusses a hidden failure mode in RAG (Retrieval Augmented
+    Generation) systems, where conflicting context in the same retrieval window can
+    lead to wrong answers, even when the system retrieves the right data.
+  tags:
+  - Large Language Models
+  - Llm
+  - Llm Evaluation
+  - Machine Learning
+  - Rag
+  title: Your RAG System Retrieves the Right Data — But Still Produces Wrong Answers.
+    Here’s Why (and How to Fix It).
+  url: https://towardsdatascience.com/your-rag-system-retrieves-the-right-data-but-still-produces-wrong-answers-heres-why-and-how-to-fix-it/
+- category: webdev
+  published: '2026-04-18T14:11:21'
+  score: 0.542
+  source: BleepingComputer
+  summary: Microsoft is warning that a recent Microsoft Edge browser update introduced
+    a bug that breaks right-click paste in chats in the Microsoft Teams desktop client.
+  tags:
+  - Microsoft
+  title: Microsoft Teams right-click paste broken by Edge update bug
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/
+- category: cybersecurity
+  published: '2026-04-18T06:01:00'
+  score: 0.791
+  source: The Hacker News
+  summary: Threat actors are exploiting security flaws in TBK DVR and TP-Link Wi-Fi
+    routers to deploy Mirai-botnet variants on compromised devices, forming a DDoS
+    botnet.
+  tags: []
+  title: Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS
+    Botnet
+  url: https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html
+- category: cybersecurity
   published: '2026-04-17T03:22:00'
   score: 1.234
   source: The Hacker News
@@ -29872,5 +30025,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-17T05:43:46.280059'
-total_articles: 2313
+last_updated: '2026-04-20T05:52:43.149825'
+total_articles: 2325
