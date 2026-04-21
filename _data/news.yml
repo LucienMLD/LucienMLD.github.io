@@ -1,4 +1,170 @@
 articles:
+- category: webdev
+  published: '2026-04-21T02:27:52'
+  score: 0.88
+  source: Ars Technica
+  summary: Problems with the ground system would have "put current GPS military and
+    civilian capabilities at risk."...
+  tags:
+  - Science
+  - Space
+  - global positioning system
+  - GPS
+  - military space
+  title: Pentagon pulls the plug on one of the military's most troubled space programs
+  url: https://arstechnica.com/space/2026/04/pentagon-pulls-the-plug-on-one-of-the-militarys-most-troubled-space-programs/
+- category: webdev
+  published: '2026-04-21T00:40:10'
+  score: 0.868
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: How to Ground a Korean AI Agent in Real Demographics with Synthetic Personas
+  url: https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas
+- category: webdev
+  published: '2026-04-20T22:23:52'
+  score: 0.754
+  source: BleepingComputer
+  summary: State-sponsored North Korean hackers are likely behind the $290 million
+    crypto-heist that impacted the KelpDAO DeFi project on Saturday. [...]...
+  tags:
+  - Security
+  title: KelpDAO suffers $290 million heist tied to Lazarus hackers
+  url: https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/
+- category: webdev
+  published: '2026-04-20T21:52:54'
+  score: 0.751
+  source: BleepingComputer
+  summary: A set of 26 malicious apps on Apple App Store impersonate popular wallets,
+    such as Metamask, Coinbase, Trust Wallet, and OneKey, to steal recovery or seed
+    phrases and drain them of cryptocurrency asse...
+  tags:
+  - Security
+  - Apple
+  - CryptoCurrency
+  - Mobile
+  title: China's Apple App Store infiltrated by crypto-stealing wallet apps
+  url: https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/
+- category: cybersecurity
+  published: '2026-04-20T20:02:37'
+  score: 1.031
+  source: BleepingComputer
+  summary: A SystemBC proxy malware botnet of more than 1,570 hosts, believed to be
+    corporate victims, has been discovered following an investigation into a Gentlemen
+    ransomware attack carried out by a gang affi...
+  tags:
+  - Security
+  title: The Gentlemen ransomware now uses SystemBC for bot-powered attacks
+  url: https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/
+- category: ai
+  published: '2026-04-20T19:38:10'
+  score: 0.899
+  source: AWS Machine Learning
+  summary: Today, we are thrilled to announce the availability of G7e instances powered
+    by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs on Amazon SageMaker AI. You
+    can provision nodes with 1, 2, 4, and 8 RT...
+  tags:
+  - Amazon SageMaker
+  - Amazon SageMaker AI
+  - Artificial Intelligence
+  - Technical How-to
+  - AI/ML
+  title: Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances
+  url: https://aws.amazon.com/blogs/machine-learning/accelerate-generative-ai-inference-on-amazon-sagemaker-ai-with-g7e-instances/
+- category: cybersecurity
+  published: '2026-04-20T17:14:00'
+  score: 1.058
+  source: The Hacker News
+  summary: A critical security vulnerability has been disclosed in SGLang that, if
+    successfully exploited, could result in remote code execution on susceptible systems.
+    The vulnerability, tracked as CVE-2026-576...
+  tags: []
+  title: SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files
+  url: https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html
+- category: ai
+  published: '2026-04-20T17:06:26'
+  score: 0.881
+  source: AWS Machine Learning
+  summary: You can use ToolSimulator, an&nbsp;LLM-powered tool simulation framework
+    within Strands Evals, to thoroughly and safely test AI agents that rely on external
+    tools, at scale. Instead of risking live AP...
+  tags:
+  - Artificial Intelligence
+  - Strands Agents
+  title: 'ToolSimulator: scalable tool testing for AI agents'
+  url: https://aws.amazon.com/blogs/machine-learning/toolsimulator-scalable-tool-testing-for-ai-agents/
+- category: webdev
+  published: '2026-04-20T15:03:28'
+  score: 0.748
+  source: AWS Machine Learning
+  summary: In this post, we'll show you how to build a complete omnichannel ordering
+    system using Amazon Bedrock AgentCore, an agentic platform, to build, deploy,
+    and operate highly effective AI agents securely ...
+  tags:
+  - Amazon API Gateway
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon Cognito
+  - Amazon DynamoDB
+  title: Omnichannel ordering with Amazon Bedrock AgentCore and Amazon Nova 2 Sonic
+  url: https://aws.amazon.com/blogs/machine-learning/omnichannel-ordering-with-amazon-bedrock-agentcore-and-amazon-nova-2-sonic/
+- category: ai
+  published: '2026-04-20T14:21:40'
+  score: 0.862
+  source: Ars Technica
+  summary: Cyberdefenses could be exposed faster than fixes could be deployed....
+  tags:
+  - AI
+  - AI security
+  - Anthropic
+  - cybersecurity
+  - Mythos
+  title: Anthropic's Mythos AI model sparks fears of turbocharged hacking
+  url: https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/
+- category: ai
+  published: '2026-04-20T13:30:00'
+  score: 0.812
+  source: Towards Data Science
+  summary: Why it tickles your brain to use an LLM, and what that means for the AI
+    industry The post The LLM Gamble appeared first on Towards Data Science....
+  tags:
+  - Artificial Intelligence
+  - Business
+  - Editors Pick
+  - Generative Ai
+  - Llm
+  title: The LLM Gamble
+  url: https://towardsdatascience.com/the-llm-gamble/
+- category: cybersecurity
+  published: '2026-04-20T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: CISA has added eight new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation.&nbsp; CVE-2023-27351
+    PaperCut NG/MF Improper Authentication Vul...
+  tags: []
+  title: CISA Adds Eight Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-04-20T12:00:00'
+  score: 1.019
+  source: CISA
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) is releasing
+    this alert to provide guidance in response to the software supply chain compromise
+    of the Axios node package manager (npm).1 Ax...
+  tags: []
+  title: ​​Supply Chain Compromise Impacts Axios Node Package Manager​
+  url: https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager
+- category: cybersecurity
+  published: '2026-04-20T10:42:00'
+  score: 0.961
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a critical "by design" weakness
+    in the Model Context Protocol's (MCP) architecture that could pave the way for
+    remote code execution and have a cascading effe...
+  tags: []
+  title: Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain
+  url: https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html
 - category: cybersecurity
   published: '2026-04-20T03:35:00'
   score: 1.187
@@ -10,6 +176,16 @@ articles:
   tags: []
   title: Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials
   url: https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html
+- category: ai
+  published: '2026-04-20T00:00:00'
+  score: 0.758
+  source: OpenAI
+  summary: Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4
+    and Codex to improve productivity, operations, and guest experiences....
+  tags:
+  - Global Affairs
+  title: OpenAI helps Hyatt advance AI among colleagues
+  url: https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise
 - category: webdev
   published: '2026-04-19T18:19:19'
   score: 0.728
@@ -30025,5 +30201,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-20T05:52:43.149825'
-total_articles: 2325
+last_updated: '2026-04-21T05:43:38.836252'
+total_articles: 2340
