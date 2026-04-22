@@ -1,5 +1,192 @@
 articles:
 - category: webdev
+  published: '2026-04-21T21:57:54'
+  score: 0.751
+  source: Ars Technica
+  summary: The proposed Pentagon drone investment rivals Ukraine’s entire military
+    budget....
+  tags:
+  - AI
+  - autonomous weapons
+  - drones
+  - Military
+  - military AI
+  title: Pentagon wants $54B for drones, more than most nations’ military budgets
+  url: https://arstechnica.com/ai/2026/04/pentagon-wants-54b-for-drones-more-than-most-nations-military-budgets/
+- category: ai
+  published: '2026-04-21T21:40:41'
+  score: 0.913
+  source: Ars Technica
+  summary: CTO says new AI model is "every bit as capable" as world's best security
+    researchers....
+  tags:
+  - AI
+  - Security
+  - Anthropic
+  - firefox
+  - Mozilla
+  title: 'Mozilla: Anthropic''s Mythos found 271 security vulnerabilities in Firefox
+    150'
+  url: https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/
+- category: webdev
+  published: '2026-04-21T21:28:27'
+  score: 0.748
+  source: Ars Technica
+  summary: FCC tells Supreme Court its fines are nonbinding unless a jury upholds
+    penalty....
+  tags:
+  - Policy
+  - FCC
+  title: Supreme Court arguments make it clear that FCC fines are "nonbinding"
+  url: https://arstechnica.com/tech-policy/2026/04/supreme-court-arguments-make-it-clear-that-fcc-fines-are-nonbinding/
+- category: webdev
+  published: '2026-04-21T20:22:20'
+  score: 0.782
+  source: Ars Technica
+  summary: '"We actually have slightly more Linux users than Windows users."...'
+  tags:
+  - Tech
+  - framework
+  - framework laptop
+  - framework laptop 13
+  - framework laptop 13 pro
+  title: Framework's CEO on the RAM crisis and creating a "MacBook Pro for Linux users"
+  url: https://arstechnica.com/gadgets/2026/04/frameworks-ceo-on-the-ram-crisis-and-creating-a-macbook-pro-for-linux-users/
+- category: ai
+  published: '2026-04-21T20:01:36'
+  score: 0.945
+  source: Ars Technica
+  summary: Can ChatGPT be blamed for a mass shooting? Florida is investigating....
+  tags:
+  - AI
+  - Policy
+  - chatbot
+  - ChatGPT
+  - Florida
+  title: Florida probes ChatGPT role in mass shooting. OpenAI says bot "not responsible."
+  url: https://arstechnica.com/tech-policy/2026/04/florida-probes-chatgpt-role-in-mass-shooting-openai-says-bot-not-responsible/
+- category: ai
+  published: '2026-04-21T19:13:49'
+  score: 0.896
+  source: AWS Machine Learning
+  summary: Today, we're excited to announce Claude Cowork in Amazon Bedrock. You can
+    now run Cowork and Claude Code Desktop through Amazon Bedrock, directly or using
+    an LLM gateway. In this post, we walk through...
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Generative AI
+  title: 'From developer desks to the whole organization: Running Claude Cowork in
+    Amazon Bedrock'
+  url: https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/
+- category: webdev
+  published: '2026-04-21T18:15:15'
+  score: 0.768
+  source: Ars Technica
+  summary: Laptop includes Core Ultra Series 3 CPUs, a bigger battery, and a touchscreen....
+  tags:
+  - Tech
+  - framework
+  - framework laptop
+  - framework laptop 13
+  - framework laptop 13 pro
+  title: Framework Laptop 13 Pro is a major overhaul for the modular, upgradeable
+    laptop
+  url: https://arstechnica.com/gadgets/2026/04/framework-laptop-13-pro-is-the-first-major-revision-to-the-original-framework-laptop/
+- category: webdev
+  published: '2026-04-21T18:15:03'
+  score: 0.768
+  source: Ars Technica
+  summary: A lower-end Ryzen AI 340 CPU option will also bring the price down, for
+    now....
+  tags:
+  - Gaming
+  - Tech
+  - framework
+  - framework laptop
+  - framework laptop 16
+  title: Framework Laptop 16 upgrades make it look less like an unfinished prototype
+  url: https://arstechnica.com/gadgets/2026/04/framework-laptop-16-upgrades-make-it-look-less-like-an-unfinished-prototype/
+- category: ai
+  published: '2026-04-21T17:00:04'
+  score: 0.88
+  source: Ars Technica
+  summary: Anthropic secures 5 gigawatts of Amazon’s custom silicon as Claude demand
+    soars....
+  tags:
+  - AI
+  - Amazon
+  - Amazon Web Services
+  - Anthropic
+  - Anthropic Claude
+  title: Anthropic gets $5B investment from Amazon, will use it to buy Amazon chips
+  url: https://arstechnica.com/ai/2026/04/anthropic-gets-5b-investment-from-amazon-will-use-it-to-buy-amazon-chips/
+- category: ai
+  published: '2026-04-21T13:30:00'
+  score: 0.812
+  source: Towards Data Science
+  summary: The hidden cost of probabilistic outputs in systems that demand reliability
+    The post I Replaced GPT-4 with a Local SLM and My CI/CD Pipeline Stopped Failing
+    appeared first on Towards Data Science....
+  tags:
+  - Large Language Models
+  - Machine Learning
+  - Artificial Intelligence
+  - Deep Dives
+  - Document Processing
+  title: I Replaced GPT-4 with a Local SLM and My CI/CD Pipeline Stopped Failing
+  url: https://towardsdatascience.com/i-replaced-gpt-4-with-a-local-slm-and-my-ci-cd-pipeline-stopped-failing/
+- category: cybersecurity
+  published: '2026-04-21T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow an attacker to execute arbitrary code, cause a denial-of-service, or configuration
+    information may be altered without aut...
+  tags: []
+  title: Silex Technology SD-330AC and AMC Manager
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-10
+- category: cybersecurity
+  published: '2026-04-21T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: View CSAF Summary RUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P)
+    contains a vulnerability that could allow an attacker to escalate their own privileges.
+    Siemens has released a new version fo...
+  tags: []
+  title: Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-02
+- category: cybersecurity
+  published: '2026-04-21T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: View CSAF Summary The products listed below contain a vulnerability that
+    could allow an attacker to perform an out-of-bound read, potentially leading to
+    information disclosure or denial of service of ...
+  tags: []
+  title: Siemens TPM 2.0
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-01
+- category: cybersecurity
+  published: '2026-04-21T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: 'View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow an attacker to take complete control of the device. The following versions
+    of SenseLive X3050 are affected: X3050 V1.523 ...'
+  tags: []
+  title: SenseLive X3050
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12
+- category: cybersecurity
+  published: '2026-04-21T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: View CSAF Summary Multiple Siemens applications are affected by improper
+    certificate validation in Siemens Analytics Toolkit. This could allow an unauthenticated
+    remote attacker to perform man in the ...
+  tags: []
+  title: Siemens Analytics Toolkit
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-04
+- category: webdev
   published: '2026-04-21T02:27:52'
   score: 0.88
   source: Ars Technica
@@ -30201,5 +30388,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-21T05:43:38.836252'
-total_articles: 2340
+last_updated: '2026-04-22T05:43:46.326905'
+total_articles: 2355
