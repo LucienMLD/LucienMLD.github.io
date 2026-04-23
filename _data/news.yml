@@ -1,4 +1,180 @@
 articles:
+- category: cybersecurity
+  published: '2026-04-23T12:00:00'
+  score: 1.155
+  source: NCSC UK
+  summary: Passkeys are the more secure and user-friendly login method and should
+    be the default authentication option for consumers....
+  tags: []
+  title: 'NCSC: Leave passwords in the past - passkeys are the future'
+  url: https://www.ncsc.gov.uk/news/ncsc-leave-passwords-in-the-past-passkeys-are-the-future
+- category: webdev
+  published: '2026-04-23T12:00:00'
+  score: 0.939
+  source: NCSC UK
+  summary: Passkeys and other FIDO2 credentials offer a more usable, secure replacement
+    for passwords and are already supported by most modern devices....
+  tags: []
+  title: Passkeys are more secure than traditional ways to log in
+  url: https://www.ncsc.gov.uk/blogs/passkeys-are-more-secure-than-traditional-ways-to-log-in
+- category: webdev
+  published: '2026-04-22T21:16:05'
+  score: 0.747
+  source: Ars Technica
+  summary: Car sales are up, battery sales and emissions credits are down....
+  tags:
+  - Cars
+  - Tesla earnings
+  title: 'Tesla reports Q1 2026 earnings: Still profitable'
+  url: https://arstechnica.com/cars/2026/04/tesla-reports-q1-2026-earnings-still-profitable/
+- category: webdev
+  published: '2026-04-22T21:05:01'
+  score: 0.746
+  source: AWS Machine Learning
+  summary: In this post, we walk through building a scalable, event-driven transcription
+    pipeline that automatically processes audio files uploaded to Amazon Simple Storage
+    Service (Amazon S3), and show you how ...
+  tags:
+  - AWS Batch
+  - Compute
+  - High Performance Computing
+  - Technical How-to
+  title: Cost-effective multilingual audio transcription at scale with Parakeet-TDT
+    and AWS Batch
+  url: https://aws.amazon.com/blogs/machine-learning/cost-effective-multilingual-audio-transcription-at-scale-with-parakeet-tdt-and-aws-batch/
+- category: ai
+  published: '2026-04-22T20:40:59'
+  score: 0.862
+  source: Ars Technica
+  summary: How Ars Technica uses, and doesn't use, generative AI....
+  tags:
+  - Staff
+  - AI
+  - Site policy
+  title: Our newsroom AI policy
+  url: https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/
+- category: webdev
+  published: '2026-04-22T20:27:24'
+  score: 0.742
+  source: Ars Technica
+  summary: Lawsuit demands Nintendo pass Trump tariff refunds on to its customers....
+  tags:
+  - Gaming
+  - Policy
+  - Nintendo
+  - tariffs
+  title: 'Lawsuit: Nintendo is getting tariff refunds—its customers should get them
+    instead'
+  url: https://arstechnica.com/tech-policy/2026/04/lawsuit-nintendo-is-getting-tariff-refunds-its-customers-should-get-them-instead/
+- category: cybersecurity
+  published: '2026-04-22T20:04:46'
+  score: 1.079
+  source: BleepingComputer
+  summary: A new Mirai-based malware campaign is actively exploiting CVE-2025-29635,
+    a high-severity command-injection vulnerability affecting D-Link DIR-823X routers,
+    to enlist devices into the botnet. [...]...
+  tags:
+  - Security
+  - Hardware
+  title: New Mirai campaign exploits RCE flaw in EoL D-Link routers
+  url: https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/
+- category: ai
+  published: '2026-04-22T19:15:08'
+  score: 0.852
+  source: AWS Machine Learning
+  summary: Today, Amazon SageMaker AI&nbsp; supports optimized generative AI inference
+    recommendations. By delivering validated, optimal deployment configurations with
+    performance metrics, Amazon SageMaker AI ke...
+  tags:
+  - Amazon SageMaker
+  - Amazon SageMaker AI
+  - Generative AI
+  title: Amazon SageMaker AI now supports optimized generative AI inference recommendations
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-supports-optimized-generative-ai-inference-recommendations/
+- category: cybersecurity
+  published: '2026-04-22T18:52:29'
+  score: 1.022
+  source: BleepingComputer
+  summary: A new Kyber ransomware operation is targeting Windows systems and VMware
+    ESXi endpoints in recent attacks, with one variant implementing Kyber1024 post-quantum
+    encryption. [...]...
+  tags:
+  - Security
+  title: Kyber ransomware gang toys with post-quantum encryption on Windows
+  url: https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/
+- category: ai
+  published: '2026-04-22T18:34:16'
+  score: 0.891
+  source: Ars Technica
+  summary: Untenable demand has Anthropic exploring new approaches to rationing its
+    service....
+  tags:
+  - AI
+  - agentic AI
+  - Anthropic
+  - Claude
+  - Claude Code
+  title: Anthropic tested removing Claude Code from the Pro plan
+  url: https://arstechnica.com/ai/2026/04/anthropic-tested-removing-claude-code-from-the-pro-plan/
+- category: ai
+  published: '2026-04-22T15:00:00'
+  score: 0.911
+  source: OpenAI
+  summary: OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians,
+    nurse practitioners, and pharmacists, supporting clinical care, documentation,
+    and research....
+  tags:
+  - Product
+  title: Making ChatGPT better for clinicians
+  url: https://openai.com/index/making-chatgpt-better-for-clinicians
+- category: ai
+  published: '2026-04-22T15:00:00'
+  score: 0.867
+  source: Towards Data Science
+  summary: How I turned LLM persona interviews into a repeatable customer research
+    workflow The post From Ad Hoc Prompting to Repeatable AI Workflows with Claude
+    Code Skills appeared first on Towards Data Scienc...
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - Artificial Intelligence
+  - Claude Code
+  - claude skills
+  title: From Ad Hoc Prompting to Repeatable AI Workflows with Claude Code Skills
+  url: https://towardsdatascience.com/from-ad-hoc-prompting-to-repeatable-ai-workflows-with-claude-code-skills/
+- category: webdev
+  published: '2026-04-22T14:01:11'
+  score: 0.742
+  source: BleepingComputer
+  summary: Fraud operations now operate like call centers, complete with hiring, training,
+    and performance tracking. Flare reveals how cybercriminals manage "Caller-as-a-Service"
+    operations like a professional s...
+  tags:
+  - Security
+  title: 'Inside Caller-as-a-Service Fraud: The Scam Economy Has a Hiring Process'
+  url: https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/
+- category: cybersecurity
+  published: '2026-04-22T12:00:00'
+  score: 1.019
+  source: CISA
+  summary: CISA has added one new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2026-33825 Microsoft
+    Defender Insufficient Granularity of Acces...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2026-04-22T06:53:02'
+  score: 1.028
+  source: BleepingComputer
+  summary: Over 1,300 Microsoft SharePoint servers exposed online remain unpatched
+    against a spoofing vulnerability that was exploited as a zero-day and is still
+    being abused in ongoing attacks. [...]...
+  tags:
+  - Security
+  - Microsoft
+  title: Over 1,300 Microsoft SharePoint servers vulnerable to spoofing attacks
+  url: https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/
 - category: webdev
   published: '2026-04-21T21:57:54'
   score: 0.751
@@ -30388,5 +30564,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-22T05:43:46.326905'
-total_articles: 2355
+last_updated: '2026-04-23T05:45:27.814219'
+total_articles: 2370
