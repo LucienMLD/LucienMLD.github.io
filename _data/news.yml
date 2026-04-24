@@ -1,4 +1,143 @@
 articles:
+- category: webdev
+  published: '2026-04-23T22:14:16'
+  score: 0.753
+  source: Ars Technica
+  summary: Can you wear white after Labor Day if your destination is Earth orbit?...
+  tags:
+  - Space
+  - astronaut flight suit
+  - commercial space station
+  - flight badge
+  - Haven
+  title: Visitors to this private space station won't be wearing shorts and T-shirts
+  url: https://arstechnica.com/space/2026/04/vast-reveals-flight-suit-tests-timepiece-for-commercial-space-station/
+- category: webdev
+  published: '2026-04-23T21:45:10'
+  score: 0.75
+  source: Ars Technica
+  summary: Trump-Xi summit may be rocked by US mulling huge sanctions....
+  tags:
+  - AI
+  - Policy
+  - ai theft
+  - Anthropic
+  - china
+  title: US accuses China of “industrial-scale” AI theft. China says it’s “slander.”
+  url: https://arstechnica.com/tech-policy/2026/04/us-accuses-china-of-industrial-scale-ai-theft-china-says-its-slander/
+- category: webdev
+  published: '2026-04-23T21:22:09'
+  score: 0.747
+  source: Ars Technica
+  summary: While this material degrades over time, it could point to better ones....
+  tags:
+  - Science
+  - carbon nanotubes
+  - chemistry
+  - conductivity
+  - doping
+  title: Carbon nanotube wiring gets closer to competing with copper
+  url: https://arstechnica.com/science/2026/04/researchers-get-carbon-nanotube-wiring-to-conduct-more-like-copper/
+- category: webdev
+  published: '2026-04-23T20:57:35'
+  score: 0.745
+  source: Ars Technica
+  summary: Such experiments bring "order to the universe, whether or not the number
+    agrees with the expected value.”...
+  tags:
+  - Science
+  - Big G
+  - fundamental constants
+  - gravitational constant
+  - Physics
+  title: We still don't have a more precise value for "Big G"
+  url: https://arstechnica.com/science/2026/04/we-still-dont-have-a-more-precise-value-for-big-g/
+- category: ai
+  published: '2026-04-23T16:30:00'
+  score: 0.833
+  source: Towards Data Science
+  summary: A practical pipeline for classifying messy free-text data into meaningful
+    categories using a locally hosted LLM, no labeled training data required. The
+    post Using a Local LLM as a Zero-Shot Classifier...
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Data Analysis
+  - Data Engineering
+  - Llm Applications
+  title: Using a Local LLM as a Zero-Shot Classifier
+  url: https://towardsdatascience.com/using-a-local-llm-as-a-zero-shot-classifier/
+- category: ai
+  published: '2026-04-23T14:51:16'
+  score: 0.821
+  source: Ars Technica
+  summary: Plants from OpenAI, Meta, xAI, and Microsoft could emit more than 129M
+    tons annually....
+  tags:
+  - AI
+  title: Greenhouse gases from data center boom could outpace entire nations
+  url: https://arstechnica.com/ai/2026/04/greenhouse-gases-from-data-center-boom-could-outpace-entire-nations/
+- category: webdev
+  published: '2026-04-23T12:57:21'
+  score: 0.775
+  source: A List Apart
+  summary: I want to discuss accessibility because it is the most important thing
+    for making websites. Other A List Apart articles give you innovation and insight.
+    This article will give you homework. These are ...
+  tags:
+  - Accessibility, Community, User Experience, User Research, Workflow &amp; Tools
+  title: 'Good designers, bad websites: a proposal'
+  url: https://alistapart.com/article/good-designers-bad-websites-a-proposal/
+- category: cybersecurity
+  published: '2026-04-23T12:00:00'
+  score: 1.066
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could enable
+    a remote attacker to alter critical system functions or disrupt device operation.
+    The following versions of Carlson Softwar...
+  tags: []
+  title: Carlson Software VASCO-B GNSS Receiver
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02
+- category: cybersecurity
+  published: '2026-04-23T12:00:00'
+  score: 1.066
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to bypass authentication and have remote access to sensitive information
+    on the device. The following versions o...
+  tags: []
+  title: Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-05
+- category: cybersecurity
+  published: '2026-04-23T12:00:00'
+  score: 1.066
+  source: CISA
+  summary: Malware Analysis Report at a Glance Malware Name FIRESTARTER Original Publication
+    April 23, 2026 Executive Summary The Cybersecurity and Infrastructure Security
+    Agency (CISA) analyzed a sample of FIRE...
+  tags: []
+  title: FIRESTARTER Backdoor
+  url: https://www.cisa.gov/news-events/analysis-reports/ar26-113a
+- category: cybersecurity
+  published: '2026-04-23T12:00:00'
+  score: 1.066
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could result
+    in an attacker being able to unlock and start the bicycle, leading to vehicle
+    theft. The following versions of Yadea T5 Ele...
+  tags: []
+  title: Yadea T5 Electric Bicycle
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01
+- category: cybersecurity
+  published: '2026-04-23T12:00:00'
+  score: 1.066
+  source: CISA
+  summary: Defending against china-nexus covert networks of compromised devices executive
+    summary Defending against China-nexus covert networks of compromised devices&nbsp;
+    Explaining the widespread shift in tac...
+  tags: []
+  title: Defending Against China-Nexus Covert Networks of Compromised Devices
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a
 - category: cybersecurity
   published: '2026-04-23T12:00:00'
   score: 1.155
@@ -17,6 +156,35 @@ articles:
   tags: []
   title: Passkeys are more secure than traditional ways to log in
   url: https://www.ncsc.gov.uk/blogs/passkeys-are-more-secure-than-traditional-ways-to-log-in
+- category: ai
+  published: '2026-04-23T11:30:00'
+  score: 0.842
+  source: The Hacker News
+  summary: Last week, Anthropic announced Project Glasswing, an AI model so effective
+    at discovering software vulnerabilities that they took the extraordinary step
+    of postponing its public release. Instead, the ...
+  tags: []
+  title: Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?
+  url: https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html
+- category: ai
+  published: '2026-04-23T11:00:00'
+  score: 0.795
+  source: OpenAI
+  summary: Introducing GPT-5.5, our smartest model yet—faster, more capable, and built
+    for complex tasks like coding, research, and data analysis across tools....
+  tags:
+  - Product
+  title: Introducing GPT-5.5
+  url: https://openai.com/index/introducing-gpt-5-5
+- category: ai
+  published: '2026-04-23T11:00:00'
+  score: 0.795
+  source: OpenAI
+  summary: '...'
+  tags:
+  - Safety
+  title: GPT-5.5 System Card
+  url: https://openai.com/index/gpt-5-5-system-card
 - category: webdev
   published: '2026-04-22T21:16:05'
   score: 0.747
@@ -30564,5 +30732,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-23T05:45:27.814219'
-total_articles: 2370
+last_updated: '2026-04-24T05:48:14.405017'
+total_articles: 2385
