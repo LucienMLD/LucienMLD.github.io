@@ -1,5 +1,186 @@
 articles:
 - category: webdev
+  published: '2026-04-28T00:28:13'
+  score: 0.865
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: Adaptive Ultrasound Imaging with Physics-Informed NV-Raw2Insights-US AI
+  url: https://huggingface.co/blog/nvidia/raw2insights-adaptive-ultrasound-imaging
+- category: webdev
+  published: '2026-04-28T00:14:09'
+  score: 0.864
+  source: Ars Technica
+  summary: SpaceX and Blue Origin tell NASA their lunar landers will be ready for
+    Artemis III in late 2027....
+  tags:
+  - Science
+  - Space
+  - artemis
+  - artemis iii
+  - blue moon
+  title: 'Put it in pencil: NASA''s Artemis III mission will launch no earlier than
+    late 2027'
+  url: https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/
+- category: cybersecurity
+  published: '2026-04-27T23:11:01'
+  score: 1.005
+  source: BleepingComputer
+  summary: Online trading platform Robinhood's account creation process was exploited
+    by threat actors to inject phishing messages into legitimate emails, tricking
+    users into believing their accounts had suspici...
+  tags:
+  - Security
+  title: Robinhood account creation flaw abused to send phishing emails
+  url: https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/
+- category: cybersecurity
+  published: '2026-04-27T21:41:01'
+  score: 0.993
+  source: BleepingComputer
+  summary: A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem
+    with 73 "sleeper" extensions that turn malicious after an update. [...]...
+  tags:
+  - Security
+  title: GlassWorm malware attacks return via 73 OpenVSX "sleeper" extensions
+  url: https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/
+- category: webdev
+  published: '2026-04-27T21:04:03'
+  score: 0.744
+  source: Ars Technica
+  summary: If you're one of millions using element-data, it's time to check for compromise....
+  tags:
+  - Biz & IT
+  - Security
+  - GitHub
+  - Open source software
+  title: Open source package with 1 million monthly downloads stole user credentials
+  url: https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/
+- category: ai
+  published: '2026-04-27T20:45:18'
+  score: 0.86
+  source: Ars Technica
+  summary: Musk’s shifting stance on AI dangers may complicate trial over OpenAI’s
+    mission....
+  tags:
+  - AI
+  - Policy
+  - Artificial Intelligence
+  - Elon Musk
+  - generative ai
+  title: Musk and Altman face off in trial that will determine OpenAI's future
+  url: https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/
+- category: ai
+  published: '2026-04-27T20:10:11'
+  score: 0.9
+  source: Ars Technica
+  summary: Amended agreement clears the way for OpenAI models to run on Amazon Bedrock....
+  tags:
+  - AI
+  - agreement
+  - Amazon
+  - azure
+  - bedrock
+  title: OpenAI ends its exclusive partnership with Microsoft
+  url: https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/
+- category: ai
+  published: '2026-04-27T20:03:49'
+  score: 0.856
+  source: Ars Technica
+  summary: Gemini gets preferential treatment on Android, but maybe not for long (in
+    Europe)....
+  tags:
+  - AI
+  - Google
+  - Artificial Intelligence
+  - Digital Markets Act
+  - europe
+  title: EU tells Google to open up AI on Android; Google says that's "unwarranted
+    intervention"
+  url: https://arstechnica.com/ai/2026/04/europe-could-force-google-to-open-android-to-other-ai-assistants/
+- category: webdev
+  published: '2026-04-27T17:51:41'
+  score: 0.764
+  source: AWS Machine Learning
+  summary: In this post, we explore an automated solution that detects S3 events and
+    triggers ingestion jobs while respecting service quotas and providing comprehensive
+    monitoring. This serverless solution uses ...
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Knowledge Bases
+  - Customer Solutions
+  - Generative AI
+  - Industries
+  title: Build and deploy an automatic sync solution for Amazon Bedrock Knowledge
+    Bases
+  url: https://aws.amazon.com/blogs/machine-learning/build-and-deploy-an-automatic-sync-solution-for-amazon-bedrock-knowledge-bases/
+- category: ai
+  published: '2026-04-27T16:45:37'
+  score: 0.965
+  source: AWS Machine Learning
+  summary: In this post, we share how we applied Amazon Bedrock and the Amazon Nova
+    family of models to reimagine our Title Suggestion feature. By combining metadata,
+    computer vision, and retrieval-augmented gen...
+  tags:
+  - Amazon Bedrock
+  - Amazon Nova
+  - Customer Solutions
+  title: How Popsa used Amazon Nova to inspire customers with personalised title suggestions
+  url: https://aws.amazon.com/blogs/machine-learning/how-popsa-used-amazon-nova-to-inspire-customers-with-personalised-title-suggestions/
+- category: cybersecurity
+  published: '2026-04-27T14:43:11'
+  score: 0.941
+  source: BleepingComputer
+  summary: The ShinyHunters extortion group stole the personal information of 5.5
+    million individuals after breaching the systems of home security giant ADT earlier
+    this month, according to data breach notificat...
+  tags:
+  - Security
+  title: Home security giant ADT data breach affects 5.5 million people
+  url: https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/
+- category: cybersecurity
+  published: '2026-04-27T14:25:35'
+  score: 0.939
+  source: BleepingComputer
+  summary: On Thursday, April 30 at 2:00 PM ET, BleepingComputer will host a live
+    webinar with threat intelligence company Flare and threat intelligence researcher
+    Tammy Harper, exploring how security teams can ...
+  tags:
+  - Security
+  title: 'Webinar: Spotting cyberattacks before they begin'
+  url: https://www.bleepingcomputer.com/news/security/webinar-spotting-cyberattacks-before-they-begin/
+- category: ai
+  published: '2026-04-27T14:00:00'
+  score: 0.902
+  source: OpenAI
+  summary: OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise
+    and the OpenAI API, enabling secure AI adoption for U.S. federal agencies....
+  tags:
+  - Global Affairs
+  title: OpenAI available at FedRAMP Moderate
+  url: https://openai.com/index/openai-available-at-fedramp-moderate
+- category: webdev
+  published: '2026-04-27T13:55:42'
+  score: 0.779
+  source: CSS-Tricks
+  summary: My shim might give the powers that be another reason to say native support
+    isn't necessary, or if lots of people use my :nth-letter hack in the wild, the
+    browser gods might recognize the need to imple...
+  tags:
+  - Articles
+  - pseudo elements
+  title: Let’s Use the Nonexistent ::nth-letter Selector Now
+  url: https://css-tricks.com/using-nonexistent-nth-letter-selector-now/
+- category: cybersecurity
+  published: '2026-04-27T11:54:00'
+  score: 0.968
+  source: The Hacker News
+  summary: A pro-Ukrainian hacktivist group called PhantomCore has been attributed
+    to attacks actively targeting servers running TrueConf video conferencing software
+    in Russia since September 2025. That's accord...
+  tags: []
+  title: PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks
+  url: https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html
+- category: webdev
   published: '2026-04-26T19:52:22'
   score: 0.737
   source: Ars Technica
@@ -30832,5 +31013,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-27T06:00:40.884112'
-total_articles: 2393
+last_updated: '2026-04-28T06:01:20.432871'
+total_articles: 2408
