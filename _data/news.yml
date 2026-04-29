@@ -1,4 +1,140 @@
 articles:
+- category: cybersecurity
+  published: '2026-04-29T05:34:00'
+  score: 1.249
+  source: The Hacker News
+  summary: In yet another instance of threat actors quickly jumping on the exploitation
+    bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python
+    package has come under active exploitation ...
+  tags: []
+  title: LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure
+  url: https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html
+- category: webdev
+  published: '2026-04-28T23:08:02'
+  score: 0.757
+  source: Ars Technica
+  summary: The clown car is all gassed up....
+  tags:
+  - Policy
+  - come
+  - DoJ
+  - Instagram
+  - social media
+  title: Anti-Trump Instagram pic of seashells now enough to indict ex-FBI directors
+  url: https://arstechnica.com/tech-policy/2026/04/anti-trump-instagram-pic-of-seashells-now-enough-to-indict-ex-fbi-directors/
+- category: cybersecurity
+  published: '2026-04-28T21:07:23'
+  score: 1.037
+  source: BleepingComputer
+  summary: Hackers are targeting sensitive information stored in the LiteLLM open-source
+    large-language model (LLM) gateway by exploiting a critical vulnerability tracked
+    as CVE-2026-42208. [...]...
+  tags:
+  - Security
+  title: Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw
+  url: https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/
+- category: webdev
+  published: '2026-04-28T20:15:04'
+  score: 0.739
+  source: Ars Technica
+  summary: When doctors saw him, his limbs were discolored and crackling....
+  tags:
+  - Health
+  - climate change
+  - flesh-eating bacteria
+  - infection
+  - Vibrio vulnificus
+  title: Flesh-eating bacteria devour man's arm and leg in just three days
+  url: https://arstechnica.com/health/2026/04/flesh-eating-bacteria-devour-mans-arm-and-leg-in-just-three-days/
+- category: webdev
+  published: '2026-04-28T19:57:13'
+  score: 0.737
+  source: Ars Technica
+  summary: Kimmel joke calling Melania an "expectant widow" followed quickly by FCC
+    order....
+  tags:
+  - Policy
+  - ABC
+  - Disney
+  - fcc chairman brendan carr
+  - jimmy kimmel
+  title: FCC orders review of ABC licenses after Kimmel joke offends Trump and first
+    lady
+  url: https://arstechnica.com/tech-policy/2026/04/fcc-orders-review-of-abc-licenses-after-kimmel-joke-offends-trump-and-first-lady/
+- category: webdev
+  published: '2026-04-28T19:37:09'
+  score: 0.735
+  source: Ars Technica
+  summary: Civil liberty concerns spur FAA to revise drone no-fly zones near ICE vehicles....
+  tags:
+  - Features
+  - Policy
+  - Tech
+  - civil liberties
+  - customs and border protection
+  title: Drone pilot makes US rescind no-fly zones around unmarked, moving ICE vehicles
+  url: https://arstechnica.com/gadgets/2026/04/no-fly-zones-around-moving-ice-vehicles-this-drone-pilot-fought-back-and-won/
+- category: cybersecurity
+  published: '2026-04-28T18:19:00'
+  score: 1.112
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of a critical security
+    vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow
+    an authenticated user to obtain remote code exe...
+  tags: []
+  title: Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via
+    Single Git Push
+  url: https://thehackernews.com/2026/04/researchers-discover-critical-github.html
+- category: webdev
+  published: '2026-04-28T18:01:36'
+  score: 0.725
+  source: Ars Technica
+  summary: Humanoid robots could load cargo and clean aircraft cabins at Haneda Airport....
+  tags:
+  - AI
+  - airlines
+  - airports
+  - Chinese AI
+  - humanoid robots
+  title: Humanoid robots start sorting luggage in Tokyo airport test amid labor shortage
+  url: https://arstechnica.com/ai/2026/04/japan-airlines-tests-having-robots-instead-of-humans-handle-travelers-luggage/
+- category: cybersecurity
+  published: '2026-04-28T12:00:00'
+  score: 1.065
+  source: CISA
+  summary: 'View CSAF Summary Successful exploitation of this vulnerability could
+    allow an attacker to disclose sensitive information. The following versions of
+    NSA GRASSMARLIN are affected: GRASSMARLIN vers:all/...'
+  tags: []
+  title: NSA GRASSMARLIN
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-118-01
+- category: ai
+  published: '2026-04-28T12:00:00'
+  score: 0.8
+  source: Towards Data Science
+  summary: NaNs don’t crash your training — they quietly destroy it. After losing
+    hours to a silent failure in a ResNet training run, I built a lightweight detector
+    that pinpoints the exact layer and batch where...
+  tags:
+  - Deep Learning
+  - Ai Engineering
+  - Deep Dives
+  - Nan
+  - Neural Networks
+  title: PyTorch NaNs Are Silent Killers — So I Built a 3ms Hook to Catch Them at
+    the Exact Layer
+  url: https://towardsdatascience.com/pytorch-nans-are-silent-killers-i-built-a-3ms-hook-to-catch-them-at-the-exact-layer/
+- category: cybersecurity
+  published: '2026-04-28T11:18:00'
+  score: 1.06
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of a critical security
+    flaw impacting LeRobot, Hugging Face's open-source robotics platform with nearly
+    24,000 GitHub stars, that could be exploited to...
+  tags: []
+  title: Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated
+    RCE
+  url: https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html
 - category: webdev
   published: '2026-04-28T00:28:13'
   score: 0.865
@@ -22,6 +158,26 @@ articles:
   title: 'Put it in pencil: NASA''s Artemis III mission will launch no earlier than
     late 2027'
   url: https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/
+- category: ai
+  published: '2026-04-28T00:00:00'
+  score: 0.756
+  source: OpenAI
+  summary: OpenAI GPT models, Codex, and Managed Agents are now available on AWS,
+    enabling enterprises to build secure AI in their AWS environments....
+  tags:
+  - Product
+  title: OpenAI models, Codex, and Managed Agents come to AWS
+  url: https://openai.com/index/openai-on-aws
+- category: ai
+  published: '2026-04-28T00:00:00'
+  score: 0.756
+  source: OpenAI
+  summary: Learn how OpenAI protects community safety in ChatGPT through model safeguards,
+    misuse detection, policy enforcement, and collaboration with safety experts....
+  tags:
+  - Safety
+  title: Our commitment to community safety
+  url: https://openai.com/index/our-commitment-to-community-safety
 - category: cybersecurity
   published: '2026-04-27T23:11:01'
   score: 1.005
@@ -31013,5 +31169,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-28T06:01:20.432871'
-total_articles: 2408
+last_updated: '2026-04-29T06:00:13.958733'
+total_articles: 2421
