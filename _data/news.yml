@@ -1,5 +1,188 @@
 articles:
 - category: cybersecurity
+  published: '2026-04-29T22:43:44'
+  score: 1.001
+  source: BleepingComputer
+  summary: Multiple official SAP npm packages were compromised in what is believed
+    to be a TeamPCP supply-chain attack to steal credentials and authentication tokens
+    from developers' systems. [...]...
+  tags:
+  - Security
+  title: Official SAP npm packages compromised to steal credentials
+  url: https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/
+- category: webdev
+  published: '2026-04-29T22:13:15'
+  score: 0.751
+  source: BleepingComputer
+  summary: The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress
+    sites, had a backdoor added five years ago that allows injecting arbitrary code
+    into users' sites. [...]...
+  tags:
+  - Security
+  title: Popular WordPress redirect plugin hid dormant backdoor for years
+  url: https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/
+- category: ai
+  published: '2026-04-29T20:00:00'
+  score: 0.899
+  source: OpenAI
+  summary: 'How goblin outputs spread in AI models: timeline, root cause, and fixes
+    behind personality-driven quirks in GPT-5 behavior....'
+  tags:
+  - Publication
+  title: Where the goblins came from
+  url: https://openai.com/index/where-the-goblins-came-from
+- category: webdev
+  published: '2026-04-29T19:31:54'
+  score: 0.734
+  source: AWS Machine Learning
+  summary: In this post, you will learn how to design namespace hierarchies, choose
+    the right retrieval patterns, and implement AWS Identity and Access Management
+    (IAM)-based access control for AgentCore Memory....
+  tags:
+  - Amazon Bedrock AgentCore
+  - Amazon Machine Learning
+  - Artificial Intelligence
+  - Best Practices
+  - Generative AI
+  title: 'Organizing Agents’ memory at scale: Namespace design patterns in AgentCore
+    Memory'
+  url: https://aws.amazon.com/blogs/machine-learning/organizing-agents-memory-at-scale-namespace-design-patterns-in-agentcore-memory/
+- category: ai
+  published: '2026-04-29T19:00:58'
+  score: 0.848
+  source: Ars Technica
+  summary: Directions also include system instructions to act like "you have a vivid
+    inner life."...
+  tags:
+  - AI
+  - Codex
+  - goblin
+  - GPT-5
+  - GPT-5.5
+  title: OpenAI Codex system prompt includes explicit directive to "never talk about
+    goblins"
+  url: https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/
+- category: cybersecurity
+  published: '2026-04-29T16:26:00'
+  score: 1.002
+  source: The Hacker News
+  summary: Cybersecurity researchers are sounding the alarm about a new supply chain
+    attack campaign targeting SAP-related npm Packages with credential-stealing malware.
+    According to reports from Aikido Security...
+  tags: []
+  title: SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain
+    Attack
+  url: https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html
+- category: webdev
+  published: '2026-04-29T16:06:28'
+  score: 0.753
+  source: Ars Technica
+  summary: Framework charges nearly double for the 12GB version of the mobile RTX
+    5070....
+  tags:
+  - Gaming
+  - Tech
+  - framework
+  - framework laptop 16
+  - geforce 5070
+  title: Nvidia fixes the 8GB RAM problem with one of its GPUs—if you can pay for
+    it
+  url: https://arstechnica.com/gadgets/2026/04/nvidia-fixes-the-8gb-ram-problem-with-one-of-its-gpus-if-you-can-pay-for-it/
+- category: webdev
+  published: '2026-04-29T14:58:19'
+  score: 0.746
+  source: CSS-Tricks
+  summary: The contrast() filter function increases or decreases the contrast of an
+    element. contrast() originally handwritten and published with love on CSS-Tricks.
+    You should really get the newsletter as well....
+  tags:
+  - filter
+  title: contrast()
+  url: https://css-tricks.com/almanac/functions/c/contrast/
+- category: webdev
+  published: '2026-04-29T14:57:48'
+  score: 0.746
+  source: CSS-Tricks
+  summary: The contrast-color() function takes a &#60;color&#62; and returns either
+    black or white, whichever is the most contrasting color for that value. contrast-color()
+    originally handwritten and published w...
+  tags:
+  - color
+  title: contrast-color()
+  url: https://css-tricks.com/almanac/functions/c/contrast-color/
+- category: ai
+  published: '2026-04-29T14:43:00'
+  score: 0.951
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered malicious code in an npm package
+    after a malicious package as a dependency to the project by Anthropic's Claude
+    Opus large language model (LLM). The package i...
+  tags: []
+  title: New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs
+  url: https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html
+- category: cybersecurity
+  published: '2026-04-29T12:41:17'
+  score: 1.022
+  source: BleepingComputer
+  summary: In early March, GitHub patched a critical remote code execution vulnerability
+    (CVE-2026-3854) that could have allowed attackers to access millions of private
+    repositories. [...]...
+  tags:
+  - Security
+  title: GitHub fixes RCE flaw that gave access to millions of private repos
+  url: https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/
+- category: ai
+  published: '2026-04-29T12:00:41'
+  score: 0.888
+  source: Ars Technica
+  summary: 'Lawsuits: OpenAI didn''t report ChatGPT user to cops to protect Altman,
+    IPO....'
+  tags:
+  - AI
+  - Policy
+  - AI safety
+  - chatbot
+  - ChatGPT
+  title: Sam Altman is “the face of evil” for not reporting school shooter, says lawyer
+  url: https://arstechnica.com/tech-policy/2026/04/school-shooting-lawsuits-accuse-openai-of-hiding-violent-chatgpt-users/
+- category: cybersecurity
+  published: '2026-04-29T10:29:31'
+  score: 1.053
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered
+    federal agencies to secure their Windows systems against a vulnerability exploited
+    in zero-day attacks. [...]...
+  tags:
+  - Security
+  - Microsoft
+  title: CISA orders feds to patch Windows flaw exploited as zero-day
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/
+- category: ai
+  published: '2026-04-29T10:12:17'
+  score: 0.876
+  source: Schneier on Security
+  summary: 'That&#8217;s a lot. No, it&#8217;s an extraordinary number: Since February,
+    the Firefox team has been working around the clock using frontier AI models to
+    find and fix latent security vulnerabilities ...'
+  tags:
+  - Uncategorized
+  - AI
+  - Firefox
+  - zero-day
+  title: Claude Mythos Has Found 271 Zero-Days in Firefox
+  url: https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html
+- category: cybersecurity
+  published: '2026-04-29T09:37:00'
+  score: 0.999
+  source: The Hacker News
+  summary: cPanel has released security updates to address a security issue impacting
+    various authentication paths that could allow an attacker to obtain access to
+    the control panel software. The problem affects...
+  tags: []
+  title: Critical cPanel Authentication Vulnerability Identified — Update Your Server
+    Immediately
+  url: https://thehackernews.com/2026/04/critical-cpanel-authentication.html
+- category: cybersecurity
   published: '2026-04-29T05:34:00'
   score: 1.249
   source: The Hacker News
@@ -31169,5 +31352,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-29T06:00:13.958733'
-total_articles: 2421
+last_updated: '2026-04-30T06:01:43.729780'
+total_articles: 2436
