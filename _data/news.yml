@@ -1,4 +1,184 @@
 articles:
+- category: webdev
+  published: '2026-04-30T22:09:36'
+  score: 0.751
+  source: Ars Technica
+  summary: Trump lashes out at Cassidy while announcing his new nomination....
+  tags:
+  - Health
+  - Casey Means
+  - Nicole Saphier
+  - robert f kennedy jr
+  - Surgeon General
+  title: Trump nominates Fox News doctor to be the next surgeon general
+  url: https://arstechnica.com/health/2026/04/trump-nominates-fox-news-doctor-to-be-the-next-surgeon-general/
+- category: webdev
+  published: '2026-04-30T21:53:48'
+  score: 0.749
+  source: Ars Technica
+  summary: '"In 25 years, the average score... has never been so low."...'
+  tags:
+  - Policy
+  - autocracy
+  - press freedom
+  - repression
+  title: US falls below Ukraine in press freedom as global autocracy takes hold
+  url: https://arstechnica.com/tech-policy/2026/04/us-falls-below-ukraine-in-press-freedom-as-global-autocracy-takes-hold/
+- category: ai
+  published: '2026-04-30T21:11:51'
+  score: 0.863
+  source: Ars Technica
+  summary: Elon Musk spent three days testifying as the first witness in his trial
+    against OpenAI....
+  tags:
+  - AI
+  - Policy
+  - artificial general intelligence
+  - Elon Musk
+  - openai
+  title: Elon Musk's 7 biggest stumbles on the stand at OpenAI trial
+  url: https://arstechnica.com/tech-policy/2026/04/elon-musks-7-biggest-stumbles-on-the-stand-at-openai-trial/
+- category: ai
+  published: '2026-04-30T20:07:25'
+  score: 0.856
+  source: AWS Machine Learning
+  summary: In this post, we take a deeper look at how RLAIF or RL with LLM-as-a-judge
+    works with Amazon Nova models effectively....
+  tags:
+  - Advanced (300)
+  - Amazon Nova
+  - Amazon SageMaker AI
+  - Technical How-to
+  title: Reinforcement fine-tuning with LLM-as-a-judge
+  url: https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-with-llm-as-a-judge/
+- category: ai
+  published: '2026-04-30T17:04:41'
+  score: 0.923
+  source: AWS Machine Learning
+  summary: In this post, we introduce a systematic framework for LLM migration or
+    upgrade in generative AI production, encompassing essential tools, methodologies,
+    and best practices. The framework facilitates t...
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Prompt Management
+  - Amazon Machine Learning
+  - Best Practices
+  - Technical How-to
+  title: 'AWS Generative AI Model Agility Solution: A comprehensive guide to migrating
+    LLMs for generative AI production'
+  url: https://aws.amazon.com/blogs/machine-learning/aws-generative-ai-model-agility-solution-a-comprehensive-guide-to-migrating-llms-for-generative-ai-production/
+- category: ai
+  published: '2026-04-30T17:00:45'
+  score: 0.922
+  source: AWS Machine Learning
+  summary: In this post, we show how Sun Finance used Amazon Bedrock, Amazon Textract,
+    and Amazon Rekognition to build an AI-powered identity verification (IDV) pipeline.
+    The solution improved extraction accurac...
+  tags:
+  - Amazon API Gateway
+  - Amazon Bedrock
+  - Amazon Cognito
+  - Amazon Rekognition
+  - Amazon Textract
+  title: Sun Finance automates ID extraction and fraud detection with generative AI
+    on AWS
+  url: https://aws.amazon.com/blogs/machine-learning/sun-finance-automates-id-extraction-and-fraud-detection-with-generative-ai-on-aws/
+- category: webdev
+  published: '2026-04-30T16:32:43'
+  score: 0.796
+  source: AWS Machine Learning
+  summary: In this post, you will configure Amazon Bedrock AgentCore Gateway to access
+    private endpoints using Resource Gateway, a managed construct that provisions
+    Elastic Network Interfaces (ENIs) directly ins...
+  tags:
+  - Amazon Bedrock AgentCore
+  - Announcements
+  title: Configuring Amazon Bedrock AgentCore Gateway for secure access to private
+    resources
+  url: https://aws.amazon.com/blogs/machine-learning/configuring-amazon-bedrock-agentcore-gateway-for-secure-access-to-private-resources/
+- category: webdev
+  published: '2026-04-30T15:26:18'
+  score: 0.749
+  source: CSS-Tricks
+  summary: We're getting new functions for generating random numbers in CSS! But the
+    road to get here has been a long and winding one. The Importance of Native Randomness
+    in CSS originally handwritten and publis...
+  tags:
+  - Articles
+  - CSS functions
+  - random
+  title: The Importance of Native Randomness in CSS
+  url: https://css-tricks.com/the-importance-of-native-randomness-in-css/
+- category: webdev
+  published: '2026-04-30T12:36:00'
+  score: 0.771
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of a stealthy Python-based
+    backdoor framework called DEEP#DOOR that comes with capabilities to establish
+    persistent access and harvest a wide range of ...
+  tags: []
+  title: New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials
+  url: https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html
+- category: ai
+  published: '2026-04-30T12:00:11'
+  score: 0.844
+  source: Machine Learning Mastery
+  summary: TurboQuant has recently been launched by Google as a novel algorithmic
+    suite and library for applying advanced quantization and compression to large
+    language models (LLMs) and vector search engines &m...
+  tags: []
+  title: Effective KV Compression with TurboQuant
+  url: https://machinelearningmastery.com/effective-kv-compression-with-turboquant/
+- category: cybersecurity
+  published: '2026-04-30T12:00:00'
+  score: 1.065
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow an attacker to remotely reboot the device or complete an unauthenticated
+    query to reveal system configuration, including ...
+  tags: []
+  title: ABB AWIN Gateways
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-05
+- category: cybersecurity
+  published: '2026-04-30T12:00:00'
+  score: 1.065
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to bypass user authentication on OPTIMAX installations that make use
+    of the Azure Active Directory Single-Sign O...
+  tags: []
+  title: ABB Ability OPTIMAX
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-04
+- category: cybersecurity
+  published: '2026-04-30T12:00:00'
+  score: 1.065
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to send specially crafted messages to the system node resulting in
+    execution of arbitrary code. The following ve...
+  tags: []
+  title: ABB PCM600
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02
+- category: cybersecurity
+  published: '2026-04-30T12:00:00'
+  score: 1.065
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to send a specially crafted message to the system node allowing the
+    attacker to install and run arbitrary code, ...
+  tags: []
+  title: ABB Edgenius Management Portal
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-03
+- category: cybersecurity
+  published: '2026-04-30T12:00:00'
+  score: 1.065
+  source: CISA
+  summary: CISA has added&nbsp;one&nbsp;new&nbsp;vulnerability&nbsp;to its&nbsp;Known
+    Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.&nbsp;
+    CVE-2026-41940&nbsp;WebPros cPanel &...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog
 - category: cybersecurity
   published: '2026-04-29T22:43:44'
   score: 1.001
@@ -31352,5 +31532,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-04-30T06:01:43.729780'
-total_articles: 2436
+last_updated: '2026-05-01T06:02:42.832962'
+total_articles: 2451
