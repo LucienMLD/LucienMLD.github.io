@@ -1,4 +1,140 @@
 articles:
+- category: cybersecurity
+  published: '2026-05-03T22:16:27'
+  score: 0.998
+  source: BleepingComputer
+  summary: Educational tech giant Instructure has confirmed that data was stolen in
+    a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]...
+  tags:
+  - Security
+  title: Instructure confirms data breach, ShinyHunters claims attack
+  url: https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/
+- category: webdev
+  published: '2026-05-03T18:11:25'
+  score: 0.726
+  source: BleepingComputer
+  summary: Microsoft Defender is detecting legitimate DigiCert root certificates as
+    Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and
+    in some cases, removing certificates from Wind...
+  tags:
+  - Security
+  - Microsoft
+  title: Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha
+  url: https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/
+- category: ai
+  published: '2026-05-03T15:00:00'
+  score: 0.821
+  source: Towards Data Science
+  summary: 'A review of the Cross-Stage Partial Network paper — and a from-scratch
+    PyTorch implementation The post CSPNet Paper Walkthrough: Just Better, No Tradeoffs
+    appeared first on Towards Data Science....'
+  tags:
+  - Deep Learning
+  - Artificial Intelligence
+  - Cnn
+  - Deep Dives
+  - Machine Learning
+  title: 'CSPNet Paper Walkthrough: Just Better, No Tradeoffs'
+  url: https://towardsdatascience.com/cspnet-paper-walkthrough-just-better-no-tradeoff/
+- category: cybersecurity
+  published: '2026-05-03T14:11:21'
+  score: 0.937
+  source: BleepingComputer
+  summary: Cybersecurity researchers have uncovered a large-scale fraud operation
+    that uses Telegram's Mini App feature to run crypto scams, impersonate well-known
+    brands, and distribute Android malware. [...]...
+  tags:
+  - Security
+  title: Telegram Mini Apps abused for crypto scams, Android malware delivery
+  url: https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/
+- category: webdev
+  published: '2026-05-03T13:00:00'
+  score: 0.694
+  source: Towards Data Science
+  summary: 'Why reasoning models dramatically increase token usage, latency, and infrastructure
+    costs in production systems The post Inference Scaling (Test-Time Compute): Why
+    Reasoning Models Raise Your Compute ...'
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Inference
+  - Llm
+  - reasoning models
+  title: 'Inference Scaling (Test-Time Compute): Why Reasoning Models Raise Your Compute
+    Bill'
+  url: https://towardsdatascience.com/inference-scaling-test-time-compute-why-reasoning-models-raise-your-compute-bill/
+- category: cybersecurity
+  published: '2026-05-03T06:26:00'
+  score: 0.975
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday
+    added a recently disclosed security flaw impacting various Linux distributions
+    to its Known Exploited Vulnerabilities (KEV) c...
+  tags: []
+  title: CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV
+  url: https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html
+- category: cybersecurity
+  published: '2026-05-02T21:54:00'
+  score: 0.909
+  source: BleepingComputer
+  summary: A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited
+    to breach websites and encrypt data in "Sorry" ransomware attacks. [...]...
+  tags:
+  - Security
+  title: Critrical cPanel flaw mass-exploited in "Sorry" ransomware attacks
+  url: https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/
+- category: webdev
+  published: '2026-05-02T15:00:00'
+  score: 0.546
+  source: Towards Data Science
+  summary: A practitioner's decision framework for Ridge, Lasso, and ElasticNet based
+    on three quantities you can compute before fitting a model The post Which Regularizer
+    Should You Actually Use? Lessons from 1...
+  tags:
+  - Machine Learning
+  - Data Science
+  - Deep Dives
+  - ML Engineering
+  - Model Optimization
+  title: Which Regularizer Should You Actually Use? Lessons from 134,400 Simulations
+  url: https://towardsdatascience.com/which-regularizer-should-you-actually-use-lessons-from-134400-simulations/
+- category: cybersecurity
+  published: '2026-05-02T14:32:25'
+  score: 0.662
+  source: BleepingComputer
+  summary: A new attack type, dubbed ConsentFix v3, has been circulating on hacker
+    forums, building on the previous technique by adding automation and scaling potential.
+    [...]...
+  tags:
+  - Security
+  title: ConsentFix v3 attacks target Azure with automated OAuth abuse
+  url: https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/
+- category: webdev
+  published: '2026-05-02T14:23:31'
+  score: 0.502
+  source: Ars Technica
+  summary: Crushing soda cans for science, why dolphins swim so fast, how urine helps
+    mushrooms communicate, and more...
+  tags:
+  - Science
+  - research roundup
+  title: 'Research roundup: 6 cool science stories we almost missed'
+  url: https://arstechnica.com/science/2026/05/research-roundup-6-cool-science-stories-we-almost-missed-4/
+- category: webdev
+  published: '2026-05-02T13:00:00'
+  score: 0.494
+  source: Towards Data Science
+  summary: One scale parameter determines accuracy in rotation-based vector quantization.
+    The post How a 2021 Quantization Algorithm Quietly Outperforms Its 2026 Successor
+    appeared first on Towards Data Science....
+  tags:
+  - Deep Learning
+  - Distributed Training
+  - Kv Cache
+  - LLM Optimization
+  - Machine Learning
+  title: How a 2021 Quantization Algorithm Quietly Outperforms Its 2026 Successor
+  url: https://towardsdatascience.com/how-a-2021-quantization-algorithm-quietly-outperforms-its-2026-successor/
 - category: webdev
   published: '2026-04-30T22:09:36'
   score: 0.751
@@ -31532,5 +31668,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-01T06:02:42.832962'
-total_articles: 2451
+last_updated: '2026-05-04T06:01:59.906171'
+total_articles: 2462
