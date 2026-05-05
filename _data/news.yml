@@ -1,5 +1,189 @@
 articles:
 - category: cybersecurity
+  published: '2026-05-04T22:12:57'
+  score: 1.094
+  source: BleepingComputer
+  summary: Hackers have been exploiting a critical vulnerability (CVE-2026-22679)
+    in the Weaver E-cology office automation since mid-March to run discovery commands.
+    [...]...
+  tags:
+  - Security
+  title: Weaver E-cology critical bug exploited in attacks since March
+  url: https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/
+- category: webdev
+  published: '2026-05-04T21:38:37'
+  score: 0.748
+  source: Ars Technica
+  summary: '"To be clear: Notepad++ has never released a macOS version."...'
+  tags:
+  - AI
+  - Tech
+  - Anthropic Claude
+  - MacOS
+  - notepad
+  title: '"Notepad++ for Mac" release is disavowed by the creator of the original'
+  url: https://arstechnica.com/gadgets/2026/05/unofficial-vibe-coded-notepad-for-mac-draws-objections-from-original-author/
+- category: ai
+  published: '2026-05-04T21:00:00'
+  score: 0.863
+  source: OpenAI
+  summary: OpenAI and PwC are partnering to help enterprises use AI agents to automate
+    finance workflows, improve forecasting, strengthen controls, and modernize the
+    CFO function....
+  tags:
+  - Global Affairs
+  title: OpenAI and PwC collaborate to reimagine the office of the CFO
+  url: https://openai.com/index/openai-pwc-finance-collaboration
+- category: cybersecurity
+  published: '2026-05-04T20:03:28'
+  score: 0.982
+  source: BleepingComputer
+  summary: The Amazon Simple Email Service (SES) is being increasingly abused to send
+    convincing phishing emails that can bypass standard security filters and render
+    reputation-based blocks ineffective. [...]...
+  tags:
+  - Security
+  title: Amazon SES increasingly abused in phishing to evade detection
+  url: https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/
+- category: webdev
+  published: '2026-05-04T20:00:00'
+  score: 0.778
+  source: Towards Data Science
+  summary: 'A practical guide to understanding AI agent design, ReAct workflows, and
+    when to scale from a single agent to a multi-agent system. The post Single Agent
+    vs Multi-Agent: When to Build a Multi-Agent Sy...'
+  tags:
+  - Agentic AI
+  - AI Agents
+  - Artificial Intelligence
+  - Editors Pick
+  - Llm
+  title: 'Single Agent vs Multi-Agent: When to Build a Multi-Agent System'
+  url: https://towardsdatascience.com/single-agent-vs-multi-agent-when-to-build-a-multi-agent-system/
+- category: webdev
+  published: '2026-05-04T19:45:57'
+  score: 0.737
+  source: Ars Technica
+  summary: Intentional errors can be useful....
+  tags:
+  - AI
+  - Policy
+  - canary trap
+  - database
+  - elections
+  title: Canadian election databases use "canary traps"—and they work
+  url: https://arstechnica.com/tech-policy/2026/05/in-canada-a-canary-trap-springs-shut-and-ids-election-database-leak/
+- category: ai
+  published: '2026-05-04T19:03:39'
+  score: 0.894
+  source: Ars Technica
+  summary: The retracted study on ChatGPT in education was already cited hundreds
+    of times....
+  tags:
+  - AI
+  - AI education
+  - AI in education
+  - ChatGPT
+  - education
+  title: Influential study touting ChatGPT in education retracted over red flags
+  url: https://arstechnica.com/ai/2026/05/influential-study-touting-chatgpt-in-education-retracted-over-red-flags/
+- category: webdev
+  published: '2026-05-04T17:57:46'
+  score: 0.725
+  source: Ars Technica
+  summary: Amid falling revenue and store closures, GameStop wants to buy the much
+    larger eBay....
+  tags:
+  - Biz & IT
+  - Policy
+  - eBay
+  - Gamestop
+  title: GameStop offers $56 billion for eBay, struggles to explain how it'll pay
+    for it
+  url: https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/
+- category: ai
+  published: '2026-05-04T17:40:00'
+  score: 0.84
+  source: Towards Data Science
+  summary: Building a knowledge base for AI models isn’t a one-time task but an iterative
+    process of refinement. The post How to Build an Efficient Knowledge Base for AI
+    Models appeared first on Towards Data Sci...
+  tags:
+  - Large Language Model
+  - Artificial Intelligence
+  - Data Engineering
+  - Knowledge Base
+  - Llm
+  title: How to Build an Efficient Knowledge Base for AI Models
+  url: https://towardsdatascience.com/how-to-build-an-efficient-knowledge-base-for-ai-models/
+- category: ai
+  published: '2026-05-04T17:15:27'
+  score: 0.837
+  source: BleepingComputer
+  summary: A malicious version of the PyTorch Lightning package published on the Python
+    Package Index (PyPI) delivers a credential-stealing payload targeting browsers,
+    environment files, and cloud services. [......
+  tags:
+  - Security
+  title: Backdoored PyTorch Lightning package drops credential stealer
+  url: https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/
+- category: cybersecurity
+  published: '2026-05-04T16:34:00'
+  score: 1.004
+  source: The Hacker News
+  summary: Progress Software has released updates to address two security flaws in
+    MOVEit Automation, including a critical bug that could result in an authentication
+    bypass. MOVEit Automation (formerly Central) ...
+  tags: []
+  title: Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass
+  url: https://thehackernews.com/2026/05/progress-patches-critical-moveit.html
+- category: cybersecurity
+  published: '2026-05-04T16:25:07'
+  score: 1.003
+  source: BleepingComputer
+  summary: Cybersecurity firm Trellix disclosed a data breach after attackers gained
+    access to "a portion" of its source code repository. [...]...
+  tags:
+  - Security
+  title: Trellix discloses data breach after source code repository hack
+  url: https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/
+- category: ai
+  published: '2026-05-04T15:30:00'
+  score: 0.825
+  source: Google AI Blog
+  summary: Gemini API...
+  tags:
+  - Developer tools
+  - AI
+  title: Reduce friction and latency for long-running jobs with Webhooks in Gemini
+    API
+  url: https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/
+- category: cybersecurity
+  published: '2026-05-04T14:23:00'
+  score: 1.084
+  source: The Hacker News
+  summary: This week, the shadows moved faster than the patches. While most teams
+    were still triaging last month’s alerts, attackers had already turned control
+    panels into kill switches, kernels into open doors,...
+  tags: []
+  title: '⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit,
+    GitHub RCE & More'
+  url: https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html
+- category: webdev
+  published: '2026-05-04T14:01:36'
+  score: 0.741
+  source: CSS-Tricks
+  summary: 'Getting a multi-column of cards to line up equally is is a headache we''ve
+    all faced, and it gets even harder when working with fixed heights. Fixed-Height
+    Cards: More Fragile Than They Look originally...'
+  tags:
+  - Articles
+  - content
+  - language
+  - layout
+  title: 'Fixed-Height Cards: More Fragile Than They Look'
+  url: https://css-tricks.com/fixed-height-cards-more-fragile-than-they-look/
+- category: cybersecurity
   published: '2026-05-03T22:16:27'
   score: 0.998
   source: BleepingComputer
@@ -31668,5 +31852,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-04T06:01:59.906171'
-total_articles: 2462
+last_updated: '2026-05-05T05:53:50.562445'
+total_articles: 2477
