@@ -1,4 +1,182 @@
 articles:
+- category: ai
+  published: '2026-05-05T22:28:12'
+  score: 0.872
+  source: Ars Technica
+  summary: Elon Musk argued the journals show the moment when OpenAI abandoned its
+    mission....
+  tags:
+  - AI
+  - Policy
+  - artificial general intelligence
+  - Elon Musk
+  - openai
+  title: OpenAI president forced to read his personal diary entries to jury
+  url: https://arstechnica.com/tech-policy/2026/05/openai-president-explains-to-jury-why-his-diary-entries-sound-greedy/
+- category: webdev
+  published: '2026-05-05T21:41:32'
+  score: 0.748
+  source: Ars Technica
+  summary: Panthalassa aims to test floating AI computing nodes in the Pacific in
+    2026....
+  tags:
+  - AI
+  - ai data centers
+  - data centers
+  - ocean waves
+  - renewable energy
+  title: Silicon Valley bets $200M on AI data centers floating in the ocean
+  url: https://arstechnica.com/ai/2026/05/silicon-valley-bets-on-floating-ai-data-centers-powered-by-ocean-waves/
+- category: webdev
+  published: '2026-05-05T20:58:56'
+  score: 0.744
+  source: Ars Technica
+  summary: State says chatbot claimed to practice medicine, gave invalid license number....
+  tags:
+  - AI
+  - Policy
+  - Character.AI
+  title: Character.AI sued over chatbot that claims to be a real doctor with a license
+  url: https://arstechnica.com/tech-policy/2026/05/character-ai-sued-over-chatbot-that-claims-to-be-a-real-doctor-with-a-license/
+- category: ai
+  published: '2026-05-05T17:17:25'
+  score: 0.837
+  source: Ars Technica
+  summary: Google's smart home ecosystem is getting its biggest update since the AI-fueled
+    2025 revamp....
+  tags:
+  - AI
+  - Google
+  - Tech
+  - gemini
+  - google
+  title: Google Home gets upgraded Gemini voice assistant and new camera controls
+  url: https://arstechnica.com/gadgets/2026/05/google-home-gets-upgraded-gemini-voice-assistant-and-new-camera-controls/
+- category: ai
+  published: '2026-05-05T16:55:42'
+  score: 0.834
+  source: AWS Machine Learning
+  summary: Hapag-Lloyd's Digital Customer Experience and Engineering team, distributed
+    between Hamburg and Gdańsk, drives digital innovation by developing and maintaining
+    customer-facing web and mobile products....
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Guardrails
+  - Amazon Machine Learning
+  - Artificial Intelligence
+  - Customer Solutions
+  title: How Hapag-Lloyd uses Amazon Bedrock to transform customer feedback into actionable
+    insights
+  url: https://aws.amazon.com/blogs/machine-learning/how-hapag-lloyd-uses-amazon-bedrock-to-transform-customer-feedback-into-actionable-insights/
+- category: ai
+  published: '2026-05-05T16:55:18'
+  score: 0.834
+  source: AWS Machine Learning
+  summary: Today, we’re excited to announce that Amazon SageMaker AI MLflow Apps now
+    support MLflow version 3.10, bringing enhanced capabilities for generative AI
+    development and streamlined experiment tracking ...
+  tags:
+  - Amazon SageMaker AI
+  - Announcements
+  title: Streamlining generative AI development with MLflow v3.10 on Amazon SageMaker
+    AI
+  url: https://aws.amazon.com/blogs/machine-learning/streamlining-generative-ai-development-with-mlflow-v3-10-on-amazon-sagemaker-ai/
+- category: webdev
+  published: '2026-05-05T16:54:35'
+  score: 0.798
+  source: AWS Machine Learning
+  summary: We’re announcing OS Level Actions for AgentCore Browser. This new capability
+    unblocks these scenarios by exposing direct OS control through the InvokeBrowser
+    API, so agents can interact with content v...
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Generative AI
+  title: Introducing OS Level Actions in Amazon Bedrock AgentCore Browser
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-os-level-actions-in-amazon-bedrock-agentcore-browser/
+- category: webdev
+  published: '2026-05-05T16:00:00'
+  score: 0.752
+  source: Google AI Blog
+  summary: Google is partnering with XPRIZE and Range Media Partners on the $3.5 million
+    Future Vision film competition....
+  tags:
+  - AI
+  title: Google is partnering with XPRIZE and Range Media Partners on the $3.5 million
+    Future Vision film competition.
+  url: https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/
+- category: webdev
+  published: '2026-05-05T15:49:11'
+  score: 0.791
+  source: Mozilla Hacks
+  summary: The open web is a critical platform for applications that handle highly
+    sensitive data, from private communications to financial transactions and medical
+    records. Traditionally, servers are trusted to...
+  tags:
+  - Firefox
+  - Security
+  title: Trustworthy JavaScript for the Open Web
+  url: https://hacks.mozilla.org/2026/05/trustworthy-javascript-for-the-open-web/
+- category: cybersecurity
+  published: '2026-05-05T12:00:00'
+  score: 1.065
+  source: CISA
+  summary: View CSAF Summary ABB became aware of vulnerability in the product versions
+    listed as affected in the advisory. An update is available that resolves a vulnerability.
+    Successful exploitation of this vu...
+  tags: []
+  title: ABB B&R Automation Studio
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04
+- category: cybersecurity
+  published: '2026-05-05T12:00:00'
+  score: 1.065
+  source: CISA
+  summary: View CSAF Summary ABB became aware of vulnerability in the product versions
+    listed as affected in the advisory. An update is available that resolves a vulnerability.
+    An attacker who successfully explo...
+  tags: []
+  title: ABB B&R Automation Runtime
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03
+- category: cybersecurity
+  published: '2026-05-05T12:00:00'
+  score: 1.065
+  source: CISA
+  summary: View CSAF Summary Hitachi Energy is aware of a vulnerability that affects
+    the Hitachi Energy PCM600 product versions listed in this document. An attacker
+    successfully exploiting this vulnerability can...
+  tags: []
+  title: Hitachi Energy PCM600
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-01
+- category: cybersecurity
+  published: '2026-05-05T12:00:00'
+  score: 1.065
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    a standard user to escalate privileges on the host machine. The following versions
+    of Johnson Controls CEM AC2000 are affect...
+  tags: []
+  title: Johnson Controls CEM AC2000
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-05
+- category: cybersecurity
+  published: '2026-05-05T12:00:00'
+  score: 1.065
+  source: CISA
+  summary: View CSAF Summary ABB became aware of vulnerability in the product versions
+    listed as affected in the advisory. An update is now available that addresses
+    and remediates the vulnerability. An attacker ...
+  tags: []
+  title: ABB B&R PVI
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-02
+- category: ai
+  published: '2026-05-05T10:00:00'
+  score: 0.83
+  source: OpenAI
+  summary: GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate
+    answers, reduced hallucinations, and improved personalization controls....
+  tags:
+  - Product
+  title: 'GPT-5.5 Instant: smarter, clearer, and more personalized'
+  url: https://openai.com/index/gpt-5-5-instant
 - category: cybersecurity
   published: '2026-05-04T22:12:57'
   score: 1.094
@@ -31852,5 +32030,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-05T05:53:50.562445'
-total_articles: 2477
+last_updated: '2026-05-06T06:00:57.163454'
+total_articles: 2492
