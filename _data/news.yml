@@ -1,4 +1,184 @@
 articles:
+- category: cybersecurity
+  published: '2026-05-07T04:15:00'
+  score: 1.143
+  source: The Hacker News
+  summary: A dozen critical security vulnerabilities have been disclosed in the vm2
+    Node.js library that could be exploited by bad actors to break out of the sandbox
+    and execute arbitrary code on susceptible sys...
+  tags: []
+  title: vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code
+    Execution
+  url: https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html
+- category: webdev
+  published: '2026-05-06T22:28:47'
+  score: 0.753
+  source: Ars Technica
+  summary: Vandenberg Space Force Base in California is set to become SpaceX's busiest
+    launch site—for now....
+  tags:
+  - Science
+  - Space
+  - falcon 9
+  - launch
+  - spacex
+  title: SpaceX is starting to move on from the world's most successful rocket
+  url: https://arstechnica.com/space/2026/05/spacex-is-starting-to-move-on-from-the-worlds-most-successful-rocket/
+- category: ai
+  published: '2026-05-06T22:09:14'
+  score: 0.914
+  source: Ars Technica
+  summary: Deal follows others with Microsoft, Amazon, and more....
+  tags:
+  - AI
+  - Anthropic
+  - Claude
+  - Claude Code
+  - compute
+  title: Anthropic raises Claude Code usage limits, credits new deal with SpaceX
+  url: https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/
+- category: webdev
+  published: '2026-05-06T21:47:27'
+  score: 0.748
+  source: Ars Technica
+  summary: TSMC backs renewables during record demand for energy-hungry chip manufacturing....
+  tags:
+  - AI
+  - Tech
+  - AI chips
+  - Chip manufacturing
+  - offshore wind
+  title: TSMC taps wind power as AI chip demand soars, Taiwan feels energy crunch
+  url: https://arstechnica.com/gadgets/2026/05/tsmc-taps-wind-power-as-ai-chip-demand-soars-taiwan-feels-energy-crunch/
+- category: webdev
+  published: '2026-05-06T21:33:39'
+  score: 0.747
+  source: Ars Technica
+  summary: Chairman Brendan Carr celebrates FCC court loss in case over Biden-era
+    rule....
+  tags:
+  - Policy
+  - FCC
+  title: Court strikes down FCC anti-discrimination rule opposed by Internet providers
+  url: https://arstechnica.com/tech-policy/2026/05/court-strikes-down-fcc-anti-discrimination-rule-opposed-by-internet-providers/
+- category: cybersecurity
+  published: '2026-05-06T20:21:00'
+  score: 1.127
+  source: The Hacker News
+  summary: Cybersecurity researchers have exposed a new Mirai-derived botnet that
+    self-identifies as xlabs_v1 and targets internet-exposed devices running Android
+    Debug Bridge (ADB) to enlist them in a network c...
+  tags: []
+  title: Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks
+  url: https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html
+- category: webdev
+  published: '2026-05-06T19:41:29'
+  score: 0.855
+  source: CSS-Tricks
+  summary: 'Mat Marquis on Google pulling the web standards equivalent of U2 album
+    marketing: As a Chrome user, you’ll have&#160;received Gemini Nano in the form
+    of a 4GB transfer&#160;recently; no permission ask...'
+  tags:
+  - Links
+  - ai
+  - browser
+  title: Google’s Prompt API
+  url: https://css-tricks.com/googles-prompt-api/
+- category: ai
+  published: '2026-05-06T19:06:55'
+  score: 0.849
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: 'vLLM V0 to V1: Correctness Before Corrections in RL'
+  url: https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections
+- category: ai
+  published: '2026-05-06T16:56:49'
+  score: 0.834
+  source: Ars Technica
+  summary: Move comes as CCP Games spends $120M to go independent, rebrands as Fenris
+    Creations....
+  tags:
+  - AI
+  - Gaming
+  - Google
+  - CCP Games
+  - Fenris
+  title: Google DeepMind partners with EVE Online for AI model testing
+  url: https://arstechnica.com/gaming/2026/05/google-deepmind-partners-with-eve-online-for-ai-model-testing/
+- category: cybersecurity
+  published: '2026-05-06T16:43:30'
+  score: 1.004
+  source: BleepingComputer
+  summary: Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software
+    had been trojanized in a supply chain attack and released a new, malware-free
+    version. [...]...
+  tags:
+  - Security
+  title: DAEMON Tools devs confirm breach, release malware-free version
+  url: https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/
+- category: webdev
+  published: '2026-05-06T16:30:00'
+  score: 0.755
+  source: Towards Data Science
+  summary: Stop shifting elements in lists! Discover why collections.deque is the
+    secret to high-performance sliding windows, thread-safe queues, and efficient
+    data streams in your next Python project. The post ...
+  tags:
+  - Programming
+  - Coding
+  - Data Science
+  - Python
+  - Sliding Windows
+  title: 'Beyond Lists: Using Python Deque for Real-Time Sliding Windows'
+  url: https://towardsdatascience.com/beyond-lists-using-python-deque-for-real-time-sliding-windows/
+- category: ai
+  published: '2026-05-06T16:15:27'
+  score: 0.873
+  source: Ars Technica
+  summary: Also, 5-hour usage limits will double for Pro and Max users of Claude Code....
+  tags:
+  - AI
+  - agentic AI
+  - Anthropic
+  - Claude
+  - Claude Managed Agents
+  title: Anthropic's Claude Managed Agents can now "dream," sort of
+  url: https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of/
+- category: ai
+  published: '2026-05-06T15:44:20'
+  score: 0.826
+  source: Ars Technica
+  summary: Up to 3x the speed with no loss of quality—is it too good to be true?...
+  tags:
+  - AI
+  - Google
+  - Artificial Intelligence
+  - gemma
+  - generative ai
+  title: Google's Gemma 4 AI models get 3x speed boost by predicting future tokens
+  url: https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/
+- category: cybersecurity
+  published: '2026-05-06T12:00:00'
+  score: 1.017
+  source: CISA
+  summary: CISA has added one new vulnerability to its&nbsp;Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation.&nbsp; CVE-2026-0300&nbsp;Palo
+    Alto Networks PAN-OS Out-of-boun...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2026-05-06T09:18:16'
+  score: 1.044
+  source: BleepingComputer
+  summary: Palo Alto Networks warned customers today that a critical-severity unpatched
+    vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in
+    attacks. [...]...
+  tags:
+  - Security
+  title: Palo Alto Networks warns of firewall RCE zero-day exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/
 - category: ai
   published: '2026-05-05T22:28:12'
   score: 0.872
@@ -32030,5 +32210,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-06T06:00:57.163454'
-total_articles: 2492
+last_updated: '2026-05-07T06:02:36.807054'
+total_articles: 2507
