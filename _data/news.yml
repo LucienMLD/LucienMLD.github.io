@@ -1,5 +1,187 @@
 articles:
 - category: cybersecurity
+  published: '2026-05-08T02:58:46'
+  score: 1.136
+  source: Krebs on Security
+  summary: An ongoing data extortion attack targeting the widely-used education technology
+    platform Canvas disrupted classes and coursework at school districts and universities
+    across the United States today, af...
+  tags:
+  - A Little Sunshine
+  - Data Breaches
+  - Ne'er-Do-Well News
+  - Ransomware
+  - Canvas hack
+  title: Canvas Breach Disrupts Schools & Colleges Nationwide
+  url: https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/
+- category: webdev
+  published: '2026-05-07T22:06:53'
+  score: 0.753
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 243 is now available for download for
+    macOS Tahoe and macOS Sequoia....
+  tags:
+  - News
+  title: Release Notes for Safari Technology Preview 243
+  url: https://webkit.org/blog/17953/release-notes-for-safari-technology-preview-243/
+- category: webdev
+  published: '2026-05-07T21:35:01'
+  score: 0.749
+  source: Ars Technica
+  summary: Lawsuit accuses DHS of plugging DNA database into ICE surveillance machine....
+  tags:
+  - Policy
+  - Department of Homeland Security
+  - DHS
+  - DNA
+  - dna database
+  title: DHS can’t create vast DNA database to track ICE critics, lawsuit says
+  url: https://arstechnica.com/tech-policy/2026/05/ice-protesters-sue-to-stop-dhs-from-seizing-dna-samples/
+- category: webdev
+  published: '2026-05-07T19:18:16'
+  score: 0.735
+  source: Ars Technica
+  summary: The developer of Firefox says it has "completely bought in" on AI-assisted
+    bug discovery....
+  tags:
+  - AI
+  - Biz & IT
+  - Security
+  - firefox
+  - Mythos
+  title: Mozilla says 271 vulnerabilities found by Mythos have "almost no false positives"
+  url: https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/
+- category: cybersecurity
+  published: '2026-05-07T17:55:00'
+  score: 1.112
+  source: The Hacker News
+  summary: 'Ivanti is warning that a new security flaw impacting Endpoint Manager
+    Mobile (EPMM) has been explored in limited attacks in the wild. The high-severity
+    vulnerability, CVE-2026-6973 (CVSS score: 7.2), ...'
+  tags: []
+  title: Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level
+    Access
+  url: https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html
+- category: webdev
+  published: '2026-05-07T16:30:00'
+  score: 0.717
+  source: Towards Data Science
+  summary: A practical guide to modern type annotations in Python for data science
+    The post The Joy of Typing appeared first on Towards Data Science....
+  tags:
+  - Programming
+  - Data Science
+  - Deep Dives
+  - Python
+  - Typing
+  title: The Joy of Typing
+  url: https://towardsdatascience.com/the-joy-of-typing/
+- category: ai
+  published: '2026-05-07T16:01:21'
+  score: 0.874
+  source: Mozilla Hacks
+  summary: Two weeks ago we announced that we had identified and fixed an unprecedented
+    number of latent security bugs in Firefox with the help of Claude Mythos Preview
+    and other AI models. In this post, we’ll g...
+  tags:
+  - Featured Article
+  - Firefox
+  - Security
+  title: Behind the Scenes Hardening Firefox with Claude Mythos Preview
+  url: https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
+- category: webdev
+  published: '2026-05-07T15:53:30'
+  score: 0.754
+  source: AWS Machine Learning
+  summary: In this post, you will learn how to implement reinforcement learning with
+    verifiable rewards (RLVR) to introduce verification and transparency into reward
+    signals to improve training performance. This...
+  tags:
+  - Amazon SageMaker AI
+  - Generative AI
+  - Technical How-to
+  - AI/ML
+  - Amazon Machine Learning
+  title: 'Overcoming reward signal challenges: Verifiable rewards-based reinforcement
+    learning with GRPO on SageMaker AI'
+  url: https://aws.amazon.com/blogs/machine-learning/overcoming-reward-signal-challenges-verifiable-rewards-based-reinforcement-learning-with-grpo-on-sagemaker-ai/
+- category: cybersecurity
+  published: '2026-05-07T15:20:51'
+  score: 1.092
+  source: BleepingComputer
+  summary: Ivanti warned customers today to patch a high-severity remote code execution
+    vulnerability in Endpoint Manager Mobile (EPMM) exploited in zero-day attacks.
+    [...]...
+  tags:
+  - Security
+  title: Ivanti warns of new EPMM flaw exploited in zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/
+- category: cybersecurity
+  published: '2026-05-07T13:34:00'
+  score: 1.079
+  source: The Hacker News
+  summary: Palo Alto Networks has disclosed that threat actors may have attempted
+    to unsuccessfully exploit a recently disclosed critical security flaw as early
+    as April 9, 2026. The vulnerability in question is...
+  tags: []
+  title: PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage
+  url: https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html
+- category: ai
+  published: '2026-05-07T13:14:01'
+  score: 0.811
+  source: Ars Technica
+  summary: Musk was “prepared to do the for-profit, provided he would get control.”...
+  tags:
+  - AI
+  - Policy
+  - Elon Musk
+  - openai
+  - openai sam altman
+  title: Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla
+  url: https://arstechnica.com/tech-policy/2026/05/elon-musk-tried-to-hire-openai-founders-to-start-ai-unit-inside-tesla/
+- category: ai
+  published: '2026-05-07T13:00:00'
+  score: 0.853
+  source: OpenAI
+  summary: OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber,
+    helping verified defenders accelerate vulnerability research and protect critical
+    infrastructure....
+  tags:
+  - Security
+  title: Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber
+  url: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber
+- category: cybersecurity
+  published: '2026-05-07T12:00:00'
+  score: 1.067
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability may enable
+    an attacker to access tenant email addresses and associated information in cleartext
+    or cause a denial-of-service condition. ...
+  tags: []
+  title: MAXHUB Pivot Client Application
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-127-01
+- category: ai
+  published: '2026-05-07T11:00:00'
+  score: 0.839
+  source: OpenAI
+  summary: Parloa leverages OpenAI models to power scalable, voice-driven AI customer
+    service agents, enabling enterprises to design, simulate, and deploy reliable,
+    real-time interactions....
+  tags:
+  - B2B Story
+  title: Parloa builds service agents customers want to talk to
+  url: https://openai.com/index/parloa
+- category: ai
+  published: '2026-05-07T10:00:00'
+  score: 0.789
+  source: OpenAI
+  summary: Explore new realtime voice models in the OpenAI API that can reason, translate,
+    and transcribe speech, enabling more natural and intelligent voice experiences....
+  tags:
+  - Product
+  title: Advancing voice intelligence with new models in the API
+  url: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
+- category: cybersecurity
   published: '2026-05-07T04:15:00'
   score: 1.143
   source: The Hacker News
@@ -32210,5 +32392,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-07T06:02:36.807054'
-total_articles: 2507
+last_updated: '2026-05-08T05:42:10.874752'
+total_articles: 2522
