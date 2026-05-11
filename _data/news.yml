@@ -1,4 +1,153 @@
 articles:
+- category: ai
+  published: '2026-05-11T10:00:00'
+  score: 1.05
+  source: OpenAI
+  summary: Join the OpenAI Campus Network—connect student clubs worldwide, access
+    AI tools, host events, and build an AI-powered campus community....
+  tags:
+  - Company
+  title: 'OpenAI Campus Network: Student club interest form'
+  url: https://openai.com/index/openai-campus-network-student-club-interest-form
+- category: webdev
+  published: '2026-05-11T10:00:00'
+  score: 0.923
+  source: OpenAI
+  summary: 'How enterprises scale AI: from early experiments to compounding impact
+    through trust, governance, workflow design, and quality at scale....'
+  tags:
+  - Guides
+  title: How enterprises are scaling AI
+  url: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai
+- category: webdev
+  published: '2026-05-11T06:00:00'
+  score: 0.898
+  source: Google AI Blog
+  summary: A screenshot of the AI-powered experience on Google Finance....
+  tags:
+  - Search
+  - AI
+  title: The new AI-powered Google Finance is expanding to Europe.
+  url: https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/
+- category: webdev
+  published: '2026-05-10T18:44:11'
+  score: 0.728
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: 'MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD
+    MI300X'
+  url: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck
+- category: cybersecurity
+  published: '2026-05-10T17:52:15'
+  score: 0.963
+  source: BleepingComputer
+  summary: Attackers are abusing Google Ads and legitimate Claude.ai shared chats
+    in an active malvertising campaign. Users searching for "Claude mac download"
+    may come across sponsored search results that list ...
+  tags:
+  - Security
+  title: Hackers abuse Google ads, Claude.ai chats to push Mac malware
+  url: https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/
+- category: webdev
+  published: '2026-05-10T15:00:00'
+  score: 0.705
+  source: Towards Data Science
+  summary: '"Should we process our data in batches or in real-time?" It''s not batch
+    vs. stream: it''s "when does the answer matter?" The post Batch or Stream? The
+    Eternal Data Processing Dilemma appeared first on ...'
+  tags:
+  - Data Engineering
+  - Batch Processing
+  - Data Science
+  - Deep Dives
+  - Real Time Analytics
+  title: Batch or Stream? The Eternal Data Processing Dilemma
+  url: https://towardsdatascience.com/batch-or-stream-the-ethernal-data-processing-dilemma/
+- category: webdev
+  published: '2026-05-10T14:16:47'
+  score: 0.7
+  source: BleepingComputer
+  summary: German authorities have shut down a relaunch version of the criminal marketplace
+    'Crimenetwork' that generated more than 3.6 million euros, and arrested its operator.
+    [...]...
+  tags:
+  - Security
+  title: Police shut down reboot of Crimenetwork marketplace, arrest admin
+  url: https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/
+- category: ai
+  published: '2026-05-10T13:00:00'
+  score: 0.805
+  source: Towards Data Science
+  summary: A practitioner's argument that meeting summarizers fail in the same way
+    regressions fail when you skip the part where you ask what the data can support.
+    The post LLM Summarizers Skip the Identificatio...
+  tags:
+  - LLM Applications
+  - Ai Engineering
+  - Causal Inference
+  - Deep Dives
+  - Hallucinations
+  title: LLM Summarizers Skip the Identification Step
+  url: https://towardsdatascience.com/llm-summarizers-skip-the-identification-step/
+- category: cybersecurity
+  published: '2026-05-10T12:41:00'
+  score: 1.068
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed a critical security vulnerability
+    in Ollama that, if successfully exploited, could allow a remote, unauthenticated
+    attacker to leak its entire process memory. ...
+  tags: []
+  title: Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak
+  url: https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html
+- category: cybersecurity
+  published: '2026-05-09T19:27:58'
+  score: 0.697
+  source: BleepingComputer
+  summary: The website for the popular JDownloader download manager was compromised
+    earlier this week to distribute malicious Windows and Linux installers, with the
+    Windows payload found deploying a Python-based...
+  tags:
+  - Security
+  title: JDownloader site hacked to replace installers with Python RAT malware
+  url: https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/
+- category: ai
+  published: '2026-05-09T15:00:00'
+  score: 0.604
+  source: Towards Data Science
+  summary: 'From tokenisation to evaluation : how modern language models actually
+    work in practice The post The Must-Know Topics for an LLM Engineer appeared first
+    on Towards Data Science....'
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Deep Learning
+  - Editors Pick
+  - Llm
+  title: The Must-Know Topics for an LLM Engineer
+  url: https://towardsdatascience.com/the-must-know-topics-for-an-llm-engineer/
+- category: cybersecurity
+  published: '2026-05-09T14:26:03'
+  score: 0.707
+  source: BleepingComputer
+  summary: A malicious Hugging Face repository that reached the platform's trending
+    list impersonated OpenAI's "Privacy Filter" project to deliver information-stealing
+    malware to Windows users. [...]...
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: Fake OpenAI repository on Hugging Face pushes infostealer malware
+  url: https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/
+- category: cybersecurity
+  published: '2026-05-09T07:16:00'
+  score: 0.702
+  source: The Hacker News
+  summary: cPanel has released updates to address three vulnerabilities in cPanel
+    and Web Host Manager (WHM) that could be exploited to achieve privilege escalation,
+    code execution, and denial-of-service. The li...
+  tags: []
+  title: cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now
+  url: https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html
 - category: cybersecurity
   published: '2026-05-08T02:58:46'
   score: 1.136
@@ -32392,5 +32541,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-08T05:42:10.874752'
-total_articles: 2522
+last_updated: '2026-05-11T06:16:01.605431'
+total_articles: 2535
