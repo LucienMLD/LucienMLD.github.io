@@ -1,4 +1,176 @@
 articles:
+- category: webdev
+  published: '2026-05-11T23:18:26'
+  score: 0.758
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: Building Blocks for Foundation Model Training and Inference on AWS
+  url: https://huggingface.co/blog/amazon/foundation-model-building-blocks
+- category: cybersecurity
+  published: '2026-05-11T22:28:19'
+  score: 0.999
+  source: Ars Technica
+  summary: Production-version patches are coming online and should be installed pronto....
+  tags:
+  - Biz & IT
+  - Security
+  - exploits
+  - Linux
+  - vulnerabilities
+  title: Linux bitten by second severe vulnerability in as many weeks
+  url: https://arstechnica.com/security/2026/05/linux-bitten-by-second-severe-vulnerability-in-as-many-weeks/
+- category: cybersecurity
+  published: '2026-05-11T22:02:00'
+  score: 0.996
+  source: BleepingComputer
+  summary: A security researcher has released a proof-of-concept tool named GhostLock
+    that demonstrates how a legitimate Windows file API can be abused in attacks to
+    block access to files stored locally or on SM...
+  tags:
+  - Security
+  title: New GhostLock tool abuses Windows API to block file access
+  url: https://www.bleepingcomputer.com/news/security/new-ghostlock-tool-abuses-windows-api-to-block-file-access/
+- category: webdev
+  published: '2026-05-11T22:01:57'
+  score: 0.75
+  source: Ars Technica
+  summary: Audi made sure to consult American tastes for its first full-size SUV....
+  tags:
+  - Cars
+  - Audi Q9
+  title: 'Audi has a new Q9 flagship coming soon: Here''s its interior'
+  url: https://arstechnica.com/cars/2026/05/take-a-look-inside-audis-new-big-three-row-q9-suv/
+- category: webdev
+  published: '2026-05-11T21:58:16'
+  score: 0.75
+  source: AWS Machine Learning
+  summary: In this post, you will learn how to set up the Exa integration in Strands
+    Agents, understand the two core tools it exposes, and walk through real-world
+    use cases that show how agents use web search to...
+  tags:
+  - Amazon Bedrock AgentCore
+  - Intermediate (200)
+  - Strands Agents
+  - Technical How-to
+  title: Building web search-enabled agents with Strands and Exa
+  url: https://aws.amazon.com/blogs/machine-learning/building-web-search-enabled-agents-with-strands-and-exa/
+- category: webdev
+  published: '2026-05-11T20:37:00'
+  score: 0.741
+  source: Ars Technica
+  summary: Can AI save us from the AI industry’s endless thirst for water? Outlook
+    not so good....
+  tags:
+  - AI
+  - Policy
+  - ai data center
+  - Artificial Intelligence
+  - data center
+  title: Data center guzzled 30 million gallons of water and nobody noticed for months
+  url: https://arstechnica.com/tech-policy/2026/05/data-center-used-30-million-gallons-of-water-without-initially-paying/
+- category: ai
+  published: '2026-05-11T18:43:03'
+  score: 0.89
+  source: AWS Machine Learning
+  summary: Today, we're excited to announce the general availability of Claude Platform
+    on AWS. Claude Platform on AWS is a new service that gives customers direct access
+    to Anthropic's native Claude Platform ex...
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Artificial Intelligence
+  title: 'Introducing Claude Platform on AWS: Anthropic’s native platform, through
+    your AWS account'
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-claude-platform-on-aws-anthropics-native-platform-through-your-aws-account/
+- category: ai
+  published: '2026-05-11T18:36:57'
+  score: 0.845
+  source: Towards Data Science
+  summary: Perform efficient data retrieval of personal knowledge The post How to
+    Build a Claude Code-Powered Knowledge Base appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Claude Code
+  - coding agents
+  - Knowledge Base
+  - Llm Agent
+  title: How to Build a Claude Code-Powered Knowledge Base
+  url: https://towardsdatascience.com/how-to-build-a-claude-code-powered-knowledge-base/
+- category: cybersecurity
+  published: '2026-05-11T18:30:00'
+  score: 0.969
+  source: The Hacker News
+  summary: Checkmarx has confirmed that a modified version of the Jenkins AST plugin
+    was published to the Jenkins Marketplace. "If you are using Checkmarx Jenkins
+    AST plugin, you need to ensure that you are usin...
+  tags: []
+  title: TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply
+    Chain Attack
+  url: https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html
+- category: cybersecurity
+  published: '2026-05-11T17:54:00'
+  score: 1.109
+  source: The Hacker News
+  summary: A threat actor named Mr_Rot13 has been attributed to the exploitation of
+    a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager
+    on compromised environments. The attack ex...
+  tags: []
+  title: cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor
+  url: https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html
+- category: ai
+  published: '2026-05-11T17:41:00'
+  score: 0.839
+  source: Towards Data Science
+  summary: How ML can change for rare events The post Using Transformers to Forecast
+    Incredibly Rare Solar Flares appeared first on Towards Data Science....
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Astrophysics
+  - Data Science
+  - Editors Pick
+  title: Using Transformers to Forecast Incredibly Rare Solar Flares
+  url: https://towardsdatascience.com/predicting-solar-flares/
+- category: webdev
+  published: '2026-05-11T17:00:05'
+  score: 0.758
+  source: WebKit Blog
+  summary: Safari 26.5 is here, delivering the :open pseudo-class, the element-scoped
+    keyword for random(), color-interpolation for SVG gradients, the ToggleEvent.source
+    property for popovers, and the Origin API...
+  tags:
+  - News
+  title: WebKit Features for Safari 26.5
+  url: https://webkit.org/blog/17938/webkit-features-for-safari-26-5/
+- category: cybersecurity
+  published: '2026-05-11T15:45:00'
+  score: 0.997
+  source: The Hacker News
+  summary: Google on Monday disclosed that it identified an unknown threat actor using
+    a zero-day exploit that it said was likely developed with an artificial intelligence
+    (AI) system, marking the first time the...
+  tags: []
+  title: Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation
+  url: https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html
+- category: ai
+  published: '2026-05-11T15:00:00'
+  score: 0.865
+  source: OpenAI
+  summary: ChatGPT adoption surged in Q1 2026, with fastest growth among users over
+    35 and more balanced gender usage, signaling broader mainstream AI adoption....
+  tags: []
+  title: How ChatGPT adoption broadened in early 2026
+  url: https://openai.com/signals/research/2026q1-update
+- category: ai
+  published: '2026-05-11T12:00:00'
+  score: 0.844
+  source: NCSC UK
+  summary: Using Artificial Intelligence to find vulnerabilities can bring added security
+    considerations....
+  tags: []
+  title: 10 questions to ask when using AI models to find vulnerabilities
+  url: https://www.ncsc.gov.uk/blogs/10-questions-ask-using-ai-models-find-vulnerabilities
 - category: ai
   published: '2026-05-11T10:00:00'
   score: 1.05
@@ -32541,5 +32713,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-11T06:16:01.605431'
-total_articles: 2535
+last_updated: '2026-05-12T06:03:05.040494'
+total_articles: 2550
