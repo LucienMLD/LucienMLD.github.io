@@ -1,5 +1,180 @@
 articles:
 - category: webdev
+  published: '2026-05-12T21:59:03'
+  score: 0.749
+  source: Ars Technica
+  summary: The plan aims to speed up AI compute deployment while compensating residents....
+  tags:
+  - AI
+  - ai data centers
+  - AI GPU
+  - data centers
+  - GPU
+  title: 'The newest AI boom pitch: Host a mini data center at your home'
+  url: https://arstechnica.com/ai/2026/05/the-newest-ai-boom-pitch-host-a-mini-data-center-at-your-home/
+- category: webdev
+  published: '2026-05-12T21:26:47'
+  score: 0.746
+  source: Ars Technica
+  summary: Makary reportedly spent his year bucking Trump admin and making industry
+    enemies....
+  tags:
+  - Health
+  - fda
+  - kennedy
+  - Marty Makary
+  - Trump
+  title: FDA chief resigns after Trump admin forced approval of fruity e-cigs
+  url: https://arstechnica.com/health/2026/05/fda-chief-resigns-after-trump-admin-forced-approval-of-fruity-e-cigs/
+- category: ai
+  published: '2026-05-12T19:00:25'
+  score: 0.892
+  source: Ars Technica
+  summary: Teen trusted ChatGPT to help him “safely” experiment with drugs, logs show....
+  tags:
+  - AI
+  - Policy
+  - chatbot
+  - ChatGPT
+  - drug overdose
+  title: “Will I be OK?” Teen died after ChatGPT pushed deadly mix of drugs, lawsuit
+    says
+  url: https://arstechnica.com/tech-policy/2026/05/will-i-be-ok-teen-died-after-chatgpt-pushed-deadly-mix-of-drugs-lawsuit-says/
+- category: ai
+  published: '2026-05-12T16:41:33'
+  score: 0.832
+  source: AWS Machine Learning
+  summary: In this post, we demonstrate how Amazon FinTech teams are using Amazon
+    Bedrock and other AWS services to build a scalable AI application to transform
+    how regulatory inquiries are handled. Each team us...
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Knowledge Bases
+  - Customer Solutions
+  - Generative AI
+  title: How Amazon Finance streamlines regulatory inquiries by using generative AI
+    on AWS
+  url: https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-streamlines-regulatory-inquiries-by-using-generative-ai-on-aws/
+- category: ai
+  published: '2026-05-12T16:30:00'
+  score: 0.83
+  source: Towards Data Science
+  summary: A 4.5-hour journey from idea to working fitness app with LLM agents The
+    post From Vibe Coding to Spec-Driven Development appeared first on Towards Data
+    Science....
+  tags:
+  - Agentic AI
+  - AI coding assistants
+  - Ai Engineering
+  - Editors Pick
+  - Llm
+  title: From Vibe Coding to Spec-Driven Development
+  url: https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/
+- category: webdev
+  published: '2026-05-12T13:59:35'
+  score: 0.819
+  source: CSS-Tricks
+  summary: The proposed ShadowRealm API introduces a new kind of realm specifically
+    designed for isolation, and only that. Soon We Can Finally Banish JavaScript to
+    the ShadowRealm originally handwritten and publ...
+  tags:
+  - Articles
+  title: Soon We Can Finally Banish JavaScript to the ShadowRealm
+  url: https://css-tricks.com/soon-we-can-finally-banish-javascript-to-the-shadowrealm/
+- category: webdev
+  published: '2026-05-12T13:30:00'
+  score: 0.736
+  source: Towards Data Science
+  summary: Hierarchical understanding and comparison of contracts, research papers,
+    and more The post Proxy-Pointer Framework for Structure-Aware Enterprise Document
+    Intelligence appeared first on Towards Data S...
+  tags:
+  - LLM Applications
+  - Document Ai
+  - Document Comparison
+  - Document Processing
+  - Enterprise Ai
+  title: Proxy-Pointer Framework for Structure-Aware Enterprise Document Intelligence
+  url: https://towardsdatascience.com/proxy-pointer-framework-for-structure-aware-enterprise-document-intelligence/
+- category: ai
+  published: '2026-05-12T12:00:07'
+  score: 0.843
+  source: Machine Learning Mastery
+  summary: Large language models (LLMs) now power everything from customer service
+    bots to autonomous coding agents....
+  tags: []
+  title: LLM Observability Tools for Reliable AI Applications
+  url: https://machinelearningmastery.com/llm-observability-tools-for-reliable-ai-applications/
+- category: cybersecurity
+  published: '2026-05-12T12:00:00'
+  score: 1.064
+  source: CISA
+  summary: View CSAF Summary ABB became aware of vulnerability in the products versions
+    listed as affected in the advisory. An update is available that resolves publicly
+    reported vulnerability. An attacker who s...
+  tags: []
+  title: ABB AC500 V3 Stack Buffer Overflow in Cryptographic Message Syntax
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-05
+- category: cybersecurity
+  published: '2026-05-12T12:00:00'
+  score: 1.064
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow an authenticated attacker to expose sensitive information or cause a CRLF
+    injection. The following versions of Subnet Sol...
+  tags: []
+  title: Subnet Solutions PowerSYSTEM Center
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-02
+- category: cybersecurity
+  published: '2026-05-12T12:00:00'
+  score: 1.064
+  source: CISA
+  summary: View CSAF Summary ABB became aware of multiple internally discovered vulnerabilities
+    in the WebPro SNMP card PowerValue for the product versions listed as affected
+    in the advisory. Depending upon the ...
+  tags: []
+  title: ABB WebPro SNMP Card PowerValue Multiple Vulnerabilities
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-06
+- category: cybersecurity
+  published: '2026-05-12T12:00:00'
+  score: 1.064
+  source: CISA
+  summary: View CSAF Summary ABB became aware of severe vulnerability in the products
+    versions listed as affected in the advisory. An update is available that resolves
+    these vulnerabilities. An attacker who succ...
+  tags: []
+  title: ABB AC500 V3 Multiple Vulnerabilities
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-03
+- category: cybersecurity
+  published: '2026-05-12T12:00:00'
+  score: 1.064
+  source: CISA
+  summary: View CSAF Summary ABB became aware of severe vulnerability in the products
+    versions listed as affected in the advisory. The Windows gateway is accessible
+    remotely by default. Unauthenticated attackers...
+  tags: []
+  title: ABB Automation Builder Gateway for Windows
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-04
+- category: webdev
+  published: '2026-05-12T12:00:00'
+  score: 0.767
+  source: CISA
+  summary: CISA and the Group of Seven (G7) international partners—Germany, Canada,
+    France, Italy, Japan, the United Kingdom, and the European Union—have released
+    joint guidance, Software Bill of Materials for A...
+  tags: []
+  title: Software Bill of Materials for AI - Minimum Elements
+  url: https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements
+- category: ai
+  published: '2026-05-12T00:00:00'
+  score: 0.711
+  source: OpenAI
+  summary: Learn how AutoScout24 Group uses Codex and ChatGPT to speed development
+    cycles, improve code quality, and expand AI adoption....
+  tags: []
+  title: AutoScout24 scales engineering with AI-powered workflows
+  url: https://openai.com/index/autoscout24
+- category: webdev
   published: '2026-05-11T23:18:26'
   score: 0.758
   source: Hugging Face
@@ -32713,5 +32888,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-12T06:03:05.040494'
-total_articles: 2550
+last_updated: '2026-05-13T06:07:33.171229'
+total_articles: 2565
