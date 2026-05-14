@@ -1,4 +1,189 @@
 articles:
+- category: cybersecurity
+  published: '2026-05-13T22:23:31'
+  score: 0.998
+  source: BleepingComputer
+  summary: West Pharmaceutical Services disclosed that it was the target of a cyberattack
+    that resulted in data exfiltration and system encryption. [...]...
+  tags:
+  - Security
+  title: West Pharmaceutical says hackers stole data, encrypted systems
+  url: https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/
+- category: webdev
+  published: '2026-05-13T21:59:33'
+  score: 0.749
+  source: BleepingComputer
+  summary: The Iran-linked hacking group MuddyWater (a.k.a. Seedworm, Static Kitten)
+    launched a broad cyber-espionage campaign targeting at least nine high-profile
+    organizations across multiple sectors and count...
+  tags:
+  - Security
+  title: Iranian hackers targeted major South Korean electronics maker
+  url: https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/
+- category: webdev
+  published: '2026-05-13T21:48:27'
+  score: 0.748
+  source: Ars Technica
+  summary: The final flight and complex legacy of a pioneering solar-powered aircraft....
+  tags:
+  - Tech
+  - commercial drones
+  - Drone strikes
+  - drones
+  - military drones
+  title: Solar drone with jumbo jet wingspan broke a flight record—then it crashed
+  url: https://arstechnica.com/gadgets/2026/05/solar-drone-with-jumbo-jet-wingspan-broke-a-flight-record-then-it-crashed/
+- category: cybersecurity
+  published: '2026-05-13T20:23:50'
+  score: 1.031
+  source: BleepingComputer
+  summary: A critical vulnerability affecting certain configurations of the Exim open-source
+    mail transfer agent could be exploited by an unauthenticated remote attacker to
+    execute arbitrary code. [...]...
+  tags:
+  - Security
+  - Artificial Intelligence
+  - Linux
+  title: New critical Exim mailer flaw allows remote code execution
+  url: https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/
+- category: ai
+  published: '2026-05-13T18:22:05'
+  score: 0.843
+  source: Towards Data Science
+  summary: A practical comparison between rule-based PDF extraction using pytesseract
+    and an LLM-based approach with Ollama and LLaMA 3, based on a realistic B2B order
+    scenario. The post I Built the Same B2B Doc...
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Data Engineering
+  - Editors Pick
+  - Llm
+  title: 'I Built the Same B2B Document Extractor Twice: Rules vs. LLM'
+  url: https://towardsdatascience.com/i-built-the-same-b2b-document-extractor-twice-rules-vs-llm/
+- category: ai
+  published: '2026-05-13T17:48:05'
+  score: 0.839
+  source: Ars Technica
+  summary: '"Very painful": Altman relives his Muskian reaction to losing control
+    over OpenAI....'
+  tags:
+  - AI
+  - Policy
+  - agi
+  - artificial general intelligence
+  - Artificial Intelligence
+  title: Altman forced to confront claims at OpenAI trial that he's a prolific liar
+  url: https://arstechnica.com/tech-policy/2026/05/altman-forced-to-confront-claims-at-openai-trial-that-hes-a-prolific-liar/
+- category: cybersecurity
+  published: '2026-05-13T17:33:16'
+  score: 0.962
+  source: AWS Machine Learning
+  summary: 'The Cisco and AWS partnership addresses three challenges enterprises face
+    when scaling AI agents: visibility gaps, security bottlenecks, and compliance
+    risks. In this post, we explore how you can over...'
+  tags:
+  - Customer Solutions
+  title: 'Securing AI agents: How AWS and Cisco AI Defense scale MCP and A2A deployments'
+  url: https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-how-aws-and-cisco-ai-defense-scale-mcp-and-a2a-deployments/
+- category: cybersecurity
+  published: '2026-05-13T16:37:49'
+  score: 1.051
+  source: BleepingComputer
+  summary: A cybersecurity researcher has published proof-of-concept (PoC) exploits
+    for two unpatched Microsoft Windows vulnerabilities named YellowKey and GreenPlasma,
+    which are a BitLocker bypass and a privile...
+  tags:
+  - Security
+  - Microsoft
+  title: Windows BitLocker zero-day gives access to protected drives, PoC released
+  url: https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/
+- category: ai
+  published: '2026-05-13T16:31:18'
+  score: 0.875
+  source: Ars Technica
+  summary: But training on "synthetic stories" that model good AI behavior can help....
+  tags:
+  - AI
+  - Anthropic
+  - clause
+  - ethics
+  - morals
+  title: Anthropic blames dystopian sci-fi for training AI models to act “evil”
+  url: https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil/
+- category: webdev
+  published: '2026-05-13T14:36:54'
+  score: 0.743
+  source: CSS-Tricks
+  summary: The rotateX() function rotates an element around the x-axis in a three-dimensional
+    space rotateX() originally handwritten and published with love on CSS-Tricks.
+    You should really get the newsletter as...
+  tags:
+  - transform
+  title: rotateX()
+  url: https://css-tricks.com/almanac/functions/r/rotatex/
+- category: webdev
+  published: '2026-05-13T14:33:58'
+  score: 0.743
+  source: CSS-Tricks
+  summary: The rotateY() function rotates an element around its vertical y-axis. rotateY()
+    originally handwritten and published with love on CSS-Tricks. You should really
+    get the newsletter as well....
+  tags:
+  - transform
+  title: rotateY()
+  url: https://css-tricks.com/almanac/functions/r/rotatey/
+- category: webdev
+  published: '2026-05-13T14:33:03'
+  score: 0.743
+  source: CSS-Tricks
+  summary: The rotateZ() function rotates an element around its z-axis, so clockwise
+    or counterclockwise. rotateZ() originally handwritten and published with love
+    on CSS-Tricks. You should really get the newslet...
+  tags:
+  - transform
+  title: rotateZ()
+  url: https://css-tricks.com/almanac/functions/r/rotatez/
+- category: ai
+  published: '2026-05-13T13:30:00'
+  score: 0.81
+  source: Towards Data Science
+  summary: I spent a weekend trying to convince a language model it was C-3PO. Here's
+    what actually worked. The post What’s the Best Way to Brainwash an LLM? appeared
+    first on Towards Data Science....
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Editors Pick
+  - Llm
+  - Llm Evaluation
+  title: What’s the Best Way to Brainwash an LLM?
+  url: https://towardsdatascience.com/whats-the-best-way-to-brainwash-an-llm/
+- category: cybersecurity
+  published: '2026-05-13T12:30:38'
+  score: 1.02
+  source: BleepingComputer
+  summary: Attackers can compromise systems in minutes while patching and response
+    still take hours or days. Picus Security breaks down why autonomous validation
+    is becoming critical for modern defense strategie...
+  tags:
+  - Security
+  title: '73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation'
+  url: https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/
+- category: ai
+  published: '2026-05-13T11:03:03'
+  score: 0.925
+  source: Schneier on Security
+  summary: The UK&#8217;s AI Security Institute evaluated GPT-5.5&#8217;s ability
+    to find security vulnerabilities, and found that it is comparable to Claude Mythos.
+    Note that the OpenAI model is generally avail...
+  tags:
+  - Uncategorized
+  - AI
+  - cybersecurity
+  - vulnerabilities
+  title: OpenAI’s GPT-5.5 is as Good as Mythos at Finding Security Vulnerabilities
+  url: https://www.schneier.com/blog/archives/2026/05/openais-gpt-5-5-is-as-good-as-mythos-at-finding-security-vulnerabilities.html
 - category: webdev
   published: '2026-05-12T21:59:03'
   score: 0.749
@@ -32888,5 +33073,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-13T06:07:33.171229'
-total_articles: 2565
+last_updated: '2026-05-14T06:06:51.534302'
+total_articles: 2580
