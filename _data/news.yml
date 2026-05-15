@@ -1,5 +1,189 @@
 articles:
 - category: cybersecurity
+  published: '2026-05-15T05:28:03'
+  score: 1.294
+  source: The Hacker News
+  summary: The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday
+    added a newly disclosed vulnerability impacting Cisco Catalyst SD-WAN Controller
+    to its Known Exploited Vulnerabilities (KEV...
+  tags: []
+  title: CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits
+  url: https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html
+- category: webdev
+  published: '2026-05-14T22:50:36'
+  score: 0.754
+  source: BleepingComputer
+  summary: The TeamPCP hacker group is threatening to leak source code from the Mistral
+    AI project unless a buyer is found for the data. [...]...
+  tags:
+  - Security
+  title: TeamPCP hackers advertise Mistral AI code repos for sale
+  url: https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/
+- category: webdev
+  published: '2026-05-14T21:32:29'
+  score: 0.746
+  source: Ars Technica
+  summary: Study suggests "the bias is real but socially constructed, rather than
+    grounded in how women actually sound."...
+  tags:
+  - Science
+  - acoustics
+  - gender bias
+  - Linguistics
+  - sociolinguistics
+  title: Men use "vocal fry" more than women, counter to stereotype
+  url: https://arstechnica.com/science/2026/05/men-use-vocal-fry-more-than-women-counter-to-stereotype/
+- category: cybersecurity
+  published: '2026-05-14T20:09:56'
+  score: 1.125
+  source: BleepingComputer
+  summary: Cisco is warning that a critical Catalyst SD-WAN Controller authentication
+    bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks
+    that allowed attackers to gain administrat...
+  tags:
+  - Security
+  title: Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/
+- category: webdev
+  published: '2026-05-14T18:55:54'
+  score: 0.77
+  source: Ars Technica
+  summary: FSR 4.1 running on RDNA3 or RDNA2 GPUs may take a bigger performance hit....
+  tags:
+  - Gaming
+  - Tech
+  - AMD
+  - amd fsr
+  - fsr 4
+  title: Over a year later, AMD is bringing improved FSR 4 upscaling to its older
+    GPUs
+  url: https://arstechnica.com/gadgets/2026/05/amd-promises-to-bring-improved-hardware-backed-fsr-4-upscaling-to-older-radeon-gpus/
+- category: cybersecurity
+  published: '2026-05-14T17:45:20'
+  score: 1.107
+  source: The Hacker News
+  summary: Cisco has released updates to address a maximum-severity authentication
+    bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited
+    attacks. The vulnerability, tracked as CVE-...
+  tags: []
+  title: Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin
+    Access
+  url: https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html
+- category: webdev
+  published: '2026-05-14T17:23:48'
+  score: 0.76
+  source: AWS Machine Learning
+  summary: In this post, you learn how to combine Stream's Vision Agents open-source
+    framework with Amazon Bedrock and Amazon Nova 2 Sonic to build real-time voice
+    agents that can be production-ready in minutes....
+  tags:
+  - Amazon Bedrock
+  - Amazon Nova
+  - Technical How-to
+  title: Real-time voice agents with Stream Vision Agents and Amazon Nova 2 Sonic
+  url: https://aws.amazon.com/blogs/machine-learning/real-time-voice-agents-with-stream-vision-agents-and-amazon-nova-2-sonic/
+- category: webdev
+  published: '2026-05-14T17:17:35'
+  score: 0.759
+  source: AWS Machine Learning
+  summary: In this post, you will configure Chrome enterprise policies to restrict
+    a browser agent to a specific website, observe the policy enforcement through
+    session recording, and demonstrate custom root CA ...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon Machine Learning
+  - Artificial Intelligence
+  title: Control where your AI agents can browse with Chrome enterprise policies on
+    Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/control-where-your-ai-agents-can-browse-with-chrome-enterprise-policies-on-amazon-bedrock-agentcore/
+- category: ai
+  published: '2026-05-14T15:00:00'
+  score: 0.819
+  source: Towards Data Science
+  summary: A critical analysis of MRC's three counterintuitive design decisions, the
+    networking mathematics that make them work, and what they mean for the rest of
+    the AI infrastructure community. The post The C...
+  tags:
+  - Artificial Intelligence
+  - Ai Engineering
+  - Deep Dives
+  - Gpu
+  - Nvidia
+  title: The Counterintuitive Networking Decisions Behind OpenAI’s 131,000-GPU Training
+    Fabric
+  url: https://towardsdatascience.com/the-counterintuitive-networking-decisions-behind-openais-131000-gpu-training-fabric/
+- category: ai
+  published: '2026-05-14T13:00:00'
+  score: 0.85
+  source: OpenAI
+  summary: Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve
+    coding tasks in real time across devices and remote environments....
+  tags:
+  - Product
+  title: Work with Codex from anywhere
+  url: https://openai.com/index/work-with-codex-from-anywhere
+- category: cybersecurity
+  published: '2026-05-14T12:00:00'
+  score: 1.063
+  source: CISA
+  summary: View CSAF Summary ROS# contains a ROS service file_server, that before
+    version 2.2.2 contains a path traversal vulnerability which could allow an attacker
+    to access, i.e. read and write, arbitrary fil...
+  tags: []
+  title: Siemens Siemens ROS#
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08
+- category: cybersecurity
+  published: '2026-05-14T12:00:00'
+  score: 1.063
+  source: CISA
+  summary: View CSAF Summary Siemens gPROMS Web Applications Publisher (gWAP) is affected
+    by a remote code execution vulnerability introduced through a third-party component,
+    namely the Axios HTTP client library...
+  tags: []
+  title: Siemens gWAP
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01
+- category: ai
+  published: '2026-05-14T12:00:00'
+  score: 0.799
+  source: Towards Data Science
+  summary: Improve the quality of Claude Code output. The post How to Write Robust
+    Code with Claude Code appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - AI Agents
+  - AI coding assistants
+  - Claude Code
+  - Llm
+  title: How to Write Robust Code with Claude Code
+  url: https://towardsdatascience.com/how-to-write-robust-code-with-claude-code/
+- category: ai
+  published: '2026-05-14T11:04:27'
+  score: 0.924
+  source: Schneier on Security
+  summary: 'Last month, Anthropic made a remarkable announcement about its new model,
+    Claude Mythos Preview: it was so good at finding security vulnerabilities in software
+    that the company would not release it to...'
+  tags:
+  - Uncategorized
+  - AI
+  - hacking
+  - laws
+  - LLM
+  title: How Dangerous Is Anthropic’s Mythos AI?
+  url: https://www.schneier.com/blog/archives/2026/05/how-dangerous-is-anthropics-mythos-ai.html
+- category: ai
+  published: '2026-05-14T00:00:00'
+  score: 0.71
+  source: OpenAI
+  summary: Learn how new ChatGPT safety updates improve context awareness in sensitive
+    conversations, helping detect risk over time and respond more safely....
+  tags:
+  - Safety
+  title: Helping ChatGPT better recognize context in sensitive conversations
+  url: https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations
+- category: cybersecurity
   published: '2026-05-13T22:23:31'
   score: 0.998
   source: BleepingComputer
@@ -33073,5 +33257,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-14T06:06:51.534302'
-total_articles: 2580
+last_updated: '2026-05-15T06:12:37.863552'
+total_articles: 2595
