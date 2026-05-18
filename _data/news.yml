@@ -1,5 +1,144 @@
 articles:
 - category: cybersecurity
+  published: '2026-05-18T05:33:20'
+  score: 1.197
+  source: BleepingComputer
+  summary: The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers
+    collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]...
+  tags:
+  - Security
+  title: Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026
+  url: https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/
+- category: cybersecurity
+  published: '2026-05-17T22:30:08'
+  score: 1.141
+  source: BleepingComputer
+  summary: A cybersecurity researcher has released a proof-of-concept exploit for
+    a Windows privilege escalation zero-day dubbed "MiniPlasma" that lets attackers
+    gain SYSTEM privileges on fully patched Windows s...
+  tags:
+  - Microsoft
+  - Security
+  title: New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released
+  url: https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/
+- category: webdev
+  published: '2026-05-17T15:00:00'
+  score: 0.704
+  source: Towards Data Science
+  summary: 'Billions of rows might be the exception, but for everything else, Pandas
+    is still a highly reliable tool. The post Pandas Isn’t Going Anywhere: Why It’s
+    Still My Go-To for Data Wrangling appeared firs...'
+  tags:
+  - Programming
+  - Data Analysis
+  - Data Science
+  - Machine Learning
+  - Pandas
+  title: 'Pandas Isn’t Going Anywhere: Why It’s Still My Go-To for Data Wrangling'
+  url: https://towardsdatascience.com/pandas-isnt-going-anywhere-why-its-still-my-go-to-for-data-wrangling/
+- category: cybersecurity
+  published: '2026-05-17T14:43:10'
+  score: 0.938
+  source: BleepingComputer
+  summary: The Tycoon2FA phishing kit now supports device-code phishing attacks and
+    abuses Trustifi click-tracking URLs to hijack Microsoft 365 accounts. [...]...
+  tags:
+  - Security
+  title: Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing
+  url: https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/
+- category: ai
+  published: '2026-05-17T13:00:00'
+  score: 0.804
+  source: Towards Data Science
+  summary: Most LLM evaluation systems rely on vague scoring and human judgment disguised
+    as metrics. I built a lightweight evaluation layer in pure Python that turns LLM
+    outputs into reproducible decisions by s...
+  tags:
+  - Large Language Model
+  - Deep Dives
+  - Llm Evaluation
+  - Prompt Engineering
+  - Rag
+  title: LLM Evals Are Based on Vibes — I Built the Missing Layer That Decides What
+    Ships
+  url: https://towardsdatascience.com/llm-evals-are-based-on-vibes-i-built-the-missing-layer-that-decides-what-ships/
+- category: cybersecurity
+  published: '2026-05-17T11:57:53'
+  score: 1.013
+  source: The Hacker News
+  summary: A newly disclosed security flaw impacting NGINX Plus and NGINX Open has
+    come under active exploitation in the wild, days after its public disclosure,
+    according to VulnCheck. The vulnerability, tracked...
+  tags: []
+  title: NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible
+    RCE
+  url: https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html
+- category: webdev
+  published: '2026-05-17T11:00:14'
+  score: 0.679
+  source: Ars Technica
+  summary: Researchers are testing CAR T cell therapy as a way to reset the immune
+    system....
+  tags:
+  - Health
+  - Science
+  - autoimmune disease
+  - cancer treatment
+  - syndication
+  title: A revolutionary cancer treatment could transform autoimmune disease
+  url: https://arstechnica.com/science/2026/05/a-revolutionary-cancer-treatment-could-transform-autoimmune-disease/
+- category: cybersecurity
+  published: '2026-05-17T07:13:33'
+  score: 0.834
+  source: The Hacker News
+  summary: Grafana has disclosed that an "unauthorized party" obtained a token that
+    granted them the ability to access the company's GitHub environment and download
+    its codebase. "Our investigation has determine...
+  tags: []
+  title: Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt
+  url: https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html
+- category: webdev
+  published: '2026-05-16T15:00:00'
+  score: 0.504
+  source: Towards Data Science
+  summary: 'The exact tools I''m learning, the projects I''m building, and the mistakes
+    I''m already expecting to make The post From Data Analyst to Data Engineer: My
+    12-Month Self-Study Roadmap appeared first on To...'
+  tags:
+  - Data Engineering
+  - Career Advice
+  - Career Change
+  - Data Engineer
+  - Data Science
+  title: 'From Data Analyst to Data Engineer: My 12-Month Self-Study Roadmap'
+  url: https://towardsdatascience.com/from-data-analyst-to-data-engineer-my-12-month-self-study-roadmap/
+- category: webdev
+  published: '2026-05-16T14:15:37'
+  score: 0.499
+  source: BleepingComputer
+  summary: The Russian hacker group Secret Blizzard has developed its long-running
+    Kazuar backdoor into a modular peer-to-peer (P2P) botnet designed for long-term
+    persistence, stealth, and data collection. [...]...
+  tags:
+  - Security
+  title: Russian hackers turn Kazuar backdoor into modular P2P botnet
+  url: https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/
+- category: webdev
+  published: '2026-05-16T13:00:00'
+  score: 0.531
+  source: Towards Data Science
+  summary: 'Exactly how does it differ from ReAct, CodeAct, Self-Loops, and Subagents?
+    The post Recursive Language Models: An All-in-One Deep Dive appeared first on
+    Towards Data Science....'
+  tags:
+  - Large Language Models
+  - Agentic Ai
+  - Artificial Intelligence
+  - Deep Dives
+  - Llm
+  title: 'Recursive Language Models: An All-in-One Deep Dive'
+  url: https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/
+- category: cybersecurity
   published: '2026-05-15T05:28:03'
   score: 1.294
   source: The Hacker News
@@ -33257,5 +33396,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-15T06:12:37.863552'
-total_articles: 2595
+last_updated: '2026-05-18T06:25:59.110937'
+total_articles: 2606
