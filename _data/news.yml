@@ -1,5 +1,176 @@
 articles:
 - category: cybersecurity
+  published: '2026-05-19T05:28:06'
+  score: 1.101
+  source: The Hacker News
+  summary: In yet another software supply chain attack, threat actors have compromised
+    the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious
+    code that harvests sensitive credentials a...
+  tags: []
+  title: GitHub Actions Supply Chain Attack Redirects Tags to Steal CI/CD Credentials
+  url: https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html
+- category: cybersecurity
+  published: '2026-05-19T04:54:17'
+  score: 1.145
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a fresh software supply chain
+    attack campaign that has compromised various npm packages associated with the
+    @antv ecosystem as part of the ongoing Mini Shai-H...
+  tags: []
+  title: Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer
+    Account
+  url: https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html
+- category: webdev
+  published: '2026-05-18T20:41:14'
+  score: 0.739
+  source: Ars Technica
+  summary: CDC is working to move the infected American and six others to Germany....
+  tags:
+  - Health
+  - CDC
+  - Democratic Republic of the Congo
+  - drc
+  - ebola
+  title: 'Ebola outbreak: WHO declares emergency, US restricts travel, American infected'
+  url: https://arstechnica.com/health/2026/05/ebola-outbreak-who-declares-emergency-us-restricts-travel-american-infected/
+- category: webdev
+  published: '2026-05-18T20:27:15'
+  score: 0.738
+  source: Ars Technica
+  summary: Fake citations dashed a dude’s “Are We Dating the Same Guy” revenge lawsuit....
+  tags:
+  - AI
+  - Policy
+  - ai lawyer
+  - Artificial Intelligence
+  - defamation
+  title: 'Legal fail: Don’t use AI to sue Facebook users for calling you a bad date'
+  url: https://arstechnica.com/tech-policy/2026/05/legal-fail-dont-use-ai-to-sue-facebook-users-for-calling-you-a-bad-date/
+- category: webdev
+  published: '2026-05-18T19:49:00'
+  score: 0.734
+  source: Ars Technica
+  summary: '"I think there''s plenty of fire lit under them already."...'
+  tags:
+  - Space
+  - Mars
+  - mars telecommunications network
+  - mars telecommunications orbiter
+  - NASA
+  title: One Mars spacecraft, two senators, and a cloud of questions
+  url: https://arstechnica.com/space/2026/05/one-mars-spacecraft-two-senators-and-a-cloud-of-questions/
+- category: webdev
+  published: '2026-05-18T18:56:36'
+  score: 0.728
+  source: AWS Machine Learning
+  summary: In this post, you learn how to prompt Amazon Nova 2 Lite for content moderation
+    using structured and free-form approaches, grounded in the MLCommons AILuminate
+    Assessment Standard. The prompting techn...
+  tags:
+  - Amazon Bedrock
+  - Amazon Nova
+  - Best Practices
+  - Intermediate (200)
+  - Technical How-to
+  title: Prompting Amazon Nova 2 for content moderation
+  url: https://aws.amazon.com/blogs/machine-learning/prompting-amazon-nova-2-for-content-moderation/
+- category: ai
+  published: '2026-05-18T18:09:41'
+  score: 0.84
+  source: Ars Technica
+  summary: Musk plans to appeal after judge immediately affirmed the jury's decision....
+  tags:
+  - AI
+  - Policy
+  - Artificial Intelligence
+  - Elon Musk
+  - openai
+  title: Elon Musk took too long to sue OpenAI, jury unanimously agrees
+  url: https://arstechnica.com/tech-policy/2026/05/elon-musk-loses-trial-accusing-sam-altman-openai-of-stealing-a-charity/
+- category: ai
+  published: '2026-05-18T15:12:46'
+  score: 0.82
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: 'PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers
+    Backend'
+  url: https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers
+- category: webdev
+  published: '2026-05-18T13:47:19'
+  score: 0.736
+  source: CSS-Tricks
+  summary: This is Part 1 of a two-part series about cross-document view transitions,
+    going over all the gotchas, from ditching the deprecated way to opt into them
+    to a little-known 4-second timeout. Cross-Docum...
+  tags:
+  - Articles
+  - view transitions
+  title: 'Cross-Document View Transitions: The Gotchas Nobody Mentions'
+  url: https://css-tricks.com/cross-document-view-transitions-part-1/
+- category: ai
+  published: '2026-05-18T12:00:00'
+  score: 0.798
+  source: Towards Data Science
+  summary: Learn how to get the most out of OpenAI's coding agent The post How to
+    Maximize OpenAI’s Codex appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Ai Agent
+  - coding agents
+  - LLM Agents
+  - Openai Codex
+  title: How to Maximize OpenAI’s Codex
+  url: https://towardsdatascience.com/how-to-maximize-openais-codex/
+- category: cybersecurity
+  published: '2026-05-18T11:08:13'
+  score: 1.008
+  source: Schneier on Security
+  summary: 'It&#8217;s nasty, but it requires physical access to the computer: The
+    exploit, named YellowKey, was published earlier this week by a researcher who
+    goes by the alias Nightmare-Eclipse. It reliably by...'
+  tags:
+  - Uncategorized
+  - BitLocker
+  - exploits
+  - Windows
+  - zero-day
+  title: Zero-Day Exploit Against Windows BitLocker
+  url: https://www.schneier.com/blog/archives/2026/05/zero-day-exploit-against-windows-bitlocker.html
+- category: cybersecurity
+  published: '2026-05-18T10:54:05'
+  score: 1.054
+  source: The Hacker News
+  summary: Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for
+    various vulnerabilities that could be exploited by bad actors to bypass authentication
+    and execute arbitrary code. Topping the l...
+  tags: []
+  title: Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation
+    Flaws
+  url: https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html
+- category: ai
+  published: '2026-05-18T10:00:00'
+  score: 0.784
+  source: OpenAI
+  summary: OpenAI and Dell partner to bring Codex to hybrid and on-premise environments,
+    helping enterprises deploy AI coding agents securely across data and workflows....
+  tags:
+  - Company
+  title: OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise
+    environments
+  url: https://openai.com/index/dell-codex-enterprise-partnership
+- category: cybersecurity
+  published: '2026-05-18T08:57:34'
+  score: 1.039
+  source: The Hacker News
+  summary: Chaotic Eclipse, the security researcher behind the recently disclosed
+    Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC)
+    for a Windows privilege escalation zero-day flaw ...
+  tags: []
+  title: MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched
+    Systems
+  url: https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html
+- category: cybersecurity
   published: '2026-05-18T05:33:20'
   score: 1.197
   source: BleepingComputer
@@ -33396,5 +33567,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-18T06:25:59.110937'
-total_articles: 2606
+last_updated: '2026-05-19T06:23:29.340188'
+total_articles: 2620
