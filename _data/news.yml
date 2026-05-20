@@ -1,5 +1,179 @@
 articles:
 - category: cybersecurity
+  published: '2026-05-20T05:12:06'
+  score: 1.147
+  source: The Hacker News
+  summary: Grafana Labs, on May 19, 2026, said an investigation into its recent breach
+    found no evidence of customer production systems or operations being compromised.
+    It said the scope of the incident is limit...
+  tags: []
+  title: Grafana GitHub Breach Exposes Source Code via TanStack npm Attack
+  url: https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html
+- category: cybersecurity
+  published: '2026-05-20T05:08:42'
+  score: 1.099
+  source: BleepingComputer
+  summary: GitHub is investigating a breach of its internal repositories after the
+    TeamPCP hacker group claimed to have accessed approximately 4,000 repositories
+    containing private code. [...]...
+  tags:
+  - Security
+  title: GitHub investigates internal repositories breach claimed by TeamPCP
+  url: https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/
+- category: cybersecurity
+  published: '2026-05-20T04:01:15'
+  score: 1.09
+  source: The Hacker News
+  summary: GitHub on Tuesday said it's investigating unauthorized access to its internal
+    repositories after the notorious threat actor known as TeamPCP listed the platform's
+    source code and internal organization...
+  tags: []
+  title: GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories
+  url: https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html
+- category: webdev
+  published: '2026-05-19T21:29:33'
+  score: 0.744
+  source: Ars Technica
+  summary: FBI will pay vendors to help it track and search for vehicles nationwide....
+  tags:
+  - Policy
+  - automated license plate readers
+  - Flock!
+  title: FBI seeks US-wide access to license plate cameras, wants "data in near real
+    time"
+  url: https://arstechnica.com/tech-policy/2026/05/fbi-seeks-us-wide-access-to-license-plate-cameras-wants-data-in-near-real-time/
+- category: webdev
+  published: '2026-05-19T20:58:51'
+  score: 0.741
+  source: Ars Technica
+  summary: It's never too late to become a hero....
+  tags:
+  - Culture
+  - prime video
+  - Spider-Noir
+  - Trailers
+  title: Spider-Noir final trailer gives us a classic villain
+  url: https://arstechnica.com/culture/2026/05/spider-noirs-final-trailer-leans-into-the-deadpan-humor/
+- category: webdev
+  published: '2026-05-19T20:43:31'
+  score: 0.74
+  source: Ars Technica
+  summary: '"How in the hell do I get more science into space? That is my goal."...'
+  tags:
+  - Science
+  - Space
+  - astrophysics
+  - Commercial space
+  - NASA
+  title: '"I''ll buy 10 of those"—NASA science chief yearns for mass-produced satellites'
+  url: https://arstechnica.com/space/2026/05/ill-buy-10-of-those-nasa-science-chief-yearns-for-mass-produced-satellites/
+- category: ai
+  published: '2026-05-19T20:30:00'
+  score: 0.856
+  source: OpenAI
+  summary: OpenAI for Singapore launches a multi-year AI partnership to expand deployment,
+    build local talent, and support businesses and public services with AI....
+  tags:
+  - Global Affairs
+  title: Introducing OpenAI for Singapore
+  url: https://openai.com/index/introducing-openai-for-singapore
+- category: webdev
+  published: '2026-05-19T19:52:01'
+  score: 0.734
+  source: Ars Technica
+  summary: Plex says that it has considered getting rid of Lifetime Passes....
+  tags:
+  - Tech
+  - Plex
+  - streaming
+  title: Plex's 200% Lifetime Pass price hike tries forcing users to another subscription
+  url: https://arstechnica.com/gadgets/2026/05/plexs-200-lifetime-pass-price-hike-tries-forcing-users-to-another-subscription/
+- category: ai
+  published: '2026-05-19T18:37:02'
+  score: 0.843
+  source: Ars Technica
+  summary: AI content is getting good, but SynthID might be able to help tell truth
+    from fiction....
+  tags:
+  - AI
+  - Google
+  - Artificial Intelligence
+  - gemini
+  - google
+  title: Google's SynthID AI watermarking tech is being adopted by OpenAI, Nvidia,
+    and more
+  url: https://arstechnica.com/google/2026/05/googles-synthid-ai-watermarking-tech-is-being-adopted-by-openai-nvidia-and-more/
+- category: ai
+  published: '2026-05-19T18:11:50'
+  score: 0.84
+  source: Ars Technica
+  summary: Google says its more efficient Gemini 3.5 Flash is the key to your agentic
+    AI future....
+  tags:
+  - AI
+  - Google
+  - gemini
+  - gemini 3.5
+  - google
+  title: Gemini 3.5 Flash might be fast enough for gen AI to make sense
+  url: https://arstechnica.com/google/2026/05/google-announces-agent-optimized-gemini-3-5-flash-and-a-do-anything-model-called-omni/
+- category: ai
+  published: '2026-05-19T17:45:00'
+  score: 0.837
+  source: Google AI Blog
+  summary: a series of colorful icons representing Google I/O against a black background...
+  tags:
+  - Search
+  - Google Labs
+  - Google Workspace
+  - AI
+  - Gemini App
+  title: 'I/O 2026: Welcome to the agentic Gemini era'
+  url: https://blog.google/innovation-and-ai/sundar-pichai-io-2026/
+- category: ai
+  published: '2026-05-19T17:45:00'
+  score: 0.837
+  source: Google AI Blog
+  summary: Gemini 3.5 text and multi-colored star icon on an abstract blue background....
+  tags:
+  - Gemini models
+  - AI
+  title: 'Gemini 3.5: frontier intelligence with action'
+  url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/
+- category: webdev
+  published: '2026-05-19T17:45:00'
+  score: 0.761
+  source: Google AI Blog
+  summary: At Google I/O 2026, we shared how we’re making AI more helpful for everyone.
+    See everything we announced....
+  tags:
+  - Gemini App
+  - Gemini models
+  - Developer tools
+  - AI
+  title: I/O 2026
+  url: https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/
+- category: cybersecurity
+  published: '2026-05-19T14:56:26'
+  score: 1.084
+  source: The Hacker News
+  summary: Proof-of-concept (PoC) exploit code has now been released for a recently
+    patched security flaw in the Linux kernel that could allow for local privilege
+    escalation (LPE). Dubbed DirtyDecrypt (aka Dirty...
+  tags: []
+  title: DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability
+  url: https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html
+- category: cybersecurity
+  published: '2026-05-19T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to take control of the victim's browser. The following versions of
+    Kieback &amp; Peter DDC Building Controllers ...
+  tags: []
+  title: Kieback & Peter DDC Building Controllers
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-05
+- category: cybersecurity
   published: '2026-05-19T05:28:06'
   score: 1.101
   source: The Hacker News
@@ -33567,5 +33741,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-19T06:23:29.340188'
-total_articles: 2620
+last_updated: '2026-05-20T06:22:52.154370'
+total_articles: 2635
