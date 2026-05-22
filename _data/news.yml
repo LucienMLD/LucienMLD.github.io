@@ -1,4 +1,179 @@
 articles:
+- category: webdev
+  published: '2026-05-22T07:00:00'
+  score: 0.904
+  source: Chrome Developers
+  summary: Another Google I/O is behind us and we have covered all the exciting extensions
+    updates!...
+  tags: []
+  title: 'What''s new in web extensions: I/O 2026 recap'
+  url: https://developer.chrome.com/blog/extensions-io-2026?hl=en
+- category: cybersecurity
+  published: '2026-05-22T05:36:18'
+  score: 1.294
+  source: The Hacker News
+  summary: Cisco has rolled out updates for a maximum-severity security flaw impacting
+    Secure Workload that could allow an unauthenticated, remote attacker to access
+    sensitive data. Tracked as CVE-2026-20223 (CV...
+  tags: []
+  title: Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access
+  url: https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html
+- category: webdev
+  published: '2026-05-22T02:05:37'
+  score: 0.873
+  source: Ars Technica
+  summary: Engineers could make another attempt to launch Starship as soon as Friday
+    evening....
+  tags:
+  - Science
+  - Space
+  - Commercial space
+  - launch
+  - spacex
+  title: Ground system issue scrubs first launch of SpaceX's Starship V3 rocket
+  url: https://arstechnica.com/space/2026/05/ground-system-issue-scrubs-first-launch-of-spacexs-starship-v3-rocket/
+- category: webdev
+  published: '2026-05-21T23:00:26'
+  score: 0.754
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 244 is now available for download for
+    macOS Tahoe and macOS Sequoia....
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 244
+  url: https://webkit.org/blog/17962/release-notes-for-safari-technology-preview-244/
+- category: webdev
+  published: '2026-05-21T18:13:50'
+  score: 0.804
+  source: BleepingComputer
+  summary: Google has accidentally leaked details about an unfixed issue in Chromium
+    that keeps JavaScript running in the background even when the browser is closed,
+    allowing remote code execution on the device....
+  tags:
+  - Security
+  title: Google accidentally exposed details of unfixed Chromium flaw
+  url: https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/
+- category: webdev
+  published: '2026-05-21T18:00:05'
+  score: 0.763
+  source: Mozilla Hacks
+  summary: Support for Web Serial in Firefox 151 for Desktop Firefox can now connect
+    directly to microcontrollers, development boards, 3D printers, power meters, and
+    other serial-connected hardware from the web....
+  tags:
+  - Device APIs
+  - Firefox
+  - hardware
+  - Web APIs
+  title: Announcing Web Serial Support in Firefox
+  url: https://hacks.mozilla.org/2026/05/web-serial-support-in-firefox/
+- category: ai
+  published: '2026-05-21T16:30:00'
+  score: 0.829
+  source: Towards Data Science
+  summary: A practitioner's warning about generated variables in causal analysis The
+    post LLM Themes Are Not Observations appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Causal Data Science
+  - Causal Inference
+  - Editors Pick
+  - Llm
+  title: LLM Themes Are Not Observations
+  url: https://towardsdatascience.com/llm-themes-are-not-observations/
+- category: ai
+  published: '2026-05-21T16:08:54'
+  score: 0.87
+  source: AWS Machine Learning
+  summary: In this post, you will learn how to implement Recursive Language Models
+    (RLM) using Amazon Bedrock AgentCore Code Interpreter and the Strands Agents SDK.
+    By the end, you will know how to process docum...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Artificial Intelligence
+  - Generative AI
+  title: Break the context window barrier with Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/break-the-context-window-barrier-with-amazon-bedrock-agentcore/
+- category: ai
+  published: '2026-05-21T16:04:17'
+  score: 0.87
+  source: AWS Machine Learning
+  summary: In this post, we show you how OPLOG developed three AI agents using the
+    Strands Agents SDK, deployed them to Amazon Bedrock AgentCore, and integrated
+    Amazon Bedrock with Anthropic’s Claude Sonnet and ...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock AgentCore
+  - Customer Solutions
+  - Partner solutions
+  title: Build AI agents for business intelligence with Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/build-ai-agents-for-business-intelligence-with-amazon-bedrock-agentcore/
+- category: ai
+  published: '2026-05-21T15:55:29'
+  score: 0.825
+  source: AWS Machine Learning
+  summary: This solution combines the power of Amazon Bedrock AgentCore, Strands Agents,
+    and Amazon Quick transforms to deliver a secure, scalable, and intelligent system
+    for building and operating AI agents whi...
+  tags:
+  - Amazon Bedrock AgentCore
+  - Amazon Quick Sight
+  - Amazon Simple Storage Service (S3)
+  - AWS Command Line Interface
+  - AWS Identity and Access Management (IAM)
+  title: Build AI-powered dashboard automation agents with NLP on Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/build-ai-powered-dashboard-automation-agents-with-nlp-on-amazon-bedrock-agentcore/
+- category: cybersecurity
+  published: '2026-05-21T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary ABB is aware of vulnerabilities in the product versions
+    listed as affected in the advisory. An attacker who successfully exploited this
+    vulnerability could cause the pollution of hea...
+  tags: []
+  title: ABB Terra AC Wallbox
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05
+- category: cybersecurity
+  published: '2026-05-21T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary Hitachi Energy is aware of the vulnerability, CVE-2022-4304
+    in the OSS component OpenSSL, that affects the GMS600 versions that are listed
+    below. An attacker successfully exploiting ...
+  tags: []
+  title: Hitachi Energy GMS600
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-01
+- category: cybersecurity
+  published: '2026-05-21T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary ABB became aware of vulnerability in the product versions
+    listed as affected in the advisory. An update is available that replaces an outdated
+    third-party component. Although no succ...
+  tags: []
+  title: ABB B&R Automation Studio
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-03
+- category: cybersecurity
+  published: '2026-05-21T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary An update is available that resolves a vulnerability
+    identified by B&amp;Rs internal security analysis in the product versions listed
+    as affected in this advisory. An attacker who su...
+  tags: []
+  title: ABB B&R Automation Runtime
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-04
+- category: ai
+  published: '2026-05-21T12:00:00'
+  score: 0.886
+  source: OpenAI
+  summary: AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce
+    administrative burden, and return more time to patient care....
+  tags: []
+  title: AdventHealth advances whole-person care with OpenAI
+  url: https://openai.com/index/adventhealth
 - category: cybersecurity
   published: '2026-05-21T04:27:01'
   score: 1.093
@@ -33925,5 +34100,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-21T06:23:19.176092'
-total_articles: 2650
+last_updated: '2026-05-22T06:22:34.411436'
+total_articles: 2665
