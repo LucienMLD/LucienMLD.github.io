@@ -1,5 +1,138 @@
 articles:
 - category: webdev
+  published: '2026-05-24T17:00:00'
+  score: 0.716
+  source: Towards Data Science
+  summary: Simple step-by-step tutorial to building an AI agent in Python The post
+    The Ultimate Beginners’ Guide to Building an AI Agent in Python appeared first
+    on Towards Data Science....
+  tags:
+  - Agentic AI
+  - Agentic Ai
+  - Ai Agent
+  - Editors Pick
+  - LLM Agents
+  title: The Ultimate Beginners’ Guide to Building an AI Agent in Python
+  url: https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/
+- category: cybersecurity
+  published: '2026-05-24T14:12:32'
+  score: 1.03
+  source: BleepingComputer
+  summary: A large-scale campaign is exploiting a critical SQL injection vulnerability
+    (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers
+    ClickFix attack flows. [...]...
+  tags:
+  - Security
+  title: Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign
+  url: https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/
+- category: webdev
+  published: '2026-05-24T13:00:00'
+  score: 0.731
+  source: Towards Data Science
+  summary: 'Unlock the power of API for data-driven solutions The post Beyond the
+    Model: Why Data Scientists Must Embrace APIs and API Documentation appeared first
+    on Towards Data Science....'
+  tags:
+  - Data Science
+  - API
+  title: 'Beyond the Model: Why Data Scientists Must Embrace APIs and API Documentation'
+  url: https://towardsdatascience.com/beyond-the-model-why-data-scientists-must-embrace-apis-and-api-documentation/
+- category: webdev
+  published: '2026-05-24T11:15:38'
+  score: 0.68
+  source: Ars Technica
+  summary: The white whales join the short, contested list of animals that see themselves....
+  tags:
+  - Science
+  - animal cognition
+  - Biology
+  - consciousness
+  - mirror test
+  title: Whatever the mirror test tells us, beluga whales pass it
+  url: https://arstechnica.com/science/2026/05/belugas-may-pass-the-mirror-test-but-does-the-mirror-test-still-pass/
+- category: cybersecurity
+  published: '2026-05-23T20:48:23'
+  score: 0.753
+  source: BleepingComputer
+  summary: A supply chain attack targeting the Laravel Lang localization packages
+    has exposed developers to a sophisticated credential-stealing malware campaign
+    after attackers abused GitHub version tags to dist...
+  tags:
+  - Security
+  title: Laravel Lang packages hijacked to deploy credential-stealing malware
+  url: https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/
+- category: webdev
+  published: '2026-05-23T17:54:54'
+  score: 0.521
+  source: Ars Technica
+  summary: SpaceX has more to prove before flying Starship all the way to low-Earth
+    orbit....
+  tags:
+  - Science
+  - Space
+  - artemis
+  - Commercial space
+  - human landing system
+  title: SpaceX's Starship V3—still a work in progress—mostly successful on first
+    flight
+  url: https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight/
+- category: webdev
+  published: '2026-05-23T17:00:00'
+  score: 0.516
+  source: Towards Data Science
+  summary: 'Optimal Resolution in Histograms: A Rigorous Bayesian Approach to Density
+    Fitting The post How to Mathematically Choose the Optimal Bins for Your Histogram
+    appeared first on Towards Data Science....'
+  tags:
+  - Data Science
+  - Bayesian
+  - Data Visualization
+  - Density Estimation
+  - Histogram
+  title: How to Mathematically Choose the Optimal Bins for Your Histogram
+  url: https://towardsdatascience.com/fun-with-histograms-and-densities/
+- category: cybersecurity
+  published: '2026-05-23T16:35:10'
+  score: 0.77
+  source: The Hacker News
+  summary: GitHub has rolled out new controls for npm to improve the security of the
+    software supply chain, giving maintainers the ability to explicitly approve a
+    release prior to the packages becoming publicly ...
+  tags: []
+  title: npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply
+    Chain Attacks
+  url: https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html
+- category: ai
+  published: '2026-05-23T11:55:35'
+  score: 0.669
+  source: The Hacker News
+  summary: Anthropic on Friday disclosed that Project Glasswing has helped uncover
+    more than 10,000 high- or critical-severity vulnerabilities across some of the
+    most "systemically" important software across the...
+  tags: []
+  title: Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software
+  url: https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html
+- category: cybersecurity
+  published: '2026-05-23T07:35:13'
+  score: 0.798
+  source: The Hacker News
+  summary: 'A maximum-severity security vulnerability impacting LiteSpeed User-End
+    cPanel Plugin has come under active exploitation in the wild. The flaw, tracked
+    as CVE-2026-48172 (CVSS score: 10.0), relates to ...'
+  tags: []
+  title: LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root
+  url: https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html
+- category: cybersecurity
+  published: '2026-05-23T07:23:48'
+  score: 0.797
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added
+    a recently patched critical security flaw impacting Drupal Core to its Known Exploited
+    Vulnerabilities (KEV) catalog, based o...
+  tags: []
+  title: Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV
+  url: https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html
+- category: webdev
   published: '2026-05-22T07:00:00'
   score: 0.904
   source: Chrome Developers
@@ -34100,5 +34233,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-22T06:22:34.411436'
-total_articles: 2665
+last_updated: '2026-05-25T06:31:05.887181'
+total_articles: 2676
