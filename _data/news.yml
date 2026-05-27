@@ -1,4 +1,196 @@
 articles:
+- category: webdev
+  published: '2026-05-26T22:27:32'
+  score: 0.75
+  source: Ars Technica
+  summary: Parsing a papal proclamation....
+  tags:
+  - Policy
+  - AI
+  - Catholicism
+  - ethics
+  - peter thiel
+  title: Is Peter Thiel the target of Pope Leo's Gandalf quote? An investigation.
+  url: https://arstechnica.com/tech-policy/2026/05/is-peter-thiel-the-target-of-pope-leos-gandalf-quote-an-investigation/
+- category: webdev
+  published: '2026-05-26T21:23:56'
+  score: 0.743
+  source: Ars Technica
+  summary: Musk says drones used Starlink instead of Starshield, blames military contractor....
+  tags:
+  - Policy
+  - drones
+  - spacex
+  - starlink
+  - starshield
+  title: Musk says US military suicide drones used Starlink in violation of SpaceX
+    rules
+  url: https://arstechnica.com/tech-policy/2026/05/musk-says-us-military-suicide-drones-used-starlink-in-violation-of-spacex-rules/
+- category: webdev
+  published: '2026-05-26T21:03:03'
+  score: 0.741
+  source: Ars Technica
+  summary: '"We also obviously want to be very mindful of the Outer Space Treaty."...'
+  tags:
+  - Space
+  - moon base
+  - NASA
+  - outer space treaty
+  - rovers
+  title: NASA takes steps toward building Moon Base, including discussing a "perimeter"
+  url: https://arstechnica.com/space/2026/05/nasa-takes-steps-toward-building-moon-base-including-discussing-a-perimeter/
+- category: webdev
+  published: '2026-05-26T20:47:31'
+  score: 0.739
+  source: Ars Technica
+  summary: Sub-$600 laptops have existed for years, but consistently good ones remain
+    rare....
+  tags:
+  - Tech
+  - Intel
+  - intel core
+  - intel core series 3
+  - macbook neo
+  title: We're starting to see some PC makers respond to Apple's MacBook Neo
+  url: https://arstechnica.com/gadgets/2026/05/were-starting-to-see-some-pc-makers-respond-to-apples-macbook-neo/
+- category: ai
+  published: '2026-05-26T17:41:26'
+  score: 0.836
+  source: AWS Machine Learning
+  summary: In this post, we provide a solution to build highly scalable, serverless
+    multi-agent generative AI systems on AWS using LangGraph Agents as orchestrators
+    integrated with Amazon Bedrock AgentCore Memor...
+  tags:
+  - Advanced (300)
+  - Amazon API Gateway
+  - Amazon Bedrock AgentCore
+  - Amazon Bedrock Agents
+  - Customer Solutions
+  title: Build highly scalable serverless LangGraph multi-agent systems in AWS with
+    Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/build-highly-scalable-serverless-langgraph-multi-agent-systems-in-aws-with-amazon-bedrock-agentcore/
+- category: ai
+  published: '2026-05-26T17:39:46'
+  score: 0.836
+  source: AWS Machine Learning
+  summary: In this post you'll learn how to build a multi-agent campaign review system
+    that demonstrates parallel reasoning, context persistence, and traceable execution
+    paths using an integrated architecture th...
+  tags:
+  - Amazon Bedrock Agents
+  - Best Practices
+  - Strands Agents
+  - Technical How-to
+  - Thought Leadership
+  title: Build high-performance generative AI systems with Strands Agents, NVIDIA
+    NIM, and Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/build-high-performance-generative-ai-systems-with-strands-agents-nvidia-nim-and-amazon-bedrock-agentcore/
+- category: ai
+  published: '2026-05-26T17:16:07'
+  score: 0.833
+  source: Ars Technica
+  summary: Hugging Face debuts $2,500 bipedal robot project for builders and researchers....
+  tags:
+  - AI
+  - Bipedalism
+  - Hugging Face
+  - humanoid robots
+  - robot training
+  title: 3D-printable humanoid legs let robotics experiments run wild
+  url: https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/
+- category: ai
+  published: '2026-05-26T16:28:08'
+  score: 0.828
+  source: AWS Machine Learning
+  summary: Building an AI app shouldn’t require a PhD in machine learning (ML) or
+    months of wrestling with complex architectures. Yet that’s exactly what happens
+    when you try to orchestrate multiple API calls, m...
+  tags:
+  - Artificial Intelligence
+  - Kiro
+  - Strands Agents
+  - Technical How-to
+  - AI/ML
+  title: 'From idea to AI app: Creating intelligent research assistants with Strands'
+  url: https://aws.amazon.com/blogs/machine-learning/from-idea-to-ai-app-creating-intelligent-research-assistants-with-strands/
+- category: ai
+  published: '2026-05-26T15:00:00'
+  score: 0.817
+  source: Towards Data Science
+  summary: Why your AI model can be wrong with 99% confidence The post The AI Model
+    Confidence Trap appeared first on Towards Data Science....
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Confidence Score
+  - Editors Pick
+  - Model Evaluation
+  title: The AI Model Confidence Trap
+  url: https://towardsdatascience.com/the-ai-model-confidence-trap/
+- category: webdev
+  published: '2026-05-26T13:49:28'
+  score: 0.736
+  source: CSS-Tricks
+  summary: This isn’t totally about AI. It’s about technical writing in the age of
+    AI. I have some thoughts on this and I hope it’s helpful to you humans reading.
+    Technical Writing in the AI Age originally handw...
+  tags:
+  - Articles
+  - ai
+  - writing
+  title: Technical Writing in the AI Age
+  url: https://css-tricks.com/technical-writing-in-the-ai-age/
+- category: cybersecurity
+  published: '2026-05-26T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to gain full access to functionality and data with the bioreactor.
+    The following versions of Eppendorf BioFlo 32...
+  tags: []
+  title: Eppendorf BioFlo 320
+  url: https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01
+- category: cybersecurity
+  published: '2026-05-26T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary ABB is aware of public reports of vulnerabilities in
+    a 3rd party component VLC media player Version 2.2.4 which was delivered together
+    with the installation package of Camera Connect...
+  tags: []
+  title: ABB Ability Camera Connect
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-05
+- category: cybersecurity
+  published: '2026-05-26T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary An update is available that resolves a vulnerability
+    identified by B&amp;Rs internal security analysis in the product versions listed
+    as affected in this advisory. An attacker who su...
+  tags: []
+  title: ABB B&R Automation Runtime DoS Vulnerability in System Diagnostics Manager
+    (SDM)
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04
+- category: cybersecurity
+  published: '2026-05-26T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary ABB became aware of an internally discovered vulnerability
+    in the MConfig product versions listed as affected in the advisory. An attacker
+    with access to local networks who successfu...
+  tags: []
+  title: ABB LVS MConfig
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06
+- category: cybersecurity
+  published: '2026-05-26T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary ABB became aware of vulnerabilities in AC500 V2 listed
+    as affected in the advisory. An attacker who successfully exploited this vulnerability
+    could access fragments of Modbus telegra...
+  tags: []
+  title: ABB AC500 V2
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-02
 - category: cybersecurity
   published: '2026-05-26T05:19:38'
   score: 1.292
@@ -34405,5 +34597,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-26T06:22:16.994813'
-total_articles: 2690
+last_updated: '2026-05-27T06:30:19.374776'
+total_articles: 2705
