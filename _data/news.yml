@@ -1,4 +1,182 @@
 articles:
+- category: cybersecurity
+  published: '2026-05-27T21:31:25'
+  score: 0.941
+  source: BleepingComputer
+  summary: Threat actors are targeting systems with high-performance computers in
+    an ongoing cryptojacking campaign spread through a coordinated SEO poisoning operation
+    that also manipulated AI chatbot recommend...
+  tags:
+  - Security
+  title: GPU mining malware spreads via SEO poisoning, AI chatbots
+  url: https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/
+- category: webdev
+  published: '2026-05-27T21:28:53'
+  score: 0.744
+  source: AWS Machine Learning
+  summary: 'In this post, we explore how Amazon Bedrock Data Automation can accurately
+    extract information from four common types of financial documents: bank statements,
+    W-2 forms, 1099-B tax forms, and vendor c...'
+  tags:
+  - Amazon Bedrock
+  - Artificial Intelligence
+  - Technical How-to
+  title: Process financial documents using Amazon Bedrock Data Automation
+  url: https://aws.amazon.com/blogs/machine-learning/process-financial-documents-using-amazon-bedrock-data-automation/
+- category: webdev
+  published: '2026-05-27T21:08:51'
+  score: 0.742
+  source: Ars Technica
+  summary: California civil rights agency hails win over Tesla, anticipates trial
+    in July....
+  tags:
+  - Policy
+  - Tesla
+  title: California defeats Tesla's attempt to throw out racial discrimination lawsuit
+  url: https://arstechnica.com/tech-policy/2026/05/california-defeats-teslas-attempt-to-throw-out-racial-discrimination-lawsuit/
+- category: webdev
+  published: '2026-05-27T20:56:03'
+  score: 0.821
+  source: Ars Technica
+  summary: Telltale SSD activity can be measured in the browser using simple JavaScript....
+  tags:
+  - Biz & IT
+  - Security
+  - side channel attacks
+  - solid state drives
+  - SSDs
+  title: 'Websites have a new way to spy on visitors: analyzing their SSD activity'
+  url: https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/
+- category: webdev
+  published: '2026-05-27T20:43:54'
+  score: 0.74
+  source: Ars Technica
+  summary: NASA science satellites show dual use in locating sources of GPS interference....
+  tags:
+  - Space
+  - Tech
+  - cygnss
+  - GNSS
+  - GPS
+  title: Mystery GPS jammer in Iran becomes test for NASA satellites’ capabilities
+  url: https://arstechnica.com/gadgets/2026/05/nasa-satellites-can-spot-gps-jammers-on-earth/
+- category: webdev
+  published: '2026-05-27T20:22:04'
+  score: 0.737
+  source: Ars Technica
+  summary: Smooth movement, compelling combat, and tons of secrets make for an innovative
+    throwback....
+  tags:
+  - Gaming
+  - action adventure
+  - mina the hollower
+  - yacht club games
+  - Zelda
+  title: Mina the Hollower is the best old-school action adventure I've played in
+    a while
+  url: https://arstechnica.com/gaming/2026/05/mina-the-hollower-is-the-best-old-school-action-adventure-ive-played-in-a-while/
+- category: ai
+  published: '2026-05-27T20:06:34'
+  score: 0.853
+  source: AWS Machine Learning
+  summary: In this post, we share how the AWS Generative AI Innovation Center (GenAIIC)
+    collaborated with Works Human Intelligence (WHI) to build two AI agents using
+    Amazon Bedrock AgentCore. We discuss the chal...
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Customer Solutions
+  - Intermediate (200)
+  title: Building AI agents for business support using Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/building-ai-agents-for-business-support-using-amazon-bedrock-agentcore/
+- category: ai
+  published: '2026-05-27T16:30:00'
+  score: 0.828
+  source: Towards Data Science
+  summary: Keep an overview of all your coding agents that run in parallel The post
+    How to Effectively Run Many Claude Code Sessions in Parallel appeared first on
+    Towards Data Science....
+  tags:
+  - Agentic AI
+  - AI Agents
+  - AI coding assistants
+  - Claude Code
+  - coding agents
+  title: How to Effectively Run Many Claude Code Sessions in Parallel
+  url: https://towardsdatascience.com/how-to-effectively-run-many-claude-code-sessions-in-parallel/
+- category: ai
+  published: '2026-05-27T15:44:29'
+  score: 0.911
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered a new malicious package on the
+    npm registry that comes with information stealing capabilities. According to OX
+    Security, the package, named "mouse5212-super-f...
+  tags: []
+  title: Malicious npm Package Stole Files From Claude AI User Directory via GitHub
+  url: https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html
+- category: cybersecurity
+  published: '2026-05-27T14:00:10'
+  score: 0.933
+  source: BleepingComputer
+  summary: Strong Active Directory passwords don't have to come at the expense of
+    usability. Specops Software explains how passphrases, breached password protection,
+    and self-service resets can improve security ...
+  tags:
+  - Security
+  title: Can you enforce strong Active Directory password rules without frustrating
+    users?
+  url: https://www.bleepingcomputer.com/news/security/can-you-enforce-strong-active-directory-password-rules-without-frustrating-users/
+- category: ai
+  published: '2026-05-27T12:00:05'
+  score: 0.841
+  source: Machine Learning Mastery
+  summary: When large language models, or LLMs for short, produce outputs, several
+    criteria are at stake, including not only overall response relevance but also
+    coherence and creativity....
+  tags: []
+  title: 'The Statistics of Token Selection: Logits, Temperature, and Top-P Walkthrough'
+  url: https://machinelearningmastery.com/the-statistics-of-token-selection-logits-temperature-and-top-p-walkthrough/
+- category: cybersecurity
+  published: '2026-05-27T12:00:00'
+  score: 1.014
+  source: CISA
+  summary: CISA has added&nbsp;three&nbsp;new vulnerabilities&nbsp;to its&nbsp;Known
+    Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.
+    CVE-2026-8398&nbsp;Daemon Tools Lite Embedd...
+  tags: []
+  title: CISA Adds Three Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2026-05-27T11:00:00'
+  score: 0.791
+  source: OpenAI
+  summary: Cisco and OpenAI are redefining enterprise engineering with Codex, helping
+    Cisco scale AI-native development, accelerate AI Defense work, and automate defect
+    remediation....
+  tags: []
+  title: Cisco and OpenAI redefine enterprise engineering with Codex
+  url: https://openai.com/index/cisco
+- category: cybersecurity
+  published: '2026-05-27T10:06:32'
+  score: 1.048
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed a security flaw in Gitea, an open-source,
+    self-hosted platform for version control, that allows unauthenticated remote attackers
+    to pull private container imag...
+  tags: []
+  title: Gitea Vulnerability Exposes Private Container Images without Authentication
+  url: https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html
+- category: cybersecurity
+  published: '2026-05-27T10:06:17'
+  score: 1.048
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has given
+    U.S. federal agencies four days to secure their servers against a critical vulnerability
+    in the LiteSpeed cPanel user-end plu...
+  tags:
+  - Security
+  title: CISA gives feds 4 days to patch actively exploited cPanel plugin flaw
+  url: https://www.bleepingcomputer.com/news/security/cisa-gives-feds-4-days-to-patch-actively-exploited-cpanel-plugin-flaw/
 - category: webdev
   published: '2026-05-26T22:27:32'
   score: 0.75
@@ -34597,5 +34775,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-27T06:30:19.374776'
-total_articles: 2705
+last_updated: '2026-05-28T06:24:44.752404'
+total_articles: 2720
