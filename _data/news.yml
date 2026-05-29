@@ -1,4 +1,180 @@
 articles:
+- category: webdev
+  published: '2026-05-29T02:21:08'
+  score: 0.874
+  source: Ars Technica
+  summary: New Glenn was due to play a starring role in NASA's Artemis Program....
+  tags:
+  - Space
+  title: The most spectacular rocket explosion since N1 just happened in Florida
+  url: https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/
+- category: ai
+  published: '2026-05-29T00:21:03'
+  score: 0.926
+  source: BleepingComputer
+  summary: Anthropic has confirmed that it plans to bring Mythos-class models to the
+    general public after delaying the rollout due to security risks to public and
+    private software. [...]...
+  tags:
+  - Artificial Intelligence
+  - Software
+  title: Anthropic confirms Claude Mythos-class models will roll out to the public
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/
+- category: ai
+  published: '2026-05-28T22:24:49'
+  score: 0.957
+  source: BleepingComputer
+  summary: A likely Russian threat cluster tracked as GreyVibe has been targeting
+    Ukrainian entities with AI-generated lures and a rich set of custom malware tools.
+    [...]...
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: GreyVibe hackers use ChatGPT, Gemini to power cyberattacks
+  url: https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/
+- category: webdev
+  published: '2026-05-28T22:01:02'
+  score: 0.787
+  source: Ars Technica
+  summary: Audi has developed an entirely new electric torque-vectoring rear differential....
+  tags:
+  - Cars
+  - Audi RS5 Sportback
+  - car review
+  - First drive
+  title: '2027 Audi RS5 first drive: A performance PHEV with split personalities'
+  url: https://arstechnica.com/cars/2026/05/2027-audi-rs5-first-drive-a-performance-phev-with-split-personalities/
+- category: ai
+  published: '2026-05-28T21:54:06'
+  score: 0.953
+  source: AWS Machine Learning
+  summary: Azercell Telecom LLC, Azerbaijan's leading telecommunications provider,
+    wanted to build an Azerbaijani large language model (LLM) on Amazon SageMaker
+    AI for telecom use cases and a customer-facing cha...
+  tags:
+  - Amazon SageMaker
+  - Amazon SageMaker AI
+  - Artificial Intelligence
+  - Customer Solutions
+  - Experience-Based Acceleration
+  title: Training Azerbaijani language models on Amazon SageMaker AI
+  url: https://aws.amazon.com/blogs/machine-learning/training-azerbaijani-language-models-on-amazon-sagemaker-ai/
+- category: webdev
+  published: '2026-05-28T20:35:44'
+  score: 0.818
+  source: AWS Machine Learning
+  summary: In this post, we demonstrate how to build a secure Flask-based MLflow proxy
+    service that provides HTTPS access to Amazon SageMaker MLflow without requiring
+    the MLflow SDK. This solution is for organiz...
+  tags:
+  - Amazon SageMaker
+  - Technical How-to
+  title: Streamline external access to Amazon SageMaker MLflow using a REST API proxy
+  url: https://aws.amazon.com/blogs/machine-learning/streamline-external-access-to-amazon-sagemaker-mlflow-using-a-rest-api-proxy/
+- category: cybersecurity
+  published: '2026-05-28T17:25:43'
+  score: 1.102
+  source: BleepingComputer
+  summary: Hackers are exploiting an authentication bypass vulnerability (CVE-2026-35616)
+    in FortiClient Enterprise Management Server (EMS) to deliver an undocumented credential
+    stealer called EKZ. [...]...
+  tags:
+  - Security
+  title: Hackers exploit FortiClient EMS flaw to push infostealer malware
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/
+- category: webdev
+  published: '2026-05-28T17:10:10'
+  score: 0.757
+  source: Ars Technica
+  summary: Intel's Arc B390 integrated GPU has offered impressive performance in laptops....
+  tags:
+  - Gaming
+  - Tech
+  - Intel
+  - Intel Arc
+  - steam deck
+  title: Intel makes a bid for handheld gaming PCs with new Arc G3 processors
+  url: https://arstechnica.com/gadgets/2026/05/intel-makes-a-bid-for-handheld-gaming-pcs-with-new-arc-g3-processors/
+- category: ai
+  published: '2026-05-28T17:01:16'
+  score: 0.876
+  source: Ars Technica
+  summary: Here’s why Anthropic and OpenAI are on board with Illinois safety testing....
+  tags:
+  - AI
+  - Policy
+  - ai safety testing
+  - Artificial Intelligence
+  - frontier ai
+  title: Trump loses more control over AI regulation as Illinois passes landmark law
+  url: https://arstechnica.com/tech-policy/2026/05/trump-loses-more-control-over-ai-regulation-as-illinois-passes-landmark-law/
+- category: ai
+  published: '2026-05-28T16:30:00'
+  score: 0.872
+  source: Towards Data Science
+  summary: 'A retrospective on my MS thesis, the leaderboard it placed on, and the
+    LLM shift that has reshaped the field since. The post EmoNet: Speaker-Aware Transformers
+    for Emotion Recognition — and What I’d B...'
+  tags:
+  - Deep Learning
+  - Emotion Recognition
+  - Llm
+  - Machine Learning
+  - NLP
+  title: 'EmoNet: Speaker-Aware Transformers for Emotion Recognition — and What I’d
+    Build Differently in 2026'
+  url: https://towardsdatascience.com/emonet-speaker-aware-transformers-for-emotion-recognition-and-what-id-build-differently-in-2026/
+- category: webdev
+  published: '2026-05-28T13:00:00'
+  score: 0.811
+  source: Smashing Magazine
+  summary: Seventy percent of websites still fail basic WCAG contrast checks in 2025.
+    After years of design system tooling, accessibility linters, and JavaScript libraries,
+    nothing moved the needle. We didn’t ne...
+  tags: []
+  title: 'Algorithmic Theming Engines: Building Self-Correcting Color Systems With
+    `contrast-color()`'
+  url: https://smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/
+- category: cybersecurity
+  published: '2026-05-28T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary ABB is aware of vulnerabilities in the product versions
+    listed as affected in the advisory. A firmware update is available that resolves
+    these privately reported vulnerabilities in t...
+  tags: []
+  title: ABB EIBPORT
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-03
+- category: cybersecurity
+  published: '2026-05-28T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary Schneider Electric is aware of a vulnerability in its
+    EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert HVAC](https://www.se.com/ww/en/download/document/Ec...
+  tags: []
+  title: Schnieider Electric EcoStruxure Machine Expert HVAC
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07
+- category: cybersecurity
+  published: '2026-05-28T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could result
+    in an attacker gaining administrator access to the device. The following versions
+    of Jinan USR IOT Technology Limited (PUSR...
+  tags: []
+  title: Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet
+    Converter
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02
+- category: cybersecurity
+  published: '2026-05-28T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary ABB is aware of vulnerabilities in the product versions
+    listed as affected in the advisory. An attacker who successfully exploited this
+    vulnerability could gain physical, unauthorize...
+  tags: []
+  title: ABB Busch-Welcome 2 Wire Door Opener Actuator
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04
 - category: cybersecurity
   published: '2026-05-27T21:31:25'
   score: 0.941
@@ -34775,5 +34951,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-05-28T06:24:44.752404'
-total_articles: 2720
+last_updated: '2026-05-29T06:26:21.337712'
+total_articles: 2735
