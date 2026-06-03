@@ -1,4 +1,163 @@
 articles:
+- category: webdev
+  published: '2026-06-02T23:05:31'
+  score: 0.753
+  source: Ars Technica
+  summary: '"It’s a reminder of how human activity is changing the natural world in
+    unanticipated ways.”...'
+  tags:
+  - Science
+  - animal behavior
+  - Biology
+  - bowerbirds
+  title: Male bowerbirds hope to dazzle females with bright human-made items
+  url: https://arstechnica.com/science/2026/06/male-bowerbirds-prefer-colorful-human-items-to-decorate-bowers/
+- category: webdev
+  published: '2026-06-02T22:52:40'
+  score: 0.752
+  source: BleepingComputer
+  summary: Microsoft announced today at its Build 2026 developer conference the release
+    of Coreutils for Windows, bringing many commonly used Linux command-line utilities
+    to Windows as native applications. [...]...
+  tags:
+  - Microsoft
+  - Linux
+  title: Microsoft's Coreutils project brings Linux commands to Windows
+  url: https://www.bleepingcomputer.com/news/microsoft/microsofts-coreutils-project-brings-linux-commands-to-windows/
+- category: webdev
+  published: '2026-06-02T22:51:10'
+  score: 0.752
+  source: Ars Technica
+  summary: One hardware announcement and several software highlights from Microsoft
+    Build....
+  tags:
+  - Tech
+  - copilot
+  - microsoft
+  - NVIDIA
+  - RTX Spark
+  title: Microsoft plans Linux tools and an RTX Spark desktop for Windows developers
+  url: https://arstechnica.com/gadgets/2026/06/microsoft-plans-linux-tools-and-an-rtx-spark-desktop-for-windows-developers/
+- category: ai
+  published: '2026-06-02T22:44:50'
+  score: 0.958
+  source: BleepingComputer
+  summary: OpenAI says it's rolling out a new update that improves the existing GPT-5.5
+    Instant model, and this move comes ahead of the scheduled retirement of multiple
+    legacy models, including o3. [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI upgrades GPT-5.5, as it plans to retire legacy ChatGPT models
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-upgrades-gpt-55-as-it-plans-to-retire-legacy-chatgpt-models/
+- category: cybersecurity
+  published: '2026-06-02T18:21:49'
+  score: 1.06
+  source: The Hacker News
+  summary: The Russian hacking group known as Gamaredon has been attributed to the
+    continued exploitation of a WinRAR vulnerability to deliver multiple malware families
+    aimed at data theft and propagation. Per S...
+  tags: []
+  title: Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine
+  url: https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html
+- category: cybersecurity
+  published: '2026-06-02T18:14:42'
+  score: 1.107
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday
+    added a high-severity security flaw impacting Oracle WebLogic Server to its Known
+    Exploited Vulnerabilities (KEV) Catalog, ba...
+  tags: []
+  title: Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation
+  url: https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html
+- category: webdev
+  published: '2026-06-02T17:39:03'
+  score: 0.759
+  source: AWS Machine Learning
+  summary: Fine-tuning for domain-specific tasks means improving performance in one
+    area without degrading the model’s general capabilities, and getting that balance
+    right is harder than it looks. This post walk...
+  tags:
+  - Amazon Nova
+  - Intermediate (200)
+  - Technical How-to
+  title: The art and science of hyperparameter optimization on Amazon Nova Forge
+  url: https://aws.amazon.com/blogs/machine-learning/the-art-and-science-of-hyperparameter-optimization-on-amazon-nova-forge/
+- category: webdev
+  published: '2026-06-02T17:31:11'
+  score: 0.758
+  source: AWS Machine Learning
+  summary: In this post, we'll walk through implementing object detection with Amazon
+    Nova 2 Lite. You'll learn how to deploy an object detection application using
+    Amazon Bedrock, AWS Lambda, and Amazon API Gate...
+  tags:
+  - Amazon API Gateway
+  - Amazon Bedrock
+  - Amazon Nova
+  - Technical How-to
+  title: Object detection with Amazon Nova 2 Lite
+  url: https://aws.amazon.com/blogs/machine-learning/object-detection-with-amazon-nova-2-lite/
+- category: ai
+  published: '2026-06-02T12:00:18'
+  score: 0.972
+  source: Machine Learning Mastery
+  summary: In recent years, generative AI models like LLMs (large language models)
+    have gradually taken over classical machine learning ones for addressing certain
+    tasks, for instance, text classification ....
+  tags: []
+  title: 'Scikit-LLM vs. Traditional Text Classifiers: When Should You Use an LLM?'
+  url: https://machinelearningmastery.com/scikit-llm-vs-traditional-text-classifiers-when-should-you-use-an-llm/
+- category: cybersecurity
+  published: '2026-06-02T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: CISA and Partners Urge Hardening Automatic Tank Gauge Systems Overview
+    The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau
+    of Investigation (FBI), the National Security Age...
+  tags: []
+  title: CISA and Partners Urge Hardening Automatic Tank Gauge Systems
+  url: https://www.cisa.gov/resources-tools/resources/cisa-and-partners-urge-hardening-automatic-tank-gauge-systems
+- category: cybersecurity
+  published: '2026-06-02T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its&nbsp;Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2022-0492 Linux Kernel
+    Improper Authentication Vulnerabi...
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2026-06-02T12:00:00'
+  score: 0.796
+  source: OpenAI
+  summary: Travelers built an AI-powered Claim Assistant with OpenAI to guide customers
+    through filing claims, provide 24/7 support, and scale operations during peak
+    demand....
+  tags: []
+  title: Travelers deploys AI-powered claims countrywide with OpenAI
+  url: https://openai.com/index/travelers
+- category: cybersecurity
+  published: '2026-06-02T11:10:15'
+  score: 1.054
+  source: BleepingComputer
+  summary: Google has released the June 2026 Android security patches to address 124
+    vulnerabilities, including one zero-day flaw exploited in targeted attacks. [...]...
+  tags:
+  - Security
+  - Google
+  title: Google fixes one actively exploited Android zero-day, 124 flaws
+  url: https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/
+- category: ai
+  published: '2026-06-02T07:00:00'
+  score: 0.762
+  source: OpenAI
+  summary: OpenAI calls for global action on youth AI safety, proposing an international
+    institute to strengthen safeguards, standards, and opportunities for young people....
+  tags:
+  - Global Affairs
+  title: Advancing youth safety and opportunity through global leadership
+  url: https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership
 - category: cybersecurity
   published: '2026-06-02T03:55:25'
   score: 1.136
@@ -35270,5 +35429,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-02T06:32:24.278115'
-total_articles: 2760
+last_updated: '2026-06-03T06:35:36.638961'
+total_articles: 2774
