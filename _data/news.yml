@@ -1,4 +1,182 @@
 articles:
+- category: cybersecurity
+  published: '2026-06-04T02:46:35'
+  score: 1.08
+  source: Ars Technica
+  summary: With the case confirmed, it is the fly's first breach of the US-Mexico
+    border....
+  tags:
+  - Health
+  - flies
+  - parasite
+  - screwworm
+  title: Flesh-eating screwworm infection confirmed in South Texas, USDA says
+  url: https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says/
+- category: webdev
+  published: '2026-06-03T22:09:41'
+  score: 0.748
+  source: Ars Technica
+  summary: Some quantum computing companies we've covered have done recent progress
+    updates....
+  tags:
+  - Science
+  - atom computing
+  - Computer science
+  - Error correction
+  - microsoft
+  title: Microsoft, Atom Computing, EeroQ update their quantum computing progress
+  url: https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress/
+- category: webdev
+  published: '2026-06-03T20:26:51'
+  score: 0.737
+  source: Ars Technica
+  summary: Google must change AI Overviews after claiming users don't want "lots of
+    sources."...
+  tags:
+  - AI
+  - Google
+  - Policy
+  - ai overviews
+  - google
+  title: Google ordered to put clearer links in AI search and let UK publishers opt
+    out
+  url: https://arstechnica.com/tech-policy/2026/06/google-ordered-to-put-clearer-links-in-ai-search-and-let-uk-publishers-opt-out/
+- category: webdev
+  published: '2026-06-03T20:14:16'
+  score: 0.736
+  source: AWS Machine Learning
+  summary: In this post, we introduce Amazon Bedrock Ops Alert, a three-layer automated
+    monitoring solution that proactively detects operational issues, dynamically adjusts
+    alarm thresholds, classifies alarms by...
+  tags:
+  - Amazon Bedrock
+  - Amazon CloudWatch
+  - AWS Lambda
+  - Generative AI
+  title: How to build self-driving AI operations on Amazon Bedrock at scale
+  url: https://aws.amazon.com/blogs/machine-learning/how-to-build-self-driving-ai-operations-on-amazon-bedrock-at-scale/
+- category: ai
+  published: '2026-06-03T19:11:15'
+  score: 0.846
+  source: The Hacker News
+  summary: A single poisoned notification from WhatsApp, Slack, SMS, Signal, Instagram,
+    or Messenger could have hijacked Google Gemini's voice assistant on Android and
+    made it open a victim's connected windows, ...
+  tags: []
+  title: WhatsApp, Slack Notifications Could Hijack Google Gemini on Android
+  url: https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html
+- category: ai
+  published: '2026-06-03T16:26:35'
+  score: 0.827
+  source: AWS Machine Learning
+  summary: In this post, we look at how to use SOCI on publicly available Deep Learning
+    AMIs and Containers, when to use the various SOCI modes provided by the tool,
+    and how to quickly and efficiently use this t...
+  tags:
+  - AWS Deep Learning AMIs
+  - Technical How-to
+  title: Reducing container cold start times using SOCI index on DLAMI and DLC
+  url: https://aws.amazon.com/blogs/machine-learning/reducing-container-cold-start-times-using-soci-index-on-dlami-and-dlc/
+- category: webdev
+  published: '2026-06-03T15:02:38'
+  score: 0.743
+  source: CSS-Tricks
+  summary: The offset-path property in CSS defines a movement path for an element
+    to follow during animation. This property began life as motion-path. This, and
+    all other related motion-* properties, are being r...
+  tags:
+  - animation
+  - offset-path
+  title: offset-path
+  url: https://css-tricks.com/almanac/properties/o/offset-path/
+- category: cybersecurity
+  published: '2026-06-03T14:56:46'
+  score: 1.083
+  source: The Hacker News
+  summary: Assume the breach. Zero-days keep shipping, AI is writing exploits faster
+    than anyone patches, and "patch everything in time" stopped working years ago.
+    Stop betting the org on winning that race. You ...
+  tags: []
+  title: 'Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD
+    Moore'
+  url: https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html
+- category: ai
+  published: '2026-06-03T13:30:00'
+  score: 0.807
+  source: Towards Data Science
+  summary: A comprehensive guide to optimizing LLM inference by eliminating padding
+    overhead with hardware-aware sequence packing. The post I Built a C++ Backend
+    So My GPU Would Stop Eating Air appeared first on...
+  tags:
+  - Machine Learning
+  - Editors Pick
+  - Gpu Computing
+  - Inference
+  - LLM Optimization
+  title: I Built a C++ Backend So My GPU Would Stop Eating Air
+  url: https://towardsdatascience.com/i-built-a-c-backend-so-my-gpu-would-stop-eating-air/
+- category: ai
+  published: '2026-06-03T13:15:00'
+  score: 0.805
+  source: OpenAI
+  summary: GPT-Rosalind advances life sciences research with enhanced biological reasoning,
+    medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities....
+  tags:
+  - Product
+  title: Introducing new capabilities to GPT-Rosalind
+  url: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind
+- category: webdev
+  published: '2026-06-03T13:03:21'
+  score: 0.731
+  source: CSS-Tricks
+  summary: The CSS @custom-media at-rule allows creating aliases for media queries.
+    @custom-media originally handwritten and published with love on CSS-Tricks. You
+    should really get the newsletter as well....
+  tags:
+  - CSS functions
+  title: '@custom-media'
+  url: https://css-tricks.com/almanac/rules/c/custom-media/
+- category: cybersecurity
+  published: '2026-06-03T12:00:00'
+  score: 1.013
+  source: CISA
+  summary: CISA has added one new vulnerability to its&nbsp;Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2026-45247&nbsp;Mirasvit
+    Full Page Cache Warmer Deserializ...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2026-06-03T12:00:00'
+  score: 0.797
+  source: OpenAI
+  summary: See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the
+    edge, accelerating development 10x to 20x and shipping in weeks instead of months....
+  tags: []
+  title: How Wasmer used Codex to build a Node.js runtime for the edge
+  url: https://openai.com/index/wasmer
+- category: cybersecurity
+  published: '2026-06-03T10:18:52'
+  score: 1.048
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of an unpatched issue
+    that could be exploited to disclose a user's NTLMv2 hash to the attacker. Like
+    in the case of CVE-2026-33829, which impacted the ...
+  tags: []
+  title: Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes
+  url: https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
+- category: cybersecurity
+  published: '2026-06-03T06:50:30'
+  score: 1.022
+  source: BleepingComputer
+  summary: A security researcher has released exploit code for a Visual Studio Code
+    (VS Code) zero-day vulnerability that allows attackers to steal GitHub authentication
+    tokens by tricking users into clicking a ...
+  tags:
+  - Security
+  - Microsoft
+  title: VS Code zero-day lets hackers steal GitHub tokens in one click
+  url: https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/
 - category: webdev
   published: '2026-06-02T23:05:31'
   score: 0.753
@@ -35429,5 +35607,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-03T06:35:36.638961'
-total_articles: 2774
+last_updated: '2026-06-04T06:32:37.157320'
+total_articles: 2789
