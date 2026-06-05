@@ -1,5 +1,170 @@
 articles:
 - category: cybersecurity
+  published: '2026-06-05T06:24:20'
+  score: 1.299
+  source: BleepingComputer
+  summary: On Thursday, Cisco warned of a high-severity, unpatched zero-day in the
+    Cisco Catalyst SD-WAN Manager (tracked as CVE-2026-20245) actively exploited in
+    attacks enabling root privilege escalation. [......
+  tags:
+  - Security
+  title: Cisco warns of unpatched SD-WAN zero-day exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/
+- category: webdev
+  published: '2026-06-05T05:34:19'
+  score: 0.894
+  source: The Hacker News
+  summary: The threat actor known as PCPJack has hijacked cloud servers associated
+    with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a
+    covert SMTP email relay network. "Compromised busi...
+  tags: []
+  title: PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP
+    Relay Network
+  url: https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html
+- category: webdev
+  published: '2026-06-04T22:23:36'
+  score: 0.749
+  source: Ars Technica
+  summary: Robot demonstrations can distort public perceptions of robotic capabilities....
+  tags:
+  - AI
+  - humanoid robots
+  - robot AI
+  - Robotics
+  - robots
+  title: The skeptic’s guide to humanoid robots going viral on the Internet
+  url: https://arstechnica.com/ai/2026/06/the-skeptics-guide-to-humanoid-robots-going-viral-on-the-internet/
+- category: webdev
+  published: '2026-06-04T21:37:10'
+  score: 0.784
+  source: BleepingComputer
+  summary: Brave has announced the public release of Brave Origin, a paid minimalist
+    version of its browser that strips out cryptocurrency, AI, rewards, and other
+    monetization-focused features. [...]...
+  tags:
+  - Software
+  - Security
+  title: Brave Software releases Origin for a paid, bloat-free browsing experience
+  url: https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/
+- category: webdev
+  published: '2026-06-04T20:47:16'
+  score: 0.779
+  source: BleepingComputer
+  summary: A new Magecart campaign is using Stripe's API infrastructure to host the
+    credit card-stealing payload and the data exfiltrated from checkout pages. [...]...
+  tags:
+  - Security
+  title: Credit card theft campaign abuses Stripe to host stolen payment info
+  url: https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/
+- category: ai
+  published: '2026-06-04T20:44:31'
+  score: 0.857
+  source: Ars Technica
+  summary: Estonian government benchmark shows how dozens of models combat Russia's
+    "strategic narratives."...
+  tags:
+  - AI
+  - Anthropic
+  - Estonia
+  - google
+  - LLMs
+  title: These LLMs are the best at resisting Russian propaganda
+  url: https://arstechnica.com/ai/2026/06/these-llms-are-the-best-at-resisting-russian-propaganda/
+- category: ai
+  published: '2026-06-04T15:10:00'
+  score: 0.863
+  source: The Hacker News
+  summary: Over the past several weeks, the cybersecurity community has been reminded
+    how quickly frontier and agentic AI in defense networks can challenge our assumptions.
+    When Anthropic's Claude Mythos model w...
+  tags: []
+  title: Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will
+    Maximize It
+  url: https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html
+- category: webdev
+  published: '2026-06-04T13:14:49'
+  score: 0.772
+  source: CSS-Tricks
+  summary: We dive again into CSS Pie Charts! This time, Author Antoine Villepreux
+    delivers semantic and flexible charts without a single line of JS. Another Stab
+    at the Perfect CSS Pie Chart&#8230; Sans JavaScr...
+  tags:
+  - Articles
+  - charts
+  - data visualization
+  title: Another Stab at the Perfect CSS Pie Chart… Sans JavaScript!
+  url: https://css-tricks.com/another-stab-at-the-perfect-css-pie-chart-sans-javascript/
+- category: ai
+  published: '2026-06-04T12:55:34'
+  score: 0.847
+  source: Machine Learning Mastery
+  summary: 'This article will teach you how to perform a language task like text classification
+    by integrating locally hosted large language models (LLMs) of manageable size,
+    like Mistral, Gemma, and Llama 3: all...'
+  tags: []
+  title: Using Scikit-LLM with Open-Source LLMs
+  url: https://machinelearningmastery.com/using-scikit-llm-with-open-source-llms/
+- category: cybersecurity
+  published: '2026-06-04T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    a local attacker to gain unauthorized access to SOAP methods, resulting in a disruption
+    of operations. The following version...
+  tags: []
+  title: NAVTOR NavBox
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-01
+- category: cybersecurity
+  published: '2026-06-04T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability
+    that affects MACH HiDraw product versions listed in this document. Successful
+    exploitation of this vulnerability could lead...
+  tags: []
+  title: Hitachi Energy MACH HiDraw
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-05
+- category: cybersecurity
+  published: '2026-06-04T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect
+    ITT600 Explorer product versions listed in this document. These vulnerabilities
+    can be exploited to carry out Denial of Service...
+  tags: []
+  title: Hitachi Energy ITT600 Explorer
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02
+- category: cybersecurity
+  published: '2026-06-04T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary B&amp;R is aware of a vulnerability in the product versions
+    listed as affected in the advisory. An attacker who successfully exploits this
+    vulnerability could make the OPC-UA server ...
+  tags: []
+  title: B&R PPT30 Operating System
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-03
+- category: ai
+  published: '2026-06-04T12:00:00'
+  score: 0.841
+  source: OpenAI
+  summary: Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate
+    software delivery, automate workflows, and build an AI-native culture across the
+    enterprise....
+  tags: []
+  title: How Endava is redesigning software delivery around AI agents
+  url: https://openai.com/index/endava-frontiers
+- category: ai
+  published: '2026-06-04T09:00:00'
+  score: 0.82
+  source: OpenAI
+  summary: ChatGPT introduces a new memory system to better remember preferences,
+    keeping context fresh and relevant across conversations....
+  tags:
+  - Research
+  title: 'Dreaming: Better memory for a more helpful ChatGPT'
+  url: https://openai.com/index/chatgpt-memory-dreaming
+- category: cybersecurity
   published: '2026-06-04T02:46:35'
   score: 1.08
   source: Ars Technica
@@ -35607,5 +35772,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-04T06:32:37.157320'
-total_articles: 2789
+last_updated: '2026-06-05T06:30:32.680385'
+total_articles: 2804
