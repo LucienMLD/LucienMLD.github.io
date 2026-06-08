@@ -1,5 +1,131 @@
 articles:
 - category: cybersecurity
+  published: '2026-06-08T06:00:27'
+  score: 1.104
+  source: BleepingComputer
+  summary: Meta has revealed that over 20,000 Instagram users had their accounts hijacked
+    in a recent incident where attackers used Meta's AI-powered support system to
+    reset passwords. [...]...
+  tags:
+  - Security
+  title: Over 20,000 Instagram accounts stolen in Meta AI support hack
+  url: https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/
+- category: webdev
+  published: '2026-06-07T23:20:02'
+  score: 0.755
+  source: BleepingComputer
+  summary: Microsoft has created an open-source fork of Windows Terminal called "Intelligent
+    Terminal," and it allows you to use AI directly inside Terminal without interfering
+    with the regular session. [...]...
+  tags:
+  - Microsoft
+  - Artificial Intelligence
+  - Software
+  title: Hands on with Intelligent Terminal, an AI-powered Windows Terminal
+  url: https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/
+- category: webdev
+  published: '2026-06-07T19:44:27'
+  score: 0.733
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: Amazing Digital Dentures (a failed project)
+  url: https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures
+- category: webdev
+  published: '2026-06-07T19:34:05'
+  score: 0.731
+  source: Ars Technica
+  summary: Head's true genius—and that of his character, Giles—lay in quietly filling
+    in the gaps in every scene...
+  tags:
+  - Culture
+  - Anthony Stewart Head
+  - Buffy the Vampire Slayer
+  - entertainment
+  - Obituaries
+  title: 'RIP Anthony Head: Our 10 favorite moments of Buffy''s Giles'
+  url: https://arstechnica.com/culture/2026/06/rip-anthony-head-our-10-favorite-moments-of-buffys-giles/
+- category: webdev
+  published: '2026-06-07T15:00:00'
+  score: 0.703
+  source: Towards Data Science
+  summary: Because the alternative is much too dangerous The post We Should Train
+    AI to Betray Its Users appeared first on Towards Data Science....
+  tags:
+  - Artificial Intelligence
+  - Ai Ethics
+  - Ai Safety
+  - Deep Dives
+  - Superintelligence
+  title: We Should Train AI to Betray Its Users
+  url: https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/
+- category: cybersecurity
+  published: '2026-06-07T14:17:46'
+  score: 0.886
+  source: BleepingComputer
+  summary: A new variant of the Gafgyt botnet called C0XMO is targeting DD-WRT router
+    firmware and can move to other device types with various CPU architectures. [...]...
+  tags:
+  - Security
+  title: C0XMO botnet spreads via DD-WRT router flaw, kills rival malware
+  url: https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/
+- category: cybersecurity
+  published: '2026-06-07T14:09:19'
+  score: 0.933
+  source: BleepingComputer
+  summary: The Silent Ransom Group extortion gang is actively targeting U.S. law firms
+    and professional services organizations in social engineering attacks that often
+    lead to data theft within hours of initial ...
+  tags:
+  - Security
+  title: Silent Ransom Group targets law firms with fake IT support calls
+  url: https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/
+- category: webdev
+  published: '2026-06-07T13:00:00'
+  score: 0.69
+  source: Towards Data Science
+  summary: An introduction to multi-agent systems The post Building a Multi-Agent
+    System in Python appeared first on Towards Data Science....
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - Artificial Intelligence
+  - Multi Agent Systems
+  - Pycharm
+  title: Building a Multi-Agent System in Python
+  url: https://towardsdatascience.com/building-a-multi-agent-system-in-python/
+- category: cybersecurity
+  published: '2026-06-06T14:09:26'
+  score: 0.751
+  source: BleepingComputer
+  summary: Hackers are actively exploiting a critical vulnerability (CVE-2026-3300)
+    in the Everest Forms Pro plugin, which lets them take complete control of a WordPress
+    website. [...]...
+  tags:
+  - Security
+  title: Critical Everest Forms Pro flaw exploited to take over WordPress sites
+  url: https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/
+- category: ai
+  published: '2026-06-06T13:36:57'
+  score: 0.681
+  source: The Hacker News
+  summary: OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible
+    personal accounts to reduce the risk of data exfiltration arising from prompt
+    injection attacks. The feature is primarily desig...
+  tags: []
+  title: New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration
+  url: https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html
+- category: cybersecurity
+  published: '2026-06-06T08:14:31'
+  score: 0.755
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added
+    a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file
+    server software to its Known Exploited Vulnerab...
+  tags: []
+  title: CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog
+  url: https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
+- category: cybersecurity
   published: '2026-06-05T06:24:20'
   score: 1.299
   source: BleepingComputer
@@ -35772,5 +35898,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-05T06:30:32.680385'
-total_articles: 2804
+last_updated: '2026-06-08T06:32:11.091354'
+total_articles: 2815
