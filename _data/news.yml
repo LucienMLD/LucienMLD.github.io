@@ -1,4 +1,195 @@
 articles:
+- category: ai
+  published: '2026-06-09T05:53:28'
+  score: 1.021
+  source: Towards Data Science
+  summary: Building an ML football forecaster in R The post Can Machine Learning Predict
+    the World Cup? appeared first on Towards Data Science....
+  tags:
+  - Machine Learning
+  - FIFA
+  - Football Analytics
+  - Sport Analytics
+  title: Can Machine Learning Predict the World Cup?
+  url: https://towardsdatascience.com/can-machine-learning-predict-the-world-cup/
+- category: webdev
+  published: '2026-06-09T00:59:40'
+  score: 0.866
+  source: Ars Technica
+  summary: The waiver "serves the public interest by promoting a second large satellite
+    broadband constellation."...
+  tags:
+  - Science
+  - Space
+  - Amazon
+  - amazon leo
+  - broadband
+  title: FCC lifts looming deadline for Amazon Leo satellite broadband constellation
+  url: https://arstechnica.com/space/2026/06/fcc-lifts-looming-deadline-for-amazon-leo-satellite-broadband-constellation/
+- category: webdev
+  published: '2026-06-08T22:19:58'
+  score: 0.75
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 245 is now available for download for
+    macOS Tahoe and macOS Sequoia....
+  tags:
+  - News
+  title: Release Notes for Safari Technology Preview 245
+  url: https://webkit.org/blog/17970/release-notes-for-safari-technology-preview-245/
+- category: webdev
+  published: '2026-06-08T21:56:28'
+  score: 0.747
+  source: Ars Technica
+  summary: Mystery of GPS interference across Europe raises questions about Russian
+    motives....
+  tags:
+  - Space
+  - GNSS
+  - GPS
+  - GPS jamming
+  - russia
+  title: Tests suggest Russian satellites can jam GPS on a continental scale
+  url: https://arstechnica.com/space/2026/06/tests-suggest-russian-satellites-can-jam-gps-on-a-continental-scale/
+- category: cybersecurity
+  published: '2026-06-08T20:17:39'
+  score: 1.076
+  source: The Hacker News
+  summary: Security researchers have published a detailed, working exploit for a Linux
+    kernel use-after-free that lets an unprivileged local user escalate to root and
+    break out of a container. The flaw, CVE-2026...
+  tags: []
+  title: One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public
+  url: https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html
+- category: ai
+  published: '2026-06-08T19:30:05'
+  score: 0.849
+  source: Ars Technica
+  summary: New features coming this fall alongside two-tiered, Google-powered AI model
+    overhaul....
+  tags:
+  - AI
+  - Apple
+  - apple
+  - apple intelligence
+  - Siri
+  title: Say hi to "Siri AI"—Apple announces new, more "conversational" voice assistant
+  url: https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant/
+- category: ai
+  published: '2026-06-08T19:00:30'
+  score: 0.846
+  source: Ars Technica
+  summary: NotebookLM is getting a big upgrade, but it's only for AI Ultra and enterprise
+    accounts right now....
+  tags:
+  - AI
+  - Google
+  - Tech
+  - gemini 3.5
+  - generative ai
+  title: Gemini 3.5 and Antigravity come to Google NotebookLM
+  url: https://arstechnica.com/ai/2026/06/gemini-3-5-and-antigravity-come-to-google-notebooklm/
+- category: webdev
+  published: '2026-06-08T18:07:13'
+  score: 0.763
+  source: Ars Technica
+  summary: Apple's OSes come with Liquid Glass tweaks and performance optimizations....
+  tags:
+  - Apple
+  - Tech
+  - Apple silicon
+  - MacOS
+  - wwdc 2026
+  title: Apple's iOS 27, macOS 27 Golden Gate, and other updates focus on refinement
+  url: https://arstechnica.com/gadgets/2026/06/apples-ios-27-macos-27-golden-gate-and-other-updates-focus-on-refinement/
+- category: ai
+  published: '2026-06-08T18:00:00'
+  score: 0.839
+  source: Towards Data Science
+  summary: This is how LLMs are used today to increase precision in recommendation
+    systems The post Increase Recommendation Systems’ Precision with LLMs, Using Python
+    appeared first on Towards Data Science....
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Editor's Picks
+  - Python
+  - Recommender Systems
+  title: Increase Recommendation Systems’ Precision with LLMs, Using Python
+  url: https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/
+- category: cybersecurity
+  published: '2026-06-08T17:06:53'
+  score: 1.101
+  source: Schneier on Security
+  summary: 'If you&#8217;re a user&#8212;owner?&#8212;of this cryptocurrency, this
+    is important: On May 29, the security researcher Taylor Hornby found a critical
+    vulnerability in Zcash Orchard privacy pool using...'
+  tags:
+  - Uncategorized
+  - AI
+  - blockchain
+  - cryptocurrency
+  - vulnerabilities
+  title: Critical Zcash Vulnerability Found and Fixed
+  url: https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html
+- category: ai
+  published: '2026-06-08T16:35:02'
+  score: 0.829
+  source: AWS Machine Learning
+  summary: Amazon Bedrock AgentCore Runtime gives each agent session its own isolated
+    microVM with a persistent workspace, secure tool access through Gateway, and built-in
+    observability—so you can run Claude Cod...
+  tags:
+  - Amazon Bedrock AgentCore
+  - Expert (400)
+  - Technical How-to
+  title: 'It’s safe to close your laptop now: Hosting coding agents on Amazon Bedrock
+    AgentCore'
+  url: https://aws.amazon.com/blogs/machine-learning/its-safe-to-close-your-laptop-now-hosting-coding-agents-on-amazon-bedrock-agentcore/
+- category: cybersecurity
+  published: '2026-06-08T16:18:40'
+  score: 1.047
+  source: BleepingComputer
+  summary: Gogs has patched a critical security zero-day flaw that can allow attackers
+    to compromise Internet-facing instances and access any repositories (including
+    private ones). [...]...
+  tags:
+  - Security
+  title: Gogs patches critical zero-day enabling remote code execution
+  url: https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/
+- category: webdev
+  published: '2026-06-08T15:57:45'
+  score: 0.79
+  source: AWS Machine Learning
+  summary: In this post, we walk you through the Nova Sonic Test Harness, an open
+    source framework that we built to solve both problems. It serves as a rapid iteration
+    tool for tuning system prompts and tool con...
+  tags:
+  - Advanced (300)
+  - Amazon Nova
+  - Technical How-to
+  title: Evaluate your Amazon Nova Sonic voice agent at scale, no microphone required
+  url: https://aws.amazon.com/blogs/machine-learning/evaluate-your-amazon-nova-sonic-voice-agent-at-scale-no-microphone-required/
+- category: cybersecurity
+  published: '2026-06-08T13:05:16'
+  score: 1.07
+  source: BleepingComputer
+  summary: Israeli cybersecurity company Check Point has released security updates
+    to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments,
+    which was exploited in zero-day attacks. [.....
+  tags:
+  - Security
+  title: Check Point links VPN zero-day attacks to Qilin ransomware gang
+  url: https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/
+- category: cybersecurity
+  published: '2026-06-08T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2026-42271 BerriAI
+    LiteLLM Command Injection Vulnerability CV...
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog
 - category: cybersecurity
   published: '2026-06-08T06:00:27'
   score: 1.104
@@ -35898,5 +36089,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-08T06:32:11.091354'
-total_articles: 2815
+last_updated: '2026-06-09T06:22:37.618589'
+total_articles: 2830
