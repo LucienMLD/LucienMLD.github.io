@@ -1,5 +1,175 @@
 articles:
 - category: cybersecurity
+  published: '2026-06-11T06:20:22'
+  score: 1.25
+  source: BleepingComputer
+  summary: Attackers are now targeting a recently patched maximum-severity flaw in
+    Ivanti Sentry, enabling them to execute code with root privileges on Internet-exposed
+    secure mobile gateways. [...]...
+  tags:
+  - Security
+  title: Max severity Ivanti Sentry vulnerability now exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/
+- category: webdev
+  published: '2026-06-11T00:54:42'
+  score: 0.865
+  source: AWS Machine Learning
+  summary: Frontier teams are not just using AI to code faster. They’re redesigning
+    how software gets built. The result is 4.5x productivity gains, in some cases
+    more than 10x....
+  tags:
+  - Generative AI
+  - Thought Leadership
+  title: How frontier teams are reinventing AI-native development
+  url: https://aws.amazon.com/blogs/machine-learning/how-frontier-teams-are-reinventing-ai-native-development/
+- category: webdev
+  published: '2026-06-11T00:00:00'
+  score: 0.759
+  source: OpenAI
+  summary: Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole
+    simulations, helping scientists study extreme physics and test Einstein’s theory
+    of general relativity....
+  tags:
+  - Applied AI
+  title: How an astrophysicist uses Codex to help simulate black holes
+  url: https://openai.com/index/using-codex-to-simulate-black-holes
+- category: webdev
+  published: '2026-06-10T22:16:57'
+  score: 0.748
+  source: Ars Technica
+  summary: For days after the stunning incident, the ADA had doubled-down on the choice....
+  tags:
+  - Health
+  - Science
+  - ADA
+  - Trump
+  title: Diabetes org apologizes for ejecting scientists over criticism of Trump
+  url: https://arstechnica.com/health/2026/06/diabetes-org-apologizes-for-ejecting-scientists-over-criticism-of-trump/
+- category: webdev
+  published: '2026-06-10T21:30:44'
+  score: 0.743
+  source: Ars Technica
+  summary: 'Lawsuit: "Police let an error-prone AI system stand in for an investigation."...'
+  tags:
+  - Policy
+  - facial recognition
+  title: Man sues Florida cops over arrest spurred by "93% match" in facial recognition
+  url: https://arstechnica.com/tech-policy/2026/06/man-jailed-due-to-faulty-face-recognition-says-florida-cops-ignored-other-evidence/
+- category: cybersecurity
+  published: '2026-06-10T21:23:44'
+  score: 1.083
+  source: BleepingComputer
+  summary: Attackers are actively exploiting CVE-2026-5027, a high-severity path traversal
+    vulnerability in the AI development platform Langflow, to write arbitrary files
+    on exposed servers. [...]...
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: Path traversal flaw in AI dev platform Langflow exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/
+- category: ai
+  published: '2026-06-10T20:00:00'
+  score: 0.895
+  source: OpenAI
+  summary: Access OpenAI models and Codex through Oracle Cloud, using existing commitments
+    to build and deploy AI with enterprise security and governance....
+  tags:
+  - Company
+  title: Access OpenAI models and Codex through your Oracle cloud commitment
+  url: https://openai.com/index/openai-on-oracle-cloud
+- category: webdev
+  published: '2026-06-10T19:57:56'
+  score: 0.734
+  source: Ars Technica
+  summary: The Mobi Fold is an $80 Bluetooth mouse with a silicone-wrapped hinge....
+  tags:
+  - Tech
+  - Logitech
+  - Mouse
+  title: Logitech’s foldable mouse is for people who refuse to carry a mouse with
+    them
+  url: https://arstechnica.com/gadgets/2026/06/logitechs-mobi-fold-folds-for-travel-but-i-prefer-a-different-portable-mouse/
+- category: ai
+  published: '2026-06-10T18:00:00'
+  score: 0.838
+  source: Towards Data Science
+  summary: Improve coding agent productiveness with refactored code The post How to
+    Refactor Code with Claude Code appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Ai Agent
+  - Coding
+  - coding agents
+  - Llm
+  title: How to Refactor Code with Claude Code
+  url: https://towardsdatascience.com/how-to-refactor-code-with-claude-code/
+- category: ai
+  published: '2026-06-10T16:30:00'
+  score: 0.827
+  source: Towards Data Science
+  summary: A structured methodology for comparing candidate models, testing stability,
+    and selecting a robust final score The post How to Train a Scoring Model in the
+    Age of Artificial Intelligence appeared firs...
+  tags:
+  - Data Science
+  - Artificial Intelligence
+  - Credit Risk Analysis
+  - Credit Scoring
+  - Editor's Picks
+  title: How to Train a Scoring Model in the Age of Artificial Intelligence
+  url: https://towardsdatascience.com/how-to-train-a-scoring-model-in-the-age-of-artificial-intelligence/
+- category: cybersecurity
+  published: '2026-06-10T15:10:59'
+  score: 1.037
+  source: The Hacker News
+  summary: Fortinet, Ivanti, and SAP have released security updates to address multiple
+    critical security vulnerabilities that could result in arbitrary code execution
+    and information disclosure. The security fl...
+  tags: []
+  title: Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities
+  url: https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html
+- category: cybersecurity
+  published: '2026-06-10T15:00:59'
+  score: 1.083
+  source: The Hacker News
+  summary: A high-severity unpatched security flaw in Langflow, an open-source low-code
+    platform to build artificial intelligence (AI) applications, has come under active
+    exploitation in the wild, according to f...
+  tags: []
+  title: Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE
+  url: https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html
+- category: cybersecurity
+  published: '2026-06-10T14:44:29'
+  score: 1.033
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
+    added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog,
+    following reports of active exploitati...
+  tags: []
+  title: CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation
+  url: https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html
+- category: ai
+  published: '2026-06-10T12:00:00'
+  score: 0.884
+  source: OpenAI
+  summary: A new report from OpenAI details PRC-linked influence operations using
+    AI to target U.S. tech debates, data center narratives, tariffs, and false claims
+    about ChatGPT....
+  tags:
+  - Global Affairs
+  title: PRC-linked influence operations are targeting AI debates in the US
+  url: https://openai.com/index/prc-linked-influence-operations-ai-debates
+- category: ai
+  published: '2026-06-10T07:37:59'
+  score: 0.81
+  source: The Hacker News
+  summary: 'On June 9, Anthropic released Claude Fable 5, the most capable model it
+    has ever made, generally available. It also did something unusual: it shipped
+    one model as two products, split not by capability...'
+  tags: []
+  title: Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards
+  url: https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html
+- category: cybersecurity
   published: '2026-06-10T06:26:28'
   score: 1.155
   source: BleepingComputer
@@ -36264,5 +36434,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-10T06:30:43.776706'
-total_articles: 2845
+last_updated: '2026-06-11T06:33:20.094114'
+total_articles: 2860
