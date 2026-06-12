@@ -1,5 +1,149 @@
 articles:
 - category: cybersecurity
+  published: '2026-06-11T20:29:23'
+  score: 1.125
+  source: The Hacker News
+  summary: The ShinyHunters extortion crew exploited an unpatched flaw in Oracle PeopleSoft
+    to break into enterprise systems, steal data, and demand payment to keep it private.
+    The campaign hit universities hard...
+  tags: []
+  title: ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach
+    Universities
+  url: https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html
+- category: webdev
+  published: '2026-06-11T20:00:00'
+  score: 0.774
+  source: Google AI Blog
+  summary: We’re helping build the state’s next-generation workforce and investing
+    in energy programs....
+  tags:
+  - Google.org
+  - Global Network
+  - Creating opportunity
+  - AI
+  title: Our new community investments in Virginia support local jobs and expand energy
+    affordability.
+  url: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/
+- category: webdev
+  published: '2026-06-11T19:40:33'
+  score: 0.732
+  source: AWS Machine Learning
+  summary: This post demonstrates an intelligent document processing pipeline that
+    consists of both on-demand inference and batch inference options on Amazon Bedrock
+    to enable the flexibility on the document pro...
+  tags:
+  - Amazon Bedrock
+  - AWS Lambda
+  - Technical How-to
+  title: Extract Data with On-demand and Batch Pipelines Dynamically
+  url: https://aws.amazon.com/blogs/machine-learning/extract-data-with-on-demand-and-batch-pipelines-dynamically/
+- category: cybersecurity
+  published: '2026-06-11T19:39:53'
+  score: 1.118
+  source: BleepingComputer
+  summary: Oracle is warning about a critical PeopleSoft Suite zero-day vulnerability
+    tracked as CVE-2026-35273 that allows unauthenticated remote code execution, with
+    the flaw actively exploited in ShinyHunter ...
+  tags:
+  - Security
+  title: Oracle mitigates PeopleSoft zero-day exploited in data theft attacks
+  url: https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/
+- category: webdev
+  published: '2026-06-11T19:31:37'
+  score: 0.731
+  source: Ars Technica
+  summary: Cruz/Wyden bill would help Americans sue federal officials over censorship....
+  tags:
+  - Policy
+  - brendan carr
+  - FCC
+  - Ron Wyden
+  - ted cruz
+  title: Ted Cruz and Ron Wyden try to fight censorship with bipartisan JAWBONE Act
+  url: https://arstechnica.com/tech-policy/2026/06/ted-cruz-and-ron-wyden-try-to-fight-censorship-with-bipartisan-jawbone-act/
+- category: webdev
+  published: '2026-06-11T19:08:54'
+  score: 0.729
+  source: Ars Technica
+  summary: The old app "still needs to be retired," AcuRite tells us....
+  tags:
+  - Tech
+  - AcuRite
+  - Bethesda Software
+  - smart home
+  - Weather
+  title: AcuRite admits new app falls short, delays old app’s May shutdown to fix
+    problems
+  url: https://arstechnica.com/gadgets/2026/06/iot-gadget-firm-acurite-delays-forced-app-migration-due-to-new-apps-shortfalls/
+- category: ai
+  published: '2026-06-11T15:49:47'
+  score: 0.823
+  source: AWS Machine Learning
+  summary: Agent-EvalKit is an open-source toolkit (Apache 2.0) that makes this evaluation
+    infrastructure available by integrating with AI coding assistants, including Claude
+    Code, Kiro CLI, and Kilo Code. This ...
+  tags:
+  - Amazon Bedrock
+  - Artificial Intelligence
+  - Strands Agents
+  - Technical How-to
+  title: Evaluate AI agents systematically with Agent-EvalKit
+  url: https://aws.amazon.com/blogs/machine-learning/evaluate-ai-agents-systematically-with-agent-evalkit/
+- category: webdev
+  published: '2026-06-11T15:11:56'
+  score: 0.744
+  source: AWS Machine Learning
+  summary: Blueprint instruction optimization is a BDA feature that automatically
+    refines your extraction instructions to address this challenge directly. You provide
+    three to ten example documents with expected...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Bedrock Data Automation
+  - Announcements
+  title: Optimize blueprint extraction accuracy in Amazon Bedrock Data Automation
+  url: https://aws.amazon.com/blogs/machine-learning/optimize-blueprint-extraction-accuracy-in-amazon-bedrock-data-automation/
+- category: ai
+  published: '2026-06-11T12:00:17'
+  score: 0.797
+  source: Machine Learning Mastery
+  summary: Text classification typically boils down to scenarios where a product review
+    is "positive" or "negative", or a customer inquiry belongs to one category or
+    another....
+  tags: []
+  title: Multi-Label Text Classification with Scikit-LLM
+  url: https://machinelearningmastery.com/multi-label-text-classification-with-scikit-llm/
+- category: cybersecurity
+  published: '2026-06-11T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow an attacker to obtain hard-coded credentials, gain access to telemetry data,
+    and potentially send operational commands to...
+  tags: []
+  title: Yarbo Android/iOS Mobile Application and Cloud Infrastructure
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-01
+- category: cybersecurity
+  published: '2026-06-11T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow an attacker to impersonate devices, intercept or manipulate communications,
+    harvest sensitive credentials at scale, or ga...
+  tags: []
+  title: Naxclow IoT Platform
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-02
+- category: cybersecurity
+  published: '2026-06-11T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow a remote unauthenticated attacker to gain unauthorized access to live video
+    feeds, retrieve sensitive visual information ...
+  tags: []
+  title: Brickcom Cameras
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-03
+- category: cybersecurity
   published: '2026-06-11T06:20:22'
   score: 1.25
   source: BleepingComputer
@@ -22,6 +166,15 @@ articles:
   - Thought Leadership
   title: How frontier teams are reinventing AI-native development
   url: https://aws.amazon.com/blogs/machine-learning/how-frontier-teams-are-reinventing-ai-native-development/
+- category: ai
+  published: '2026-06-11T00:00:00'
+  score: 0.752
+  source: OpenAI
+  summary: Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered
+    with OpenAI to accelerate AI-powered banking transformation worldwide....
+  tags: []
+  title: BBVA puts AI at the core of banking with OpenAI
+  url: https://openai.com/index/bbva
 - category: webdev
   published: '2026-06-11T00:00:00'
   score: 0.759
@@ -36434,5 +36587,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-11T06:33:20.094114'
-total_articles: 2860
+last_updated: '2026-06-12T06:32:03.154583'
+total_articles: 2873
