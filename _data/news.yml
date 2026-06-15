@@ -1,4 +1,193 @@
 articles:
+- category: ai
+  published: '2026-06-15T00:00:00'
+  score: 0.877
+  source: MDN Blog
+  summary: MDN's MCP server brings MDN's documentation and browser compatibility data
+    directly into your editor or IDE, giving your LLM or coding agent access to accurate,
+    up-to-date web platform information....
+  tags: []
+  title: Introducing the MDN MCP server
+  url: https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/
+- category: ai
+  published: '2026-06-14T17:00:00'
+  score: 0.829
+  source: OpenAI
+  summary: OpenAI launches the Partner Network, investing $150M to help global partners
+    accelerate enterprise AI adoption, deployment, and transformation....
+  tags:
+  - Product
+  title: Introducing the OpenAI Partner Network
+  url: https://openai.com/index/introducing-openai-partner-network
+- category: ai
+  published: '2026-06-14T17:00:00'
+  score: 0.829
+  source: Towards Data Science
+  summary: Without these, Claude will be confidently wrong. The post 4 Lines You Should
+    Include in Your Claude Skill appeared first on Towards Data Science....
+  tags:
+  - Agentic AI
+  - Artificial Intelligence
+  - claude skills
+  - Data Science
+  - Llm
+  title: 4 Lines You Should Include in Your Claude Skill
+  url: https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/
+- category: cybersecurity
+  published: '2026-06-14T16:07:31'
+  score: 0.898
+  source: Schneier on Security
+  summary: 'This is a current list of where and when I am scheduled to speak: I’m
+    giving a keynote at Cybernation 2026 in Berlin, Germany, on June 24, 2026. I’m
+    speaking at the Potsdam Conference on National Cybe...'
+  tags:
+  - Uncategorized
+  title: Upcoming Speaking Engagements
+  url: https://www.schneier.com/blog/archives/2026/06/upcoming-speaking-engagements-57.html
+- category: webdev
+  published: '2026-06-14T16:02:53'
+  score: 0.708
+  source: Ars Technica
+  summary: 'University of Leicester historian thinks Eilmer of Malmesbury saw two
+    different comets: in 1018 and 1066...'
+  tags:
+  - Culture
+  - Science
+  - astronomy
+  - Eilmer of Malmesbury
+  - Halley's comet
+  title: Did a medieval flying monk spot Halley's comet, twice? It's complicated
+  url: https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/
+- category: ai
+  published: '2026-06-14T15:00:00'
+  score: 0.815
+  source: Towards Data Science
+  summary: 'Enterprise Document Intelligence [Vol.1 #5quater] - The other parsers
+    read the words on a page. A vision model also reads the pictures The post Vision
+    LLMs are PDF Parsers Too: Reading Charts and Diag...'
+  tags:
+  - LLM Applications
+  - Document Processing
+  - Llm
+  - Parsing
+  - Rag
+  title: 'Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG'
+  url: https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/
+- category: cybersecurity
+  published: '2026-06-14T14:36:23'
+  score: 0.887
+  source: BleepingComputer
+  summary: In a coordinated effort, the FBI, working with Google and Black Lotus Labs,
+    has dismantled a massive Chinese phishing-as-a-service operation called Outsider
+    Enterprise with thousands of phishing websi...
+  tags:
+  - Security
+  - Legal
+  - Mobile
+  title: FBI disrupts massive AI-powered phishing service using a million URLs
+  url: https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/
+- category: ai
+  published: '2026-06-14T13:00:00'
+  score: 0.802
+  source: Towards Data Science
+  summary: A systems-level deep dive into the hidden microarchitectural costs of Kubernetes
+    GPU time-slicing, and what it actually costs to co-locate Agentic AI workloads.
+    The post GPU Time-Slicing for Concurren...
+  tags:
+  - Agentic AI
+  - Agentic Ai
+  - Deep Dives
+  - Kubernetes
+  - Mlops
+  title: GPU Time-Slicing for Concurrent LLM Agents on Kubernetes
+  url: https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/
+- category: cybersecurity
+  published: '2026-06-13T20:53:13'
+  score: 0.704
+  source: BleepingComputer
+  summary: A former IT employee at an Iowa school district was sentenced to 21 months
+    in prison after conducting a prolonged cyberattack against the former employer
+    that disrupted classroom operations, deleted a...
+  tags:
+  - Security
+  title: Ex-school district employee jailed for hacks on former employer
+  url: https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/
+- category: webdev
+  published: '2026-06-13T17:17:44'
+  score: 0.516
+  source: Ars Technica
+  summary: There's nothing new or surprising, but it's still an entertaining film
+    from one of our greatest directors....
+  tags:
+  - Culture
+  title: 'Review: Disclosure Day is big on action, light on ideas'
+  url: https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/
+- category: webdev
+  published: '2026-06-13T17:00:00'
+  score: 0.514
+  source: Towards Data Science
+  summary: Increasing context size in RAG systems doesn’t improve accuracy for aggregation
+    tasks—it makes errors harder to detect. In this article, I benchmark retrieval-based
+    pipelines against a deterministic f...
+  tags:
+  - Large Language Models
+  - Data Engineering
+  - Deep Dives
+  - Llm
+  - Llm Applications
+  title: Larger Context Windows Don’t Fix RAG — So I Built a System That Does
+  url: https://towardsdatascience.com/larger-context-windows-dont-fix-rag-so-i-built-a-system-that-does/
+- category: webdev
+  published: '2026-06-13T15:00:00'
+  score: 0.501
+  source: Towards Data Science
+  summary: 'Enterprise Document Intelligence [Vol.1 #5ter] - Table cells, OCR, captions,
+    headings: cloud-grade structure, running on your own machine. No key, no per-page
+    bill, nothing leaves the building The pos...'
+  tags:
+  - LLM Applications
+  - Document Processing
+  - Llm
+  - Parsing
+  - Pdf
+  title: 'Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload'
+  url: https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/
+- category: cybersecurity
+  published: '2026-06-13T14:06:42'
+  score: 0.653
+  source: BleepingComputer
+  summary: Chinese hackers took control of a target organization's authentication
+    stack and maintained persistence for 10 years, with full visibility into the administrative
+    activity. [...]...
+  tags:
+  - Security
+  title: Chinese hackers hijack auth flow, spy on isolated network for a decade
+  url: https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/
+- category: cybersecurity
+  published: '2026-06-13T13:23:03'
+  score: 0.839
+  source: The Hacker News
+  summary: Splunk has released security updates to address a critical security flaw
+    in Splunk Enterprise that could be exploited to conduct unauthenticated file operations
+    and even remote code execution. The vul...
+  tags: []
+  title: Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication
+  url: https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
+- category: webdev
+  published: '2026-06-13T13:00:00'
+  score: 0.489
+  source: Towards Data Science
+  summary: Let's practice data science thinking through a probability problem The
+    post Solving the 3Blue1Brown String Probability Problem (Without AI) appeared
+    first on Towards Data Science....
+  tags:
+  - Data Science
+  - Editor
+  - Editor's Picks
+  - Math
+  - Probability
+  title: Solving the 3Blue1Brown String Probability Problem (Without AI)
+  url: https://towardsdatascience.com/solving-the-3blue1brown-string-probability-problem-without-ai/
 - category: cybersecurity
   published: '2026-06-11T20:29:23'
   score: 1.125
@@ -36587,5 +36776,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-12T06:32:03.154583'
-total_articles: 2873
+last_updated: '2026-06-15T06:47:22.226523'
+total_articles: 2888
