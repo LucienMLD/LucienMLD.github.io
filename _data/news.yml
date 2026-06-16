@@ -1,4 +1,135 @@
 articles:
+- category: cybersecurity
+  published: '2026-06-16T06:31:59'
+  score: 1.106
+  source: BleepingComputer
+  summary: Digital healthcare company iRhythm Holdings has disclosed a data breach
+    after hackers stole patients' personal and health information stored on third-party-hosted
+    business applications. [...]...
+  tags:
+  - Security
+  - Healthcare
+  title: iRhythm discloses data breach, says hackers stole patient info
+  url: https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/
+- category: cybersecurity
+  published: '2026-06-16T05:41:52'
+  score: 1.244
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added
+    a security flaw impacting LiteSpeed cPanel Plugin to its Known Exploited Vulnerabilities
+    (KEV) catalog, requiring Federal Civ...
+  tags: []
+  title: CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation
+  url: https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html
+- category: webdev
+  published: '2026-06-15T23:40:38'
+  score: 0.755
+  source: Ars Technica
+  summary: Isar Aerospace is not hurting for money, but it is sorely lacking in the
+    currency of flight experience....
+  tags:
+  - Science
+  - Space
+  - Commercial space
+  - european space agency
+  - germany
+  title: Key mission for Europe's commercial space enterprise scrubbed again
+  url: https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/
+- category: webdev
+  published: '2026-06-15T21:56:55'
+  score: 0.745
+  source: BleepingComputer
+  summary: The U.S. Department of Justice announced Friday that it has seized the
+    CFAKE.com and SOCFAKE.com websites, which allegedly hosted nonconsensual AI-generated
+    nude images and videos of women, in what ap...
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act
+  url: https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/
+- category: webdev
+  published: '2026-06-15T21:20:31'
+  score: 0.741
+  source: WebKit Blog
+  summary: Customizable select is coming to Safari 27....
+  tags:
+  - News
+  title: The golden rule of Customizable Select
+  url: https://webkit.org/blog/18117/the-golden-rule-of-customizable-select/
+- category: webdev
+  published: '2026-06-15T21:04:26'
+  score: 0.739
+  source: Ars Technica
+  summary: Despite continued benefits, anti-vaccine rhetoric has driven down vaccination....
+  tags:
+  - Health
+  - Cardiovascular
+  - COVID-19
+  - COVID-19 vaccine
+  - heart attack
+  title: Heart protection from COVID shots remains amid updates, study finds
+  url: https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds/
+- category: webdev
+  published: '2026-06-15T20:24:15'
+  score: 0.735
+  source: AWS Machine Learning
+  summary: Today, we are announcing the availability of the Gemma 4 family on Amazon
+    Bedrock. Built by Google DeepMind and released under the Apache 2.0 license, Gemma
+    4 is a family of open-weight models designe...
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Artificial Intelligence
+  - Foundation models
+  - Generative AI
+  title: Introducing Gemma 4 models on Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-gemma-4-models-on-amazon-bedrock/
+- category: cybersecurity
+  published: '2026-06-15T20:06:52'
+  score: 1.024
+  source: BleepingComputer
+  summary: A vulnerability in the SimpleHelp remote management software allows unauthenticated
+    attackers to create privileged technician accounts on servers using the OpenID
+    Connect (OIDC) authentication protoco...
+  tags:
+  - Security
+  title: SimpleHelp bug lets hackers create rogue remote support accounts
+  url: https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/
+- category: cybersecurity
+  published: '2026-06-15T17:12:42'
+  score: 1.098
+  source: BleepingComputer
+  summary: Cisco has released security updates to address a vulnerability in the Catalyst
+    SD-WAN Manager, tracked as CVE-2026-20262, that was exploited in attacks to escalate
+    to root privileges. [...]...
+  tags:
+  - Security
+  title: Cisco fixes SD-WAN vManage flaw exploited in zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/
+- category: ai
+  published: '2026-06-15T16:30:00'
+  score: 0.87
+  source: Towards Data Science
+  summary: Increase productivity with your LLMs The post How to Effectively Align
+    with Claude Code appeared first on Towards Data Science....
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - AI coding assistants
+  - coding agents
+  - LLM Agents
+  title: How to Effectively Align with Claude Code
+  url: https://towardsdatascience.com/how-to-effectively-align-with-claude-code/
+- category: cybersecurity
+  published: '2026-06-15T12:00:00'
+  score: 1.059
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2026-20262 Cisco
+    Catalyst SD-WAN Manager Directory or Path Tr...
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/06/15/cisa-adds-two-known-exploited-vulnerabilities-catalog
 - category: ai
   published: '2026-06-15T00:00:00'
   score: 0.877
@@ -36776,5 +36907,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-15T06:47:22.226523'
-total_articles: 2888
+last_updated: '2026-06-16T06:48:19.913965'
+total_articles: 2899
