@@ -1,5 +1,185 @@
 articles:
 - category: cybersecurity
+  published: '2026-06-17T05:50:46'
+  score: 1.245
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
+    added a maximum-severity security flaw impacting Widget Factory Joomla Content
+    Editor (JCE) to its Known Exploited Vulnerabi...
+  tags: []
+  title: CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution
+  url: https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
+- category: webdev
+  published: '2026-06-16T22:46:46'
+  score: 0.79
+  source: AWS Machine Learning
+  summary: Today, we’re announcing a new API with Amazon Bedrock Guardrails. With
+    this API, you can apply individual safeguards, also referred to as safety checks,
+    at any point in your agentic AI applications wi...
+  tags:
+  - Amazon Bedrock Guardrails
+  - Announcements
+  - Intermediate (200)
+  title: Safeguard your agentic AI applications with the Amazon Bedrock Guardrails
+    InvokeGuardrailChecks API
+  url: https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/
+- category: webdev
+  published: '2026-06-16T22:22:44'
+  score: 0.748
+  source: Ars Technica
+  summary: NAACP lawsuit says xAI uses gas turbines without permits for Grok data
+    center....
+  tags:
+  - AI
+  - Policy
+  - grok
+  - naacp
+  - trump administration
+  title: Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines
+  url: https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war/
+- category: webdev
+  published: '2026-06-16T21:54:50'
+  score: 0.785
+  source: BleepingComputer
+  summary: At least 15 malicious plugins found on the JetBrains Marketplace were designed
+    to steal AI API keys from developers. [...]...
+  tags:
+  - Security
+  title: Malicious JetBrains Marketplace plugins steal AI API keys from developers
+  url: https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/
+- category: ai
+  published: '2026-06-16T21:00:35'
+  score: 0.901
+  source: Ars Technica
+  summary: Move originally planned for Monday would have heavily increased power users'
+    costs....
+  tags:
+  - AI
+  - Anthropic
+  - billing
+  - Claude
+  - costs
+  title: Anthropic "pauses" token-based billing for its Claude Agent SDK
+  url: https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/
+- category: ai
+  published: '2026-06-16T20:16:02'
+  score: 0.896
+  source: AWS Machine Learning
+  summary: Today, we’re excited to announce container image caching for Amazon SageMaker
+    AI inference, the next major advancement in our faster scaling optimization journey.
+    This speeds up end-to-end latency by ...
+  tags:
+  - Amazon SageMaker AI
+  - Announcements
+  - Intermediate (200)
+  title: Introducing container caching in Amazon SageMaker AI for faster model scaling
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-container-caching-in-amazon-sagemaker-ai-for-faster-model-scaling/
+- category: webdev
+  published: '2026-06-16T18:36:25'
+  score: 0.804
+  source: CSS-Tricks
+  summary: Props for That creates live props based things CSS can't normally see in
+    the browser. Things like cursor position, progress values, certain form states,
+    current time, scroll velocity. Prop For That or...
+  tags:
+  - Links
+  - custom properties
+  - framework
+  title: Prop For That
+  url: https://css-tricks.com/prop-for-that/
+- category: ai
+  published: '2026-06-16T18:11:05'
+  score: 0.838
+  source: Ars Technica
+  summary: Pentagon also claims 1.5 million personnel are using generative AI tools....
+  tags:
+  - AI
+  - congress
+  - Department of Defense
+  - gemini
+  - genai
+  title: Pentagon boasts of using AI to write reports mandated by Congress
+  url: https://arstechnica.com/ai/2026/06/pentagon-boasts-of-using-ai-to-write-reports-mandated-by-congress/
+- category: ai
+  published: '2026-06-16T17:47:09'
+  score: 0.835
+  source: AWS Machine Learning
+  summary: This post walks you through how to use P-EAGLE directly within Amazon SageMaker
+    AI. It will demonstrate how to select a compatible model from the SageMaker JumpStart
+    catalog, configure the parallel dr...
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker AI
+  - Technical How-to
+  title: Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI
+  url: https://aws.amazon.com/blogs/machine-learning/parallelize-speculative-decoding-with-p-eagle-on-amazon-sagemaker-ai/
+- category: webdev
+  published: '2026-06-16T15:00:00'
+  score: 0.782
+  source: Towards Data Science
+  summary: Tired of your monthly API bill? Follow this tested guide to set up a high-performance
+    local LLM on your Mac Mini without the headaches. The post Run a Local LLM with
+    OpenClaw on Your Mac Mini appeared...
+  tags:
+  - Large Language Models
+  - API
+  - Llm
+  - Llm Applications
+  - Local Llm
+  title: Run a Local LLM with OpenClaw on Your Mac Mini
+  url: https://towardsdatascience.com/run-a-local-llm-with-openclaw-on-your-mac-mini/
+- category: ai
+  published: '2026-06-16T12:00:48'
+  score: 0.839
+  source: Machine Learning Mastery
+  summary: Traditional machine learning pipelines for predictive tasks like text classification
+    usually rely on extracting structured, numerical features from raw text &mdash;
+    for instance, TF-IDF frequencies or...
+  tags: []
+  title: Building an End-to-End Sentiment Analysis Pipeline with Scikit-LLM
+  url: https://machinelearningmastery.com/building-an-end-to-end-sentiment-analysis-pipeline-with-scikit-llm/
+- category: cybersecurity
+  published: '2026-06-16T12:00:00'
+  score: 1.06
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could cause
+    a denial-of-service condition that may result in a major nonrecoverable fault
+    (MNRF). The following versions of Rockwell Aut...
+  tags: []
+  title: Rockwell Automation Logix 5370 & 5570 Controllers Vulnerable To Denial of
+    Service Via CIP
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03
+- category: cybersecurity
+  published: '2026-06-16T12:00:00'
+  score: 1.06
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability can lead
+    to a denial of service, where the application will become unresponsive and will
+    not recover on its own. The following versions ...
+  tags: []
+  title: Rockwell Automation RSLinx
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02
+- category: cybersecurity
+  published: '2026-06-16T12:00:00'
+  score: 1.06
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow an attacker to gain unauthorized access, account takeover, and cause loss
+    of availability. The following versions of Rock...
+  tags: []
+  title: Rockwell Automation FLEX I/O EtherNet/IP Adapters
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05
+- category: cybersecurity
+  published: '2026-06-16T12:00:00'
+  score: 1.06
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could result
+    in an attacker executing privileged operations. The following versions of Rockwell
+    Automation FactoryTalk Analytics Pavilio...
+  tags: []
+  title: Rockwell Automation FactoryTalk Analytics PavilionX
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01
+- category: cybersecurity
   published: '2026-06-16T06:31:59'
   score: 1.106
   source: BleepingComputer
@@ -36907,5 +37087,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-16T06:48:19.913965'
-total_articles: 2899
+last_updated: '2026-06-17T06:43:04.089378'
+total_articles: 2914
