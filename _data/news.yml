@@ -1,4 +1,184 @@
 articles:
+- category: ai
+  published: '2026-06-18T01:30:08'
+  score: 1.077
+  source: BleepingComputer
+  summary: OpenAI appears to be testing a new subscription and experience for science
+    use cases, but it's unclear if it'll be available to everyone regardless of their
+    background. [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: Leak confirms OpenAI is testing a ChatGPT for Science subscription
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/
+- category: webdev
+  published: '2026-06-17T23:08:46'
+  score: 0.754
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 246 is now available for download for
+    macOS Golden Gate and macOS Tahoe....
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 246
+  url: https://webkit.org/blog/18128/release-notes-for-safari-technology-preview-246/
+- category: webdev
+  published: '2026-06-17T22:11:20'
+  score: 0.748
+  source: Ars Technica
+  summary: Maggot therapy lacks robust data, but it has fans and a fail-safe "bacon
+    therapy."...
+  tags:
+  - Health
+  - Cuprina
+  - fda
+  - maggot debridement therapy
+  - maggots
+  title: Second carcass-eating fly species cleared by FDA for maggot wound therapy
+  url: https://arstechnica.com/health/2026/06/second-carcass-eating-fly-species-cleared-by-fda-for-maggot-wound-therapy/
+- category: webdev
+  published: '2026-06-17T20:56:36'
+  score: 0.78
+  source: AWS Machine Learning
+  summary: Today, we’re announcing inline payload support for Amazon SageMaker AI
+    Async Inference. Customers can now send inference payloads directly in the request
+    body of the InvokeEndpointAsync API, removing ...
+  tags:
+  - Amazon SageMaker AI
+  - Announcements
+  - Intermediate (200)
+  title: Amazon SageMaker AI Async Inference now supports inline request payloads
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-async-inference-now-supports-inline-request-payloads/
+- category: cybersecurity
+  published: '2026-06-17T19:54:31'
+  score: 0.928
+  source: Ars Technica
+  summary: The affected include Oracle, Lenovo, FedEx, a NATO contractor, and Fortinet....
+  tags:
+  - Biz & IT
+  - Security
+  - breaches
+  - firewalls
+  - Fortinet
+  title: Massive breach spills credentials for thousands of sensitive networks
+  url: https://arstechnica.com/security/2026/06/massive-breach-spills-credentials-for-thousands-of-sensitive-networks/
+- category: ai
+  published: '2026-06-17T17:50:46'
+  score: 0.836
+  source: Ars Technica
+  summary: AI models with advanced hacking capabilities will soon be the norm....
+  tags:
+  - AI
+  - Biz & IT
+  - Security
+  - Anthropic Claude
+  - Mythos
+  title: '"Dangerous" AI models are coming no matter what'
+  url: https://arstechnica.com/ai/2026/06/dangerous-ai-models-are-coming-no-matter-what/
+- category: ai
+  published: '2026-06-17T15:57:14'
+  score: 0.823
+  source: Ars Technica
+  summary: Google's new smart speaker is more about Gemini than audio quality....
+  tags:
+  - AI
+  - Google
+  - Tech
+  - gemini
+  - google
+  title: Ten months later, the $100 Google Home Speaker is finally available for preorder
+  url: https://arstechnica.com/google/2026/06/the-gemini-powered-google-home-speaker-arrives-on-june-25-for-100/
+- category: webdev
+  published: '2026-06-17T15:32:30'
+  score: 0.746
+  source: CSS-Tricks
+  summary: There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification
+    — that provides a means of programmatically triggering narration in a screen reader.
+    The Siren Song of ariaNotify() ...
+  tags:
+  - Articles
+  - accessibility
+  - JavaScript
+  title: The Siren Song of  ariaNotify()
+  url: https://css-tricks.com/the-siren-song-of-arianotify/
+- category: cybersecurity
+  published: '2026-06-17T14:00:10'
+  score: 0.932
+  source: BleepingComputer
+  summary: Account takeovers are rising as attackers bypass traditional defenses through
+    phishing, session hijacking, and MFA fatigue. Specops Software explores how device
+    trust and continuous verification help ...
+  tags:
+  - Security
+  title: Why Account Takeovers Are Rising and How to Stop Them
+  url: https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/
+- category: cybersecurity
+  published: '2026-06-17T13:51:58'
+  score: 0.931
+  source: The Hacker News
+  summary: Cybersecurity researchers have flagged a "coordinated malware campaign"
+    on the JetBrains Marketplace that has published no less than 15 malicious plugins
+    capable of exfiltrating artificial intelligenc...
+  tags: []
+  title: Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture
+    Chatbot Chats
+  url: https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html
+- category: ai
+  published: '2026-06-17T13:30:00'
+  score: 0.807
+  source: Towards Data Science
+  summary: Most LLM applications need a clear workflow, not an autonomous agent. Here's
+    how to build one in plain Python. The post You Probably Don’t Need an Agent Framework
+    appeared first on Towards Data Scienc...
+  tags:
+  - Large Language Models
+  - Agentic Ai
+  - Anomaly Detection
+  - Editor's Picks
+  - LLM Agents
+  title: You Probably Don’t Need an Agent Framework
+  url: https://towardsdatascience.com/you-probably-dont-need-an-agent-framework/
+- category: cybersecurity
+  published: '2026-06-17T10:30:00'
+  score: 1.049
+  source: The Hacker News
+  summary: Breaches don't always start with a zero-day. An exposed admin panel can
+    get brute-forced, or credentials reused from a previous attack. But when a vulnerability
+    does drop — like MongoBleed earlier thi...
+  tags: []
+  title: The Top 10 Attack Surface Exposures in 2026
+  url: https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html
+- category: cybersecurity
+  published: '2026-06-17T10:09:24'
+  score: 0.951
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered
+    federal agencies to patch a maximum-severity flaw in the Widget Factory Joomla
+    Content Editor (JCE) plugin that is being ac...
+  tags:
+  - Security
+  title: CISA orders feds to patch max severity Joomla plugin flaw by Friday
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/
+- category: ai
+  published: '2026-06-17T10:00:00'
+  score: 0.826
+  source: OpenAI
+  summary: OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4
+    improved a key drug-making reaction, advancing medicinal chemistry research....
+  tags:
+  - Research
+  title: A near-autonomous AI chemist improves a challenging reaction in medicinal
+    chemistry
+  url: https://openai.com/index/ai-chemist-improves-reaction
+- category: webdev
+  published: '2026-06-17T07:38:24'
+  score: 0.777
+  source: The Hacker News
+  summary: As many as 144 npm packages associated with the Mastra namespace ("@mastra/*"),
+    a popular open-source JavaScript and TypeScript framework for building artificial
+    intelligence (AI) applications, have b...
+  tags: []
+  title: 144 Mastra npm Packages Compromised via Hijacked Contributor Account
+  url: https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html
 - category: cybersecurity
   published: '2026-06-17T05:50:46'
   score: 1.245
@@ -37087,5 +37267,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-17T06:43:04.089378'
-total_articles: 2914
+last_updated: '2026-06-18T06:34:58.437323'
+total_articles: 2929
