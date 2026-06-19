@@ -1,4 +1,188 @@
 articles:
+- category: webdev
+  published: '2026-06-19T00:39:30'
+  score: 0.762
+  source: Ars Technica
+  summary: '"I consider this a success already, just from the fact that we''re even
+    going to try this."...'
+  tags:
+  - Science
+  - Space
+  - astronomy
+  - astrophysics
+  - katalyst space
+  title: A bold satellite rescue mission came together in record time, but will it
+    work?
+  url: https://arstechnica.com/space/2026/06/a-bold-satellite-rescue-mission-came-together-in-record-time-but-will-it-work/
+- category: ai
+  published: '2026-06-18T23:31:58'
+  score: 0.918
+  source: AWS Machine Learning
+  summary: Amazon SageMaker AI provides fully managed real-time inference hosting
+    for machine learning models. You deploy a model to a SageMaker endpoint backed
+    by one or more compute instances, and SageMaker ha...
+  tags:
+  - Amazon CloudWatch
+  - Amazon SageMaker
+  - Announcements
+  - Intermediate (200)
+  title: Monitor and debug generative AI inference with SageMaker detailed metrics
+    and Insights dashboard on CloudWatch
+  url: https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/
+- category: webdev
+  published: '2026-06-18T23:28:52'
+  score: 0.755
+  source: Ars Technica
+  summary: Crypto Clipper spreads over USB and communicates over Tor....
+  tags:
+  - Biz & IT
+  - Security
+  - crypto stealer
+  - cryptocurrency
+  - malware
+  title: Microsoft discovers new lightweight backdoor that steals cryptocurrency
+  url: https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/
+- category: webdev
+  published: '2026-06-18T22:08:59'
+  score: 0.746
+  source: Ars Technica
+  summary: In February, a Trump official refused to review the vaccine....
+  tags:
+  - Health
+  - ACIP
+  - anti-vaccine
+  - CDC
+  - fda
+  title: FDA advisors unanimously vote to approve Moderna's mRNA after agency drama
+  url: https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/
+- category: webdev
+  published: '2026-06-18T21:21:26'
+  score: 0.741
+  source: Ars Technica
+  summary: Taiwan's drone spending plans for defense could also boost business overseas....
+  tags:
+  - AI
+  - AI drones
+  - china
+  - commercial drones
+  - drones
+  title: As China looms, Taiwan makes more drones for defense and the US military
+  url: https://arstechnica.com/ai/2026/06/as-china-looms-taiwan-makes-more-drones-for-defense-and-the-us-military/
+- category: ai
+  published: '2026-06-18T18:00:00'
+  score: 0.836
+  source: Towards Data Science
+  summary: 'Getting reliable, readable responses out of your LLM, and knowing which
+    tool to reach for The post Structured Outputs with LLMs: JSON Mode, Function Calling,
+    and When to Use Each appeared first on Tow...'
+  tags:
+  - Large Language Models
+  - Editor's Picks
+  - Function Calling
+  - Json
+  - Llm
+  title: 'Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use
+    Each'
+  url: https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/
+- category: webdev
+  published: '2026-06-18T17:32:22'
+  score: 0.757
+  source: AWS Machine Learning
+  summary: Today, Amazon Bedrock AgentCore harness is generally available. Two API
+    calls (CreateHarness to define an agent, and InvokeHarness to run it), and you
+    have an agent running in seconds. The agent runs ...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock AgentCore
+  - Announcements
+  title: 'Amazon Bedrock AgentCore harness is now generally available: Go from idea
+    to production-grade agent in minutes'
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-is-now-generally-available-go-from-idea-to-production-grade-agent-in-minutes/
+- category: cybersecurity
+  published: '2026-06-18T17:32:14'
+  score: 1.101
+  source: The Hacker News
+  summary: F5 has released security updates to address two critical security flaws
+    in NGINX Open Source that could be exploited to achieve code execution on affected
+    systems. The vulnerabilities are listed below...
+  tags: []
+  title: F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution
+  url: https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
+- category: ai
+  published: '2026-06-18T17:00:00'
+  score: 0.917
+  source: OpenAI
+  summary: OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise,
+    helping organizations manage costs and scale AI with confidence....
+  tags:
+  - Product
+  title: New usage analytics and updated spend controls for enterprises
+  url: https://openai.com/index/chatgpt-enterprise-spend-controls
+- category: ai
+  published: '2026-06-18T16:30:00'
+  score: 0.826
+  source: Towards Data Science
+  summary: Learn about the upsides and downsides of Claude Fable 5 The post How Powerful
+    is Claude Fable (Mythos) 5 for Coding? appeared first on Towards Data Science....
+  tags:
+  - Large Language Models
+  - Agentic Ai
+  - coding agents
+  - LLM Agents
+  - Machine Learning
+  title: How Powerful is Claude Fable (Mythos) 5 for Coding?
+  url: https://towardsdatascience.com/how-powerful-is-claude-fable-mythos-5-for-coding/
+- category: cybersecurity
+  published: '2026-06-18T12:00:00'
+  score: 1.059
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to upload malicious .ctl files that may lead to arbitrary code execution.
+    The following versions of AzeoTech DAQ...
+  tags: []
+  title: AzeoTech DAQFactory
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-02
+- category: cybersecurity
+  published: '2026-06-18T12:00:00'
+  score: 1.059
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow an attacker to obtain sensitive health-related information and prevent legitimate
+    users from establishing a connection wi...
+  tags: []
+  title: Apollo Pharmacy Blood Glucose Monitoring System APG-01 BT
+  url: https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-169-01
+- category: cybersecurity
+  published: '2026-06-18T12:00:00'
+  score: 1.059
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    a remote attacker to cause a denial-of-service (DoS) condition in the affected
+    product by continuously sending a large numbe...
+  tags: []
+  title: Mitsubishi Electric Co.'s MELSEC iQ-F Series FX5-ENET/IP Ethernet Module
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-06
+- category: cybersecurity
+  published: '2026-06-18T12:00:00'
+  score: 1.059
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    a remote attacker to cause a denial-of-service (DoS) condition in the affected
+    product by rapidly establishing a large numbe...
+  tags: []
+  title: Mitsubishi Electric MELSEC iQ-F Series
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-05
+- category: ai
+  published: '2026-06-18T11:00:00'
+  score: 0.832
+  source: OpenAI
+  summary: Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses
+    with stronger reasoning, better context, clearer communication, and physician-informed
+    evaluations....
+  tags:
+  - Product
+  title: Improving health intelligence in ChatGPT
+  url: https://openai.com/index/improving-health-intelligence-in-chatgpt
 - category: ai
   published: '2026-06-18T01:30:08'
   score: 1.077
@@ -37267,5 +37451,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-18T06:34:58.437323'
-total_articles: 2929
+last_updated: '2026-06-19T06:44:46.697260'
+total_articles: 2944
