@@ -1,4 +1,155 @@
 articles:
+- category: cybersecurity
+  published: '2026-06-22T06:06:53'
+  score: 1.199
+  source: The Hacker News
+  summary: A new report from INTERPOL has revealed a "dramatic increase" in cybercrime
+    in Asia and the South Pacific, fueled by rapid digitalization, internet penetration,
+    new technologies, organized criminal ne...
+  tags: []
+  title: INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific
+  url: https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html
+- category: ai
+  published: '2026-06-21T23:00:00'
+  score: 0.958
+  source: OpenAI
+  summary: Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide,
+    marking one of OpenAI’s largest enterprise AI rollouts....
+  tags:
+  - Company
+  title: Samsung Electronics brings ChatGPT and Codex to employees
+  url: https://openai.com/index/samsung-electronics-chatgpt-codex-deployment
+- category: webdev
+  published: '2026-06-21T17:49:35'
+  score: 0.719
+  source: Ars Technica
+  summary: At least three coal plants have been repeatedly cited for violating environmental
+    regulations....
+  tags:
+  - Policy
+  - Science
+  - coal plants
+  - coal power
+  - syndication
+  title: Trump admin’s coal investments assist plants with repeated violations
+  url: https://arstechnica.com/science/2026/06/trump-admins-coal-investments-assist-plants-with-repeated-violations/
+- category: ai
+  published: '2026-06-21T17:00:00'
+  score: 0.829
+  source: Towards Data Science
+  summary: 'Understanding ow LLMs interact with the world around them, from returning
+    data to taking action The post Tool Calling, Explained: How AI Agents Decide What
+    to Do Next appeared first on Towards Data Sc...'
+  tags:
+  - Agentic AI
+  - Deep Dives
+  - Llm
+  - Programming
+  - Python
+  title: 'Tool Calling, Explained: How AI Agents Decide What to Do Next'
+  url: https://towardsdatascience.com/tool-calling-explained-how-ai-agents-decide-what-to-do-next/
+- category: webdev
+  published: '2026-06-21T15:00:00'
+  score: 0.701
+  source: Towards Data Science
+  summary: 'Enterprise Document Intelligence [Vol.1 #5septies] - When a PDF prints
+    a contents page but exposes no outline, two ways to turn it back into structure,
+    plus the page-alignment step everyone forgets Th...'
+  tags:
+  - Large Language Models
+  - Document Processing
+  - Llm
+  - Parsing
+  - Pdf
+  title: Reconstructing the Table of Contents a PDF Forgot to Ship, So RAG Can Scope
+    by Section
+  url: https://towardsdatascience.com/reconstructing-the-table-of-contents-a-pdf-forgot-to-ship-so-rag-can-scope-by-section/
+- category: cybersecurity
+  published: '2026-06-21T14:14:22'
+  score: 0.884
+  source: BleepingComputer
+  summary: A previously undocumented malware botnet named AryStinger has compromised
+    more than 4,000 outdated routers to turn them into proxies for malicious traffic.
+    [...]...
+  tags:
+  - Security
+  title: AryStinger botnet infected thousands of D-Link routers worldwide
+  url: https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/
+- category: webdev
+  published: '2026-06-21T13:00:00'
+  score: 0.689
+  source: Towards Data Science
+  summary: For years, I created date tables with DAX code whenever I didn’t have a
+    way to create them upstream of the data flow. Now I've realised there's another
+    way to do it. Let’s see what the alternatives ar...
+  tags:
+  - Data Engineering
+  - Data Science
+  - Dax
+  - Power Bi
+  - Power Bi Tutorials
+  title: What Are the Possibilities to Build Date Tables in Self-Service Environments?
+  url: https://towardsdatascience.com/what-are-the-possibilities-to-build-date-tables-in-self-service-environments/
+- category: webdev
+  published: '2026-06-21T10:00:11'
+  score: 0.67
+  source: Ars Technica
+  summary: An eminently binge-able series that honors classic horror tropes while
+    reinventing them in surprising ways...
+  tags:
+  - Culture
+  - Apple TV
+  - entertainment
+  - reviews
+  - streaming television
+  title: 'Review: Widow''s Bay is a boldly original take on comedic horror'
+  url: https://arstechnica.com/culture/2026/06/review-widows-bay-is-a-boldly-original-take-on-comedic-horror/
+- category: webdev
+  published: '2026-06-20T17:00:00'
+  score: 0.514
+  source: Towards Data Science
+  summary: What data teams need to build with AI to make self-healing data architecture
+    a practical reality The post 7 Crucial Barriers Between Data Teams and Self-Healing
+    Data Architecture appeared first on Tow...
+  tags:
+  - Data Science
+  - Agentic Ai
+  - Data Architecture
+  - Data Engineering
+  - Data Pipeline
+  title: 7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture
+  url: https://towardsdatascience.com/7-crucial-barriers-between-data-teams-and-self-healing-data-architecture/
+- category: cybersecurity
+  published: '2026-06-20T15:23:46'
+  score: 0.71
+  source: BleepingComputer
+  summary: A new ransomware operation named 'Prinz Eugen' prioritizes recently modified
+    files for encryption and leaves no ransom note on the system. [...]...
+  tags:
+  - Security
+  title: New Prinz Eugen ransomware prioritizes recent files for encryption
+  url: https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/
+- category: cybersecurity
+  published: '2026-06-20T14:09:19'
+  score: 0.653
+  source: BleepingComputer
+  summary: Microsoft has attributed a recent Mastra AI supply chain attack that compromised
+    more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also
+    known as BlueNoroff. [...]...
+  tags:
+  - Security
+  title: Microsoft links Mastra AI supply chain attack to North Korean hackers
+  url: https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/
+- category: cybersecurity
+  published: '2026-06-20T09:56:04'
+  score: 0.814
+  source: The Hacker News
+  summary: Threat actors are exploiting a recently patched security flaw impacting
+    Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The
+    vulnerability, tracked as CVE-2026-4020 (CVSS scor...
+  tags: []
+  title: Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
+  url: https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
 - category: webdev
   published: '2026-06-19T00:39:30'
   score: 0.762
@@ -37451,5 +37602,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-19T06:44:46.697260'
-total_articles: 2944
+last_updated: '2026-06-22T06:47:51.322858'
+total_articles: 2956
