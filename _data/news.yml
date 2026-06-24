@@ -1,4 +1,173 @@
 articles:
+- category: webdev
+  published: '2026-06-23T22:07:56'
+  score: 0.749
+  source: Ars Technica
+  summary: Climate.us has now restored everything taken down by the government....
+  tags:
+  - Science
+  - climate change
+  - climate.gov
+  - climate.us
+  - NOAA
+  title: US's climate.gov site, taken down by Trump, relaunched by nonprofit
+  url: https://arstechnica.com/science/2026/06/uss-climate-gov-site-taken-down-by-trump-relaunched-by-nonprofit/
+- category: cybersecurity
+  published: '2026-06-23T21:48:32'
+  score: 1.088
+  source: BleepingComputer
+  summary: A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco
+    Unified Communications Manager Server is now being exploited in attacks. [...]...
+  tags:
+  - Security
+  title: Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
+- category: webdev
+  published: '2026-06-23T20:43:42'
+  score: 0.74
+  source: Ars Technica
+  summary: Promo video comes as more US police departments fly drones as first responders....
+  tags:
+  - Tech
+  - aerial surveillance
+  - commercial drones
+  - drones
+  - law enforcement
+  title: Odd police video shows drone removing knife from motionless suspect
+  url: https://arstechnica.com/gadgets/2026/06/police-tout-using-drone-to-disarm-incapacitated-person-in-nationwide-first/
+- category: webdev
+  published: '2026-06-23T20:22:21'
+  score: 0.738
+  source: BleepingComputer
+  summary: ​​Microsoft has released the KB5095093 preview cumulative update for Windows
+    11 24H2 and 25H2, which fixes numerous bugs and begins rolling out new features,
+    including the new Point-in-Time restore fe...
+  tags:
+  - Microsoft
+  title: Windows 11 KB5095093 update rolls out new Point-in-Time restore feature
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/
+- category: webdev
+  published: '2026-06-23T20:17:38'
+  score: 0.737
+  source: Ars Technica
+  summary: Oracle is spending billions on data center infrastructure to support AI....
+  tags:
+  - AI
+  - Biz & IT
+  - job losses
+  - oracle
+  title: Oracle’s 21,000 layoffs help drive its debt-fueled AI investments
+  url: https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments/
+- category: webdev
+  published: '2026-06-23T18:19:50'
+  score: 0.725
+  source: Ars Technica
+  summary: Although it's on the smaller side, this electric vehicle is not very chill....
+  tags:
+  - Cars
+  - car review
+  - Toyota C-HR
+  title: 'A curious crossover: The Toyota C-HR review'
+  url: https://arstechnica.com/cars/2026/06/a-curious-crossover-the-toyota-c-hr-review/
+- category: ai
+  published: '2026-06-23T18:00:00'
+  score: 0.839
+  source: Towards Data Science
+  summary: Learn about the concept of loops to power your coding agents. The post
+    How to Create Powerful Loops in Claude Code appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - AI Agents
+  - Claude Code
+  - coding agents
+  - Llm
+  title: How to Create Powerful Loops in Claude Code
+  url: https://towardsdatascience.com/how-to-create-powerful-loops-in-claude-code/
+- category: ai
+  published: '2026-06-23T17:00:00'
+  score: 0.832
+  source: OpenAI
+  summary: GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights
+    into T cell behavior. The breakthrough could support cancer and autoimmune research....
+  tags:
+  - Applied AI
+  title: How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery
+  url: https://openai.com/index/gpt-5-immunology-mystery
+- category: ai
+  published: '2026-06-23T16:30:00'
+  score: 0.829
+  source: Towards Data Science
+  summary: How Gemini solved my Pandas problem in seconds, and why data science fundamentals
+    still matter to spot suboptimal solutions The post I Spent an Hour on a Data Preprocessing
+    Task Before Asking Gemini a...
+  tags:
+  - Data Science
+  - Artificial Intelligence
+  - Editor's Picks
+  - Gemini
+  - Pandas
+  title: I Spent an Hour on a Data Preprocessing Task Before Asking Gemini
+  url: https://towardsdatascience.com/i-spent-an-hour-on-a-data-preprocessing-task-before-asking-gemini/
+- category: ai
+  published: '2026-06-23T13:00:00'
+  score: 0.805
+  source: OpenAI
+  summary: OpenAI helps build shared standards for advanced AI, supporting evaluation
+    frameworks, safety practices, and global cooperation through the Appia Foundation....
+  tags:
+  - Global Affairs
+  title: Helping build shared standards for advanced AI
+  url: https://openai.com/index/helping-build-shared-standards-for-advanced-ai
+- category: ai
+  published: '2026-06-23T12:00:57'
+  score: 0.886
+  source: Machine Learning Mastery
+  summary: The current era of Generative AI seems to primarily focus on chat interfaces
+    and prompts, but the range of applications of large language models , or LLMs
+    for short, is not limited to just that....
+  tags: []
+  title: Clustering Unstructured Text with LLM Embeddings and HDBSCAN
+  url: https://machinelearningmastery.com/clustering-unstructured-text-with-llm-embeddings-and-hdbscan/
+- category: cybersecurity
+  published: '2026-06-23T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    attackers to manipulate critical device settings and repeatedly disrupt operations,
+    potentially causing a loss of communicat...
+  tags: []
+  title: Hubbell Aclara Metrum Cellular Web Interface
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-07
+- category: cybersecurity
+  published: '2026-06-23T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary OpenSSL has published a stack based buffer overflow vulnerability
+    that allows a remote attacker to cause a denial of service (DoS) or potentially
+    allow for remote code execution. Sie...
+  tags: []
+  title: Siemens Products using OpenSSL
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-03
+- category: cybersecurity
+  published: '2026-06-23T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2025-67038
+    Lantronix EDS5000 Code Injection Vulnerabi...
+  tags: []
+  title: CISA Adds Four Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/06/23/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-06-23T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: View CSAF Summary WinCC Certificate Manager insufficiently protects key
+    material that could allow an attacker to extract sensitive information. Siemens
+    has released a new version for SIMATIC WinCC Uni...
+  tags: []
+  title: Siemens WinCC Certificate Manager
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-174-01
 - category: ai
   published: '2026-06-23T03:56:58'
   score: 1.095
@@ -37780,5 +37949,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-23T06:22:58.846498'
-total_articles: 2971
+last_updated: '2026-06-24T06:20:19.041928'
+total_articles: 2986
