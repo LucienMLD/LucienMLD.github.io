@@ -1,4 +1,179 @@
 articles:
+- category: cybersecurity
+  published: '2026-06-25T05:46:54'
+  score: 1.295
+  source: The Hacker News
+  summary: An unknown threat actor exploited a recently disclosed high-severity security
+    flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before
+    it was publicly disclosed, according to new ...
+  tags: []
+  title: Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access
+  url: https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+- category: webdev
+  published: '2026-06-24T22:47:03'
+  score: 0.753
+  source: Ars Technica
+  summary: GTA6 might be an outlier, though—at least for now....
+  tags:
+  - Gaming
+  - AAA
+  - grand theft auto
+  - Grand Theft Auto 6
+  - Grand Theft Auto VI
+  title: Hotly anticipated Grand Theft Auto VI will cost more than other AAA games
+  url: https://arstechnica.com/gaming/2026/06/grand-theft-auto-vi-will-cost-80-without-a-physical-disc/
+- category: ai
+  published: '2026-06-24T22:28:18'
+  score: 0.914
+  source: Ars Technica
+  summary: The silicon race is heating up amid the struggle to keep up with demand....
+  tags:
+  - AI
+  - Tech
+  - Broadcom
+  - ChatGPT
+  - Codex
+  title: OpenAI and Broadcom announce chip designed for LLM inference at scale
+  url: https://arstechnica.com/gadgets/2026/06/openai-and-broadcom-announce-chip-designed-for-llm-inference-at-scale/
+- category: webdev
+  published: '2026-06-24T21:41:03'
+  score: 0.746
+  source: Ars Technica
+  summary: '"Contract values for these efforts ballooned from nearly $2.8 billion
+    to $5.9 billion."...'
+  tags:
+  - Space
+  - artemis
+  - Inspector General
+  - NASA
+  - space
+  title: 13 years and $500 million for a stage adapter? Report justifies NASA cancellations.
+  url: https://arstechnica.com/space/2026/06/analysis-finds-the-exploration-programs-nasa-recently-canceled-were-running-way-late/
+- category: cybersecurity
+  published: '2026-06-24T21:29:10'
+  score: 1.133
+  source: BleepingComputer
+  summary: New details have been revealed on how hackers exploited a Cisco Catalyst
+    SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create rogue
+    root accounts on targeted devices. [...]...
+  tags:
+  - Security
+  title: Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access
+  url: https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
+- category: webdev
+  published: '2026-06-24T21:28:39'
+  score: 0.744
+  source: Ars Technica
+  summary: We still don't know why RFK Jr. overruled CDC expert to order strict quarantines....
+  tags:
+  - Health
+  - CDC
+  - hantavirus
+  - outbreak
+  - quarantine
+  title: US ends hantavirus outbreak response with no answers on draconian quarantines
+  url: https://arstechnica.com/health/2026/06/us-ends-hantavirus-outbreak-response-with-no-answers-on-draconian-quarantines/
+- category: webdev
+  published: '2026-06-24T21:03:34'
+  score: 0.742
+  source: Ars Technica
+  summary: '"Operation Endgame" simultaneously disrupts two widely used crime tools....'
+  tags:
+  - Biz & IT
+  - Policy
+  - Security
+  - botnets
+  - cybercrime
+  title: One-two punch delivered in global operation disrupts cybercrime "assembly
+    line"
+  url: https://arstechnica.com/security/2026/06/one-two-punch-delivered-in-global-operation-disrupts-cybercrime-assembly-line/
+- category: cybersecurity
+  published: '2026-06-24T20:58:22'
+  score: 1.033
+  source: BleepingComputer
+  summary: A malicious Microsoft Edge extension dubbed 'Edgecution' has been used
+    in a ransomware attack to escape the browser sandbox and deploy a Python-based
+    backdoor. [...]...
+  tags:
+  - Security
+  title: Malicious Edge extension abuses Native Messaging as bridge to malware
+  url: https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/
+- category: webdev
+  published: '2026-06-24T18:20:27'
+  score: 0.765
+  source: AWS Machine Learning
+  summary: In this post, you will learn how to build a voice agent that handles appointment
+    reminder conversations using Amazon Nova 2 Sonic and Amazon Bedrock AgentCore.
+    The agent authenticates patients by voic...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Nova
+  - Best Practices
+  - Strands Agents
+  title: Build a healthcare appointment agent with Amazon Nova 2 Sonic
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-healthcare-appointment-agent-with-amazon-nova-2-sonic/
+- category: cybersecurity
+  published: '2026-06-24T17:19:18'
+  score: 1.054
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
+    warned of active exploitation of a critical security flaw impacting Lantronix
+    EDS5000 Series devices, urging Federal Civilia...
+  tags: []
+  title: CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited
+  url: https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html
+- category: ai
+  published: '2026-06-24T16:30:01'
+  score: 0.829
+  source: DeepMind
+  summary: '...'
+  tags: []
+  title: Introducing computer use in Gemini 3.5 Flash
+  url: https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/
+- category: ai
+  published: '2026-06-24T16:00:13'
+  score: 0.825
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel
+  url: https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel
+- category: cybersecurity
+  published: '2026-06-24T15:59:50'
+  score: 0.996
+  source: The Hacker News
+  summary: A coordinated law enforcement operation, in partnership with private sector
+    companies, including Bitdefender, Bitsight, ESET, and Microsoft, has resulted
+    in the takedown of criminal infrastructure pow...
+  tags: []
+  title: Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered
+  url: https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html
+- category: ai
+  published: '2026-06-24T12:00:00'
+  score: 0.798
+  source: Towards Data Science
+  summary: 'Enterprise Document Intelligence [Vol.1 #7B] - Retrieval is filtering
+    on structured tables: keywords first, TOC second, embeddings last The post Anchor
+    Detection for RAG: Parallel Detectors, Then One ...'
+  tags:
+  - Large Language Models
+  - Deep Dives
+  - Document Processing
+  - Llm Applications
+  - Rag
+  title: 'Anchor Detection for RAG: Parallel Detectors, Then One LLM Call at the End'
+  url: https://towardsdatascience.com/anchor-detection-for-rag-parallel-detectors-then-one-llm-call-at-the-end/
+- category: ai
+  published: '2026-06-24T06:00:00'
+  score: 0.75
+  source: OpenAI
+  summary: OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM
+    inference to improve performance, efficiency, and scale across AI systems....
+  tags:
+  - Company
+  title: OpenAI and Broadcom unveil LLM-optimized inference chip
+  url: https://openai.com/index/openai-broadcom-jalapeno-inference-chip
 - category: webdev
   published: '2026-06-23T22:07:56'
   score: 0.749
@@ -37949,5 +38124,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-24T06:20:19.041928'
-total_articles: 2986
+last_updated: '2026-06-25T06:23:04.741628'
+total_articles: 3001
