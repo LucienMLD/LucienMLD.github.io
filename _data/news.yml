@@ -1,4 +1,155 @@
 articles:
+- category: cybersecurity
+  published: '2026-06-29T05:36:06'
+  score: 1.149
+  source: The Hacker News
+  summary: Cybersecurity researchers have uncovered two hijacked npm packages and
+    a cluster of Go packages that are designed to deploy a Python-based information
+    stealer on compromised Windows, Linux, and macOS ...
+  tags: []
+  title: Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer
+  url: https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html
+- category: webdev
+  published: '2026-06-28T18:49:21'
+  score: 0.727
+  source: Ars Technica
+  summary: Clicking on the links now reveals blank pages and empty PDFs. "Intellectually,
+    it’s not acceptable.”...
+  tags:
+  - Science
+  - history of science
+  - Max Planck
+  - Physics
+  - retraction watch
+  title: Why did this journal retract two 1940s papers by Max Planck?
+  url: https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/
+- category: ai
+  published: '2026-06-28T17:00:00'
+  score: 0.831
+  source: OpenAI
+  summary: HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer
+    experiences, software development, and enterprise operations....
+  tags:
+  - Company
+  title: HP Inc. launches Frontier strategic partnership with OpenAI
+  url: https://openai.com/index/hp-frontier-partnership
+- category: webdev
+  published: '2026-06-28T15:00:00'
+  score: 0.743
+  source: Towards Data Science
+  summary: Behind a customer's API, a high-quality answer isn't enough. It has to
+    be usable, which means on time. Delivering that consistently is a problem about
+    variance, not speed, and the fixes are counterint...
+  tags:
+  - Agentic AI
+  - Ai Engineering
+  - Artificial Intelligence
+  - Editor's Picks
+  - LLM Agents
+  title: 'Tail Control: The Counterintuitive Engineering of Reliable Agentic Workflows'
+  url: https://towardsdatascience.com/tail-control-the-counterintuitive-engineering-of-reliable-agentic-workflows/
+- category: cybersecurity
+  published: '2026-06-28T14:13:46'
+  score: 0.886
+  source: BleepingComputer
+  summary: Japanese telecommunications operator KDDI Corporation disclosed a data
+    breach where threat actors gained access to one of its email systems used by five
+    other internet service providers (ISPs) in the ...
+  tags:
+  - Security
+  title: Data breach exposes up to 14.2 million email logins at six ISPs
+  url: https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/
+- category: webdev
+  published: '2026-06-28T13:00:00'
+  score: 0.69
+  source: Towards Data Science
+  summary: 'A concrete bias–variance lesson: why the smallest model had the best cross-validated
+    fit, and how to know when to reach for the big hammer. The post I Pitted XGBoost
+    Against Logistic Regression on 358...'
+  tags:
+  - Machine Learning
+  - Data Science
+  - Soccer
+  - Soccer Analytics
+  - Statistics
+  title: I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model
+    Won.
+  url: https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/
+- category: cybersecurity
+  published: '2026-06-27T17:27:11'
+  score: 0.728
+  source: The Hacker News
+  summary: The Security Service of Ukraine (SSU) said it, together with the U.S. Federal
+    Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated
+    by Russian intelligence services to break in...
+  tags: []
+  title: Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging
+    Credentials
+  url: https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html
+- category: webdev
+  published: '2026-06-27T15:00:00'
+  score: 0.503
+  source: Towards Data Science
+  summary: A team cut their AI inference bill by more than half. Three months later,
+    customer satisfaction was dropping and the cost savings were tied to the quality
+    loss. Cost-optimization routing layers are a ...
+  tags:
+  - Agentic AI
+  - Artificial Intelligence
+  - Deep Dives
+  - LLM Agents
+  - Llm Applications
+  title: We Built a Routing Layer to Cut Our AI Costs. It Broke the Product.
+  url: https://towardsdatascience.com/we-built-a-routing-layer-to-cut-our-ai-costs-it-broke-the-product/
+- category: cybersecurity
+  published: '2026-06-27T14:22:36'
+  score: 0.705
+  source: BleepingComputer
+  summary: An agentic coding tool tasked with cloning and setting up a seemingly benign
+    GitHub repository could execute a malicious payload that remains invisible to
+    security scanners, AI agents, and human revie...
+  tags:
+  - Security
+  title: Clean GitHub repo tricks AI coding agents into running malware
+  url: https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/
+- category: ai
+  published: '2026-06-27T13:00:00'
+  score: 0.588
+  source: Towards Data Science
+  summary: Use coding agents to power your knowledge base The post How to Build a
+    Powerful LLM Knowledge Base appeared first on Towards Data Science....
+  tags:
+  - Large Language Models
+  - Information Retrieval
+  - Knowledge Base
+  - LLM Agents
+  - Llm Applications
+  title: How to Build a Powerful LLM Knowledge Base
+  url: https://towardsdatascience.com/how-to-build-a-powerful-llm-knowledge-base/
+- category: ai
+  published: '2026-06-27T12:19:37'
+  score: 0.628
+  source: The Hacker News
+  summary: OpenAI on Friday released three versions of GPT-5.6, called Sol, Terra,
+    and Luna, as a limited preview to a small number of companies as part of an ongoing
+    engagement with the U.S. government. While S...
+  tags: []
+  title: OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards
+  url: https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html
+- category: webdev
+  published: '2026-06-27T11:07:05'
+  score: 0.479
+  source: Ars Technica
+  summary: The Amble One is a street-legal $25,000 electric buggy designed for luxury
+    resorts....
+  tags:
+  - Cars
+  - affordable EVs
+  - EV
+  - EVs
+  - moon buggy
+  title: Apple and Audi alumni have made a luxe EV based on the moon buggy
+  url: https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/
 - category: ai
   published: '2026-06-26T00:00:00'
   score: 0.88
@@ -38301,5 +38452,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-26T06:24:06.560307'
-total_articles: 3016
+last_updated: '2026-06-29T06:32:44.552506'
+total_articles: 3028
