@@ -1,4 +1,170 @@
 articles:
+- category: webdev
+  published: '2026-06-30T06:00:00'
+  score: 0.897
+  source: Google AI Blog
+  summary: Four illustrated characters representing different professional roles,
+    including a scientist, technician, explorer, and observer....
+  tags:
+  - UK
+  - AI
+  title: 'Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers'
+  url: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/
+- category: cybersecurity
+  published: '2026-06-30T05:04:06'
+  score: 1.29
+  source: The Hacker News
+  summary: 'A critical security flaw impacting Oracle E-Business Suite has come under
+    active exploitation in the wild, according to Defused Cyber. The vulnerability,
+    tracked as CVE-2026-46817 (CVSS score: 9.8), r...'
+  tags: []
+  title: Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild
+  url: https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html
+- category: webdev
+  published: '2026-06-29T22:05:33'
+  score: 0.748
+  source: Ars Technica
+  summary: Operation by two Russia-state groups has been ongoing since at least March....
+  tags:
+  - Biz & IT
+  - Security
+  - phishing
+  - russia state
+  - signal messenger
+  title: US offers $10 million for info on group behind Signal and WhatsApp hacking
+    spree
+  url: https://arstechnica.com/information-technology/2026/06/us-offers-10-million-for-info-on-group-behind-signal-and-whatsapp-hacking-spree/
+- category: cybersecurity
+  published: '2026-06-29T20:40:44'
+  score: 1.127
+  source: BleepingComputer
+  summary: Nissan is warning that it suffered a data breach affecting current and
+    former employees after threat actors exploited an Oracle PeopleSoft vulnerability
+    in data theft attacks previously linked to the ...
+  tags:
+  - Security
+  title: Nissan discloses employee data breach linked to Oracle zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/
+- category: cybersecurity
+  published: '2026-06-29T20:30:28'
+  score: 1.078
+  source: BleepingComputer
+  summary: The National Association of Insurance Commissioners (NAIC) says the ShinyHunters
+    extortion group stole only publicly available data, outdated logs, and configuration
+    files after breaching its systems ...
+  tags:
+  - Security
+  title: NAIC says public data stolen in ShinyHunters' PeopleSoft breach
+  url: https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/
+- category: webdev
+  published: '2026-06-29T18:15:14'
+  score: 0.764
+  source: AWS Machine Learning
+  summary: In this post, we cover best practices for implementing an effective backup
+    strategy for BI assets in Quick Sight. We start by covering the options for selecting
+    the assets to include in your backup, t...
+  tags:
+  - Advanced (300)
+  - Amazon Quick Sight
+  - Best Practices
+  title: Implement a backup strategy for Amazon Quick Sight BI assets
+  url: https://aws.amazon.com/blogs/machine-learning/implement-a-backup-strategy-for-amazon-quick-sight-bi-assets/
+- category: ai
+  published: '2026-06-29T18:02:48'
+  score: 0.839
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: 'DiScoFormer: One transformer for density and score, across distributions'
+  url: https://huggingface.co/blog/allenai/discoformer
+- category: ai
+  published: '2026-06-29T17:52:33'
+  score: 0.882
+  source: AWS Machine Learning
+  summary: In this post, we show how pairing Amazon Nova 2 Lite with Anthropic’s Claude
+    Sonnet 4.6 delivers an efficient solution for digitizing scanned documents at
+    scale. We built a two-model pipeline on Amazo...
+  tags:
+  - Advanced (300)
+  - Amazon Nova
+  - Amazon Textract
+  - Technical How-to
+  title: Pair Nova 2 Lite with Claude for cost-optimized document processing
+  url: https://aws.amazon.com/blogs/machine-learning/pair-nova-2-lite-with-claude-for-cost-optimized-document-processing/
+- category: ai
+  published: '2026-06-29T17:34:26'
+  score: 0.836
+  source: Towards Data Science
+  summary: 'An end-to-end classical NLP experiment on Kaggle’s Spooky Author Identification
+    task: from Vowpal Wabbit and TF-IDF/NB-SVM baselines to a tuned stacked ensemble,
+    with a compact representation survey o...'
+  tags:
+  - Machine Learning
+  - Data Science
+  - Deep Dives
+  - Feature Engineering
+  - Natural Language Processing
+  title: How Far Can Classical NLP Go? From Bag-of-Words to Stacking on Spooky Author
+    Identification
+  url: https://towardsdatascience.com/how-far-can-classical-nlp-go-from-bag-of-words-to-stacking-on-spooky-author-identification/
+- category: webdev
+  published: '2026-06-29T17:25:21'
+  score: 0.759
+  source: AWS Machine Learning
+  summary: In this post, you learn how to debug production agent failures using built-in
+    observability capabilities. We walk through common failure patterns, show how
+    to analyze agent behavior with traces and me...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon CloudWatch
+  - Technical How-to
+  title: Debugging production agents with Amazon Bedrock AgentCore Observability
+  url: https://aws.amazon.com/blogs/machine-learning/debugging-production-agents-with-amazon-bedrock-agentcore-observability/
+- category: cybersecurity
+  published: '2026-06-29T14:00:00'
+  score: 1.029
+  source: BleepingComputer
+  summary: Hackers are exploiting a recently disclosed critical vulnerability (CVE-2026-48558)
+    in SimpleHelp to deploy Djinn Stealer, a previously undocumented cross-platform
+    information stealer targeting Window...
+  tags:
+  - Security
+  title: Critical SimpleHelp flaw exploited to deploy new stealer malware
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/
+- category: webdev
+  published: '2026-06-29T13:03:32'
+  score: 0.771
+  source: CSS-Tricks
+  summary: CSS has always had pseudo-classes that style things when baed on user interactions.
+    Recent features, however, are blurring the line between what CSS "listens" for
+    and how they are alternatives to what...
+  tags:
+  - Articles
+  - pseudo elements
+  - state
+  title: The Shifting Line Between CSS States and JavaScript Events
+  url: https://css-tricks.com/css-states-and-javascript-events/
+- category: cybersecurity
+  published: '2026-06-29T12:00:00'
+  score: 1.062
+  source: CISA
+  summary: CISA has added one new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2026-48558 SimpleHelp
+    Authentication Bypass Vulnerability This ...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/06/29/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2026-06-29T07:00:00'
+  score: 0.763
+  source: OpenAI
+  summary: A new OpenAI report maps how AI could reshape jobs across the EU, highlighting
+    which occupations may face automation, growth, or workflow changes....
+  tags:
+  - Global Affairs
+  title: Mapping Europe’s AI Workforce Opportunity
+  url: https://openai.com/index/mapping-ai-jobs-transition-eu
 - category: cybersecurity
   published: '2026-06-29T05:36:06'
   score: 1.149
@@ -38452,5 +38618,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-29T06:32:44.552506'
-total_articles: 3028
+last_updated: '2026-06-30T06:26:00.233031'
+total_articles: 3042
