@@ -1,4 +1,174 @@
 articles:
+- category: cybersecurity
+  published: '2026-07-01T05:46:03'
+  score: 1.15
+  source: The Hacker News
+  summary: Cybersecurity researchers have warned of a "massive, ongoing, automated
+    password spray attack" aimed at Microsoft's Azure command-line interface (CLI),
+    compromising dozens of accounts in the process. ...
+  tags: []
+  title: Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts
+  url: https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html
+- category: cybersecurity
+  published: '2026-07-01T05:32:12'
+  score: 1.101
+  source: The Hacker News
+  summary: ClickFix, the trick that fools people into running malware by hand, has
+    quietly grown a back office. New research shows the malicious commands behind
+    its fake "prove you're human" pages are now handed...
+  tags: []
+  title: Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware
+    Delivery
+  url: https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html
+- category: cybersecurity
+  published: '2026-07-01T03:54:22'
+  score: 1.28
+  source: The Hacker News
+  summary: Citrix on Tuesday released security updates to address multiple flaws in
+    NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway)
+    that could be exploited by an attacker to f...
+  tags: []
+  title: Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service
+  url: https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html
+- category: cybersecurity
+  published: '2026-07-01T03:13:19'
+  score: 1.083
+  source: AWS Machine Learning
+  summary: It’s our goal for AWS to be the most secure place to run any workload,
+    and in support of that we’ve been deeply investing in security across our services
+    since&nbsp;AWS's&nbsp;inception more than two ...
+  tags:
+  - Amazon Bedrock
+  - Amazon Machine Learning
+  - Announcements
+  - Featured
+  - Generative AI
+  title: Safely Releasing Frontier Models to Customers
+  url: https://aws.amazon.com/blogs/machine-learning/safely-releasing-frontier-models-to-customers/
+- category: ai
+  published: '2026-07-01T00:35:14'
+  score: 1.027
+  source: BleepingComputer
+  summary: Anthropic has confirmed that the Department of Commerce has lifted export
+    controls on Claude's two most powerful models, Fable 5 and Mythos 5. [...]...
+  tags:
+  - Artificial Intelligence
+  - Software
+  title: Anthropic to restore Claude Fable access on Wednesday
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/
+- category: ai
+  published: '2026-06-30T23:13:07'
+  score: 0.874
+  source: BleepingComputer
+  summary: Anthropic is now rolling out Sonnet 5, and it's almost as good as the Opus
+    range, but it is designed to be cheaper than the company's flagship model. [...]...
+  tags:
+  - Artificial Intelligence
+  - Software
+  title: Anthropic rolls out Sonnet 5 with near-Opus 4.8 performance at a lower price
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/
+- category: webdev
+  published: '2026-06-30T21:46:35'
+  score: 0.785
+  source: Ars Technica
+  summary: Logged-out Old Reddit access is “significant source of abusive scraping."...
+  tags:
+  - Policy
+  - Tech
+  - reddit
+  - social media
+  title: Reddit will require you to log in to use old.reddit.com
+  url: https://arstechnica.com/gadgets/2026/06/reddit-will-require-you-to-log-in-to-use-old-reddit-com/
+- category: webdev
+  published: '2026-06-30T20:38:51'
+  score: 0.778
+  source: Ars Technica
+  summary: Tenor still connects to Google apps, but other platforms must look elsewhere
+    for GIFs....
+  tags:
+  - Google
+  - Tech
+  - gifs
+  - google
+  title: Google kills Tenor GIF API, forcing changes at X, Discord, and more
+  url: https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/
+- category: ai
+  published: '2026-06-30T18:40:09'
+  score: 0.887
+  source: AWS Machine Learning
+  summary: Today, we’re excited to announce the availability of Anthropic’s most advanced
+    Sonnet model, Claude Sonnet 5, on Amazon Bedrock and Claude Platform on AWS. Claude
+    Sonnet 5 is the first Sonnet model of...
+  tags:
+  - Announcements
+  - Intermediate (200)
+  title: 'Introducing Claude Sonnet 5 on AWS: Anthropic’s most capable Sonnet model'
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-on-aws-anthropics-most-capable-sonnet-model/
+- category: webdev
+  published: '2026-06-30T18:32:50'
+  score: 0.765
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: 'ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration'
+  url: https://huggingface.co/blog/ibm-research/scarfbench
+- category: ai
+  published: '2026-06-30T16:40:47'
+  score: 0.873
+  source: AWS Machine Learning
+  summary: In this post, you will learn five practical patterns for building resilient
+    generative AI applications on AWS, progressing from native Amazon Bedrock features
+    to multi-model orchestration using an LLM...
+  tags:
+  - Amazon Bedrock
+  - Best Practices
+  - Intermediate (200)
+  title: Implementing resilience patterns with Amazon Bedrock and LLM gateway
+  url: https://aws.amazon.com/blogs/machine-learning/implementing-resilience-patterns-with-amazon-bedrock-and-llm-gateway/
+- category: webdev
+  published: '2026-06-30T13:54:14'
+  score: 0.776
+  source: CSS-Tricks
+  summary: 'I know you’re busy, so for What’s !important #14, I’ll be sprinting through
+    what’s been a stacked couple of weeks despite few browser updates. From CSS Quake
+    to CSS Gap Decorations, this isn’t one to ...'
+  tags:
+  - Articles
+  - news
+  title: 'What’s !important #14: Gap Decorations, random(), <select> field sizing,
+    and More'
+  url: https://css-tricks.com/whats-important-14/
+- category: webdev
+  published: '2026-06-30T13:49:34'
+  score: 0.776
+  source: The Hacker News
+  summary: Researchers tested 444 AI chatbot apps for iPhone and found that 282 of
+    them, nearly two-thirds, exposed paid AI access through their network traffic.
+    In many cases, the path in was visible just by wa...
+  tags: []
+  title: 282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic
+    Study
+  url: https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html
+- category: cybersecurity
+  published: '2026-06-30T12:00:00'
+  score: 1.061
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities can
+    allow an attacker to cause unauthorized access and exposure of sensitive information
+    when the unauthenticated attacker accesses c...
+  tags: []
+  title: Schneider Electric EasyLogic T150 and Saitel DP RTU
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04
+- category: ai
+  published: '2026-06-30T08:37:19'
+  score: 0.95
+  source: The Hacker News
+  summary: Convince an AI browser that it is playing a game, and it can hand over
+    your login details. That is the finding behind&nbsp;BioShocking, a technique from
+    security firm LayerX that tricked six AI browse...
+  tags: []
+  title: New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials
+  url: https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html
 - category: webdev
   published: '2026-06-30T06:00:00'
   score: 0.897
@@ -38618,5 +38788,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-06-30T06:26:00.233031'
-total_articles: 3042
+last_updated: '2026-07-01T06:30:37.001173'
+total_articles: 3057
