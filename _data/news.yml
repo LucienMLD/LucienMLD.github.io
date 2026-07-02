@@ -1,5 +1,191 @@
 articles:
 - category: cybersecurity
+  published: '2026-07-02T04:25:42'
+  score: 1.094
+  source: BleepingComputer
+  summary: Healthcare device firm Medtronic is notifying affected customers about
+    a data breach that exposed their personal data to an unauthorized third party.
+    [...]...
+  tags:
+  - Security
+  - Healthcare
+  title: Medtronic notifies customers impacted by ShinyHunters data breach
+  url: https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/
+- category: webdev
+  published: '2026-07-01T21:28:16'
+  score: 0.745
+  source: WebKit Blog
+  summary: In Safari Technology Preview 247, we’re introducing the Safari MCP server
+    — a Model Context Protocol server for web developers that makes your web development
+    and debugging workflow faster and more po...
+  tags:
+  - News
+  title: Introducing the Safari MCP server for web developers
+  url: https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/
+- category: webdev
+  published: '2026-07-01T21:28:08'
+  score: 0.745
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 247 is now available for download for
+    macOS Golden Gate and macOS Tahoe....
+  tags:
+  - Safari Technology Preview
+  title: Release Notes for Safari Technology Preview 247
+  url: https://webkit.org/blog/18133/release-notes-for-safari-technology-preview-247/
+- category: webdev
+  published: '2026-07-01T21:21:21'
+  score: 0.744
+  source: Ars Technica
+  summary: T-Mobile wants Broadcom to keep supporting its VMware perpetual licenses....
+  tags:
+  - Biz & IT
+  - Broadcom
+  - lawsuit
+  - t-mobile
+  - vmware
+  title: T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit
+  url: https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/
+- category: cybersecurity
+  published: '2026-07-01T20:08:13'
+  score: 1.028
+  source: BleepingComputer
+  summary: Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found
+    delivering a Python-based remote access trojan (RAT) named ChocoPoC that can execute
+    commands and steal sensitive data in a cam...
+  tags:
+  - Security
+  title: New ChocoPoC malware targets researchers via trojanized PoC exploits
+  url: https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/
+- category: ai
+  published: '2026-07-01T18:14:34'
+  score: 0.885
+  source: AWS Machine Learning
+  summary: We're excited to introduce US-based frontier open-weight models in AWS
+    GovCloud (US). With this release, Amazon Bedrock now supports OpenAI’s open-weight
+    GPT OSS models (120B and 20B) and NVIDIA Nemot...
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - AWS GovCloud (US)
+  - Intermediate (200)
+  title: Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud
+    (US)
+  url: https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/
+- category: ai
+  published: '2026-07-01T18:01:32'
+  score: 0.84
+  source: AWS Machine Learning
+  summary: In this post, we demonstrate how to implement HippoRAG using a comprehensive
+    AWS stack. We use Amazon Bedrock for LLM capabilities, Amazon Neptune for graph
+    database functionality, Amazon Neptune Anal...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Neptune
+  - Technical How-to
+  title: 'HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune,
+    and personalized PageRank'
+  url: https://aws.amazon.com/blogs/machine-learning/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pagerank/
+- category: webdev
+  published: '2026-07-01T17:46:54'
+  score: 0.762
+  source: AWS Machine Learning
+  summary: The Amazon Bedrock Model Profiler is an open source tool that aggregates
+    model metadata from multiple AWS APIs and external sources into a single, searchable
+    interface. In this post, you’ll learn what...
+  tags:
+  - Amazon Bedrock
+  - Amazon Simple Storage Service (S3)
+  - AWS Lambda
+  - AWS Step Functions
+  - Intermediate (200)
+  title: Simplify model selection in Amazon Bedrock with the open source Model Profiler
+  url: https://aws.amazon.com/blogs/machine-learning/simplify-model-selection-in-amazon-bedrock-with-the-open-source-model-profiler/
+- category: cybersecurity
+  published: '2026-07-01T17:18:50'
+  score: 1.055
+  source: The Hacker News
+  summary: Cybersecurity researchers have flagged a new multi-stage malware delivery
+    attack chain that uses social engineering and Blogger pages to deliver an information
+    stealer called PureLogs. The activity ha...
+  tags: []
+  title: VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer
+  url: https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html
+- category: cybersecurity
+  published: '2026-07-01T16:54:22'
+  score: 1.052
+  source: BleepingComputer
+  summary: Modern phishing, business email compromise, and account takeover attacks
+    increasingly exploit trusted identities and legitimate business workflows, making
+    them harder for traditional email defenses to...
+  tags:
+  - Security
+  title: 'Webinar: Why traditional email security is no longer enough'
+  url: https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/
+- category: ai
+  published: '2026-07-01T16:44:18'
+  score: 0.875
+  source: Ars Technica
+  summary: US lifts curbs on Anthropic’s advanced Fable and Mythos models....
+  tags:
+  - AI
+  - Policy
+  - Anthropic
+  - Anthropic Claude
+  - Artificial Intelligence
+  title: After spooking Trump into safety testing, Anthropic AI models get global
+    release
+  url: https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/
+- category: webdev
+  published: '2026-07-01T16:00:00'
+  score: 0.751
+  source: Google AI Blog
+  summary: Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit
+    for 150 education and industry leaders....
+  tags:
+  - Learning & Education
+  - AI
+  title: New York City educators and industry leaders gathered at Google’s offices
+    to shape the future of AI in classrooms.
+  url: https://blog.google/products-and-platforms/products/education/nyc-ai-summit/
+- category: ai
+  published: '2026-07-01T15:00:00'
+  score: 0.819
+  source: Towards Data Science
+  summary: Every hand-off in your multi-agent pipeline is an expensive tokenization
+    round-trip. Discover how Inductive Latent Context Persistence (ILCP) transfers
+    a compressed hidden state so downstream agents n...
+  tags:
+  - Agentic AI
+  - Agentic Ai
+  - Artificial Intelligence
+  - Deep Learning
+  - Editor's Picks
+  title: 'Persistent Latent Memory for Multi-Hop LLM Agents: How a 6G Handover Paper
+    Closes the Agent Cold-Start'
+  url: https://towardsdatascience.com/persistent-latent-memory-for-multi-hop-llm-agents-how-a-6g-handover-paper-closes-the-agent-cold-start/
+- category: cybersecurity
+  published: '2026-07-01T12:00:00'
+  score: 1.063
+  source: CISA
+  summary: CISA has added one new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2026-45659 Microsoft
+    SharePoint Server Deserialization of Untru...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/07/01/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2026-07-01T06:46:17'
+  score: 0.806
+  source: The Hacker News
+  summary: Anthropic is putting Claude Fable 5 back online worldwide. On&nbsp;June
+    30, the U.S. Commerce Department lifted the export controls it had imposed on
+    Fable and its more tightly controlled sibling Myth...
+  tags: []
+  title: Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export
+    Controls
+  url: https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html
+- category: cybersecurity
   published: '2026-07-01T05:46:03'
   score: 1.15
   source: The Hacker News
@@ -38788,5 +38974,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-01T06:30:37.001173'
-total_articles: 3057
+last_updated: '2026-07-02T06:16:41.893699'
+total_articles: 3072
