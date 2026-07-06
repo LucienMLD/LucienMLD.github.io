@@ -1,4 +1,138 @@
 articles:
+- category: cybersecurity
+  published: '2026-07-06T08:50:54'
+  score: 1.155
+  source: The Hacker News
+  summary: Researchers at&nbsp;Shandong University&nbsp;have shown a fast new way
+    to pull data off computers that are cut off from every network. The technique,
+    called&nbsp;TrojPix, tweaks on-screen pixels in wa...
+  tags: []
+  title: New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions
+  url: https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html
+- category: cybersecurity
+  published: '2026-07-06T08:13:33'
+  score: 1.151
+  source: The Hacker News
+  summary: Cybersecurity researchers have flagged a novel Java-based remote access
+    trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS
+    environments. According to LevelBlue, the cro...
+  tags: []
+  title: New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS
+  url: https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html
+- category: cybersecurity
+  published: '2026-07-06T07:27:50'
+  score: 1.097
+  source: The Hacker News
+  summary: Researchers found a flaw in&nbsp;Opera GX, the gaming-focused version of
+    the Opera browser, that let a malicious website silently install a browser add-on
+    and use it to lift specific data from the pag...
+  tags: []
+  title: Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited
+    Pages
+  url: https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html
+- category: cybersecurity
+  published: '2026-07-06T06:33:56'
+  score: 1.09
+  source: The Hacker News
+  summary: Scanners meant to catch malicious add-on "skills" for AI coding agents
+    can be fooled by a few simple changes that leave the malware working, according
+    to a&nbsp;new study&nbsp;from researchers at the ...
+  tags: []
+  title: SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting
+    Packing
+  url: https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html
+- category: webdev
+  published: '2026-07-06T00:00:00'
+  score: 0.744
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: '🤗 Kernels: Major Updates'
+  url: https://huggingface.co/blog/revamped-kernels
+- category: cybersecurity
+  published: '2026-07-05T15:00:00'
+  score: 0.874
+  source: Towards Data Science
+  summary: 'Enterprise Document Intelligence [Vol.1 #8B] - A fixed BASE, the rules
+    each question needs, one registry: the dispatcher that turns a parsed question
+    into a typed LLM call The post Assemble Each RAG G...'
+  tags:
+  - Large Language Model
+  - Document Processing
+  - Generation
+  - Llm
+  - Rag
+  title: Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each
+    Question Needs
+  url: https://towardsdatascience.com/assemble-each-rag-generation-prompt-from-a-base-prompt-plus-the-rules-each-question-needs/
+- category: webdev
+  published: '2026-07-05T14:14:52'
+  score: 0.683
+  source: BleepingComputer
+  summary: Flipper Devices says development of the Flipper Zero firmware will continue,
+    albeit with a smaller internal team and greater reliance on community contributions.
+    [...]...
+  tags:
+  - Security
+  title: Flipper Zero firmware development continues with community help
+  url: https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/
+- category: webdev
+  published: '2026-07-05T13:00:00'
+  score: 0.675
+  source: Towards Data Science
+  summary: 'Understanding how PANet shortens the path between low-level and high-level
+    features The post PANet Paper Walkthrough: When Feature Pyramids Go Bottom-Up
+    appeared first on Towards Data Science....'
+  tags:
+  - Deep Learning
+  - Computer Vision
+  - Editor's Picks
+  - Machine Learning
+  - Python
+  title: 'PANet Paper Walkthrough: When Feature Pyramids Go Bottom-Up'
+  url: https://towardsdatascience.com/panet-paper-walkthrough-when-feature-pyramids-go-bottom-up/
+- category: webdev
+  published: '2026-07-05T11:05:22'
+  score: 0.663
+  source: Ars Technica
+  summary: Chemicals from accidents that injured or killed people increased by nearly
+    50 percent in recent years....
+  tags:
+  - Policy
+  - Science
+  - hazardous chemicals
+  - safety rules
+  - syndication
+  title: Chemical accidents rise as Trump administration proposes weakening safety
+    rules
+  url: https://arstechnica.com/science/2026/07/chemical-accidents-rise-as-trump-administration-proposes-weakening-safety-rules/
+- category: webdev
+  published: '2026-07-05T10:55:02'
+  score: 0.662
+  source: Ars Technica
+  summary: The heat of the Hadean may have come from impacts as well as the interior....
+  tags:
+  - Science
+  - astronomy
+  - Earth science
+  - impacts
+  - meteorites
+  title: 'The missing 500 million: Cosmic bombardment melted Earth''s first crust'
+  url: https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/
+- category: ai
+  published: '2026-07-04T15:00:00'
+  score: 0.586
+  source: Towards Data Science
+  summary: Still a long way to go, but the future is promising The post Setting Up
+    Your Own Large Language Model appeared first on Towards Data Science....
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Llm
+  - Ollama
+  - Open Source
+  title: Setting Up Your Own Large Language Model
+  url: https://towardsdatascience.com/setting-up-your-own-large-language-model/
 - category: ai
   published: '2026-07-03T01:37:09'
   score: 0.924
@@ -39152,5 +39286,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-03T07:56:54.452533'
-total_articles: 3087
+last_updated: '2026-07-06T08:55:54.235646'
+total_articles: 3098
