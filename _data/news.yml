@@ -1,5 +1,156 @@
 articles:
 - category: cybersecurity
+  published: '2026-07-07T08:12:10'
+  score: 1.251
+  source: BleepingComputer
+  summary: BeyondTrust warned customers to patch two critical security flaws in its
+    Remote Support (RS) and Privileged Remote Access (PRA) software that could allow
+    attackers to bypass authentication. [...]...
+  tags:
+  - Security
+  title: BeyondTrust warns of critical flaws in remote access software
+  url: https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/
+- category: webdev
+  published: '2026-07-07T07:37:38'
+  score: 0.896
+  source: BleepingComputer
+  summary: Microsoft has begun testing the Cloud Rebuild recovery feature in the latest
+    Windows 11 Insider Preview builds released for users in the Experimental channel.
+    [...]...
+  tags:
+  - Microsoft
+  title: Microsoft testing new Cloud Rebuild Windows 11 recovery feature
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/
+- category: cybersecurity
+  published: '2026-07-07T06:40:47'
+  score: 1.288
+  source: The Hacker News
+  summary: Several versions of firmware released by Chinese network device manufacturer
+    Tenda have been found to embed an undocumented authentication backdoor that enables
+    administrative access to the devices' w...
+  tags: []
+  title: CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware
+  url: https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html
+- category: cybersecurity
+  published: '2026-07-07T05:16:51'
+  score: 1.277
+  source: The Hacker News
+  summary: BeyondTrust has released updates to address two critical security flaws
+    affecting Remote Support (RS) and Privileged Remote Access (PRA) products that,
+    if successfully exploited, could allow unauthent...
+  tags: []
+  title: BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA
+  url: https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
+- category: webdev
+  published: '2026-07-07T00:00:00'
+  score: 0.748
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: 'LeRobot v0.6.0: Imagine, Evaluate, Improve'
+  url: https://huggingface.co/blog/lerobot-release-v060
+- category: ai
+  published: '2026-07-06T22:35:55'
+  score: 0.857
+  source: AWS Machine Learning
+  summary: Today, we’re excited to announce a deep-link integration between Hugging
+    Face and Amazon SageMaker AI. Developers can now go from model discovery to hands-on
+    experimentation in SageMaker Studio with a...
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker AI
+  - Technical How-to
+  title: From Hugging Face to Amazon SageMaker Studio in one click
+  url: https://aws.amazon.com/blogs/machine-learning/from-hugging-face-to-amazon-sagemaker-studio-in-one-click-2/
+- category: webdev
+  published: '2026-07-06T22:23:45'
+  score: 0.738
+  source: AWS Machine Learning
+  summary: In this post, we introduce Reverse Direct Preference Optimization (rDPO),
+    the novel unlearning technique behind Amazon Nova Customizable Content Moderation
+    Settings (CCMS), and show how it reduces ove...
+  tags:
+  - Amazon SageMaker
+  - Announcements
+  - Foundational (100)
+  title: 'Teaching models to forget: Selective unlearning with Amazon Nova'
+  url: https://aws.amazon.com/blogs/machine-learning/teaching-models-to-forget-selective-unlearning-with-amazon-nova/
+- category: webdev
+  published: '2026-07-06T21:13:37'
+  score: 0.731
+  source: Ars Technica
+  summary: FCC to let ISPs stop listing all passthrough fees, give single "up to"
+    price....
+  tags:
+  - Policy
+  - FCC
+  - ISPs
+  title: FCC to end Biden-era rule that forces ISPs to list all their fees
+  url: https://arstechnica.com/tech-policy/2026/07/fcc-to-end-biden-era-rule-that-forces-isps-to-list-all-their-fees/
+- category: webdev
+  published: '2026-07-06T20:52:42'
+  score: 0.729
+  source: Ars Technica
+  summary: Drone intruders that possibly flew from Russian ships showed Europe isn’t
+    ready....
+  tags:
+  - Tech
+  - aerial surveillance
+  - drones
+  - military drones
+  - russia
+  title: Kremlin suspected of flying drones over Europe using Russian shadow fleet
+  url: https://arstechnica.com/gadgets/2026/07/kremlin-suspected-of-flying-drones-over-europe-using-russian-shadow-fleet/
+- category: ai
+  published: '2026-07-06T16:44:18'
+  score: 0.861
+  source: Ars Technica
+  summary: Anthropic accused of spying on users; engineer says “experiment” is over....
+  tags:
+  - AI
+  - Policy
+  - AI privacy
+  - Anthropic
+  - Artificial Intelligence
+  title: Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance
+  url: https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/
+- category: cybersecurity
+  published: '2026-07-06T16:28:59'
+  score: 1.081
+  source: The Hacker News
+  summary: Threat actors have been observed attempting to exploit a recently patched
+    critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability
+    in question is CVE-2026-20896 (CVSS scor...
+  tags: []
+  title: Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure
+  url: https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html
+- category: ai
+  published: '2026-07-06T15:00:00'
+  score: 0.805
+  source: Towards Data Science
+  summary: Increase the effectiveness of your coding agents through end-to-end testing.
+    The post How to Run End-to-End Tests with Claude Code appeared first on Towards
+    Data Science....
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - AI coding assistants
+  - Claude Code
+  - Machine Learning
+  title: How to Run End-to-End Tests with Claude Code
+  url: https://towardsdatascience.com/how-to-run-end-to-end-tests-with-claude-code/
+- category: cybersecurity
+  published: '2026-07-06T13:18:37'
+  score: 1.01
+  source: BleepingComputer
+  summary: Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability
+    tracked as CVE-2026-48282, according to vulnerability intelligence company KEVIntel.
+    [...]...
+  tags:
+  - Security
+  title: Max severity Adobe ColdFusion flaw now exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/
+- category: cybersecurity
   published: '2026-07-06T08:50:54'
   score: 1.155
   source: The Hacker News
@@ -39286,5 +39437,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-06T08:55:54.235646'
-total_articles: 3098
+last_updated: '2026-07-07T08:17:12.327213'
+total_articles: 3111
