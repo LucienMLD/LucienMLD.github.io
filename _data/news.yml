@@ -1,5 +1,172 @@
 articles:
 - category: cybersecurity
+  published: '2026-07-08T07:16:55'
+  score: 1.203
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered
+    government agencies to patch an actively exploited maximum-severity flaw in the
+    Adobe ColdFusion commercial web app develop...
+  tags:
+  - Security
+  title: CISA orders feds to patch max severity ColdFusion flaw by Friday
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/
+- category: cybersecurity
+  published: '2026-07-08T06:16:44'
+  score: 1.196
+  source: The Hacker News
+  summary: Researchers at&nbsp;Nebula Security&nbsp;have disclosed GhostLock (CVE-2026-43499),
+    a 15-year-old Linux kernel flaw that lets any logged-in user take full&nbsp;root&nbsp;control
+    of a machine that has ...
+  tags: []
+  title: 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux
+    Distros
+  url: https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html
+- category: cybersecurity
+  published: '2026-07-08T05:33:12'
+  score: 1.238
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
+    added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog,
+    citing evidence of active exploitation. The ...
+  tags: []
+  title: CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV
+  url: https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html
+- category: webdev
+  published: '2026-07-08T01:57:39'
+  score: 0.866
+  source: Towards Data Science
+  summary: How should we ensemble time-series forecasts better? The post Information
+    Theory and Ensemble Models appeared first on Towards Data Science....
+  tags:
+  - Inflation
+  - Econometrics
+  - Thoughts And Theory
+  - Tips And Tricks
+  - Topological Data Analysis
+  title: Information Theory and Ensemble Models
+  url: https://towardsdatascience.com/information-theory-and-ensemble-models-ded31db10d8/
+- category: webdev
+  published: '2026-07-08T01:56:11'
+  score: 0.866
+  source: Towards Data Science
+  summary: A non-parametric variable selection for Structural VARs The post Granger
+    Causal Networks and Indirect Feedback appeared first on Towards Data Science....
+  tags: []
+  title: Granger Causal Networks and Indirect Feedback
+  url: https://towardsdatascience.com/granger-causal-networks-and-indirect-feedback-676549ba99e/
+- category: webdev
+  published: '2026-07-08T01:53:36'
+  score: 0.866
+  source: Towards Data Science
+  summary: The simplest most important idea for time series forecasting The post Measuring
+    Structure Stability of Econometric Models appeared first on Towards Data Science....
+  tags:
+  - Data Science
+  - Econometrics
+  - Notes From Industry
+  - Time Series Forecasting
+  title: Measuring Structure Stability of Econometric Models
+  url: https://towardsdatascience.com/measuring-structure-stability-of-econometric-models-d8eb3a56e1bd/
+- category: webdev
+  published: '2026-07-07T16:51:29'
+  score: 0.789
+  source: AWS Machine Learning
+  summary: This post walks through building a serverless image editor where users
+    upload a photo, describe an edit in plain English, and receive the result in seconds.
+    The agent runs on AgentCore harness without...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon Cognito
+  - AWS Amplify
+  title: Build a serverless image editing agent with Amazon Bedrock AgentCore harness
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-serverless-image-editing-agent-with-amazon-bedrock-agentcore-harness/
+- category: ai
+  published: '2026-07-07T16:49:09'
+  score: 0.824
+  source: AWS Machine Learning
+  summary: Implementing a data and model monitoring solution is necessary to maintain
+    prediction accuracy and help achieve the best outcome for your machine learning
+    use case. This post shows how you can use ope...
+  tags:
+  - Advanced (300)
+  - Amazon EventBridge
+  - Amazon SageMaker AI
+  - Amazon Simple Notification Service (SNS)
+  - Amazon Simple Storage Service (S3)
+  title: Monitoring discriminative ML models using Amazon SageMaker AI with MLflow
+  url: https://aws.amazon.com/blogs/machine-learning/monitoring-discriminative-ml-models-using-amazon-sagemaker-ai-with-mlflow/
+- category: webdev
+  published: '2026-07-07T16:46:43'
+  score: 0.789
+  source: AWS Machine Learning
+  summary: In this post, you build an AWS Support Companion using Amazon Bedrock AgentCore.
+    The agent uses Strands Agents as the orchestration framework and connects to AWS
+    services through the Model Context Pro...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon CloudWatch
+  - AWS Lambda
+  title: Build an AI-powered AWS support companion with Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-aws-support-companion-with-amazon-bedrock-agentcore/
+- category: ai
+  published: '2026-07-07T15:20:06'
+  score: 0.814
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: Hugging Face Models on Foundry Managed Compute
+  url: https://huggingface.co/blog/microsoft/foundry-managed-compute
+- category: ai
+  published: '2026-07-07T15:00:00'
+  score: 0.811
+  source: Towards Data Science
+  summary: 'A technical comparison of Proxy-Pointer and LLM-Wiki The post Proxy-Pointer
+    RAG: Temporal Reasoning Without Semantic Precompilation appeared first on Towards
+    Data Science....'
+  tags:
+  - LLM Applications
+  - Document Processing
+  - Llm
+  - Proxy-Pointer
+  - Rag
+  title: 'Proxy-Pointer RAG: Temporal Reasoning Without Semantic Precompilation'
+  url: https://towardsdatascience.com/proxy-pointer-rag-temporal-reasoning-without-semantic-precompilation/
+- category: cybersecurity
+  published: '2026-07-07T12:00:00'
+  score: 1.054
+  source: CISA
+  summary: CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2026-48908 JoomShaper
+    SP Page Builder Unrestricted Upload o...
+  tags: []
+  title: CISA Adds Three Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-07-07T12:00:00'
+  score: 1.054
+  source: CISA
+  summary: View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability
+    that affects e-mesh EMS product versions listed in this document. Successful exploitation
+    of this vulnerability could lead ...
+  tags: []
+  title: Hitachi Energy e-mesh EMS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03
+- category: ai
+  published: '2026-07-07T08:54:00'
+  score: 0.769
+  source: Google AI Blog
+  summary: Managed agents feature bundle launch...
+  tags:
+  - Developer tools
+  - AI
+  title: 'Expanding Managed Agents in Gemini API:  background tasks, remote MCP and
+    more'
+  url: https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/
+- category: cybersecurity
   published: '2026-07-07T08:12:10'
   score: 1.251
   source: BleepingComputer
@@ -41,6 +208,15 @@ articles:
   tags: []
   title: BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA
   url: https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html
+- category: ai
+  published: '2026-07-07T00:00:00'
+  score: 0.746
+  source: OpenAI
+  summary: MUFG uses ChatGPT Enterprise to build an AI-native organization, improve
+    workflows, and deliver new AI-powered financial services at scale....
+  tags: []
+  title: MUFG aims to become AI-native with OpenAI
+  url: https://openai.com/index/mufg
 - category: webdev
   published: '2026-07-07T00:00:00'
   score: 0.748
@@ -39437,5 +39613,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-07T08:17:12.327213'
-total_articles: 3111
+last_updated: '2026-07-08T07:24:03.675415'
+total_articles: 3126
