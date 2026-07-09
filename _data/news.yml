@@ -1,5 +1,180 @@
 articles:
 - category: cybersecurity
+  published: '2026-07-09T07:47:16'
+  score: 1.152
+  source: BleepingComputer
+  summary: American insurance company AssuranceAmerica has disclosed a data breach
+    impacting nearly 7 million drivers after attackers gained access to its systems
+    earlier this year. [...]...
+  tags:
+  - Security
+  title: AssuranceAmerica data breach exposes records of 6.9 million drivers
+  url: https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/
+- category: ai
+  published: '2026-07-09T07:21:06'
+  score: 1.017
+  source: The Hacker News
+  summary: Meta has announced that its new artificial intelligence (AI) model Muse
+    Image lets people use public Instagram posts and reels to generate AI content,
+    and it's enabled by default. "You can also @-ment...
+  tags: []
+  title: Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in
+    AI Images
+  url: https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html
+- category: cybersecurity
+  published: '2026-07-09T05:42:49'
+  score: 1.232
+  source: BleepingComputer
+  summary: Microsoft has released a security patch to address a Defender zero-day
+    vulnerability known as "RoguePlanet," disclosed after the June 2026 Patch Tuesday.
+    [...]...
+  tags:
+  - Microsoft
+  - Security
+  title: Microsoft patches RoguePlanet Defender zero-day vulnerability
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/
+- category: ai
+  published: '2026-07-09T05:15:02'
+  score: 1.091
+  source: The Hacker News
+  summary: Ask an AI coding agent to scan open-source code for security holes, and
+    it might run the attacker's code on your own machine instead. That is the finding
+    in a&nbsp;proof-of-concept published Wednesday...
+  tags: []
+  title: Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It
+  url: https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html
+- category: ai
+  published: '2026-07-09T04:27:18'
+  score: 1.041
+  source: The Hacker News
+  summary: Researchers at&nbsp;Wiz&nbsp;found that a flaw in six popular AI coding
+    assistants lets a booby-trapped code project quietly take control of a developer's
+    computer. The assistant asks permission to ed...
+  tags: []
+  title: GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding
+    Agents
+  url: https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html
+- category: cybersecurity
+  published: '2026-07-09T04:01:49'
+  score: 1.076
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of a new threat actor
+    dubbed Lurking Lizard that has been operating an end-to-end malicious residential
+    proxy business using an infrastructure comprisi...
+  tags: []
+  title: Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes
+  url: https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html
+- category: webdev
+  published: '2026-07-08T21:42:44'
+  score: 0.733
+  source: Ars Technica
+  summary: AI cheating leads to "a failed society," professor says....
+  tags:
+  - AI
+  - Culture
+  - cheating
+  - higher ed
+  - Ivy League
+  title: Suspecting AI cheating, Ivy League prof ordered an in-person final; scores
+    fell 50%
+  url: https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/
+- category: webdev
+  published: '2026-07-08T19:56:37'
+  score: 0.722
+  source: Ars Technica
+  summary: More young girls sue X over Grok CSAM; X accused of shielding child predators....
+  tags:
+  - AI
+  - Policy
+  - ai csam
+  - child sex abuse materials
+  - Elon Musk
+  title: 'Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot
+    himself'
+  url: https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/
+- category: webdev
+  published: '2026-07-08T19:14:02'
+  score: 0.718
+  source: Ars Technica
+  summary: Kalshi tried to ignore gambling laws on its prediction market, NY governor
+    says....
+  tags:
+  - Policy
+  - Kalshi
+  - new york
+  - prediction markets
+  title: Judge rejects Kalshi attempt to override New York state gambling laws
+  url: https://arstechnica.com/tech-policy/2026/07/new-york-can-restrict-sports-gambling-on-prediction-markets-us-judge-rules/
+- category: cybersecurity
+  published: '2026-07-08T14:38:05'
+  score: 1.067
+  source: The Hacker News
+  summary: Ubiquiti has shipped updates to address multiple critical security flaws
+    impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS
+    that could result in privilege escalation and ar...
+  tags: []
+  title: Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect,
+    and OS
+  url: https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html
+- category: webdev
+  published: '2026-07-08T12:47:35'
+  score: 0.718
+  source: Ars Technica
+  summary: The company is raising $10 billion, leading to a valuation of $130 billion....
+  tags:
+  - Space
+  - blue origin
+  - Jeff Bezos
+  - space
+  title: Blue Origin, for the first time, is expected to raise private capital
+  url: https://arstechnica.com/space/2026/07/blue-origin-for-the-first-time-is-expected-to-raise-private-capital/
+- category: webdev
+  published: '2026-07-08T12:00:00'
+  score: 0.713
+  source: BleepingComputer
+  summary: DuckDuckGo announced that its browser can now block most video ads on YouTube,
+    including those shown before the video starts playing and during playback. [...]...
+  tags:
+  - Software
+  title: DuckDuckGo browser now blocks YouTube video ads
+  url: https://www.bleepingcomputer.com/news/software/duckduckgo-browser-now-blocks-youtube-video-ads/
+- category: ai
+  published: '2026-07-08T11:21:07'
+  score: 0.868
+  source: The Hacker News
+  summary: An AI coding assistant that refuses to answer a dangerous request in its
+    chat box can answer it anyway if the same request is broken into small, ordinary-looking
+    steps inside a code editor. That is th...
+  tags: []
+  title: GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code
+  url: https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html
+- category: ai
+  published: '2026-07-08T11:03:04'
+  score: 0.91
+  source: Schneier on Security
+  summary: Last week, national security agencies from the Five Eyes&#8212;that&#8217;s
+    the rich, English-language-speaking countries club&#8212;jointly released a statement
+    warning of the increasing cyber risks ...
+  tags:
+  - Uncategorized
+  - AI
+  - computer security
+  - cyberattack
+  - cybersecurity
+  title: Cybersecurity and the Gap Between Skill and Ability
+  url: https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html
+- category: cybersecurity
+  published: '2026-07-08T09:58:11'
+  score: 0.984
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) gave federal
+    agencies until Friday to patch an actively exploited vulnerability in the Langflow
+    visual framework for building AI agents...
+  tags:
+  - Security
+  title: CISA orders feds to prioritize patching Langflow auth bypass flaw
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/
+- category: cybersecurity
   published: '2026-07-08T07:16:55'
   score: 1.203
   source: BleepingComputer
@@ -39613,5 +39788,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-08T07:24:03.675415'
-total_articles: 3126
+last_updated: '2026-07-09T08:21:30.929021'
+total_articles: 3141
