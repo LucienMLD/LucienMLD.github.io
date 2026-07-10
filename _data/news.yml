@@ -1,4 +1,178 @@
 articles:
+- category: ai
+  published: '2026-07-10T00:00:00'
+  score: 0.867
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: 'Profiling in PyTorch (Part 3): Attention is all you profile'
+  url: https://huggingface.co/blog/torch-attention-profile
+- category: webdev
+  published: '2026-07-09T22:29:10'
+  score: 0.739
+  source: Ars Technica
+  summary: If Homo floresiensis wasn't a fire-using hunter, its origins could be different
+    than we thought....
+  tags:
+  - Science
+  - anthropology
+  - Archaeology
+  - extinct megafauna
+  - Flores
+  title: Flores Hobbits' eating habits offer clues about their evolutionary past
+  url: https://arstechnica.com/science/2026/07/flores-hobbits-scavenged-komodo-dragons-elephant-kills-study-suggests/
+- category: webdev
+  published: '2026-07-09T22:14:13'
+  score: 0.737
+  source: BleepingComputer
+  summary: The OpenMandriva Linux project announced that it was the target of an attempted
+    act of internal sabotage after a dispute among contributors. [...]...
+  tags:
+  - Security
+  - Linux
+  title: OpenMandriva Linux says contributor tried to sabotage the project
+  url: https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/
+- category: webdev
+  published: '2026-07-09T21:56:44'
+  score: 0.735
+  source: Ars Technica
+  summary: In neighboring Ohio, cases have reportedly reached over 500....
+  tags:
+  - Health
+  - cyclosporiasis
+  - diarrhea
+  - Michigan
+  - Ohio
+  title: Michigan's explosive outbreak of diarrheal parasite jumps to over 1,200 cases
+  url: https://arstechnica.com/health/2026/07/michigans-explosive-outbreak-of-diarrheal-parasite-jumps-to-over-1200-cases/
+- category: ai
+  published: '2026-07-09T21:25:55'
+  score: 0.849
+  source: Ars Technica
+  summary: Rebranded Codex promises independent workflows that can run "for hours
+    if needed."...
+  tags:
+  - AI
+  - agent mode
+  - ChatGPT
+  - ChatGPT agent
+  - chatgpt codex
+  title: OpenAI wants its new tool to do your work for you and with you
+  url: https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you/
+- category: cybersecurity
+  published: '2026-07-09T20:52:55'
+  score: 0.971
+  source: Ars Technica
+  summary: The feud between NightmareEclipse and Microsoft shows no signs of resolving
+    soon....
+  tags:
+  - Biz & IT
+  - Security
+  - microsoft
+  - Windows Defender
+  - zero days
+  title: Patch for Windows Defender 0-day could allow attackers to fill hard disk
+  url: https://arstechnica.com/security/2026/07/patch-for-windows-defender-0-day-could-allow-attackers-to-fill-hard-disk/
+- category: ai
+  published: '2026-07-09T18:57:53'
+  score: 0.92
+  source: Ars Technica
+  summary: OpenAI may be sanctioned for hiding, deleting ChatGPT logs in NYT copyright
+    fight....
+  tags:
+  - AI
+  - Policy
+  - AI training
+  - copyright
+  - copyright infringement
+  title: OpenAI may have made a fatal misstep in copyright fight with news orgs
+  url: https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/
+- category: cybersecurity
+  published: '2026-07-09T17:08:29'
+  score: 0.99
+  source: BleepingComputer
+  summary: A new data-extortion group called Helix is using identity-focused tactics
+    such as voice phishing (vishing), device code phishing, and multi-factor authentication
+    (MFA) abuse to steal data from SharePo...
+  tags:
+  - Security
+  title: New Helix vishing group emerges in SharePoint data theft attacks
+  url: https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/
+- category: ai
+  published: '2026-07-09T16:38:11'
+  score: 0.816
+  source: AWS Machine Learning
+  summary: 'In this post, we walk through five capabilities now available in SageMaker
+    HyperPod inference: multi-tier data capture for auditing and model improvement,
+    direct deployment from Hugging Face Hub, loca...'
+  tags:
+  - Advanced (300)
+  - Amazon Elastic Kubernetes Service
+  - Amazon SageMaker HyperPod
+  - Technical How-to
+  title: Enhancing enterprise inference on Amazon SageMaker HyperPod with data capture,
+    Hugging Face, NVMe, and Route 53 integration
+  url: https://aws.amazon.com/blogs/machine-learning/enhancing-enterprise-inference-on-amazon-sagemaker-hyperpod-with-data-capture-hugging-face-nvme-and-route-53-integration/
+- category: webdev
+  published: '2026-07-09T15:38:56'
+  score: 0.776
+  source: Machine Learning Mastery
+  summary: The default assumption in most LLM developer communities is that you start
+    with raw API calls and graduate to a framework as your project grows....
+  tags: []
+  title: 'LLM Orchestration Frameworks Compared: LangChain vs. LlamaIndex vs. Raw
+    API Calls'
+  url: https://machinelearningmastery.com/llm-orchestration-frameworks-compared-langchain-vs-llamaindex-vs-raw-api-calls/
+- category: webdev
+  published: '2026-07-09T15:00:00'
+  score: 0.732
+  source: Smashing Magazine
+  summary: 'Many UI trends are designed to capture attention and signal innovation,
+    but those goals often conflict with the needs of mental health apps: reducing
+    cognitive strain, fostering trust, and providing a...'
+  tags: []
+  title: 'Designing For Distressed Users: Why Mental Health Apps Shouldn’t Follow
+    Every UI Fashion'
+  url: https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/
+- category: cybersecurity
+  published: '2026-07-09T12:00:00'
+  score: 1.048
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow attackers to overwrite critical files, forge or inject malicious log data,
+    gain unauthorized account access, trigger deni...
+  tags: []
+  title: Schneider Electric PowerChute Serial Shutdown
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02
+- category: cybersecurity
+  published: '2026-07-09T12:00:00'
+  score: 1.048
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an authenticated attacker to write arbitrary files to the filesystem and escalate
+    this into arbitrary native code execution ...
+  tags: []
+  title: OpenPLC v3
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01
+- category: cybersecurity
+  published: '2026-07-09T12:00:00'
+  score: 1.048
+  source: CISA
+  summary: View CSAF Summary Schneider Electric is aware of a vulnerability in its
+    Easergy MiCOM Px40 Series products. The [Easergy MiCOM Px40](https://www.se.com/ww/en/product-subcategory/4725-easergy-micom-px4...
+  tags: []
+  title: Schneider Electric Easergy MiCOM Px40 Series
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03
+- category: ai
+  published: '2026-07-09T10:00:00'
+  score: 0.815
+  source: OpenAI
+  summary: ChatGPT Work is an agent that can take action across your apps and files,
+    stay with a project for hours if needed, and turn a goal into finished work....
+  tags:
+  - Product
+  title: ChatGPT is now a partner for your most ambitious work
+  url: https://openai.com/index/chatgpt-for-your-most-ambitious-work
 - category: cybersecurity
   published: '2026-07-09T07:47:16'
   score: 1.152
@@ -39788,5 +39962,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-09T08:21:30.929021'
-total_articles: 3141
+last_updated: '2026-07-10T08:16:48.707199'
+total_articles: 3156
