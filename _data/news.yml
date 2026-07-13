@@ -1,4 +1,182 @@
 articles:
+- category: cybersecurity
+  published: '2026-07-13T05:36:02'
+  score: 1.281
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added
+    two maximum-severity security flaws impacting iCagenda and Balbooa extensions
+    for Joomla to its Known Exploited Vulnerabiliti...
+  tags: []
+  title: iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days
+  url: https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html
+- category: ai
+  published: '2026-07-13T00:44:44'
+  score: 0.917
+  source: BleepingComputer
+  summary: OpenAI is temporarily relaxing GPT-5.6 Sol usage after demand for the company's
+    most powerful model surged over the past 48 hours. [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI temporarily relaxes GPT-5.6 Sol usage limits
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/
+- category: ai
+  published: '2026-07-12T19:39:12'
+  score: 0.882
+  source: BleepingComputer
+  summary: Anthropic has just extended access to Claude Fable 5 for paid subscribers
+    until July 19, giving you another week to keep using the most powerful model.
+    [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: Claude Fable 5 stays free for paid users until July 19 as Anthropic buys
+    more time
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/
+- category: webdev
+  published: '2026-07-12T15:00:00'
+  score: 0.693
+  source: Towards Data Science
+  summary: 'Two techniques, two different problems, and why the question is not really
+    "which one wins" The post RAG vs Fine-Tuning Explained: What They Actually Do
+    and When to Use Each appeared first on Towards ...'
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Deep Dives
+  - Fine Tuning
+  - Python
+  title: 'RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each'
+  url: https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/
+- category: cybersecurity
+  published: '2026-07-12T14:27:32'
+  score: 0.875
+  source: BleepingComputer
+  summary: A new version of the RedHook Android malware abuses the Android Wireless
+    Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privileges
+    without requiring a computer connection. [...]...
+  tags:
+  - Security
+  - Mobile
+  title: RedHook Android malware now uses Wireless ADB for shell access
+  url: https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/
+- category: ai
+  published: '2026-07-12T13:00:00'
+  score: 0.792
+  source: Towards Data Science
+  summary: Run 100+ agents in parallel The post How to Orchestrate 100+ Agents With
+    Claude Code appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Agentic Ai
+  - AI coding assistants
+  - Claude Code
+  - coding agents
+  title: How to Orchestrate 100+ Agents With Claude Code
+  url: https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/
+- category: webdev
+  published: '2026-07-12T11:12:19'
+  score: 0.669
+  source: Ars Technica
+  summary: New climate evidence adds context to these long voyages....
+  tags:
+  - Culture
+  - Science
+  - Moana
+  - Polynesians
+  - syndication
+  title: 'The real mystery behind Moana: After 1,700 years, why did Polynesians suddenly
+    sail east?'
+  url: https://arstechnica.com/culture/2026/07/the-real-mystery-behind-moana-after-1700-years-why-did-polynesians-suddenly-sail-east/
+- category: webdev
+  published: '2026-07-11T17:59:26'
+  score: 0.511
+  source: The Hacker News
+  summary: The jscrambler npm package was compromised, and simply installing its&nbsp;8.14.0&nbsp;release
+    runs an infostealer on your machine. Published on July 11, 2026, the malicious
+    version carries a&nbsp;pre...
+  tags: []
+  title: Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
+  url: https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html
+- category: cybersecurity
+  published: '2026-07-11T17:49:31'
+  score: 0.67
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of sustained cyber espionage
+    activity against several Pakistani law enforcement organizations undertaken by
+    suspected China- and India-aligned threat a...
+  tags: []
+  title: Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns
+  url: https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html
+- category: ai
+  published: '2026-07-11T15:00:00'
+  score: 0.591
+  source: Towards Data Science
+  summary: LLMs don’t fail because they forget—they fail because they remember too
+    much. As conversations grow, prompts accumulate redundant and low-value tokens,
+    driving up cost and latency while silently degra...
+  tags:
+  - Large Language Model
+  - Ai Systems
+  - Deep Dives
+  - Llm
+  - Machine Learning
+  title: Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes
+    LLM Systems Work
+  url: https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/
+- category: cybersecurity
+  published: '2026-07-11T14:18:23'
+  score: 0.692
+  source: BleepingComputer
+  summary: The Australian Cyber Security Centre (ACSC) issued an alert about a global
+    exploitation campaign targeting vulnerable content management systems (CMS) and
+    plugins. [...]...
+  tags:
+  - Security
+  title: Australia warns of global campaign targeting vulnerable CMS platforms
+  url: https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/
+- category: ai
+  published: '2026-07-11T13:00:00'
+  score: 0.577
+  source: Towards Data Science
+  summary: The best AI models still hallucinate. These hallucinations are sometimes
+    funny, and sometimes cause actual damage. In this post we will consider recent
+    tales of AI hallucinations, and then look under ...
+  tags:
+  - Artificial Intelligence
+  - Ai Hallucination
+  - Editor's Picks
+  - Hallucination
+  - Interpretability
+  title: 'That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to
+    Do About It'
+  url: https://towardsdatascience.com/that-is-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/
+- category: webdev
+  published: '2026-07-11T12:00:58'
+  score: 0.474
+  source: Ars Technica
+  summary: It's unclear how the planet avoided its star's bloated red giant stage....
+  tags:
+  - Science
+  - astronomy
+  - astrophysics
+  - exoplanets
+  title: A Jupiter-size planet that escaped its star's death
+  url: https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/
+- category: webdev
+  published: '2026-07-11T11:11:26'
+  score: 0.469
+  source: Ars Technica
+  summary: For the first time since 1995, the Bureau of Land Management is rewriting
+    its grazing regulations....
+  tags:
+  - Policy
+  - Science
+  - cows
+  - grazing
+  - syndication
+  title: Overhaul of public lands grazing regulations seeks to cut public involvement
+  url: https://arstechnica.com/tech-policy/2026/07/overhaul-of-public-lands-grazing-regulations-seeks-to-cut-public-involvement/
 - category: ai
   published: '2026-07-10T00:00:00'
   score: 0.867
@@ -39962,5 +40140,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-10T08:16:48.707199'
-total_articles: 3156
+last_updated: '2026-07-13T08:11:31.651819'
+total_articles: 3170
