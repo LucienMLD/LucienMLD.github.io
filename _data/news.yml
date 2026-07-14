@@ -1,5 +1,198 @@
 articles:
 - category: cybersecurity
+  published: '2026-07-14T06:19:24'
+  score: 1.15
+  source: The Hacker News
+  summary: Attackers whose methods line up with the data-extortion group&nbsp;ShinyHunters&nbsp;have
+    spent the past year walking into corporate Salesforce environments without exploiting
+    a single flaw in the pla...
+  tags: []
+  title: Microsoft Maps Year-Long ShinyHunters-Linked Salesforce Data Theft Across
+    Three Paths
+  url: https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html
+- category: webdev
+  published: '2026-07-14T01:17:14'
+  score: 0.864
+  source: Ars Technica
+  summary: This flight will put Starship under higher pressure and test out new Starlink
+    satellites in orbit....
+  tags:
+  - Science
+  - Space
+  - launch
+  - spacex
+  - Starbase
+  title: SpaceX is gearing up for Starship's 13th test flight later this week
+  url: https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/
+- category: webdev
+  published: '2026-07-13T22:07:34'
+  score: 0.744
+  source: Ars Technica
+  summary: The man is said to be doing well in a Frankfurt hospital....
+  tags:
+  - Health
+  - drc
+  - ebola
+  - outbreak
+  - us
+  title: US continues to shun Ebola-infected citizens; second American sent to Germany
+  url: https://arstechnica.com/health/2026/07/us-continues-to-shun-ebola-infected-citizens-second-american-sent-to-germany/
+- category: webdev
+  published: '2026-07-13T21:03:07'
+  score: 0.737
+  source: Ars Technica
+  summary: With residential proxies all the rage, CISA urges router users to be vigilant....
+  tags:
+  - Biz & IT
+  - Security
+  - CISA
+  - hackers
+  - proxy networks
+  title: The US government warns that Russia state hackers are coming after your router
+  url: https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/
+- category: ai
+  published: '2026-07-13T21:01:20'
+  score: 0.899
+  source: AWS Machine Learning
+  summary: Today, GPT-5.6 Sol, Terra, and Luna from OpenAI are generally available
+    on Amazon Bedrock, bringing the smartest family of models from OpenAI yet to Amazon
+    Bedrock’s next-generation inference engine b...
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Intermediate (200)
+  title: OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon
+    Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock/
+- category: ai
+  published: '2026-07-13T19:17:51'
+  score: 0.843
+  source: Ars Technica
+  summary: OpenAI accused of conspiring with former Apple employees to steal trade
+    secrets....
+  tags:
+  - AI
+  - Apple
+  - Policy
+  - apple
+  - Artificial Intelligence
+  title: Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets
+  url: https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/
+- category: webdev
+  published: '2026-07-13T19:00:47'
+  score: 0.764
+  source: Ars Technica
+  summary: New study confirms 2024 "momentum flux theory" on how angular momentum
+    of water flows drives rotation....
+  tags:
+  - Science
+  - applied mathematics
+  - fluid dynamics
+  - fluid flow
+  - Physics
+  title: Solution to Feynman's reverse sprinkler puzzle also applies to "silly sprinklers"
+  url: https://arstechnica.com/science/2026/07/solution-to-feynmans-reverse-sprinkler-puzzle-also-applies-to-silly-sprinklers/
+- category: webdev
+  published: '2026-07-13T17:50:16'
+  score: 0.757
+  source: AWS Machine Learning
+  summary: In this post, I share how AI serves as an accessibility tool for neurodivergent
+    professionals. The system is built on Amazon Quick on your desktop, an AI-powered
+    desktop and web assistant that compens...
+  tags:
+  - Amazon Bedrock
+  - Intermediate (200)
+  - Kiro
+  - Thought Leadership
+  title: When your brain works differently, AI isn’t a luxury—it’s accessibility
+  url: https://aws.amazon.com/blogs/machine-learning/when-your-brain-works-differently-ai-isnt-a-luxury-its-accessibility/
+- category: ai
+  published: '2026-07-13T16:42:15'
+  score: 0.825
+  source: AWS Machine Learning
+  summary: In this post, we introduce the UI for optimized generative AI inference
+    recommendations in Amazon SageMaker AI Studio, a low-code no-code (LCNC) experience.
+    The API already gives you programmatic acce...
+  tags:
+  - Amazon SageMaker AI
+  - Announcements
+  - Intermediate (200)
+  title: Launching UI for generative AI inference recommendations in Amazon SageMaker
+    AI
+  url: https://aws.amazon.com/blogs/machine-learning/launching-ui-for-generative-ai-inference-recommendations-in-amazon-sagemaker-ai/
+- category: ai
+  published: '2026-07-13T16:30:00'
+  score: 0.824
+  source: Towards Data Science
+  summary: 'A minimal OpenAI Agents SDK implementation where retrieval becomes a search-read-decide
+    loop The post Agentic RAG: Let the Agent Search appeared first on Towards Data
+    Science....'
+  tags:
+  - LLM Applications
+  - Agentic Ai
+  - Agentic Rag
+  - AI
+  - AI Agents
+  title: 'Agentic RAG: Let the Agent Search'
+  url: https://towardsdatascience.com/agentic-rag-let-the-agent-search/
+- category: cybersecurity
+  published: '2026-07-13T15:20:16'
+  score: 0.986
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning
+    that attackers are exploiting vulnerabilities in the iCagenda and Balbooa Forms
+    extensions for Joomla to achieve remote code...
+  tags:
+  - Security
+  title: CISA warns of actively exploited RCE flaws in Joomla extensions
+  url: https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/
+- category: cybersecurity
+  published: '2026-07-13T15:05:57'
+  score: 0.984
+  source: The Hacker News
+  summary: Somewhere right now, a security tool is quietly finding bugs faster than
+    any human can fix them. That's supposed to be the good news. The catch is that
+    the attackers have the same tools, pointed the o...
+  tags: []
+  title: '⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks,
+    and More'
+  url: https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html
+- category: ai
+  published: '2026-07-13T15:00:00'
+  score: 0.813
+  source: Towards Data Science
+  summary: 'Long sessions rot quietly, well before any token limit is reached. Here’s
+    why, and how to govern your context in Claude Code. The post Context Rot: Why
+    Claude Code Sessions Decay, and How to Govern Th...'
+  tags:
+  - Agentic AI
+  - Agentic Workflows
+  - Conversational AI
+  - Large Language Models
+  - MCP
+  title: 'Context Rot: Why Claude Code Sessions Decay, and How to Govern Them'
+  url: https://towardsdatascience.com/governed-context-managing-context-rot-in-claude-code/
+- category: cybersecurity
+  published: '2026-07-13T12:00:00'
+  score: 1.057
+  source: CISA
+  summary: CISA has added one new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2008-4128 Cisco IOS
+    Cross-Site Request Forgery Vulnerability Th...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/07/13/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2026-07-13T12:00:00'
+  score: 1.057
+  source: CISA
+  summary: Russian Government-Sponsored Activity Targets Poorly Configured and Vulnerable
+    Devices Across Critical Sectors Executive summary Russian Federal Security Service
+    (FSB) Center 16 cyber actors continue ...
+  tags: []
+  title: Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a
+- category: cybersecurity
   published: '2026-07-13T05:36:02'
   score: 1.281
   source: The Hacker News
@@ -40140,5 +40333,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-13T08:11:31.651819'
-total_articles: 3170
+last_updated: '2026-07-14T07:06:18.651288'
+total_articles: 3185
