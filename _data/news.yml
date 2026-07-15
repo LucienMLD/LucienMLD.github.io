@@ -1,5 +1,193 @@
 articles:
 - category: cybersecurity
+  published: '2026-07-15T05:30:21'
+  score: 1.288
+  source: The Hacker News
+  summary: SonicWall has warned of active exploitation of two zero-day vulnerabilities
+    impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could
+    be exploited to achieve arbitrary command ex...
+  tags: []
+  title: Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands
+  url: https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html
+- category: webdev
+  published: '2026-07-14T22:20:48'
+  score: 0.745
+  source: Ars Technica
+  summary: Old and forgotten "shims" Microsoft failed to revoke have made Secure Boot
+    bypasses simple....
+  tags:
+  - Biz & IT
+  - Security
+  - bootkits
+  - microsoft
+  - secure boot
+  title: Microsoft’s Secure Boot has been broken for a decade and no one noticed until
+    now
+  url: https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/
+- category: webdev
+  published: '2026-07-14T22:09:31'
+  score: 0.744
+  source: Ars Technica
+  summary: Citizens must now spend 21 days in a third country before they are allowed
+    to come home....
+  tags:
+  - Health
+  - CDC
+  - ebola
+  - travel
+  - Trump
+  title: Trump admin puts Americans in Congo on "do-not-board" list, barring return
+  url: https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/
+- category: cybersecurity
+  published: '2026-07-14T21:23:24'
+  score: 1.127
+  source: BleepingComputer
+  summary: SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities,
+    tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers
+    to install the newly released...
+  tags:
+  - Security
+  title: SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now
+  url: https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/
+- category: webdev
+  published: '2026-07-14T20:05:53'
+  score: 0.731
+  source: Ars Technica
+  summary: Meta denies using AI to terminate workers with disabilities and medical
+    problems....
+  tags:
+  - AI
+  - Policy
+  - meta
+  title: Lawsuit claims Meta's layoff decisions were made by AI, not humans
+  url: https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/
+- category: webdev
+  published: '2026-07-14T19:00:02'
+  score: 0.724
+  source: Ars Technica
+  summary: Federal officials have not confirmed a source yet—and there may be multiple
+    sources....
+  tags:
+  - Health
+  - cyclospora
+  - food-borne diseases
+  - lettuce
+  - Michigan
+  title: Probe into explosive diarrheal cases points to Taco Bell and bad lettuce
+  url: https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/
+- category: webdev
+  published: '2026-07-14T18:44:26'
+  score: 0.722
+  source: AWS Machine Learning
+  summary: This post shows how Thrad.ai deployed a multi-agent system with Strands
+    Agents and Amazon Bedrock AgentCore that automates the pipeline from prospect
+    discovery through personalized email generation. T...
+  tags:
+  - Customer Solutions
+  - Expert (400)
+  - Partner solutions
+  - Strands Agents
+  title: Multi-agent social intelligence with Strands Agents and Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/multi-agent-social-intelligence-with-strands-agents-and-amazon-bedrock/
+- category: cybersecurity
+  published: '2026-07-14T18:17:57'
+  score: 1.104
+  source: The Hacker News
+  summary: SAP has rolled out updates to address multiple vulnerabilities as part
+    of its July 2026 security updates, including a critical flaw in SAP NetWeaver
+    Application Server ABAP. The vulnerability in quest...
+  tags: []
+  title: SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data
+  url: https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html
+- category: ai
+  published: '2026-07-14T17:27:23'
+  score: 0.874
+  source: The Hacker News
+  summary: Any other browser extension that can run a script on claude.ai can still
+    trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and
+    its comments, and your Calendar. Both this and ...
+  tags: []
+  title: Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail
+    Reads
+  url: https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html
+- category: ai
+  published: '2026-07-14T16:43:41'
+  score: 0.825
+  source: AWS Machine Learning
+  summary: Using generative AI enables parallel execution of comprehensive user flow
+    testing at scale. This solution demonstrates how to build a cloud-deployed UX
+    testing platform that automatically generates te...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon DynamoDB
+  - Amazon Nova
+  - Amazon Quick Sight
+  title: 'Scaling UX testing with Amazon Nova Act: A new approach to user flow analysis'
+  url: https://aws.amazon.com/blogs/machine-learning/scaling-ux-testing-with-amazon-nova-act-a-new-approach-to-user-flow-analysis/
+- category: ai
+  published: '2026-07-14T16:33:08'
+  score: 0.824
+  source: AWS Machine Learning
+  summary: In this post, we share how Flo Health’s engineering team turned a proof
+    of concept (PoC) from the AWS Generative AI Innovation Center into a production-grade,
+    AI-powered medical content review and gen...
+  tags:
+  - Amazon Bedrock
+  - Customer Solutions
+  title: Scaling medical content review at Flo Health with Amazon Bedrock – Part 2
+  url: https://aws.amazon.com/blogs/machine-learning/scaling-medical-content-review-at-flo-health-with-amazon-bedrock-part-2/
+- category: ai
+  published: '2026-07-14T15:00:00'
+  score: 0.813
+  source: Towards Data Science
+  summary: Introduction Heavy computation is a well-known problem in various ML algorithms
+    today, especially when generative AI is applied to text, images, and other unstructured
+    data. One of the principal appro...
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Autoencoder
+  - Embedding
+  - Image Compression
+  title: A Gentle Introduction to Autoencoders & Latent Space
+  url: https://towardsdatascience.com/gentle-introduction-to-autoencoders-latent-space/
+- category: cybersecurity
+  published: '2026-07-14T12:00:00'
+  score: 1.056
+  source: CISA
+  summary: CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2026-15409 SonicWall
+    SMA1000 Appliances Server-Side Request ...
+  tags: []
+  title: CISA Adds Four Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-07-14T12:00:00'
+  score: 1.056
+  source: CISA
+  summary: View CSAF Summary ABB is aware of public reports of a vulnerability CVE‑2026‑31431
+    (Copy Fail) in the product versions listed as affected in the advisory. An update
+    is available that resolves a public...
+  tags: []
+  title: ABB Ability Edgenius
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02
+- category: ai
+  published: '2026-07-14T12:00:00'
+  score: 0.836
+  source: Towards Data Science
+  summary: 'How to stop parsing JSON by hand and start trusting your model''s output
+    The post Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs
+    appeared first on Towards Data Science....'
+  tags:
+  - LLM Applications
+  - Data Science
+  - Editor's Picks
+  - Json
+  - Llm
+  title: 'Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs'
+  url: https://towardsdatascience.com/pydantic-openai-the-cleanest-way-to-get-structured-outputs-from-llms/
+- category: cybersecurity
   published: '2026-07-14T06:19:24'
   score: 1.15
   source: The Hacker News
@@ -40333,5 +40521,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-14T07:06:18.651288'
-total_articles: 3185
+last_updated: '2026-07-15T07:09:06.310934'
+total_articles: 3200
