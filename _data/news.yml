@@ -1,4 +1,182 @@
 articles:
+- category: webdev
+  published: '2026-07-15T22:36:28'
+  score: 0.746
+  source: Ars Technica
+  summary: Union wants to halt a "perpetual cycle" of layoffs, get back to contract
+    bargaining....
+  tags:
+  - Gaming
+  - bethesda
+  - Bethesda Game Studios
+  - id Software
+  - idtech
+  title: Hundreds rally at Bethesda HQ to protest Xbox layoffs, and Ars was there
+  url: https://arstechnica.com/gaming/2026/07/hundreds-rally-at-bethesda-hq-to-protest-xbox-layoffs-and-ars-was-there/
+- category: webdev
+  published: '2026-07-15T22:10:41'
+  score: 0.743
+  source: Ars Technica
+  summary: While an impressive sale, the pen and switch did not break records....
+  tags:
+  - Space
+  - Apollo 11
+  - ascent engine
+  - buzz aldrin
+  - circuit breaker
+  title: Buzz Aldrin sells famous felt-tip pen that helped launch Apollo from the
+    Moon
+  url: https://arstechnica.com/space/2026/07/apollo-11s-broken-switch-and-mission-saving-pen-sell-for-860k/
+- category: webdev
+  published: '2026-07-15T21:55:50'
+  score: 0.741
+  source: BleepingComputer
+  summary: The Dutch Police announced the arrest of multiple individuals suspected
+    of being part of an international investment fraud scheme estimated to have tens
+    of thousands of victims. [...]...
+  tags:
+  - Security
+  title: Dutch police bust investment fraud ring stealing over €100 million
+  url: https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/
+- category: webdev
+  published: '2026-07-15T21:41:56'
+  score: 0.74
+  source: Ars Technica
+  summary: The convenience store chain will use StorMagic instead....
+  tags:
+  - Biz & IT
+  - Broadcom
+  - vmware
+  title: Sheetz is quitting VMware, migrating 11,000 virtual machines
+  url: https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/
+- category: cybersecurity
+  published: '2026-07-15T20:16:02'
+  score: 0.973
+  source: BleepingComputer
+  summary: Zoom is warning of a critical vulnerability in its desktop client and software
+    development kit for Windows that could be exploited by an unauthenticated party
+    to hijack accounts. [...]...
+  tags:
+  - Security
+  title: Zoom warns of critical account takeover vulnerability
+  url: https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/
+- category: webdev
+  published: '2026-07-15T19:57:51'
+  score: 0.809
+  source: CSS-Tricks
+  summary: The pointer-events property controls whether an element can become the
+    target of pointer events like clicks, hover states, and other pointer-based events.
+    In other words, it lets you decide whether th...
+  tags:
+  - pointer-events
+  title: pointer-events
+  url: https://css-tricks.com/almanac/properties/p/pointer-events/
+- category: ai
+  published: '2026-07-15T18:43:08'
+  score: 0.881
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of a previously unreported
+    Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows
+    signs of being developed with assistance fro...
+  tags: []
+  title: TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development
+  url: https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html
+- category: ai
+  published: '2026-07-15T18:14:31'
+  score: 0.834
+  source: AWS Machine Learning
+  summary: Built partnered with the AWS Generative AI Innovation Center (GenAIIC),
+    AWS Partner AND Digital, and AWS account teams to create a scalable, AI-powered
+    document processing engine that can classify, sp...
+  tags:
+  - Amazon Bedrock
+  - Intermediate (200)
+  title: Built Technologies builds an AI-powered document intelligence solution on
+    AWS to power agents across real estate finance
+  url: https://aws.amazon.com/blogs/machine-learning/built-technologies-builds-an-ai-powered-document-intelligence-solution-on-aws-to-power-agents-across-real-estate-finance/
+- category: ai
+  published: '2026-07-15T18:11:57'
+  score: 0.834
+  source: AWS Machine Learning
+  summary: In this post, we walk you through the Computer Vision MCP Server, which
+    illustrates this approach, representing how AI systems can process visual information
+    and make intelligent decisions through a s...
+  tags:
+  - Amazon Bedrock
+  - Amazon Rekognition
+  - Intermediate (200)
+  title: 'Agentic vision: Building visual intelligence with Amazon Bedrock and MCP
+    servers'
+  url: https://aws.amazon.com/blogs/machine-learning/agentic-vision-building-visual-intelligence-with-amazon-bedrock-and-mcp-servers/
+- category: ai
+  published: '2026-07-15T16:30:00'
+  score: 0.822
+  source: Towards Data Science
+  summary: Cross-provider PR review with Codex in GitHub Actions, and why a second
+    opinion from a different lab beats any self-review The post Don’t Let Claude Grade
+    Its Own Homework appeared first on Towards Da...
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - claude
+  - Code Review
+  - Codex
+  title: Don’t Let Claude Grade Its Own Homework
+  url: https://towardsdatascience.com/dont-let-claude-gaslight-you/
+- category: cybersecurity
+  published: '2026-07-15T14:01:11'
+  score: 0.974
+  source: BleepingComputer
+  summary: Intruder built an AI-powered "vulnerability vending machine" that combines
+    code slicing with LLMs to automatically discover complex software vulnerabilities.
+    The company explains how the system found ...
+  tags:
+  - Security
+  title: 'We built a vulnerability vending machine: AI tokens in, zero-days out'
+  url: https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/
+- category: cybersecurity
+  published: '2026-07-15T13:18:53'
+  score: 0.969
+  source: The Hacker News
+  summary: Mozilla has released updates to address two critical flaws in Firefox for
+    which it warned that exploit code has been published. The vulnerabilities are
+    listed below - CVE-2026-15718, an invalid pointe...
+  tags: []
+  title: Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security
+    Flaws
+  url: https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html
+- category: cybersecurity
+  published: '2026-07-15T12:00:00'
+  score: 1.055
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2023-4346 KNX Association
+    KNX Protocol Connection Authorizati...
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2026-07-15T10:00:00'
+  score: 0.821
+  source: OpenAI
+  summary: Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play
+    to improve AI safety, alignment, and prompt injection robustness....
+  tags:
+  - Safety
+  title: 'GPT-Red: Unlocking Self-Improvement for Robustness'
+  url: https://openai.com/index/unlocking-self-improvement-gpt-red
+- category: cybersecurity
+  published: '2026-07-15T09:44:52'
+  score: 0.99
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned
+    Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed
+    on-premises SharePoint Server inst...
+  tags:
+  - Security
+  - Microsoft
+  title: CISA warns admins to patch actively exploited SharePoint flaws
+  url: https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/
 - category: cybersecurity
   published: '2026-07-15T05:30:21'
   score: 1.288
@@ -40521,5 +40699,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-15T07:09:06.310934'
-total_articles: 3200
+last_updated: '2026-07-16T07:19:24.807025'
+total_articles: 3215
