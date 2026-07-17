@@ -1,4 +1,182 @@
 articles:
+- category: cybersecurity
+  published: '2026-07-17T07:03:33'
+  score: 1.155
+  source: BleepingComputer
+  summary: CISA on Thursday ordered government agencies to prioritize patching two
+    actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection
+    platform. [...]...
+  tags:
+  - Security
+  title: CISA urges immediate action on actively exploited Fortinet flaws
+  url: https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/
+- category: cybersecurity
+  published: '2026-07-17T06:42:23'
+  score: 1.296
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday
+    added a newly patched security flaw impacting Microsoft SharePoint Server to its
+    Known Exploited Vulnerabilities (KEV) cata...
+  tags: []
+  title: CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV
+  url: https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html
+- category: webdev
+  published: '2026-07-17T00:02:54'
+  score: 0.755
+  source: Ars Technica
+  summary: '"Now offloading propellant. Next launch attempt hopefully in a few days."...'
+  tags:
+  - Space
+  - launch
+  - spacex
+  - Starbase
+  - starship
+  title: SpaceX scrubs Starship launch after some of its engines didn't start
+  url: https://arstechnica.com/space/2026/07/spacex-scrubs-starship-launch-after-some-of-its-engines-didnt-start/
+- category: webdev
+  published: '2026-07-16T22:33:24'
+  score: 0.746
+  source: Ars Technica
+  summary: Both nominees flailed in their own unique ways as senators sought answers....
+  tags:
+  - Health
+  - anti-vaccine
+  - Cassidy
+  - Erica Schwartz
+  - robert f kennedy jr
+  title: Two Trump health nominees crash and burn in tense Senate hearing
+  url: https://arstechnica.com/health/2026/07/two-trump-health-nominees-crash-and-burn-in-tense-senate-hearing/
+- category: webdev
+  published: '2026-07-16T22:02:31'
+  score: 0.743
+  source: Ars Technica
+  summary: Resellers threatened to ditch HP printing supplies for counterfeits....
+  tags:
+  - Biz & IT
+  - Tech
+  - HP
+  - india
+  - printers
+  title: HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner,
+    PCs
+  url: https://arstechnica.com/gadgets/2026/07/hp-fined-1-4-billion-rupees-for-cartelization-of-ink-cartridges-toner-pcs/
+- category: webdev
+  published: '2026-07-16T21:29:14'
+  score: 0.739
+  source: AWS Machine Learning
+  summary: 'In this post, we walk through the three pillars that make this possible:
+    simplified setup, smarter retrieval, and production readiness. We also show you
+    code examples for setting up a knowledge base a...'
+  tags:
+  - Amazon Bedrock Knowledge Bases
+  - Announcements
+  - Intermediate (200)
+  title: Build enterprise search for agents with Amazon Bedrock Managed Knowledge
+    Base
+  url: https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/
+- category: ai
+  published: '2026-07-16T19:26:07'
+  score: 0.887
+  source: BleepingComputer
+  summary: A flaw in Anthropic's Claude for Chrome browser extension could allow a
+    malicious extension to trigger predefined AI actions by simulating user clicks,
+    potentially allowing it to abuse Claude's access...
+  tags:
+  - Security
+  title: Claude Chrome extension flaw lets malicious extensions trigger AI actions
+  url: https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/
+- category: ai
+  published: '2026-07-16T16:00:00'
+  score: 0.907
+  source: OpenAI
+  summary: Learn how OpenAI is making ChatGPT safer for teens with age-appropriate
+    protections, learning tools, parental controls, and expert partnerships....
+  tags:
+  - Safety
+  title: Why teens deserve access to safe AI
+  url: https://openai.com/index/why-teens-deserve-access-safe-ai
+- category: ai
+  published: '2026-07-16T16:00:00'
+  score: 0.819
+  source: Google AI Blog
+  summary: Text "Gemini Omni and Personal Avatars in Google Vids" surrounded by various
+    images...
+  tags:
+  - Google Workspace
+  - Google One
+  - AI
+  title: Create, edit and star in videos with two Google Vids updates
+  url: https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/
+- category: webdev
+  published: '2026-07-16T15:50:52'
+  score: 0.744
+  source: AWS Machine Learning
+  summary: In this post, we show you how to build a voice ordering system that answers
+    a phone number and takes the order from greeting to confirmation. The system uses
+    Amazon Bedrock AgentCore to host and run t...
+  tags:
+  - Amazon API Gateway
+  - Amazon Bedrock AgentCore
+  - Amazon DynamoDB
+  - AWS Fargate
+  - AWS Lambda
+  title: Building a restaurant telephony AI host with Amazon Bedrock AgentCore and
+    Amazon Nova 2 Sonic
+  url: https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-bedrock-agentcore-and-amazon-nova-2-sonic/
+- category: ai
+  published: '2026-07-16T13:30:00'
+  score: 0.802
+  source: Towards Data Science
+  summary: Maximize your Claude Fable 5 usage The post How to Get the Most Out of
+    Claude Fable 5 appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Artificial Intelligence
+  - Coding agent
+  - LLM Agents
+  - Machine Learning
+  title: How to Get the Most Out of Claude Fable 5
+  url: https://towardsdatascience.com/how-to-get-the-most-out-of-claude-fable-5/
+- category: cybersecurity
+  published: '2026-07-16T12:00:00'
+  score: 1.056
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow an attacker to cause a denial-of-service condition. The following versions
+    of Rockwell Automation CompactLogix, ControlLo...
+  tags: []
+  title: Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06
+- category: cybersecurity
+  published: '2026-07-16T12:00:00'
+  score: 1.056
+  source: CISA
+  summary: 'View CSAF Summary Multiple SICAM 8 products are affected by multiple vulnerabilities
+    that could lead to denial of service, namely: - SICAM A8000 Device firmware -
+    CPCI85 for CP-8031/CP-8050 - SICORE f...'
+  tags: []
+  title: Siemens SICAM 8
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-05
+- category: cybersecurity
+  published: '2026-07-16T12:00:00'
+  score: 1.056
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability allows
+    an authenticated attacker to escalate privileges and access spaces outside their
+    assigned partition, within the same Salto ProAcc...
+  tags: []
+  title: SALTO ProAccess Space
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-07
+- category: ai
+  published: '2026-07-16T08:42:31'
+  score: 0.857
+  source: The Hacker News
+  summary: OpenAI has disclosed details of GPT-Red, an internal automated red-teaming
+    model that scales prompt injection vulnerability discovery with an aim to fix
+    issues before the tools are deployed widely. "G...
+  tags: []
+  title: OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol
+  url: https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html
 - category: webdev
   published: '2026-07-15T22:36:28'
   score: 0.746
@@ -40699,5 +40877,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-16T07:19:24.807025'
-total_articles: 3215
+last_updated: '2026-07-17T07:12:32.408445'
+total_articles: 3230
