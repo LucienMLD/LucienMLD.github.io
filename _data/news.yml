@@ -1,4 +1,153 @@
 articles:
+- category: ai
+  published: '2026-07-20T05:27:26'
+  score: 1.095
+  source: The Hacker News
+  summary: In an ironic twist, open-source artificial intelligence (AI) platform Hugging
+    Face revealed that it was the victim of a hack perpetrated by an autonomous AI
+    agent system. The company said it detected ...
+  tags: []
+  title: World's Largest AI Model Repository Hugging Face Breached by Autonomous AI
+    Agent
+  url: https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html
+- category: cybersecurity
+  published: '2026-07-20T05:15:39'
+  score: 1.136
+  source: The Hacker News
+  summary: Cybersecurity researchers have flagged a new software supply chain attack
+    codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were
+    published to RubyGems with the end goal of s...
+  tags: []
+  title: SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines
+  url: https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html
+- category: webdev
+  published: '2026-07-19T22:11:21'
+  score: 0.739
+  source: Ars Technica
+  summary: '"On the first attempt, reaching orbit, I never thought it was possible."...'
+  tags:
+  - Science
+  - Space
+  - Commercial space
+  - india
+  - isro
+  title: India's first privately-developed rocket reaches orbit on dramatic debut
+    launch
+  url: https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/
+- category: cybersecurity
+  published: '2026-07-19T20:42:49'
+  score: 1.068
+  source: The Hacker News
+  summary: F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated
+    attacker trigger a heap buffer overflow in the worker process with crafted HTTP
+    requests. CVE-2026-42533 was patched ...
+  tags: []
+  title: Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code
+    Execution
+  url: https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html
+- category: ai
+  published: '2026-07-19T17:00:00'
+  score: 0.822
+  source: Towards Data Science
+  summary: 'Let''s discover how neural networks learn, step by step The post Backpropagation
+    Explained for Beginners (Part 1): Building the Intuition appeared first on Towards
+    Data Science....'
+  tags:
+  - Deep Learning
+  - Backpropagation
+  - Deep Dives
+  - Machine Learning
+  - Neural Networks
+  title: 'Backpropagation Explained for Beginners (Part 1): Building the Intuition'
+  url: https://towardsdatascience.com/backpropagation-explained-for-beginners-part-1-building-the-intuition/
+- category: webdev
+  published: '2026-07-19T15:00:00'
+  score: 0.694
+  source: Towards Data Science
+  summary: 'Enterprise Document Intelligence [Vol.1 #6quinquies] - Prompt engineering,
+    then context engineering, then loop engineering. On the question side, the loop
+    is small by design: read the doc, ask what is...'
+  tags:
+  - Large Language Model
+  - Document Processing
+  - Parsing
+  - Rag
+  - Rag Architecture
+  title: 'Loop Engineering for RAG Question Parsing: The Small Loop That Runs Before
+    Retrieval'
+  url: https://towardsdatascience.com/loop-engineering-for-rag-question-parsing-the-small-loop-that-runs-before-retrieval/
+- category: webdev
+  published: '2026-07-19T14:23:46'
+  score: 0.691
+  source: BleepingComputer
+  summary: An advanced threat actor is abusing the update mechanism for the ViPNet
+    private networking product suite to target Russian organizations, including government
+    agencies. [...]...
+  tags:
+  - Security
+  - Government
+  title: Hackers abuse ViPNet software to target Russian govt agencies
+  url: https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/
+- category: cybersecurity
+  published: '2026-07-19T13:30:55'
+  score: 0.87
+  source: The Hacker News
+  summary: Russian state-sponsored threat actors have been observed leveraging the
+    infamous ClickFix strategy to trick Ukrainian targets into infecting their own
+    machines with data-stealing malware. According to...
+  tags: []
+  title: UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware
+  url: https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html
+- category: cybersecurity
+  published: '2026-07-19T13:18:56'
+  score: 0.965
+  source: The Hacker News
+  summary: A previously undocumented threat actor has been attributed to the exploitation
+    of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances
+    as zero-days prior their public dis...
+  tags: []
+  title: SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access
+  url: https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html
+- category: webdev
+  published: '2026-07-19T13:00:00'
+  score: 0.682
+  source: Towards Data Science
+  summary: An AI agent passed every metric in the eval harness I published, then the
+    CFO killed it — its successful resolutions cost more than the humans it replaced.
+    The one metric that predicts whether an agen...
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - Artificial Intelligence
+  - Deep Dives
+  - Mlops
+  title: Your AI Agent Passed Every Eval. Finance Still Killed It.
+  url: https://towardsdatascience.com/your-ai-agent-passed-every-eval-finance-still-killed-it/
+- category: webdev
+  published: '2026-07-19T11:19:31'
+  score: 0.671
+  source: Ars Technica
+  summary: Monitoring is expensive and labor intensive. But it helps public health
+    officials stop outbreaks....
+  tags:
+  - Health
+  - Science
+  - climate change
+  - mosquitoes
+  - mosquitos
+  title: As mosquito ranges expand, better monitoring is key to preventing disease
+  url: https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/
+- category: cybersecurity
+  published: '2026-07-18T19:32:02'
+  score: 0.781
+  source: BleepingComputer
+  summary: 7-Zip version 26.02 was released on June 25 to fix a remote code execution
+    vulnerability that could allow attackers to execute malicious code by convincing
+    users to open specially crafted compressed f...
+  tags:
+  - Security
+  title: 'Update now: 7-Zip fixes RCE flaw exploitable with malicious archives'
+  url: https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/
 - category: cybersecurity
   published: '2026-07-17T07:03:33'
   score: 1.155
@@ -40877,5 +41026,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-17T07:12:32.408445'
-total_articles: 3230
+last_updated: '2026-07-20T07:53:16.831140'
+total_articles: 3242
