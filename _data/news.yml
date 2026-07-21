@@ -1,4 +1,191 @@
 articles:
+- category: cybersecurity
+  published: '2026-07-20T22:39:30'
+  score: 0.99
+  source: BleepingComputer
+  summary: Cosmetics giant Estée Lauder is notifying customers of a data breach after
+    hackers exploited a flaw in Oracle E-Business Suite that the company used for
+    human resources (HR) operations. [...]...
+  tags:
+  - Security
+  title: Estée Lauder discloses data breach via Oracle E-Business flaw
+  url: https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/
+- category: cybersecurity
+  published: '2026-07-20T22:23:23'
+  score: 1.084
+  source: BleepingComputer
+  summary: Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited
+    in zero-day attacks for weeks, allowing threat actors to install custom malware
+    on vulnerable VPN appliances. [...]...
+  tags:
+  - Security
+  title: SonicWall SMA1000 flaws exploited as zero-days to push custom malware
+  url: https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/
+- category: webdev
+  published: '2026-07-20T22:15:51'
+  score: 0.742
+  source: Ars Technica
+  summary: Pennsylvania cop charged with oppression and obstruction....
+  tags:
+  - Policy
+  - bucks county
+  - law
+  - legal
+  title: 'DA: Cop covered bodycam to snap nude prisoners on his iPhone—but other cams
+    caught him'
+  url: https://arstechnica.com/tech-policy/2026/07/cop-charged-with-covering-bodycam-to-photograph-naked-prisoners/
+- category: webdev
+  published: '2026-07-20T21:55:52'
+  score: 0.74
+  source: Ars Technica
+  summary: California and XPRIZE competition tests whether drones can stop wildfires
+    early....
+  tags:
+  - AI
+  - Tech
+  - AI drones
+  - Alaska
+  - California
+  title: Firefighting drones in the works as wildfires plague US nearly year-round
+  url: https://arstechnica.com/ai/2026/07/firefighting-drones-in-the-works-as-wildfires-plague-us-nearly-year-round/
+- category: webdev
+  published: '2026-07-20T21:10:14'
+  score: 0.736
+  source: Ars Technica
+  summary: Judge grants restraining order, saying merger "likely to violate antitrust
+    laws."...
+  tags:
+  - Policy
+  - paramount
+  - warner bros. discovery
+  title: Judge halts Paramount's $111B purchase of Warner Bros. in win for US states
+  url: https://arstechnica.com/tech-policy/2026/07/judge-halts-paramounts-111b-purchase-of-warner-bros-in-win-for-us-states/
+- category: cybersecurity
+  published: '2026-07-20T21:08:02'
+  score: 1.026
+  source: BleepingComputer
+  summary: The JadePuffer autonomous AI agent has upgraded with custom malware called
+    EncForge that focuses on encrypting AI assets, such as training datasets, vector
+    databases, and model checkpoints. [...]...
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: JadePuffer agentic attacks now target AI model data with ransomware
+  url: https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/
+- category: webdev
+  published: '2026-07-20T20:30:25'
+  score: 0.731
+  source: Ars Technica
+  summary: The Trump administration is asking the Space Force to do a lot. This will
+    require more launches....
+  tags:
+  - Science
+  - Space
+  - blue origin
+  - impulse space
+  - launch
+  title: The Space Force is now seeking to buy up to $30 billion in rocket launches
+  url: https://arstechnica.com/space/2026/07/the-space-force-is-now-seeking-to-buy-up-to-30-billion-in-rocket-launches/
+- category: webdev
+  published: '2026-07-20T19:20:49'
+  score: 0.724
+  source: Ars Technica
+  summary: AT&#038;T suffers setback but will keep asking court and FCC to preempt
+    state rules....
+  tags:
+  - Policy
+  - AT&T
+  - California
+  - FCC
+  title: AT&T loses key ruling in bid to stop offering basic phone service in California
+  url: https://arstechnica.com/tech-policy/2026/07/att-loses-key-ruling-in-bid-to-stop-offering-basic-phone-service-in-california/
+- category: ai
+  published: '2026-07-20T16:58:52'
+  score: 0.868
+  source: AWS Machine Learning
+  summary: This post describes how Couchbase adopted Amazon Bedrock to power Capella
+    iQ with Anthropic’s Claude family of models, the architectural decisions behind
+    their multi-model approach, and the operationa...
+  tags:
+  - Amazon Bedrock
+  - Amazon Elastic Kubernetes Service
+  - Amazon VPC
+  - Customer Solutions
+  title: How Couchbase built a multi-model AI architecture for Capella iQ with Amazon
+    Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/how-couchbase-built-a-multi-model-ai-architecture-for-capella-iq-with-amazon-bedrock/
+- category: ai
+  published: '2026-07-20T16:30:00'
+  score: 0.821
+  source: Towards Data Science
+  summary: Apply long-running coding agents to become a more productive engineer The
+    post How to Run Claude Code Agents for 24+ Hours appeared first on Towards Data
+    Science....
+  tags:
+  - LLM Applications
+  - Ai Application
+  - Claude Code
+  - Llm Agent
+  - Machine Learning
+  title: How to Run Claude Code Agents for 24+ Hours
+  url: https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/
+- category: ai
+  published: '2026-07-20T15:59:18'
+  score: 0.817
+  source: Ars Technica
+  summary: Many will say Spa is the best racetrack on earth, but not for these F1
+    cars....
+  tags:
+  - Cars
+  - Features
+  - F1
+  - Formula 1
+  title: 'F1 in Belgium: Machine learning algorithms are ruining the sport'
+  url: https://arstechnica.com/cars/2026/07/f1-in-belgium-the-2026-cars-look-pathetic-on-all-the-best-racetracks/
+- category: cybersecurity
+  published: '2026-07-20T13:32:26'
+  score: 1.017
+  source: The Hacker News
+  summary: 'A single request should not be able to do this much. But this week, small
+    inputs led to code execution, memory loss, stolen keys, and disabled security
+    tools. The paths were often simple: exposed syst...'
+  tags: []
+  title: '⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint
+    0-Day and More'
+  url: https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html
+- category: ai
+  published: '2026-07-20T10:00:00'
+  score: 0.82
+  source: OpenAI
+  summary: OpenAI shares lessons from deploying long-running AI models, highlighting
+    new safety risks, observed failures, and improved safeguards through iterative
+    deployment....
+  tags:
+  - Safety
+  title: Safety and alignment in an era of long-horizon models
+  url: https://openai.com/index/safety-alignment-long-horizon-models
+- category: cybersecurity
+  published: '2026-07-20T09:29:20'
+  score: 0.987
+  source: BleepingComputer
+  summary: Attackers have begun exploiting a critical vulnerability (CVE-2026-6875)
+    in the ServiceNow AI Platform, according to threat intelligence company Defused.
+    [...]...
+  tags:
+  - Security
+  title: Critical ServiceNow code execution flaw now exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/
+- category: ai
+  published: '2026-07-20T09:07:11'
+  score: 0.814
+  source: The Hacker News
+  summary: A solo Russian-speaking threat actor known as "bandcampro" outsourced a
+    chunk of their operations to Google's open-source Gemini CLI artificial intelligence
+    (AI) and commandeered a live botnet. The fi...
+  tags: []
+  title: Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight
+    Dental Clinic PCs
+  url: https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html
 - category: ai
   published: '2026-07-20T05:27:26'
   score: 1.095
@@ -41026,5 +41213,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-20T07:53:16.831140'
-total_articles: 3242
+last_updated: '2026-07-21T07:28:52.152291'
+total_articles: 3257
