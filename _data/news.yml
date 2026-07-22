@@ -1,5 +1,172 @@
 articles:
 - category: cybersecurity
+  published: '2026-07-22T06:40:29'
+  score: 1.15
+  source: BleepingComputer
+  summary: American fast food restaurant chain Chick-fil-A is notifying customers
+    of a data breach after their accounts were hacked in a wave of recent credential
+    stuffing attacks. [...]...
+  tags:
+  - Security
+  title: Chick-fil-A discloses data breach after credential stuffing attacks
+  url: https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/
+- category: cybersecurity
+  published: '2026-07-22T06:00:06'
+  score: 1.145
+  source: The Hacker News
+  summary: 'Cybersecurity researchers have discovered a NuGet typosquat that''s unlike
+    the typical information-stealing malware distributed via package registries: usual
+    info-stealers: it''s designed to rig live ga...'
+  tags: []
+  title: Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library
+  url: https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html
+- category: ai
+  published: '2026-07-22T05:19:20'
+  score: 1.185
+  source: BleepingComputer
+  summary: OpenAI says its AI models, including GPT‑5.6 Sol and a pre-release model,
+    hacked into the Hugging Face artificial intelligence repository while being tested
+    in a sandboxed testing environment. [...]...
+  tags:
+  - Security
+  title: OpenAI says its AI models hacked Hugging Face during testing
+  url: https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/
+- category: cybersecurity
+  published: '2026-07-22T04:57:52'
+  score: 1.089
+  source: The Hacker News
+  summary: A single invisible comment in an Azure DevOps pull request can turn a reviewer's
+    own AI coding agent against them, driving it into projects the attacker has no
+    rights to reach and quietly leaking what...
+  tags: []
+  title: Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review
+    Agents
+  url: https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html
+- category: ai
+  published: '2026-07-22T04:18:33'
+  score: 1.178
+  source: The Hacker News
+  summary: OpenAI on Tuesday said a combination of its artificial intelligence (AI)
+    models, including GPT-5.6 Sol and an "even more capable pre-release model," was
+    behind the security incident that targeted Hugg...
+  tags: []
+  title: OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat
+    Benchmark
+  url: https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html
+- category: webdev
+  published: '2026-07-22T01:10:38'
+  score: 0.76
+  source: Krebs on Security
+  summary: The home appliance giant LG Electronics USA said this week it plans to
+    suspend any apps built for its smart TVs that turn one's television into an always-on
+    residential proxy node. The move comes less...
+  tags:
+  - A Little Sunshine
+  - Internet of Things (IoT)
+  - The Coming Storm
+  - Bright Data
+  - John Taylor
+  title: LG to Ban Residential Proxies from Smart TV Apps
+  url: https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/
+- category: webdev
+  published: '2026-07-21T23:01:23'
+  score: 0.747
+  source: Ars Technica
+  summary: The Range Rover GT will debut as an EV with a hybrid version to follow....
+  tags:
+  - Cars
+  - Range Rover GT
+  title: 'Range Rover answers the question: "What if we built a not-SUV?"'
+  url: https://arstechnica.com/cars/2026/07/heres-range-rovers-first-not-suv-the-range-rover-gt/
+- category: webdev
+  published: '2026-07-21T22:04:56'
+  score: 0.741
+  source: Ars Technica
+  summary: Ronald Fischer, aka Richard Graydon, was arrested in New York last week....
+  tags:
+  - Health
+  - biotech
+  - fugitive
+  title: On the run for 20 years, most-wanted fugitive caught hiding as a biotech
+    exec
+  url: https://arstechnica.com/health/2026/07/on-the-run-for-20-years-most-wanted-fugitive-caught-hiding-as-a-biotech-exec/
+- category: webdev
+  published: '2026-07-21T20:00:27'
+  score: 0.728
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: 'The State of Simulation for Physical AI: An Overview'
+  url: https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai
+- category: webdev
+  published: '2026-07-21T19:50:10'
+  score: 0.727
+  source: Ars Technica
+  summary: '"Maybe that''s my responsibility, to live alone with the truth."...'
+  tags:
+  - Culture
+  - entertainment
+  - Sony Pictures
+  - 'Spider-Man: Brand New Day'
+  - Tom Holland
+  title: 'Sony releases one last trailer for Spider-Man: Brand New Day'
+  url: https://arstechnica.com/culture/2026/07/sony-releases-one-last-trailer-for-spider-man-brand-new-day/
+- category: ai
+  published: '2026-07-21T17:33:14'
+  score: 0.828
+  source: Ars Technica
+  summary: Anthropic blocks authors from opting out of $1.5B settlement at last minute....
+  tags:
+  - AI
+  - Policy
+  - AI training
+  - Anthropic
+  - Artificial Intelligence
+  title: Anthropic’s $1.5B copyright settlement approved; only 350 authors opted out
+  url: https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/
+- category: ai
+  published: '2026-07-21T17:00:00'
+  score: 0.912
+  source: OpenAI
+  summary: OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs
+    build AI skills, automate work, and grow with ChatGPT Work....
+  tags:
+  - AI Adoption
+  title: Introducing the ChatGPT for small business program
+  url: https://openai.com/index/introducing-chatgpt-small-business-program
+- category: ai
+  published: '2026-07-21T15:09:28'
+  score: 0.856
+  source: The Hacker News
+  summary: Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash
+    Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's
+    designed to discover, validate, and patch vul...
+  tags: []
+  title: Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities
+  url: https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html
+- category: cybersecurity
+  published: '2026-07-21T14:57:51'
+  score: 1.076
+  source: The Hacker News
+  summary: A third SharePoint Server flaw patched by Microsoft as part of its Patch
+    Tuesday update for July 2026 has come under active exploitation, per watchTowr.
+    The vulnerability in question is CVE-2026-50522...
+  tags: []
+  title: Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public
+    PoC
+  url: https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html
+- category: cybersecurity
+  published: '2026-07-21T14:04:57'
+  score: 1.069
+  source: The Hacker News
+  summary: Threat actors have been observed exploiting a now-patched high-severity
+    Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka
+    Agenda) ransomware on victim environments. Arctic...
+  tags: []
+  title: Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial
+    Access
+  url: https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html
+- category: cybersecurity
   published: '2026-07-20T22:39:30'
   score: 0.99
   source: BleepingComputer
@@ -41213,5 +41380,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-21T07:28:52.152291'
-total_articles: 3257
+last_updated: '2026-07-22T07:30:42.780519'
+total_articles: 3272
