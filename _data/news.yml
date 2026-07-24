@@ -1,4 +1,170 @@
 articles:
+- category: cybersecurity
+  published: '2026-07-24T06:50:57'
+  score: 1.152
+  source: The Hacker News
+  summary: The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of
+    a new campaign that involves the use of a malicious program that's dressed up
+    as a Notepad++ plugin to compromise Windows system...
+  tags: []
+  title: Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks
+  url: https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html
+- category: webdev
+  published: '2026-07-23T23:03:44'
+  score: 0.748
+  source: AWS Machine Learning
+  summary: In this post, we explain how Amazon Bedrock Guardrails can be configured
+    for code generation workflows with coding assistants to overcome these constraints.
+    With these best practices, you can build an...
+  tags:
+  - Amazon Bedrock Guardrails
+  - Best Practices
+  - Expert (400)
+  title: Best practices for applying Amazon Bedrock Guardrails to code generation
+    workflows
+  url: https://aws.amazon.com/blogs/machine-learning/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows/
+- category: webdev
+  published: '2026-07-23T20:47:33'
+  score: 0.733
+  source: Ars Technica
+  summary: App is installed through Windows Update when certain LG monitors connect
+    to a PC....
+  tags:
+  - Tech
+  - ads
+  - LG
+  - McAfee
+  - microsoft
+  title: Microsoft responds to LG monitors installing McAfee ads on Windows
+  url: https://arstechnica.com/gadgets/2026/07/microsoft-responds-to-lg-monitors-installing-mcafee-ads-on-windows/
+- category: webdev
+  published: '2026-07-23T19:22:36'
+  score: 0.725
+  source: Ars Technica
+  summary: The FDA hasn't said where the cases are or how they're linked....
+  tags:
+  - Health
+  - CDC
+  - cyclospora
+  - cyclosporiasis
+  - fda
+  title: FDA reports new outbreak of explosive diarrhea with 72 cases identified
+  url: https://arstechnica.com/health/2026/07/fda-reports-new-outbreak-of-explosive-diarrhea-with-72-cases-identified/
+- category: webdev
+  published: '2026-07-23T19:14:25'
+  score: 0.724
+  source: Ars Technica
+  summary: Google's selfie videos can be used for account access, AI Avatars, and
+    age verification....
+  tags:
+  - Google
+  - Tech
+  - facial recognition
+  - google
+  - security
+  title: Forgot your Google password? Now you can log in with a selfie.
+  url: https://arstechnica.com/gadgets/2026/07/google-now-lets-you-log-into-your-account-with-a-selfie/
+- category: cybersecurity
+  published: '2026-07-23T16:49:27'
+  score: 1.09
+  source: BleepingComputer
+  summary: CISA is warning that the Russian state-sponsored hacking group Laundry
+    Bear, also known as Void Blizzard, is targeting organizations using Zimbra Collaboration
+    email servers by combining phishing atta...
+  tags:
+  - Security
+  title: Russian hackers exploit Zimbra zero-click flaw for email theft
+  url: https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/
+- category: ai
+  published: '2026-07-23T16:42:54'
+  score: 0.867
+  source: AWS Machine Learning
+  summary: In this post, we explore how Jefferies overcame these challenges with a
+    solution built on Strands Agents, an agent harness SDK for building AI agents
+    that can reason, plan, and act by orchestrating ca...
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Knowledge Bases
+  - Amazon Simple Storage Service (S3)
+  - AWS Lambda
+  - Customer Solutions
+  title: 'Building trade assistant: How Jefferies optimized front office trading operations
+    with AI'
+  url: https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/
+- category: webdev
+  published: '2026-07-23T16:30:20'
+  score: 0.747
+  source: AWS Machine Learning
+  summary: This post focuses on why classic retrieval falls short on multi-part questions,
+    how the AgenticRetrieveStream API works (including request construction and trace
+    parsing), and when to choose it over t...
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Intermediate (200)
+  - Technical How-to
+  title: Agentic retrieval for Amazon Bedrock Managed Knowledge Base
+  url: https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/
+- category: ai
+  published: '2026-07-23T14:45:05'
+  score: 0.809
+  source: Ars Technica
+  summary: Aggressive training techniques sharpens threat of bad behavior by leading
+    models....
+  tags:
+  - AI
+  - AI agents
+  - AI hacking
+  - Hugging Face
+  - openai
+  title: AI arms race in line for a reckoning after OpenAI hacking incident
+  url: https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident/
+- category: cybersecurity
+  published: '2026-07-23T12:00:00'
+  score: 1.054
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow a non-privileged user to escalate privileges or view the credentials of
+    other users. The following versions of Weintek cM...
+  tags: []
+  title: Weintek cMT3092X
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03
+- category: cybersecurity
+  published: '2026-07-23T12:00:00'
+  score: 1.054
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an authenticated attacker to write arbitrary files to restricted system directories
+    outside of the application's intended di...
+  tags: []
+  title: Rockwell Automation ThinManager
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-05
+- category: cybersecurity
+  published: '2026-07-23T12:00:00'
+  score: 1.054
+  source: CISA
+  summary: Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting
+    Users of Zimbra Collaboration Suite Executive summary&nbsp; A group of Russian
+    state-supported cyber actors has been targeting ...
+  tags: []
+  title: Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting
+    Users of Zimbra Collaboration Suite
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a
+- category: ai
+  published: '2026-07-23T12:00:00'
+  score: 0.79
+  source: Towards Data Science
+  summary: The hidden cost of asynchronous systems, how tiny CPU tasks quietly became
+    our biggest bottleneck while scaling hundreds of LLM agents. The post Why Adding
+    More AI Agents Made Our System Slower appear...
+  tags:
+  - Agentic AI
+  - Ai Agent
+  - Latency
+  - Llm
+  - LLM Agents
+  title: Why Adding More AI Agents Made Our System Slower
+  url: https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/
 - category: webdev
   published: '2026-07-23T04:00:38'
   score: 0.878
@@ -13,6 +179,17 @@ articles:
   - orcas
   title: Orcas team up to ram sunfish until they explode
   url: https://arstechnica.com/science/2026/07/orcas-team-up-to-ram-sunfish-until-they-explode/
+- category: ai
+  published: '2026-07-23T00:00:00'
+  score: 0.702
+  source: OpenAI
+  summary: Health in ChatGPT now lets eligible U.S. users securely connect medical
+    records and Apple Health to get more personalized insights and better understand
+    their health....
+  tags:
+  - Product
+  title: Launching Health in ChatGPT
+  url: https://openai.com/index/health-in-chatgpt
 - category: webdev
   published: '2026-07-22T21:43:39'
   score: 0.739
@@ -41536,5 +41713,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-23T07:27:58.583787'
-total_articles: 3285
+last_updated: '2026-07-24T07:26:58.810807'
+total_articles: 3299
