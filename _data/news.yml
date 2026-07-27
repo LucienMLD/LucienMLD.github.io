@@ -1,4 +1,163 @@
 articles:
+- category: webdev
+  published: '2026-07-26T19:48:43'
+  score: 0.721
+  source: Ars Technica
+  summary: Plus Mike Flanagan's Carrie teaser, trailers for Dark Matter S2 and Matchbox
+    the Movie, and Marvel news....
+  tags:
+  - Culture
+  title: First teaser for Apple TV's Neuromancer debuts at SDCC
+  url: https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/
+- category: ai
+  published: '2026-07-26T15:00:00'
+  score: 0.804
+  source: Towards Data Science
+  summary: Maximize your efficiency with Claude Code The post How to Efficiently Prompt
+    Claude Code appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - AI coding assistants
+  - Claude Code
+  - Deep Dives
+  - Prompt Design
+  title: How to Efficiently Prompt Claude Code
+  url: https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/
+- category: cybersecurity
+  published: '2026-07-26T14:13:39'
+  score: 0.872
+  source: BleepingComputer
+  summary: GitHub and PyPI (Python Package Index) have introduced a time-based mechanism
+    in the Dependabot dependency management tool to protect against supply-chain attacks
+    and to limit their impact. [...]...
+  tags:
+  - Security
+  title: GitHub, PyPI add time-based defenses against supply chain attacks
+  url: https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/
+- category: ai
+  published: '2026-07-26T13:00:00'
+  score: 0.835
+  source: Towards Data Science
+  summary: Building a browser-use agent with OpenAI Agents SDK and Playwright MCP
+    The post How to Give an LLM Agent a Browser appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Ai Agent
+  - Browsers
+  - Llm
+  - LLM Agents
+  title: How to Give an LLM Agent a Browser
+  url: https://towardsdatascience.com/giving-an-llm-agent-a-browser/
+- category: cybersecurity
+  published: '2026-07-25T22:37:47'
+  score: 0.705
+  source: BleepingComputer
+  summary: Steam discussion forums are being abused in ClickFix attacks that pretend
+    to be fixes for game and computer problems but actually infect devices with cryptominers.
+    [...]...
+  tags:
+  - Security
+  title: Steam forum ClickFix attacks infect gamers with XMRig cryptominers
+  url: https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/
+- category: webdev
+  published: '2026-07-25T20:52:30'
+  score: 0.528
+  source: Ars Technica
+  summary: 'Also: Forging the One Ring in Rings of Power S3 teaser; new Lanterns trailer;
+    Spaceballs: The New One panel....'
+  tags:
+  - Culture
+  - Blade Runner 2099
+  - entertainment
+  - prime video
+  - san diego comic con
+  title: SDCC teaser gives us our first good look at Blade Runner 2099
+  url: https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/
+- category: webdev
+  published: '2026-07-25T17:47:22'
+  score: 0.509
+  source: Ars Technica
+  summary: SpaceX will likely attempt to catch Starship back at the launch pad on
+    its next flight....
+  tags:
+  - Science
+  - Space
+  - artemis
+  - Commercial space
+  - launch
+  title: SpaceX eyes tower catch for next Starship after auspicious end to 13th flight
+  url: https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/
+- category: webdev
+  published: '2026-07-25T15:21:09'
+  score: 0.573
+  source: BleepingComputer
+  summary: A massive malvertising campaign is using fake Solana, Luno, and TradingView
+    webpages with malicious JavaScript that instructs browsers to assemble malware
+    directly in memory. [...]...
+  tags:
+  - Security
+  title: Malicious sites use JavaScript to build malware in browser memory
+  url: https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/
+- category: webdev
+  published: '2026-07-25T15:00:00'
+  score: 0.491
+  source: Towards Data Science
+  summary: 'Architecting cost-effective infrastructure by navigating the latency and
+    storage trade-offs of HNSW, SPANN, and DiskANN The post How to Optimize Vector
+    Search When RAM Gets Too Expensive: On-Disk vs. ...'
+  tags:
+  - Machine Learning
+  - Embeddings
+  - Rag
+  - Semantic Search
+  - Vector Search
+  title: 'How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory
+    ANN Indexes'
+  url: https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/
+- category: cybersecurity
+  published: '2026-07-25T12:52:43'
+  score: 0.824
+  source: The Hacker News
+  summary: Security firms ThreatBook and Imperva say attackers are targeting a critical
+    flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications,
+    a malicious JSON request can execu...
+  tags: []
+  title: Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
+  url: https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html
+- category: cybersecurity
+  published: '2026-07-25T10:14:26'
+  score: 0.756
+  source: The Hacker News
+  summary: Security researchers at&nbsp;depthfirst published working exploit code
+    on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10.
+    It runs commands as git on any self-managed 18.11...
+  tags: []
+  title: Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands
+    as Git
+  url: https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html
+- category: cybersecurity
+  published: '2026-07-25T10:14:03'
+  score: 0.756
+  source: The Hacker News
+  summary: Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful
+    Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed
+    PTC Windmill and FlexPLM deployments as pa...
+  tags: []
+  title: Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated
+    RCE
+  url: https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html
+- category: ai
+  published: '2026-07-25T09:31:09'
+  score: 0.684
+  source: BleepingComputer
+  summary: ChatGPT, the famous artificial intelligence chatbot that allows users to
+    converse with various personalities and topics, has connectivity issues worldwide.
+    [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI confirms ChatGPT is down worldwide
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/
 - category: cybersecurity
   published: '2026-07-24T06:50:57'
   score: 1.152
@@ -41713,5 +41872,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-24T07:26:58.810807'
-total_articles: 3299
+last_updated: '2026-07-27T08:23:52.089359'
+total_articles: 3312
