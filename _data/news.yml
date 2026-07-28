@@ -1,4 +1,163 @@
 articles:
+- category: cybersecurity
+  published: '2026-07-28T06:07:22'
+  score: 1.145
+  source: The Hacker News
+  summary: Microsoft has launched its first cybersecurity-specific model inside MDASH,
+    its multi-model vulnerability identification and remediation harness. The company
+    says MDASH, using MAI-Cyber-1-Flash and GP...
+  tags: []
+  title: Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half
+    the Cost
+  url: https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html
+- category: cybersecurity
+  published: '2026-07-28T04:43:53'
+  score: 1.279
+  source: The Hacker News
+  summary: A maximum-severity security flaw impacting on-premises versions of Arista
+    VeloCloud Orchestrator (VCO) has come under active exploitation in the wild. The
+    vulnerability, tracked as CVE-2026-16812 (CVS...
+  tags: []
+  title: Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw
+  url: https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html
+- category: cybersecurity
+  published: '2026-07-27T23:49:44'
+  score: 1.094
+  source: BleepingComputer
+  summary: Hackers are actively exploiting a vulnerability in the FastJson open-source
+    Java library, allowing remote code execution without user interaction or elevated
+    privileges. [...]...
+  tags:
+  - Security
+  title: Hackers target US firms in FastJson RCE zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/
+- category: cybersecurity
+  published: '2026-07-27T22:49:44'
+  score: 1.134
+  source: BleepingComputer
+  summary: Arista has patched a maximum-severity command injection vulnerability in
+    on-premises VeloCloud Orchestrator deployments that is being actively exploited
+    in attacks. [...]...
+  tags:
+  - Security
+  title: Arista patches VeloCloud Orchestrator zero-day exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/
+- category: webdev
+  published: '2026-07-27T21:40:27'
+  score: 0.738
+  source: Ars Technica
+  summary: Starlink has a Texas factory but also makes routers in Vietnam....
+  tags:
+  - Policy
+  - fcc router ban
+  - spacex
+  - starlink
+  title: Trump admin exempts SpaceX's Starlink from FCC ban on foreign-made routers
+  url: https://arstechnica.com/tech-policy/2026/07/starlink-gets-exemption-from-fcc-ban-on-routers-made-outside-the-us/
+- category: webdev
+  published: '2026-07-27T20:42:13'
+  score: 0.732
+  source: Ars Technica
+  summary: Kennedy has focused on nutrition but has neglected food safety, critics
+    say....
+  tags:
+  - Health
+  - CDC
+  - cyclospora
+  - cyclosporiasis
+  - fda
+  title: Epic diarrhea outbreak has 40% of Americans avoiding fruits and veggies
+  url: https://arstechnica.com/health/2026/07/epic-diarrhea-outbreak-has-40-of-americans-avoiding-fruits-and-veggies/
+- category: webdev
+  published: '2026-07-27T20:32:45'
+  score: 0.731
+  source: Ars Technica
+  summary: These are likely the last updates of note before Apple's bigger fall updates....
+  tags:
+  - Apple
+  - Tech
+  title: iOS and macOS 26.6 arrive today, paving the way for iOS and macOS 27
+  url: https://arstechnica.com/gadgets/2026/07/ios-and-macos-26-6-arrive-today-paving-the-way-for-ios-and-macos-27/
+- category: webdev
+  published: '2026-07-27T18:34:40'
+  score: 0.759
+  source: Ars Technica
+  summary: NASA has not made substantial investments in thermal protection research
+    for decades....
+  tags:
+  - Space
+  - rapid reuse
+  - space
+  - spacex
+  - starship
+  title: Experts warn current Starship heat shield tech is a "dead end" for rapid
+    reuse
+  url: https://arstechnica.com/space/2026/07/despite-recent-successes-rapid-reuse-of-starship-remains-a-tough-nut-to-crack/
+- category: ai
+  published: '2026-07-27T18:10:05'
+  score: 0.876
+  source: The Hacker News
+  summary: NVIDIA and 36 other organizations have formed the Open Secure AI Alliance
+    to develop and share open technologies, techniques, and tools for securing software
+    and artificial intelligence (AI) agents. T...
+  tags: []
+  title: NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework
+  url: https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html
+- category: ai
+  published: '2026-07-27T16:58:46'
+  score: 0.868
+  source: Ars Technica
+  summary: New behavior capturing a writer's "broad qualities" could have legal implications....
+  tags:
+  - AI
+  - ChatGPT
+  - copying
+  - copyright
+  - legal
+  title: ChatGPT starts blocking direct requests to copy an author's style
+  url: https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/
+- category: webdev
+  published: '2026-07-27T15:02:45'
+  score: 0.737
+  source: Ars Technica
+  summary: Framework's latest modular laptop trades one set of problems for another....
+  tags:
+  - Features
+  - Tech
+  - framework
+  - framework laptop
+  - framework laptop 13
+  title: 'Framework Laptop 13 Pro review: Much better battery, much worse price'
+  url: https://arstechnica.com/gadgets/2026/07/framework-laptop-13-pro-review-much-better-battery-much-worse-price/
+- category: ai
+  published: '2026-07-27T12:00:46'
+  score: 0.789
+  source: Machine Learning Mastery
+  summary: Memory &amp; State For AI Agents Building an AI agent can be tricky. Keeping
+    it on track over a six-month deployment is incredibly hard. LLMs......
+  tags: []
+  title: 5 Architectural Patterns for Persistent Memory and State in AI Agents
+  url: https://machinelearningmastery.com/5-architectural-patterns-for-persistent-memory-and-state-in-ai-agents/
+- category: cybersecurity
+  published: '2026-07-27T12:00:00'
+  score: 1.053
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2025-68686 Fortinet
+    FortiOS Exposure of Sensitive Information...
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2026-07-27T03:30:00'
+  score: 0.769
+  source: OpenAI
+  summary: New OpenAI research shows how AI is expanding what workers do, with ChatGPT
+    users taking on tasks across roles and reshaping job boundaries....
+  tags:
+  - Company
+  title: How AI is expanding what people do at work
+  url: https://openai.com/index/how-ai-is-expanding-what-people-do-at-work
 - category: webdev
   published: '2026-07-26T19:48:43'
   score: 0.721
@@ -41872,5 +42031,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-27T08:23:52.089359'
-total_articles: 3312
+last_updated: '2026-07-28T07:34:50.394833'
+total_articles: 3326
