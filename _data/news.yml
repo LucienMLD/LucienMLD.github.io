@@ -1,5 +1,176 @@
 articles:
 - category: cybersecurity
+  published: '2026-07-29T06:45:02'
+  score: 1.197
+  source: The Hacker News
+  summary: OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent
+    that escaped its sealed evaluation environment and broke into Hugging Face's production
+    environment, and also hacked multiple th...
+  tags: []
+  title: OpenAI Agent Used Exposed Credentials Across Four Services During Hugging
+    Face Breach
+  url: https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html
+- category: cybersecurity
+  published: '2026-07-29T04:20:57'
+  score: 1.083
+  source: The Hacker News
+  summary: Beta release versions of two npm packages in the @joyfill namespace have
+    been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER
+    malware family. The list of affected pa...
+  tags: []
+  title: Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js
+  url: https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html
+- category: ai
+  published: '2026-07-29T01:47:05'
+  score: 1.116
+  source: Schneier on Security
+  summary: 'There&#8217;s new benchmark measuring AI&#8217;s ability to perform mathematical
+    cryptanalysis. Anthropic&#8217;s frontier model actually found new attacks. The
+    benchmark: &#8220;CryptanalysisBench: C...'
+  tags:
+  - Uncategorized
+  - academic papers
+  - AI
+  - cryptanalysis
+  - cybersecurity
+  title: Measuring LLMs’ Ability to Perform Cryptanalysis
+  url: https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html
+- category: webdev
+  published: '2026-07-29T01:00:36'
+  score: 0.759
+  source: Ars Technica
+  summary: The new full-size flagship SUV starts at $87,700 when it goes on sale in
+    Q4....
+  tags:
+  - Cars
+  - Audi Q9
+  - Audi SQ9
+  title: 'Audi has a new flagship designed with the US in mind: The 2027 Q9'
+  url: https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/
+- category: webdev
+  published: '2026-07-28T22:09:00'
+  score: 0.781
+  source: Ars Technica
+  summary: '"Preliminary investigation shows that two of Link''s three reaction wheels
+    currently are not operable."...'
+  tags:
+  - Science
+  - Space
+  - katalyst space
+  - NASA
+  - rescue
+  title: Reaction wheel failures leave Swift rescue mission spinning in orbit
+  url: https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/
+- category: webdev
+  published: '2026-07-28T21:49:52'
+  score: 0.739
+  source: Ars Technica
+  summary: Lab students were supposed to ID a mild germ. They all identified a deadly
+    pathogen....
+  tags:
+  - Health
+  - lab
+  - meningitis
+  - microbiology
+  - Neisseria meningitidis
+  title: College lab class ends with 32 people on antibiotics for deadly germ exposure
+  url: https://arstechnica.com/health/2026/07/college-lab-class-ends-with-32-people-on-antibiotics-for-deadly-germ-exposure/
+- category: ai
+  published: '2026-07-28T21:36:39'
+  score: 0.943
+  source: Ars Technica
+  summary: 10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to
+    release of a patch....
+  tags:
+  - AI
+  - Biz & IT
+  - Security
+  - Hugging Face
+  - jfrog
+  title: We now have a better understanding how OpenAI hacked into Hugging Face
+  url: https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/
+- category: webdev
+  published: '2026-07-28T21:02:15'
+  score: 0.734
+  source: Ars Technica
+  summary: eBay sent bloody pig mask and other macabre deliveries to journalists'
+    home....
+  tags:
+  - Policy
+  - eBay
+  title: eBay pays $46M to journalists it targeted in bizarre harassment campaign
+  url: https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/
+- category: webdev
+  published: '2026-07-28T20:51:45'
+  score: 0.733
+  source: Ars Technica
+  summary: “We're in the realm where we might be essentially killing off everything
+    within that first hour or two."...
+  tags:
+  - Science
+  - asteroids
+  - biogeoscience
+  - Chicxulub impact
+  - dinosaurs
+  title: 'Study: Dinosaurs were charbroiled after Chicxulub impact'
+  url: https://arstechnica.com/science/2026/07/dust-cloud-from-dino-killing-asteroid-charbroiled-the-earth/
+- category: ai
+  published: '2026-07-28T16:30:00'
+  score: 0.82
+  source: Towards Data Science
+  summary: Five models, sustained generation, real wall-socket energy at $0.31/kWh
+    — and the surprise the RTX-3090 numbers predicted, only bigger. The post How Much
+    Does a Local LLM Actually Cost to Run? I Measu...
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Cost Optimization
+  - Deep Dives
+  - Llm
+  title: How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on
+    Apple Silicon
+  url: https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/
+- category: ai
+  published: '2026-07-28T16:00:00'
+  score: 0.816
+  source: Google AI Blog
+  summary: Managed Agents Gemini 3.6 Flash, Hooks and Triggers...
+  tags:
+  - Developer tools
+  - AI
+  title: 'Gemini API Managed Agents: 3.6 Flash, hooks, and more'
+  url: https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/
+- category: cybersecurity
+  published: '2026-07-28T12:00:00'
+  score: 1.053
+  source: CISA
+  summary: View CSAF Summary Mendix documentation for access rules does not adequately
+    describe the special behavior of the System.User entity, leaving developers without
+    sufficient guidance to configure access ...
+  tags: []
+  title: Siemens Mendix Runtime
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02
+- category: cybersecurity
+  published: '2026-07-28T12:00:00'
+  score: 1.053
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    attackers to rapidly guess passwords and gain unauthorized system access. The
+    following versions of MikroTik RouterOS and Cl...
+  tags: []
+  title: MikroTik RouterOS and Cloud Hosted Router
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05
+- category: cybersecurity
+  published: '2026-07-28T12:00:00'
+  score: 1.053
+  source: CISA
+  summary: View CSAF Summary SIMATIC S7-PLCSIM Advanced contains a vulnerability that
+    could allow an attacker to cause a denial of service condition. Siemens is preparing
+    fix versions and recommends specific cou...
+  tags: []
+  title: Siemens SIMATIC S7-PLCSIM Advanced
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-03
+- category: cybersecurity
   published: '2026-07-28T06:07:22'
   score: 1.145
   source: The Hacker News
@@ -42031,5 +42202,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-28T07:34:50.394833'
-total_articles: 3326
+last_updated: '2026-07-29T07:38:36.588342'
+total_articles: 3340
