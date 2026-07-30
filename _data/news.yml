@@ -1,4 +1,153 @@
 articles:
+- category: webdev
+  published: '2026-07-30T06:05:17'
+  score: 0.891
+  source: The Hacker News
+  summary: 'Amazon has tied the September 2025 hijack of the npm packages debug and
+    chalk to North Korea. For ten months, the incident sat in the public record as
+    crypto theft: a maintainer phished through a look...'
+  tags: []
+  title: Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet
+  url: https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html
+- category: cybersecurity
+  published: '2026-07-30T05:08:39'
+  score: 1.282
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday
+    added a newly disclosed security flaw impacting Cisco Secure Firewall Management
+    Center (FMC) Software to its Known Exploi...
+  tags: []
+  title: Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive
+    Data
+  url: https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html
+- category: cybersecurity
+  published: '2026-07-29T23:44:07'
+  score: 1.046
+  source: BleepingComputer
+  summary: The Russian state-sponsored hacking group Laundry Bear, also known as Void
+    Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in email
+    campaigns to deliver a sophisticated backdoor c...
+  tags:
+  - Security
+  title: Russian hackers exploit Exchange OWA zero-day for long-term mailbox access
+  url: https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/
+- category: webdev
+  published: '2026-07-29T21:46:12'
+  score: 0.739
+  source: WebKit Blog
+  summary: Safari Technology Preview Release 249 is now available for download for
+    macOS Golden Gate and macOS Tahoe....
+  tags:
+  - News
+  title: Release Notes for Safari Technology Preview 249
+  url: https://webkit.org/blog/18182/release-notes-for-safari-technology-preview-249/
+- category: ai
+  published: '2026-07-29T21:39:29'
+  score: 0.944
+  source: BleepingComputer
+  summary: Claude is down for some users, with Anthropic confirming elevated errors
+    across multiple AI models. The disruption is causing requests to fail with a "529
+    Overloaded" message, including in Claude and ...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: Anthropic confirms Claude is down worldwide
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/
+- category: cybersecurity
+  published: '2026-07-29T21:35:40'
+  score: 1.126
+  source: BleepingComputer
+  summary: Cisco is warning that a high-severity Secure Firewall Management Center
+    (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively
+    exploited in zero-day attacks to gain unauthorize...
+  tags:
+  - Security
+  title: Cisco warns of FMC static credential flaw exploited in zero-day attacks
+  url: https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/
+- category: webdev
+  published: '2026-07-29T20:57:35'
+  score: 0.734
+  source: Ars Technica
+  summary: Advertisers agreed to “reset” relationship with X....
+  tags:
+  - Policy
+  - ad boycott
+  - Elon Musk
+  - online advertising
+  - social media
+  title: Musk went to “war,” sought jail time for X ad boycotts—but case ends with
+    a whimper
+  url: https://arstechnica.com/tech-policy/2026/07/musk-went-to-war-sought-jail-time-for-x-ad-boycotts-but-case-ends-with-a-whimper/
+- category: webdev
+  published: '2026-07-29T20:03:42'
+  score: 0.728
+  source: Ars Technica
+  summary: Government ban on foreign-made robots may hinder instead of help US robotics....
+  tags:
+  - AI
+  - china
+  - FCC
+  - fcc brendan carr
+  - federal communications commission
+  title: Who wins and who loses after US bans foreign robots?
+  url: https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/
+- category: ai
+  published: '2026-07-29T17:07:53'
+  score: 0.957
+  source: Schneier on Security
+  summary: This essay was written with Barath Raghavan, and originally appeared in
+    The Guardian. In July, Hugging Face, a company that hosts much of the world&#8217;s
+    AI software and open-source AI models, was h...
+  tags:
+  - Uncategorized
+  - AI
+  - cyberattack
+  - cybersecurity
+  - hacking
+  title: Measuring the Tendency of AI Agents to Go Rogue
+  url: https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html
+- category: cybersecurity
+  published: '2026-07-29T15:39:30'
+  score: 1.033
+  source: The Hacker News
+  summary: Cybersecurity researchers have flagged a maximum-severity security flaw
+    in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI
+    Codex, that could result in unauthenticated rem...
+  tags: []
+  title: Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI
+    Memory
+  url: https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html
+- category: webdev
+  published: '2026-07-29T15:00:00'
+  score: 0.777
+  source: OpenAI
+  summary: How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting
+    scores and efficiency by retaining reasoning and enabling compaction....
+  tags:
+  - Research
+  title: How enabling two settings tripled our scores on the ARC-AGI-3 benchmark
+  url: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
+- category: cybersecurity
+  published: '2026-07-29T12:00:00'
+  score: 1.054
+  source: CISA
+  summary: CISA has added one new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-20316
+    Cisco Secure Firewall Management Center Use o...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/07/29/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2026-07-29T10:00:00'
+  score: 0.908
+  source: OpenAI
+  summary: OpenAI is giving 100,000 academic researchers free access to ChatGPT's
+    most advanced AI models to accelerate scientific research, collaboration, and
+    discovery....
+  tags:
+  - Company
+  title: Accelerating scientific discovery with ChatGPT for Academic Researchers
+  url: https://openai.com/index/chatgpt-for-academic-researchers
 - category: cybersecurity
   published: '2026-07-29T06:45:02'
   score: 1.197
@@ -47,6 +196,16 @@ articles:
   - Audi SQ9
   title: 'Audi has a new flagship designed with the US in mind: The 2027 Q9'
   url: https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/
+- category: ai
+  published: '2026-07-29T00:00:00'
+  score: 0.657
+  source: OpenAI
+  summary: GPT-5.6 improves AI efficiency across models, inference, and agentic workflows,
+    helping deliver more useful intelligence per dollar....
+  tags:
+  - Engineering
+  title: How GPT-5.6 fuses frontier intelligence with frontier efficiency
+  url: https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency
 - category: webdev
   published: '2026-07-28T22:09:00'
   score: 0.781
@@ -42202,5 +42361,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-29T07:38:36.588342'
-total_articles: 3340
+last_updated: '2026-07-30T07:30:16.377895'
+total_articles: 3354
