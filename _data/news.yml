@@ -1,4 +1,186 @@
 articles:
+- category: cybersecurity
+  published: '2026-07-31T00:57:25'
+  score: 1.053
+  source: BleepingComputer
+  summary: One of Anthropic's Claude models built and uploaded a malicious Python
+    package to PyPI during a botched security evaluation, where it ran on 15 real
+    systems and stole credentials from a security vendo...
+  tags:
+  - Security
+  title: Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests
+  url: https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/
+- category: webdev
+  published: '2026-07-30T17:22:32'
+  score: 0.71
+  source: AWS Machine Learning
+  summary: 'This post walks through deploying Kimi K3 on AWS using two approaches:
+    Amazon SageMaker HyperPod, and&nbsp; Amazon Elastic Kubernetes Service (Amazon
+    EKS) cluster....'
+  tags:
+  - Amazon Elastic Kubernetes Service
+  - Amazon SageMaker Lakehouse
+  - Announcements
+  title: Deploying Kimi K3 on AWS
+  url: https://aws.amazon.com/blogs/machine-learning/deploying-kimi-k3-on-aws/
+- category: webdev
+  published: '2026-07-30T16:40:36'
+  score: 0.706
+  source: AWS Machine Learning
+  summary: In this post, we demonstrate how Yahoo implemented Amazon Bedrock to enhance
+    their Search Retargeting (SRT) capabilities in the Yahoo DSP ad tech suite. SRT
+    is a core audience targeting solution that ...
+  tags:
+  - Amazon Bedrock
+  - Customer Solutions
+  title: How Yahoo enhances search retargeting using Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/how-yahoo-enhances-search-retargeting-using-amazon-bedrock/
+- category: webdev
+  published: '2026-07-30T16:30:00'
+  score: 0.705
+  source: Towards Data Science
+  summary: How one open-source ecosystem made state-of-the-art AI accessible The post
+    The Python Ecosystem That Changed AI Development appeared first on Towards Data
+    Science....
+  tags:
+  - Machine Learning
+  - Artificial Intelligence
+  - Data Science
+  - Hugging Face
+  - Ml Pipeline
+  title: The Python Ecosystem That Changed AI Development
+  url: https://towardsdatascience.com/the-python-ecosystem-that-changed-ai-development/
+- category: webdev
+  published: '2026-07-30T16:10:10'
+  score: 0.743
+  source: AWS Machine Learning
+  summary: Learn how to build an inference meta-monitoring system for Amazon SageMaker
+    AI endpoints using Amazon Quick. This governance layer sits above production ML
+    inference pipelines to continuously track pr...
+  tags:
+  - Amazon Quick Suite
+  - Amazon SageMaker AI
+  - Expert (400)
+  - Technical How-to
+  title: Inference meta-monitoring for Amazon SageMaker AI endpoints with Amazon Quick
+  url: https://aws.amazon.com/blogs/machine-learning/inference-meta-monitoring-for-amazon-sagemaker-ai-endpoints-with-amazon-quick/
+- category: ai
+  published: '2026-07-30T16:02:32'
+  score: 0.86
+  source: AWS Machine Learning
+  summary: OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon
+    Bedrock, along with explicit prompt caching that gives you precise control over
+    which parts of your prompt are cached and reus...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Technical How-to
+  title: Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock/
+- category: webdev
+  published: '2026-07-30T15:58:32'
+  score: 0.741
+  source: AWS Machine Learning
+  summary: Amazon Bedrock Advanced Prompt Optimization optimizes your prompts for
+    up to 5 models at once and compares original versus optimized performance across
+    quality, latency, and cost. Migrate to a new mod...
+  tags:
+  - Amazon Bedrock
+  - Intermediate (200)
+  - Technical How-to
+  title: Migrate your prompts to new models and optimize them on Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/migrate-your-prompts-to-new-models-and-optimize-them-on-amazon-bedrock/
+- category: ai
+  published: '2026-07-30T15:00:59'
+  score: 0.809
+  source: DeepMind
+  summary: Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world
+    tasks. It represents a step change in video understanding, tool orchestration,
+    and multi-robot collaboration for robotic app...
+  tags: []
+  title: 'Gemini Robotics ER 2: powering robotics with video understanding, task orchestration,
+    and multi-robot collaboration'
+  url: https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/
+- category: ai
+  published: '2026-07-30T14:00:00'
+  score: 0.802
+  source: Towards Data Science
+  summary: What it actually takes to turn a company's scattered knowledge into something
+    an LLM can reliably use — and why the demo is 5% of the work. The post How to
+    Build a Context Layer and a Company Brain ap...
+  tags:
+  - Machine Learning
+  - Context Engineering
+  - Llm
+  - Llm Evaluation
+  - Mlops
+  title: How to Build a Context Layer and a Company Brain
+  url: https://towardsdatascience.com/how-to-build-a-context-layer-and-a-company-brain/
+- category: cybersecurity
+  published: '2026-07-30T12:00:00'
+  score: 1.052
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to cause a denial-of-service condition. The following versions of
+    NASA Core Flight System (cFS) Health &amp; Saf...
+  tags: []
+  title: NASA Core Flight System (cFS) Health & Safety (HS) Application
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-06
+- category: cybersecurity
+  published: '2026-07-30T12:00:00'
+  score: 1.052
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker with access to the same network segment to tamper with communication
+    data in the affected product by sending spe...
+  tags: []
+  title: Mitsubishi Electric CC-Link IE TSN Communication Protocol
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07
+- category: cybersecurity
+  published: '2026-07-30T12:00:00'
+  score: 1.052
+  source: CISA
+  summary: View CSAF Summary Schneider Electric is aware of a vulnerability in its
+    IGSS Definition module for the IGSS (Interactive Graphical SCADA System) product.
+    The [IGSS](https://igss.schneider-electric.com...
+  tags: []
+  title: Schneider Electric IGSS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-04
+- category: cybersecurity
+  published: '2026-07-30T12:00:00'
+  score: 1.052
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to extract the router's WireGuard private key in plaintext using only
+    low‑privilege API access, enabling full VP...
+  tags: []
+  title: MikroTik RouterOS
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01
+- category: ai
+  published: '2026-07-30T12:00:00'
+  score: 0.832
+  source: Towards Data Science
+  summary: How statistical physics explains the transition from deterministic predictions
+    to generative AI. The post How to Decode the Temperature Parameter in LLMs appeared
+    first on Towards Data Science....
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Data Science
+  - Llm
+  - Physics
+  title: How to Decode the Temperature Parameter in LLMs
+  url: https://towardsdatascience.com/decoding-the-temperature-parameter-in-llms/
+- category: ai
+  published: '2026-07-30T10:00:00'
+  score: 0.818
+  source: OpenAI
+  summary: Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more
+    efficient models help enterprises deploy AI workflows at scale....
+  tags:
+  - Product
+  title: Advancing the price-performance frontier with GPT-5.6
+  url: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
 - category: webdev
   published: '2026-07-30T06:05:17'
   score: 0.891
@@ -42361,5 +42543,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-30T07:30:16.377895'
-total_articles: 3354
+last_updated: '2026-07-31T07:45:55.420482'
+total_articles: 3369
