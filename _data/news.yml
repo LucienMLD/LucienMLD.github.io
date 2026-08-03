@@ -1,5 +1,166 @@
 articles:
 - category: cybersecurity
+  published: '2026-08-03T06:41:46'
+  score: 1.239
+  source: The Hacker News
+  summary: N-able said attackers exploited an authentication bypass in N-central to
+    gain remote administrative access and reach the customer systems managed through
+    those servers. Its first fix was incomplete. C...
+  tags: []
+  title: N-able Says Attackers Take Over N-central Servers After Initial Fix Proves
+    Incomplete
+  url: https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html
+- category: ai
+  published: '2026-08-03T06:40:31'
+  score: 1.056
+  source: The Hacker News
+  summary: Three high-severity security flaws have been disclosed in Hugging Face's
+    Diffusers library that could allow crafted model repositories to stealthily execute
+    arbitrary code on machines that load it, op...
+  tags: []
+  title: Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary
+    Code
+  url: https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html
+- category: ai
+  published: '2026-08-02T22:31:41'
+  score: 0.9
+  source: BleepingComputer
+  summary: OpenAI has revealed Astra, an unreleased model designed to tackle complex,
+    long-running tasks, after an internal version produced ten significant advances
+    in mathematics and theoretical computer scien...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI teases Astra, its next major AI model, after it solves 10 long-standing
+    math problems
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/
+- category: cybersecurity
+  published: '2026-08-02T21:14:29'
+  score: 0.972
+  source: BleepingComputer
+  summary: A vulnerability in COLDCARD hardware wallet firmware allowed attackers
+    to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose
+    seeds were generated using a flawed random number ...
+  tags:
+  - Security
+  - CryptoCurrency
+  title: COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft
+  url: https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/
+- category: webdev
+  published: '2026-08-02T15:00:00'
+  score: 0.691
+  source: Towards Data Science
+  summary: Perform non-programming tasks with coding agents The post How to Apply
+    Coding Agents to Non-Programming Tasks appeared first on Towards Data Science....
+  tags:
+  - Agentic AI
+  - AI coding assistants
+  - Claude Code
+  - Coding agent
+  - Editor's Picks
+  title: How to Apply Coding Agents to Non-Programming Tasks
+  url: https://towardsdatascience.com/how-to-apply-coding-agents-to-non-programming-tasks/
+- category: cybersecurity
+  published: '2026-08-02T14:17:16'
+  score: 0.872
+  source: BleepingComputer
+  summary: Google is preparing a new Chrome security feature that would block policy-installed
+    extensions from hijacking the New Tab page or changing the default search engine.
+    [...]...
+  tags:
+  - Google
+  - Security
+  title: Google Chrome may soon block New Tab hijacker extensions by default
+  url: https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/
+- category: webdev
+  published: '2026-08-02T13:00:00'
+  score: 0.679
+  source: Towards Data Science
+  summary: A step-by-step guide to building, running, and monitoring a stateful customer
+    support agent using Python, LangGraph, and Langfuse. The post I Replaced a 15-Minute
+    Booking Process with a LangGraph AI A...
+  tags:
+  - Artificial Intelligence
+  - Ai Agent
+  title: I Replaced a 15-Minute Booking Process with a LangGraph AI Agent
+  url: https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/
+- category: webdev
+  published: '2026-08-01T18:20:11'
+  score: 0.512
+  source: Ars Technica
+  summary: '"We believe that a capture of Swift, an attempted capture of Swift, is
+    very much in the cards."...'
+  tags:
+  - Science
+  - Space
+  - Commercial space
+  - katalyst space
+  - NASA
+  title: Here's how engineers plan to save the satellite sent to save NASA's Swift
+    mission
+  url: https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/
+- category: cybersecurity
+  published: '2026-08-01T17:17:22'
+  score: 0.665
+  source: The Hacker News
+  summary: An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking
+    1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the
+    sweep and tied it to a firmware flaw in Cold...
+  tags: []
+  title: Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes
+  url: https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html
+- category: webdev
+  published: '2026-08-01T15:19:04'
+  score: 0.493
+  source: Ars Technica
+  summary: Christopher Nolan's impressionistic remix of Homer's epic poem finds the
+    man behind the myth....
+  tags:
+  - Culture
+  - Christopher Nolan
+  - film reviews
+  - reviews
+  - The Odyssey
+  title: 'Review: Yes, we''re still arguing about Nolan''s The Odyssey'
+  url: https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/
+- category: cybersecurity
+  published: '2026-08-01T14:20:30'
+  score: 0.739
+  source: BleepingComputer
+  summary: A critical vulnerability in the Active Storage framework can allow an unauthenticated
+    attacker to read arbitrary files from a Rails application, and potentially escalate
+    to remote code execution (RCE)...
+  tags:
+  - Security
+  title: Rails patches critical Active Storage flaw with RCE potential
+  url: https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/
+- category: ai
+  published: '2026-08-01T13:00:00'
+  score: 0.576
+  source: Towards Data Science
+  summary: A hybrid LLM application pattern that combines a predefined workflow with
+    adaptive agent behavior The post Put the Agent Inside the Workflow appeared first
+    on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Agentic Ai
+  - Llm
+  - LLM Agents
+  - Llm Applications
+  title: Put the Agent Inside the Workflow
+  url: https://towardsdatascience.com/put-the-agent-inside-the-workflow/
+- category: webdev
+  published: '2026-08-01T09:03:07'
+  score: 0.534
+  source: The Hacker News
+  summary: Attackers modified a JavaScript file served by advertising technology company
+    Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet
+    addresses. Adform detected the incident on...
+  tags: []
+  title: Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer
+    Sites
+  url: https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html
+- category: cybersecurity
   published: '2026-07-31T00:57:25'
   score: 1.053
   source: BleepingComputer
@@ -42543,5 +42704,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-07-31T07:45:55.420482'
-total_articles: 3369
+last_updated: '2026-08-03T08:22:52.003136'
+total_articles: 3382
