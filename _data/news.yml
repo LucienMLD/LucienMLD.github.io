@@ -1,5 +1,174 @@
 articles:
 - category: cybersecurity
+  published: '2026-08-04T00:17:15'
+  score: 1.05
+  source: BleepingComputer
+  summary: Microsoft has linked a global campaign targeting hospitality Wi-Fi networks
+    to the Russian threat actor Midnight Blizzard, also known as APT29. [...]...
+  tags:
+  - Security
+  title: Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts
+  url: https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/
+- category: cybersecurity
+  published: '2026-08-03T23:58:01'
+  score: 1.047
+  source: BleepingComputer
+  summary: Security researchers have discovered three attacks that allow malware on
+    already-compromised Windows devices to abuse Google Password Manager's synced
+    passkeys to take over accounts, bypass user verif...
+  tags:
+  - Security
+  title: New Pass-ta-key attacks let malware hijack Google-synced passkeys
+  url: https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/
+- category: webdev
+  published: '2026-08-03T22:11:39'
+  score: 0.742
+  source: Ars Technica
+  summary: $100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities....
+  tags:
+  - AI
+  - AI drones
+  - Auterion
+  - drone swarms
+  - drones
+  title: US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their
+    own
+  url: https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/
+- category: ai
+  published: '2026-08-03T22:00:00'
+  score: 0.858
+  source: OpenAI
+  summary: OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees,
+    and shares messages documenting what happened....
+  tags:
+  - Company
+  title: Apple is getting this wrong
+  url: https://openai.com/index/apple-is-getting-this-wrong
+- category: webdev
+  published: '2026-08-03T20:13:37'
+  score: 0.729
+  source: Ars Technica
+  summary: 'Also: Cyborg diving suits for cockroaches, why sleepy sperm whales blow
+    bubbles, Betelgeuse''s companion star....'
+  tags:
+  - Science
+  - ancient DCA
+  - animal behavior
+  - Archaeology
+  - astronomy
+  title: 'Research roundup: 6 cool science stories we almost missed'
+  url: https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/
+- category: webdev
+  published: '2026-08-03T19:21:16'
+  score: 0.724
+  source: Ars Technica
+  summary: The orbiting observatory in minifigure scale....
+  tags:
+  - Space
+  - 35 years
+  - ESA
+  - Hubble Space Telescope
+  - Lego
+  title: Lego deploys Hubble Space Telescope as detailed desktop model
+  url: https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/
+- category: cybersecurity
+  published: '2026-08-03T17:00:56'
+  score: 1.091
+  source: BleepingComputer
+  summary: N-able is warning customers that hackers are exploiting an authentication
+    bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central
+    servers. [...]...
+  tags:
+  - Security
+  title: N-able warns of N-central auth bypass flaw exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/
+- category: webdev
+  published: '2026-08-03T16:30:58'
+  score: 0.746
+  source: AWS Machine Learning
+  summary: Amazon Bedrock now supports automatic Automated Reasoning policy refinement.
+    The refinement engine diagnoses failing tests and proposes formal-logic fixes
+    for rule issues and language issues, and you ...
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Intermediate (200)
+  title: Automated Reasoning policy refinement in Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/automated-reasoning-policy-refinement-in-amazon-bedrock/
+- category: ai
+  published: '2026-08-03T16:30:00'
+  score: 0.821
+  source: Towards Data Science
+  summary: 'Enterprise Document Intelligence [Vol.1 #M2] - Every RAG system is built
+    in three engineering layers stacked on one LLM call: prompt (the call itself),
+    context (what fills the model’s window), loop (w...'
+  tags:
+  - Large Language Model
+  - Ai Engineering
+  - Deep Dives
+  - Llm
+  - Rag
+  title: 'Prompt, Context, Loop: The Three Engineering Layers Every RAG System Is
+    Built On'
+  url: https://towardsdatascience.com/prompt-context-loop-the-three-engineering-layers-every-rag-system-is-built-on/
+- category: cybersecurity
+  published: '2026-08-03T16:15:13'
+  score: 0.989
+  source: The Hacker News
+  summary: The INC Ransomware operation has emerged as the "dominant threat actor"
+    exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access
+    (SMA) 1000 series VPN appliances. In a report...
+  tags: []
+  title: INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws
+  url: https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html
+- category: webdev
+  published: '2026-08-03T15:53:20'
+  score: 0.742
+  source: CSS-Tricks
+  summary: Today, with CSS gap decorations fully supported in Chrome and Edge, starting
+    with version 149, you can now very easily style gaps, and with a lot of control.
+    Gap Decorations Are Now Available, Here’s ...
+  tags:
+  - Articles
+  - gap decorations
+  - layout
+  title: Gap Decorations Are Now Available, Here’s What’s New
+  url: https://css-tricks.com/css-gap-decorations-now-available/
+- category: cybersecurity
+  published: '2026-08-03T12:00:00'
+  score: 1.054
+  source: CISA
+  summary: CISA has added one new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-18577
+    N-able N-central Authentication Bypass Using ...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2026-08-03T12:00:00'
+  score: 0.79
+  source: Towards Data Science
+  summary: How use Claude to craft an outstanding resume that lands offers The post
+    How Claude Help Me Build My $200k+ ML Resume appeared first on Towards Data Science....
+  tags:
+  - Large Language Models
+  - Artificial Intelligence
+  - Career Advice
+  - Job Search
+  - Llm
+  title: How Claude Help Me Build My $200k+ ML Resume
+  url: https://towardsdatascience.com/how-claude-help-me-build-my-200k-ml-resume/
+- category: ai
+  published: '2026-08-03T07:00:00'
+  score: 0.705
+  source: OpenAI
+  summary: GPT-Live enables continuous voice interaction with AI, using a turnless
+    speech model and low-latency architecture for faster, more natural conversations....
+  tags:
+  - Engineering
+  title: How we built a realtime system for responsive voice AI in six months
+  url: https://openai.com/index/continuous-voice-interaction-with-gpt-live
+- category: cybersecurity
   published: '2026-08-03T06:41:46'
   score: 1.239
   source: The Hacker News
@@ -42704,5 +42873,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-03T08:22:52.003136'
-total_articles: 3382
+last_updated: '2026-08-04T07:31:56.533344'
+total_articles: 3396
