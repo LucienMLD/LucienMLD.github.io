@@ -1,5 +1,180 @@
 articles:
 - category: cybersecurity
+  published: '2026-08-05T05:47:19'
+  score: 1.143
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed what has been described as a "long-standing
+    supply chain attack" on QuickFox, a virtual private network (VPN) and network
+    acceleration tool designed for overse...
+  tags: []
+  title: QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows
+    Installer
+  url: https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html
+- category: cybersecurity
+  published: '2026-08-04T23:39:59'
+  score: 1.045
+  source: BleepingComputer
+  summary: OpenAI and Anthropic have confirmed that their AI models were involved
+    in separate, newly disclosed third-party cybersecurity testing incidents that
+    resulted in a real website being breached and socia...
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: OpenAI, Anthropic AI agents targeted real people and systems in cyber tests
+  url: https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/
+- category: webdev
+  published: '2026-08-04T21:52:31'
+  score: 0.739
+  source: Ars Technica
+  summary: Fire experts warn such markets could incentivize arson....
+  tags:
+  - Policy
+  - polymarket
+  - prediction markets
+  - wildfires
+  title: Senators demand crackdown on wildfire "prediction markets"
+  url: https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/
+- category: webdev
+  published: '2026-08-04T21:27:05'
+  score: 0.737
+  source: Ars Technica
+  summary: $1.25 billion program restored, but judge ruled race provision unconstitutional....
+  tags:
+  - Policy
+  - broadband
+  - digital equity act
+  title: Trump killed the Digital Equity Act, but US was forced to bring part of it
+    back
+  url: https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/
+- category: webdev
+  published: '2026-08-04T20:34:28'
+  score: 0.731
+  source: Ars Technica
+  summary: Governor who touted Texas as AI “epicenter” pauses data center grid connections....
+  tags:
+  - AI
+  - ai data centers
+  - AI infrastructure
+  - data centers
+  - ERCOT
+  title: Texas halts data center connections to power grid amid overwhelming demand
+  url: https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/
+- category: ai
+  published: '2026-08-04T19:00:00'
+  score: 0.882
+  source: OpenAI
+  summary: OpenAI explains recent third-party cybersecurity evaluation incidents and
+    outlines new safeguards to strengthen AI model testing and evaluation....
+  tags:
+  - Security
+  title: Third-party cyber evaluations involving OpenAI models
+  url: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models
+- category: webdev
+  published: '2026-08-04T18:50:55'
+  score: 0.72
+  source: BleepingComputer
+  summary: 77 extensions on the Open VSX marketplace impersonated legitimate developer
+    tools while transmitting information about the systems and development environments
+    where they were installed. [...]...
+  tags:
+  - Security
+  title: 77 Open VSX extensions found harvesting developer info
+  url: https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/
+- category: webdev
+  published: '2026-08-04T16:02:21'
+  score: 0.743
+  source: AWS Machine Learning
+  summary: Extracting insights from dozens of websites by hand quickly becomes overwhelming.
+    This post shows how to build an automated web insight extraction solution with
+    Amazon Bedrock AgentCore Browser, Amazo...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Technical How-to
+  title: Automated web insight extraction with Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/automated-web-insight-extraction-with-amazon-bedrock-agentcore/
+- category: ai
+  published: '2026-08-04T14:00:56'
+  score: 0.847
+  source: Machine Learning Mastery
+  summary: 'This chapter is divided into eight parts; they are: • Metrics for LLM
+    Inference • Measuring a Single Request • Warmup and Synchronization • Measuring
+    GPU Work with CUDA Events • Measuring Memory Usage...'
+  tags: []
+  title: Measuring Performance of Transformer Inference
+  url: https://machinelearningmastery.com/measuring-performance-of-transformer-inference/
+- category: ai
+  published: '2026-08-04T13:38:29'
+  score: 0.889
+  source: Ars Technica
+  summary: “We do not have, nor want, any of their trade secrets,” the ChatGPT maker
+    says....
+  tags:
+  - Apple
+  - Policy
+  - apple
+  - openai
+  - syndication
+  title: OpenAI says Apple's trade secrets lawsuit is "aggressive and oddly personal"
+  url: https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/
+- category: ai
+  published: '2026-08-04T13:30:23'
+  score: 0.8
+  source: The Hacker News
+  summary: A credential-stealing npm worm that first appeared in keyv@6.0.0 spread
+    beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple
+    organizations on August 4, 2026. SafeDep veri...
+  tags: []
+  title: Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and
+    VS Code Hooks
+  url: https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html
+- category: cybersecurity
+  published: '2026-08-04T12:00:00'
+  score: 1.053
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to modify .fsa/.hid output files, tampering with DNA data and resulting
+    in inaccurate test results. The followin...
+  tags: []
+  title: Thermo Fisher Applied Biosystems Genetic Analyzers
+  url: https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01
+- category: cybersecurity
+  published: '2026-08-04T12:00:00'
+  score: 1.053
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to perform unauthorized vehicle control operations. The following
+    versions of Acrisure KARR BT and DR-100 are af...
+  tags: []
+  title: Acrisure KARR BT and DR-100
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01
+- category: cybersecurity
+  published: '2026-08-04T12:00:00'
+  score: 1.053
+  source: CISA
+  summary: CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-9198
+    IBM Langflow Code Injection Vulnerability ...
+  tags: []
+  title: CISA Adds Three Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2026-08-04T10:13:58'
+  score: 0.821
+  source: Schneier on Security
+  summary: 'And it&#8217;s personal information (alternate link): The exposed data
+    includes an AI-powered therapy app that someone appears to have vibe-coded, notes
+    on meetings, and a dashboard someone made appar...'
+  tags:
+  - Uncategorized
+  - AI
+  - chatbots
+  - cryptocurrency
+  - data privacy
+  title: Some Claude Chats Are Searchable on Google
+  url: https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html
+- category: cybersecurity
   published: '2026-08-04T00:17:15'
   score: 1.05
   source: BleepingComputer
@@ -42873,5 +43048,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-04T07:31:56.533344'
-total_articles: 3396
+last_updated: '2026-08-05T07:34:16.818522'
+total_articles: 3411
