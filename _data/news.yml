@@ -1,5 +1,185 @@
 articles:
 - category: cybersecurity
+  published: '2026-08-06T06:04:30'
+  score: 1.097
+  source: The Hacker News
+  summary: Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday
+    to computer fraud, wire fraud, aggravated identity theft and a related conspiracy
+    over the 2024 breaches of Snowflake customer ...
+  tags: []
+  title: Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million
+    People
+  url: https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
+- category: webdev
+  published: '2026-08-05T21:03:18'
+  score: 0.734
+  source: Ars Technica
+  summary: Schwartz is well-qualified for the role, but crashed and burned in Senate
+    hearing....
+  tags:
+  - Health
+  - anti-vaccine
+  - Cassidy
+  - CDC
+  - robert f kennedy jr
+  title: Schwartz confirmed as CDC director after bungling confirmation hearing
+  url: https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/
+- category: ai
+  published: '2026-08-05T20:47:11'
+  score: 0.938
+  source: Ars Technica
+  summary: Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber
+    tests....
+  tags:
+  - AI
+  - Security
+  - AI agents
+  - Anthropic
+  - Artificial Intelligence
+  title: Anthropic’s AI used fake identities, malware in rogue attack on GitHub project
+  url: https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/
+- category: webdev
+  published: '2026-08-05T20:01:32'
+  score: 0.728
+  source: Ars Technica
+  summary: Reddit says the beloved site is used for some "bad behavior."...
+  tags:
+  - AI
+  - Tech
+  - reddit
+  - social media
+  title: Reddit signals ominous upcoming "changes” for old.reddit.com
+  url: https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/
+- category: cybersecurity
+  published: '2026-08-05T19:55:25'
+  score: 1.017
+  source: BleepingComputer
+  summary: Hackers exploited a SQL injection vulnerability to install a post-exploitation
+    toolkit directly inside an Oracle database that was used to breach a corporate
+    network. [...]...
+  tags:
+  - Security
+  title: Hackers run khunt post-exploitation toolkit from Oracle database
+  url: https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/
+- category: webdev
+  published: '2026-08-05T19:51:40'
+  score: 0.727
+  source: Ars Technica
+  summary: '"Slop" isn''t the only problem....'
+  tags:
+  - AI
+  - hank green
+  - YouTube
+  title: Hank Green found the AI problem that YouTube labels can’t catch
+  url: https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/
+- category: webdev
+  published: '2026-08-05T19:38:56'
+  score: 0.725
+  source: Ars Technica
+  summary: SpaceX won't build large cell towers but plans small base stations across
+    US....
+  tags:
+  - Policy
+  - spacex
+  - starlink mobile
+  title: SpaceX claims Starlink Mobile will be better than AT&T, T-Mobile, and Verizon
+  url: https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/
+- category: ai
+  published: '2026-08-05T18:33:47'
+  score: 0.967
+  source: The Hacker News
+  summary: OpenAI said it disrupted a Cambodia-based scam operation that used its
+    generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range
+    of investment, romance, gambling, and law enfo...
+  tags: []
+  title: OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes
+  url: https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html
+- category: webdev
+  published: '2026-08-05T18:02:23'
+  score: 0.755
+  source: AWS Machine Learning
+  summary: AI agents on Amazon Bedrock AgentCore run in the cloud, but users' tools
+    and files live on their laptops. Learn how to build a secure MCP bridge that lets
+    a cloud-hosted agent call local MCP servers b...
+  tags:
+  - Amazon Bedrock AgentCore
+  - Expert (400)
+  - Technical How-to
+  title: How we built an MCP bridge to give our AgentCore-hosted AI agent access to
+    local MCP tools
+  url: https://aws.amazon.com/blogs/machine-learning/how-we-built-an-mcp-bridge-to-give-our-agentcore-hosted-ai-agent-access-to-local-mcp-tools/
+- category: cybersecurity
+  published: '2026-08-05T17:49:41'
+  score: 1.097
+  source: BleepingComputer
+  summary: A phishing campaign is exploiting fears surrounding the recently disclosed
+    COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick
+    users into installing ScreenConnect remote a...
+  tags:
+  - Security
+  title: COLDCARD security audit phishing attack installs remote access tool
+  url: https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/
+- category: ai
+  published: '2026-08-05T15:36:03'
+  score: 0.99
+  source: The Hacker News
+  summary: Cybersecurity researchers have discovered more than half-a-dozen services
+    advertisements for illegal access to artificial intelligence (AI) models on underground
+    cybercrime forums and messaging platfo...
+  tags: []
+  title: Poison Claude Sells Discounted Claude Access While Its Operator Sees Every
+    Customer Prompt
+  url: https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html
+- category: ai
+  published: '2026-08-05T15:30:02'
+  score: 0.814
+  source: Ars Technica
+  summary: Assistant will disappear, leaving only Gemini for voice control in the
+    coming weeks....
+  tags:
+  - AI
+  - Google
+  - Tech
+  - gemini
+  - google
+  title: Google plans to kill Assistant on your phone on September 4
+  url: https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/
+- category: ai
+  published: '2026-08-05T13:30:00'
+  score: 0.8
+  source: Towards Data Science
+  summary: Research-backed cues to detect LLM-generated text along with the mathematical
+    intuition as to 'why' The post Is This Slop? Detecting AI-Generated Content Without
+    a Model appeared first on Towards Data...
+  tags:
+  - Large Language Models
+  - Ai Detection
+  - Generative Ai
+  - Llm
+  - Math
+  title: Is This Slop? Detecting AI-Generated Content Without a Model
+  url: https://towardsdatascience.com/is-this-slop-detecting-ai-generated-content-without-a-model-2/
+- category: cybersecurity
+  published: '2026-08-05T12:00:00'
+  score: 1.053
+  source: CISA
+  summary: CISA has added one new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-63077
+    JetBrains TeamCity Deserialization of Untrust...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2026-08-05T07:40:39'
+  score: 1.021
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August
+    5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog,
+    citing evidence of active exploitation in t...
+  tags: []
+  title: CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited
+  url: https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
+- category: cybersecurity
   published: '2026-08-05T05:47:19'
   score: 1.143
   source: The Hacker News
@@ -43048,5 +43228,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-05T07:34:16.818522'
-total_articles: 3411
+last_updated: '2026-08-06T07:34:27.321599'
+total_articles: 3426
