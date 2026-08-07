@@ -1,4 +1,185 @@
 articles:
+- category: ai
+  published: '2026-08-06T22:48:22'
+  score: 0.962
+  source: BleepingComputer
+  summary: OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for
+    Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6
+    Luna. [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/
+- category: webdev
+  published: '2026-08-06T22:20:50'
+  score: 0.752
+  source: Ars Technica
+  summary: The organization, Network for Hope, "strongly disagrees" with Trump admin's
+    decision....
+  tags:
+  - Health
+  - human organ transplant
+  - organ transplant
+  title: Organ donation group accused of trying to take living man's organs faces
+    shutdown
+  url: https://arstechnica.com/health/2026/08/us-to-shutter-organ-donation-group-accused-of-trying-to-take-living-mans-organs/
+- category: webdev
+  published: '2026-08-06T20:29:51'
+  score: 0.74
+  source: Ars Technica
+  summary: Musk continues appeal despite court loss and settlement with advertiser
+    group....
+  tags:
+  - Policy
+  - ad boycott
+  - Elon Musk
+  - X
+  title: X wants to keep suing advertisers, asks 5th Circuit to overrule district
+    judge
+  url: https://arstechnica.com/tech-policy/2026/08/elon-musks-x-isnt-done-suing-advertisers-asks-court-to-revive-boycott-case/
+- category: webdev
+  published: '2026-08-06T20:17:36'
+  score: 0.739
+  source: Ars Technica
+  summary: Suno plans watermarks and download limits to stop "large-scale abuse."...
+  tags:
+  - AI
+  - AI music
+  - Artificial Intelligence
+  - Suno
+  title: Suno hopes to go legit with watermarks for AI-generated music
+  url: https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/
+- category: ai
+  published: '2026-08-06T20:03:44'
+  score: 0.943
+  source: Ars Technica
+  summary: Anthropic and OpenAI are racing to scale up while reducing dependence on
+    Nvidia....
+  tags:
+  - AI
+  - Anthropic
+  - datacenter
+  - inference
+  - LLM
+  title: Anthropic will design its own hardware to power Claude
+  url: https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/
+- category: cybersecurity
+  published: '2026-08-06T17:58:30'
+  score: 1.013
+  source: The Hacker News
+  summary: Zapscape, a new Linux kernel vulnerability, could allow an attacker with
+    kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation
+    and execute code on the host. The risk applie...
+  tags: []
+  title: New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux
+    Hosts
+  url: https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html
+- category: ai
+  published: '2026-08-06T16:11:39'
+  score: 0.916
+  source: BleepingComputer
+  summary: Meta has become the latest AI company to confirm that one of its models
+    hacked a real organization during cybersecurity testing, as similar incidents
+    continue to emerge following OpenAI'sOpenAI's init...
+  tags:
+  - Security
+  title: Meta AI model hacked a company during misconfigured cyber test
+  url: https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/
+- category: ai
+  published: '2026-08-06T16:08:12'
+  score: 0.872
+  source: AWS Machine Learning
+  summary: The Amazon SageMaker Python SDK v3 now exposes generative AI inference
+    recommendations in Amazon SageMaker AI directly in your notebook. Benchmark an
+    endpoint, generate data-driven deployment recommen...
+  tags:
+  - Amazon SageMaker AI
+  - Announcements
+  - Intermediate (200)
+  title: LLM optimization integration for Amazon SageMaker Python SDK
+  url: https://aws.amazon.com/blogs/machine-learning/llm-optimization-integration-for-amazon-sagemaker-python-sdk/
+- category: webdev
+  published: '2026-08-06T15:54:52'
+  score: 0.751
+  source: CSS-Tricks
+  summary: A few notes and takeaways from the 2026 State of CSS survey results, including
+    a nice CSS-Tricks cameo! 2026 State of CSS, Devs Surveys originally handwritten
+    and published with love on CSS-Tricks. Yo...
+  tags:
+  - Articles
+  - research
+  - survey
+  title: 2026 State of CSS, Devs Surveys
+  url: https://css-tricks.com/2026-state-of-css-devs-surveys/
+- category: webdev
+  published: '2026-08-06T13:30:00'
+  score: 0.776
+  source: Towards Data Science
+  summary: A minimal loop with real API calls, validation, compact outputs, and trace
+    evidence before adding an agent framework The post I Built a Tool-Calling Agent
+    in Python. Here’s How I Debugged It appeared ...
+  tags:
+  - Agentic AI
+  - ai-agents
+  - Editor's Picks
+  - mcp
+  - OpenAI
+  title: I Built a Tool-Calling Agent in Python. Here’s How I Debugged It
+  url: https://towardsdatascience.com/i-built-a-tool-calling-agent-in-python-heres-how-i-debugged-it/
+- category: cybersecurity
+  published: '2026-08-06T12:00:00'
+  score: 1.064
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to cause the application to crash if a maliciously crafted DICOM file
+    is opened. The following versions of Medix...
+  tags: []
+  title: Medixant RadiAnt DICOM
+  url: https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01
+- category: cybersecurity
+  published: '2026-08-06T12:00:00'
+  score: 1.064
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to access sensitive information on the device. The following versions
+    of Johnson Controls Inc. TL280 are affecte...
+  tags: []
+  title: Johnson Controls Inc. TL280
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02
+- category: cybersecurity
+  published: '2026-08-06T12:00:00'
+  score: 1.064
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow attackers to bypass security, crash systems, execute unauthorized actions,
+    or compromise data. The following versions of ...
+  tags: []
+  title: ABB Ability Zenon
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01
+- category: ai
+  published: '2026-08-06T10:00:00'
+  score: 0.83
+  source: OpenAI
+  summary: ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency,
+    plus expanded access for free users and unlimited everyday chats with GPT-5.6
+    Luna....
+  tags:
+  - Product
+  title: Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for
+    free users
+  url: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
+- category: cybersecurity
+  published: '2026-08-06T06:51:43'
+  score: 1.026
+  source: The Hacker News
+  summary: A newly patched security flaw impacting on-premise versions of JetBrains
+    TeamCity has come under active exploitation in the wild, according to the U.S.
+    Cybersecurity and Infrastructure Security Agency...
+  tags: []
+  title: CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in
+    the Wild
+  url: https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html
 - category: cybersecurity
   published: '2026-08-06T06:04:30'
   score: 1.097
@@ -43228,5 +43409,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-06T07:34:27.321599'
-total_articles: 3426
+last_updated: '2026-08-07T06:06:21.476979'
+total_articles: 3441
