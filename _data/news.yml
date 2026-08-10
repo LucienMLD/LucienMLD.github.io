@@ -1,4 +1,155 @@
 articles:
+- category: webdev
+  published: '2026-08-09T15:00:00'
+  score: 0.705
+  source: Towards Data Science
+  summary: Building my first dbt models and learning what “analysis-ready” data actually
+    means The post I Thought Loading Data Was the Finish Line. It Was the Starting
+    Point. appeared first on Towards Data Scien...
+  tags:
+  - Data Engineering
+  - Career Change
+  - Data Pipeline
+  - Data Science
+  - Dbt
+  title: I Thought Loading Data Was the Finish Line. It Was the Starting Point.
+  url: https://towardsdatascience.com/i-thought-loading-data-was-the-finish-line-it-was-the-starting-point/
+- category: ai
+  published: '2026-08-09T13:00:00'
+  score: 0.806
+  source: Towards Data Science
+  summary: Why use it? How to implement it? What can we do when it fails? The post
+    How to Implement Structured Output with Local LLMs appeared first on Towards Data
+    Science....
+  tags:
+  - LLM Applications
+  - Llm
+  - Llm Agent
+  - Ollama
+  - Small Language Model
+  title: How to Implement Structured Output with Local LLMs
+  url: https://towardsdatascience.com/structured-output-with-local-llms/
+- category: webdev
+  published: '2026-08-09T11:00:14'
+  score: 0.68
+  source: Ars Technica
+  summary: The massive Toba eruption seems to have had little climate impact....
+  tags:
+  - Science
+  - climate change
+  - eruption
+  - geology
+  - Mount Toba
+  title: Mount Toba eruption doesn't seem like it could nearly kill our species
+  url: https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/
+- category: ai
+  published: '2026-08-08T15:00:00'
+  score: 0.605
+  source: Towards Data Science
+  summary: 'Many Transformer explainers start with the finished architecture. We ask
+    why it looks the way it does. The post Before Q, K, and V: Reconstructing the
+    Transformer appeared first on Towards Data Scienc...'
+  tags:
+  - Deep Learning
+  - Artificial Intelligence
+  - Attention Mechanism
+  - Editor's Picks
+  - Natural Language Processing
+  title: 'Before Q, K, and V: Reconstructing the Transformer'
+  url: https://towardsdatascience.com/before-q-k-and-v-reconstructing-the-transformer/
+- category: cybersecurity
+  published: '2026-08-08T14:16:23'
+  score: 0.755
+  source: BleepingComputer
+  summary: The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched
+    TrueConf video conferencing servers to replace client installers with malicious
+    versions that deliver backdoors. [...]...
+  tags:
+  - Security
+  title: Hackers breach TrueConf to trojanize client installers with backdoors
+  url: https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/
+- category: webdev
+  published: '2026-08-08T13:00:00'
+  score: 0.493
+  source: Towards Data Science
+  summary: Building a production-ready web interface for a stateful LangGraph agent
+    The post Building a Streamlit UI for My LangGraph AI Agent appeared first on Towards
+    Data Science....
+  tags:
+  - Agentic AI
+  - Agentic Ai
+  - Artificial Intelligence
+  - Langgraph
+  - Python
+  title: Building a Streamlit UI for My LangGraph AI Agent
+  url: https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/
+- category: webdev
+  published: '2026-08-08T11:30:48'
+  score: 0.484
+  source: Ars Technica
+  summary: About 90 percent of the distance driven by Perseverance has been autonomous....
+  tags:
+  - Space
+  - Mars 2020
+  - Mars Perseverance
+  - self-driving
+  - space
+  title: The first self-driving vehicle on Mars has proven to be a smashing success
+  url: https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/
+- category: webdev
+  published: '2026-08-08T11:05:50'
+  score: 0.481
+  source: Ars Technica
+  summary: Open source WeatherNext model can make accurate predictions with lower-resolution
+    weather data....
+  tags:
+  - AI
+  - Science
+  - atlantic hurricane season
+  - deepmind
+  - hurricane
+  title: DeepMind’s hurricane breakthrough has surprised weather scientists
+  url: https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/
+- category: cybersecurity
+  published: '2026-08-08T08:54:50'
+  score: 0.667
+  source: The Hacker News
+  summary: Attacker-controlled instructions can make Atlassian's Rovo assistant collect
+    Jira or Confluence data that a signed-in user can access, then send it to an outside
+    server. Two security firms found that ...
+  tags: []
+  title: Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers
+  url: https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html
+- category: cybersecurity
+  published: '2026-08-08T06:58:31'
+  score: 0.796
+  source: The Hacker News
+  summary: Metabase has warned that a maximum-severity security flaw impacting its
+    business intelligence and data visualization software package has been exploited
+    in the wild as a zero-day. The vulnerability (C...
+  tags: []
+  title: Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication
+  url: https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
+- category: cybersecurity
+  published: '2026-08-08T06:57:43'
+  score: 0.7
+  source: The Hacker News
+  summary: N-able has released a fresh round of hotfixes for N‑central as part of
+    its investigation into ongoing exploitation of a recently disclosed security flaw
+    in the Remote Monitoring and Management (RMM) p...
+  tags: []
+  title: N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist
+  url: https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html
+- category: cybersecurity
+  published: '2026-08-08T06:52:16'
+  score: 0.748
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday
+    added a critical-severity security flaw impacting Progress Kemp LoadMaster to
+    its Known Exploited Vulnerabilities (KEV) catal...
+  tags: []
+  title: Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts
+  url: https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
 - category: ai
   published: '2026-08-06T22:48:22'
   score: 0.962
@@ -43409,5 +43560,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-07T06:06:21.476979'
-total_articles: 3441
+last_updated: '2026-08-10T06:07:41.540996'
+total_articles: 3453
