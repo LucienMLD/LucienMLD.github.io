@@ -1,5 +1,180 @@
 articles:
 - category: webdev
+  published: '2026-08-10T22:23:43'
+  score: 0.754
+  source: Ars Technica
+  summary: Our discussion takes place live on August 11 at 3 pm ET....
+  tags:
+  - Gaming
+  - ars live
+  - preservation
+  title: 'Ars Live: Ross Scott discusses the Stop Killing Games movement'
+  url: https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/
+- category: webdev
+  published: '2026-08-10T22:13:03'
+  score: 0.752
+  source: Ars Technica
+  summary: Meta has been trailing competitors. Zuckerberg thinks he's found a way
+    forward....
+  tags:
+  - AI
+  - large language models
+  - LLMs
+  - Mark Zuckerberg
+  - meta
+  title: With new open models, Meta pitches another reboot of its struggling AI strategy
+  url: https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/
+- category: webdev
+  published: '2026-08-10T21:42:56'
+  score: 0.749
+  source: Ars Technica
+  summary: Trump falsely claimed the MMR vaccine is "quite lethal" and linked shots
+    to autism....
+  tags:
+  - Health
+  - anti-vaccine
+  - measles
+  - MMR
+  - Robert F. Kennedy
+  title: Trump signs bonkers order that cuts vaccines, promotes ones that don't exist
+  url: https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/
+- category: webdev
+  published: '2026-08-10T21:12:10'
+  score: 0.786
+  source: BleepingComputer
+  summary: A threat actor compromised the upstream infrastructure of BdThemes, a developer
+    of premium WordPress web-design tools, and modified a remote JSON feed delivered
+    to administrators' browsers to create r...
+  tags:
+  - Security
+  title: BdThemes plugins supply-chain hack creates rogue WordPress admins
+  url: https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/
+- category: ai
+  published: '2026-08-10T19:24:40'
+  score: 0.94
+  source: BleepingComputer
+  summary: OpenAI has developed a new model called "GPT 5.6 Cyber," designed for vulnerability
+    research, penetration testing, incident response, and remediation. [...]...
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users
+  url: https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/
+- category: ai
+  published: '2026-08-10T17:00:00'
+  score: 0.836
+  source: OpenAI
+  summary: OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance
+    function, from automated forecasting to stronger controls and AI ROI....
+  tags:
+  - Company
+  title: What building an AI-native finance function taught me
+  url: https://openai.com/index/building-an-ai-native-finance-function
+- category: webdev
+  published: '2026-08-10T16:34:37'
+  score: 0.757
+  source: AWS Machine Learning
+  summary: The Amazon SageMaker AI Spaces add-on for Amazon EKS runs managed JupyterLab
+    and Code Editor environments on the cluster your ML team already operates. This
+    post shows how to install and configure the...
+  tags:
+  - Amazon Elastic Kubernetes Service
+  - Amazon SageMaker AI
+  - Intermediate (200)
+  - Technical How-to
+  title: Run interactive IDEs on Amazon EKS with SageMaker AI to power up your AI
+    workflows
+  url: https://aws.amazon.com/blogs/machine-learning/run-interactive-ides-on-amazon-eks-with-sagemaker-ai-to-power-up-your-ai-workflows/
+- category: ai
+  published: '2026-08-10T16:30:00'
+  score: 0.832
+  source: Towards Data Science
+  summary: Learn how to optimize your CI/CD pipeline for coding agents The post How
+    to Effectively Deploy Code With Claude Code appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - AI coding assistants
+  - CI/CD
+  - coding agents
+  - Machine Learning
+  title: How to Effectively Deploy Code With Claude Code
+  url: https://towardsdatascience.com/how-to-effectively-deploy-code-with-claude-code/
+- category: cybersecurity
+  published: '2026-08-10T15:00:29'
+  score: 0.993
+  source: The Hacker News
+  summary: A lot of security problems still begin with someone doing a completely
+    normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting
+    the default. That pretty much covers the mood thi...
+  tags: []
+  title: '⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks,
+    and Router Backdoors'
+  url: https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html
+- category: ai
+  published: '2026-08-10T14:00:00'
+  score: 0.815
+  source: OpenAI
+  summary: OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible
+    AI infrastructure in Texas. The letter supports reliable, transparent growth that
+    benefits Texans....
+  tags:
+  - Global Affairs
+  title: OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas
+  url: https://openai.com/index/responsible-ai-infrastructure-texas
+- category: cybersecurity
+  published: '2026-08-10T12:25:04'
+  score: 1.021
+  source: The Hacker News
+  summary: Three separate research efforts last week demonstrated ways to defeat passkey
+    protections without breaking the cryptography they rest on. Passkeys are designed
+    to replace reusable passwords and resist...
+  tags: []
+  title: New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant
+    MFA
+  url: https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html
+- category: cybersecurity
+  published: '2026-08-10T12:00:00'
+  score: 1.066
+  source: CISA
+  summary: 'Advisory at a Glance Title #StopRansomware: Gunra Ransomware Original
+    Publication August 10, 2026 Executive Summary Gunra is a ransomware-as-a-service
+    (RaaS) used by affiliates to target government, c...'
+  tags: []
+  title: '#StopRansomware: Gunra Ransomware'
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a
+- category: cybersecurity
+  published: '2026-08-10T11:33:41'
+  score: 1.063
+  source: The Hacker News
+  summary: The threat actor known as Head Mare has been observed weaponizing security
+    flaws in unpatched TrueConf servers once again in attacks targeting Russian companies
+    spanning instrumentation, electronics, ...
+  tags: []
+  title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
+  url: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
+- category: cybersecurity
+  published: '2026-08-10T09:49:37'
+  score: 1.002
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned
+    that hackers are exploiting a critical-severity Progress Kemp LoadMaster command
+    injection vulnerability. [...]...
+  tags:
+  - Security
+  title: Critical Progress LoadMaster flaw now actively exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/
+- category: ai
+  published: '2026-08-10T05:50:03'
+  score: 0.847
+  source: The Hacker News
+  summary: OpenAI has announced that it's pausing some "internal activities" involving
+    its upcoming artificial intelligence (AI) model Astra after an internal evaluation
+    found it had made significant advancement...
+  tags: []
+  title: OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger
+    Pause
+  url: https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html
+- category: webdev
   published: '2026-08-09T15:00:00'
   score: 0.705
   source: Towards Data Science
@@ -43560,5 +43735,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-10T06:07:41.540996'
-total_articles: 3453
+last_updated: '2026-08-11T05:49:18.991055'
+total_articles: 3468
