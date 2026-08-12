@@ -1,5 +1,174 @@
 articles:
 - category: webdev
+  published: '2026-08-12T01:15:55'
+  score: 0.87
+  source: BleepingComputer
+  summary: Google says Chrome's anti-abuse systems reduced unwanted notifications
+    on Android by more than 7 billion per day during the first quarter of 2026. [...]...
+  tags:
+  - Security
+  - Google
+  title: Google says Chrome cuts 7 billion unwanted Android notifications a day to
+    fight abuse
+  url: https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/
+- category: webdev
+  published: '2026-08-11T22:31:45'
+  score: 0.752
+  source: Ars Technica
+  summary: It took just hours for the leading pharma group to reject the recommendations....
+  tags:
+  - Health
+  - anti-vaccine
+  - gsk
+  - measles
+  - merck
+  title: Trump wants Big Pharma to split MMR vaccine; Big Pharma thinks it's idiotic
+  url: https://arstechnica.com/health/2026/08/trump-wants-big-pharma-to-split-mmr-vaccine-big-pharma-thinks-its-idiotic/
+- category: webdev
+  published: '2026-08-11T21:07:24'
+  score: 0.744
+  source: BleepingComputer
+  summary: Hackers associated with the Russian threat group Sandworm have been targeting
+    system administrators and IT professionals through fake job offers since at least
+    May. [...]...
+  tags:
+  - Security
+  title: Sandworm hackers target IT pros with trojanized WireGuard VPN client
+  url: https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/
+- category: webdev
+  published: '2026-08-11T20:59:52'
+  score: 0.743
+  source: Ars Technica
+  summary: Device-bound session credentials thwart an increasingly common form of
+    account takeover....
+  tags:
+  - Biz & IT
+  - Google
+  - Security
+  - account takeovers
+  - dbscs
+  title: Chrome adopts what may be the best protection yet against account takeovers
+  url: https://arstechnica.com/security/2026/08/chrome-adopts-what-may-be-the-best-protection-yet-against-account-takeovers/
+- category: ai
+  published: '2026-08-11T19:48:12'
+  score: 0.853
+  source: Ars Technica
+  summary: But will Gemini's surge survive slowing model releases?...
+  tags:
+  - AI
+  - Google
+  - Artificial Intelligence
+  - gemini
+  - generative ai
+  title: Gemini becomes Google's fastest-growing product ever as it hits 1B users
+  url: https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/
+- category: cybersecurity
+  published: '2026-08-11T19:45:31'
+  score: 1.074
+  source: BleepingComputer
+  summary: Cisco is warning that a high-severity denial-of-service vulnerability in
+    Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited
+    in attacks to remotely crash affected devices...
+  tags:
+  - Security
+  title: Cisco warns of ASA and FTD VPN flaw exploited to crash devices
+  url: https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/
+- category: ai
+  published: '2026-08-11T16:14:33'
+  score: 0.828
+  source: AWS Machine Learning
+  summary: ONESTRUCTION, with technical advisory from the AWS Generative AI Innovation
+    Center, built Ishigaki-IDS, a foundation model specialized for construction and
+    BIM workflows. This architectural case study...
+  tags:
+  - Amazon EC2
+  - AWS ParallelCluster
+  - Customer Solutions
+  title: How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC
+  url: https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/
+- category: ai
+  published: '2026-08-11T15:59:22'
+  score: 0.871
+  source: AWS Machine Learning
+  summary: Claude apps gateway is a self-hosted governance layer between Claude Code
+    and Claude Desktop and Amazon Bedrock or Claude Platform on AWS. This post presents
+    a production reference deployment covering...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Best Practices
+  title: Deploying Anthropic Claude apps gateway for AWS for enterprise workloads
+  url: https://aws.amazon.com/blogs/machine-learning/deploying-anthropic-claude-apps-gateway-for-aws-for-enterprise-workloads/
+- category: webdev
+  published: '2026-08-11T15:55:11'
+  score: 0.751
+  source: Schneier on Security
+  summary: When I give talks about AI genies, I use this sort of example as a hypothetical.
+    It&#8217;s happened. The story is from Australia. Someone named Andrew tasked
+    OpenClaw to book gym classes for him. And...
+  tags:
+  - Uncategorized
+  - AI
+  - exploits
+  - vulnerabilities
+  title: AI Genie in the Wild
+  url: https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html
+- category: cybersecurity
+  published: '2026-08-11T13:11:23'
+  score: 1.073
+  source: The Hacker News
+  summary: OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber
+    that it said is focused on vulnerability research, penetration testing, and incident
+    response. "Built on GPT‑5.6 Sol, i...
+  tags: []
+  title: OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development
+  url: https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html
+- category: cybersecurity
+  published: '2026-08-11T12:00:00'
+  score: 1.064
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow an attacker with network access to achieve remote code execution. The following
+    versions of Johnson Controls C-CURE 9000 ...
+  tags: []
+  title: Johnson Controls C-CURE 9000 and Victor application server (Update A)
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01
+- category: cybersecurity
+  published: '2026-08-11T12:00:00'
+  score: 1.064
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    an attacker to use hidden commands to disable electrical safety mechanisms or
+    modify other stimulation output settings. The ...
+  tags: []
+  title: Pulsetto Vagus Nerve Stimulator
+  url: https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02
+- category: cybersecurity
+  published: '2026-08-11T12:00:00'
+  score: 1.064
+  source: CISA
+  summary: CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-20349
+    Cisco Secure Firewall Adaptive Security A...
+  tags: []
+  title: CISA Adds Three Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2026-08-11T12:00:00'
+  score: 0.843
+  source: Towards Data Science
+  summary: I replayed the same 27 real production tasks through two local models,
+    one hardware upgrade apart, to find out what it actually takes to replace Claude
+    as the brain behind a 90-tool personal agent. Th...
+  tags:
+  - Agentic AI
+  - Artificial Intelligence
+  - Deep Dives
+  - Editor's Picks
+  - Llm
+  title: Can a Local LLM Run My AI Assistant?
+  url: https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/
+- category: webdev
   published: '2026-08-10T22:23:43'
   score: 0.754
   source: Ars Technica
@@ -43735,5 +43904,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-11T05:49:18.991055'
-total_articles: 3468
+last_updated: '2026-08-12T06:08:15.186790'
+total_articles: 3482
