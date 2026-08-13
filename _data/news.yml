@@ -1,5 +1,189 @@
 articles:
 - category: webdev
+  published: '2026-08-12T22:31:19'
+  score: 0.752
+  source: Ars Technica
+  summary: Boy's unusual symptoms could help identify the next case sooner....
+  tags:
+  - Health
+  - ameoba
+  - brain
+  - case report
+  - infection
+  title: Toddler's tragic death from brain-destroying amoeba offers lessons for doctors
+  url: https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/
+- category: webdev
+  published: '2026-08-12T22:02:25'
+  score: 0.749
+  source: Ars Technica
+  summary: “ShieldFont” aims to poison AI training data without making pages unreadable
+    for people....
+  tags:
+  - AI
+  - AI scrapers
+  - Font
+  - LLMs
+  - models
+  title: The web’s newest weapon against AI scrapers is a font
+  url: https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/
+- category: webdev
+  published: '2026-08-12T21:13:39'
+  score: 0.744
+  source: Ars Technica
+  summary: “It’s the strongest evidence yet that particles dominated by a glueball
+    component can exist in nature.”...
+  tags:
+  - Science
+  - glueballs
+  - particle physics
+  - Physics
+  - QCD
+  title: Have physicists finally discovered glueballs? New evidence points to yes.
+  url: https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/
+- category: ai
+  published: '2026-08-12T21:00:30'
+  score: 0.861
+  source: Ars Technica
+  summary: Streaming platform says user-generated content "may be used for future
+    Gen AI model improvements."...
+  tags:
+  - AI
+  - Policy
+  - Tech
+  - Amazon
+  - generative ai
+  title: Twitch content has trained Amazon AI for years, but users can opt out now
+  url: https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/
+- category: cybersecurity
+  published: '2026-08-12T20:54:59'
+  score: 1.082
+  source: BleepingComputer
+  summary: Attempts to exploit a critical vulnerability (CVE-2026-71362) in Adobe's
+    Commerce and Magento e-commerce platforms have been detected, potentially allowing
+    attackers to hijack customer accounts. [...]...
+  tags:
+  - Security
+  title: Hackers exploit critical Adobe Commerce flaw to hijack customer accounts
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/
+- category: webdev
+  published: '2026-08-12T20:20:52'
+  score: 0.779
+  source: Ars Technica
+  summary: With Truth API, Trump is "selling priority access to news he himself generates."...
+  tags:
+  - Policy
+  - Trump
+  - truth api
+  - truth social
+  title: Trump sued over "brazen" scheme to sell Truth Social API access for $100K
+    a month
+  url: https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/
+- category: webdev
+  published: '2026-08-12T18:54:57'
+  score: 0.77
+  source: BleepingComputer
+  summary: More than 737 browser extensions published on the Chrome Web Store impersonated
+    well-known VPN and proxy services while routing users' traffic through SOCKS5
+    proxies operated by a single provider. [.....
+  tags:
+  - Security
+  title: Hundreds of fake Chrome VPN extensions route traffic through a proxy
+  url: https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/
+- category: cybersecurity
+  published: '2026-08-12T17:39:27'
+  score: 1.058
+  source: The Hacker News
+  summary: The North Korean threat actor known as Lazarus Group has been attributed
+    to the zero-day exploitation of a newly patched security flaw impacting Microsoft
+    Windows to deliver a never-before-seen backdo...
+  tags: []
+  title: Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
+  url: https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
+- category: cybersecurity
+  published: '2026-08-12T15:38:08'
+  score: 1.043
+  source: BleepingComputer
+  summary: North Korean hackers have been exploiting a Windows zero-day vulnerability
+    (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream
+    Job campaign. [...]...
+  tags:
+  - Security
+  title: Lazarus hackers exploited Windows zero-day to target defense firms
+  url: https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/
+- category: ai
+  published: '2026-08-12T13:42:48'
+  score: 0.855
+  source: AWS Machine Learning
+  summary: 'Running large language model inference at scale forces a KV cache trade-off:
+    oversized GPU instances or slow time-to-first-token. This post builds a tiered
+    KV cache on Amazon SageMaker HyperPod that e...'
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker HyperPod
+  title: Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine
+  url: https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/
+- category: ai
+  published: '2026-08-12T13:30:00'
+  score: 0.809
+  source: Towards Data Science
+  summary: Image inputs and structured outputs with Gemma 4 and Ollama The post Building
+    Multimodal Workflows with a Local LLM appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Editor's Picks
+  - Gemma 4
+  - LLM Agents
+  - Multimodal
+  title: Building Multimodal Workflows with a Local LLM
+  url: https://towardsdatascience.com/building-multimodal-workflows-with-a-local-llm/
+- category: ai
+  published: '2026-08-12T12:00:00'
+  score: 0.799
+  source: Towards Data Science
+  summary: A reproducible Lagos case study with population data, transport access,
+    and airspace constraints The post How to Place Vertiport Locations in Any City
+    Using Geospatial Machine Learning appeared first ...
+  tags:
+  - Machine Learning
+  - Aviation
+  - Data Science
+  - Deep Dives
+  - Geospatial Data
+  title: How to Place Vertiport Locations in Any City Using Geospatial Machine Learning
+  url: https://towardsdatascience.com/how-to-place-vertiport-locations-in-any-city-using-geospatial-machine-learning/
+- category: ai
+  published: '2026-08-12T11:47:38'
+  score: 0.886
+  source: The Hacker News
+  summary: A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried
+    hidden AI reasoning between API calls let researchers recover internal reasoning
+    and secrets from session logs, including API ke...
+  tags: []
+  title: OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models'
+    Reasoning
+  url: https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html
+- category: cybersecurity
+  published: '2026-08-12T11:13:03'
+  score: 1.058
+  source: The Hacker News
+  summary: Adobe has shipped updates to address multiple critical security vulnerabilities
+    impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited,
+    could result in arbitrary code exe...
+  tags: []
+  title: Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws
+  url: https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html
+- category: cybersecurity
+  published: '2026-08-12T09:01:54'
+  score: 1.041
+  source: The Hacker News
+  summary: Threat actors have begun to actively exploit a recently patched critical
+    security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.
+    The vulnerability in question is CVE-2026-5931...
+  tags: []
+  title: Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote
+    Access
+  url: https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html
+- category: webdev
   published: '2026-08-12T01:15:55'
   score: 0.87
   source: BleepingComputer
@@ -43904,5 +44088,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-12T06:08:15.186790'
-total_articles: 3482
+last_updated: '2026-08-13T06:11:09.935243'
+total_articles: 3497
