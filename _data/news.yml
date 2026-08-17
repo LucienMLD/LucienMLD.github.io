@@ -1,5 +1,129 @@
 articles:
 - category: cybersecurity
+  published: '2026-08-16T23:47:06'
+  score: 1.113
+  source: BleepingComputer
+  summary: Cryptocurrency hardware wallet provider SafePal is warning of a data breach
+    affecting about 39,798 customers after a flaw was exploited to steal customer
+    order information, and a threat actor is now c...
+  tags:
+  - Security
+  title: SafePal data breach impacts 39,798 customers, stolen info for sale
+  url: https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/
+- category: ai
+  published: '2026-08-16T22:28:57'
+  score: 0.92
+  source: BleepingComputer
+  summary: Claude is experiencing a major outage, with users reporting login problems
+    and degraded performance across several Anthropic services. [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: Anthropic confirms Claude is down in major outage affecting multiple services
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/
+- category: cybersecurity
+  published: '2026-08-16T17:29:52'
+  score: 0.966
+  source: BleepingComputer
+  summary: Multiple distributed denial-of-service (DDoS) attacks targeted the Threema
+    secure messaging service earlier this week, causing severe disruptions to communications.
+    [...]...
+  tags:
+  - Security
+  title: Large-scale DDoS attacks disrupted Threema secure messaging service
+  url: https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/
+- category: cybersecurity
+  published: '2026-08-16T15:07:44'
+  score: 0.948
+  source: BleepingComputer
+  summary: A new information-stealing malware called AmnesiaStealer, which targets
+    macOS users via ClickFix attacks, includes a streaming module that allows the
+    attacker to interactively control the victim's web...
+  tags:
+  - Security
+  title: New AmnesiaStealer macOS malware hijacks browser sessions via remote control
+  url: https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/
+- category: webdev
+  published: '2026-08-16T15:00:00'
+  score: 0.75
+  source: Towards Data Science
+  summary: RAG Retrieves, It Never Remembers. A vendor-neutral blueprint for applications
+    that accumulate understanding. Includes a complete Azure-native implementation
+    (Microsoft Foundry, Azure AI Search, Cosmo...
+  tags:
+  - Artificial Intelligence
+  - LLM Applications
+  - Deep Dives
+  - Document Retrieval
+  - Generative Ai
+  title: Designing a Persistent Knowledge Layer That Refuses to Guess
+  url: https://towardsdatascience.com/designing-a-persistent-knowledge-layer-that-refuses-to-guess/
+- category: webdev
+  published: '2026-08-16T13:00:00'
+  score: 0.697
+  source: Towards Data Science
+  summary: A small experiment in remote SQL execution The post Running SQL Concurrently
+    Across Three Remote DuckDB Servers with Quack appeared first on Towards Data Science....
+  tags:
+  - Data Engineering
+  - Data Science
+  - Duckdb
+  - Programming
+  - Python
+  title: Running SQL Concurrently Across Three Remote DuckDB Servers with Quack
+  url: https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/
+- category: webdev
+  published: '2026-08-16T10:00:59'
+  score: 0.678
+  source: Ars Technica
+  summary: Regulations reduced prenatal exposure to harmful emissions, but wildfire
+    smoke is erasing gains....
+  tags:
+  - Science
+  - climate change
+  - syndication
+  - wildfires
+  title: Wildfire smoke now bigger prenatal threat than human sources of air pollution
+  url: https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution/
+- category: webdev
+  published: '2026-08-15T21:21:27'
+  score: 0.549
+  source: Ars Technica
+  summary: 'Also: Ahsoka S2 teaser, Doomsday trailer, news about MCU''s X-Men and
+    Star Wars: Starfighter...'
+  tags:
+  - Culture
+  - ahsoka
+  - 'Avengers: Doomsday'
+  - disney plus
+  - entertainment
+  title: VisionQuest trailer kicks off Disney's D23 fan event
+  url: https://arstechnica.com/culture/2026/08/visionquest-trailer-kicks-off-disneys-d23-fan-event/
+- category: webdev
+  published: '2026-08-15T15:46:05'
+  score: 0.514
+  source: Ars Technica
+  summary: '"Flamingo missiles were used. A good achievement."...'
+  tags:
+  - Space
+  - russia
+  - samara
+  - soyuz-2
+  - space
+  title: Ukraine strikes major Russian rocket factory with cruise missiles
+  url: https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/
+- category: cybersecurity
+  published: '2026-08-15T14:14:38'
+  score: 0.664
+  source: BleepingComputer
+  summary: A new Mirai-based modular Linux botnet malware called Evooo1Bot has been
+    targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay
+    nodes. [...]...
+  tags:
+  - Security
+  title: New Evooo1Bot Linux botnet turns routers into traffic relay nodes
+  url: https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/
+- category: cybersecurity
   published: '2026-08-14T01:19:12'
   score: 1.072
   source: BleepingComputer
@@ -44255,5 +44379,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-14T06:08:04.797622'
-total_articles: 3512
+last_updated: '2026-08-17T05:28:29.384338'
+total_articles: 3522
