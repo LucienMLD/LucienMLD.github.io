@@ -1,5 +1,182 @@
 articles:
 - category: webdev
+  published: '2026-08-18T22:32:46'
+  score: 0.757
+  source: Ars Technica
+  summary: US healthcare is broken. Under RFK Jr., the research agency working to
+    fix it is, too....
+  tags:
+  - Health
+  - AHRQ
+  - grants
+  - healthcare
+  - research cuts
+  title: '"Sabotage": Experts, lawmakers blast RFK Jr. for destroying healthcare research'
+  url: https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/
+- category: webdev
+  published: '2026-08-18T22:18:13'
+  score: 0.756
+  source: Ars Technica
+  summary: Tanks with defensive tech for shooting down drones are still proving vulnerable....
+  tags:
+  - Tech
+  - armor
+  - drones
+  - hezbollah
+  - Israel
+  title: Ukrainian drones overwhelm Russian tanks’ new active protection system—for
+    now
+  url: https://arstechnica.com/gadgets/2026/08/ukrainian-drones-overwhelm-russian-tanks-new-active-protection-system-for-now/
+- category: ai
+  published: '2026-08-18T22:00:00'
+  score: 0.917
+  source: OpenAI
+  summary: ChatGPT Ads is expanding to 31 European markets. Learn how advertisers
+    can reach people as they explore, compare options, and make decisions....
+  tags:
+  - Product
+  title: ChatGPT Ads expands across Europe
+  url: https://openai.com/index/chatgpt-ads-expands-across-europe
+- category: webdev
+  published: '2026-08-18T20:14:58'
+  score: 0.743
+  source: BleepingComputer
+  summary: Comcast is promoting WiFi-based motion detection as a part of its new Xfinity
+    Shield home protection platform, allowing routers and wireless devices to detect
+    people moving through a home without came...
+  tags:
+  - Security
+  - Technology
+  title: Comcast turns your Xfinity WiFi into a home motion detector
+  url: https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/
+- category: webdev
+  published: '2026-08-18T18:11:26'
+  score: 0.77
+  source: Ars Technica
+  summary: FCC demands "total capitulation" in Trump censorship campaign, Disney suit
+    says....
+  tags:
+  - Policy
+  - ABC
+  - Disney
+  - FCC
+  title: Disney sues FCC and its chair, escalating fight against Trump's chief censor
+  url: https://arstechnica.com/tech-policy/2026/08/disney-sues-fcc-and-its-chair-escalating-fight-against-trumps-chief-censor/
+- category: cybersecurity
+  published: '2026-08-18T17:44:05'
+  score: 0.969
+  source: The Hacker News
+  summary: Two critical vulnerabilities impacting MLflow, an open-source artificial
+    intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software
+    built for operational technology (OT) and ...
+  tags: []
+  title: Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets
+  url: https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html
+- category: webdev
+  published: '2026-08-18T13:30:00'
+  score: 0.741
+  source: Towards Data Science
+  summary: Adding more communication pathways between agents doesn’t necessarily improve
+    multi-agent performance. In a controlled, reproducible experiment across 50 runs,
+    recovery remained remarkably stable from...
+  tags:
+  - Machine Learning
+  - Agent Architecture
+  - AI Agents
+  - Deep Dives
+  - Graph Algorithms
+  title: Graph Engineering Isn’t About More Connections — It’s About Which Ones Get
+    Used
+  url: https://towardsdatascience.com/graph-engineering-isnt-about-more-connections-its-about-which-ones-get-used/
+- category: ai
+  published: '2026-08-18T12:38:36'
+  score: 0.853
+  source: The Hacker News
+  summary: Security researchers at Anthropic and Switzerland's EPFL have demonstrated
+    that self-propagating payloads can spread from one artificial intelligence (AI)
+    agent to the next through the editable system...
+  tags: []
+  title: AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files
+  url: https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html
+- category: cybersecurity
+  published: '2026-08-18T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: View CSAF Summary Simcenter Nastran is affected by a stack overflow vulnerability
+    that could be triggered when an application binary reads arbitrary string as a
+    file argument. If a user is tricked to ...
+  tags: []
+  title: Siemens Simcenter Nastran
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02
+- category: cybersecurity
+  published: '2026-08-18T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of these vulnerabilities could
+    allow an attacker to cause a denial-of-service condition or execute arbitrary
+    code. The following versions of CISA Malcolm are ...
+  tags: []
+  title: CISA Malcolm
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01
+- category: cybersecurity
+  published: '2026-08-18T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-33824
+    Microsoft Internet Key Exchange (IKE) Serv...
+  tags: []
+  title: CISA Adds Four Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2026-08-18T11:00:00'
+  score: 0.842
+  source: OpenAI
+  summary: OpenAI is strengthening monitoring, alignment, and security for frontier
+    AI models. See how new safeguards are guiding the pace of model development....
+  tags:
+  - Company
+  title: Pacing model development in an era of cyber-critical capabilities
+  url: https://openai.com/index/pacing-model-development-cyber-capabilities
+- category: ai
+  published: '2026-08-18T11:00:00'
+  score: 0.842
+  source: OpenAI
+  summary: ChatGPT for Teens helps teens learn, think critically, and use AI with
+    confidence, with stronger built-in protections, healthy-use features, and additional
+    controls for parents....
+  tags:
+  - Product
+  title: 'Introducing ChatGPT for Teens: Built for learning, backed by protections'
+  url: https://openai.com/index/chatgpt-for-teens
+- category: ai
+  published: '2026-08-18T10:40:16'
+  score: 0.883
+  source: Schneier on Security
+  summary: 'I have been thinking a lot about AI and integrity. Part of that is contextual
+    integrity. I recently found two papers on the topic. &#8220;CIMemories: A Compositional
+    Benchmark for Contextual Integrity...'
+  tags:
+  - Uncategorized
+  - academic papers
+  - AI
+  - integrity
+  - LLM
+  title: LLMs and Contextual Integrity
+  url: https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html
+- category: cybersecurity
+  published: '2026-08-18T10:32:16'
+  score: 1.011
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed
+    that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability
+    that was flagged as actively ex...
+  tags:
+  - Security
+  - Microsoft
+  title: 'CISA: Windows Task Host flaw now exploited by ransomware gangs'
+  url: https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/
+- category: webdev
   published: '2026-08-18T04:00:40'
   score: 0.892
   source: Ars Technica
@@ -44551,5 +44728,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-18T05:21:47.280449'
-total_articles: 3536
+last_updated: '2026-08-19T05:22:12.680070'
+total_articles: 3551
