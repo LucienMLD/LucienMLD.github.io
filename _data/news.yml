@@ -1,4 +1,168 @@
 articles:
+- category: ai
+  published: '2026-08-20T00:20:55'
+  score: 1.077
+  source: BleepingComputer
+  summary: ChatGPT is experiencing a major outage, and users are unable to sign in,
+    create accounts, or load chats, including previous conversations. [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI confirms ChatGPT is down as logins and signups fail
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/
+- category: webdev
+  published: '2026-08-20T00:18:48'
+  score: 0.868
+  source: Ars Technica
+  summary: Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere
+    later this year....
+  tags:
+  - Space
+  - Commercial space
+  - katalyst space
+  - NASA
+  - satellite servicing
+  title: NASA calls off mission to rescue Swift gamma-ray observatory
+  url: https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/
+- category: webdev
+  published: '2026-08-19T22:13:20'
+  score: 0.755
+  source: AWS Machine Learning
+  summary: Web Search on Amazon Bedrock AgentCore now supports runtime domain and
+    published-date filtering. New per-request filters give developers per-call control
+    over which web sources their agents consult an...
+  tags:
+  - Amazon Bedrock AgentCore
+  - Announcements
+  - Intermediate (200)
+  title: Domain and publish date filters for Web Search on AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/
+- category: webdev
+  published: '2026-08-19T22:09:56'
+  score: 0.755
+  source: AWS Machine Learning
+  summary: Classifying, extracting, and validating high volumes of documents is a
+    challenge across banking, insurance, healthcare, and the public sector. See how
+    a mid-size mortgage lender automates its entire d...
+  tags:
+  - Amazon Quick Suite
+  - Intermediate (200)
+  - Technical How-to
+  title: Automate Document Processing with Quick Automate and the IDP Accelerator
+  url: https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-quick-automate-and-the-idp-accelerator/
+- category: cybersecurity
+  published: '2026-08-19T20:59:58'
+  score: 0.993
+  source: BleepingComputer
+  summary: A suspected ransomware affiliate is posing as a ransomware recovery service
+    called "Ransom Busters," contacting the victims before the attacks become public
+    and claiming to be able to provide decrypti...
+  tags:
+  - Security
+  title: Rogue ransomware affiliate poses as recovery firm to steal payments
+  url: https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/
+- category: webdev
+  published: '2026-08-19T20:21:59'
+  score: 0.784
+  source: Ars Technica
+  summary: Framework says it's replacing some out-of-warranty AMD mainboards....
+  tags:
+  - Tech
+  - framework
+  - laptops
+  title: Framework responds to complaints that BIOS update bricks Ryzen 7040 laptops
+  url: https://arstechnica.com/gadgets/2026/08/framework-responds-to-complaints-that-bios-update-bricked-ryzen-7040-laptops/
+- category: ai
+  published: '2026-08-19T18:06:44'
+  score: 0.934
+  source: The Hacker News
+  summary: OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training
+    for its latest artificial intelligence (AI) models for two weeks while it shored
+    up additional defenses and increased the...
+  tags: []
+  title: OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe
+    AI Behavior
+  url: https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html
+- category: cybersecurity
+  published: '2026-08-19T17:50:01'
+  score: 1.017
+  source: BleepingComputer
+  summary: U.S. cybersecurity agencies warn that threat actors are using AI-generated
+    scripts to exploit Siemens S7 Series programmable logic controllers (PLCs) in
+    U.S. critical infrastructure. [...]...
+  tags:
+  - Security
+  title: US warns of AI-powered attacks on Siemens PLCs in critical infrastructure
+  url: https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/
+- category: webdev
+  published: '2026-08-19T14:44:41'
+  score: 0.788
+  source: CSS-Tricks
+  summary: Apply a style when someone navigates from one specific page to another.
+    The idea being it'd make the sources for cross-document view transitions declarative
+    in CSS rather than managing that stuff in J...
+  tags:
+  - Articles
+  - css navigation
+  - view transitions
+  title: CSS Navigation Matching, Early Days
+  url: https://css-tricks.com/css-navigation-matching-early-days/
+- category: cybersecurity
+  published: '2026-08-19T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: CISA has added one new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-64849
+    MLflow Server-Side Request Forgery Vulnerabil...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2026-08-19T12:00:00'
+  score: 1.07
+  source: CISA
+  summary: 'Executive summary Note: This advisory relates to an active threat to Siemens
+    S7 Series programmable logic controllers (PLCs). However, ongoing PLC targeting
+    activity is broader than Siemens PLCs. All ...'
+  tags: []
+  title: Defending Against an Active Threat to Siemens S7 Series PLCs
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a
+- category: ai
+  published: '2026-08-19T12:00:00'
+  score: 0.804
+  source: Towards Data Science
+  summary: 'Conceptual overview and walkthrough of a solution approach in Python The
+    post Jigsaw Jeeves: Building a Puzzle Assistant using Computer Vision appeared
+    first on Towards Data Science....'
+  tags:
+  - Computer Vision
+  - Deep Dives
+  - Jigsaw Puzzle
+  - Machine Learning
+  - Python
+  title: 'Jigsaw Jeeves: Building a Puzzle Assistant using Computer Vision'
+  url: https://towardsdatascience.com/jigsaw-jeeves-building-a-puzzle-assistant-using-computer-vision/
+- category: cybersecurity
+  published: '2026-08-19T11:01:48'
+  score: 1.062
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
+    added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV)
+    catalog, stating they are being exploited i...
+  tags: []
+  title: Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active
+    Exploitation
+  url: https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+- category: ai
+  published: '2026-08-19T07:00:00'
+  score: 0.77
+  source: OpenAI
+  summary: Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn
+    ideas into working software without worrying about token costs....
+  tags:
+  - Startup
+  title: Replit expands access to software creation with GPT-5.6 Luna
+  url: https://openai.com/index/replit
 - category: webdev
   published: '2026-08-18T22:32:46'
   score: 0.757
@@ -44728,5 +44892,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-19T05:22:12.680070'
-total_articles: 3551
+last_updated: '2026-08-20T05:23:23.510745'
+total_articles: 3565
