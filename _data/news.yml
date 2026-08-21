@@ -1,4 +1,195 @@
 articles:
+- category: webdev
+  published: '2026-08-20T22:00:11'
+  score: 0.754
+  source: Ars Technica
+  summary: FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing
+    plans....
+  tags:
+  - Tech
+  - humanoid robots
+  - Industrial robots
+  - medical robots
+  - Robo Inc.
+  title: US distributor of China’s most popular humanoid robots pivots after US ban
+  url: https://arstechnica.com/gadgets/2026/08/us-distributor-of-chinas-most-popular-humanoid-robots-pivots-after-us-ban/
+- category: ai
+  published: '2026-08-20T21:46:03'
+  score: 0.915
+  source: AWS Machine Learning
+  summary: Amazon Bedrock now offers OpenAI GPT-5.6 models (Sol, Terra, and Luna)
+    in more than 25 AWS Regions with cross-Region inference. Learn how US geographic
+    and global inference profiles route requests for...
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  title: Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/
+- category: webdev
+  published: '2026-08-20T21:40:52'
+  score: 0.752
+  source: Ars Technica
+  summary: Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch....
+  tags:
+  - Space
+  - ariane 6
+  - Future
+  - rockets
+  - space
+  title: Europe cancels planned upgrades for Ariane 6 rocket
+  url: https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/
+- category: ai
+  published: '2026-08-20T21:23:29'
+  score: 0.869
+  source: AWS Machine Learning
+  summary: In Part 2 of this no-code ML series, you connect Amazon SageMaker Canvas
+    to Snowflake, prepare and join transaction data with Data Wrangler visual transformations,
+    and train an XGBoost fraud detection...
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker Canvas
+  - Technical How-to
+  title: 'Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and
+    Amazon Quick – Part 2: Data preparation and model building with Amazon SageMaker
+    Canvas'
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-2-data-preparation-and-model-building-with-amazon-sagemaker-canvas/
+- category: cybersecurity
+  published: '2026-08-20T20:22:35'
+  score: 0.988
+  source: The Hacker News
+  summary: The Rust Project has deleted malicious versions of three widely used Rust
+    crates from crates.io after a compromised maintainer account published releases
+    that added a typosquatted dependency whose bui...
+  tags: []
+  title: Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million
+    Downloads
+  url: https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
+- category: ai
+  published: '2026-08-20T18:00:00'
+  score: 0.845
+  source: Towards Data Science
+  summary: Improve your proficiency with Claude Code. The post How to Effectively
+    Align Your Intent with Claude Code appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Claude Code
+  - Codex
+  - Deep Dives
+  - Machine Learning
+  title: How to Effectively Align Your Intent with Claude Code
+  url: https://towardsdatascience.com/how-to-effectively-align-your-intents-with-claude-code/
+- category: ai
+  published: '2026-08-20T17:44:36'
+  score: 0.888
+  source: Schneier on Security
+  summary: OpenAI presented details of its AI&#8217;s model&#8217;s cyberattack on
+    Hugging Face at Black Hat last week. Simon Willison details the timeline. It&#8217;s
+    really interesting to read through&#8212;an...
+  tags:
+  - Uncategorized
+  - AI
+  - cyberattack
+  - video
+  title: Detailed Timeline of OpenAI’s Cyberattack on Hugging Face
+  url: https://www.schneier.com/blog/archives/2026/08/detailed-timeline-of-openais-cyberattack-on-hugging-face.html
+- category: ai
+  published: '2026-08-20T16:30:00'
+  score: 0.835
+  source: Towards Data Science
+  summary: What a production incident taught me about trusting a model to judge another
+    model's work The post The LLM Judge That Kept Agreeing With Itself appeared first
+    on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Agentic Workflows
+  - Artificial Intelligence
+  - Llm Applications
+  - Llm Evaluation
+  title: The LLM Judge That Kept Agreeing With Itself
+  url: https://towardsdatascience.com/the-llm-judge-that-kept-agreeing-with-itself/
+- category: webdev
+  published: '2026-08-20T16:24:12'
+  score: 0.759
+  source: AWS Machine Learning
+  summary: Scaling agentic AI across an enterprise requires patterns that preserve
+    flexibility while avoiding vendor lock-in. In this second post of our multi-agent
+    series, we examine how ML teams operate many a...
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Amazon SageMaker AI
+  - Best Practices
+  - Intermediate (200)
+  title: 'Scaling agentic AI: Enterprise patterns without vendor lock-in'
+  url: https://aws.amazon.com/blogs/machine-learning/scaling-agentic-ai-enterprise-patterns-without-vendor-lock-in/
+- category: webdev
+  published: '2026-08-20T16:11:18'
+  score: 0.757
+  source: AWS Machine Learning
+  summary: Learn how AWS Professional Services uses a multi-agent framework built
+    on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end.
+    Purpose-built AI agents handle discovery, infrast...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock AgentCore
+  - Technical How-to
+  title: Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore
+  url: https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/
+- category: webdev
+  published: '2026-08-20T16:06:06'
+  score: 0.757
+  source: AWS Machine Learning
+  summary: AWS offers a broad portfolio of vector search built directly into the databases
+    and storage services you already use, with no standalone vector database or data
+    migration required. This post covers si...
+  tags:
+  - Amazon Aurora
+  - Amazon DynamoDB
+  - Amazon ElastiCache
+  - Amazon Neptune Analytics
+  - Amazon OpenSearch Service
+  title: 'AWS vector solutions: Build agentic AI where your data lives'
+  url: https://aws.amazon.com/blogs/machine-learning/aws-vector-solutions-build-agentic-ai-where-your-data-lives/
+- category: cybersecurity
+  published: '2026-08-20T13:48:24'
+  score: 1.035
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed a critical security flaw in isolated-vm,
+    a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub,
+    that could allow attackers to escape...
+  tags: []
+  title: Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE
+  url: https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+- category: cybersecurity
+  published: '2026-08-20T13:24:28'
+  score: 1.08
+  source: The Hacker News
+  summary: A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come
+    under active exploitation in the wild, according to the Polish Computer Emergency
+    Response Team (CERT Polska). The vulnerabili...
+  tags: []
+  title: Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution
+  url: https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
+- category: cybersecurity
+  published: '2026-08-20T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-72529
+    TrueConf Server Missing Authentication for ...
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog
+- category: cybersecurity
+  published: '2026-08-20T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    a local attacker with low privileges to extract user credentials (passwords and
+    authentication tokens) from system memory, p...
+  tags: []
+  title: Johnson Controls Simplex Incident Manager
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01
 - category: ai
   published: '2026-08-20T00:20:55'
   score: 1.077
@@ -44892,5 +45083,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-20T05:23:23.510745'
-total_articles: 3565
+last_updated: '2026-08-21T05:25:29.531710'
+total_articles: 3580
