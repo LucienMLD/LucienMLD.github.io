@@ -1,5 +1,123 @@
 articles:
 - category: webdev
+  published: '2026-08-23T17:00:00'
+  score: 0.722
+  source: Towards Data Science
+  summary: 'From Kaplan-Meier curves to hazard ratios with runnable Python Code throughout
+    The post Survival Analysis and the Cox Proportional Hazards Model: A Beginner-Friendly
+    Guide appeared first on Towards Da...'
+  tags:
+  - Data Science
+  - Biostatistics
+  - Deep Dives
+  - Machine Learning
+  - Python
+  title: 'Survival Analysis and the Cox Proportional Hazards Model: A Beginner-Friendly
+    Guide'
+  url: https://towardsdatascience.com/a-first-look-at-survival-analysis-and-the-cox-model/
+- category: webdev
+  published: '2026-08-23T15:00:00'
+  score: 0.709
+  source: Towards Data Science
+  summary: 'Enterprise Document Intelligence [Vol.1 #14D] - The index lists what the
+    case type demands before any folder is opened, and the two questions worth building
+    for are not retrieval questions at all The ...'
+  tags:
+  - Large Language Model
+  - Document Processing
+  - Llm
+  - Llm Applications
+  - Rag
+  title: 'Parse the Folder, Not Just the PDFs: The Relational Tables RAG Needs on
+    a Case File'
+  url: https://towardsdatascience.com/parse-the-folder-not-just-the-pdfs-the-relational-tables-rag-needs-on-a-case-file/
+- category: webdev
+  published: '2026-08-23T14:30:16'
+  score: 0.706
+  source: Ars Technica
+  summary: '"The Chang’e 7 mission does not meet the conditions for launch."...'
+  tags:
+  - Space
+  - blue origin
+  - chang'e 7
+  - china
+  - space
+  title: Due to need for 'absolute success,' China delays critical Moon launch to
+    2027
+  url: https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/
+- category: cybersecurity
+  published: '2026-08-23T14:23:46'
+  score: 0.895
+  source: BleepingComputer
+  summary: The ToxicPanda Android malware has evolved with new malicious functionality,
+    expanding its targeting to 349 applications and adding support for 167 remote
+    commands. [...]...
+  tags:
+  - Security
+  - Mobile
+  title: ToxicPanda Android malware uses VPN permissions to block Google Play
+  url: https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/
+- category: webdev
+  published: '2026-08-23T13:00:00'
+  score: 0.697
+  source: Towards Data Science
+  summary: 28 debugging experiments reveal that AI struggles less with complexity
+    than with missing information. The post Bug Detection Blind Spots in AI Coding
+    Harnesses (GStack and Beyond) appeared first on To...
+  tags:
+  - Agentic AI
+  - Agent debugging
+  - Artificial Intelligence
+  - Coding agent
+  - Deep Dives
+  title: Bug Detection Blind Spots in AI Coding Harnesses (GStack and Beyond)
+  url: https://towardsdatascience.com/bug-detection-blind-spots-in-ai-coding-harnesses-gstack-and-beyond/
+- category: webdev
+  published: '2026-08-23T11:02:54'
+  score: 0.684
+  source: Ars Technica
+  summary: Enormous eruptions altered Earth’s climate and societies all over the globe....
+  tags:
+  - Science
+  - super volcanoes
+  - syndication
+  - volcanoes
+  title: Volcanoes that made history
+  url: https://arstechnica.com/science/2026/08/volcanoes-that-made-history/
+- category: cybersecurity
+  published: '2026-08-22T14:32:41'
+  score: 0.666
+  source: The Hacker News
+  summary: The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned
+    TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of
+    violating child privacy laws in the country....
+  tags: []
+  title: TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit
+  url: https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html
+- category: cybersecurity
+  published: '2026-08-22T14:14:24'
+  score: 0.711
+  source: BleepingComputer
+  summary: A supply-chain attack targeting Android-based car head units is using a
+    legitimate device-update app to spread malware that enlists compromised devices
+    in a proxy botnet or uses them for ad fraud. [.....
+  tags:
+  - Security
+  - Hardware
+  title: Hackers infect Android car head units with proxy botnet malware
+  url: https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/
+- category: cybersecurity
+  published: '2026-08-22T13:00:09'
+  score: 0.702
+  source: BleepingComputer
+  summary: Windows named pipes provide fast interprocess communication, but weak access
+    controls can expose privileged services to untrusted processes. ThreatLocker explains
+    how endpoint verification, command au...
+  tags:
+  - Security
+  title: 'Named Pipes Under Attack: Securing Windows Interprocess Communication'
+  url: https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/
+- category: webdev
   published: '2026-08-20T22:00:11'
   score: 0.754
   source: Ars Technica
@@ -45083,5 +45201,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-21T05:25:29.531710'
-total_articles: 3580
+last_updated: '2026-08-24T05:31:47.300576'
+total_articles: 3589
