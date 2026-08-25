@@ -1,5 +1,184 @@
 articles:
 - category: webdev
+  published: '2026-08-25T00:00:00'
+  score: 0.866
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: 'Wire It, Run It, Deploy It: AI Workflows in Gradio'
+  url: https://huggingface.co/blog/gradio-workflow-guide
+- category: ai
+  published: '2026-08-24T21:32:16'
+  score: 0.87
+  source: Ars Technica
+  summary: Solid-state transformers could also benefit EV charging and someday households....
+  tags:
+  - Tech
+  - AI chips
+  - ai data centers
+  - data centers
+  - electricity
+  title: Data centers become "killer application" for new power transformer tech
+  url: https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology/
+- category: cybersecurity
+  published: '2026-08-24T21:14:30'
+  score: 1.043
+  source: BleepingComputer
+  summary: An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers
+    used by multiple U.S. broadband providers allows remote, unauthenticated attackers
+    to create port-forwarding rules that can e...
+  tags:
+  - Security
+  - Hardware
+  title: Unpatched Calix flaw lets hackers bypass NAT to expose internal devices
+  url: https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/
+- category: webdev
+  published: '2026-08-24T19:32:14'
+  score: 0.778
+  source: AWS Machine Learning
+  summary: Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS.
+    Create and monitor Ray clusters, connect JupyterLab and Code Editor notebooks
+    to live clusters, get out-of-the-box observability...
+  tags:
+  - Amazon SageMaker HyperPod
+  - Amazon SageMaker Studio
+  - Announcements
+  - Foundational (100)
+  title: Introducing new Ray capabilities on SageMaker HyperPod
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/
+- category: cybersecurity
+  published: '2026-08-24T19:26:32'
+  score: 1.029
+  source: BleepingComputer
+  summary: Hackers are attempting to exploit two critical authentication bypass vulnerabilities
+    in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used
+    to forge SAML responses and log in ...
+  tags:
+  - Security
+  title: Hackers target WordPress sites in miniOrange auth bypass attacks
+  url: https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
+- category: webdev
+  published: '2026-08-24T19:19:21'
+  score: 0.777
+  source: Ars Technica
+  summary: Is the technique outdated? Yes. Is it still creepy? Also yes....
+  tags:
+  - Biz & IT
+  - Security
+  - AliExpress
+  - browser fingerprinting
+  - chromium
+  title: Inaudible sounds used to fingerprint browsers catch AliExpress red-handed
+  url: https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers/
+- category: ai
+  published: '2026-08-24T15:00:00'
+  score: 0.825
+  source: Towards Data Science
+  summary: Most LLM inference runtimes have no idea a physical deadline exists. This
+    one refuses admission rather than miss a 33ms robot control cycle, evicts KV cache
+    by meaning instead of age, and is written e...
+  tags:
+  - Large Language Models
+  - Cuda
+  - Deep Dives
+  - Edge Ai
+  - Inference Optimization
+  title: Can an LLM Forget the Right Things?
+  url: https://towardsdatascience.com/can-an-llm-forget-the-right-things/
+- category: webdev
+  published: '2026-08-24T13:54:02'
+  score: 0.783
+  source: CSS-Tricks
+  summary: Seven and half years after blocks arrived in Core, WordPress introduces
+    a way to build blocks without React annd build pipelines. All you need is PHP.
+    WordPress PHP-Only Block Registration originally ...
+  tags:
+  - Articles
+  - WordPress
+  - WordPress blocks
+  title: WordPress PHP-Only Block Registration
+  url: https://css-tricks.com/wordpress-php-block-registration/
+- category: ai
+  published: '2026-08-24T13:30:00'
+  score: 0.815
+  source: Towards Data Science
+  summary: Speculative decoding can turn underused CPU compute into faster token generation,
+    without changing the model's output. In our vLLM tests, DFlash delivered 3.92x
+    the autoregressive throughput with Qwen...
+  tags:
+  - Large Language Models
+  - Agentic Ai
+  - coding agents
+  - Deep Learning
+  - Editor's Picks
+  title: 'Speculative Decoding on CPUs: Nearly 4x Faster Token Generation with DFlash'
+  url: https://towardsdatascience.com/speculative-decoding-on-cpus-nearly-4x-faster-token-generation-with-dflash/
+- category: ai
+  published: '2026-08-24T12:00:48'
+  score: 0.804
+  source: Machine Learning Mastery
+  summary: In this article, you will learn how to combine a classical machine learning
+    pipeline with an agentic AI system to build a hybrid, autonomous customer......
+  tags: []
+  title: Integrating Agentic AI with Existing Machine Learning Pipelines
+  url: https://machinelearningmastery.com/integrating-agentic-ai-with-existing-machine-learning-pipelines/
+- category: cybersecurity
+  published: '2026-08-24T12:00:00'
+  score: 1.069
+  source: CISA
+  summary: CISA has added one new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-21962
+    Oracle HTTP Server and Oracle Weblogic Server...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/08/24/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: cybersecurity
+  published: '2026-08-24T11:56:34'
+  score: 1.069
+  source: The Hacker News
+  summary: Red Hat and the Keycloak project have released patches to address a critical
+    security flaw in the open-source identity and access management server that could
+    allow an unauthenticated remote attacker ...
+  tags: []
+  title: Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers
+    Take Over Any Account
+  url: https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html
+- category: ai
+  published: '2026-08-24T11:30:00'
+  score: 0.889
+  source: The Hacker News
+  summary: Big security risks come in small packages. While enterprise security teams
+    focus on policing the proliferation of employees using ChatGPT and Claude for
+    quick drafting tasks, a more urgent threat is p...
+  tags: []
+  title: 'The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk'
+  url: https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html
+- category: cybersecurity
+  published: '2026-08-24T10:45:12'
+  score: 1.012
+  source: BleepingComputer
+  summary: The Cybersecurity and Infrastructure Security Agency (CISA) has ordered
+    U.S. government agencies to patch an actively exploited vulnerability in Zimbra
+    Collaboration Suite (ZCS) within three days. [.....
+  tags:
+  - Security
+  title: CISA orders urgent patching of actively exploited Zimbra flaw
+  url: https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/
+- category: webdev
+  published: '2026-08-24T10:38:29'
+  score: 0.763
+  source: Schneier on Security
+  summary: 'Interesting paper: Abstract: With entrepreneurial fraud cases on the rise,
+    we investigate how entrepreneurs carry out criminal deception, employing deceptive
+    means to defraud audiences. Analyzing cour...'
+  tags:
+  - Uncategorized
+  - academic papers
+  - crime
+  - deception
+  title: Criminal Deception in Silicon Valley
+  url: https://www.schneier.com/blog/archives/2026/08/criminal-deception-in-silicon-valley.html
+- category: webdev
   published: '2026-08-23T17:00:00'
   score: 0.722
   source: Towards Data Science
@@ -45201,5 +45380,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-24T05:31:47.300576'
-total_articles: 3589
+last_updated: '2026-08-25T05:25:06.694568'
+total_articles: 3604
