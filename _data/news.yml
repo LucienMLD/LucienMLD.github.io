@@ -1,5 +1,192 @@
 articles:
 - category: webdev
+  published: '2026-08-27T15:39:42'
+  score: 0.898
+  source: Ars Technica
+  summary: 'Study: Land use is the biggest factor in determining decomposition rates
+    of organic cotton underpants....'
+  tags:
+  - Science
+  - Agricultural research
+  - agriculture
+  - citizen science
+  - Ecology
+  title: Why did 1,000 Swiss citizens bury their underpants?
+  url: https://arstechnica.com/science/2026/08/why-did-1000-swiss-citizens-bury-their-underpants/
+- category: webdev
+  published: '2026-08-27T15:30:02'
+  score: 0.897
+  source: Towards Data Science
+  summary: As AI handles more of the execution, what work should belong to agents
+    vs humans and why does that distinction matter? The post Agentic AI Is Rewriting
+    The Analytics Stack But There's One Skill It Sti...
+  tags:
+  - Data Science
+  - Artificial Intelligence
+  - Analytics
+  - Agentic Ai
+  - AI Careers
+  title: Agentic AI Is Rewriting The Analytics Stack But There's One Skill It Still
+    Can't Touch
+  url: https://towardsdatascience.com/agentic-ai-is-rewriting-the-analytics-stack-but-theres-one-skill-it-still-cant-touch/
+- category: webdev
+  published: '2026-08-27T14:53:17'
+  score: 0.893
+  source: Ars Technica
+  summary: '"It just felt like the right thing to do"...'
+  tags:
+  - Gaming
+  - Panic
+  - playdate
+  - refund
+  - tariff
+  title: Panic passes Trump tariff refunds back to the Playdate customers who paid
+    them
+  url: https://arstechnica.com/gaming/2026/08/panic-refunds-illegal-tariffs-customers-paid-on-its-playdate-gaming-handheld/
+- category: webdev
+  published: '2026-08-27T14:41:06'
+  score: 1.052
+  source: CSS-Tricks
+  summary: The general idea is that we create a Document Picture-in-Picture window
+    (DPIP window), and then we put HTML, CSS, and JavaScript into it. Creating Web
+    Widgets Using the Document Picture-in-Picture API...
+  tags:
+  - Articles
+  - JavaScript
+  - picture-in-picture
+  title: Creating Web Widgets Using the Document Picture-in-Picture API
+  url: https://css-tricks.com/creating-web-widgets-using-the-document-picture-in-picture-api/
+- category: webdev
+  published: '2026-08-27T14:22:42'
+  score: 0.89
+  source: Ars Technica
+  summary: '"We built this city on good cacao" does have a nice ring to it....'
+  tags:
+  - Science
+  - ancient DNA
+  - Archaeology
+  - chaco canyon
+  - etowah mounds
+  title: Traders brought Central American cacao to Georgia 1,000 years ago
+  url: https://arstechnica.com/science/2026/08/traders-brought-central-american-cacao-to-georgia-1000-years-ago/
+- category: ai
+  published: '2026-08-27T14:00:13'
+  score: 1.01
+  source: Ars Technica
+  summary: 227 install commands were found in corporate docs pointing at code nobody
+    owns....
+  tags:
+  - AI
+  - Biz & IT
+  - Features
+  - Security
+  - AI agents
+  title: Claude, Codex, and Hermes installed unowned code inside corporate networks
+  url: https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/
+- category: cybersecurity
+  published: '2026-08-27T13:39:56'
+  score: 1.186
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of a vulnerability in
+    Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development
+    environment (IDE), that could facilitate dat...
+  tags: []
+  title: Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers
+  url: https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html
+- category: ai
+  published: '2026-08-27T12:58:59'
+  score: 1.091
+  source: Ars Technica
+  summary: Without authorization, 1,200 OpenAI agents conspired among themselves to
+    game a test....
+  tags:
+  - AI
+  - Biz & IT
+  - Security
+  - AI agents
+  - Hugging Face
+  title: How OpenAI let a mob of LLM agents game a test and ransack Hugging Face
+  url: https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/
+- category: cybersecurity
+  published: '2026-08-27T12:16:24'
+  score: 1.176
+  source: BleepingComputer
+  summary: Google Workspace breaches can begin with social engineering or forgotten
+    third-party integrations rather than sophisticated exploits. This webinar examines
+    real-world breaches, what happens during the...
+  tags:
+  - Security
+  title: 'Webinar: How Google Workspace breaches happen and what to do next'
+  url: https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/
+- category: cybersecurity
+  published: '2026-08-27T12:00:00'
+  score: 1.27
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    a remote attacker to cause a denial-of-service (DoS) condition, a timeout error,
+    or a communication delay by sending a speci...
+  tags: []
+  title: Mitsubishi Electric Multiple FA Products (Update D)
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-25-128-03
+- category: cybersecurity
+  published: '2026-08-27T12:00:00'
+  score: 1.27
+  source: CISA
+  summary: View CSAF Summary Successful exploitation of this vulnerability could allow
+    a remote attacker to cause an out-of-bounds read, resulting in a denial-of-service
+    condition in the affected products. The f...
+  tags: []
+  title: Mitsubishi Electric CNC Series (Update A)
+  url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05
+- category: cybersecurity
+  published: '2026-08-27T11:56:30'
+  score: 1.221
+  source: The Hacker News
+  summary: 'Security teams have spent years trying to detect threats faster. AI is
+    changing the harder part: how much time defenders have left to act. Advanced AI
+    models can now help attackers discover vulnerabil...'
+  tags: []
+  title: Learn How to Build Security Operations Ready for AI-Powered Attacks
+  url: https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html
+- category: ai
+  published: '2026-08-27T09:56:56'
+  score: 1.014
+  source: Schneier on Security
+  summary: 'OpenAI disrupted a social engineering group from Cambodia that used ChatGPT.
+    Its scope is impressive: The network simultaneously conducted multiple types of
+    scams, often blending elements from differe...'
+  tags:
+  - Uncategorized
+  - AI
+  - crime
+  - LLM
+  - scams
+  title: LLM-Based Social Engineering Scams
+  url: https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html
+- category: ai
+  published: '2026-08-27T03:00:00'
+  score: 0.834
+  source: OpenAI
+  summary: OpenAI is expanding its presence in Brazil, deepening engagement with developers,
+    businesses, and communities to support AI adoption across the country....
+  tags:
+  - Company
+  title: Expanding OpenAI’s presence in Brazil
+  url: https://openai.com/index/expanding-our-presence-in-brazil
+- category: ai
+  published: '2026-08-26T19:13:35'
+  score: 0.825
+  source: AWS Machine Learning
+  summary: Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the
+    framework you build on. As long as your agent emits OpenTelemetry telemetry, the
+    service can score it, whether you use LangGrap...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock AgentCore
+  - Announcements
+  title: Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations
+  url: https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/
+- category: webdev
   published: '2026-08-26T01:13:39'
   score: 0.874
   source: Towards Data Science
@@ -45548,5 +45735,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-26T05:27:00.423163'
-total_articles: 3619
+last_updated: '2026-08-27T16:02:18.556465'
+total_articles: 3634
