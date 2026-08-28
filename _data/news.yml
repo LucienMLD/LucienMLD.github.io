@@ -1,5 +1,189 @@
 articles:
 - category: webdev
+  published: '2026-08-28T17:00:01'
+  score: 0.899
+  source: Towards Data Science
+  summary: 'A hands-on guide to defining specialist agents and coordinating their
+    work in the Codex CLI The post From One Agent to a Team: Understanding Codex Subagents
+    appeared first on Towards Data Science....'
+  tags:
+  - Agentic AI
+  - Codex
+  - Llm
+  - LLM Agents
+  - Multi-Agent Systems
+  title: 'From One Agent to a Team: Understanding Codex Subagents'
+  url: https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/
+- category: webdev
+  published: '2026-08-28T16:36:47'
+  score: 0.897
+  source: BleepingComputer
+  summary: A 68-year-old has been sentenced in the U.K. to more than six years in
+    prison for operating an illegal IPTV (Internet Protocol Television) service that
+    generated £980,812 ($1.3 million) over three yea...
+  tags:
+  - Security
+  - Legal
+  title: 68-year-old imprisoned after making $1.3 million by pirating IPTV services
+  url: https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/
+- category: webdev
+  published: '2026-08-28T16:22:30'
+  score: 0.895
+  source: AWS Machine Learning
+  summary: Decathlon, one of the world's largest sporting goods retailers, forecasts
+    weekly demand for tens of thousands of products across multiple continents. Learn
+    how they deployed Chronos-2 on AWS to improv...
+  tags:
+  - Amazon SageMaker
+  - Customer Solutions
+  title: How Decathlon runs demand forecasting at scale with Chronos-2
+  url: https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/
+- category: webdev
+  published: '2026-08-28T15:42:24'
+  score: 0.891
+  source: Ars Technica
+  summary: Meta fixes AI glasses to stop recording any time users cover up the safety
+    light....
+  tags:
+  - AI
+  - Policy
+  - ai glasses
+  - AI privacy
+  - meta
+  title: Meta makes AI glasses slightly less creepy with limit on nonconsensual recording
+  url: https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/
+- category: webdev
+  published: '2026-08-28T15:30:02'
+  score: 0.93
+  source: Towards Data Science
+  summary: How to run the backend locally with Docker or in the cloud The post Connecting
+    My LangGraph AI Agent to Postgres appeared first on Towards Data Science....
+  tags:
+  - Agentic AI
+  - Python
+  - Agentic Ai
+  - Langgraph
+  - Postgres
+  title: Connecting My LangGraph AI Agent to Postgres
+  url: https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/
+- category: ai
+  published: '2026-08-28T14:00:01'
+  score: 1.047
+  source: Towards Data Science
+  summary: Be a better communicator with LLM programming The post Why Claude Code
+    Time Estimates Are Poor appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - Machine Learning
+  - Programming
+  - Product Management
+  - Claude Code
+  title: Why Claude Code Time Estimates Are Poor
+  url: https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/
+- category: cybersecurity
+  published: '2026-08-28T12:58:43'
+  score: 1.221
+  source: BleepingComputer
+  summary: Over 8,300 Internet-exposed Gitea instances are still unpatched against
+    a critical security flaw exploited in ongoing remote code execution attacks, according
+    to cybersecurity watchdog Shadowserver. [...
+  tags:
+  - Security
+  title: Over 8,300 Gitea servers vulnerable to code execution attacks
+  url: https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/
+- category: cybersecurity
+  published: '2026-08-28T12:07:24'
+  score: 1.119
+  source: The Hacker News
+  summary: Security researcher Olivier Laflamme has disclosed two independent root
+    remote code execution (RCE) chains affecting the Unitree G1 EDU, including a Bluetooth
+    Low Energy (BLE) path that can reach root...
+  tags: []
+  title: Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over
+    Bluetooth
+  url: https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html
+- category: ai
+  published: '2026-08-28T12:00:50'
+  score: 0.989
+  source: Machine Learning Mastery
+  summary: In this article, you will learn how to use probing classifiers, UMAP visualization,
+    and SHAP values to interpret and analyze the quality of text embeddings......
+  tags: []
+  title: 'Interpretable Text Classification: Probing Scikit-LLM Embedding Spaces'
+  url: https://machinelearningmastery.com/interpretable-text-classification-probing-scikit-llm-embedding-spaces/
+- category: cybersecurity
+  published: '2026-08-28T11:46:57'
+  score: 1.116
+  source: BleepingComputer
+  summary: Hasbro, one of the world's largest toy and game companies, has disclosed
+    that attackers have accessed the personal and financial information of an undisclosed
+    number of employees. [...]...
+  tags:
+  - Security
+  title: Toy-making giant Hasbro disclose data breach affecting employees
+  url: https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/
+- category: cybersecurity
+  published: '2026-08-28T11:20:32'
+  score: 1.209
+  source: The Hacker News
+  summary: ServiceNow has released patches for four security flaws impacting the ServiceNow
+    AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable,
+    in certain circumstances, by an unaut...
+  tags: []
+  title: Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute
+    Code and SQL
+  url: https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html
+- category: ai
+  published: '2026-08-28T11:02:22'
+  score: 0.97
+  source: Schneier on Security
+  summary: This essay was written with Kasra Rafi, and originally appeared in The
+    Guardian. Earlier this month, about 40 top mathematicians gathered at OpenAI&#8217;s
+    offices to discuss the future of their profe...
+  tags:
+  - Uncategorized
+  - AI
+  - LLM
+  - mathematics
+  title: AI Doesn’t Mean the End of Mathematics—at Least Not Yet
+  url: https://www.schneier.com/blog/archives/2026/08/ai-doesnt-mean-the-end-of-mathematics-at-least-not-yet.html
+- category: cybersecurity
+  published: '2026-08-28T08:25:36'
+  score: 1.135
+  source: The Hacker News
+  summary: PaperCut has alerted customers that bad actors are actively exploiting
+    a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print
+    management software in zero-day attacks. The comp...
+  tags: []
+  title: PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions
+  url: https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
+- category: ai
+  published: '2026-08-27T21:38:53'
+  score: 0.834
+  source: BleepingComputer
+  summary: New details about the July attack on Hugging Face reveal that hundreds
+    of AI agents driven by OpenAI's internal IM1 model coordinated the compromise
+    through an unauthorized message board. [...]...
+  tags:
+  - Security
+  - Artificial Intelligence
+  title: Nearly 700 rogue AI agents coordinated in the Hugging Face attack
+  url: https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/
+- category: ai
+  published: '2026-08-27T18:36:08'
+  score: 0.857
+  source: AWS Machine Learning
+  summary: Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna,
+    in India with India geographic cross-Region inference. If you have local data
+    processing requirements, you can now use these mode...
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Intermediate (200)
+  title: Introducing OpenAI models on Amazon Bedrock for in-country inferencing in
+    India
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/
+- category: webdev
   published: '2026-08-27T15:39:42'
   score: 0.898
   source: Ars Technica
@@ -45735,5 +45919,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-27T16:02:18.556465'
-total_articles: 3634
+last_updated: '2026-08-28T17:06:10.326034'
+total_articles: 3649
