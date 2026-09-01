@@ -1,4 +1,187 @@
 articles:
+- category: cybersecurity
+  published: '2026-09-01T09:15:07'
+  score: 1.153
+  source: BleepingComputer
+  summary: Five Venezuelan nationals pleaded guilty to attempting to empty automated
+    teller machines (ATMs) using malware in a series of ATM jackpotting attacks. [...]...
+  tags:
+  - Security
+  title: Five Venezuelans plead guilty to ATM jackpotting attacks in US
+  url: https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/
+- category: ai
+  published: '2026-09-01T08:26:24'
+  score: 1.103
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker
+    that's been put to use by a Russia-aligned threat actor known as UAC-0099 against
+    a target in Ukraine with an aim to interf...
+  tags: []
+  title: Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt
+    AI Analysis
+  url: https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html
+- category: cybersecurity
+  published: '2026-09-01T07:48:24'
+  score: 1.286
+  source: BleepingComputer
+  summary: Two security vulnerabilities in the PaperCut NG and MF print management
+    software, patched last week after being exploited as zero-days, are now being
+    abused in data theft attacks. [...]...
+  tags:
+  - Security
+  title: Recently patched PaperCut zero-days used in data theft attacks
+  url: https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/
+- category: cybersecurity
+  published: '2026-09-01T07:22:30'
+  score: 1.235
+  source: The Hacker News
+  summary: Threat actors are exploiting two critical flaws impacting Langflow and
+    Ruby on Rails, according to new findings from VulnCheck. The vulnerabilities in
+    question are listed below - CVE-2026-0768 (CVSS s...
+  tags: []
+  title: Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing
+    and C2 Activity
+  url: https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html
+- category: webdev
+  published: '2026-08-31T23:01:16'
+  score: 0.733
+  source: Ars Technica
+  summary: It's the lightest Bentley in 85 years....
+  tags:
+  - Cars
+  - Bentley Supersports
+  - car review
+  - Laguna Seca
+  title: 'The Bentley Supersports: A stripped-out engineer''s indulgence'
+  url: https://arstechnica.com/cars/2026/08/the-bentley-supersports-a-stripped-out-engineers-indulgence/
+- category: webdev
+  published: '2026-08-31T22:47:53'
+  score: 0.732
+  source: AWS Machine Learning
+  summary: In this post, you will learn how to deploy and host your MCP server in
+    AgentCore Runtime and integrate it with Amazon Quick, along with the prerequisites.
+    With this pattern, you promote reusability an...
+  tags:
+  - Amazon Bedrock AgentCore
+  - Amazon Quick Suite
+  - Foundational (100)
+  - Technical How-to
+  title: Connect an AgentCore Runtime hosted MCP server to Amazon Quick
+  url: https://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick/
+- category: webdev
+  published: '2026-08-31T21:23:09'
+  score: 0.723
+  source: Ars Technica
+  summary: The CDC has tallied nearly 30,000 confirmed and probable cases this summer....
+  tags:
+  - Health
+  - cyclospora
+  - cyclosporiasis
+  - Infectious disease
+  - outbreak
+  title: Trump admin shelves Cyclospora research despite record-breaking outbreak
+  url: https://arstechnica.com/health/2026/08/trump-admin-shelves-cyclospora-research-despite-record-breaking-outbreak/
+- category: webdev
+  published: '2026-08-31T21:12:01'
+  score: 0.722
+  source: Ars Technica
+  summary: You've read the stories. Now check out our forums....
+  tags:
+  - Staff
+  - Ars Pro
+  title: Get in on the Ars community that doesn’t fit beneath an article
+  url: https://arstechnica.com/staff/2026/08/get-in-on-the-ars-community-that-doesnt-fit-beneath-an-article/
+- category: cybersecurity
+  published: '2026-08-31T20:47:54'
+  score: 0.959
+  source: BleepingComputer
+  summary: The Cronos blockchain network has resumed trading activity after a price-manipulation
+    attack on the Tectonic cryptocurrency lending platform allowed an attacker to
+    borrow $74 million. [...]...
+  tags:
+  - Security
+  - CryptoCurrency
+  title: Cronos blockchain restarts after $74 million Tectonic exploit
+  url: https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/
+- category: ai
+  published: '2026-08-31T18:10:45'
+  score: 0.817
+  source: Ars Technica
+  summary: 'Lawsuit: Anthropic’s torrenting totally screwed songwriters as AI songs
+    top charts....'
+  tags:
+  - AI
+  - Policy
+  - AI music
+  - Anthropic
+  - Claude
+  title: '“Zlibrary my beloved”: Anthropic staff chats extolling piracy cited in Sony
+    suit'
+  url: https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit/
+- category: ai
+  published: '2026-08-31T16:50:50'
+  score: 0.896
+  source: BleepingComputer
+  summary: ChatGPT Work is experiencing a partial outage, and users across multiple
+    subscription plans may be unable to start or continue tasks. [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: OpenAI confirms ChatGPT outage as users report errors
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors/
+- category: ai
+  published: '2026-08-31T15:30:01'
+  score: 0.799
+  source: Towards Data Science
+  summary: What I learned after thinking more carefully about Structured Outputs on
+    messy, incomplete data The post Your LLM Can Return Perfect JSON and Still Be
+    Wrong appeared first on Towards Data Science....
+  tags:
+  - Large Language Models
+  - Python
+  - Data Engineering
+  - Pydantic
+  - Json
+  title: Your LLM Can Return Perfect JSON and Still Be Wrong
+  url: https://towardsdatascience.com/your-llm-can-return-perfect-json-and-still-be-wrong/
+- category: webdev
+  published: '2026-08-31T15:12:19'
+  score: 0.764
+  source: CSS-Tricks
+  summary: The journey to create a polyfill for the upcoming CSS random() function
+    that works in all browsers. Let’s Use the Emergent CSS random() Function in all
+    the Browsers originally handwritten and publishe...
+  tags:
+  - Articles
+  - CSS functions
+  - polyfill
+  - random
+  - resource
+  title: Let’s Use the Emergent CSS random() Function in all the Browsers
+  url: https://css-tricks.com/css-random-function-polyfill/
+- category: ai
+  published: '2026-08-31T13:41:40'
+  score: 0.831
+  source: Ars Technica
+  summary: Explosive growth comes with a new regulatory burden in the European Union....
+  tags:
+  - AI
+  - Policy
+  - ChatGPT
+  - DSA
+  - EU
+  title: ChatGPT and Reddit now face EU's toughest online safety rules
+  url: https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/
+- category: cybersecurity
+  published: '2026-08-31T12:00:00'
+  score: 1.037
+  source: CISA
+  summary: CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-81578
+    PaperCut NG/MF Missing Authentication for C...
+  tags: []
+  title: CISA Adds Two Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/08/31/cisa-adds-two-known-exploited-vulnerabilities-catalog
 - category: webdev
   published: '2026-08-31T11:03:40'
   score: 0.899
@@ -46091,5 +46274,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-08-31T11:16:24.945005'
-total_articles: 3663
+last_updated: '2026-09-01T09:41:41.467973'
+total_articles: 3678
