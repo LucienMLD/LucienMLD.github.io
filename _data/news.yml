@@ -1,5 +1,179 @@
 articles:
 - category: cybersecurity
+  published: '2026-09-02T09:06:48'
+  score: 1.155
+  source: BleepingComputer
+  summary: A California federal grand jury has indicted a Russian national for his
+    role in a phishing campaign that infected thousands of freelancers with TVRAT
+    and DarkVNC malware. [...]...
+  tags:
+  - Security
+  title: US charges Russian for infecting 80,000 freelancers with malware
+  url: https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/
+- category: cybersecurity
+  published: '2026-09-02T08:00:43'
+  score: 1.099
+  source: BleepingComputer
+  summary: International law enforcement agencies and private partners have seized
+    Sality malware infrastructure in a joint action aiming to disrupt and take down
+    the peer-to-peer (P2P) botnet. [...]...
+  tags:
+  - Security
+  title: Sality botnet infrastructure dismantled in joint global takedown
+  url: https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/
+- category: cybersecurity
+  published: '2026-09-02T07:47:13'
+  score: 1.241
+  source: The Hacker News
+  summary: Forescout Research - Vedere Labs said it used Anthropic's Claude to port
+    a working pre-authentication remote code execution (RCE) exploit from one WAGO
+    programmable logic controller (PLC) to another, ...
+  tags: []
+  title: Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to
+    Another
+  url: https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html
+- category: cybersecurity
+  published: '2026-09-02T07:08:50'
+  score: 1.284
+  source: The Hacker News
+  summary: Threat actors are exploiting a severe security vulnerability in Sangoma
+    Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote
+    code execution. The vulnerability in question is...
+  tags: []
+  title: Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without
+    Credentials
+  url: https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html
+- category: cybersecurity
+  published: '2026-09-02T06:39:29'
+  score: 1.185
+  source: BleepingComputer
+  summary: SonicWall warned customers that threat actors are chaining two new SMA1000
+    zero-day vulnerabilities in remote code execution attacks. [...]...
+  tags:
+  - Security
+  title: SonicWall warns of actively exploited SMA1000 zero-day flaws
+  url: https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/
+- category: webdev
+  published: '2026-09-01T23:01:52'
+  score: 0.736
+  source: Ars Technica
+  summary: 333 miles of real-world range with uncompromised comfort and off-road ability....
+  tags:
+  - Cars
+  - Range Rover Electric
+  title: Here's our first look—and drive—of the 2027 Range Rover Electric
+  url: https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/
+- category: ai
+  published: '2026-09-01T21:39:07'
+  score: 0.844
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: 'BenchMIRT: What are LLM benchmarks actually measuring?'
+  url: https://huggingface.co/blog/allenai/benchmirt
+- category: ai
+  published: '2026-09-01T20:45:00'
+  score: 0.838
+  source: Google AI Blog
+  summary: 'Transitioning cards: 1. Text "Gemini 3.7 Flash" next to the Gemini logo
+    icon; 2. a photo of a pixel phone; 3. Google Gemini logo above the text "Claim
+    your student plan for 1 year at no cost"...'
+  tags:
+  - Google DeepMind
+  - Developer tools
+  - AI
+  - Gemini App
+  - Gemini models
+  title: The latest AI news we announced in August 2026
+  url: https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/
+- category: ai
+  published: '2026-09-01T19:12:43'
+  score: 0.828
+  source: AWS Machine Learning
+  summary: Claude Fable 5.1 is now available on Amazon Bedrock and Claude Platform
+    on AWS. This post covers Claude Fable 5.1's improvements, the Enterprise Frontier
+    Safeguards for keeping your data in a cloud en...
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Intermediate (200)
+  title: Introducing Claude Fable 5.1 on AWS
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/
+- category: webdev
+  published: '2026-09-01T19:06:10'
+  score: 0.712
+  source: Ars Technica
+  summary: '"Black hole stars," making cookies from plastic, tiny sound-powered drones,
+    and more....'
+  tags:
+  - Science
+  - aerodynamics
+  - astronomy
+  - bioacoustics
+  - botany
+  title: 'Research roundup: 7 cool science stories we almost missed'
+  url: https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/
+- category: webdev
+  published: '2026-09-01T18:21:16'
+  score: 0.707
+  source: Ars Technica
+  summary: Historically, state health departments determine cases and deaths, not
+    the CDC....
+  tags:
+  - Health
+  - anti-vaccine
+  - CDC
+  - deaths
+  - Infectious disease
+  title: A newborn and child reportedly died of measles; CDC isn't counting them
+  url: https://arstechnica.com/health/2026/09/cdc-reported-then-deleted-two-measles-deaths-that-were-questioned-by-rfk-jr/
+- category: webdev
+  published: '2026-09-01T18:00:02'
+  score: 0.705
+  source: Ars Technica
+  summary: New features are rolling out across the Android ecosystem starting today....
+  tags:
+  - Google
+  - Tech
+  - android
+  - google
+  - smartphones
+  title: New Android Drop adds remembered items in Find Hub, makes anti-nausea dots
+    official
+  url: https://arstechnica.com/gadgets/2026/09/latest-android-drop-connects-gemini-to-find-hub-adds-keep-notes-and-themes-to-messages/
+- category: webdev
+  published: '2026-09-01T17:51:17'
+  score: 0.704
+  source: Ars Technica
+  summary: FTC says firm replaces actual ad-auction results "with higher prices set
+    by Amazon."...
+  tags:
+  - Policy
+  - Amazon
+  - FTC
+  title: FTC alleges Amazon illegally made $20 billion by rigging billions of ad auctions
+  url: https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/
+- category: ai
+  published: '2026-09-01T13:00:00'
+  score: 0.829
+  source: OpenAI
+  summary: Astra is the first OpenAI model to meet the Critical cybersecurity capability
+    threshold under the Preparedness Framework, with stronger safeguards for release....
+  tags:
+  - Safety
+  title: 'Path to Astra: critical capabilities and frontier safeguards'
+  url: https://openai.com/index/path-to-astra
+- category: ai
+  published: '2026-09-01T12:00:35'
+  score: 0.822
+  source: Machine Learning Mastery
+  summary: In this article, you will learn three concrete techniques for making machine
+    learning model predictions interpretable, covering both global and local explanations
+    across tree-based and......
+  tags: []
+  title: 3 Ways to Enhance Your AI Model’s Interpretability
+  url: https://machinelearningmastery.com/3-ways-to-enhance-your-ai-models-interpretability/
+- category: cybersecurity
   published: '2026-09-01T09:15:07'
   score: 1.153
   source: BleepingComputer
@@ -46274,5 +46448,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-09-01T09:41:41.467973'
-total_articles: 3678
+last_updated: '2026-09-02T09:13:31.549568'
+total_articles: 3693
