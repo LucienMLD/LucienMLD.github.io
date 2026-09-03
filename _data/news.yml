@@ -1,5 +1,180 @@
 articles:
 - category: cybersecurity
+  published: '2026-09-03T08:55:25'
+  score: 1.105
+  source: BleepingComputer
+  summary: Microsoft is working to fix a known issue that causes crashes and launch
+    failures for Microsoft Teams and New Outlook users after installing updates released
+    since the August 2026 Patch Tuesday. [...]...
+  tags:
+  - Microsoft
+  title: Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/
+- category: cybersecurity
+  published: '2026-09-03T06:26:59'
+  score: 1.134
+  source: The Hacker News
+  summary: The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE,
+    MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank,
+    a privilege escalation flaw impacting Crowd...
+  tags: []
+  title: Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike
+    Falcon
+  url: https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html
+- category: cybersecurity
+  published: '2026-09-03T05:19:04'
+  score: 1.27
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday
+    added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog
+    after they landed in attackers' crosshairs...
+  tags: []
+  title: CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto
+    Miners
+  url: https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html
+- category: webdev
+  published: '2026-09-03T00:00:00'
+  score: 0.742
+  source: Hugging Face
+  summary: '...'
+  tags: []
+  title: Training a coding model to paint watercolours with TRL and OpenEnv
+  url: https://huggingface.co/blog/train-to-paint-with-code
+- category: ai
+  published: '2026-09-02T21:22:05'
+  score: 0.93
+  source: AWS Machine Learning
+  summary: Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models
+    on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney)
+    and Asia Pacific (Melbourne) Regions. Thi...
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Intermediate (200)
+  title: Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region
+    inference
+  url: https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/
+- category: webdev
+  published: '2026-09-02T21:20:03'
+  score: 0.725
+  source: Ars Technica
+  summary: Congress pauses the OMB's attempt to rewrite how research is funded....
+  tags:
+  - Policy
+  - Science
+  - continuing resolution
+  - federal budget
+  - OMB
+  title: 'Spending deal comes with a bonus: Blocking political control of grants'
+  url: https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/
+- category: cybersecurity
+  published: '2026-09-02T21:00:13'
+  score: 1.059
+  source: BleepingComputer
+  summary: Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL
+    injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to
+    remote code execution. [...]...
+  tags:
+  - Security
+  title: Hackers exploit Sangoma Switchvox flaw to deploy reverse shells
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/
+- category: webdev
+  published: '2026-09-02T19:54:27'
+  score: 0.716
+  source: Ars Technica
+  summary: Carrier scorecards may include call-blocking stats and data on customer
+    complaints....
+  tags:
+  - Policy
+  - FCC
+  - robocalls
+  title: FCC plans robocall scorecard to grade phone companies on spam call blocking
+  url: https://arstechnica.com/tech-policy/2026/09/fcc-plans-robocall-scorecard-to-grade-phone-companies-on-spam-call-blocking/
+- category: webdev
+  published: '2026-09-02T19:37:08'
+  score: 0.714
+  source: Ars Technica
+  summary: '"Requirements are being adjusted to reflect near-term mission needs."...'
+  tags:
+  - Space
+  - axiom
+  - NASA
+  - space
+  - spacesuit
+  title: Wary of Artemis IV timeline, NASA is changing lunar spacesuit design
+  url: https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/
+- category: ai
+  published: '2026-09-02T18:27:49'
+  score: 0.954
+  source: The Hacker News
+  summary: Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described
+    as its most capable cybersecurity model, and has made it available to a set of
+    trusted defenders via a new initiative called th...
+  tags: []
+  title: Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access
+    Programs
+  url: https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html
+- category: ai
+  published: '2026-09-02T18:26:35'
+  score: 0.865
+  source: AWS Machine Learning
+  summary: Learn how to build a generative AI-based support operations platform on
+    AWS that converts training videos into structured SOPs, applies Retrieval-Augmented
+    Generation to guide ticket resolution, and u...
+  tags:
+  - Advanced (300)
+  - Customer Solutions
+  title: Modernizing and scaling support operations with generative AI on AWS
+  url: https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/
+- category: webdev
+  published: '2026-09-02T18:21:20'
+  score: 0.706
+  source: AWS Machine Learning
+  summary: Business intelligence dashboards can fail silently, showing blank, stale,
+    or wrong data even when every infrastructure monitor reports healthy. Learn how
+    an AWS team built an automated, AI-powered con...
+  tags:
+  - Amazon Bedrock
+  - Customer Solutions
+  - Intermediate (200)
+  title: How an AWS team detects dashboard content failures at scale using Amazon
+    Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/how-an-aws-team-detects-dashboard-content-failures-at-scale-using-amazon-bedrock/
+- category: ai
+  published: '2026-09-02T18:13:54'
+  score: 0.82
+  source: Ars Technica
+  summary: Google's Pro model updates are seemingly paused, but there's yet another
+    Gemini Flash today....
+  tags:
+  - AI
+  - Google
+  - Artificial Intelligence
+  - gemini
+  - generative ai
+  title: Google releases Gemini 3.8 Flash, its third Flash model in six weeks
+  url: https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/
+- category: cybersecurity
+  published: '2026-09-02T15:47:08'
+  score: 1.068
+  source: BleepingComputer
+  summary: A critical authentication bypass vulnerability (CVE-2026-82329) in JFrog
+    Artifactory is being exploited in attacks to create tokens that provide administrative
+    access. [...]...
+  tags:
+  - Security
+  title: Hackers exploit critical JFrog Artifactory flaw to forge admin tokens
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/
+- category: ai
+  published: '2026-09-02T12:00:00'
+  score: 0.821
+  source: OpenAI
+  summary: ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising,
+    and more. It even turned merchandise photos into an inventory website in 15 minutes....
+  tags: []
+  title: ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT
+  url: https://openai.com/index/atv-big-air-tour
+- category: cybersecurity
   published: '2026-09-02T09:06:48'
   score: 1.155
   source: BleepingComputer
@@ -46448,5 +46623,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-09-02T09:13:31.549568'
-total_articles: 3693
+last_updated: '2026-09-03T09:21:36.558507'
+total_articles: 3708
