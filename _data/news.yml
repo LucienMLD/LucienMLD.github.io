@@ -1,5 +1,173 @@
 articles:
 - category: cybersecurity
+  published: '2026-09-07T12:00:00'
+  score: 1.124
+  source: NCSC UK
+  summary: Understanding why staff use unapproved AI tools is key to managing the
+    security challenges they can create....
+  tags: []
+  title: The hidden risks of shadow AI
+  url: https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai
+- category: cybersecurity
+  published: '2026-09-07T08:31:12'
+  score: 1.098
+  source: The Hacker News
+  summary: Every on-premises N-central build below 2026.3.1.14 — including servers
+    updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says
+    the flaw has been exploited in the wild; its r...
+  tags: []
+  title: N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE
+    Flaw
+  url: https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html
+- category: cybersecurity
+  published: '2026-09-07T07:53:04'
+  score: 1.189
+  source: The Hacker News
+  summary: Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled
+    V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception
+    capabilities. "The payloads are ...
+  tags: []
+  title: JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies
+  url: https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html
+- category: cybersecurity
+  published: '2026-09-07T06:17:41'
+  score: 1.129
+  source: BleepingComputer
+  summary: N-able has released an emergency hotfix for a maximum-severity remote code
+    execution (RCE) flaw affecting its N-central remote monitoring and management
+    (RMM) platform. [...]...
+  tags:
+  - Security
+  title: N-able patches max severity N-central flaw amid ongoing attacks
+  url: https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/
+- category: ai
+  published: '2026-09-07T01:15:43'
+  score: 0.953
+  source: BleepingComputer
+  summary: OpenAI is now rolling out ChatGPT Astra, its most powerful model to date,
+    to those with a $20 Plus subscription, but there's no word on when free users
+    will get access.. [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT Astra is now rolling out to $20 Plus subscription
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/
+- category: ai
+  published: '2026-09-07T00:00:00'
+  score: 0.856
+  source: OpenAI
+  summary: OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news
+    organizations strengthen innovation, resilience, and independent journalism....
+  tags:
+  - Global Affairs
+  title: Supporting independent journalism in Ukraine
+  url: https://openai.com/index/supporting-independent-journalism-in-ukraine
+- category: cybersecurity
+  published: '2026-09-06T14:23:46'
+  score: 0.958
+  source: BleepingComputer
+  summary: Threat actors have adopted the ASCII smuggling technique in phishing campaigns,
+    using invisible Unicode characters to evade email security filters. [...]...
+  tags:
+  - Security
+  title: Attackers conceal phishing lures using invisible Unicode characters
+  url: https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/
+- category: webdev
+  published: '2026-09-06T14:00:01'
+  score: 0.676
+  source: Towards Data Science
+  summary: AI companies quietly watermark billions of words a day. Here’s how to apply
+    the same three families of techniques to your own writing—and what real experiments
+    reveal about which watermarks survive co...
+  tags:
+  - Large Language Models
+  - Data Science
+  - Natural Language Processing
+  - Llm
+  - Watermarking
+  title: 'Text Watermarking in Python: Catch Whoever Copies Your Writing'
+  url: https://towardsdatascience.com/text-watermarking-in-python-catch-whoever-copies-your-writing/
+- category: webdev
+  published: '2026-09-06T12:00:02'
+  score: 0.663
+  source: Towards Data Science
+  summary: 'Using LDA for dimensionality reduction in classification problems The
+    post Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction
+    in a Real-Estate Dataset appeared first on Towards ...'
+  tags:
+  - Machine Learning
+  - Deep Dives
+  - Linear Discriminant
+  - Lda
+  - Data Science
+  title: 'Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction
+    in a Real-Estate Dataset'
+  url: https://towardsdatascience.com/linear-discriminant-analysis-lda-in-real-life-dimensionality-reduction-in-a-real-estate-dataset/
+- category: webdev
+  published: '2026-09-06T11:55:26'
+  score: 0.663
+  source: Ars Technica
+  summary: '"We achieved within a few years what had taken the European space industry
+    decades before."...'
+  tags:
+  - Science
+  - Space
+  - Commercial space
+  - europe
+  - european space agency
+  title: German company becomes first in Europe to launch fully commercial orbital
+    rocket
+  url: https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/
+- category: webdev
+  published: '2026-09-06T10:00:35'
+  score: 0.651
+  source: Ars Technica
+  summary: The shift in the fish’s diet is having significant downstream impacts on
+    the environment and climate....
+  tags:
+  - Science
+  - climate
+  - fish farming
+  - salmon
+  - syndication
+  title: Farmed salmon may not be as nutritious as it once was, new research suggests
+  url: https://arstechnica.com/science/2026/09/farmed-salmon-may-not-be-as-nutritious-as-it-once-was-new-research-suggests/
+- category: webdev
+  published: '2026-09-06T09:00:00'
+  score: 0.595
+  source: OpenAI
+  summary: Jakub Pachocki reflects on increasingly capable AI and the challenge of
+    keeping it aligned. He calls for stronger safeguards and international coordination....
+  tags:
+  - Safety
+  title: An Alien Mind
+  url: https://openai.com/index/an-alien-mind
+- category: ai
+  published: '2026-09-06T08:00:00'
+  score: 0.696
+  source: OpenAI
+  summary: Inside OpenAI, coding agents are reshaping AI research. Explore early data
+    on agent usage, experiment velocity, task complexity, and research acceleration....
+  tags:
+  - Research
+  title: 'Research acceleration: The view inside OpenAI'
+  url: https://openai.com/index/research-acceleration-view-inside-openai
+- category: ai
+  published: '2026-09-05T15:00:01'
+  score: 0.579
+  source: Towards Data Science
+  summary: 'From scalar observations to self-attention, and how positional information
+    restores sequence order The post Why Transformers Need Positional Encoding For
+    Time Series: A Visual Guide appeared first on ...'
+  tags:
+  - Deep Learning
+  - Time Series
+  - Self Attention
+  - Transformers
+  - Positional Encoding
+  title: 'Why Transformers Need Positional Encoding For Time Series: A Visual Guide'
+  url: https://towardsdatascience.com/why-transformers-need-positional-encoding-for-time-series-a-visual-guide/
+- category: cybersecurity
   published: '2026-09-04T07:35:14'
   score: 1.192
   source: The Hacker News
@@ -46803,5 +46971,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-09-04T09:14:40.872405'
-total_articles: 3723
+last_updated: '2026-09-07T09:52:27.356006'
+total_articles: 3737
