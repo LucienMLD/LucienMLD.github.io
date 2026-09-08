@@ -1,4 +1,88 @@
 articles:
+- category: webdev
+  published: '2026-09-08T07:35:50'
+  score: 0.929
+  source: BleepingComputer
+  summary: 'Exclusive: An exposed Advance Passenger Information System (APIS) database
+    held 220 million passenger and crew records containing names, passport numbers,
+    dates of birth, nationalities, and flight det...'
+  tags:
+  - Security
+  title: 220 million traveler records exposed in Vietnam-linked APIS leak
+  url: https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/
+- category: cybersecurity
+  published: '2026-09-08T07:00:43'
+  score: 1.091
+  source: The Hacker News
+  summary: Online dating app Grindr has opted to pay £26 million ($35.1 million) to
+    settle a lawsuit in the U.K. over allegations that it shared users' personal information,
+    including their HIV status, with thir...
+  tags: []
+  title: Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing
+  url: https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html
+- category: cybersecurity
+  published: '2026-09-07T18:12:09'
+  score: 0.943
+  source: The Hacker News
+  summary: Cybersecurity researchers have disclosed details of a complex Chromium-based
+    post-exploitation toolkit called PEEP that masquerades as a bookmarks extension
+    for the web browser. "Requiring prior admin...
+  tags: []
+  title: PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command
+    Execution
+  url: https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html
+- category: cybersecurity
+  published: '2026-09-07T16:50:29'
+  score: 1.029
+  source: BleepingComputer
+  summary: A zero-day vulnerability dubbed "StyleSmuggler" affecting all versions
+    of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor.
+    [...]...
+  tags:
+  - Security
+  title: Magento StyleSmuggler zero-day exploited to deploy Linux backdoor
+  url: https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/
+- category: cybersecurity
+  published: '2026-09-07T15:39:51'
+  score: 0.924
+  source: BleepingComputer
+  summary: A phishing-as-a-service framework called BigBear 2.0 has been used to bypass
+    multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft
+    365 credentials. [...]...
+  tags:
+  - Security
+  title: BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations
+  url: https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/
+- category: webdev
+  published: '2026-09-07T14:00:01'
+  score: 0.679
+  source: Towards Data Science
+  summary: I saved my day with a mere $52 bill. But you don't have to repeat my mistake.
+    The post I Vibe-Coded an App in Just Two Hours (And Regretted It the Next Day)
+    appeared first on Towards Data Science....
+  tags:
+  - Agentic AI
+  - Gemini
+  - AI Agents
+  - Vibe coding
+  - App Development
+  title: I Vibe-Coded an App in Just Two Hours (And Regretted It the Next Day)
+  url: https://towardsdatascience.com/i-vibe-coded-an-app-in-just-two-hours-and-regretted-it-the-next-day/
+- category: webdev
+  published: '2026-09-07T12:00:01'
+  score: 0.667
+  source: Towards Data Science
+  summary: How to catch a payload that looks correct but isn't, using a watchdog pattern
+    with working Python. The post Why Most Multi-Agent Systems Fail Even When Evaluation
+    Passes appeared first on Towards Data...
+  tags:
+  - Agentic AI
+  - AI Agents
+  - Machine Learning
+  - Artificial Intelligence
+  - Llm
+  title: Why Most Multi-Agent Systems Fail Even When Evaluation Passes
+  url: https://towardsdatascience.com/why-most-multi-agent-systems-fail-even-when-evaluation-passes/
 - category: cybersecurity
   published: '2026-09-07T12:00:00'
   score: 1.124
@@ -8,6 +92,41 @@ articles:
   tags: []
   title: The hidden risks of shadow AI
   url: https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai
+- category: cybersecurity
+  published: '2026-09-07T11:20:14'
+  score: 0.939
+  source: The Hacker News
+  summary: A TantoSec proof-of-concept turns an AES-CBC "padding oracle" in Telerik
+    UI for ASP.NET AJAX into unauthenticated remote code execution — but only against
+    applications in a specific non-default config...
+  tags: []
+  title: Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit
+    Released
+  url: https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html
+- category: webdev
+  published: '2026-09-07T11:00:03'
+  score: 0.661
+  source: Ars Technica
+  summary: When multiple companies are behind one project, who bears responsibility
+    for problems?...
+  tags:
+  - AI
+  - Features
+  - ai data centers
+  title: The complex corporate web behind a $3.2 billion AI data center
+  url: https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/
+- category: ai
+  published: '2026-09-07T10:36:37'
+  score: 0.856
+  source: BleepingComputer
+  summary: OpenAI appears to be testing a new "Writing Style" feature for ChatGPT
+    that can learn how you write by looking at examples from your connected apps.
+    [...]...
+  tags:
+  - Artificial Intelligence
+  - Technology
+  title: ChatGPT can now connect to your personal apps to mimic writing style
+  url: https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/
 - category: cybersecurity
   published: '2026-09-07T08:31:12'
   score: 1.098
@@ -46971,5 +47090,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-09-07T09:52:27.356006'
-total_articles: 3737
+last_updated: '2026-09-08T09:17:04.423421'
+total_articles: 3747
