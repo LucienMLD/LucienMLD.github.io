@@ -1,4 +1,185 @@
 articles:
+- category: cybersecurity
+  published: '2026-09-09T09:11:03'
+  score: 1.299
+  source: The Hacker News
+  summary: Google on Thursday released updates to patch 230 security vulnerabilities,
+    including one that has come under active exploitation in the wild. The medium-severity
+    vulnerability, assigned the CVE identi...
+  tags: []
+  title: Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox
+  url: https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html
+- category: webdev
+  published: '2026-09-09T08:44:22'
+  score: 0.896
+  source: BleepingComputer
+  summary: An Ohio man was sentenced to 15 years in prison for multiple cybercrimes,
+    including sextortion and cyberstalking of numerous victims using AI-generated
+    sexually explicit content. [...]...
+  tags:
+  - Security
+  title: Man gets 15 years for extorting women with AI-generated porn videos
+  url: https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/
+- category: cybersecurity
+  published: '2026-09-09T07:30:15'
+  score: 1.238
+  source: BleepingComputer
+  summary: An anonymous security researcher known as Nightmare Eclipse has released
+    a new Microsoft Defender zero-day exploit named "ShieldCrash" right after Microsoft
+    rolled out its September 2026 Patch Tuesday...
+  tags:
+  - Security
+  - Microsoft
+  title: New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access
+  url: https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/
+- category: cybersecurity
+  published: '2026-09-09T06:25:48'
+  score: 1.278
+  source: BleepingComputer
+  summary: Google has patched 230 vulnerabilities on Tuesday, including another actively
+    exploited Chrome zero-day bug, the seventh such vulnerability patched since the
+    start of the year. [...]...
+  tags:
+  - Security
+  - Google
+  title: Google warns of new Chrome zero-day bug exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/
+- category: cybersecurity
+  published: '2026-09-09T06:25:45'
+  score: 1.23
+  source: The Hacker News
+  summary: SAP has released security updates to address multiple vulnerabilities,
+    including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that
+    could have a severe impact on the confidentialit...
+  tags: []
+  title: SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution
+  url: https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html
+- category: cybersecurity
+  published: '2026-09-09T04:27:51'
+  score: 1.215
+  source: The Hacker News
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday
+    added a maximum-severity security flaw impacting N-able N-central to its Known
+    Exploited Vulnerabilities (KEV) catalog, requ...
+  tags: []
+  title: N-able N-central Pre-Auth RCE Flaw Exploited in the Wild
+  url: https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html
+- category: webdev
+  published: '2026-09-09T01:16:27'
+  score: 0.79
+  source: BleepingComputer
+  summary: Microsoft is adding new age-awareness APIs to Windows 11 that will allow
+    apps to determine whether someone is a child, teenager, or adult without exposing
+    their exact date of birth. [...]...
+  tags:
+  - Microsoft
+  - Software
+  title: Microsoft adds age-awareness APIs that can tell if users are children, teens,
+    or adults
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/
+- category: ai
+  published: '2026-09-08T22:06:58'
+  score: 0.891
+  source: AWS Machine Learning
+  summary: GPT-6 Astra from OpenAI is now generally available on Amazon Bedrock. It
+    brings deeper reasoning and sharper judgment to your most demanding tasks, running
+    on the Amazon Bedrock inference engine built...
+  tags:
+  - Amazon Bedrock
+  - Announcements
+  - Intermediate (200)
+  title: Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/
+- category: webdev
+  published: '2026-09-08T21:52:29'
+  score: 0.728
+  source: Ars Technica
+  summary: “It doesn’t cost a lot to store text forever.”...
+  tags:
+  - Tech
+  - ads
+  - LG
+  - TVs
+  title: LG TV shown scanning LAN for third-party phones and other devices
+  url: https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/
+- category: webdev
+  published: '2026-09-08T21:23:13'
+  score: 0.725
+  source: Ars Technica
+  summary: Preservation "goodies" also includes downloadable 3D models for desktop
+    perusal....
+  tags:
+  - Gaming
+  - big box
+  - gog
+  - packaging
+  - pc
+  title: GOG brings back "big box" PC games, one printable template at a time
+  url: https://arstechnica.com/gaming/2026/09/gog-brings-back-big-box-pc-games-one-printable-template-at-a-time/
+- category: webdev
+  published: '2026-09-08T18:29:15'
+  score: 0.747
+  source: AWS Machine Learning
+  summary: Amazon SageMaker Feature Store now supports feature-level writes. With
+    the new UpdateRecord API, you can update one or more feature values in a single
+    call without reading or rewriting the entire reco...
+  tags:
+  - Amazon Machine Learning
+  - Amazon SageMaker AI
+  - Announcements
+  - Artificial Intelligence
+  - Intermediate (200)
+  title: Amazon SageMaker Feature Store introduces UpdateRecord for feature-level
+    writes
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/
+- category: ai
+  published: '2026-09-08T17:12:42'
+  score: 0.901
+  source: Schneier on Security
+  summary: This essay was written with Barath Raghavan, and originally appeared in
+    Lawfare. In April, an artificial intelligence (AI) agent conducting a routine
+    task at a company hit a snag, tried to solve it, a...
+  tags:
+  - Uncategorized
+  - AI
+  - LLM
+  title: AIs as Modern Genies
+  url: https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html
+- category: ai
+  published: '2026-09-08T16:28:42'
+  score: 0.896
+  source: BleepingComputer
+  summary: OpenAI is investigating an ongoing incident causing ChatGPT image generation
+    failures and delays when uploading files. [...]...
+  tags:
+  - Technology
+  title: OpenAI says ChatGPT outage causes image generation errors
+  url: https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/
+- category: ai
+  published: '2026-09-08T12:00:00'
+  score: 0.953
+  source: CISA
+  summary: Executive summary China-based artificial intelligence (AI) companies are
+    conducting systematic extraction of proprietary functionalities and capabilities
+    of U.S. AI companies’ models through industria...
+  tags: []
+  title: China-Based Artificial Intelligence Companies Conducting Industrial-Scale
+    Distillation Campaigns Against U.S. AI Companies
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a
+- category: ai
+  published: '2026-09-08T10:20:04'
+  score: 0.898
+  source: Schneier on Security
+  summary: 'Interesting research: &#8220;Stealing Reasoning Traces from Proprietary
+    LLM APIs&#8220;: Abstract: Leading large language model providers now conceal
+    their models&#8217; step-by-step reasoning, or cha...'
+  tags:
+  - Uncategorized
+  - academic papers
+  - AI
+  - LLM
+  title: Stealing AI Reasoning Traces
+  url: https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html
 - category: webdev
   published: '2026-09-08T07:35:50'
   score: 0.929
@@ -47090,5 +47271,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-09-08T09:17:04.423421'
-total_articles: 3747
+last_updated: '2026-09-09T09:20:09.965718'
+total_articles: 3762
