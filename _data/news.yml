@@ -1,5 +1,179 @@
 articles:
 - category: cybersecurity
+  published: '2026-09-10T09:10:20'
+  score: 1.299
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed
+    that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall
+    vulnerability, which it flagged as activ...
+  tags:
+  - Security
+  title: 'CISA: WatchGuard RCE flaw now exploited in ransomware attacks'
+  url: https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/
+- category: cybersecurity
+  published: '2026-09-10T08:08:16'
+  score: 1.099
+  source: BleepingComputer
+  summary: Microsoft says the September 2026 Patch Tuesday updates fix a known issue
+    causing desktop settings to be lost or reset on some Windows devices. [...]...
+  tags:
+  - Microsoft
+  title: Microsoft fixes bug that wiped Windows desktop settings
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/
+- category: ai
+  published: '2026-09-10T07:12:55'
+  score: 1.01
+  source: The Hacker News
+  summary: Nearly one in ten of the internet-facing LiteLLM servers that&nbsp;Wiz
+    Research&nbsp;scanned in February accepted&nbsp;sk-1234, the example admin key
+    in LiteLLM's own setup guide. LiteLLM is an open-s...
+  tags: []
+  title: Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example "sk-1234" Admin
+    Key
+  url: https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html
+- category: ai
+  published: '2026-09-10T07:04:01'
+  score: 1.097
+  source: The Hacker News
+  summary: Anthropic on Wednesday disclosed a fourth incident in which its artificial
+    intelligence (AI) model broke into real third-party systems, marking the latest
+    in a growing list of cases that have raised c...
+  tags: []
+  title: Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6
+  url: https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html
+- category: cybersecurity
+  published: '2026-09-10T06:56:33'
+  score: 1.186
+  source: BleepingComputer
+  summary: Trezor warned customers on Wednesday that threat actors who breached its
+    third-party email provider are targeting them in phishing attacks. [...]...
+  tags:
+  - Security
+  title: Trezor warns users of email provider breach, phishing attacks
+  url: https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/
+- category: ai
+  published: '2026-09-09T22:26:29'
+  score: 0.893
+  source: AWS Machine Learning
+  summary: Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight
+    model, on Amazon SageMaker HyperPod with vLLM. This walkthrough covers cluster
+    provisioning, NVFP4 quantization, and an Open...
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker HyperPod
+  - Technical How-to
+  title: Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM
+  url: https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/
+- category: cybersecurity
+  published: '2026-09-09T21:40:44'
+  score: 1.113
+  source: BleepingComputer
+  summary: Cisco has confirmed that a maximum-severity authentication bypass vulnerability
+    tracked as CVE-2026-20079 in its Secure Firewall Management Center (FMC) software
+    is being actively exploited in attacks...
+  tags:
+  - Security
+  title: Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/
+- category: webdev
+  published: '2026-09-09T21:02:14'
+  score: 0.723
+  source: BleepingComputer
+  summary: The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning
+    that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests from
+    nearby unpaired devices without requiring us...
+  tags:
+  - Security
+  title: Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking
+  url: https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/
+- category: webdev
+  published: '2026-09-09T20:27:40'
+  score: 0.72
+  source: Ars Technica
+  summary: '"We will not be relevant without a massive rocket at a massive cadence."...'
+  tags:
+  - Space
+  - helene huby
+  - space
+  - the exploration company
+  title: Europe may finally have found a space entrepreneur who is meeting the moment
+  url: https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/
+- category: webdev
+  published: '2026-09-09T20:06:28'
+  score: 0.717
+  source: Ars Technica
+  summary: US urges AI firms to ID, then secretly switch, Chinese users to less-capable
+    models....
+  tags:
+  - AI
+  - Policy
+  - Artificial Intelligence
+  - china
+  - Distillation
+  title: Six Chinese AI firms accused of aggressively copying US frontier models
+  url: https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/
+- category: ai
+  published: '2026-09-09T20:01:03'
+  score: 0.877
+  source: AWS Machine Learning
+  summary: 'A recap of August 2026 launches for AI builders across Amazon Bedrock,
+    Amazon Bedrock AgentCore, and Strands: million-token context for OpenAI models,
+    cross-Region inference, agents that run for up to...'
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock AgentCore
+  - Announcements
+  - Intermediate (200)
+  title: 'ICYMI: What landed for AI builders in August 2026'
+  url: https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/
+- category: webdev
+  published: '2026-09-09T19:42:00'
+  score: 0.715
+  source: Ars Technica
+  summary: Apple's first foldable can be yours next month....
+  tags:
+  - Apple
+  - Tech
+  - apple
+  - Foldables
+  - iphone duo
+  title: Apple's long-rumored foldable becomes reality with the $2,000 iPhone Duo
+  url: https://arstechnica.com/gadgets/2026/09/apples-long-rumored-foldable-becomes-reality-with-the-2000-iphone-duo/
+- category: webdev
+  published: '2026-09-09T15:45:24'
+  score: 0.73
+  source: AWS Machine Learning
+  summary: 'Amazon Quick custom permissions let you enforce least-privilege access
+    by toggling features per user. This post walks through four patterns to automate
+    custom permissions across the user lifecycle: a ...'
+  tags:
+  - Amazon Quick Suite
+  - Intermediate (200)
+  - Technical How-to
+  title: Automate user-level custom permissions for Amazon Quick
+  url: https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/
+- category: cybersecurity
+  published: '2026-09-09T12:00:00'
+  score: 1.04
+  source: CISA
+  summary: CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2025-25249
+    Fortinet Multiple Products Heap-based Buff...
+  tags: []
+  title: CISA Adds Four Known Exploited Vulnerabilities to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/09/09/cisa-adds-four-known-exploited-vulnerabilities-catalog
+- category: ai
+  published: '2026-09-09T09:32:26'
+  score: 0.893
+  source: The Hacker News
+  summary: U.S. cybersecurity and intelligence agencies have accused China-based artificial
+    intelligence (AI) companies of conducting "systematic extraction" of proprietary
+    functionalities and capabilities of Am...
+  tags: []
+  title: U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and
+    Grok
+  url: https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html
+- category: cybersecurity
   published: '2026-09-09T09:11:03'
   score: 1.299
   source: The Hacker News
@@ -47271,5 +47445,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-09-09T09:20:09.965718'
-total_articles: 3762
+last_updated: '2026-09-10T09:18:58.998535'
+total_articles: 3777
