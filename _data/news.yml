@@ -1,5 +1,183 @@
 articles:
 - category: cybersecurity
+  published: '2026-09-11T07:55:15'
+  score: 1.194
+  source: BleepingComputer
+  summary: Trezor has revealed that phishing attacks against its customers earlier
+    this week targeted 347,000 email addresses and affected 2,500 users who clicked
+    an embedded malicious link. [...]...
+  tags:
+  - Security
+  title: 'Trezor: 347,000 users targeted in phishing attacks after Brevo breach'
+  url: https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/
+- category: cybersecurity
+  published: '2026-09-11T07:31:05'
+  score: 1.143
+  source: The Hacker News
+  summary: Attackers have chained two flaws in JFrog Artifactory, the repository that
+    software build pipelines pull from, to take administrator control of self-hosted
+    servers and plant backdoors, cloud security ...
+  tags: []
+  title: Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors
+  url: https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html
+- category: cybersecurity
+  published: '2026-09-11T07:14:09'
+  score: 1.189
+  source: The Hacker News
+  summary: A China-linked hacking group exploited a flaw in Sogou Input Method, one
+    of the most widely used tools for typing Chinese characters on Windows, to install
+    a backdoor on victims' computers, security c...
+  tags: []
+  title: China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT
+    Backdoor
+  url: https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html
+- category: cybersecurity
+  published: '2026-09-11T06:46:18'
+  score: 1.185
+  source: The Hacker News
+  summary: PaperCut on Thursday released a new security maintenance release that replaces
+    all previously published emergency patches that were pushed to address two security
+    flaws that have come under active exp...
+  tags: []
+  title: PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited
+    Flaws
+  url: https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html
+- category: cybersecurity
+  published: '2026-09-11T06:19:59'
+  score: 1.278
+  source: The Hacker News
+  summary: Cisco has revealed that three distinct threat clusters linked to ransomware
+    and state-sponsored attacks have been exploiting two recently patched Secure Firewall
+    Management Center (FMC) vulnerabilitie...
+  tags: []
+  title: Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware
+  url: https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html
+- category: webdev
+  published: '2026-09-10T22:16:05'
+  score: 0.731
+  source: Ars Technica
+  summary: Laptops don't usually get hot enough to burn—but they can still be harmful....
+  tags:
+  - Health
+  - bmj case reports
+  - erythema ab igne
+  - heat
+  - laptop
+  title: Boy developed "toasted skin" condition from using a laptop every day
+  url: https://arstechnica.com/health/2026/09/boy-developed-toasted-skin-condition-from-using-a-laptop-every-day/
+- category: ai
+  published: '2026-09-10T21:58:09'
+  score: 0.846
+  source: AWS Machine Learning
+  summary: Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy
+    that sends requests sharing the same prompt prefix to the same instance so the
+    KV cache stays warm. In benchmarks on Llam...
+  tags:
+  - Advanced (300)
+  - Amazon SageMaker AI
+  - Announcements
+  title: Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference
+  url: https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/
+- category: webdev
+  published: '2026-09-10T21:37:49'
+  score: 0.727
+  source: AWS Machine Learning
+  summary: Amazon SageMaker HyperPod now supports model caching for inference, which
+    pre-loads model weights and container images onto cluster nodes so pods read from
+    local NVMe storage instead of downloading ov...
+  tags:
+  - Amazon SageMaker HyperPod
+  - Announcements
+  - Expert (400)
+  title: Reduce inference cold starts on Amazon SageMaker HyperPod with model caching
+  url: https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/
+- category: webdev
+  published: '2026-09-10T21:15:39'
+  score: 0.725
+  source: AWS Machine Learning
+  summary: TwelveLabs Marengo Embed 3.0 is now generally available as an embedding
+    model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language
+    search to video, image, and audio content. This...
+  tags:
+  - Amazon Bedrock
+  - Amazon Bedrock Knowledge Bases
+  - Announcements
+  - Intermediate (200)
+  title: Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0
+  url: https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/
+- category: webdev
+  published: '2026-09-10T19:09:29'
+  score: 0.712
+  source: Ars Technica
+  summary: Europe is looking inward, and perhaps to China, as the White House tries
+    to cancel some NASA partnerships....
+  tags:
+  - Space
+  - envision
+  - europe
+  - european space agency
+  - NASA
+  title: Europe will go it alone on Venus mission after NASA yanks radar instrument
+  url: https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/
+- category: webdev
+  published: '2026-09-10T18:41:09'
+  score: 0.709
+  source: Ars Technica
+  summary: App support is slim right now, but Google says more are coming....
+  tags:
+  - Google
+  - Tech
+  - android
+  - google
+  - passwords
+  title: Android can now securely migrate your logins between password managers
+  url: https://arstechnica.com/gadgets/2026/09/android-can-now-securely-migrate-your-logins-between-password-managers/
+- category: ai
+  published: '2026-09-10T16:02:16'
+  score: 0.849
+  source: AWS Machine Learning
+  summary: A configurable, model-agnostic detector that turns any large language model
+    on Amazon Bedrock into a PII detector. Because the entities to detect live in
+    a prompt rather than in code, one detector ada...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Technical How-to
+  title: Model-agnostic PII detection with LLMs
+  url: https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/
+- category: ai
+  published: '2026-09-10T16:00:00'
+  score: 0.849
+  source: OpenAI
+  summary: César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct
+    genomes for antimicrobial candidates to fight drug-resistant infections....
+  tags:
+  - Applied AI
+  title: How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
+  url: https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials
+- category: ai
+  published: '2026-09-10T16:00:00'
+  score: 0.805
+  source: Google AI Blog
+  summary: Illustration on a blue background of technicolor runners with a magnifying
+    glass and Gemini spark overlaid...
+  tags:
+  - Search
+  - Shopping
+  - AI
+  title: 3 ways to prep for your next big race with Search
+  url: https://blog.google/products-and-platforms/products/search/running-race-training-tips/
+- category: ai
+  published: '2026-09-10T15:00:00'
+  score: 0.842
+  source: OpenAI
+  summary: Meet the Data agent in ChatGPT Work. Connect company data, uncover insights,
+    and build interactive dashboards with AI using natural language....
+  tags:
+  - Product
+  title: Now everyone can put data to work
+  url: https://openai.com/index/put-data-to-work
+- category: cybersecurity
   published: '2026-09-10T09:10:20'
   score: 1.299
   source: BleepingComputer
@@ -47445,5 +47623,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-09-10T09:18:58.998535'
-total_articles: 3777
+last_updated: '2026-09-11T09:17:45.157973'
+total_articles: 3792
