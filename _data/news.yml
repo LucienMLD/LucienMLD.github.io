@@ -1,5 +1,151 @@
 articles:
 - category: cybersecurity
+  published: '2026-09-14T09:50:25'
+  score: 1.105
+  source: BleepingComputer
+  summary: Microsoft has confirmed reports that the September 2026 security updates
+    cause Remote Desktop Services (RDS) failures on Windows Server systems. [...]...
+  tags:
+  - Microsoft
+  title: 'Microsoft: September updates cause RDS failures on Windows Server'
+  url: https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/
+- category: cybersecurity
+  published: '2026-09-14T08:48:24'
+  score: 1.097
+  source: BleepingComputer
+  summary: Fintech company Revolut has disclosed a data breach after sharing data
+    from an undisclosed number of customers with a threat actor impersonating a government
+    agency. [...]...
+  tags:
+  - Security
+  title: Revolut discloses data breach exposing financial info, passports
+  url: https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/
+- category: webdev
+  published: '2026-09-14T07:24:39'
+  score: 0.922
+  source: The Hacker News
+  summary: A malicious cross-store Twitch browser extension has leaked OAuth tokens
+    associated with nearly 31,000 users to proxy servers operated by a Russian commercial
+    bot service. The extension, named "Twitch...
+  tags: []
+  title: Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000
+    Users
+  url: https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html
+- category: cybersecurity
+  published: '2026-09-14T07:06:27'
+  score: 1.229
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned
+    that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks.
+    [...]...
+  tags:
+  - Security
+  title: 'CISA: Hackers now exploit max severity GitLab flaw in attacks'
+  url: https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/
+- category: ai
+  published: '2026-09-14T00:00:00'
+  score: 0.854
+  source: OpenAI
+  summary: Perplexity uses Astra to write communications, change software, and monitor
+    production systems, and checks in much less frequently than with earlier models....
+  tags: []
+  title: Perplexity trusts GPT-6 Astra with end-to-end systems
+  url: https://openai.com/index/perplexity-improving-accuracy-with-astra
+- category: webdev
+  published: '2026-09-13T21:56:52'
+  score: 0.723
+  source: Ars Technica
+  summary: The 40-year-old unvaccinated woman reportedly had underlying health conditions....
+  tags:
+  - Health
+  - anti-vaccine
+  - death
+  - Infectious disease
+  - measles
+  title: Unvaccinated Pennsylvania woman died of measles complications, coroner says
+  url: https://arstechnica.com/health/2026/09/unvaccinated-pennsylvania-woman-died-of-measles-complications-coroner-says/
+- category: webdev
+  published: '2026-09-13T15:00:01'
+  score: 0.72
+  source: Towards Data Science
+  summary: Building a FastAPI endpoint for churn prediction, and everything that broke
+    between &quot;it runs&quot; and &quot;it's live The post Your Model Isn't Done
+    Until Someone Else Can Call It appeared first...
+  tags:
+  - Data Engineering
+  - Fastapi
+  - Docker
+  - Machine Learning
+  - Mlops
+  title: Your Model Isn't Done Until Someone Else Can Call It
+  url: https://towardsdatascience.com/your-model-isnt-done-until-someone-else-can-call-it/
+- category: cybersecurity
+  published: '2026-09-13T14:26:32'
+  score: 1.004
+  source: BleepingComputer
+  summary: Threat actors linked to a China-aligned espionage group are exploiting
+    a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for
+    Windows to deploy the GrayRabbit backdoor. [...]...
+  tags:
+  - Security
+  title: Hackers exploit Tencent app flaw to deploy GrayRabbit malware
+  url: https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/
+- category: webdev
+  published: '2026-09-13T12:00:02'
+  score: 0.661
+  source: Towards Data Science
+  summary: A practitioner's guide to estimating what an opt-in AI feature actually
+    did, when nobody randomized it. The post Your AI Adoption Lift Is a Selection
+    Effect appeared first on Towards Data Science....
+  tags:
+  - LLM Applications
+  - AI Adoption
+  - Regression Discontinuity
+  - Causal Inference
+  - Editor's Picks
+  title: Your AI Adoption Lift Is a Selection Effect
+  url: https://towardsdatascience.com/your-ai-adoption-lift-is-a-selection-effect/
+- category: webdev
+  published: '2026-09-13T11:00:41'
+  score: 0.655
+  source: Ars Technica
+  summary: The manufacturer has a service that lets owners repair their own equipment....
+  tags:
+  - Tech
+  - John Deere
+  - right to repair
+  - syndication
+  title: I fixed a tractor using John Deere’s self-repair service. Farmers aren’t
+    sold on it.
+  url: https://arstechnica.com/gadgets/2026/09/i-fixed-a-tractor-using-john-deeres-self-repair-service-farmers-arent-sold-on-it/
+- category: cybersecurity
+  published: '2026-09-13T10:11:48'
+  score: 0.874
+  source: The Hacker News
+  summary: Microsoft has disclosed details of two campaigns in which threat actors
+    are abusing third-party email delivery infrastructure to blast financial fraud
+    scam messages and using passkey-themed social eng...
+  tags: []
+  title: Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate
+    Data
+  url: https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html
+- category: ai
+  published: '2026-09-12T14:00:02'
+  score: 0.614
+  source: Towards Data Science
+  summary: A real Weave project that regression-tests three OpenAI models against
+    the exact reply format your app depends on. The post One Capital Letter Was Silently
+    Breaking My AI Support Bot, and It Wasn't in...
+  tags:
+  - Large Language Models
+  - Deep Dives
+  - Python
+  - Llm Applications
+  - Json
+  title: One Capital Letter Was Silently Breaking My AI Support Bot, and It Wasn't
+    in the New Model
+  url: https://towardsdatascience.com/one-capital-letter-was-silently-breaking-my-ai-support-bot-and-it-wasnt-in-the-new-model/
+- category: cybersecurity
   published: '2026-09-11T07:55:15'
   score: 1.194
   source: BleepingComputer
@@ -47623,5 +47769,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-09-11T09:17:45.157973'
-total_articles: 3792
+last_updated: '2026-09-14T10:14:27.733019'
+total_articles: 3804
