@@ -1,5 +1,180 @@
 articles:
 - category: cybersecurity
+  published: '2026-09-15T07:31:09'
+  score: 1.283
+  source: BleepingComputer
+  summary: Cisco warned customers to patch a critical Secure Email Gateway zero-day
+    security flaw that threat actors have been exploiting in attacks. [...]...
+  tags:
+  - Security
+  title: Cisco patches Secure Email Gateway zero-day exploited in attacks
+  url: https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/
+- category: ai
+  published: '2026-09-15T07:00:30'
+  score: 1.005
+  source: Ars Technica
+  summary: The refreshed Volvos also get new infotainment systems with Gemini onboard....
+  tags:
+  - Cars
+  - Volvo XC60
+  - Volvo XC90
+  title: Volvo increases the batteries for 2028 XC60 and XC90 plug-in refresh
+  url: https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/
+- category: cybersecurity
+  published: '2026-09-15T06:52:16'
+  score: 1.183
+  source: The Hacker News
+  summary: A critical vulnerability in LiteSpeed Web Server Enterprise could let a
+    low-privilege website user gain root access on a shared-hosting server, cPanel
+    warned in an&nbsp;advisory published on September...
+  tags: []
+  title: LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access
+    on a Shared Server
+  url: https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html
+- category: cybersecurity
+  published: '2026-09-15T06:11:11'
+  score: 1.225
+  source: The Hacker News
+  summary: Cisco has warned that a new critical vulnerability impacting AsyncOS Software
+    for Cisco Secure Email Gateway has come under active exploitation in the wild.
+    The vulnerability, tracked as CVE-2026-7646...
+  tags: []
+  title: Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command
+    Execution
+  url: https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html
+- category: cybersecurity
+  published: '2026-09-15T05:31:05'
+  score: 1.268
+  source: The Hacker News
+  summary: A Chinese threat actor has been attributed to a spear-phishing campaign
+    that exploits recently patched security flaws in Google Chrome and Microsoft Windows
+    to deliver a malicious JavaScript backdoor ...
+  tags: []
+  title: China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE
+  url: https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html
+- category: webdev
+  published: '2026-09-15T03:47:36'
+  score: 0.863
+  source: Ars Technica
+  summary: '"The United States now has on-orbit space control weapons capable of defending
+    the joint force."...'
+  tags:
+  - Science
+  - Space
+  - military space
+  - space warfare
+  - space weapons
+  title: For the first time, the US military confirms it has deployed weapons in orbit
+  url: https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/
+- category: webdev
+  published: '2026-09-14T22:06:24'
+  score: 0.727
+  source: Ars Technica
+  summary: The event is hosted by Kennedy's anti-vaccine group Children's Health Defense....
+  tags:
+  - Health
+  - andrew wakefield
+  - anti-vaccine
+  - Children's Health
+  - robert f kennedy jr
+  title: RFK Jr. headlines sold-out anti-vaccine conference alongside Andrew Wakefield
+  url: https://arstechnica.com/health/2026/09/rfk-jr-headlines-sold-out-anti-vaccine-conference-alongside-andrew-wakefield/
+- category: ai
+  published: '2026-09-14T19:45:13'
+  score: 0.916
+  source: Ars Technica
+  summary: Musk stops attacking Apple over ChatGPT integration but not OpenAI....
+  tags:
+  - AI
+  - Apple
+  - Policy
+  - antitrust
+  - apple
+  title: OpenAI stuck fighting Musk antitrust suit after Apple finds a way out
+  url: https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/
+- category: webdev
+  published: '2026-09-14T19:03:51'
+  score: 0.748
+  source: BleepingComputer
+  summary: A browser extension called Twitch Enhanced Viewer | JeetBot, available
+    in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens
+    to a commercial bot service. [...]...
+  tags:
+  - Security
+  title: Twitch extension with 30K installs exposes users’ OAuth tokens
+  url: https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/
+- category: webdev
+  published: '2026-09-14T19:00:00'
+  score: 0.748
+  source: Google AI Blog
+  summary: Christina Koch sits down with James Manyika, Google’s Senior Vice President
+    of Research, Labs, Technology & Society....
+  tags:
+  - AI
+  title: Watch astronaut Christina Koch and Google’s James Manyika discuss space,
+    technology, and discovery.
+  url: https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/
+- category: webdev
+  published: '2026-09-14T17:58:16'
+  score: 0.822
+  source: The Hacker News
+  summary: A flaw in Telegram Desktop let a bot's message plant hidden JavaScript
+    inside chats that users exported to HTML files, security researchers at ExPatch
+    said in a&nbsp;writeup&nbsp;published on Septembe...
+  tags: []
+  title: Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML
+    Exports
+  url: https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html
+- category: ai
+  published: '2026-09-14T17:52:20'
+  score: 0.815
+  source: Towards Data Science
+  summary: When Codex is the right shape for the problem, when Claude Code is, and
+    how I split 5 specialist agents between them on dense AI capacity work. The post
+    When to Use One Model and When to Use a Team of...
+  tags:
+  - Agentic AI
+  - Agentic Workflows
+  - Data Centric Ai
+  - Cloud Migration
+  - Llm
+  title: When to Use One Model and When to Use a Team of Agents
+  url: https://towardsdatascience.com/when-to-use-one-model-and-when-to-use-a-team-of-agents/
+- category: ai
+  published: '2026-09-14T16:07:46'
+  score: 0.847
+  source: Schneier on Security
+  summary: 'Last week, Anthropic released a long and detailed document describing
+    current misuses of their Claude models. I&#8217;m still reading it, but I wanted
+    to flag this: We identified a cell of threat acto...'
+  tags:
+  - Uncategorized
+  - AI
+  - reports
+  - weapons
+  title: Using AI for Weapons Development
+  url: https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html
+- category: cybersecurity
+  published: '2026-09-14T12:00:00'
+  score: 1.037
+  source: CISA
+  summary: CISA has added one new vulnerability to its Known Exploited Vulnerabilities
+    (KEV) Catalog, based on evidence of active exploitation. CVE-2026-76461 Cisco
+    Secure Email Gateway SQL Injection Vulnerabili...
+  tags: []
+  title: CISA Adds One Known Exploited Vulnerability to Catalog
+  url: https://www.cisa.gov/news-events/alerts/2026/09/14/cisa-adds-one-known-exploited-vulnerability-catalog
+- category: ai
+  published: '2026-09-14T12:00:00'
+  score: 0.819
+  source: OpenAI
+  summary: Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to
+    organize inboxes and draft emails in each user’s voice....
+  tags:
+  - Startup
+  title: How Fyxer built an AI executive assistant people trust
+  url: https://openai.com/index/fyxer
+- category: cybersecurity
   published: '2026-09-14T09:50:25'
   score: 1.105
   source: BleepingComputer
@@ -47769,5 +47944,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-09-14T10:14:27.733019'
-total_articles: 3804
+last_updated: '2026-09-15T09:43:28.400169'
+total_articles: 3819
