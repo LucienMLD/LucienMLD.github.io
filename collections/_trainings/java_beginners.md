@@ -1,5 +1,5 @@
 ---
-title: "Programmation Java pour les débutants"
+title: "Java Programming for Beginners"
 company: "Coursera"
 date_begin: 2024/01
 date_end: 2024/01
