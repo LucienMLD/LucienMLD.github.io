@@ -6,4 +6,4 @@ date_end: 2024/01
 competences: ["Artificial Intelligence", "AI Essentials", "Generative AI", "Prompt Engineering"]
 ---
 
-Certification Google axée sur l'initiation et l'application pratique des concepts d'intelligence artificielle dans le cadre professionnel.
+Google certification focused on the introduction and practical application of artificial intelligence concepts in a professional environment.

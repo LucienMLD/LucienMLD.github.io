@@ -6,4 +6,4 @@ date_end: 2024/01
 competences: ["Java", "Object-Oriented Programming (OOP)", "Software Development"]
 ---
 
-Certification d'initiation à la programmation Java, couvrant les concepts fondamentaux de la programmation orientée objet, l'algorithmique et le développement d'applications logicielles.
+Introductory Java programming certification, covering the fundamental concepts of object-oriented programming, algorithms, and software application development.
