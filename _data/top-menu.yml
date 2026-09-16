@@ -1,9 +1,6 @@
 - title: Experiences
-  url: "/experiences"
+  url: /experiences/
 - title: Trainings
-  url: "/trainings"
-- title: Press
-  url: "/press"
-- title: Contact
-  url: "/contact"
-
+  url: /trainings/
+- title: Brakeman Audit
+  url: /brakeman-visualizer/
