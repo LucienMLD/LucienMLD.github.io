@@ -2,7 +2,7 @@
 presentation: |
   Ruby on Rails developer passionate about building robust and secure web applications. Currently pursuing Cybersecurity Engineering studies, I combine 9 years of development expertise with a security-first approach from the design phase.<br/>
   
-  I currently work on the French government's business advisory platform, developing digital services that connect thousands of businesses with professional advisors. My focus: creating performant, accessible, and secure applications that make a real impact.<br/>
+  As **Web Developer & Security Lead** at **DINUM** (French Interministerial Digital Directorate), I lead security initiatives and system architecture for the **Sites Faciles** platform, a multi-tenant Python/Django ecosystem powering secure and accessible government websites. I also continue to evolve mission-critical Ruby on Rails platforms in healthcare (DAPSA) and public service business matchmaking (Conseillers-Entreprises).<br/>
   <br/>
   <strong>Technical Expertise</strong><br/>
   • <strong>Ruby on Rails:</strong> Full-stack development, from architecture to production deployment<br/>

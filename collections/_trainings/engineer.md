@@ -1,8 +1,8 @@
 ---
 title: "IT engineer specializing in cybersecurity"
 company: CNAM (Conservatoire national des arts et métiers)
-date_begin: 2024/02
-date_end: 2027/12
+date_begin: 2024/01
+date_end: 2026/12
 competences: [
   "Security Operations Center (SOC)",
   "Threat Detection & Response", 
