@@ -2,6 +2,7 @@
 title: "Web developer & Security lead"
 company: "Sites Faciles - DINUM"
 date_begin: 2025/03
+date_end: 2025/12
 competences: ["Python", "Django", "Wagtail", "PostgreSQL", "HTML", "CSS", "Javascript", "Scalingo", "Accessibility RGAA", "W3C", "Web application security", "Platform development", "Multi-tenancy", "Security audits", "OWASP", "Vulnerability assessment"]
 website-url: "https://sites.beta.gouv.fr"
 ---
