@@ -1,4 +1,185 @@
 articles:
+- category: webdev
+  published: '2026-09-16T09:10:20'
+  score: 0.897
+  source: BleepingComputer
+  summary: Microsoft has reminded customers that Windows Server 2022 will reach the
+    end of mainstream support next month and enter extended support until October
+    2031. [...]...
+  tags:
+  - Microsoft
+  title: Windows Server 2022 reaches end of mainstream support next month
+  url: https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/
+- category: cybersecurity
+  published: '2026-09-16T07:00:19'
+  score: 1.28
+  source: BleepingComputer
+  summary: Google has released the September 2026 security patches to address 110
+    vulnerabilities affecting its Pixel devices, including one zero-day flaw actively
+    exploited in targeted attacks. [...]...
+  tags:
+  - Security
+  - Google
+  title: Google fixes actively exploited Android zero-day on Pixel devices
+  url: https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/
+- category: cybersecurity
+  published: '2026-09-16T05:48:28'
+  score: 1.223
+  source: The Hacker News
+  summary: Threat actors are exploiting a critical security flaw in WooCommerce Wholesale
+    Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.
+    "This vulnerability can be leveraged b...
+  tags: []
+  title: Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web
+    Shells
+  url: https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html
+- category: cybersecurity
+  published: '2026-09-16T05:18:06'
+  score: 1.268
+  source: The Hacker News
+  summary: 'A critical security flaw in WSO2 API Manager has come under active exploitation
+    in the wild, according to findings from watchTowr. The vulnerability, tracked
+    as CVE-2026-5430 (CVSS score: 9.8/10.0), i...'
+  tags: []
+  title: Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged
+    Admin Tokens
+  url: https://thehackernews.com/2026/09/active-exploitation-attempts-target.html
+- category: webdev
+  published: '2026-09-16T04:00:39'
+  score: 0.865
+  source: Ars Technica
+  summary: Adults first demonstrate tool use, then hand over the implements to their
+    infants, who copy the behavior....
+  tags:
+  - Science
+  - animal behavior
+  - animal psychology
+  - animal tool use
+  - chimpanzees
+  title: How chimps teach their kids tool tricks
+  url: https://arstechnica.com/science/2026/09/how-chimps-teach-their-kids-tool-tricks/
+- category: webdev
+  published: '2026-09-15T22:26:32'
+  score: 0.73
+  source: Ars Technica
+  summary: The Nancy Grace Roman Space Telescope is the first NASA observatory designed
+    for in-space refueling....
+  tags:
+  - Space
+  - falcon heavy
+  - goddard space flight center
+  - Nancy Grace Roman Space Telescope
+  - NASA
+  title: The Roman telescope has enough gas for 22 years, double NASA's expectations
+  url: https://arstechnica.com/space/2026/09/the-roman-telescope-has-enough-gas-for-22-years-double-nasas-expectations/
+- category: ai
+  published: '2026-09-15T17:05:57'
+  score: 0.81
+  source: DeepMind
+  summary: '...'
+  tags: []
+  title: Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking
+  url: https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/
+- category: webdev
+  published: '2026-09-15T16:18:19'
+  score: 0.732
+  source: AWS Machine Learning
+  summary: Prompt caching in Amazon Bedrock can cut input token costs by up to 90%
+    when you repeatedly send the same context to foundation models. This post walks
+    through six practical prompt caching scenarios u...
+  tags:
+  - Advanced (300)
+  - Amazon Bedrock
+  - Technical How-to
+  title: Optimizing cost and latency with Amazon Bedrock prompt caching
+  url: https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/
+- category: webdev
+  published: '2026-09-15T16:00:00'
+  score: 0.73
+  source: Google AI Blog
+  summary: Explore this collection to see how experts and local leaders are using
+    AI breakthroughs to ensure everyone can share the opportunity of AI....
+  tags:
+  - AI
+  title: AI for Societal Impact
+  url: https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/
+- category: ai
+  published: '2026-09-15T14:00:01'
+  score: 0.789
+  source: Towards Data Science
+  summary: Keep your apps looking professional with Claude Code design skills The
+    post How to Build Consistent Designs with Claude Code appeared first on Towards
+    Data Science....
+  tags:
+  - LLM Applications
+  - LLM Agents
+  - Design
+  - Claude Code
+  - Codex
+  title: How to Build Consistent Designs with Claude Code
+  url: https://towardsdatascience.com/how-to-build-consistent-designs-with-claude-code/
+- category: cybersecurity
+  published: '2026-09-15T13:45:54'
+  score: 1.051
+  source: BleepingComputer
+  summary: AI is shrinking the time between vulnerability disclosure and exploitation,
+    leaving defenders less time to wait for patches or public exploits. Picus Security
+    explains how exploitability validation, s...
+  tags:
+  - Security
+  title: What Zero-Day Response Should Be in the Post-Mythos Era
+  url: https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/
+- category: cybersecurity
+  published: '2026-09-15T12:16:32'
+  score: 1.04
+  source: BleepingComputer
+  summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned
+    security teams that ransomware gangs have now joined ongoing attacks exploiting
+    a critical VMware vCenter vulnerability patched ...
+  tags:
+  - Security
+  title: 'CISA: Critical VMware RCE flaw now exploited by ransomware gangs'
+  url: https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/
+- category: ai
+  published: '2026-09-15T12:00:41'
+  score: 0.775
+  source: Ars Technica
+  summary: Ars previewed Mozilla’s report on how cheap open models caught up on capability....
+  tags:
+  - AI
+  - AI models
+  - Anthropic
+  - Anthropic Claude
+  - frontier ai
+  title: 'Exclusive: Paying for frontier AI models buys 4-month head start at 5x the
+    cost'
+  url: https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/
+- category: ai
+  published: '2026-09-15T12:00:00'
+  score: 0.775
+  source: Machine Learning Mastery
+  summary: In this article, you will learn how to treat prompt templates as tunable
+    hyperparameters for a language model, using scikit-learn's grid search to find
+    the......
+  tags: []
+  title: Treating Prompt Templates as Hyperparameters in Scikit-LLM GridSearchCV
+  url: https://machinelearningmastery.com/treating-prompt-templates-as-hyperparameters-in-scikit-llm-gridsearchcv/
+- category: ai
+  published: '2026-09-15T11:00:01'
+  score: 0.768
+  source: Towards Data Science
+  summary: Before reaching for an LLM API on every classification problem, it's worth
+    knowing what a decades-old baseline can already do with the labeled data you have
+    — and exactly how much more data buys you. ...
+  tags:
+  - NLP
+  - Llm
+  - Tfidf Vectorizer
+  - Data Science
+  - Machine Learning
+  title: How Many Labeled Examples Does a Text Classifier Actually Need? I Measured
+    It.
+  url: https://towardsdatascience.com/how-many-labeled-examples-does-a-text-classifier-actually-need-i-measured-it/
 - category: cybersecurity
   published: '2026-09-15T07:31:09'
   score: 1.283
@@ -47944,5 +48125,5 @@ articles:
   tags: []
   title: CISA Releases Ten Industrial Control Systems Advisories
   url: https://www.cisa.gov/news-events/alerts/2025/08/07/cisa-releases-ten-industrial-control-systems-advisories
-last_updated: '2026-09-15T09:43:28.400169'
-total_articles: 3819
+last_updated: '2026-09-16T09:37:30.574927'
+total_articles: 3834
