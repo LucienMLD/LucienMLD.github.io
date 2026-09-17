@@ -1,5 +1,6 @@
 ---
 title: Contact
+permalink: /contact/
 layout: contact
 description: Let's connect and create something amazing together
 form_action: https://submit-form.com/eDQ2GwzFq
