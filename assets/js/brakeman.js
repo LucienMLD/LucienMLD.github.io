@@ -11,10 +11,138 @@ document.addEventListener('DOMContentLoaded', function() {
   const emptyState = document.getElementById('empty-state');
   const warningCountBadge = document.getElementById('warning-count-badge');
   const uploadAnotherBtn = document.getElementById('upload-another-btn');
+  const loadSampleBtn = document.getElementById('load-sample-btn');
+  const dashboardSampleBtn = document.getElementById('dashboard-sample-btn');
+  const sampleBadge = document.getElementById('sample-badge');
 
   let reportData = null;
   let normalizedWarnings = [];
   let activeFilter = 'all';
+
+  // Realistic Brakeman JSON output used by the "Load Sample Report" buttons.
+  // It covers every confidence level plus a warning muted through config/brakeman.ignore.
+  const SAMPLE_REPORT = {
+    scan_info: {
+      app_path: "/home/deploy/apps/storefront",
+      rails_version: "7.1.3",
+      security_warnings: 5,
+      start_time: "2026-09-15T09:42:18+02:00",
+      end_time: "2026-09-15T09:42:21+02:00",
+      duration: 3.184215,
+      checks_performed: ["BasicAuth", "CrossSiteScripting", "Execute", "PermitAttributes", "Redirect", "Render", "SQL", "UnsafeReflection"],
+      number_of_controllers: 18,
+      controllers: [],
+      number_of_models: 12,
+      models: [],
+      number_of_templates: 64,
+      templates: [],
+      ruby_version: "3.3.0",
+      brakeman_version: "7.0.0"
+    },
+    warnings: [
+      {
+        warning_type: "SQL Injection",
+        warning_code: 0,
+        fingerprint: "9c326ecfecb6243e7b642767df6691ac1e3587e9502195a891667dcbfb971854",
+        check_name: "SQL",
+        message: "Possible SQL injection",
+        file: "app/controllers/orders_controller.rb",
+        line: 14,
+        link: "https://brakemanscanner.org/docs/warning_types/sql_injection/",
+        code: "Order.where(\"status = '#{params[:status]}' AND user_id = #{current_user.id}\")",
+        render_path: null,
+        location: { type: "method", class: "OrdersController", method: "index" },
+        user_input: "params[:status]",
+        confidence: "High",
+        cwe_id: [89]
+      },
+      {
+        warning_type: "Remote Code Execution",
+        warning_code: 24,
+        fingerprint: "870dba17c81b7912a3b0fe757952ac6eccebe885604354041253d877b1de21cd",
+        check_name: "UnsafeReflection",
+        message: "Unsafe reflection method `constantize` called with parameter value",
+        file: "app/controllers/reports_controller.rb",
+        line: 27,
+        link: "https://brakemanscanner.org/docs/warning_types/remote_code_execution/",
+        code: "params[:report_type].constantize",
+        render_path: null,
+        location: { type: "method", class: "ReportsController", method: "export" },
+        user_input: "params[:report_type]",
+        confidence: "High",
+        cwe_id: [470]
+      },
+      {
+        warning_type: "Mass Assignment",
+        warning_code: 105,
+        fingerprint: "1f33c2350b2e22778b5afa21365abf14a64bfe3602fdcbebade9b812aa2d2e15",
+        check_name: "PermitAttributes",
+        message: "Potentially dangerous key allowed for mass assignment",
+        file: "app/controllers/admin/users_controller.rb",
+        line: 58,
+        link: "https://brakemanscanner.org/docs/warning_types/mass_assignment/",
+        code: "params.require(:user).permit(:name, :email, :admin)",
+        render_path: null,
+        location: { type: "method", class: "Admin::UsersController", method: "user_params" },
+        user_input: ":admin",
+        confidence: "Medium",
+        cwe_id: [915]
+      },
+      {
+        warning_type: "Cross-Site Scripting",
+        warning_code: 2,
+        fingerprint: "8bdc10979833032f8e782caad1077d4f955825ae8392e7e17b3595f938364b16",
+        check_name: "CrossSiteScripting",
+        message: "Unescaped model attribute",
+        file: "app/views/reviews/_review.html.erb",
+        line: 9,
+        link: "https://brakemanscanner.org/docs/warning_types/cross_site_scripting",
+        code: "raw(Review.find(params[:id]).body)",
+        render_path: [{ type: "controller", class: "ReviewsController", method: "show", line: 12, file: "app/controllers/reviews_controller.rb", rendered: { name: "reviews/show", file: "app/views/reviews/show.html.erb" } }],
+        location: { type: "template", template: "reviews/_review" },
+        user_input: null,
+        confidence: "Medium",
+        cwe_id: [79]
+      },
+      {
+        warning_type: "Dynamic Render Path",
+        warning_code: 15,
+        fingerprint: "d60b0b1637037c193c6b61f4c2e65bc69f550f58e1105c6a4554bf301bcf185d",
+        check_name: "Render",
+        message: "Render path contains parameter value",
+        file: "app/controllers/pages_controller.rb",
+        line: 6,
+        link: "https://brakemanscanner.org/docs/warning_types/dynamic_render_path/",
+        code: "render(action => \"pages/#{params[:page]}\", {})",
+        render_path: null,
+        location: { type: "method", class: "PagesController", method: "show" },
+        user_input: "params[:page]",
+        confidence: "Weak",
+        cwe_id: [22]
+      }
+    ],
+    ignored_warnings: [
+      {
+        warning_type: "Command Injection",
+        warning_code: 14,
+        fingerprint: "50ba3800e39ecb3e09e7557894ee67593262074bd8726e6e48f1c0659cdc8027",
+        check_name: "Execute",
+        message: "Possible command injection",
+        file: "lib/tasks/backup.rake",
+        line: 11,
+        link: "https://brakemanscanner.org/docs/warning_types/command_injection/",
+        code: "system(\"pg_dump #{ENV.fetch(\"DATABASE_NAME\")} > #{backup_path}\")",
+        render_path: null,
+        location: { type: "method", class: null, method: null },
+        user_input: "ENV.fetch(\"DATABASE_NAME\")",
+        confidence: "Medium",
+        cwe_id: [77],
+        note: "DATABASE_NAME and backup_path are set by the deployment pipeline and never come from user input. Reviewed by the security team."
+      }
+    ],
+    errors: [],
+    obsolete: []
+  };
 
     ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
     dropzone.addEventListener(eventName, preventDefaults, false);
@@ -52,10 +180,30 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
     dropzone.addEventListener('click', function(e) {
+    // The sample button lives inside the dropzone and must not open the file dialog
+    if (loadSampleBtn && loadSampleBtn.contains(e.target)) return;
     if (e.target !== fileInput && e.target.tagName !== 'LABEL') {
       fileInput.click();
     }
   });
+
+  function loadSampleReport(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    hideError();
+    searchInput.value = '';
+    setActiveFilter('all');
+    loadReport(JSON.parse(JSON.stringify(SAMPLE_REPORT)), true);
+  }
+
+  if (loadSampleBtn) loadSampleBtn.addEventListener('click', loadSampleReport);
+  if (dashboardSampleBtn) dashboardSampleBtn.addEventListener('click', loadSampleReport);
+
+  function setSampleMode(isSample) {
+    if (sampleBadge) sampleBadge.hidden = !isSample;
+    // Reloading the sample while it is displayed would be a no-op
+    if (dashboardSampleBtn) dashboardSampleBtn.hidden = isSample;
+  }
 
   // Clear/Reset button to go back to upload state
   if (uploadAnotherBtn) {
@@ -64,6 +212,7 @@ document.addEventListener('DOMContentLoaded', function() {
       normalizedWarnings = [];
       searchInput.value = '';
       setActiveFilter('all');
+      setSampleMode(false);
 
       dashboard.style.display = 'none';
       dropzone.style.display = 'block';
@@ -100,9 +249,7 @@ document.addEventListener('DOMContentLoaded', function() {
           return;
         }
 
-        reportData = parsed;
-        normalizeReportData();
-        renderDashboard();
+        loadReport(parsed, false);
       } catch (err) {
         showError("Invalid JSON", "Could not parse the file. Please check that it is a valid JSON file. Error: " + err.message);
       }
@@ -111,6 +258,13 @@ document.addEventListener('DOMContentLoaded', function() {
       showError("Read Error", "An error occurred while reading the file.");
     };
     reader.readAsText(file);
+  }
+
+  function loadReport(parsed, isSample) {
+    reportData = parsed;
+    setSampleMode(isSample);
+    normalizeReportData();
+    renderDashboard();
   }
 
   // Strictly normalize all warning inputs on load to prevent rendering crashes
