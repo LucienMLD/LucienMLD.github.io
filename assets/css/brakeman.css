@@ -39,6 +39,9 @@
   --bk-weak: #34d399;
   --bk-weak-bg: rgba(16, 185, 129, 0.15);
   --bk-weak-border: rgba(16, 185, 129, 0.35);
+  --bk-ignored: #c4b5fd;
+  --bk-ignored-bg: rgba(139, 92, 246, 0.15);
+  --bk-ignored-border: rgba(139, 92, 246, 0.4);
 
   /* Code blocks keep a dark technical look in both themes */
   --bk-code-bg: #090d16;
@@ -85,8 +88,16 @@ html[data-theme="light"] .brakeman-visualizer {
   --bk-weak: #047857;
   --bk-weak-bg: #ecfdf5;
   --bk-weak-border: #a7f3d0;
+  --bk-ignored: #6d28d9;
+  --bk-ignored-bg: #f5f3ff;
+  --bk-ignored-border: #ddd6fe;
 
   --bk-code-border: #1e293b;
+}
+
+/* Elements toggled via the hidden attribute must stay hidden despite display rules */
+.brakeman-visualizer [hidden] {
+  display: none !important;
 }
 
 /* Screen Reader Only (Accessibility helper) */
@@ -324,6 +335,13 @@ html[data-theme="light"] .brakeman-visualizer {
   color: var(--bk-text);
 }
 
+/* Discreet secondary line under a metric (e.g. "0 active · 4 ignored") */
+.summary-card .card-note {
+  font-size: 0.8rem;
+  color: var(--bk-text-muted);
+  margin: 0.15rem 0 0;
+}
+
 /* Colors for summary metrics */
 .icon-total { background: var(--bk-accent-tint); color: var(--bk-accent); }
 .icon-high { background: var(--bk-high-bg); color: var(--bk-high); }
@@ -513,6 +531,24 @@ html[data-theme="light"] .brakeman-visualizer {
 .filter-btn.btn-high i { color: var(--bk-high); }
 .filter-btn.btn-med i { color: var(--bk-med); }
 .filter-btn.btn-weak i { color: var(--bk-weak); }
+.filter-btn.btn-ignored i { color: var(--bk-ignored); }
+
+.filter-count {
+  min-width: 1.5em;
+  padding: 0 0.4rem;
+  border-radius: 10px;
+  background: var(--bk-surface-inset);
+  border: 1px solid var(--bk-border);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  color: inherit;
+}
+
+.filter-btn.active .filter-count {
+  border-color: rgba(var(--bk-accent-rgb), 0.4);
+}
 
 .filter-btn:hover, .filter-btn:focus-visible {
   background: var(--bk-surface-hover);
@@ -678,6 +714,50 @@ html[data-theme="light"] .severity-indicator { box-shadow: none; }
 .badge-high { background: var(--bk-high-bg); color: var(--bk-high); border: 1px solid var(--bk-high-border); }
 .badge-med { background: var(--bk-med-bg); color: var(--bk-med); border: 1px solid var(--bk-med-border); }
 .badge-weak { background: var(--bk-weak-bg); color: var(--bk-weak); border: 1px solid var(--bk-weak-border); }
+.badge-ignored {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: var(--bk-ignored-bg);
+  color: var(--bk-ignored);
+  border: 1px solid var(--bk-ignored-border);
+}
+
+/* Ignored warnings: dimmed severity bar, still fully readable text */
+.warning-item.is-ignored .severity-indicator {
+  opacity: 0.45;
+  box-shadow: none;
+}
+
+.ignored-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: var(--bk-ignored-bg);
+  border: 1px solid var(--bk-ignored-border);
+  border-left: 3px solid var(--bk-ignored);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.ignored-note > i {
+  color: var(--bk-ignored);
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.ignored-note p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--bk-text);
+}
+
+.ignored-note .ignored-note-title {
+  font-weight: 600;
+  color: var(--bk-ignored);
+  margin-bottom: 0.2rem;
+}
 
 .expand-chevron {
   font-size: 1.3rem;

@@ -63,17 +63,8 @@ document.addEventListener('DOMContentLoaded', function() {
       reportData = null;
       normalizedWarnings = [];
       searchInput.value = '';
-      activeFilter = 'all';
-      filterBtns.forEach(btn => {
-        btn.classList.remove('active');
-        btn.setAttribute('aria-pressed', 'false');
-      });
-      const allBtn = document.querySelector('[data-filter="all"]');
-      if (allBtn) {
-        allBtn.classList.add('active');
-        allBtn.setAttribute('aria-pressed', 'true');
-      }
-      
+      setActiveFilter('all');
+
       dashboard.style.display = 'none';
       dropzone.style.display = 'block';
       fileInput.value = ''; // Ensure same file can be selected again
@@ -101,9 +92,11 @@ document.addEventListener('DOMContentLoaded', function() {
       try {
         const parsed = JSON.parse(event.target.result);
         
-        // Strict validation of Brakeman output structure
-        if (!parsed || typeof parsed !== 'object' || !Array.isArray(parsed.warnings)) {
-          showError("Invalid File Format", "This file doesn't seem to be a valid Brakeman JSON report. It must contain a 'warnings' array.");
+        // Strict validation of Brakeman output structure: a report may only contain
+        // ignored warnings (muted through config/brakeman.ignore), so accept either array
+        const isObject = parsed && typeof parsed === 'object' && !Array.isArray(parsed);
+        if (!isObject || (!Array.isArray(parsed.warnings) && !Array.isArray(parsed.ignored_warnings))) {
+          showError("Invalid File Format", "This file doesn't seem to be a valid Brakeman JSON report. It must contain a 'warnings' or 'ignored_warnings' array.");
           return;
         }
 
@@ -122,39 +115,49 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Strictly normalize all warning inputs on load to prevent rendering crashes
   function normalizeReportData() {
-    if (!reportData || !Array.isArray(reportData.warnings)) return;
+    if (!reportData) return;
 
     // Filter out any non-object entries first to be 100% robust
-    const rawWarnings = reportData.warnings.filter(w => w && typeof w === 'object' && !Array.isArray(w));
+    const toRawList = list => (Array.isArray(list) ? list : []).filter(w => w && typeof w === 'object' && !Array.isArray(w));
 
-    normalizedWarnings = rawWarnings.map(w => {
-      // Validate and cast all attributes safely, accounting for line 0
-      const warning_type = (w.warning_type !== null && w.warning_type !== undefined) ? String(w.warning_type).trim() : 'Warning';
-      const message = (w.message !== null && w.message !== undefined) ? String(w.message).trim() : 'No description provided';
-      const file = (w.file !== null && w.file !== undefined) ? String(w.file).trim() : 'Unknown file';
-      const line = (w.line !== null && w.line !== undefined) ? String(w.line).trim() : 'N/A';
-      
-      let code = null;
-      if (w.code !== null && w.code !== undefined) {
-        code = typeof w.code === 'object' ? JSON.stringify(w.code) : String(w.code).trim();
-      }
-      
-      let confidence = 'weak';
-      const rawConf = String(w.confidence || '').toLowerCase().trim();
-      if (rawConf === 'high' || rawConf === 'medium' || rawConf === 'weak') {
-        confidence = rawConf;
-      }
+    normalizedWarnings = [
+      ...toRawList(reportData.warnings).map(w => normalizeWarning(w, false)),
+      ...toRawList(reportData.ignored_warnings).map(w => normalizeWarning(w, true))
+    ];
+  }
 
-      return {
-        warning_type,
-        message,
-        file,
-        line,
-        code,
-        confidence,
-        fingerprint: w.fingerprint ? String(w.fingerprint).trim() : ''
-      };
-    });
+  function normalizeWarning(w, isIgnored) {
+    // Validate and cast all attributes safely, accounting for line 0
+    const warning_type = (w.warning_type !== null && w.warning_type !== undefined) ? String(w.warning_type).trim() : 'Warning';
+    const message = (w.message !== null && w.message !== undefined) ? String(w.message).trim() : 'No description provided';
+    const file = (w.file !== null && w.file !== undefined) ? String(w.file).trim() : 'Unknown file';
+    const line = (w.line !== null && w.line !== undefined) ? String(w.line).trim() : 'N/A';
+
+    let code = null;
+    if (w.code !== null && w.code !== undefined) {
+      code = typeof w.code === 'object' ? JSON.stringify(w.code) : String(w.code).trim();
+    }
+
+    let confidence = 'weak';
+    const rawConf = String(w.confidence || '').toLowerCase().trim();
+    if (rawConf === 'high' || rawConf === 'medium' || rawConf === 'weak') {
+      confidence = rawConf;
+    }
+
+    // Brakeman stores the justification written in brakeman.ignore under "note"
+    const note = (isIgnored && w.note !== null && w.note !== undefined) ? String(w.note).trim() : '';
+
+    return {
+      warning_type,
+      message,
+      file,
+      line,
+      code,
+      confidence,
+      is_ignored: isIgnored,
+      note,
+      fingerprint: w.fingerprint ? String(w.fingerprint).trim() : ''
+    };
   }
 
   // Calculate Security Score based on confidence of issues
@@ -188,26 +191,42 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const scanInfo = reportData.scan_info || {};
 
-        const total = normalizedWarnings.length;
-    let high = 0;
-    let med = 0;
-    let weak = 0;
+    // Confidence counters and the Security Index only reflect active warnings:
+    // ignored ones were reviewed and muted by the team in config/brakeman.ignore
+    const activeWarnings = normalizedWarnings.filter(w => !w.is_ignored);
+    const total = normalizedWarnings.length;
+    const ignored = total - activeWarnings.length;
+    const counts = { all: total, high: 0, medium: 0, weak: 0, ignored };
 
-    normalizedWarnings.forEach(w => {
-      if (w.confidence === 'high') high++;
-      else if (w.confidence === 'medium') med++;
-      else weak++;
+    activeWarnings.forEach(w => counts[w.confidence]++);
+
+    document.getElementById('val-total').textContent = total;
+    document.getElementById('val-high').textContent = counts.high;
+    document.getElementById('val-med').textContent = counts.medium;
+    document.getElementById('val-weak').textContent = counts.weak;
+
+    const totalNote = document.getElementById('val-total-note');
+    totalNote.textContent = `${activeWarnings.length} active · ${ignored} ignored`;
+    totalNote.hidden = ignored === 0;
+
+    filterBtns.forEach(btn => {
+      const countEl = btn.querySelector('.filter-count');
+      if (countEl) countEl.textContent = counts[btn.dataset.filter];
     });
 
-        document.getElementById('val-total').textContent = total;
-    document.getElementById('val-high').textContent = high;
-    document.getElementById('val-med').textContent = med;
-    document.getElementById('val-weak').textContent = weak;
+    // Only offer the Ignored filter when the report actually contains ignored warnings
+    const ignoredBtn = document.querySelector('.filter-btn[data-filter="ignored"]');
+    if (ignoredBtn) ignoredBtn.hidden = ignored === 0;
+    if (activeFilter === 'ignored' && ignored === 0) setActiveFilter('all');
 
-        const rating = calculateSecurityScore(normalizedWarnings);
+    const rating = calculateSecurityScore(activeWarnings);
     document.getElementById('val-grade').textContent = rating.grade;
     document.getElementById('val-score-label').textContent = rating.label;
     document.getElementById('score-percent').textContent = rating.score + "%";
+
+    const scoreNote = document.getElementById('val-score-note');
+    scoreNote.textContent = `${ignored} ignored warning${ignored > 1 ? 's' : ''} not scored`;
+    scoreNote.hidden = ignored === 0;
 
         const gradeEl = document.getElementById('val-grade');
     gradeEl.className = 'value'; // Reset classes
@@ -389,15 +408,18 @@ document.addEventListener('DOMContentLoaded', function() {
     return info;
   }
 
+  function setActiveFilter(filter) {
+    activeFilter = filter;
     filterBtns.forEach(btn => {
+      const isActive = btn.dataset.filter === filter;
+      btn.classList.toggle('active', isActive);
+      btn.setAttribute('aria-pressed', String(isActive));
+    });
+  }
+
+  filterBtns.forEach(btn => {
     btn.addEventListener('click', function() {
-      filterBtns.forEach(b => {
-        b.classList.remove('active');
-        b.setAttribute('aria-pressed', 'false');
-      });
-      this.classList.add('active');
-      this.setAttribute('aria-pressed', 'true');
-      activeFilter = this.dataset.filter;
+      setActiveFilter(this.dataset.filter);
       applyFiltersAndSearch();
     });
   });
@@ -416,12 +438,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
       let isVisible = true;
 
-            if (activeFilter !== 'all' && w.confidence !== activeFilter) {
-        isVisible = false;
+      // "ignored" isolates muted warnings; confidence filters target active ones
+      if (activeFilter === 'ignored') {
+        isVisible = w.is_ignored;
+      } else if (activeFilter !== 'all') {
+        isVisible = !w.is_ignored && w.confidence === activeFilter;
       }
 
             if (isVisible && searchTerm) {
-        const textToMatch = `${w.warning_type} ${w.message} ${w.file} ${w.code || ''}`.toLowerCase();
+        const textToMatch = `${w.warning_type} ${w.message} ${w.file} ${w.code || ''} ${w.note}`.toLowerCase();
         if (!textToMatch.includes(searchTerm)) {
           isVisible = false;
         }
@@ -457,7 +482,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const warningId = `warning-${index}`;
       
       const itemEl = document.createElement('div');
-      itemEl.className = 'warning-item';
+      itemEl.className = w.is_ignored ? 'warning-item is-ignored' : 'warning-item';
       itemEl.id = warningId;
 
             let barClass = 'severity-weak-bar';
@@ -482,6 +507,25 @@ document.addEventListener('DOMContentLoaded', function() {
               <span>Line ${escapeHTML(w.line)}</span>
             </div>
             <pre class="code-block"><code>${escapeHTML(w.code)}</code></pre>
+          </div>
+        `;
+      }
+
+      let ignoredBadgeHtml = '';
+      let ignoredNoteHtml = '';
+      if (w.is_ignored) {
+        ignoredBadgeHtml = `
+          <span class="warning-badge badge-ignored">
+            <i class="ri-eye-off-line" aria-hidden="true"></i> Ignored
+          </span>
+        `;
+        ignoredNoteHtml = `
+          <div class="ignored-note">
+            <i class="ri-eye-off-line" aria-hidden="true"></i>
+            <div>
+              <p class="ignored-note-title">Ignored via <code>config/brakeman.ignore</code></p>
+              <p>${w.note ? escapeHTML(w.note) : 'No justification note was provided for this ignored warning.'}</p>
+            </div>
           </div>
         `;
       }
@@ -511,6 +555,7 @@ document.addEventListener('DOMContentLoaded', function() {
               </span>
             </span>
             <span class="warning-actions">
+              ${ignoredBadgeHtml}
               <span class="warning-badge ${badgeClass}">${escapeHTML(w.confidence)} Confidence</span>
               <i class="ri-arrow-down-s-line expand-chevron" aria-hidden="true"></i>
             </span>
@@ -518,6 +563,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </h3>
         
         <div class="warning-details-panel" id="${warningId}-panel" role="region" aria-labelledby="${warningId}-header">
+          ${ignoredNoteHtml}
           ${codeHtml}
           
           <div class="remediation-tabs">
