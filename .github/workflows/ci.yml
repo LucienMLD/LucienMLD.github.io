@@ -1,0 +1,73 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate YAML syntax
+        run: |
+          python3 -c "
+          import yaml, glob, sys
+          files = glob.glob('**/*.yml', recursive=True) + glob.glob('**/*.yaml', recursive=True)
+          errors = 0
+          for f in files:
+              try:
+                  with open(f, 'r', encoding='utf-8') as stream:
+                      yaml.safe_load(stream)
+              except Exception as e:
+                  print(f'YAML error in {f}: {e}', file=sys.stderr)
+                  errors += 1
+          if errors > 0:
+              sys.exit(1)
+          print(f'Successfully validated {len(files)} YAML files.')
+          "
+
+      - name: Validate JavaScript syntax
+        run: |
+          find assets -type f -name "*.js" -exec node --check {} +
+          echo "JavaScript syntax check passed."
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          submodules: recursive
+
+      - name: Configure Git for private repos
+        run: |
+          git config --global url."https://${{ secrets.PAT_TOKEN }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://${{ secrets.PAT_TOKEN }}@github.com/".insteadOf "git@github.com:"
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+        env:
+          BUNDLE_GITHUB__COM: ${{ secrets.PAT_TOKEN }}
+
+      - name: Jekyll Doctor
+        run: bundle exec jekyll doctor
+
+      - name: Build site
+        run: bundle exec jekyll build --trace
+        env:
+          JEKYLL_ENV: production
