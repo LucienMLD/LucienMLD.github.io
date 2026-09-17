@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<section class="contact-section">
+  <div class="grid-container">
+    <div class="text-center margin-bottom-3">
+      <h1 class="neon-section-title">{{ page.title }}</h1>
+      {% if page.description %}
+        <p class="neon-section-subtitle">{{ page.description }}</p>
+      {% endif %}
+    </div>
+
+    <!-- Direct Contact Cards -->
+    <div class="grid-x grid-padding-x align-center margin-bottom-3">
+      {% if site.email %}
+      <div class="cell medium-6 large-4 margin-bottom-2">
+        <div class="neon-focus-card social-card">
+          <div class="focus-badge social-badge email">
+            <span class="ri-mail-line"></span>
+            Direct
+          </div>
+          <h3>Email</h3>
+          <p>Send a message directly to my inbox.</p>
+          <a href="mailto:{{ site.email }}" class="card-link">
+            Send Email <span class="ri-external-link-line"></span>
+          </a>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if site.linkedin_url %}
+      <div class="cell medium-6 large-4 margin-bottom-2">
+        <div class="neon-focus-card social-card">
+          <div class="focus-badge social-badge linkedin">
+            <span class="ri-linkedin-box-fill"></span>
+            Professional
+          </div>
+          <h3>LinkedIn</h3>
+          <p>Connect for professional opportunities and networking.</p>
+          <a href="{{ site.linkedin_url }}" target="_blank" rel="noopener noreferrer" class="card-link">
+            View Profile <span class="ri-external-link-line"></span>
+          </a>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if site.github_url %}
+      <div class="cell medium-6 large-4 margin-bottom-2">
+        <div class="neon-focus-card social-card">
+          <div class="focus-badge social-badge github">
+            <span class="ri-github-fill"></span>
+            Open Source
+          </div>
+          <h3>GitHub</h3>
+          <p>Check out code repositories and contributions.</p>
+          <a href="{{ site.github_url }}" target="_blank" rel="noopener noreferrer" class="card-link">
+            View Repositories <span class="ri-external-link-line"></span>
+          </a>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Page Content -->
+    {% if content != empty %}
+    <div class="grid-x grid-padding-x align-center">
+      <div class="cell large-10">
+        <div class="neon-feature-card page-content-card">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+</section>
