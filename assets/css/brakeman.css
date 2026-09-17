@@ -342,29 +342,6 @@ html[data-theme="light"] .brakeman-visualizer {
   gap: 0.6rem;
 }
 
-.dashboard-sample-btn {
-  background: transparent;
-  border: 1px solid var(--bk-border-strong);
-  color: var(--bk-text-secondary);
-  padding: 0.4rem 1rem;
-  border-radius: 6px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.dashboard-sample-btn:hover {
-  background: var(--bk-surface-hover);
-  border-color: var(--bk-accent);
-  color: var(--bk-text);
-}
-
-.dashboard-sample-btn:focus-visible {
-  outline: 2px solid var(--bk-accent);
-  outline-offset: 2px;
-}
-
 .upload-another-btn {
   background: transparent;
   border: 1px solid rgba(var(--bk-accent-rgb), 0.45);
@@ -1203,6 +1180,13 @@ html[data-theme="light"] .tab-link.active::after { box-shadow: none; }
   border-radius: 2px;
 }
 
+/* Scrollable code blocks and tables are focusable for keyboard scrolling */
+.bk-docs-code:focus-visible,
+.bk-docs-table-wrapper:focus-visible {
+  outline: 2px solid var(--bk-accent);
+  outline-offset: 2px;
+}
+
 .bk-docs strong {
   color: var(--bk-text);
 }
@@ -1442,7 +1426,7 @@ html[data-theme="light"] .tab-link.active::after { box-shadow: none; }
 /* Reduced Motion Handling */
 @media (prefers-reduced-motion: reduce) {
   .dropzone-container:hover, .summary-card, .warning-item, .score-ring-val, .tab-panel,
-  .sample-btn, .dashboard-sample-btn {
+  .sample-btn {
     transition: none !important;
     animation: none !important;
     transform: none !important;
