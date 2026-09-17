@@ -1,5 +1,6 @@
 ---
 title: In the Media
+permalink: /press/
 layout: list-cards
 collection: press
 description: Articles and publications about my journey from logistics to web development
