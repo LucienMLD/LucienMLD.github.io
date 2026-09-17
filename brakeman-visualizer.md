@@ -57,6 +57,7 @@ description: A 100% client-side interactive dashboard to visualize, filter, and 
         <div class="card-details">
           <h3>Total Warnings</h3>
           <div class="value" id="val-total">0</div>
+          <p class="card-note" id="val-total-note" hidden></p>
         </div>
       </div>
 
@@ -99,6 +100,7 @@ description: A 100% client-side interactive dashboard to visualize, filter, and 
           <h3>Security Index</h3>
           <div class="value" id="val-grade">A+</div>
           <p id="val-score-label">Excellent posture</p>
+          <p class="card-note" id="val-score-note" hidden></p>
         </div>
         <div class="score-gauge-container">
           <svg width="90" height="90" viewBox="0 0 90 90" aria-hidden="true">
@@ -136,18 +138,26 @@ description: A 100% client-side interactive dashboard to visualize, filter, and 
         <input type="text" id="search-input" class="search-bar" placeholder="Search by warning, file, or code...">
       </div>
       
-      <div class="filter-group">
+      <div class="filter-group" role="group" aria-label="Filter warnings">
         <button class="filter-btn active" data-filter="all" aria-pressed="true">
           <i class="ri-apps-line" aria-hidden="true"></i> All
+          <span class="filter-count">0</span>
         </button>
         <button class="filter-btn btn-high" data-filter="high" aria-pressed="false">
           <i class="ri-error-warning-fill" aria-hidden="true"></i> High
+          <span class="filter-count">0</span>
         </button>
         <button class="filter-btn btn-med" data-filter="medium" aria-pressed="false">
           <i class="ri-alert-fill" aria-hidden="true"></i> Medium
+          <span class="filter-count">0</span>
         </button>
         <button class="filter-btn btn-weak" data-filter="weak" aria-pressed="false">
           <i class="ri-information-fill" aria-hidden="true"></i> Weak
+          <span class="filter-count">0</span>
+        </button>
+        <button class="filter-btn btn-ignored" data-filter="ignored" aria-pressed="false" hidden>
+          <i class="ri-eye-off-fill" aria-hidden="true"></i> Ignored
+          <span class="filter-count">0</span>
         </button>
       </div>
     </div>
