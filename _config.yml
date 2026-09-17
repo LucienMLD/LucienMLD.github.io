@@ -50,11 +50,11 @@ neon:
   # Hooks pour les scripts externes
   hooks:
     head_end:
-      - '<script async src="https://tree-nation.com/javascripts/widgets/offset_website.js"></script>'
+      - '<script src="https://widgets.tree-nation.com/js/widgets/v3/widgets.min.js"></script>'
     body_end:
       - '<!-- 100% privacy-first analytics -->'
       - '<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>'
-      - '<div id="tree-nation-offset-website" style="text-align: center; margin: 1rem 0;"></div>'
+      - '<div data-widget-type="offset-website" data-tree-nation-code="65d8c4d86b654" data-lang="en" data-theme="light" style="text-align: center; margin: 1rem 0;"></div>'
 # Build settings
 plugins:
   - jekyll-feed
