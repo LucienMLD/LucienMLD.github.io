@@ -12,14 +12,14 @@ document.addEventListener('DOMContentLoaded', function() {
   const warningCountBadge = document.getElementById('warning-count-badge');
   const uploadAnotherBtn = document.getElementById('upload-another-btn');
   const loadSampleBtn = document.getElementById('load-sample-btn');
-  const dashboardSampleBtn = document.getElementById('dashboard-sample-btn');
   const sampleBadge = document.getElementById('sample-badge');
+  const dashboardStatus = document.getElementById('dashboard-status');
 
   let reportData = null;
   let normalizedWarnings = [];
   let activeFilter = 'all';
 
-  // Realistic Brakeman JSON output used by the "Load Sample Report" buttons.
+  // Realistic Brakeman JSON output used by the "Load Sample Report" button.
   // It covers every confidence level plus a warning muted through config/brakeman.ignore.
   const SAMPLE_REPORT = {
     scan_info: {
@@ -180,8 +180,9 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
     dropzone.addEventListener('click', function(e) {
-    // The sample button lives inside the dropzone and must not open the file dialog
-    if (loadSampleBtn && loadSampleBtn.contains(e.target)) return;
+    // The actions row (Browse File label, separator, sample button) handles its own clicks:
+    // near-miss clicks between those controls must not pop the native file dialog
+    if (e.target.closest('.dropzone-actions')) return;
     if (e.target !== fileInput && e.target.tagName !== 'LABEL') {
       fileInput.click();
     }
@@ -191,18 +192,25 @@ document.addEventListener('DOMContentLoaded', function() {
     e.preventDefault();
     e.stopPropagation();
     hideError();
-    searchInput.value = '';
-    setActiveFilter('all');
     loadReport(JSON.parse(JSON.stringify(SAMPLE_REPORT)), true);
   }
 
   if (loadSampleBtn) loadSampleBtn.addEventListener('click', loadSampleReport);
-  if (dashboardSampleBtn) dashboardSampleBtn.addEventListener('click', loadSampleReport);
 
   function setSampleMode(isSample) {
     if (sampleBadge) sampleBadge.hidden = !isSample;
-    // Reloading the sample while it is displayed would be a no-op
-    if (dashboardSampleBtn) dashboardSampleBtn.hidden = isSample;
+    if (isSample) {
+      dashboard.setAttribute('aria-describedby', 'sample-badge');
+    } else {
+      dashboard.removeAttribute('aria-describedby');
+    }
+  }
+
+  // Clearing first lets screen readers announce the message again when it is identical
+  function announceStatus(message) {
+    if (!dashboardStatus) return;
+    dashboardStatus.textContent = '';
+    setTimeout(() => { dashboardStatus.textContent = message; }, 100);
   }
 
   // Clear/Reset button to go back to upload state
@@ -213,6 +221,7 @@ document.addEventListener('DOMContentLoaded', function() {
       searchInput.value = '';
       setActiveFilter('all');
       setSampleMode(false);
+      if (dashboardStatus) dashboardStatus.textContent = '';
 
       dashboard.style.display = 'none';
       dropzone.style.display = 'block';
@@ -262,9 +271,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function loadReport(parsed, isSample) {
     reportData = parsed;
+    // Start every report (uploaded or sample) from an unfiltered view
+    searchInput.value = '';
+    setActiveFilter('all');
     setSampleMode(isSample);
     normalizeReportData();
     renderDashboard();
+
+    const count = normalizedWarnings.length;
+    const found = `${count} warning${count === 1 ? '' : 's'} found.`;
+    announceStatus(isSample ? `Sample report loaded: ${found}` : `Report loaded: ${found}`);
   }
 
   // Strictly normalize all warning inputs on load to prevent rendering crashes

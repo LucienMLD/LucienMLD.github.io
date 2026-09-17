@@ -1,0 +1,32 @@
+# FAQ of the Brakeman Report Visualizer (brakeman-visualizer.md).
+# Single source of truth for both the visible FAQ cards and the FAQPage JSON-LD.
+# Answers may contain inline HTML: it is rendered as-is on the page and stripped in JSON-LD.
+
+- question: Is my Brakeman report uploaded to a server?
+  answer: >-
+    No. The report is read and parsed entirely in your browser. No report data is sent to any server, stored or logged.
+
+- question: Which Brakeman output format does the visualizer accept?
+  answer: >-
+    The visualizer accepts the standard Brakeman JSON report, generated with <code>brakeman -o brakeman-report.json</code>
+    or <code>brakeman -f json</code>. The file must contain a <code>warnings</code> or <code>ignored_warnings</code> array.
+
+- question: How are ignored warnings handled?
+  answer: >-
+    Warnings muted in <code>config/brakeman.ignore</code> appear under the Ignored filter with their justification note.
+    They are excluded from the confidence counters and the Security Index.
+
+- question: Is Brakeman confidence the same as severity?
+  answer: >-
+    No. Confidence indicates how likely a warning is to be a real issue. A Weak confidence SQL injection can still be critical
+    if it turns out to be exploitable.
+
+- question: Does a perfect Security Index mean my Rails application is secure?
+  answer: >-
+    No. Brakeman is a static analysis tool: it cannot detect business logic flaws, misconfigured infrastructure or vulnerable
+    dependencies. Combine it with bundler-audit, code reviews and penetration testing.
+
+- question: Can I try the dashboard without a report?
+  answer: >-
+    Yes. Click Load Sample Report to open a realistic example report with High, Medium and Weak confidence warnings,
+    plus an ignored warning.

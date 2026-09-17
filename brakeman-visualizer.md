@@ -15,6 +15,9 @@ description: A 100% client-side interactive dashboard to visualize, filter, and 
     </p>
   </header>
 
+  <!-- Polite live region announcing loaded reports to screen reader users -->
+  <div id="dashboard-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+
     <div id="dropzone" class="dropzone-container">
     <div class="dropzone-icon">
       <i class="ri-shield-keyhole-line" aria-hidden="true"></i>
@@ -45,19 +48,16 @@ description: A 100% client-side interactive dashboard to visualize, filter, and 
     </div>
   </div>
 
-    <div id="dashboard" class="dashboard-view" tabindex="-1">
+    <div id="dashboard" class="dashboard-view" tabindex="-1" role="region" aria-labelledby="dashboard-title">
     <div class="dashboard-header">
       <div class="dashboard-title-group">
-        <h2>Report Dashboard</h2>
+        <h2 id="dashboard-title">Report Dashboard</h2>
         <span id="sample-badge" class="sample-badge" hidden>
           <i class="ri-flask-line" aria-hidden="true"></i>
           <span class="sr-only">Currently displaying the </span>Sample Report
         </span>
       </div>
       <div class="dashboard-actions">
-        <button type="button" class="dashboard-sample-btn" id="dashboard-sample-btn">
-          <i class="ri-flask-line" aria-hidden="true"></i> Load Sample Report
-        </button>
         <button type="button" class="upload-another-btn" id="upload-another-btn">
           <i class="ri-upload-2-line" aria-hidden="true"></i> Upload Another Report
         </button>
@@ -210,24 +210,24 @@ description: A 100% client-side interactive dashboard to visualize, filter, and 
     <article class="bk-docs-card" aria-labelledby="generate-report">
       <h3 id="generate-report"><i class="ri-terminal-box-line" aria-hidden="true"></i> How to generate a Brakeman JSON report</h3>
       <p>
-        <a href="https://brakemanscanner.org/" target="_blank" rel="noopener noreferrer">Brakeman<span class="sr-only"> (opens in new window)</span></a>
+        <a href="https://brakemanscanner.org/" target="_blank" rel="noopener noreferrer">Brakeman <i class="ri-external-link-line" aria-hidden="true"></i><span class="sr-only"> (opens in new window)</span></a>
         is a static analysis security scanner for Ruby on Rails applications. It reads your source code without running it, so it can be used from the very first line of code.
       </p>
       <ol class="bk-docs-steps">
         <li>
           <p>Install the gem globally, or add it to the <code>development</code> group of your <code>Gemfile</code> (Rails 7.2+ applications ship with it by default):</p>
-          <pre class="bk-docs-code"><code>gem install brakeman</code></pre>
+          <pre class="bk-docs-code" tabindex="0"><code>gem install brakeman</code></pre>
         </li>
         <li>
           <p>From the root of your Rails application, run a scan and write the results to a JSON file. The format is inferred from the <code>.json</code> extension:</p>
-          <pre class="bk-docs-code"><code>brakeman -o brakeman-report.json</code></pre>
+          <pre class="bk-docs-code" tabindex="0"><code>brakeman -o brakeman-report.json</code></pre>
         </li>
         <li>
           <p>Drop <code>brakeman-report.json</code> into the upload area above, or click <strong>Browse File</strong>.</p>
         </li>
       </ol>
       <p>Useful variants for CI pipelines and existing projects:</p>
-      <pre class="bk-docs-code"><code># With Bundler, forcing the JSON format and a quiet output
+      <pre class="bk-docs-code" tabindex="0"><code># With Bundler, forcing the JSON format and a quiet output
 bundle exec brakeman -q -f json -o brakeman-report.json
 
 # Write the report without failing the build when warnings are found
@@ -268,7 +268,7 @@ brakeman -I</code></pre>
 
       <h4>How the Security Index is calculated</h4>
       <p>The Security Index starts at 100 and deducts points for each <strong>active</strong> warning. Warnings muted in <code>config/brakeman.ignore</code> are listed but not scored, as they were reviewed by your team. The score never drops below 0.</p>
-      <div class="bk-docs-table-wrapper">
+      <div class="bk-docs-table-wrapper" tabindex="0" role="region" aria-label="Scrollable table: points deducted per active warning">
         <table class="bk-docs-table">
           <caption>Points deducted per active warning</caption>
           <thead>
@@ -284,7 +284,7 @@ brakeman -I</code></pre>
           </tbody>
         </table>
       </div>
-      <div class="bk-docs-table-wrapper">
+      <div class="bk-docs-table-wrapper" tabindex="0" role="region" aria-label="Scrollable table: grades associated with the score">
         <table class="bk-docs-table">
           <caption>Grades associated with the score</caption>
           <thead>
@@ -326,40 +326,22 @@ brakeman -I</code></pre>
           <p>Unescaped output in views through <code>raw</code> or <code>html_safe</code>, enabling script injection into your users' browsers.</p>
         </div>
         <div class="bk-docs-vuln">
-          <h4>Permitted Attributes</h4>
-          <p>Sensitive keys such as <code>:admin</code>, <code>:role</code> or <code>:account_id</code> allowed in <code>permit</code> calls, which can lead to privilege escalation.</p>
+          <h4>Command Injection</h4>
+          <p>User parameters passed to <code>system</code>, <code>exec</code>, <code>%x</code> or <code>Open3</code> without shell escaping, letting attackers run arbitrary operating system commands. Pass arguments as an array instead of a single string.</p>
         </div>
       </div>
-      <p>Brakeman also detects command injection, open redirects, dynamic render paths, unsafe file access and many more. See the <a href="https://brakemanscanner.org/docs/warning_types/" target="_blank" rel="noopener noreferrer">full list of Brakeman warning types<span class="sr-only"> (opens in new window)</span></a>.</p>
+      <p>Brakeman also detects open redirects, dynamic render paths, unsafe file access and many more. See the <a href="https://brakemanscanner.org/docs/warning_types/" target="_blank" rel="noopener noreferrer">full list of Brakeman warning types <i class="ri-external-link-line" aria-hidden="true"></i><span class="sr-only"> (opens in new window)</span></a>.</p>
     </article>
 
     <article class="bk-docs-card" aria-labelledby="faq">
       <h3 id="faq"><i class="ri-question-answer-line" aria-hidden="true"></i> Frequently asked questions</h3>
       <div class="bk-faq">
+        {%- for item in site.data.brakeman_faq %}
         <div class="bk-faq-item">
-          <h4>Is my Brakeman report uploaded to a server?</h4>
-          <p>No. The report is read and parsed entirely in your browser. No report data is sent to any server, stored or logged.</p>
+          <h4>{{ item.question }}</h4>
+          <p>{{ item.answer }}</p>
         </div>
-        <div class="bk-faq-item">
-          <h4>Which Brakeman output format does the visualizer accept?</h4>
-          <p>The visualizer accepts the standard Brakeman JSON report, generated with <code>brakeman -o brakeman-report.json</code> or <code>brakeman -f json</code>. The file must contain a <code>warnings</code> or <code>ignored_warnings</code> array.</p>
-        </div>
-        <div class="bk-faq-item">
-          <h4>How are ignored warnings handled?</h4>
-          <p>Warnings muted in <code>config/brakeman.ignore</code> appear under the Ignored filter with their justification note. They are excluded from the confidence counters and the Security Index.</p>
-        </div>
-        <div class="bk-faq-item">
-          <h4>Is Brakeman confidence the same as severity?</h4>
-          <p>No. Confidence indicates how likely a warning is to be a real issue. A Weak confidence SQL injection can still be critical if it turns out to be exploitable.</p>
-        </div>
-        <div class="bk-faq-item">
-          <h4>Does a perfect Security Index mean my Rails application is secure?</h4>
-          <p>No. Brakeman is a static analysis tool: it cannot detect business logic flaws, misconfigured infrastructure or vulnerable dependencies. Combine it with bundler-audit, code reviews and penetration testing.</p>
-        </div>
-        <div class="bk-faq-item">
-          <h4>Can I try the dashboard without a report?</h4>
-          <p>Yes. Click Load Sample Report to open a realistic example report with High, Medium and Weak confidence warnings, plus an ignored warning.</p>
-        </div>
+        {%- endfor %}
       </div>
     </article>
   </section>
@@ -392,54 +374,16 @@ brakeman -I</code></pre>
     {
       "@type": "FAQPage",
       "mainEntity": [
+        {%- for item in site.data.brakeman_faq %}
         {
           "@type": "Question",
-          "name": "Is my Brakeman report uploaded to a server?",
+          "name": {{ item.question | jsonify }},
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. The report is read and parsed entirely in your browser. No report data is sent to any server, stored or logged."
+            "text": {{ item.answer | strip_html | jsonify }}
           }
-        },
-        {
-          "@type": "Question",
-          "name": "Which Brakeman output format does the visualizer accept?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The visualizer accepts the standard Brakeman JSON report, generated with brakeman -o brakeman-report.json or brakeman -f json. The file must contain a warnings or ignored_warnings array."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are ignored warnings handled?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Warnings muted in config/brakeman.ignore appear under the Ignored filter with their justification note. They are excluded from the confidence counters and the Security Index."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Brakeman confidence the same as severity?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Confidence indicates how likely a warning is to be a real issue. A Weak confidence SQL injection can still be critical if it turns out to be exploitable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does a perfect Security Index mean my Rails application is secure?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Brakeman is a static analysis tool: it cannot detect business logic flaws, misconfigured infrastructure or vulnerable dependencies. Combine it with bundler-audit, code reviews and penetration testing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I try the dashboard without a report?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Click Load Sample Report to open a realistic example report with High, Medium and Weak confidence warnings, plus an ignored warning."
-          }
-        }
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
       ]
     }
   ]
