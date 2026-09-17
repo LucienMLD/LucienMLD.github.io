@@ -162,8 +162,8 @@ DEPENDENCIES
   base64
   csv
   http_parser.rb (~> 0.6.0)
-  jekyll (~> 4.4)
-  jekyll-feed (~> 0.17)
+  jekyll
+  jekyll-feed
   jekyll-theme-neon!
   logger
   tzinfo (>= 1, < 3)
