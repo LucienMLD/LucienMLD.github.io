@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Lucien Mollard
+author: Lucien Mollard
 email: hello@lucien-mollard.com
 description: >- # this means to ignore newlines until "baseurl:"
   Full-stack web developer with over 9 years of experience, specialized in Ruby on Rails and the 
@@ -29,6 +30,7 @@ url: "https://lucien-mollard.com" # the base hostname & protocol for your site, 
 github_username: LucienMLD
 linkedin_url: https://www.linkedin.com/in/lucien-mollard/
 github_url: https://github.com/LucienMLD
+permalink: /blog/:title/
 
 theme: jekyll-theme-neon
 
@@ -105,3 +107,8 @@ defaults:
       type: "trainings"
     values:
       layout: "item"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
