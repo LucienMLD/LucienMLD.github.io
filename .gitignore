@@ -9,7 +9,7 @@ vendor
 !/.idea/personal-website.iml
 .clinerules
 
-# Protéger le thème premium
+# Clone local du thème, utilisé avec path: dans le Gemfile pendant le développement
 jekyll-theme-neon/
 !jekyll-theme-neon/README.md
 !jekyll-theme-neon/LICENSE

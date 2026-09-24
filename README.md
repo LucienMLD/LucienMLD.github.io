@@ -35,6 +35,18 @@ I'm a Senior Ruby on Rails Developer transitioning to cybersecurity engineering,
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
+## Build and deploy
+
+The theme, [jekyll-theme-neon](https://github.com/LucienMLD/jekyll-theme-neon), is public and fetched over HTTPS by Bundler (`Gemfile`, pinned in `Gemfile.lock`): no token or SSH key is needed to build.
+
+- Locally: `bundle install && bundle exec jekyll serve`. To work on the theme at the same time, clone it next to this repository and use `gem "jekyll-theme-neon", path: "../jekyll-theme-neon"` in the `Gemfile`.
+- GitHub Pages: `.github/workflows/deploy.yml` builds and deploys on every push to `main`.
+- Cloudflare Pages: connect the repository with the **Jekyll** preset.
+  - Build command: `bundle exec jekyll build`
+  - Build output directory: `_site`
+  - Environment variable: `JEKYLL_ENV=production`
+  - Ruby comes from `.ruby-version`. The custom plugin in `_plugins/` runs, since the site is built by Jekyll itself.
+
 ## Brakeman Report Visualizer
 
 [lucien-mollard.com/brakeman-visualizer](https://lucien-mollard.com/brakeman-visualizer/) is a 100% client-side dashboard to triage Brakeman reports: compare two scans, mark false positives, set a severity and export `config/brakeman.ignore`.

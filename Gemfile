@@ -13,8 +13,9 @@ gem "jekyll"
 # Pour utiliser la version locale en développement:
 # gem "jekyll-theme-neon", path: "../jekyll-theme-neon"
 
-# Pour utiliser la gem depuis GitHub (dépôt privé):
-gem "jekyll-theme-neon", git: "git@github.com:LucienMLD/jekyll-theme-neon.git"
+# Thème public, récupéré en HTTPS depuis GitHub: aucun token ni clé SSH nécessaire
+# (CI, déploiement Cloudflare Pages ou GitHub Pages)
+gem "jekyll-theme-neon", git: "https://github.com/LucienMLD/jekyll-theme-neon.git"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins

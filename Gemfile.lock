@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:LucienMLD/jekyll-theme-neon.git
+  remote: https://github.com/LucienMLD/jekyll-theme-neon.git
   revision: 7b767e861ea801363a2317641e85540250ce8888
   specs:
     jekyll-theme-neon (0.1.0)
