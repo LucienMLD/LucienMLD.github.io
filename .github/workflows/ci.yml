@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ main ]
 
+# Read-only GITHUB_TOKEN: no job pushes, comments or deploys (artifacts use their own token)
+permissions:
+  contents: read
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
