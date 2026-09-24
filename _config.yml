@@ -79,6 +79,9 @@ exclude:
   - playwright.config.js
   - test-results/
   - playwright-report/
+  # Cloudflare Workers deployment config, not part of the site
+  - wrangler.jsonc
+  - .wrangler/
 
 # exclude:
 #   - .sass-cache/
