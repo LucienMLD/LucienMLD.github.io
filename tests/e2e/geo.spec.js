@@ -4,7 +4,9 @@
 const { test, expect } = require('@playwright/test');
 
 const SITE_URL = 'https://lucien-mollard.com';
-const toLocalPath = url => url.replace(SITE_URL, '') || '/';
+// URLs are parsed, not prefix-matched: "https://lucien-mollard.com.evil.com" is another site
+const isSiteUrl = url => new URL(url).origin === SITE_URL;
+const toLocalPath = url => new URL(url).pathname;
 
 // GitHub Pages serves /experiences/dinum from dinum.html, the test server does not
 async function getPage(request, path) {
@@ -58,7 +60,7 @@ test('sitemap.xml lists every public page, and only pages that exist', async ({ 
     expect(paths).not.toContain(excluded);
   }
   for (const url of urls) {
-    expect(url.startsWith(`${SITE_URL}/`), url).toBe(true);
+    expect(isSiteUrl(url), url).toBe(true);
     expect((await getPage(request, toLocalPath(url))).status(), url).toBe(200);
   }
 });
@@ -77,7 +79,7 @@ test('llms.txt follows the llms.txt format and its site links resolve', async ({
 
   const links = [...text.matchAll(/\]\((https?:\/\/[^)]+)\)/g)].map(match => match[1]);
   expect(links.length).toBeGreaterThan(20);
-  for (const link of links.filter(url => url.startsWith(SITE_URL))) {
+  for (const link of links.filter(isSiteUrl)) {
     expect((await getPage(request, toLocalPath(link))).status(), link).toBe(200);
   }
 });
