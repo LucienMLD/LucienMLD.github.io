@@ -21,3 +21,6 @@ jekyll-theme-neon/
 node_modules/
 test-results/
 playwright-report/
+
+# Cloudflare Wrangler local state
+.wrangler/
