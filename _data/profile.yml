@@ -1,0 +1,47 @@
+# Who Lucien Mollard is, in one place: read by the JSON-LD structured data
+# (_includes/structured-data.html) and by /llms.txt and /llms-full.txt.
+# Keep these facts in line with the visible pages: search engines and AI
+# assistants trust structured data only when the page says the same thing.
+
+name: Lucien Mollard
+given_name: Lucien
+family_name: Mollard
+job_title: Ruby on Rails developer specialized in application security
+# One-sentence answer to "who is Lucien Mollard?", reused as the summary of llms.txt
+summary: >-
+  Lucien Mollard is a French Ruby on Rails developer with 9 years of experience building
+  secure and accessible (RGAA) web applications for French digital public services, currently
+  studying for an engineering degree in cybersecurity at CNAM.
+nationality: FR
+address_country: FR
+languages: ["French", "English"]
+image: /assets/images/profile.webp
+
+knows_about:
+  - Ruby on Rails
+  - Ruby
+  - Application security
+  - Secure development
+  - OWASP Top 10
+  - Static analysis (Brakeman)
+  - Web accessibility (RGAA, WCAG)
+  - PostgreSQL
+  - Python
+  - Django
+  - Java
+  - Cybersecurity
+  - French digital public services
+
+# Organizations the site's experience pages describe as current
+works_for:
+  - name: Conseillers-Entreprises.Service-Public.fr
+    url: https://conseillers-entreprises.service-public.fr/
+    role: Lead developer
+  - name: Dispositif d'Appui à la Périnatalité et aux Soins Ambulatoires (DAPSA)
+    role: Senior developer, Technical advisor
+
+alumni_of:
+  - name: Conservatoire national des arts et métiers (CNAM)
+    url: https://www.cnam.fr
+  - name: Le Wagon
+    url: https://www.lewagon.com

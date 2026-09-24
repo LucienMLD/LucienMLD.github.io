@@ -1,0 +1,139 @@
+{%- comment -%}
+  Site-wide JSON-LD (schema.org), included from footer.html on every page.
+  One graph links the Person, the WebSite, the current page and its breadcrumb
+  through stable @id URLs, so search engines and AI assistants resolve every
+  page to the same entity. Facts come from _data/profile.yml and the collections.
+  Pages can add their own nodes (the Brakeman visualizer adds WebApplication and
+  FAQPage) and reference the person with {"@id": "<site url>/#person"}.
+{%- endcomment -%}
+{%- assign profile = site.data.profile -%}
+{%- assign home_url = '/' | absolute_url -%}
+{%- assign person_id = home_url | append: '#person' -%}
+{%- assign website_id = home_url | append: '#website' -%}
+{%- assign page_url = page.url | absolute_url -%}
+{%- assign page_id = page_url | append: '#webpage' -%}
+{%- assign is_home = false -%}{%- if page.url == '/' -%}{%- assign is_home = true -%}{%- endif -%}
+{%- comment -%} Only collection documents have an id; list pages only set "collection" in their front matter {%- endcomment -%}
+{%- assign is_document = false -%}{%- if page.id -%}{%- assign is_document = true -%}{%- endif -%}
+
+{%- assign page_type = 'WebPage' -%}
+{%- if is_home -%}
+  {%- assign page_type = 'ProfilePage' -%}
+{%- elsif page.collection and is_document == false -%}
+  {%- assign page_type = 'CollectionPage' -%}
+{%- endif -%}
+
+{%- assign page_name = page.title | default: site.title -%}
+{%- assign page_description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 300 -%}
+{%- assign press_items = site.press | where_exp: 'item', 'item.draft != true' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ profile.name | jsonify }},
+      "givenName": {{ profile.given_name | jsonify }},
+      "familyName": {{ profile.family_name | jsonify }},
+      "url": {{ home_url | jsonify }},
+      "image": {{ profile.image | absolute_url | jsonify }},
+      "email": {{ site.email | prepend: 'mailto:' | jsonify }},
+      "jobTitle": {{ profile.job_title | jsonify }},
+      "description": {{ profile.summary | normalize_whitespace | jsonify }},
+      "nationality": { "@type": "Country", "name": "France" },
+      "address": { "@type": "PostalAddress", "addressCountry": {{ profile.address_country | jsonify }} },
+      "knowsLanguage": {{ profile.languages | jsonify }},
+      "knowsAbout": {{ profile.knows_about | jsonify }},
+      "sameAs": [{{ site.linkedin_url | jsonify }}, {{ site.github_url | jsonify }}],
+      "worksFor": [
+        {%- for org in profile.works_for %}
+        {
+          "@type": "Organization",
+          "name": {{ org.name | jsonify }}{% if org.url %},
+          "url": {{ org.url | jsonify }}{% endif %}
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ],
+      "alumniOf": [
+        {%- for org in profile.alumni_of %}
+        {
+          "@type": "EducationalOrganization",
+          "name": {{ org.name | jsonify }}{% if org.url %},
+          "url": {{ org.url | jsonify }}{% endif %}
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ],
+      "subjectOf": [
+        {%- for item in press_items %}
+        {
+          "@type": "Article",
+          "headline": {{ item.title | jsonify }},
+          "url": {{ item['website-url'] | jsonify }},
+          "publisher": { "@type": "Organization", "name": {{ item.company | jsonify }} }{% if item.publication_date %},
+          "datePublished": {{ item.publication_date | replace: '/', '-' | jsonify }}{% endif %}
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ website_id | jsonify }},
+      "url": {{ home_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | normalize_whitespace | jsonify }},
+      "inLanguage": "en",
+      "author": { "@id": {{ person_id | jsonify }} },
+      "publisher": { "@id": {{ person_id | jsonify }} }
+    },
+    {
+      "@type": {{ page_type | jsonify }},
+      "@id": {{ page_id | jsonify }},
+      "url": {{ page_url | jsonify }},
+      "name": {{ page_name | jsonify }},
+      "description": {{ page_description | jsonify }},
+      "inLanguage": "en",
+      "isPartOf": { "@id": {{ website_id | jsonify }} },
+      {%- if is_home %}
+      "mainEntity": { "@id": {{ person_id | jsonify }} }
+      {%- else %}
+      "author": { "@id": {{ person_id | jsonify }} },
+      "breadcrumb": { "@id": {{ page_url | append: '#breadcrumb' | jsonify }} }
+      {%- endif %}
+    }
+    {%- if page.collection == 'posts' and is_document %},
+    {
+      "@type": "BlogPosting",
+      "@id": {{ page_url | append: '#article' | jsonify }},
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page_description | jsonify }},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+      "author": { "@id": {{ person_id | jsonify }} },
+      "publisher": { "@id": {{ person_id | jsonify }} },
+      "mainEntityOfPage": { "@id": {{ page_id | jsonify }} },
+      "inLanguage": "en"
+    }
+    {%- endif %}
+    {%- unless is_home %},
+    {
+      "@type": "BreadcrumbList",
+      "@id": {{ page_url | append: '#breadcrumb' | jsonify }},
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ home_url | jsonify }} }
+        {%- assign position = 2 -%}
+        {%- if is_document -%}
+          {%- comment -%} site.pages never holds collection documents: this is the list page {%- endcomment -%}
+          {%- assign list_page = site.pages | where: 'collection', page.collection | first -%}
+          {%- if list_page %},
+        { "@type": "ListItem", "position": 2, "name": {{ list_page.title | jsonify }}, "item": {{ list_page.url | absolute_url | jsonify }} }
+            {%- assign position = 3 -%}
+          {%- endif -%}
+        {%- endif %},
+        { "@type": "ListItem", "position": {{ position }}, "name": {{ page_name | jsonify }}, "item": {{ page_url | jsonify }} }
+      ]
+    }
+    {%- endunless %}
+  ]
+}
+</script>

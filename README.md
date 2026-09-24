@@ -44,6 +44,17 @@ I'm a Senior Ruby on Rails Developer transitioning to cybersecurity engineering,
 - `tests/brakeman-core.test.js`: unit tests on real Brakeman 8 reports, `npm test` (Node 22+)
 - `tests/e2e/`: Playwright browser tests with an axe-core WCAG 2.1 AA audit, run in CI on the built site. Locally: `npm ci && npx playwright install chromium && bundle exec jekyll build && npm run test:e2e`
 
+## Search engines and AI assistants (GEO)
+
+Generated at build time from `_data/profile.yml`, `_config.yml` and the collections, so they never drift from the pages:
+
+- `robots.txt`: open to search engines and AI assistants (answer agents and training crawlers listed separately), points to the sitemap
+- `sitemap.xml`: every public page and collection item, without plugin
+- `llms.txt` and `llms-full.txt`: summary and full text of the site in Markdown ([llms.txt format](https://llmstxt.org/)); `_plugins/raw_content.rb` exposes the Markdown source of each page
+- JSON-LD (`_includes/structured-data.html`, included from the footer): one schema.org graph per page linking the Person, the WebSite, the page and its breadcrumb
+- `/.well-known/security.txt` (RFC 9116), whose expiry date moves forward on every deployment
+- `tests/e2e/geo.spec.js` checks all of them on the built site in CI
+
 ## Contact
 
 - **Email**: hello [at] lucien-mollard [dot] com

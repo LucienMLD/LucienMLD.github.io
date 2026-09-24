@@ -1,7 +1,8 @@
 ---
 layout: page
+title: Legal Notice
+description: Publisher, hosting and intellectual property information for lucien-mollard.com.
 ---
-# Legal Notice
 
 ## Website Publisher
 This personal website is published by:

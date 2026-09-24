@@ -1,0 +1,34 @@
+---
+layout: null
+permalink: /sitemap.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{%- comment -%}
+  Every HTML page and collection document, except the ones with "sitemap: false"
+  in their front matter and the 404 page. No plugin: jekyll-sitemap is not part
+  of the theme's dependencies.
+{%- endcomment %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for item in site.html_pages -%}
+  {%- if item.sitemap == false or item.url == '/404.html' -%}{%- continue -%}{%- endif %}
+  <url>
+    <loc>{{ item.url | absolute_url | xml_escape }}</loc>
+    {%- if item.last_modified_at %}
+    <lastmod>{{ item.last_modified_at | date_to_xmlschema }}</lastmod>
+    {%- endif %}
+  </url>
+{%- endfor -%}
+{%- for collection in site.collections -%}
+  {%- unless collection.output -%}{%- continue -%}{%- endunless -%}
+  {%- for doc in collection.docs -%}
+    {%- if doc.sitemap == false or doc.draft -%}{%- continue -%}{%- endif %}
+  <url>
+    <loc>{{ doc.url | absolute_url | xml_escape }}</loc>
+    {%- if doc.last_modified_at or collection.label == 'posts' %}
+    <lastmod>{{ doc.last_modified_at | default: doc.date | date_to_xmlschema }}</lastmod>
+    {%- endif %}
+  </url>
+  {%- endfor -%}
+{%- endfor %}
+</urlset>
