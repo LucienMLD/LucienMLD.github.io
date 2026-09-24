@@ -2,7 +2,7 @@
 layout: default
 title: Brakeman Security Report Visualizer
 permalink: /brakeman-visualizer/
-description: A 100% client-side interactive dashboard to visualize, filter, and remediate Brakeman static analysis security reports for Ruby on Rails.
+description: A 100% client-side dashboard to triage Brakeman security reports for Ruby on Rails. Compare two scans, track false positives and export config/brakeman.ignore.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/brakeman.css' | relative_url }}">
@@ -147,11 +147,69 @@ description: A 100% client-side interactive dashboard to visualize, filter, and 
       </div>
     </div>
 
+    <div class="workflow-grid">
+      <section class="workflow-card" aria-labelledby="compare-title">
+        <h3 id="compare-title"><i class="ri-git-compare-line" aria-hidden="true"></i> Compare with a previous scan</h3>
+        <div id="compare-empty">
+          <p class="workflow-text">Load an older Brakeman report to see which warnings are new, fixed or unchanged. Warnings are matched by fingerprint, so code that only moved is not reported as new.</p>
+          <div class="workflow-actions">
+            <input type="file" id="baseline-input" class="sr-only" accept=".json">
+            <label for="baseline-input" class="workflow-btn">
+              <i class="ri-history-line" aria-hidden="true"></i> Load baseline report
+            </label>
+            <button type="button" id="sample-baseline-btn" class="workflow-btn workflow-btn-ghost" hidden>
+              <i class="ri-flask-line" aria-hidden="true"></i> Use sample baseline
+            </button>
+          </div>
+        </div>
+        <div id="compare-result" hidden>
+          <p class="workflow-text">Compared with the scan of <strong id="baseline-date">N/A</strong>.</p>
+          <ul class="diff-stats">
+            <li class="diff-stat diff-stat-new"><strong id="diff-new-count">0</strong> new</li>
+            <li class="diff-stat diff-stat-fixed"><strong id="diff-fixed-count">0</strong> fixed</li>
+            <li class="diff-stat"><strong id="diff-unchanged-count">0</strong> unchanged</li>
+          </ul>
+          <div class="workflow-actions">
+            <button type="button" id="show-new-btn" class="workflow-btn">
+              <i class="ri-focus-3-line" aria-hidden="true"></i> Show new warnings
+            </button>
+            <button type="button" id="remove-baseline-btn" class="workflow-btn workflow-btn-ghost">
+              <i class="ri-close-line" aria-hidden="true"></i> Remove baseline
+            </button>
+          </div>
+        </div>
+        <p id="compare-error" class="workflow-error" role="alert"></p>
+      </section>
+
+      <section class="workflow-card" aria-labelledby="triage-title">
+        <h3 id="triage-title"><i class="ri-checkbox-multiple-line" aria-hidden="true"></i> Triage and brakeman.ignore</h3>
+        <p class="workflow-text" id="triage-progress-text">0 of 0 active warnings triaged</p>
+        <div class="triage-progress-track" aria-hidden="true">
+          <div class="triage-progress-fill" id="triage-progress-fill"></div>
+        </div>
+        <p class="workflow-text workflow-muted" id="triage-storage-note"></p>
+        <div class="workflow-actions">
+          <button type="button" id="export-ignore-btn" class="workflow-btn">
+            <i class="ri-download-2-line" aria-hidden="true"></i> Export brakeman.ignore
+          </button>
+          <input type="file" id="ignore-input" class="sr-only" accept=".ignore,.json">
+          <label for="ignore-input" class="workflow-btn workflow-btn-ghost">
+            <i class="ri-file-upload-line" aria-hidden="true"></i> Load current brakeman.ignore
+          </label>
+          <button type="button" id="clear-triage-btn" class="workflow-btn workflow-btn-ghost">
+            <i class="ri-refresh-line" aria-hidden="true"></i> Reset triage
+          </button>
+        </div>
+        <p class="workflow-text workflow-muted" id="export-hint"></p>
+        <p id="ignore-error" class="workflow-error" role="alert"></p>
+      </section>
+    </div>
+
         <div class="filter-toolbar">
       <div class="search-input-wrapper">
         <i class="ri-search-line" aria-hidden="true"></i>
-        <label for="search-input" class="sr-only">Search vulnerabilities by type, file, message or code</label>
-        <input type="text" id="search-input" class="search-bar" placeholder="Search by warning, file, or code...">
+        <label for="search-input" class="sr-only">Search warnings by type, file, code, method, user input, CWE or note</label>
+        <input type="text" id="search-input" class="search-bar" placeholder="Search by warning, file, method, CWE...">
       </div>
       
       <div class="filter-group" role="group" aria-label="Filter warnings">
@@ -175,6 +233,28 @@ description: A 100% client-side interactive dashboard to visualize, filter, and 
           <i class="ri-eye-off-fill" aria-hidden="true"></i> Ignored
           <span class="filter-count">0</span>
         </button>
+      </div>
+
+      <div class="filter-selects">
+        <div class="filter-select">
+          <label for="triage-filter">Triage</label>
+          <select id="triage-filter">
+            <option value="all">All statuses</option>
+            <option value="untriaged">Untriaged</option>
+            <option value="to_fix">To fix</option>
+            <option value="false_positive">False positive</option>
+            <option value="accepted_risk">Accepted risk</option>
+          </select>
+        </div>
+        <div class="filter-select" id="diff-filter-wrapper" hidden>
+          <label for="diff-filter">Changes</label>
+          <select id="diff-filter">
+            <option value="current">All current warnings</option>
+            <option value="new">New</option>
+            <option value="unchanged">Unchanged</option>
+            <option value="fixed">Fixed</option>
+          </select>
+        </div>
       </div>
     </div>
 
@@ -200,6 +280,7 @@ description: A 100% client-side interactive dashboard to visualize, filter, and 
       <p id="docs-toc-title" class="bk-docs-toc-title">On this page</p>
       <ul>
         <li><a href="#generate-report">How to generate a Brakeman JSON report</a></li>
+        <li><a href="#workflow">Compare scans and triage warnings</a></li>
         <li><a href="#privacy">100% client-side privacy guarantee</a></li>
         <li><a href="#confidence-levels">Confidence levels and Security Index</a></li>
         <li><a href="#vulnerabilities">Common Rails vulnerabilities detected</a></li>
@@ -237,13 +318,38 @@ brakeman -o brakeman-report.json --no-exit-on-warn
 brakeman -I</code></pre>
     </article>
 
+    <article class="bk-docs-card" aria-labelledby="workflow">
+      <h3 id="workflow"><i class="ri-git-compare-line" aria-hidden="true"></i> Compare scans and triage warnings</h3>
+      <p>The built-in <code>brakeman -o report.html</code> output is a static list. This dashboard adds the triage loop around it:</p>
+      <ol class="bk-docs-steps">
+        <li>
+          <p><strong>Compare with a previous scan.</strong> Load the report of your <code>main</code> branch or of the last release as a baseline. Every warning is tagged <em>new</em>, <em>unchanged</em> or <em>fixed</em>. Brakeman fingerprints do not depend on line numbers, so code that only moved is not reported as new.</p>
+          <pre class="bk-docs-code" tabindex="0"><code># On main
+brakeman -q --no-exit-on-warn -o baseline.json
+# On your branch
+brakeman -q --no-exit-on-warn -o brakeman-report.json</code></pre>
+        </li>
+        <li>
+          <p><strong>Triage each warning.</strong> Open a warning and set its status: <em>To fix</em>, <em>False positive</em> or <em>Accepted risk</em>, with a note explaining why. The location (<code>Controller#action</code>), the user input highlighted in the code snippet and the CWE / OWASP Top 10:2025 category help you decide.</p>
+        </li>
+        <li>
+          <p><strong>Export <code>config/brakeman.ignore</code>.</strong> False positives and accepted risks are written in Brakeman's own ignore format, with your note as justification. Brakeman's JSON report does not include the notes of already ignored warnings, so load your current <code>config/brakeman.ignore</code> first: its entries and notes are kept as they are in the export.</p>
+          <pre class="bk-docs-code" tabindex="0"><code># Replace the ignore file, review the diff, commit it
+mv ~/Downloads/brakeman.ignore config/brakeman.ignore
+git diff config/brakeman.ignore</code></pre>
+        </li>
+      </ol>
+    </article>
+
     <article class="bk-docs-card" aria-labelledby="privacy">
       <h3 id="privacy"><i class="ri-lock-2-line" aria-hidden="true"></i> 100% client-side privacy guarantee</h3>
-      <p>Security reports reveal file paths, code snippets and weaknesses of your application. They should never be shared with a third-party service. This visualizer was designed accordingly:</p>
+      <p>Security reports reveal file paths, code snippets and weaknesses of your application. Unlike hosted platforms, this visualizer has no backend, so you can use it on confidential client projects:</p>
       <ul class="bk-docs-list">
         <li><strong>Zero report data sent to any server:</strong> the file is read with the browser <code>FileReader</code> API and never uploaded, stored or logged.</li>
         <li><strong>All parsing happens locally:</strong> JSON parsing, scoring, filtering and remediation guidance run entirely in JavaScript on your device.</li>
-        <li><strong>Nothing persists:</strong> the report is never written to cookies or local storage. Closing or reloading the tab clears it from memory.</li>
+        <li><strong>The report never persists:</strong> reports, baselines and ignore files are never written to cookies or browser storage. Closing or reloading the tab clears them from memory.</li>
+        <li><strong>Only your triage decisions are kept, in this browser:</strong> the status and note you give a warning are saved in local storage, keyed by the warning fingerprint (a hash computed by Brakeman). Use <strong>Reset triage</strong> to delete them.</li>
+        <li><strong>Exports are generated locally:</strong> the <code>brakeman.ignore</code> file is built in JavaScript and downloaded straight from the page.</li>
         <li><strong>Verifiable:</strong> once the page is loaded, you can disconnect from the network and the dashboard keeps working.</li>
       </ul>
     </article>
@@ -390,4 +496,5 @@ brakeman -I</code></pre>
 }
 </script>
 
+<script src="{{ '/assets/js/brakeman-core.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/brakeman.js' | relative_url }}"></script>

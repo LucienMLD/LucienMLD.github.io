@@ -41,6 +41,14 @@ jobs:
           find assets -type f -name "*.js" -exec node --check {} +
           echo "JavaScript syntax check passed."
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run JavaScript unit tests
+        run: node --test "tests/**/*.test.js"
+
   build:
     name: Build
     runs-on: ubuntu-latest
