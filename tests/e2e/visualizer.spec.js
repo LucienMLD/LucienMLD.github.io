@@ -26,6 +26,9 @@ async function loadReport(page, name) {
 
 // WCAG 2.1 A and AA rules, on the visualizer only (the site theme is out of scope)
 async function expectNoA11yViolations(page) {
+  // Opened panels fade in (opacity 0 to 1): measuring contrast mid-animation
+  // reports semi-transparent text, so wait for every animation to settle
+  await page.evaluate(() => Promise.all(document.getAnimations().map(animation => animation.finished)));
   const results = await new AxeBuilder({ page })
     .include('.brakeman-visualizer')
     .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
