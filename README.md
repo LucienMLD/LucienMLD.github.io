@@ -35,6 +35,14 @@ I'm a Senior Ruby on Rails Developer transitioning to cybersecurity engineering,
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
+## Brakeman Report Visualizer
+
+[lucien-mollard.com/brakeman-visualizer](https://lucien-mollard.com/brakeman-visualizer/) is a 100% client-side dashboard to triage Brakeman reports: compare two scans, mark false positives and export `config/brakeman.ignore`.
+
+- `assets/js/brakeman-core.js`: pure logic (parsing, comparison, filters, ignore file), no DOM
+- `assets/js/brakeman.js`: rendering and interactions
+- `tests/`: unit tests on real Brakeman 8 reports, run with `node --test "tests/**/*.test.js"` (Node 22+)
+
 ## Contact
 
 - **Email**: hello [at] lucien-mollard [dot] com

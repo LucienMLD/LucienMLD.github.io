@@ -1,4 +1,10 @@
+// Brakeman Report Visualizer — DOM layer.
+// Report parsing, comparison, filtering and brakeman.ignore generation live in
+// brakeman-core.js (window.BrakemanCore), which is unit tested in tests/.
 document.addEventListener('DOMContentLoaded', function() {
+  const core = window.BrakemanCore;
+  const escapeHTML = core.escapeHTML;
+
   const dropzone = document.getElementById('dropzone');
   const fileInput = document.getElementById('file-input');
   const errorBlock = document.getElementById('error-block');
@@ -7,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const dashboard = document.getElementById('dashboard');
   const searchInput = document.getElementById('search-input');
   const filterBtns = document.querySelectorAll('.filter-btn');
+  const triageFilterSelect = document.getElementById('triage-filter');
+  const diffFilterSelect = document.getElementById('diff-filter');
+  const diffFilterWrapper = document.getElementById('diff-filter-wrapper');
   const warningsListContainer = document.getElementById('warnings-list-container');
   const emptyState = document.getElementById('empty-state');
   const warningCountBadge = document.getElementById('warning-count-badge');
@@ -15,12 +24,43 @@ document.addEventListener('DOMContentLoaded', function() {
   const sampleBadge = document.getElementById('sample-badge');
   const dashboardStatus = document.getElementById('dashboard-status');
 
+  // Comparison with a previous scan
+  const baselineInput = document.getElementById('baseline-input');
+  const sampleBaselineBtn = document.getElementById('sample-baseline-btn');
+  const compareEmpty = document.getElementById('compare-empty');
+  const compareResult = document.getElementById('compare-result');
+  const compareError = document.getElementById('compare-error');
+  const showNewBtn = document.getElementById('show-new-btn');
+  const removeBaselineBtn = document.getElementById('remove-baseline-btn');
+
+  // Triage and brakeman.ignore export
+  const triageProgressText = document.getElementById('triage-progress-text');
+  const triageProgressFill = document.getElementById('triage-progress-fill');
+  const triageStorageNote = document.getElementById('triage-storage-note');
+  const exportIgnoreBtn = document.getElementById('export-ignore-btn');
+  const exportHint = document.getElementById('export-hint');
+  const ignoreInput = document.getElementById('ignore-input');
+  const ignoreError = document.getElementById('ignore-error');
+  const clearTriageBtn = document.getElementById('clear-triage-btn');
+
+  const TRIAGE_STORAGE_KEY = 'brakeman-visualizer.triage.v1';
+
   let reportData = null;
   let normalizedWarnings = [];
+  // Current warnings followed by the warnings fixed since the baseline, in render order
+  let listItems = [];
+  let baselineData = null;
+  let fixedWarnings = [];
+  let ignoreEntries = null;
+  let isSampleReport = false;
+  let triageStore = core.createTriageStore(null, TRIAGE_STORAGE_KEY);
+  let storageWarningShown = false;
   let activeFilter = 'all';
 
   // Realistic Brakeman JSON output used by the "Load Sample Report" button.
   // It covers every confidence level plus a warning muted through config/brakeman.ignore.
+  // Like a real report, the ignored warning carries no note: notes only live in
+  // the ignore file (SAMPLE_IGNORE_FILE below).
   const SAMPLE_REPORT = {
     scan_info: {
       app_path: "/home/deploy/apps/storefront",
@@ -136,15 +176,58 @@ document.addEventListener('DOMContentLoaded', function() {
         location: { type: "method", class: null, method: null },
         user_input: "ENV.fetch(\"DATABASE_NAME\")",
         confidence: "Medium",
-        cwe_id: [77],
-        note: "DATABASE_NAME and backup_path are set by the deployment pipeline and never come from user input. Reviewed by the security team."
+        cwe_id: [77]
       }
     ],
     errors: [],
     obsolete: []
   };
 
-    ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+  // The config/brakeman.ignore of the sample application
+  const SAMPLE_IGNORE_FILE = {
+    ignored_warnings: [
+      {
+        ...SAMPLE_REPORT.ignored_warnings[0],
+        note: "DATABASE_NAME and backup_path are set by the deployment pipeline and never come from user input. Reviewed by the security team."
+      }
+    ],
+    brakeman_version: "7.0.0"
+  };
+
+  // Previous scan of the sample application, two weeks earlier: the open redirect
+  // was fixed since, the unsafe reflection and the dynamic render path are new, and
+  // the SQL injection moved two lines down without changing fingerprint.
+  function buildSampleBaseline() {
+    const baseline = JSON.parse(JSON.stringify(SAMPLE_REPORT));
+    const newFingerprints = [
+      "870dba17c81b7912a3b0fe757952ac6eccebe885604354041253d877b1de21cd",
+      "d60b0b1637037c193c6b61f4c2e65bc69f550f58e1105c6a4554bf301bcf185d"
+    ];
+    baseline.scan_info.start_time = "2026-09-01T10:05:44+02:00";
+    baseline.scan_info.end_time = "2026-09-01T10:05:47+02:00";
+    baseline.warnings = baseline.warnings.filter(w => !newFingerprints.includes(w.fingerprint));
+    baseline.warnings[0].line = 12;
+    baseline.warnings.push({
+      warning_type: "Redirect",
+      warning_code: 18,
+      fingerprint: "4b0a2b5e1ba7fe1f2d0f5bbd9c1b0f2e7a3cdb0e8f1c1e4f6a3b8c9d0e1f2a3b",
+      check_name: "Redirect",
+      message: "Possible unprotected redirect",
+      file: "app/controllers/sessions_controller.rb",
+      line: 21,
+      link: "https://brakemanscanner.org/docs/warning_types/redirect/",
+      code: "redirect_to(params[:return_to])",
+      render_path: null,
+      location: { type: "method", class: "SessionsController", method: "create" },
+      user_input: "params[:return_to]",
+      confidence: "High",
+      cwe_id: [601]
+    });
+    baseline.scan_info.security_warnings = baseline.warnings.length;
+    return baseline;
+  }
+
+  ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
     dropzone.addEventListener(eventName, preventDefaults, false);
   });
 
@@ -153,7 +236,7 @@ document.addEventListener('DOMContentLoaded', function() {
     e.stopPropagation();
   }
 
-    ['dragenter', 'dragover'].forEach(eventName => {
+  ['dragenter', 'dragover'].forEach(eventName => {
     dropzone.addEventListener(eventName, () => dropzone.classList.add('dragover'), false);
   });
 
@@ -161,12 +244,11 @@ document.addEventListener('DOMContentLoaded', function() {
     dropzone.addEventListener(eventName, () => dropzone.classList.remove('dragover'), false);
   });
 
-    dropzone.addEventListener('drop', handleDrop, false);
+  dropzone.addEventListener('drop', handleDrop, false);
   fileInput.addEventListener('change', handleFileSelect, false);
 
   function handleDrop(e) {
-    const dt = e.dataTransfer;
-    const files = dt.files;
+    const files = e.dataTransfer.files;
     if (files.length > 0) {
       processFile(files[0]);
     }
@@ -179,7 +261,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-    dropzone.addEventListener('click', function(e) {
+  dropzone.addEventListener('click', function(e) {
     // The actions row (Browse File label, separator, sample button) handles its own clicks:
     // near-miss clicks between those controls must not pop the native file dialog
     if (e.target.closest('.dropzone-actions')) return;
@@ -198,7 +280,9 @@ document.addEventListener('DOMContentLoaded', function() {
   if (loadSampleBtn) loadSampleBtn.addEventListener('click', loadSampleReport);
 
   function setSampleMode(isSample) {
+    isSampleReport = isSample;
     if (sampleBadge) sampleBadge.hidden = !isSample;
+    if (sampleBaselineBtn) sampleBaselineBtn.hidden = !isSample;
     if (isSample) {
       dashboard.setAttribute('aria-describedby', 'sample-badge');
     } else {
@@ -218,8 +302,10 @@ document.addEventListener('DOMContentLoaded', function() {
     uploadAnotherBtn.addEventListener('click', function() {
       reportData = null;
       normalizedWarnings = [];
-      searchInput.value = '';
-      setActiveFilter('all');
+      listItems = [];
+      resetBaseline();
+      ignoreEntries = null;
+      resetFilters();
       setSampleMode(false);
       if (dashboardStatus) dashboardStatus.textContent = '';
 
@@ -232,7 +318,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function showError(title, desc) {
     fileInput.value = '';
-        if (errorTitle) errorTitle.textContent = title;
+    if (errorTitle) errorTitle.textContent = title;
     if (errorDesc) errorDesc.textContent = desc;
     errorBlock.style.display = 'flex';
     dashboard.style.display = 'none';
@@ -243,117 +329,68 @@ document.addEventListener('DOMContentLoaded', function() {
     errorBlock.style.display = 'none';
   }
 
+  // Resolves with the parsed JSON of a local file. Nothing leaves the browser.
+  function readJsonFile(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = event => {
+        try {
+          resolve(JSON.parse(event.target.result));
+        } catch (err) {
+          reject(new Error(`Could not parse the file. Please check that it is a valid JSON file. Error: ${err.message}`));
+        }
+      };
+      reader.onerror = () => reject(new Error('An error occurred while reading the file.'));
+      reader.readAsText(file);
+    });
+  }
+
   function processFile(file) {
     hideError();
-    const reader = new FileReader();
-    reader.onload = function(event) {
-      try {
-        const parsed = JSON.parse(event.target.result);
-        
-        // Strict validation of Brakeman output structure: a report may only contain
-        // ignored warnings (muted through config/brakeman.ignore), so accept either array
-        const isObject = parsed && typeof parsed === 'object' && !Array.isArray(parsed);
-        if (!isObject || (!Array.isArray(parsed.warnings) && !Array.isArray(parsed.ignored_warnings))) {
-          showError("Invalid File Format", "This file doesn't seem to be a valid Brakeman JSON report. It must contain a 'warnings' or 'ignored_warnings' array.");
-          return;
-        }
-
-        loadReport(parsed, false);
-      } catch (err) {
-        showError("Invalid JSON", "Could not parse the file. Please check that it is a valid JSON file. Error: " + err.message);
+    readJsonFile(file).then(parsed => {
+      if (core.parseIgnoreFile(parsed)) {
+        showError("This is a brakeman.ignore file", "Load a Brakeman JSON report first, then load your brakeman.ignore from the Triage card to display the notes of ignored warnings.");
+        return;
       }
-    };
-    reader.onerror = function() {
-      showError("Read Error", "An error occurred while reading the file.");
-    };
-    reader.readAsText(file);
+      if (!core.isBrakemanReport(parsed)) {
+        showError("Invalid File Format", "This file doesn't seem to be a valid Brakeman JSON report. It must contain a 'warnings' or 'ignored_warnings' array.");
+        return;
+      }
+      loadReport(parsed, false);
+    }).catch(err => {
+      showError("Invalid JSON", err.message);
+    });
+  }
+
+  function safeLocalStorage() {
+    try {
+      const storage = window.localStorage;
+      storage.getItem(TRIAGE_STORAGE_KEY);
+      return storage;
+    } catch {
+      return null;
+    }
   }
 
   function loadReport(parsed, isSample) {
     reportData = parsed;
-    // Start every report (uploaded or sample) from an unfiltered view
-    searchInput.value = '';
-    setActiveFilter('all');
+    resetBaseline();
+    resetFilters();
     setSampleMode(isSample);
-    normalizeReportData();
+    // The sample report must not leave triage decisions behind in the visitor's browser
+    triageStore = core.createTriageStore(isSample ? null : safeLocalStorage(), TRIAGE_STORAGE_KEY);
+    storageWarningShown = false;
+    normalizedWarnings = core.normalizeReport(reportData);
+
+    // The sample ships with its brakeman.ignore, as if the visitor had loaded it
+    ignoreEntries = isSample ? core.parseIgnoreFile(JSON.parse(JSON.stringify(SAMPLE_IGNORE_FILE))) : null;
+    if (ignoreEntries) core.applyIgnoreNotes(normalizedWarnings, ignoreEntries);
+
     renderDashboard();
 
     const count = normalizedWarnings.length;
     const found = `${count} warning${count === 1 ? '' : 's'} found.`;
     announceStatus(isSample ? `Sample report loaded: ${found}` : `Report loaded: ${found}`);
-  }
-
-  // Strictly normalize all warning inputs on load to prevent rendering crashes
-  function normalizeReportData() {
-    if (!reportData) return;
-
-    // Filter out any non-object entries first to be 100% robust
-    const toRawList = list => (Array.isArray(list) ? list : []).filter(w => w && typeof w === 'object' && !Array.isArray(w));
-
-    normalizedWarnings = [
-      ...toRawList(reportData.warnings).map(w => normalizeWarning(w, false)),
-      ...toRawList(reportData.ignored_warnings).map(w => normalizeWarning(w, true))
-    ];
-  }
-
-  function normalizeWarning(w, isIgnored) {
-    // Validate and cast all attributes safely, accounting for line 0
-    const warning_type = (w.warning_type !== null && w.warning_type !== undefined) ? String(w.warning_type).trim() : 'Warning';
-    const message = (w.message !== null && w.message !== undefined) ? String(w.message).trim() : 'No description provided';
-    const file = (w.file !== null && w.file !== undefined) ? String(w.file).trim() : 'Unknown file';
-    const line = (w.line !== null && w.line !== undefined) ? String(w.line).trim() : 'N/A';
-
-    let code = null;
-    if (w.code !== null && w.code !== undefined) {
-      code = typeof w.code === 'object' ? JSON.stringify(w.code) : String(w.code).trim();
-    }
-
-    let confidence = 'weak';
-    const rawConf = String(w.confidence || '').toLowerCase().trim();
-    if (rawConf === 'high' || rawConf === 'medium' || rawConf === 'weak') {
-      confidence = rawConf;
-    }
-
-    // Brakeman stores the justification written in brakeman.ignore under "note"
-    const note = (isIgnored && w.note !== null && w.note !== undefined) ? String(w.note).trim() : '';
-
-    return {
-      warning_type,
-      message,
-      file,
-      line,
-      code,
-      confidence,
-      is_ignored: isIgnored,
-      note,
-      fingerprint: w.fingerprint ? String(w.fingerprint).trim() : ''
-    };
-  }
-
-  // Calculate Security Score based on confidence of issues
-  function calculateSecurityScore(warnings) {
-    if (!warnings || warnings.length === 0) return { score: 100, grade: 'A+', label: 'Excellent security posture' };
-    
-        let totalDeductions = 0;
-    warnings.forEach(w => {
-      if (w.confidence === 'high') totalDeductions += 10;
-      else if (w.confidence === 'medium') totalDeductions += 4;
-      else totalDeductions += 1;
-    });
-
-    let score = 100 - totalDeductions;
-    if (score < 0) score = 0;
-
-    let grade = 'F';
-    let label = 'Critical issues present';
-
-    if (score >= 95) { grade = 'A+'; label = 'Excellent posture'; }
-    else if (score >= 90) { grade = 'A'; label = 'Very secure'; }
-    else if (score >= 80) { grade = 'B'; label = 'Minor warnings'; }
-    else if (score >= 70) { grade = 'C'; label = 'Action required'; }
-    else if (score >= 50) { grade = 'D'; label = 'Vulnerable profile'; }
-
-    return { score, grade, label };
   }
 
   function renderDashboard() {
@@ -389,7 +426,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (ignoredBtn) ignoredBtn.hidden = ignored === 0;
     if (activeFilter === 'ignored' && ignored === 0) setActiveFilter('all');
 
-    const rating = calculateSecurityScore(activeWarnings);
+    const rating = core.calculateSecurityScore(activeWarnings);
     document.getElementById('val-grade').textContent = rating.grade;
     document.getElementById('val-score-label').textContent = rating.label;
     document.getElementById('score-percent').textContent = rating.score + "%";
@@ -398,23 +435,23 @@ document.addEventListener('DOMContentLoaded', function() {
     scoreNote.textContent = `${ignored} ignored warning${ignored > 1 ? 's' : ''} not scored`;
     scoreNote.hidden = ignored === 0;
 
-        const gradeEl = document.getElementById('val-grade');
+    const gradeEl = document.getElementById('val-grade');
     gradeEl.className = 'value'; // Reset classes
     if (rating.score >= 90) gradeEl.classList.add('value-weak'); // Green
     else if (rating.score >= 70) gradeEl.classList.add('value-med'); // Orange
     else gradeEl.classList.add('value-high'); // Red
 
-        const circle = document.getElementById('score-ring');
+    const circle = document.getElementById('score-ring');
     const radius = 38;
     const circumference = 2 * Math.PI * radius;
     const strokeOffset = circumference - (rating.score / 100) * circumference;
     circle.style.strokeDasharray = circumference;
     circle.style.strokeDashoffset = strokeOffset;
-    
-        document.getElementById('meta-date').textContent = formatDate(scanInfo.start_time || scanInfo.timestamp);
+
+    document.getElementById('meta-date').textContent = formatDate(scanInfo.start_time || scanInfo.timestamp);
     document.getElementById('meta-rails').textContent = typeof scanInfo.rails_version === 'object' ? JSON.stringify(scanInfo.rails_version) : (scanInfo.rails_version || 'N/A');
     document.getElementById('meta-brakeman').textContent = typeof scanInfo.brakeman_version === 'object' ? JSON.stringify(scanInfo.brakeman_version) : (scanInfo.brakeman_version || 'N/A');
-    
+
     // Duration float formatting
     let durationVal = 'N/A';
     if (scanInfo.duration !== null && scanInfo.duration !== undefined) {
@@ -423,26 +460,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     document.getElementById('meta-duration').textContent = durationVal;
 
-        dropzone.style.display = 'none';
+    dropzone.style.display = 'none';
     dashboard.style.display = 'block';
 
     // Focus shifts to dashboard on load
     dashboard.focus();
 
-        renderWarningsListStructure();
-    
-        applyFiltersAndSearch();
+    renderWarningsListStructure();
+    applyFiltersAndSearch();
+    updateCompareSummary();
+    updateTriageSummary();
   }
 
   function formatDate(dateStr) {
     if (!dateStr) return 'N/A';
-    try {
-      const d = new Date(dateStr);
-      if (isNaN(d.getTime())) return dateStr;
-      return d.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-    } catch {
-      return dateStr;
-    }
+    const d = core.parseReportDate(dateStr);
+    if (!d) return String(dateStr);
+    return d.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' });
   }
 
   // Get secure coding recommendations and vulnerability explanations based on Brakeman warning types
@@ -578,6 +612,19 @@ document.addEventListener('DOMContentLoaded', function() {
     return info;
   }
 
+  // ---------------------------------------------------------------------------
+  // Filters
+  // ---------------------------------------------------------------------------
+
+  function currentFilters() {
+    return {
+      confidence: activeFilter,
+      triage: triageFilterSelect.value,
+      diff: diffFilterSelect.value,
+      search: searchInput.value
+    };
+  }
+
   function setActiveFilter(filter) {
     activeFilter = filter;
     filterBtns.forEach(btn => {
@@ -587,6 +634,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // Every report (uploaded or sample) starts from an unfiltered view
+  function resetFilters() {
+    searchInput.value = '';
+    setActiveFilter('all');
+    triageFilterSelect.value = 'all';
+    diffFilterSelect.value = 'current';
+  }
+
   filterBtns.forEach(btn => {
     btn.addEventListener('click', function() {
       setActiveFilter(this.dataset.filter);
@@ -594,68 +649,385 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-    searchInput.addEventListener('input', applyFiltersAndSearch);
+  searchInput.addEventListener('input', applyFiltersAndSearch);
+  triageFilterSelect.addEventListener('change', applyFiltersAndSearch);
+  diffFilterSelect.addEventListener('change', applyFiltersAndSearch);
 
+  function triageStatusOf(w) {
+    return triageStore.get(w.key).status;
+  }
+
+  function isTriageable(w) {
+    return !w.is_ignored && w.diff !== 'fixed';
+  }
+
+  // Changing a warning's triage status does not re-run the filters on purpose:
+  // the card being edited (and the focused control) must not vanish under the user
   function applyFiltersAndSearch() {
-    if (!normalizedWarnings) return;
-
-    const searchTerm = searchInput.value.toLowerCase().trim();
+    const filters = currentFilters();
     let visibleCount = 0;
 
-    normalizedWarnings.forEach((w, index) => {
+    listItems.forEach((w, index) => {
       const card = document.getElementById(`warning-${index}`);
       if (!card) return;
-
-      let isVisible = true;
-
-      // "ignored" isolates muted warnings; confidence filters target active ones
-      if (activeFilter === 'ignored') {
-        isVisible = w.is_ignored;
-      } else if (activeFilter !== 'all') {
-        isVisible = !w.is_ignored && w.confidence === activeFilter;
-      }
-
-            if (isVisible && searchTerm) {
-        const textToMatch = `${w.warning_type} ${w.message} ${w.file} ${w.code || ''} ${w.note}`.toLowerCase();
-        if (!textToMatch.includes(searchTerm)) {
-          isVisible = false;
-        }
-      }
-
-            if (isVisible) {
-        card.classList.remove('hidden-by-filter');
-        visibleCount++;
-      } else {
-        card.classList.add('hidden-by-filter');
-      }
+      const isVisible = core.matchesFilters(w, filters, triageStatusOf(w));
+      card.classList.toggle('hidden-by-filter', !isVisible);
+      if (isVisible) visibleCount++;
     });
 
-    // Update Counter badge
     warningCountBadge.textContent = `${visibleCount} found`;
 
-        if (visibleCount === 0) {
-      if (normalizedWarnings.length === 0) {
-        emptyState.querySelector('p').textContent = 'No warnings reported in this Brakeman scan.';
-      } else {
-        emptyState.querySelector('p').textContent = 'No vulnerabilities found matching your filter criteria.';
-      }
+    if (visibleCount === 0) {
+      emptyState.querySelector('p').textContent = listItems.length === 0
+        ? 'No warnings reported in this Brakeman scan.'
+        : 'No vulnerabilities found matching your filter criteria.';
       emptyState.style.display = 'block';
     } else {
       emptyState.style.display = 'none';
     }
+    return visibleCount;
   }
 
-    function renderWarningsListStructure() {
+  function setOptionLabel(select, value, label) {
+    const option = select.querySelector(`option[value="${value}"]`);
+    if (option) option.textContent = label;
+  }
+
+  // ---------------------------------------------------------------------------
+  // Comparison with a previous scan
+  // ---------------------------------------------------------------------------
+
+  function resetBaseline() {
+    baselineData = null;
+    fixedWarnings = [];
+    normalizedWarnings.forEach(w => { delete w.diff; });
+    baselineInput.value = '';
+    compareError.textContent = '';
+    diffFilterSelect.value = 'current';
+    updateCompareSummary();
+  }
+
+  function applyBaseline(parsed) {
+    normalizedWarnings.forEach(w => { delete w.diff; });
+    const diff = core.compareReports(normalizedWarnings, core.normalizeReport(parsed));
+    diff.added.forEach(w => { w.diff = 'new'; });
+    diff.unchanged.forEach(w => { w.diff = 'unchanged'; });
+    diff.fixed.forEach(w => { w.diff = 'fixed'; });
+
+    baselineData = parsed;
+    fixedWarnings = diff.fixed;
+    compareError.textContent = '';
+
+    renderWarningsListStructure();
+    applyFiltersAndSearch();
+    updateCompareSummary();
+    updateTriageSummary();
+    // The load controls are now hidden: keep keyboard focus inside the comparison card
+    showNewBtn.focus();
+    announceStatus(`Baseline loaded: ${diff.added.length} new, ${diff.fixed.length} fixed and ${diff.unchanged.length} unchanged warnings.`);
+  }
+
+  function updateCompareSummary() {
+    const hasBaseline = Boolean(baselineData);
+    compareEmpty.hidden = hasBaseline;
+    compareResult.hidden = !hasBaseline;
+    diffFilterWrapper.hidden = !hasBaseline;
+    if (!hasBaseline) return;
+
+    const counts = { new: 0, unchanged: 0, fixed: fixedWarnings.length };
+    normalizedWarnings.forEach(w => { counts[w.diff]++; });
+
+    const scanInfo = baselineData.scan_info || {};
+    document.getElementById('baseline-date').textContent = formatDate(scanInfo.start_time || scanInfo.timestamp);
+    document.getElementById('diff-new-count').textContent = counts.new;
+    document.getElementById('diff-fixed-count').textContent = counts.fixed;
+    document.getElementById('diff-unchanged-count').textContent = counts.unchanged;
+
+    setOptionLabel(diffFilterSelect, 'new', `New (${counts.new})`);
+    setOptionLabel(diffFilterSelect, 'unchanged', `Unchanged (${counts.unchanged})`);
+    setOptionLabel(diffFilterSelect, 'fixed', `Fixed (${counts.fixed})`);
+    showNewBtn.disabled = counts.new === 0;
+  }
+
+  baselineInput.addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (!file || !reportData) return;
+    readJsonFile(file).then(parsed => {
+      if (core.parseIgnoreFile(parsed)) {
+        throw new Error('this is a brakeman.ignore file. Load it from the Triage card instead.');
+      }
+      if (!core.isBrakemanReport(parsed)) {
+        throw new Error("this file doesn't seem to be a valid Brakeman JSON report.");
+      }
+      applyBaseline(parsed);
+    }).catch(err => {
+      baselineInput.value = '';
+      compareError.textContent = `Baseline not loaded: ${err.message}`;
+    });
+  });
+
+  if (sampleBaselineBtn) {
+    sampleBaselineBtn.addEventListener('click', function() {
+      applyBaseline(buildSampleBaseline());
+    });
+  }
+
+  showNewBtn.addEventListener('click', function() {
+    diffFilterSelect.value = 'new';
+    const visible = applyFiltersAndSearch();
+    announceStatus(`${visible} new warning${visible === 1 ? '' : 's'} shown.`);
+  });
+
+  removeBaselineBtn.addEventListener('click', function() {
+    resetBaseline();
+    renderWarningsListStructure();
+    applyFiltersAndSearch();
+    updateTriageSummary();
+    baselineInput.focus();
+    announceStatus('Baseline removed.');
+  });
+
+  // ---------------------------------------------------------------------------
+  // Triage and brakeman.ignore export
+  // ---------------------------------------------------------------------------
+
+  function buildExport() {
+    const scanInfo = (reportData && reportData.scan_info) || {};
+    return core.buildIgnoreFile(normalizedWarnings, key => triageStore.get(key), scanInfo.brakeman_version, ignoreEntries);
+  }
+
+  function plural(count, singular, pluralForm) {
+    return `${count} ${count === 1 ? singular : (pluralForm || singular + 's')}`;
+  }
+
+  function updateTriageSummary() {
+    const active = normalizedWarnings.filter(w => !w.is_ignored);
+    const counts = { untriaged: 0, to_fix: 0, false_positive: 0, accepted_risk: 0 };
+    active.forEach(w => { counts[triageStatusOf(w)]++; });
+
+    const triaged = active.length - counts.untriaged;
+    triageProgressText.textContent = `${triaged} of ${plural(active.length, 'active warning')} triaged`;
+    triageProgressFill.style.width = active.length ? `${Math.round((triaged / active.length) * 100)}%` : '0%';
+
+    Object.keys(counts).forEach(status => {
+      setOptionLabel(triageFilterSelect, status, `${core.TRIAGE_STATUSES[status].label} (${counts[status]})`);
+    });
+
+    if (isSampleReport) {
+      triageStorageNote.textContent = 'Sample report: decisions are kept in memory and discarded when you leave the page.';
+    } else if (triageStore.persistent) {
+      triageStorageNote.textContent = 'Decisions are saved in this browser only, keyed by warning fingerprint. The report itself is never stored.';
+    } else {
+      triageStorageNote.textContent = 'Browser storage is unavailable: decisions are discarded when you leave the page.';
+    }
+
+    const result = buildExport();
+    exportIgnoreBtn.disabled = result.count === 0;
+
+    const hints = [];
+    if (ignoreEntries) {
+      hints.push(`Current brakeman.ignore loaded (${plural(ignoreEntries.length, 'entry', 'entries')}): all its entries are kept in the export.`);
+    }
+    if (result.count === 0) {
+      hints.push('Mark warnings as false positive or accepted risk to export them to config/brakeman.ignore.');
+    } else if (result.added > 0) {
+      hints.push(`The export adds ${plural(result.added, 'warning')} from your triage.`);
+    }
+    if (result.missingNotes > 0) {
+      hints.push(`Brakeman JSON reports do not include ignore notes: load your current brakeman.ignore to keep the notes of the ${plural(result.missingNotes, 'warning')} already ignored.`);
+    }
+    if (result.skipped > 0) {
+      hints.push(`${plural(result.skipped, 'triaged warning has', 'triaged warnings have')} no fingerprint and cannot be ignored by Brakeman.`);
+    }
+    exportHint.textContent = hints.join(' ');
+  }
+
+  function saveTriage(w, update) {
+    if (!triageStore.set(w.key, update) && !storageWarningShown) {
+      storageWarningShown = true;
+      ignoreError.textContent = 'Triage decisions could not be saved in this browser (storage full or blocked). They are kept until you leave the page.';
+    }
+  }
+
+  function updateTriageBadge(index, w) {
+    const badge = document.getElementById(`warning-${index}-triage-badge`);
+    if (!badge) return;
+    const status = triageStatusOf(w);
+    badge.textContent = core.TRIAGE_STATUSES[status].label;
+    badge.className = `warning-badge badge-triage triage-${status}`;
+    badge.hidden = status === 'untriaged';
+  }
+
+  warningsListContainer.addEventListener('change', function(e) {
+    const select = e.target.closest('.triage-status');
+    if (!select) return;
+    const index = Number(select.dataset.index);
+    const w = listItems[index];
+    if (!w) return;
+    saveTriage(w, { status: select.value });
+    updateTriageBadge(index, w);
+    updateTriageSummary();
+  });
+
+  warningsListContainer.addEventListener('input', function(e) {
+    const note = e.target.closest('.triage-note');
+    if (!note) return;
+    const w = listItems[Number(note.dataset.index)];
+    if (!w) return;
+    saveTriage(w, { note: note.value });
+    updateTriageSummary();
+  });
+
+  exportIgnoreBtn.addEventListener('click', function() {
+    const result = buildExport();
+    if (result.count === 0) return;
+
+    // Generated and downloaded locally: the file never goes through a server
+    const blob = new Blob([core.serializeIgnoreFile(result.file)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'brakeman.ignore';
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 0);
+
+    announceStatus(`brakeman.ignore exported with ${plural(result.count, 'entry', 'entries')}. Save it as config/brakeman.ignore in your application.`);
+  });
+
+  ignoreInput.addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (!file || !reportData) return;
+    readJsonFile(file).then(parsed => {
+      const entries = core.parseIgnoreFile(parsed);
+      if (!entries) {
+        throw new Error("this file doesn't look like a config/brakeman.ignore file: it must contain an 'ignored_warnings' array.");
+      }
+      ignoreEntries = entries;
+      ignoreError.textContent = '';
+      const applied = core.applyIgnoreNotes(normalizedWarnings, entries);
+      renderWarningsListStructure();
+      applyFiltersAndSearch();
+      updateTriageSummary();
+      announceStatus(`brakeman.ignore loaded: ${plural(entries.length, 'entry', 'entries')}, ${plural(applied, 'note')} applied to ignored warnings.`);
+    }).catch(err => {
+      ignoreError.textContent = `brakeman.ignore not loaded: ${err.message}`;
+    }).finally(() => {
+      ignoreInput.value = '';
+    });
+  });
+
+  clearTriageBtn.addEventListener('click', function() {
+    if (!window.confirm('Reset every triage decision saved in this browser? This cannot be undone.')) return;
+    triageStore.clear();
+    renderWarningsListStructure();
+    applyFiltersAndSearch();
+    updateTriageSummary();
+    announceStatus('Triage decisions reset.');
+  });
+
+  // ---------------------------------------------------------------------------
+  // Warnings list
+  // ---------------------------------------------------------------------------
+
+  function renderFacts(w) {
+    const facts = [];
+    if (w.location) facts.push(['Location', escapeHTML(w.location)]);
+    if (w.user_input) facts.push(['User input', `<code>${escapeHTML(w.user_input)}</code>`]);
+    if (w.cwe_ids.length) {
+      const weaknesses = w.cwe_ids.map(id => {
+        const info = core.cweInfo(id);
+        const owasp = info.owasp ? ` <span class="owasp-tag">OWASP ${escapeHTML(info.owasp.id)} ${escapeHTML(info.owasp.title)}</span>` : '';
+        return `<a href="${escapeHTML(info.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(info.label)}<span class="sr-only"> (opens in new window)</span></a>${owasp}`;
+      });
+      facts.push(['Weakness', weaknesses.join('<br>')]);
+    }
+    if (w.check_name) facts.push(['Brakeman check', escapeHTML(w.check_name)]);
+    if (facts.length === 0) return '';
+
+    return `
+      <dl class="warning-facts">
+        ${facts.map(([term, value]) => `<div><dt>${term}</dt><dd>${value}</dd></div>`).join('')}
+      </dl>
+    `;
+  }
+
+  function renderStatusNote(w) {
+    if (w.diff === 'fixed') {
+      return `
+        <div class="status-note status-note-fixed">
+          <i class="ri-check-double-line" aria-hidden="true"></i>
+          <div>
+            <p class="status-note-title">Fixed since the baseline scan</p>
+            <p>This warning was reported in the baseline scan and is no longer present in the current report.</p>
+          </div>
+        </div>
+      `;
+    }
+    if (!w.is_ignored) return '';
+
+    let note = 'No justification note was provided for this ignored warning.';
+    if (w.note) {
+      note = escapeHTML(w.note);
+    } else if (!ignoreEntries) {
+      note = 'Brakeman JSON reports do not include ignore notes. Load your current brakeman.ignore to display the justification.';
+    }
+    return `
+      <div class="status-note ignored-note">
+        <i class="ri-eye-off-line" aria-hidden="true"></i>
+        <div>
+          <p class="status-note-title">Ignored via <code>config/brakeman.ignore</code></p>
+          <p>${note}</p>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderTriageSection(w, warningId, index) {
+    if (!isTriageable(w)) return '';
+    const entry = triageStore.get(w.key);
+    const options = Object.keys(core.TRIAGE_STATUSES).map(status =>
+      `<option value="${status}"${status === entry.status ? ' selected' : ''}>${escapeHTML(core.TRIAGE_STATUSES[status].label)}</option>`
+    ).join('');
+
+    return `
+      <div class="triage-section">
+        <h4 class="triage-section-title">Triage</h4>
+        <div class="triage-fields">
+          <div class="triage-field">
+            <label for="${warningId}-status">Status</label>
+            <select id="${warningId}-status" class="triage-status" data-index="${index}">${options}</select>
+          </div>
+          <div class="triage-field triage-note-field">
+            <label for="${warningId}-note">Note</label>
+            <textarea id="${warningId}-note" class="triage-note" data-index="${index}" rows="2" aria-describedby="${warningId}-triage-hint">${escapeHTML(entry.note)}</textarea>
+          </div>
+        </div>
+        <p class="triage-hint" id="${warningId}-triage-hint">False positives and accepted risks go to the exported brakeman.ignore, with this note as justification.</p>
+      </div>
+    `;
+  }
+
+  function renderWarningsListStructure() {
+    // Re-rendering (baseline or ignore file loaded) keeps opened warnings open
+    const expandedKeys = new Set(
+      Array.from(warningsListContainer.querySelectorAll('.warning-item.expanded')).map(el => el.dataset.key)
+    );
     warningsListContainer.innerHTML = '';
+    listItems = [...normalizedWarnings, ...fixedWarnings];
 
-    normalizedWarnings.forEach((w, index) => {
+    listItems.forEach((w, index) => {
       const warningId = `warning-${index}`;
-      
-      const itemEl = document.createElement('div');
-      itemEl.className = w.is_ignored ? 'warning-item is-ignored' : 'warning-item';
-      itemEl.id = warningId;
 
-            let barClass = 'severity-weak-bar';
+      const itemEl = document.createElement('div');
+      itemEl.className = 'warning-item';
+      if (w.is_ignored) itemEl.classList.add('is-ignored');
+      if (w.diff === 'fixed') itemEl.classList.add('is-fixed');
+      itemEl.id = warningId;
+      itemEl.dataset.key = w.key;
+
+      let barClass = 'severity-weak-bar';
       let badgeClass = 'badge-weak';
       let typeClass = 'warning-type-weak';
       if (w.confidence === 'high') {
@@ -668,51 +1040,62 @@ document.addEventListener('DOMContentLoaded', function() {
         typeClass = 'warning-type-med';
       }
 
-            let codeHtml = '';
+      let codeHtml = '';
       if (w.code) {
         codeHtml = `
           <div class="code-section">
             <div class="code-header">
-              <span>Code Snippet</span>
+              <span>Code Snippet${w.user_input && w.code.includes(w.user_input) ? ' · user input highlighted' : ''}</span>
               <span>Line ${escapeHTML(w.line)}</span>
             </div>
-            <pre class="code-block"><code>${escapeHTML(w.code)}</code></pre>
+            <pre class="code-block"><code>${core.highlightUserInput(w.code, w.user_input)}</code></pre>
           </div>
         `;
       }
 
-      let ignoredBadgeHtml = '';
-      let ignoredNoteHtml = '';
-      if (w.is_ignored) {
-        ignoredBadgeHtml = `
+      let diffBadgeHtml = '';
+      if (w.diff === 'new') {
+        diffBadgeHtml = '<span class="warning-badge badge-diff-new"><i class="ri-add-circle-line" aria-hidden="true"></i> New</span>';
+      } else if (w.diff === 'fixed') {
+        diffBadgeHtml = '<span class="warning-badge badge-diff-fixed"><i class="ri-check-double-line" aria-hidden="true"></i> Fixed</span>';
+      }
+
+      let triageBadgeHtml = '';
+      if (isTriageable(w)) {
+        const status = triageStatusOf(w);
+        triageBadgeHtml = `<span class="warning-badge badge-triage triage-${status}" id="${warningId}-triage-badge"${status === 'untriaged' ? ' hidden' : ''}>${escapeHTML(core.TRIAGE_STATUSES[status].label)}</span>`;
+      }
+
+      const ignoredBadgeHtml = w.is_ignored ? `
           <span class="warning-badge badge-ignored">
             <i class="ri-eye-off-line" aria-hidden="true"></i> Ignored
           </span>
-        `;
-        ignoredNoteHtml = `
-          <div class="ignored-note">
-            <i class="ri-eye-off-line" aria-hidden="true"></i>
-            <div>
-              <p class="ignored-note-title">Ignored via <code>config/brakeman.ignore</code></p>
-              <p>${w.note ? escapeHTML(w.note) : 'No justification note was provided for this ignored warning.'}</p>
-            </div>
-          </div>
-        `;
-      }
+        ` : '';
 
-            const secInfo = getVulnerabilityRemediationInfo(w.warning_type);
+      const secInfo = getVulnerabilityRemediationInfo(w.warning_type);
 
-            let checklistHtml = '';
+      let checklistHtml = '';
       secInfo.checklist.forEach(item => {
         checklistHtml += `<li>${escapeHTML(item)}</li>`;
       });
 
+      // w.link comes from the report: core.safeExternalUrl only kept it if it is an https URL
+      const brakemanDocHtml = w.link
+        ? `<a href="${escapeHTML(w.link)}" target="_blank" rel="noopener noreferrer" class="reference-link">
+             <i class="ri-book-open-line" aria-hidden="true"></i> Brakeman docs: ${escapeHTML(w.warning_type)} <span class="sr-only">(opens in new window)</span>
+           </a>`
+        : `<a href="https://brakemanscanner.org/docs/warning_types/" target="_blank" rel="noopener noreferrer" class="reference-link">
+             <i class="ri-book-open-line" aria-hidden="true"></i> Brakeman Warning Types <span class="sr-only">(opens in new window)</span>
+           </a>`;
+
+      const locationSuffix = w.location ? ` · ${escapeHTML(w.location)}` : '';
+
       // Wrap button inside heading h3 for proper navigation landmarks, add role="region" and tabindex="0" to panels
       itemEl.innerHTML = `
         <h3 style="margin: 0; font-size: inherit; font-weight: inherit;">
-          <button class="warning-summary-row" 
-                  aria-expanded="false" 
-                  aria-controls="${warningId}-panel" 
+          <button class="warning-summary-row"
+                  aria-expanded="false"
+                  aria-controls="${warningId}-panel"
                   id="${warningId}-header">
             <span class="warning-primary-info">
               <span class="severity-indicator ${barClass}"></span>
@@ -720,22 +1103,26 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="warning-type-badge ${typeClass}">${escapeHTML(w.warning_type)}</span>
                 <span class="warning-title">${escapeHTML(w.message)}</span>
                 <span class="warning-location">
-                  <i class="ri-file-code-line" aria-hidden="true"></i> ${escapeHTML(w.file)} : ${escapeHTML(w.line)}
+                  <i class="ri-file-code-line" aria-hidden="true"></i> ${escapeHTML(w.file)} : ${escapeHTML(w.line)}${locationSuffix}
                 </span>
               </span>
             </span>
             <span class="warning-actions">
+              ${diffBadgeHtml}
+              ${triageBadgeHtml}
               ${ignoredBadgeHtml}
               <span class="warning-badge ${badgeClass}">${escapeHTML(w.confidence)} Confidence</span>
               <i class="ri-arrow-down-s-line expand-chevron" aria-hidden="true"></i>
             </span>
           </button>
         </h3>
-        
+
         <div class="warning-details-panel" id="${warningId}-panel" role="region" aria-labelledby="${warningId}-header">
-          ${ignoredNoteHtml}
+          ${renderStatusNote(w)}
+          ${renderFacts(w)}
           ${codeHtml}
-          
+          ${renderTriageSection(w, warningId, index)}
+
           <div class="remediation-tabs">
             <!-- Distinct labels for tabs inside each warning -->
             <div class="tab-nav" role="tablist" aria-label="Remediation actions for warning ${escapeHTML(w.warning_type)} in ${escapeHTML(w.file)} at line ${escapeHTML(w.line)}">
@@ -749,7 +1136,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <i class="ri-list-check-2" aria-hidden="true"></i> Fix Checklist
               </button>
             </div>
-            
+
             <!-- Explanation Panel -->
             <div class="tab-panel active" id="${warningId}-explanation" role="tabpanel" aria-labelledby="${warningId}-tab-explanation" tabindex="0">
               <div class="panel-content">
@@ -762,19 +1149,17 @@ document.addEventListener('DOMContentLoaded', function() {
                   <a href="${secInfo.owasp_link}" target="_blank" rel="noopener noreferrer" class="reference-link">
                     <i class="ri-external-link-line" aria-hidden="true"></i> ${escapeHTML(secInfo.owasp_title)} <span class="sr-only">(opens in new window)</span>
                   </a>
-                  <a href="https://brakemanscanner.org/docs/warning_types/" target="_blank" rel="noopener noreferrer" class="reference-link">
-                    <i class="ri-book-open-line" aria-hidden="true"></i> Brakeman Warning Types <span class="sr-only">(opens in new window)</span>
-                  </a>
+                  ${brakemanDocHtml}
                 </div>
               </div>
             </div>
-            
+
             <!-- Remediation Panel -->
             <div class="tab-panel" id="${warningId}-remediation" role="tabpanel" aria-labelledby="${warningId}-tab-remediation" tabindex="0">
               <div class="panel-content">
                 <h4>How to Fix (Ruby on Rails Implementation)</h4>
                 <p>Compare the vulnerable pattern with the recommended secure implementation below:</p>
-                
+
                 <div class="comparison-box">
                   <!-- Before -->
                   <div class="comparison-card vulnerable">
@@ -783,7 +1168,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <pre><code>${escapeHTML(secInfo.before)}</code></pre>
                   </div>
-                  
+
                   <!-- After -->
                   <div class="comparison-card secure">
                     <div class="comparison-title">
@@ -792,13 +1177,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     <pre><code>${escapeHTML(secInfo.after)}</code></pre>
                   </div>
                 </div>
-                
+
                 <p class="comparison-explanation" style="margin-top: 1rem;">
                   <strong>Secure Coding Practice:</strong> ${escapeHTML(secInfo.afterExplanation)}
                 </p>
               </div>
             </div>
-            
+
             <!-- Checklist Panel -->
             <div class="tab-panel" id="${warningId}-checklist" role="tabpanel" aria-labelledby="${warningId}-tab-checklist" tabindex="0">
               <div class="panel-content">
@@ -814,15 +1199,19 @@ document.addEventListener('DOMContentLoaded', function() {
       `;
 
       warningsListContainer.appendChild(itemEl);
-      
+
       // Initialize keyboard navigation for the tablist of this warning
       setupTabKeyboardNavigation(warningId);
+
+      if (expandedKeys.has(w.key)) {
+        toggleWarning(warningId, document.getElementById(`${warningId}-header`));
+      }
     });
   }
 
   // Event Delegation for Accordion Toggles and Tabs
   warningsListContainer.addEventListener('click', function(e) {
-        const header = e.target.closest('.warning-summary-row');
+    const header = e.target.closest('.warning-summary-row');
     if (header) {
       e.preventDefault();
       const item = header.closest('.warning-item');
@@ -832,7 +1221,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
 
-        const tabLink = e.target.closest('.tab-link');
+    const tabLink = e.target.closest('.tab-link');
     if (tabLink) {
       e.preventDefault();
       const tabType = tabLink.dataset.tab;
@@ -926,16 +1315,5 @@ document.addEventListener('DOMContentLoaded', function() {
         nextTab.focus();
       }
     });
-  }
-
-  // Escape to avoid HTML rendering inside parsed attributes
-  function escapeHTML(str) {
-    if (str === null || str === undefined) return '';
-    return String(str)
-              .replace(/&/g, '&amp;')
-              .replace(/</g, '&lt;')
-              .replace(/>/g, '&gt;')
-              .replace(/"/g, '&quot;')
-              .replace(/'/g, '&#039;');
   }
 });

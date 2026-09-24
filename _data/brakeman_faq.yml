@@ -13,8 +13,25 @@
 
 - question: How are ignored warnings handled?
   answer: >-
-    Warnings muted in <code>config/brakeman.ignore</code> appear under the Ignored filter with their justification note.
-    They are excluded from the confidence counters and the Security Index.
+    Warnings muted in <code>config/brakeman.ignore</code> appear under the Ignored filter. They are excluded from the
+    confidence counters and the Security Index. Brakeman's JSON report does not include their justification notes:
+    load your <code>config/brakeman.ignore</code> in the Triage card to display them.
+
+- question: How does the comparison between two scans work?
+  answer: >-
+    Load an older report as baseline. Warnings are matched by their Brakeman fingerprint, which does not depend on line
+    numbers: a warning that only moved in the file stays unchanged, a warning missing from the new report is marked as fixed.
+
+- question: Where are my triage decisions stored?
+  answer: >-
+    In your browser's local storage only, keyed by warning fingerprint: the status and the note you typed, never the report.
+    They are not sent anywhere. The Reset triage button deletes them.
+
+- question: Can I edit config/brakeman.ignore from the visualizer?
+  answer: >-
+    Yes. Mark warnings as false positive or accepted risk, then export <code>brakeman.ignore</code>. The file uses Brakeman's
+    format and keeps every entry of your current ignore file when you load it first, so you can replace
+    <code>config/brakeman.ignore</code> and review the change with <code>git diff</code>.
 
 - question: Is Brakeman confidence the same as severity?
   answer: >-
@@ -29,4 +46,4 @@
 - question: Can I try the dashboard without a report?
   answer: >-
     Yes. Click Load Sample Report to open a realistic example report with High, Medium and Weak confidence warnings,
-    plus an ignored warning.
+    plus an ignored warning. Then click Use sample baseline to try the comparison between two scans.
