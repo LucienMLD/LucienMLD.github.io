@@ -19,6 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Lucien Mollard
+# Read by the theme's <meta name="author">, <html lang> and og:image tags
+author: Lucien Mollard
+lang: en
+og_image: /assets/images/profile.webp
 email: hello@lucien-mollard.com
 description: >- # this means to ignore newlines until "baseurl:"
   Full-stack web developer with over 9 years of experience, specialized in Ruby on Rails and the 

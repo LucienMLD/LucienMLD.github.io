@@ -147,4 +147,8 @@ test('pages never repeat SEO meta tags', async ({ page }) => {
     expect(head.canonical, path).toBeLessThanOrEqual(1);
     expect(head.ogTitle, path).toBeLessThanOrEqual(1);
   }
+
+  // Kept out of results with noindex (not robots.txt, which would hide the tag)
+  await page.goto('/thank-you/');
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', /noindex/);
 });
