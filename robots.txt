@@ -7,9 +7,10 @@ sitemap: false
 # Search engines and AI assistants are welcome to read and cite this site.
 # Machine-readable summaries: {{ '/llms.txt' | absolute_url }} and {{ '/llms-full.txt' | absolute_url }}
 
+# Pages that must stay out of results use <meta name="robots" content="noindex">
+# instead of Disallow: a blocked page cannot be crawled, so its noindex is never seen.
 User-agent: *
 Allow: /
-Disallow: /thank-you/
 
 # AI assistants are listed explicitly: a crawler matching its own group ignores
 # the "*" group, and each token is controlled separately (blocking ClaudeBot
@@ -25,7 +26,6 @@ User-agent: Claude-User
 User-agent: PerplexityBot
 User-agent: Perplexity-User
 Allow: /
-Disallow: /thank-you/
 
 # Training crawlers
 User-agent: GPTBot
@@ -34,6 +34,5 @@ User-agent: Google-Extended
 User-agent: Applebot-Extended
 User-agent: CCBot
 Allow: /
-Disallow: /thank-you/
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}

@@ -3,6 +3,7 @@ title: Thank You
 layout: page
 permalink: /thank-you/
 sitemap: false
+noindex: true
 ---
 
 <div class="text-center">
