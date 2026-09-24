@@ -37,11 +37,12 @@ I'm a Senior Ruby on Rails Developer transitioning to cybersecurity engineering,
 
 ## Brakeman Report Visualizer
 
-[lucien-mollard.com/brakeman-visualizer](https://lucien-mollard.com/brakeman-visualizer/) is a 100% client-side dashboard to triage Brakeman reports: compare two scans, mark false positives and export `config/brakeman.ignore`.
+[lucien-mollard.com/brakeman-visualizer](https://lucien-mollard.com/brakeman-visualizer/) is a 100% client-side dashboard to triage Brakeman reports: compare two scans, mark false positives, set a severity and export `config/brakeman.ignore`.
 
-- `assets/js/brakeman-core.js`: pure logic (parsing, comparison, filters, ignore file), no DOM
+- `assets/js/brakeman-core.js`: pure logic (parsing, comparison, filters, sorting, score, ignore file), no DOM
 - `assets/js/brakeman.js`: rendering and interactions
-- `tests/`: unit tests on real Brakeman 8 reports, run with `node --test "tests/**/*.test.js"` (Node 22+)
+- `tests/brakeman-core.test.js`: unit tests on real Brakeman 8 reports, `npm test` (Node 22+)
+- `tests/e2e/`: Playwright browser tests with an axe-core WCAG 2.1 AA audit, run in CI on the built site. Locally: `npm ci && npx playwright install chromium && bundle exec jekyll build && npm run test:e2e`
 
 ## Contact
 

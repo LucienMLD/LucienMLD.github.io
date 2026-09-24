@@ -203,6 +203,27 @@ description: A 100% client-side dashboard to triage Brakeman security reports fo
         <p class="workflow-text workflow-muted" id="export-hint"></p>
         <p id="ignore-error" class="workflow-error" role="alert"></p>
       </section>
+
+      <section class="workflow-card" aria-labelledby="code-links-title">
+        <h3 id="code-links-title"><i class="ri-links-line" aria-hidden="true"></i> Links to your code</h3>
+        <p class="workflow-text">Open each warning's file at the right line, in your editor or on your repository.</p>
+        <div class="workflow-fields">
+          <div class="workflow-field">
+            <label for="code-link-mode">Open files in</label>
+            <select id="code-link-mode">
+              <option value="none">No links</option>
+              <option value="vscode">VS Code (local clone)</option>
+              <option value="web">GitHub / GitLab (web)</option>
+            </select>
+          </div>
+          <div class="workflow-field workflow-field-grow" id="code-link-root-field" hidden>
+            <label for="code-link-root" id="code-link-root-label">Project path</label>
+            <input type="text" id="code-link-root" autocomplete="off" spellcheck="false" aria-describedby="code-link-root-hint">
+            <p class="workflow-text workflow-muted" id="code-link-root-hint"></p>
+          </div>
+        </div>
+        <p id="code-link-error" class="workflow-error" role="alert"></p>
+      </section>
     </div>
 
         <div class="filter-toolbar">
@@ -237,6 +258,18 @@ description: A 100% client-side dashboard to triage Brakeman security reports fo
 
       <div class="filter-selects">
         <div class="filter-select">
+          <label for="type-filter">Type</label>
+          <select id="type-filter">
+            <option value="all">All types</option>
+          </select>
+        </div>
+        <div class="filter-select">
+          <label for="folder-filter">Folder</label>
+          <select id="folder-filter">
+            <option value="all">All folders</option>
+          </select>
+        </div>
+        <div class="filter-select">
           <label for="triage-filter">Triage</label>
           <select id="triage-filter">
             <option value="all">All statuses</option>
@@ -255,6 +288,15 @@ description: A 100% client-side dashboard to triage Brakeman security reports fo
             <option value="fixed">Fixed</option>
           </select>
         </div>
+        <div class="filter-select">
+          <label for="sort-order">Sort by</label>
+          <select id="sort-order">
+            <option value="report">Report order</option>
+            <option value="severity">Severity</option>
+            <option value="file">File and line</option>
+            <option value="type">Warning type</option>
+          </select>
+        </div>
       </div>
     </div>
 
@@ -262,6 +304,10 @@ description: A 100% client-side dashboard to triage Brakeman security reports fo
       <h2 class="warnings-section-header-title">Identified Vulnerabilities</h2>
       <span class="counter" id="warning-count-badge" aria-live="polite">0 found</span>
     </div>
+    <p class="keyboard-hint" id="keyboard-hint">
+      <i class="ri-keyboard-line" aria-hidden="true"></i>
+      When a warning title has focus, press <kbd>J</kbd> / <kbd>K</kbd> or <kbd>↓</kbd> / <kbd>↑</kbd> to move to the next or previous warning.
+    </p>
 
     <div id="warnings-list-container" class="warnings-list">
       <!-- Dynamic warnings loaded here -->
@@ -330,7 +376,8 @@ brakeman -q --no-exit-on-warn -o baseline.json
 brakeman -q --no-exit-on-warn -o brakeman-report.json</code></pre>
         </li>
         <li>
-          <p><strong>Triage each warning.</strong> Open a warning and set its status: <em>To fix</em>, <em>False positive</em> or <em>Accepted risk</em>, with a note explaining why. The location (<code>Controller#action</code>), the user input highlighted in the code snippet and the CWE / OWASP Top 10:2025 category help you decide.</p>
+          <p><strong>Triage each warning.</strong> Open a warning and set its status: <em>To fix</em>, <em>False positive</em> or <em>Accepted risk</em>, with a note explaining why, and its <em>severity</em> for your application. The location (<code>Controller#action</code>), the user input highlighted in the code snippet and the CWE / OWASP Top 10:2025 category help you decide. Set <strong>Links to your code</strong> to open each file at the right line in VS Code or on GitHub / GitLab.</p>
+          <p>Narrow the list by type, folder or triage status and sort it by severity or by file. The filters are kept in the page address, so a view can be bookmarked; the part of the address holding them is never sent to any server.</p>
         </li>
         <li>
           <p><strong>Export <code>config/brakeman.ignore</code>.</strong> False positives and accepted risks are written in Brakeman's own ignore format, with your note as justification. Brakeman's JSON report does not include the notes of already ignored warnings, so load your current <code>config/brakeman.ignore</code> first: its entries and notes are kept as they are in the export.</p>
@@ -348,7 +395,7 @@ git diff config/brakeman.ignore</code></pre>
         <li><strong>Zero report data sent to any server:</strong> the file is read with the browser <code>FileReader</code> API and never uploaded, stored or logged.</li>
         <li><strong>All parsing happens locally:</strong> JSON parsing, scoring, filtering and remediation guidance run entirely in JavaScript on your device.</li>
         <li><strong>The report never persists:</strong> reports, baselines and ignore files are never written to cookies or browser storage. Closing or reloading the tab clears them from memory.</li>
-        <li><strong>Only your triage decisions are kept, in this browser:</strong> the status and note you give a warning are saved in local storage, keyed by the warning fingerprint (a hash computed by Brakeman). Use <strong>Reset triage</strong> to delete them.</li>
+        <li><strong>Only your triage decisions are kept, in this browser:</strong> the status, severity and note you give a warning are saved in local storage, keyed by the warning fingerprint (a hash computed by Brakeman). They are dropped once the warning appears in <code>config/brakeman.ignore</code>. Use <strong>Reset triage</strong> to delete them all. The code link setting (editor and project path or repository URL) is saved the same way.</li>
         <li><strong>Exports are generated locally:</strong> the <code>brakeman.ignore</code> file is built in JavaScript and downloaded straight from the page.</li>
         <li><strong>Verifiable:</strong> once the page is loaded, you can disconnect from the network and the dashboard keeps working.</li>
       </ul>
@@ -373,20 +420,23 @@ git diff config/brakeman.ignore</code></pre>
       </dl>
 
       <h4>How the Security Index is calculated</h4>
-      <p>The Security Index starts at 100 and deducts points for each <strong>active</strong> warning. Warnings muted in <code>config/brakeman.ignore</code> are listed but not scored, as they were reviewed by your team. The score never drops below 0.</p>
+      <p>The Security Index starts at 100 and deducts points for each <strong>active</strong> warning. Warnings muted in <code>config/brakeman.ignore</code> and warnings you triaged as <em>false positive</em> are listed but not scored. The score never drops below 0.</p>
+      <p>Confidence is not severity: when you set a <strong>severity</strong> on a warning during triage, it replaces the confidence in the calculation.</p>
       <div class="bk-docs-table-wrapper" tabindex="0" role="region" aria-label="Scrollable table: points deducted per active warning">
         <table class="bk-docs-table">
           <caption>Points deducted per active warning</caption>
           <thead>
             <tr>
-              <th scope="col">Confidence</th>
+              <th scope="col">Severity set in triage</th>
+              <th scope="col">Otherwise, Brakeman confidence</th>
               <th scope="col">Deduction</th>
             </tr>
           </thead>
           <tbody>
-            <tr><th scope="row">High</th><td>−10 points</td></tr>
-            <tr><th scope="row">Medium</th><td>−4 points</td></tr>
-            <tr><th scope="row">Weak</th><td>−1 point</td></tr>
+            <tr><th scope="row">Critical</th><td>—</td><td>−15 points</td></tr>
+            <tr><th scope="row">High</th><td>High</td><td>−10 points</td></tr>
+            <tr><th scope="row">Medium</th><td>Medium</td><td>−4 points</td></tr>
+            <tr><th scope="row">Low</th><td>Weak</td><td>−1 point</td></tr>
           </tbody>
         </table>
       </div>

@@ -25,6 +25,19 @@
     accepted_risk: { label: 'Accepted risk', ignorable: true }
   };
 
+  // Confidence says how sure Brakeman is, severity is the impact assessed by the
+  // reviewer. The Security Index uses the severity when one was set.
+  const SEVERITIES = {
+    critical: { label: 'Critical', weight: 15 },
+    high: { label: 'High', weight: 10 },
+    medium: { label: 'Medium', weight: 4 },
+    low: { label: 'Low', weight: 1 }
+  };
+
+  const CONFIDENCE_WEIGHTS = { high: 10, medium: 4, weak: 1 };
+
+  const SORT_ORDERS = ['report', 'severity', 'file', 'type'];
+
   // Key order of a warning in Brakeman's own output (Brakeman::Warning#to_hash)
   const IGNORE_FILE_KEYS = [
     'warning_type', 'warning_code', 'fingerprint', 'check_name', 'message', 'file', 'line',
@@ -131,6 +144,15 @@
     return FALLBACK_KEY_PREFIX + [w.warning_type, w.file, w.message, w.code || ''].join('|');
   }
 
+  // Folder used by the folder filter: "app/controllers", "app/views/users" is
+  // grouped under "app/views", "lib", or the file itself at the root ("Gemfile.lock")
+  function folderOf(file) {
+    const parts = String(file || '').split('/').filter(Boolean);
+    if (parts.length <= 1) return parts[0] || '';
+    if (parts[0] === 'app' && parts.length > 2) return `${parts[0]}/${parts[1]}`;
+    return parts[0];
+  }
+
   function normalizeWarning(w, isIgnored) {
     let code = null;
     if (w.code !== null && w.code !== undefined) {
@@ -150,6 +172,7 @@
       confidence,
       check_name: typeof w.check_name === 'string' ? w.check_name.trim() : '',
       location: formatLocation(w.location),
+      folder: folderOf(w.file),
       user_input: (typeof w.user_input === 'string' && w.user_input.trim()) ? w.user_input.trim() : '',
       cwe_ids: normalizeCweIds(w.cwe_id),
       link: safeExternalUrl(w.link),
@@ -173,12 +196,24 @@
     ];
   }
 
-  function calculateSecurityScore(warnings) {
+  function warningWeight(w, severity) {
+    if (severity && SEVERITIES[severity]) return SEVERITIES[severity].weight;
+    return CONFIDENCE_WEIGHTS[w.confidence] || CONFIDENCE_WEIGHTS.weak;
+  }
+
+  // Scores active warnings. With getTriage, warnings triaged as false positive
+  // are not scored (like ignored ones) and a severity set by the reviewer
+  // replaces the confidence-based weight.
+  function calculateSecurityScore(warnings, getTriage) {
     let totalDeductions = 0;
+    let falsePositives = 0;
     (warnings || []).forEach(w => {
-      if (w.confidence === 'high') totalDeductions += 10;
-      else if (w.confidence === 'medium') totalDeductions += 4;
-      else totalDeductions += 1;
+      const entry = getTriage ? getTriage(w.key) : null;
+      if (entry && entry.status === 'false_positive') {
+        falsePositives++;
+        return;
+      }
+      totalDeductions += warningWeight(w, entry && entry.severity);
     });
 
     const score = Math.max(0, 100 - totalDeductions);
@@ -191,7 +226,7 @@
     else if (score >= 70) { grade = 'C'; label = 'Action required'; }
     else if (score >= 50) { grade = 'D'; label = 'Vulnerable profile'; }
 
-    return { score, grade, label };
+    return { score, grade, label, falsePositives };
   }
 
   // Splits current warnings into new / unchanged and lists the baseline warnings
@@ -227,6 +262,9 @@
       if (w.is_ignored || w.confidence !== filters.confidence) return false;
     }
 
+    if (filters.type && filters.type !== 'all' && w.warning_type !== filters.type) return false;
+    if (filters.folder && filters.folder !== 'all' && w.folder !== filters.folder) return false;
+
     // Only active warnings of the current report can be triaged
     if (filters.triage && filters.triage !== 'all') {
       if (w.is_ignored || isFixed || triageStatus !== filters.triage) return false;
@@ -245,6 +283,92 @@
     }
 
     return true;
+  }
+
+  function lineNumber(w) {
+    const line = parseInt(w.line, 10);
+    return Number.isInteger(line) ? line : 0;
+  }
+
+  // Returns a sorted copy. 'report' keeps Brakeman's order, 'severity' puts the
+  // heaviest warnings first (reviewer severity, else confidence), 'file' sorts by
+  // path then line, 'type' by warning type. Ties keep the report order.
+  function sortWarnings(warnings, order, getTriage) {
+    const indexed = warnings.map((w, index) => ({ w, index }));
+    const byReport = (a, b) => a.index - b.index;
+    const compare = {
+      severity: (a, b) => {
+        const weight = item => warningWeight(item.w, getTriage ? getTriage(item.w.key).severity : '');
+        return weight(b) - weight(a);
+      },
+      file: (a, b) => a.w.file.localeCompare(b.w.file) || lineNumber(a.w) - lineNumber(b.w),
+      type: (a, b) => a.w.warning_type.localeCompare(b.w.warning_type)
+    }[order];
+
+    indexed.sort((a, b) => (compare ? compare(a, b) : 0) || byReport(a, b));
+    return indexed.map(item => item.w);
+  }
+
+  // Link to the warning's file in the reviewer's editor or repository.
+  // settings.mode: 'vscode' with settings.root = local clone path,
+  //                'web' with settings.root = https URL of the files (…/blob/main).
+  // Report paths are untrusted: absolute paths and ".." segments get no link.
+  function buildCodeLink(w, settings) {
+    if (!settings || !settings.root || !w.file) return null;
+    const segments = w.file.split('/');
+    if (w.file.startsWith('/') || segments.some(part => part === '..' || part === '')) return null;
+    const line = lineNumber(w);
+
+    if (settings.mode === 'vscode') {
+      const root = String(settings.root).trim().replace(/\\/g, '/').replace(/\/+$/, '');
+      if (!root) return null;
+      const path = `${root.startsWith('/') ? '' : '/'}${root}/${w.file}`;
+      return { href: `vscode://file${encodeURI(path)}${line ? `:${line}` : ''}`, label: 'Open in VS Code' };
+    }
+
+    if (settings.mode === 'web') {
+      const base = safeExternalUrl(settings.root);
+      if (!base) return null;
+      const path = segments.map(encodeURIComponent).join('/');
+      return { href: `${base.replace(/\/+$/, '')}/${path}${line ? `#L${line}` : ''}`, label: 'View in repository' };
+    }
+
+    return null;
+  }
+
+  const FILTER_DEFAULTS = {
+    confidence: 'all', type: 'all', folder: 'all', triage: 'all', diff: 'current', sort: 'report', search: ''
+  };
+
+  // Filters live in the URL fragment (#type=SQL+Injection&sort=file) so a view
+  // can be bookmarked. The fragment is never sent to any server.
+  function serializeFilters(filters) {
+    const params = new URLSearchParams();
+    Object.keys(FILTER_DEFAULTS).forEach(key => {
+      const value = typeof filters[key] === 'string' ? filters[key].trim() : '';
+      if (value && value !== FILTER_DEFAULTS[key]) params.set(key, value);
+    });
+    return params.toString();
+  }
+
+  // Only known keys and values are kept; type and folder are checked by the
+  // caller against the loaded report.
+  function parseFilters(hash) {
+    const params = new URLSearchParams(String(hash || '').replace(/^#/, ''));
+    const allowed = {
+      confidence: ['all', 'high', 'medium', 'weak', 'ignored'],
+      triage: ['all', ...Object.keys(TRIAGE_STATUSES)],
+      diff: ['current', 'new', 'unchanged', 'fixed'],
+      sort: SORT_ORDERS
+    };
+    const filters = { ...FILTER_DEFAULTS };
+    Object.keys(FILTER_DEFAULTS).forEach(key => {
+      const value = params.get(key);
+      if (value === null) return;
+      if (allowed[key] && !allowed[key].includes(value)) return;
+      filters[key] = value.slice(0, 200);
+    });
+    return filters;
   }
 
   // Wraps each occurrence of the user input inside the escaped snippet with <mark>
@@ -267,7 +391,11 @@
           Object.keys(parsed.entries).forEach(key => {
             const entry = parsed.entries[key];
             if (isPlainObject(entry) && Object.prototype.hasOwnProperty.call(TRIAGE_STATUSES, entry.status)) {
-              entries[key] = { status: entry.status, note: typeof entry.note === 'string' ? entry.note : '' };
+              entries[key] = {
+                status: entry.status,
+                note: typeof entry.note === 'string' ? entry.note : '',
+                severity: Object.prototype.hasOwnProperty.call(SEVERITIES, entry.severity) ? entry.severity : ''
+              };
             }
           });
         }
@@ -301,19 +429,33 @@
       get(key) {
         return Object.prototype.hasOwnProperty.call(entries, key)
           ? { ...entries[key] }
-          : { status: 'untriaged', note: '' };
+          : { status: 'untriaged', note: '', severity: '' };
       },
       // Returns false when the decision could not be saved (storage full or blocked)
       set(key, update) {
         const next = { ...this.get(key), ...update };
         if (!Object.prototype.hasOwnProperty.call(TRIAGE_STATUSES, next.status)) next.status = 'untriaged';
         next.note = typeof next.note === 'string' ? next.note : '';
-        if (next.status === 'untriaged' && !next.note.trim()) {
+        if (!Object.prototype.hasOwnProperty.call(SEVERITIES, next.severity)) next.severity = '';
+        if (next.status === 'untriaged' && !next.note.trim() && !next.severity) {
           delete entries[key];
         } else {
           entries[key] = next;
         }
         return persist();
+      },
+      // Drops the decisions of the given keys, e.g. warnings that are now in
+      // config/brakeman.ignore: their triage is over. Returns how many were dropped.
+      forget(keys) {
+        let dropped = 0;
+        keys.forEach(key => {
+          if (Object.prototype.hasOwnProperty.call(entries, key)) {
+            delete entries[key];
+            dropped++;
+          }
+        });
+        if (dropped > 0) persist();
+        return dropped;
       },
       clear() {
         entries = {};
@@ -427,6 +569,8 @@
 
   return {
     TRIAGE_STATUSES,
+    SEVERITIES,
+    FILTER_DEFAULTS,
     escapeHTML,
     isBrakemanReport,
     safeExternalUrl,
@@ -438,6 +582,11 @@
     calculateSecurityScore,
     compareReports,
     matchesFilters,
+    folderOf,
+    sortWarnings,
+    buildCodeLink,
+    serializeFilters,
+    parseFilters,
     highlightUserInput,
     createTriageStore,
     parseIgnoreFile,

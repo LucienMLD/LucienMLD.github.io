@@ -1529,6 +1529,96 @@ html[data-theme="light"] .brakeman-visualizer select option {
   margin: 0.75rem 0 0;
 }
 
+/* Links to the code: editor / repository settings */
+.workflow-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.workflow-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.workflow-field-grow {
+  flex: 1;
+  min-width: min(240px, 100%);
+}
+
+.workflow-field label {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--bk-text-secondary);
+}
+
+.workflow-field .workflow-text {
+  margin: 0;
+}
+
+.brakeman-visualizer .workflow-field input[type="text"] {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background: var(--bk-surface);
+  color: var(--bk-text);
+  border: 1px solid var(--bk-border-strong);
+  border-radius: 6px;
+  box-shadow: none;
+  padding: 0.45rem 0.6rem;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.85rem;
+}
+
+.brakeman-visualizer .workflow-field input[type="text"]:focus {
+  border-color: var(--bk-accent);
+  outline: 2px solid var(--bk-accent);
+  outline-offset: -2px;
+  box-shadow: 0 0 0 4px rgba(var(--bk-accent-rgb), 0.12);
+}
+
+.brakeman-visualizer .workflow-field input[type="text"]::placeholder {
+  color: var(--bk-text-muted);
+  opacity: 1;
+}
+
+/* Severity set by the reviewer, shown next to Brakeman's confidence */
+.badge-severity {
+  background: var(--bk-surface-inset);
+  color: var(--bk-text);
+  border: 1px solid var(--bk-border-strong);
+}
+
+.badge-severity.severity-critical { background: var(--bk-high-bg); color: var(--bk-high); border: 2px solid var(--bk-high); }
+.badge-severity.severity-high { color: var(--bk-high); border-color: var(--bk-high-border); }
+.badge-severity.severity-medium { color: var(--bk-med); border-color: var(--bk-med-border); }
+.badge-severity.severity-low { color: var(--bk-weak); border-color: var(--bk-weak-border); }
+
+/* Keyboard navigation hint above the warnings list */
+.keyboard-hint {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--bk-text-muted);
+  margin: -0.75rem 0 1.25rem;
+}
+
+.keyboard-hint kbd {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.8rem;
+  color: var(--bk-text);
+  background: var(--bk-surface-inset);
+  border: 1px solid var(--bk-border-strong);
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  padding: 0 0.35rem;
+}
+
 /* Documentation section (below the tool) */
 .bk-docs {
   margin-top: 4rem;

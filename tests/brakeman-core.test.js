@@ -147,11 +147,11 @@ test('highlightUserInput marks the user input and escapes the rest', () => {
 test('createTriageStore persists decisions and tolerates corrupted or failing storage', () => {
   const storage = memoryStorage();
   const store = core.createTriageStore(storage, 'triage');
-  assert.deepEqual(store.get('fp1'), { status: 'untriaged', note: '' });
+  assert.deepEqual(store.get('fp1'), { status: 'untriaged', note: '', severity: '' });
 
   assert.equal(store.set('fp1', { status: 'false_positive' }), true);
   assert.equal(store.set('fp1', { note: 'Admin only' }), true);
-  assert.deepEqual(core.createTriageStore(storage, 'triage').get('fp1'), { status: 'false_positive', note: 'Admin only' });
+  assert.deepEqual(core.createTriageStore(storage, 'triage').get('fp1'), { status: 'false_positive', note: 'Admin only', severity: '' });
 
   // Unknown statuses from a tampered storage are dropped
   storage.setItem('triage', JSON.stringify({ version: 1, entries: { a: { status: 'pwned' }, b: { status: 'to_fix' } } }));
@@ -282,7 +282,7 @@ test('buildIgnoreFile skips warnings without fingerprint and fixed warnings', ()
 });
 
 test('calculateSecurityScore deducts points by confidence', () => {
-  assert.deepEqual(core.calculateSecurityScore([]), { score: 100, grade: 'A+', label: 'Excellent posture' });
+  assert.deepEqual(core.calculateSecurityScore([]), { score: 100, grade: 'A+', label: 'Excellent posture', falsePositives: 0 });
   const warnings = core.normalizeReport(currentReport);
   const { score, grade } = core.calculateSecurityScore(warnings);
   assert.ok(score >= 0 && score < 100);
@@ -295,4 +295,114 @@ test('parseReportDate reads Brakeman timestamps in every browser', () => {
   assert.equal(core.parseReportDate('2026-09-15T09:42:18+02:00').toISOString(), '2026-09-15T07:42:18.000Z');
   assert.equal(core.parseReportDate('garbage'), null);
   assert.equal(core.parseReportDate(undefined), null);
+});
+
+test('calculateSecurityScore skips false positives and uses the reviewer severity', () => {
+  const warnings = core.normalizeReport(currentReport); // 6 High confidence warnings
+  assert.equal(core.calculateSecurityScore(warnings).score, 40);
+
+  const [first, second] = warnings;
+  const decisions = {
+    [first.key]: { status: 'false_positive', note: '', severity: '' },
+    [second.key]: { status: 'to_fix', note: '', severity: 'low' }
+  };
+  const getTriage = key => decisions[key] || { status: 'untriaged', note: '', severity: '' };
+  const rating = core.calculateSecurityScore(warnings, getTriage);
+  assert.equal(rating.falsePositives, 1);
+  assert.equal(rating.score, 100 - 4 * 10 - 1);
+
+  decisions[second.key].severity = 'critical';
+  assert.equal(core.calculateSecurityScore(warnings, getTriage).score, 100 - 4 * 10 - 15);
+});
+
+test('createTriageStore keeps the severity and forgets finished triage', () => {
+  const storage = memoryStorage();
+  const store = core.createTriageStore(storage, 'triage');
+  store.set('a', { severity: 'critical' });
+  assert.deepEqual(core.createTriageStore(storage, 'triage').get('a'), { status: 'untriaged', note: '', severity: 'critical' });
+
+  store.set('b', { status: 'to_fix', severity: 'bogus' });
+  assert.equal(store.get('b').severity, '');
+
+  assert.equal(store.forget(['a', 'unknown']), 1);
+  assert.equal(core.createTriageStore(storage, 'triage').get('a').severity, '');
+  assert.equal(store.get('b').status, 'to_fix');
+});
+
+test('folderOf groups files by application layer', () => {
+  assert.equal(core.folderOf('app/controllers/admin/users_controller.rb'), 'app/controllers');
+  assert.equal(core.folderOf('app/views/users/show.html.erb'), 'app/views');
+  assert.equal(core.folderOf('lib/tasks/backup.rake'), 'lib');
+  assert.equal(core.folderOf('config/initializers/session.rb'), 'config');
+  assert.equal(core.folderOf('Gemfile.lock'), 'Gemfile.lock');
+  assert.equal(core.folderOf(''), '');
+});
+
+test('matchesFilters filters by warning type and folder', () => {
+  const warnings = core.normalizeReport(currentReport);
+  const visible = filters => warnings
+    .filter(w => core.matchesFilters(w, { ...core.FILTER_DEFAULTS, ...filters }, 'untriaged'))
+    .map(w => w.warning_type);
+  assert.deepEqual(visible({ type: 'Redirect' }), ['Redirect']);
+  assert.deepEqual(visible({ folder: 'app/views' }), ['Cross-Site Scripting']);
+  assert.deepEqual(visible({ folder: 'Gemfile.lock' }), ['Unmaintained Dependency']);
+  assert.deepEqual(visible({ folder: 'app/controllers', type: 'Command Injection' }), ['Command Injection']);
+});
+
+test('sortWarnings sorts by severity, file or type and keeps the report order on ties', () => {
+  const warnings = [
+    core.normalizeWarning({ warning_type: 'SQL Injection', file: 'b.rb', line: 3, confidence: 'Weak', fingerprint: 'w1' }, false),
+    core.normalizeWarning({ warning_type: 'Redirect', file: 'a.rb', line: 20, confidence: 'High', fingerprint: 'w2' }, false),
+    core.normalizeWarning({ warning_type: 'Redirect', file: 'a.rb', line: 3, confidence: 'Medium', fingerprint: 'w3' }, false)
+  ];
+  const keys = list => list.map(w => w.key);
+
+  assert.deepEqual(keys(core.sortWarnings(warnings, 'report')), ['w1', 'w2', 'w3']);
+  assert.deepEqual(keys(core.sortWarnings(warnings, 'severity')), ['w2', 'w3', 'w1']);
+  assert.deepEqual(keys(core.sortWarnings(warnings, 'file')), ['w3', 'w2', 'w1']);
+  assert.deepEqual(keys(core.sortWarnings(warnings, 'type')), ['w2', 'w3', 'w1']);
+
+  // A critical severity set by the reviewer outranks a High confidence
+  const getTriage = key => ({ status: 'to_fix', note: '', severity: key === 'w1' ? 'critical' : '' });
+  assert.deepEqual(keys(core.sortWarnings(warnings, 'severity', getTriage)), ['w1', 'w2', 'w3']);
+  assert.deepEqual(keys(warnings), ['w1', 'w2', 'w3'], 'the input is not mutated');
+});
+
+test('buildCodeLink opens the file in VS Code or on the repository, never outside the project', () => {
+  const w = core.normalizeWarning({ file: 'app/controllers/users controller.rb', line: 14 }, false);
+
+  assert.deepEqual(core.buildCodeLink(w, { mode: 'vscode', root: '/home/dev/apps/demo/' }), {
+    href: 'vscode://file/home/dev/apps/demo/app/controllers/users%20controller.rb:14',
+    label: 'Open in VS Code'
+  });
+  assert.equal(
+    core.buildCodeLink(w, { mode: 'vscode', root: 'C:\\Users\\dev\\demo' }).href,
+    'vscode://file/C:/Users/dev/demo/app/controllers/users%20controller.rb:14'
+  );
+  assert.deepEqual(core.buildCodeLink(w, { mode: 'web', root: 'https://github.com/acme/demo/blob/main/' }), {
+    href: 'https://github.com/acme/demo/blob/main/app/controllers/users%20controller.rb#L14',
+    label: 'View in repository'
+  });
+
+  assert.equal(core.buildCodeLink(w, { mode: 'web', root: 'javascript:alert(1)//' }), null);
+  assert.equal(core.buildCodeLink(w, { mode: 'none', root: '/x' }), null);
+  assert.equal(core.buildCodeLink(w, { mode: 'vscode', root: '' }), null);
+  const traversal = core.normalizeWarning({ file: '../../etc/passwd', line: 1 }, false);
+  assert.equal(core.buildCodeLink(traversal, { mode: 'vscode', root: '/app' }), null);
+  const absolute = core.normalizeWarning({ file: '/etc/passwd', line: 1 }, false);
+  assert.equal(core.buildCodeLink(absolute, { mode: 'web', root: 'https://github.com/a/b/blob/main' }), null);
+
+  const noLine = core.normalizeWarning({ file: 'Gemfile.lock', line: null }, false);
+  assert.equal(core.buildCodeLink(noLine, { mode: 'web', root: 'https://gitlab.com/a/b/-/blob/main' }).href, 'https://gitlab.com/a/b/-/blob/main/Gemfile.lock');
+});
+
+test('filters round-trip through the URL fragment and unknown values are dropped', () => {
+  const filters = { ...core.FILTER_DEFAULTS, confidence: 'high', type: 'SQL Injection', sort: 'file', search: 'params[:id]' };
+  const hash = core.serializeFilters(filters);
+  assert.equal(hash, 'confidence=high&type=SQL+Injection&sort=file&search=params%5B%3Aid%5D');
+  assert.deepEqual(core.parseFilters(`#${hash}`), filters);
+
+  assert.equal(core.serializeFilters(core.FILTER_DEFAULTS), '');
+  assert.deepEqual(core.parseFilters('#confidence=evil&sort=<script>&diff=new&foo=bar'), { ...core.FILTER_DEFAULTS, diff: 'new' });
+  assert.deepEqual(core.parseFilters(''), core.FILTER_DEFAULTS);
 });
