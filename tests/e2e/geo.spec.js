@@ -72,6 +72,7 @@ test('llms.txt follows the llms.txt format and its site links resolve', async ({
   const lines = text.split('\n');
 
   expect(lines[0]).toBe('# Lucien Mollard');
+  expect(text).not.toMatch(/\{\{|\{%/);
   expect(text).toMatch(/^> .{80,}$/m);
   for (const section of ['## Main pages', '## Professional experience', '## Education and training', '## In the media', '## Optional']) {
     expect(text).toContain(section);
@@ -94,6 +95,8 @@ test('llms-full.txt holds the content of the site as Markdown, not HTML', async 
     expect(text).toContain(expected);
   }
   expect(text).not.toMatch(/<(p|div|br|strong|h\d|ul|li)[\s>/]/);
+  // raw_content is the source before Liquid runs: a tag in a page would leak here as is
+  expect(text).not.toMatch(/\{\{|\{%/);
 });
 
 test('security.txt has a contact and an expiry date in the future (RFC 9116)', async ({ request }) => {
@@ -104,6 +107,8 @@ test('security.txt has a contact and an expiry date in the future (RFC 9116)', a
   expect(text).toMatch(/^Contact: mailto:\S+@\S+$/m);
   const expires = new Date(text.match(/^Expires: (.+)$/m)[1]);
   expect(expires.getTime()).toBeGreaterThan(Date.now());
+  // RFC 9116 recommends less than a year, so the file is never trusted long after it went stale
+  expect(expires.getTime()).toBeLessThan(Date.now() + 365 * 24 * 60 * 60 * 1000);
 });
 
 test('every page describes the same person in valid JSON-LD', async ({ page }) => {

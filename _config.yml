@@ -19,10 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Lucien Mollard
-# Read by the theme's <meta name="author">, <html lang> and og:image tags
+# Read by the theme's <meta name="author">, <html lang> and og:image tags.
+# og:image is a JPG: LinkedIn and some chat apps do not preview WebP
 author: Lucien Mollard
 lang: en
-og_image: /assets/images/profile.webp
+og_image: /assets/images/profile-share.jpg
 email: hello@lucien-mollard.com
 description: >- # this means to ignore newlines until "baseurl:"
   Full-stack web developer with over 9 years of experience, specialized in Ruby on Rails and the 

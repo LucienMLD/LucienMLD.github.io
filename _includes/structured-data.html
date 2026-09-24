@@ -41,7 +41,7 @@
       "email": {{ site.email | prepend: 'mailto:' | jsonify }},
       "jobTitle": {{ profile.job_title | jsonify }},
       "description": {{ profile.summary | normalize_whitespace | jsonify }},
-      "nationality": { "@type": "Country", "name": "France" },
+      "nationality": { "@type": "Country", "name": {{ profile.nationality | jsonify }} },
       "address": { "@type": "PostalAddress", "addressCountry": {{ profile.address_country | jsonify }} },
       "knowsLanguage": {{ profile.languages | jsonify }},
       "knowsAbout": {{ profile.knows_about | jsonify }},
