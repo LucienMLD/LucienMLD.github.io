@@ -1,6 +1,6 @@
 // Cloudflare Workers deployment: a static site, no Worker code.
-// "wrangler deploy" (the default deploy command of Workers Builds) runs the
-// Jekyll build below, then uploads _site as static assets.
+// "wrangler deploy" (main) and "wrangler preview" (other branches) run the
+// Jekyll build below, then upload _site as static assets.
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "lucienmld-github-io",
@@ -13,5 +13,8 @@
     // /experiences/dinum serves dinum.html, like GitHub Pages
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
-  }
+  },
+  // Branches other than main run "wrangler preview", which needs this block.
+  // Empty: previews reuse the build and assets settings above
+  "previews": {}
 }
