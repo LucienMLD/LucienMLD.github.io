@@ -35,13 +35,17 @@ async function expectNoA11yViolations(page) {
 }
 
 test.beforeEach(async ({ page, baseURL }) => {
-  // Third-party scripts of the site (analytics, widgets) are blocked: the tests
-  // cover the visualizer only, and a report must never need the network anyway
+  // Third-party requests (analytics, widgets, CDNs) are blocked: the tests cover
+  // the visualizer only, and a report must never need the network anyway
   const origin = new URL(baseURL).origin;
   await page.route('**/*', route => (route.request().url().startsWith(origin) ? route.continue() : route.abort()));
 
+  // Only errors thrown by the visualizer count: theme scripts depending on a
+  // blocked CDN (jQuery) fail on their own and are out of scope here
   const errors = [];
-  page.on('pageerror', error => errors.push(error.message));
+  page.on('pageerror', error => {
+    if (/\/assets\/js\/brakeman(-core)?\.js/.test(error.stack || '')) errors.push(error.message);
+  });
   page.errors = errors;
 });
 
@@ -236,12 +240,28 @@ test.describe('accessibility', () => {
     });
   }
 
-  test('no horizontal scrolling at 320 px wide (reflow)', async ({ page }) => {
+  test('nothing in the visualizer overflows at 320 px wide (reflow)', async ({ page }) => {
     await page.setViewportSize({ width: 320, height: 700 });
     await loadSample(page);
     await page.getByRole('button', { name: 'Use sample baseline' }).click();
     await card(page, 'SQL Injection').locator('.warning-summary-row').click();
-    const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
-    expect(overflow).toBeLessThanOrEqual(0);
+
+    // Elements sticking out of the viewport, unless an ancestor inside the
+    // viewport clips or scrolls them (code blocks scroll horizontally by design)
+    const offenders = await page.evaluate(() => {
+      const limit = window.innerWidth + 1;
+      const root = document.querySelector('.brakeman-visualizer');
+      const isClipped = el => {
+        for (let parent = el.parentElement; parent && parent !== document.body; parent = parent.parentElement) {
+          if (getComputedStyle(parent).overflowX !== 'visible' && parent.getBoundingClientRect().right <= limit) return true;
+        }
+        return false;
+      };
+      return Array.from(root.querySelectorAll('*'))
+        .filter(el => el.getClientRects().length > 0 && el.getBoundingClientRect().right > limit && !isClipped(el))
+        .map(el => `${el.tagName.toLowerCase()}${el.id ? `#${el.id}` : ''}.${[...el.classList].join('.')} right=${Math.round(el.getBoundingClientRect().right)}`)
+        .slice(0, 10);
+    });
+    expect(offenders).toEqual([]);
   });
 });
