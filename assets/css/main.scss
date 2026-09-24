@@ -1,0 +1,42 @@
+---
+---
+
+@use "jekyll-theme-neon";
+
+// Custom styles - uniquement les styles vraiment nécessaires
+.card .card-divider h2:hover {
+  color: var(--neon-color, var(--font-blue));
+}
+
+// Simplification des badges - utilisation des classes du thème
+.card .badge,
+.card .label {
+  font-size: 0.75rem;
+  cursor: default;
+}
+
+.card .badge:hover,
+.card .label:hover {
+  background-color: inherit;
+  color: inherit;
+  transform: none;
+}
+// Mobile : les effets du thème font planter le rendu GPU des téléphones
+// (gros carrés verts/roses façon télé qui bug). En cause : les flous
+// `backdrop-filter` recalculés à chaque image au-dessus de la grille animée
+// du hero. Sur écran tactile ou petit écran, on garde les fonds (déjà presque
+// opaques) sans le flou, et on fige la grille de fond.
+@media (hover: none), screen and (max-width: 63.9375em) {
+  .neon-navbar,
+  .neon-navbar.is-active,
+  .neon-navbar-mobile,
+  .neon-feature-card,
+  html[data-theme="dark"] .card .card-divider {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .neon-grid-overlay {
+    animation: none;
+  }
+}
