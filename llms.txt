@@ -6,6 +6,7 @@ sitemap: false
 {%- assign profile = site.data.profile -%}
 {%- assign experiences = site.experiences | sort: 'date_begin' | reverse -%}
 {%- assign trainings = site.trainings | sort: 'date_begin' | reverse -%}
+{%- assign first_year = experiences.last.date_begin | slice: 0, 4 -%}
 {%- assign legal = site.pages | where: 'path', 'legal-notice.md' | first -%}
 # {{ profile.name }}
 
@@ -20,8 +21,8 @@ sitemap: false
 ## Main pages
 
 - [Home]({{ '/' | absolute_url }}): profile, technical expertise and current focus
-- [Professional experience]({{ '/experiences/' | absolute_url }}): {{ experiences.size }} positions since 2017, mostly for French government digital services
-- [Education and training]({{ '/trainings/' | absolute_url }}): cybersecurity engineering degree at CNAM, Le Wagon bootcamp, ANSSI certification
+- [Professional experience]({{ '/experiences/' | absolute_url }}): {{ experiences.size }} positions since {{ first_year }}, mostly for French government digital services
+- [Education and training]({{ '/trainings/' | absolute_url }}): {{ trainings.size }} degrees and certifications, including a cybersecurity engineering degree at CNAM, the Le Wagon bootcamp and an ANSSI certification
 - [In the media]({{ '/press/' | absolute_url }}): press coverage of his career change from truck driver to web developer
 - [Brakeman Report Visualizer]({{ '/brakeman-visualizer/' | absolute_url }}): free, 100% client-side tool to triage Brakeman security reports for Ruby on Rails (compare scans, mark false positives, export config/brakeman.ignore)
 - [Contact]({{ '/contact/' | absolute_url }})
@@ -29,7 +30,7 @@ sitemap: false
 ## Professional experience
 
 {% for item in experiences -%}
-- [{{ item.title }}, {{ item.company }}]({{ item.url | absolute_url }}): {{ item.date_begin }} to {{ item.date_end | default: 'present' }}. {{ item.content | strip_html | normalize_whitespace | truncatewords: 30 }}
+- [{{ item.title }}, {{ item.company }}]({{ item.url | absolute_url }}): {{ item.date_begin }} to {{ item.date_end | default: 'present' }}. {{ item.raw_content | markdownify | strip_html | normalize_whitespace | truncatewords: 30 }}
 {% endfor %}
 ## Education and training
 

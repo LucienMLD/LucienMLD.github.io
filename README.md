@@ -52,7 +52,7 @@ Generated at build time from `_data/profile.yml`, `_config.yml` and the collecti
 - `sitemap.xml`: every public page and collection item, without plugin
 - `llms.txt` and `llms-full.txt`: summary and full text of the site in Markdown ([llms.txt format](https://llmstxt.org/)); `_plugins/raw_content.rb` exposes the Markdown source of each page
 - JSON-LD (`_includes/structured-data.html`, included from the footer): one schema.org graph per page linking the Person, the WebSite, the page and its breadcrumb
-- `/.well-known/security.txt` (RFC 9116), whose expiry date moves forward on every deployment
+- `/.well-known/security.txt` (RFC 9116), whose expiry date (180 days) moves forward on every deployment
 - `tests/e2e/geo.spec.js` checks all of them on the built site in CI
 
 ## Contact
