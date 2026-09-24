@@ -296,17 +296,24 @@
   function sortWarnings(warnings, order, getTriage) {
     const indexed = warnings.map((w, index) => ({ w, index }));
     const byReport = (a, b) => a.index - b.index;
-    // A Map, not an object literal: an order such as "constructor" must not
-    // resolve to a method inherited from Object.prototype
-    const comparators = new Map([
-      ['severity', (a, b) => {
+    // Explicit switch: the order comes from the page (select, URL fragment), so
+    // it must never be used to look a function up by name
+    let compare = null;
+    switch (order) {
+      case 'severity': {
         const weight = item => warningWeight(item.w, getTriage ? getTriage(item.w.key).severity : '');
-        return weight(b) - weight(a);
-      }],
-      ['file', (a, b) => a.w.file.localeCompare(b.w.file) || lineNumber(a.w) - lineNumber(b.w)],
-      ['type', (a, b) => a.w.warning_type.localeCompare(b.w.warning_type)]
-    ]);
-    const compare = comparators.get(order);
+        compare = (a, b) => weight(b) - weight(a);
+        break;
+      }
+      case 'file':
+        compare = (a, b) => a.w.file.localeCompare(b.w.file) || lineNumber(a.w) - lineNumber(b.w);
+        break;
+      case 'type':
+        compare = (a, b) => a.w.warning_type.localeCompare(b.w.warning_type);
+        break;
+      default:
+        compare = null;
+    }
 
     indexed.sort((a, b) => (compare ? compare(a, b) : 0) || byReport(a, b));
     return indexed.map(item => item.w);
