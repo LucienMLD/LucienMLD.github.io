@@ -114,3 +114,9 @@ defaults:
       type: "trainings"
     values:
       layout: "item"
+  # Press items have no page of their own: the press list links to the articles
+  - scope:
+      path: ""
+      type: "press"
+    values:
+      sitemap: false

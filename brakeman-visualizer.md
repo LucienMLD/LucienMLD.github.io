@@ -521,11 +521,7 @@ git diff config/brakeman.ignore</code></pre>
         "price": "0",
         "priceCurrency": "EUR"
       },
-      "author": {
-        "@type": "Person",
-        "name": "Lucien Mollard",
-        "url": {{ site.url | jsonify }}
-      }
+      "author": { "@id": {{ '/' | absolute_url | append: '#person' | jsonify }} }
     },
     {
       "@type": "FAQPage",

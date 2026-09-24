@@ -1,8 +1,8 @@
 ---
 title: "Teacher assistant"
 company: "Le Wagon"
-date_begin: 01/2018 
-date_end: 02/2018
+date_begin: 2018/01
+date_end: 2018/02
 competences: ["Ruby", "Ruby on Rails", "HTML", "CSS", "Javascript", "Teaching", "Mentoring", "Problem-solving", "Pedagogical Skills", "Code Review", "Object-Oriented Programming (OOP)"]
 website-url: "https://www.lewagon.com"
 ---

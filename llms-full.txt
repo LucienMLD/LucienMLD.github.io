@@ -1,0 +1,75 @@
+---
+layout: null
+permalink: /llms-full.txt
+sitemap: false
+---
+{%- comment -%}
+  Full text of the site in Markdown, for AI assistants. raw_content is the
+  Markdown source set by _plugins/raw_content.rb; headings of the documents are
+  pushed one level down to sit under each item's own heading.
+{%- endcomment -%}
+{%- capture newline %}
+{% endcapture -%}
+{%- assign profile = site.data.profile -%}
+{%- assign home = site.pages | where: 'url', '/' | first -%}
+{%- assign experiences = site.experiences | sort: 'date_begin' | reverse -%}
+{%- assign trainings = site.trainings | sort: 'date_begin' | reverse -%}
+# {{ profile.name }}: full profile
+
+> {{ profile.summary | normalize_whitespace }}
+
+Source: {{ '/' | absolute_url }} · Updated: {{ site.time | date: '%Y-%m-%d' }} · Contact: {{ site.email }} · LinkedIn: {{ site.linkedin_url }} · GitHub: {{ site.github_url }}
+
+## About
+
+{{ home.presentation | replace: '<br/>', newline | replace: '<strong>', '**' | replace: '</strong>', '**' | strip_html | strip }}
+
+## Professional experience
+{% for item in experiences %}
+### {{ item.title }}, {{ item.company }}
+
+- Dates: {{ item.date_begin }} to {{ item.date_end | default: 'present' }}
+{%- if item['website-url'] %}
+- Website: {{ item['website-url'] }}
+{%- endif %}
+{%- if item.competences %}
+- Skills: {{ item.competences | join: ', ' }}
+{%- endif %}
+- Page: {{ item.url | absolute_url }}
+
+{{ item.raw_content | replace: '### ', '#### ' }}
+{% endfor %}
+## Education and training
+{% for item in trainings %}
+### {{ item.title }}, {{ item.company }}
+
+- Dates: {{ item.date_begin }} to {{ item.date_end }}
+{%- assign skills = item.competences | default: item.categories -%}
+{%- if skills %}
+- Skills: {{ skills | join: ', ' }}
+{%- endif %}
+
+{{ item.raw_content | replace: '### ', '#### ' }}
+{% endfor %}
+## In the media
+{% for item in site.press %}
+### {{ item.title }}
+
+- Publisher: {{ item.company }}
+- Published: {{ item.publication_date }}
+- Link: {{ item['website-url'] }}
+
+{{ item.raw_content }}
+{% endfor %}
+## Brakeman Report Visualizer
+
+{{ '/brakeman-visualizer/' | absolute_url }}
+
+A free, 100% client-side dashboard to triage Brakeman static analysis reports for Ruby on Rails: compare two scans (new, fixed and unchanged warnings), triage each warning (to fix, false positive, accepted risk) with a severity and a note, and export config/brakeman.ignore. Reports never leave the browser.
+
+### Frequently asked questions
+{% for item in site.data.brakeman_faq %}
+#### {{ item.question }}
+
+{{ item.answer | strip_html | normalize_whitespace }}
+{% endfor %}

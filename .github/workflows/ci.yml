@@ -92,7 +92,7 @@ jobs:
           retention-days: 3
 
   browser-tests:
-    name: Browser tests (Brakeman visualizer)
+    name: Browser tests (visualizer and GEO files)
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -117,7 +117,7 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Run Playwright and axe-core tests
+      - name: Run Playwright, axe-core and GEO file tests
         run: npx playwright test
         env:
           SITE_DIR: _site

@@ -1,0 +1,39 @@
+---
+layout: null
+permalink: /robots.txt
+sitemap: false
+---
+# {{ site.title }} - {{ '/' | absolute_url }}
+# Search engines and AI assistants are welcome to read and cite this site.
+# Machine-readable summaries: {{ '/llms.txt' | absolute_url }} and {{ '/llms-full.txt' | absolute_url }}
+
+User-agent: *
+Allow: /
+Disallow: /thank-you/
+
+# AI assistants are listed explicitly: a crawler matching its own group ignores
+# the "*" group, and each token is controlled separately (blocking ClaudeBot
+# does not block Claude-SearchBot). To keep being cited in AI answers while
+# opting out of model training, change "Allow" to "Disallow" for the training
+# crawlers only (GPTBot, ClaudeBot, Google-Extended, Applebot-Extended, CCBot).
+
+# Answer and search agents: fetch pages to cite them in answers
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+Disallow: /thank-you/
+
+# Training crawlers
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+Allow: /
+Disallow: /thank-you/
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}
