@@ -19,3 +19,8 @@ jekyll-theme-neon/
 
 # Cache des feeds RSS
 .cache/
+
+# Browser tests of the Brakeman visualizer
+node_modules/
+test-results/
+playwright-report/

@@ -1,0 +1,16 @@
+{
+  "name": "lucienmld-github-io",
+  "private": true,
+  "description": "Tests of the Brakeman Report Visualizer",
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\"",
+    "test:e2e": "playwright test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.56.1"
+  }
+}

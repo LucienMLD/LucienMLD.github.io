@@ -67,8 +67,13 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  # Unit tests of the Brakeman visualizer (node --test), not part of the site
+  # Tests of the Brakeman visualizer (node --test and Playwright), not part of the site
   - tests/
+  - package.json
+  - package-lock.json
+  - playwright.config.js
+  - test-results/
+  - playwright-report/
 
 # exclude:
 #   - .sass-cache/

@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('search-input');
   const filterBtns = document.querySelectorAll('.filter-btn');
   const triageFilterSelect = document.getElementById('triage-filter');
+  const typeFilterSelect = document.getElementById('type-filter');
+  const folderFilterSelect = document.getElementById('folder-filter');
+  const sortOrderSelect = document.getElementById('sort-order');
   const diffFilterSelect = document.getElementById('diff-filter');
   const diffFilterWrapper = document.getElementById('diff-filter-wrapper');
   const warningsListContainer = document.getElementById('warnings-list-container');
@@ -43,7 +46,16 @@ document.addEventListener('DOMContentLoaded', function() {
   const ignoreError = document.getElementById('ignore-error');
   const clearTriageBtn = document.getElementById('clear-triage-btn');
 
+  // Links to the code
+  const codeLinkMode = document.getElementById('code-link-mode');
+  const codeLinkRoot = document.getElementById('code-link-root');
+  const codeLinkRootField = document.getElementById('code-link-root-field');
+  const codeLinkRootLabel = document.getElementById('code-link-root-label');
+  const codeLinkRootHint = document.getElementById('code-link-root-hint');
+  const codeLinkError = document.getElementById('code-link-error');
+
   const TRIAGE_STORAGE_KEY = 'brakeman-visualizer.triage.v1';
+  const SETTINGS_STORAGE_KEY = 'brakeman-visualizer.settings.v1';
 
   let reportData = null;
   let normalizedWarnings = [];
@@ -56,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let triageStore = core.createTriageStore(null, TRIAGE_STORAGE_KEY);
   let storageWarningShown = false;
   let activeFilter = 'all';
+  let codeLinkSettings = loadCodeLinkSettings();
 
   // Realistic Brakeman JSON output used by the "Load Sample Report" button.
   // It covers every confidence level plus a warning muted through config/brakeman.ignore.
@@ -307,6 +320,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ignoreEntries = null;
       resetFilters();
       setSampleMode(false);
+      clearFilterHash();
       if (dashboardStatus) dashboardStatus.textContent = '';
 
       dashboard.style.display = 'none';
@@ -373,6 +387,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function loadReport(parsed, isSample) {
+    // Read before rendering: the first render writes the (reset) filters to the address
+    const initialHash = window.location.hash;
     reportData = parsed;
     resetBaseline();
     resetFilters();
@@ -382,11 +398,15 @@ document.addEventListener('DOMContentLoaded', function() {
     storageWarningShown = false;
     normalizedWarnings = core.normalizeReport(reportData);
 
+    // Warnings now in config/brakeman.ignore went through triage: forget their decisions
+    triageStore.forget(normalizedWarnings.filter(w => w.is_ignored).map(w => w.key));
+
     // The sample ships with its brakeman.ignore, as if the visitor had loaded it
     ignoreEntries = isSample ? core.parseIgnoreFile(JSON.parse(JSON.stringify(SAMPLE_IGNORE_FILE))) : null;
     if (ignoreEntries) core.applyIgnoreNotes(normalizedWarnings, ignoreEntries);
 
     renderDashboard();
+    applyFiltersFromHash(initialHash);
 
     const count = normalizedWarnings.length;
     const found = `${count} warning${count === 1 ? '' : 's'} found.`;
@@ -426,27 +446,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (ignoredBtn) ignoredBtn.hidden = ignored === 0;
     if (activeFilter === 'ignored' && ignored === 0) setActiveFilter('all');
 
-    const rating = core.calculateSecurityScore(activeWarnings);
-    document.getElementById('val-grade').textContent = rating.grade;
-    document.getElementById('val-score-label').textContent = rating.label;
-    document.getElementById('score-percent').textContent = rating.score + "%";
-
-    const scoreNote = document.getElementById('val-score-note');
-    scoreNote.textContent = `${ignored} ignored warning${ignored > 1 ? 's' : ''} not scored`;
-    scoreNote.hidden = ignored === 0;
-
-    const gradeEl = document.getElementById('val-grade');
-    gradeEl.className = 'value'; // Reset classes
-    if (rating.score >= 90) gradeEl.classList.add('value-weak'); // Green
-    else if (rating.score >= 70) gradeEl.classList.add('value-med'); // Orange
-    else gradeEl.classList.add('value-high'); // Red
-
-    const circle = document.getElementById('score-ring');
-    const radius = 38;
-    const circumference = 2 * Math.PI * radius;
-    const strokeOffset = circumference - (rating.score / 100) * circumference;
-    circle.style.strokeDasharray = circumference;
-    circle.style.strokeDashoffset = strokeOffset;
+    renderScore();
 
     document.getElementById('meta-date').textContent = formatDate(scanInfo.start_time || scanInfo.timestamp);
     document.getElementById('meta-rails').textContent = typeof scanInfo.rails_version === 'object' ? JSON.stringify(scanInfo.rails_version) : (scanInfo.rails_version || 'N/A');
@@ -470,6 +470,38 @@ document.addEventListener('DOMContentLoaded', function() {
     applyFiltersAndSearch();
     updateCompareSummary();
     updateTriageSummary();
+  }
+
+  // The Security Index follows the triage: false positives are not scored and a
+  // severity set by the reviewer replaces the confidence-based weight
+  function renderScore() {
+    const activeWarnings = normalizedWarnings.filter(w => !w.is_ignored);
+    const ignored = normalizedWarnings.length - activeWarnings.length;
+    const rating = core.calculateSecurityScore(activeWarnings, key => triageStore.get(key));
+
+    document.getElementById('val-grade').textContent = rating.grade;
+    document.getElementById('val-score-label').textContent = rating.label;
+    document.getElementById('score-percent').textContent = rating.score + "%";
+
+    const notScored = [];
+    if (ignored > 0) notScored.push(`${ignored} ignored`);
+    if (rating.falsePositives > 0) notScored.push(`${rating.falsePositives} false positive${rating.falsePositives > 1 ? 's' : ''}`);
+    const scoreNote = document.getElementById('val-score-note');
+    scoreNote.textContent = `${notScored.join(' · ')} not scored`;
+    scoreNote.hidden = notScored.length === 0;
+
+    const gradeEl = document.getElementById('val-grade');
+    gradeEl.className = 'value'; // Reset classes
+    if (rating.score >= 90) gradeEl.classList.add('value-weak'); // Green
+    else if (rating.score >= 70) gradeEl.classList.add('value-med'); // Orange
+    else gradeEl.classList.add('value-high'); // Red
+
+    const circle = document.getElementById('score-ring');
+    const radius = 38;
+    const circumference = 2 * Math.PI * radius;
+    const strokeOffset = circumference - (rating.score / 100) * circumference;
+    circle.style.strokeDasharray = circumference;
+    circle.style.strokeDashoffset = strokeOffset;
   }
 
   function formatDate(dateStr) {
@@ -619,8 +651,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function currentFilters() {
     return {
       confidence: activeFilter,
+      type: typeFilterSelect.value,
+      folder: folderFilterSelect.value,
       triage: triageFilterSelect.value,
       diff: diffFilterSelect.value,
+      sort: sortOrderSelect.value,
       search: searchInput.value
     };
   }
@@ -638,8 +673,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function resetFilters() {
     searchInput.value = '';
     setActiveFilter('all');
+    typeFilterSelect.value = 'all';
+    folderFilterSelect.value = 'all';
     triageFilterSelect.value = 'all';
     diffFilterSelect.value = 'current';
+    sortOrderSelect.value = 'report';
   }
 
   filterBtns.forEach(btn => {
@@ -650,8 +688,92 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   searchInput.addEventListener('input', applyFiltersAndSearch);
-  triageFilterSelect.addEventListener('change', applyFiltersAndSearch);
-  diffFilterSelect.addEventListener('change', applyFiltersAndSearch);
+  [typeFilterSelect, folderFilterSelect, triageFilterSelect, diffFilterSelect].forEach(select => {
+    select.addEventListener('change', applyFiltersAndSearch);
+  });
+  sortOrderSelect.addEventListener('change', function() {
+    applySort();
+    updateFilterHash();
+  });
+
+  // Rebuilds the Type and Folder options from the listed warnings, keeping the
+  // current choice when it still exists. Counts only include current warnings.
+  function populateFacetOptions() {
+    const facets = [
+      { select: typeFilterSelect, allLabel: 'All types', valueOf: w => w.warning_type },
+      { select: folderFilterSelect, allLabel: 'All folders', valueOf: w => w.folder }
+    ];
+
+    facets.forEach(({ select, allLabel, valueOf }) => {
+      const counts = new Map();
+      listItems.forEach(w => {
+        const value = valueOf(w);
+        if (!value) return;
+        counts.set(value, (counts.get(value) || 0) + (w.diff === 'fixed' ? 0 : 1));
+      });
+
+      const previous = select.value;
+      select.innerHTML = '';
+      select.appendChild(new Option(allLabel, 'all'));
+      Array.from(counts.keys()).sort((a, b) => a.localeCompare(b)).forEach(value => {
+        // Option() sets text and value as plain strings: report content is never parsed as HTML
+        select.appendChild(new Option(`${value} (${counts.get(value)})`, value));
+      });
+      select.value = counts.has(previous) ? previous : 'all';
+    });
+  }
+
+  // Reorders the cards without re-rendering them, so opened panels and typed notes stay as they are
+  function applySort() {
+    const sorted = core.sortWarnings(listItems, sortOrderSelect.value, key => triageStore.get(key));
+    sorted.forEach(w => {
+      const card = document.getElementById(`warning-${listItems.indexOf(w)}`);
+      if (card) warningsListContainer.appendChild(card);
+    });
+  }
+
+  // Filters are mirrored in the URL fragment so a view can be bookmarked or shared
+  // with a teammate who loads the same report. The fragment never leaves the browser.
+  function updateFilterHash() {
+    if (!reportData) return;
+    const hash = core.serializeFilters(currentFilters());
+    try {
+      history.replaceState(null, '', hash ? `#${hash}` : window.location.pathname + window.location.search);
+    } catch {
+      // Some sandboxed contexts forbid history changes: the filters still work
+    }
+  }
+
+  function clearFilterHash() {
+    // Only a filter fragment is cleared, not an anchor of the documentation (#faq)
+    if (!window.location.hash.includes('=')) return;
+    try {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    } catch {
+      // Ignored, see updateFilterHash
+    }
+  }
+
+  function selectIfAvailable(select, value) {
+    if (Array.from(select.options).some(option => option.value === value)) select.value = value;
+  }
+
+  function applyFiltersFromHash(hash) {
+    if (!hash.includes('=')) return;
+    const filters = core.parseFilters(hash);
+
+    const confidenceBtn = document.querySelector(`.filter-btn[data-filter="${filters.confidence}"]`);
+    if (confidenceBtn && !confidenceBtn.hidden) setActiveFilter(filters.confidence);
+    selectIfAvailable(typeFilterSelect, filters.type);
+    selectIfAvailable(folderFilterSelect, filters.folder);
+    selectIfAvailable(triageFilterSelect, filters.triage);
+    selectIfAvailable(sortOrderSelect, filters.sort);
+    // The comparison filters need a baseline, which is never part of the address
+    searchInput.value = filters.search;
+
+    applySort();
+    applyFiltersAndSearch();
+  }
 
   function triageStatusOf(w) {
     return triageStore.get(w.key).status;
@@ -676,6 +798,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     warningCountBadge.textContent = `${visibleCount} found`;
+    updateFilterHash();
 
     if (visibleCount === 0) {
       emptyState.querySelector('p').textContent = listItems.length === 0
@@ -849,24 +972,33 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  function updateTriageBadge(index, w) {
+  function updateTriageBadges(index, w) {
+    const entry = triageStore.get(w.key);
     const badge = document.getElementById(`warning-${index}-triage-badge`);
-    if (!badge) return;
-    const status = triageStatusOf(w);
-    badge.textContent = core.TRIAGE_STATUSES[status].label;
-    badge.className = `warning-badge badge-triage triage-${status}`;
-    badge.hidden = status === 'untriaged';
+    if (badge) {
+      badge.textContent = core.TRIAGE_STATUSES[entry.status].label;
+      badge.className = `warning-badge badge-triage triage-${entry.status}`;
+      badge.hidden = entry.status === 'untriaged';
+    }
+    const severityBadge = document.getElementById(`warning-${index}-severity-badge`);
+    if (severityBadge) {
+      severityBadge.textContent = entry.severity ? `Severity: ${core.SEVERITIES[entry.severity].label}` : '';
+      severityBadge.className = `warning-badge badge-severity severity-${entry.severity || 'none'}`;
+      severityBadge.hidden = !entry.severity;
+    }
   }
 
   warningsListContainer.addEventListener('change', function(e) {
-    const select = e.target.closest('.triage-status');
+    const select = e.target.closest('.triage-status, .triage-severity');
     if (!select) return;
     const index = Number(select.dataset.index);
     const w = listItems[index];
     if (!w) return;
-    saveTriage(w, { status: select.value });
-    updateTriageBadge(index, w);
+    const field = select.classList.contains('triage-status') ? 'status' : 'severity';
+    saveTriage(w, { [field]: select.value });
+    updateTriageBadges(index, w);
     updateTriageSummary();
+    renderScore();
   });
 
   warningsListContainer.addEventListener('input', function(e) {
@@ -924,6 +1056,7 @@ document.addEventListener('DOMContentLoaded', function() {
     renderWarningsListStructure();
     applyFiltersAndSearch();
     updateTriageSummary();
+    renderScore();
     announceStatus('Triage decisions reset.');
   });
 
@@ -933,6 +1066,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function renderFacts(w) {
     const facts = [];
+    const codeLink = core.buildCodeLink(w, codeLinkSettings);
+    if (codeLink) {
+      // vscode:// opens the local editor, a web link opens a new tab
+      const newTab = codeLinkSettings.mode === 'web';
+      facts.push(['Source', `<a href="${escapeHTML(codeLink.href)}"${newTab ? ' target="_blank" rel="noopener noreferrer"' : ''}>${escapeHTML(codeLink.label)}<span class="sr-only">: ${escapeHTML(w.file)}${newTab ? ' (opens in new window)' : ''}</span></a>`]);
+    }
     if (w.location) facts.push(['Location', escapeHTML(w.location)]);
     if (w.user_input) facts.push(['User input', `<code>${escapeHTML(w.user_input)}</code>`]);
     if (w.cwe_ids.length) {
@@ -990,6 +1129,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const options = Object.keys(core.TRIAGE_STATUSES).map(status =>
       `<option value="${status}"${status === entry.status ? ' selected' : ''}>${escapeHTML(core.TRIAGE_STATUSES[status].label)}</option>`
     ).join('');
+    const severityOptions = [`<option value=""${entry.severity ? '' : ' selected'}>Not set (use confidence)</option>`]
+      .concat(Object.keys(core.SEVERITIES).map(severity =>
+        `<option value="${severity}"${severity === entry.severity ? ' selected' : ''}>${escapeHTML(core.SEVERITIES[severity].label)}</option>`
+      )).join('');
 
     return `
       <div class="triage-section">
@@ -999,12 +1142,16 @@ document.addEventListener('DOMContentLoaded', function() {
             <label for="${warningId}-status">Status</label>
             <select id="${warningId}-status" class="triage-status" data-index="${index}">${options}</select>
           </div>
+          <div class="triage-field">
+            <label for="${warningId}-severity">Severity</label>
+            <select id="${warningId}-severity" class="triage-severity" data-index="${index}">${severityOptions}</select>
+          </div>
           <div class="triage-field triage-note-field">
             <label for="${warningId}-note">Note</label>
             <textarea id="${warningId}-note" class="triage-note" data-index="${index}" rows="2" aria-describedby="${warningId}-triage-hint">${escapeHTML(entry.note)}</textarea>
           </div>
         </div>
-        <p class="triage-hint" id="${warningId}-triage-hint">False positives and accepted risks go to the exported brakeman.ignore, with this note as justification.</p>
+        <p class="triage-hint" id="${warningId}-triage-hint">False positives and accepted risks go to the exported brakeman.ignore, with this note as justification. The severity replaces the confidence in the Security Index.</p>
       </div>
     `;
   }
@@ -1061,9 +1208,11 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       let triageBadgeHtml = '';
+      let severityBadgeHtml = '';
       if (isTriageable(w)) {
-        const status = triageStatusOf(w);
-        triageBadgeHtml = `<span class="warning-badge badge-triage triage-${status}" id="${warningId}-triage-badge"${status === 'untriaged' ? ' hidden' : ''}>${escapeHTML(core.TRIAGE_STATUSES[status].label)}</span>`;
+        const entry = triageStore.get(w.key);
+        triageBadgeHtml = `<span class="warning-badge badge-triage triage-${entry.status}" id="${warningId}-triage-badge"${entry.status === 'untriaged' ? ' hidden' : ''}>${escapeHTML(core.TRIAGE_STATUSES[entry.status].label)}</span>`;
+        severityBadgeHtml = `<span class="warning-badge badge-severity severity-${entry.severity || 'none'}" id="${warningId}-severity-badge"${entry.severity ? '' : ' hidden'}>${entry.severity ? `Severity: ${escapeHTML(core.SEVERITIES[entry.severity].label)}` : ''}</span>`;
       }
 
       const ignoredBadgeHtml = w.is_ignored ? `
@@ -1109,6 +1258,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </span>
             <span class="warning-actions">
               ${diffBadgeHtml}
+              ${severityBadgeHtml}
               ${triageBadgeHtml}
               ${ignoredBadgeHtml}
               <span class="warning-badge ${badgeClass}">${escapeHTML(w.confidence)} Confidence</span>
@@ -1207,7 +1357,106 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleWarning(warningId, document.getElementById(`${warningId}-header`));
       }
     });
+
+    populateFacetOptions();
+    applySort();
   }
+
+  // Keyboard navigation between warnings, only while a warning title has focus
+  // (WCAG 2.1.4: single-key shortcuts must not fire from anywhere on the page)
+  warningsListContainer.addEventListener('keydown', function(e) {
+    const header = e.target.closest('.warning-summary-row');
+    if (!header || e.altKey || e.ctrlKey || e.metaKey) return;
+
+    const key = e.key.toLowerCase();
+    let step = 0;
+    if (key === 'j' || key === 'arrowdown') step = 1;
+    else if (key === 'k' || key === 'arrowup') step = -1;
+    if (step === 0) return;
+
+    // DOM order follows the current sort
+    const headers = Array.from(warningsListContainer.querySelectorAll('.warning-item:not(.hidden-by-filter) .warning-summary-row'));
+    const next = headers[headers.indexOf(header) + step];
+    e.preventDefault();
+    if (next) next.focus();
+  });
+
+  // ---------------------------------------------------------------------------
+  // Links to the code
+  // ---------------------------------------------------------------------------
+
+  // Stored in this browser: the editor choice and a project path or repository
+  // URL typed by the reviewer, never anything from the report
+  function loadCodeLinkSettings() {
+    const defaults = { mode: 'none', root: '' };
+    const storage = safeLocalStorage();
+    if (!storage) return defaults;
+    try {
+      const parsed = JSON.parse(storage.getItem(SETTINGS_STORAGE_KEY) || 'null');
+      if (parsed && ['none', 'vscode', 'web'].includes(parsed.mode) && typeof parsed.root === 'string') {
+        return { mode: parsed.mode, root: parsed.root };
+      }
+    } catch {
+      // Corrupted settings: start over from the defaults
+    }
+    return defaults;
+  }
+
+  function saveCodeLinkSettings() {
+    const storage = safeLocalStorage();
+    if (!storage) return;
+    try {
+      storage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(codeLinkSettings));
+    } catch {
+      // Not saved: the setting still applies until the page is closed
+    }
+  }
+
+  function renderCodeLinkControls() {
+    const mode = codeLinkSettings.mode;
+    codeLinkMode.value = mode;
+    codeLinkRootField.hidden = mode === 'none';
+    codeLinkRoot.value = codeLinkSettings.root;
+    if (mode === 'vscode') {
+      codeLinkRootLabel.textContent = 'Project path on this computer';
+      codeLinkRoot.placeholder = '/home/me/projects/my-app';
+      codeLinkRootHint.textContent = 'Where the application is cloned. Links open the file at the right line in VS Code.';
+    } else if (mode === 'web') {
+      codeLinkRootLabel.textContent = 'Repository URL for files';
+      codeLinkRoot.placeholder = 'https://github.com/org/app/blob/main';
+      codeLinkRootHint.textContent = 'Base URL of a file on GitHub or GitLab, without the file path. Must start with https://.';
+    }
+    codeLinkError.textContent = mode === 'web' && codeLinkSettings.root && !core.safeExternalUrl(codeLinkSettings.root)
+      ? 'The repository URL must be a valid https:// address: no links are shown.'
+      : '';
+  }
+
+  function applyCodeLinkSettings() {
+    saveCodeLinkSettings();
+    renderCodeLinkControls();
+    if (reportData) {
+      renderWarningsListStructure();
+      applyFiltersAndSearch();
+    }
+  }
+
+  codeLinkMode.addEventListener('change', function() {
+    codeLinkSettings = { mode: codeLinkMode.value, root: codeLinkSettings.root };
+    // The scan's app_path is a good first guess when the scan ran on this computer
+    const appPath = reportData && reportData.scan_info && reportData.scan_info.app_path;
+    if (codeLinkSettings.mode === 'vscode' && !codeLinkSettings.root && typeof appPath === 'string') {
+      codeLinkSettings.root = appPath;
+    }
+    applyCodeLinkSettings();
+  });
+
+  // Applied on change (blur or Enter), not on every keystroke, to avoid re-rendering while typing
+  codeLinkRoot.addEventListener('change', function() {
+    codeLinkSettings = { mode: codeLinkSettings.mode, root: codeLinkRoot.value.trim() };
+    applyCodeLinkSettings();
+  });
+
+  renderCodeLinkControls();
 
   // Event Delegation for Accordion Toggles and Tabs
   warningsListContainer.addEventListener('click', function(e) {
