@@ -366,6 +366,11 @@ test('sortWarnings sorts by severity, file or type and keeps the report order on
   const getTriage = key => ({ status: 'to_fix', note: '', severity: key === 'w1' ? 'critical' : '' });
   assert.deepEqual(keys(core.sortWarnings(warnings, 'severity', getTriage)), ['w1', 'w2', 'w3']);
   assert.deepEqual(keys(warnings), ['w1', 'w2', 'w3'], 'the input is not mutated');
+
+  // Unknown orders, including Object.prototype member names, keep the report order
+  for (const order of ['constructor', 'toString', '__proto__', 'bogus']) {
+    assert.deepEqual(keys(core.sortWarnings(warnings, order)), ['w1', 'w2', 'w3'], order);
+  }
 });
 
 test('buildCodeLink opens the file in VS Code or on the repository, never outside the project', () => {

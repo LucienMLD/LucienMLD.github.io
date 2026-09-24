@@ -296,14 +296,17 @@
   function sortWarnings(warnings, order, getTriage) {
     const indexed = warnings.map((w, index) => ({ w, index }));
     const byReport = (a, b) => a.index - b.index;
-    const compare = {
-      severity: (a, b) => {
+    // A Map, not an object literal: an order such as "constructor" must not
+    // resolve to a method inherited from Object.prototype
+    const comparators = new Map([
+      ['severity', (a, b) => {
         const weight = item => warningWeight(item.w, getTriage ? getTriage(item.w.key).severity : '');
         return weight(b) - weight(a);
-      },
-      file: (a, b) => a.w.file.localeCompare(b.w.file) || lineNumber(a.w) - lineNumber(b.w),
-      type: (a, b) => a.w.warning_type.localeCompare(b.w.warning_type)
-    }[order];
+      }],
+      ['file', (a, b) => a.w.file.localeCompare(b.w.file) || lineNumber(a.w) - lineNumber(b.w)],
+      ['type', (a, b) => a.w.warning_type.localeCompare(b.w.warning_type)]
+    ]);
+    const compare = comparators.get(order);
 
     indexed.sort((a, b) => (compare ? compare(a, b) : 0) || byReport(a, b));
     return indexed.map(item => item.w);
