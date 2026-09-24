@@ -14,9 +14,6 @@ jekyll-theme-neon/
 !jekyll-theme-neon/README.md
 !jekyll-theme-neon/LICENSE
 
-# Local Netlify folder
-.netlify
-
 # Cache des feeds RSS
 .cache/
 
