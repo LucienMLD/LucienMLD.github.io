@@ -95,6 +95,15 @@ html[data-theme="light"] .brakeman-visualizer {
   --bk-code-border: #1e293b;
 }
 
+/* Form controls sized with width: 100% must include their padding: the site
+   theme does not set border-box, which made the search field overflow at 320 px */
+.brakeman-visualizer input,
+.brakeman-visualizer select,
+.brakeman-visualizer textarea {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
 /* Elements toggled via the hidden attribute must stay hidden despite display rules */
 .brakeman-visualizer [hidden] {
   display: none !important;
@@ -543,7 +552,7 @@ html[data-theme="light"] .brakeman-visualizer {
 .search-input-wrapper {
   position: relative;
   flex: 1;
-  min-width: 280px;
+  min-width: min(280px, 100%);
 }
 
 .search-input-wrapper i {
