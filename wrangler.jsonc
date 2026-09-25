@@ -10,7 +10,7 @@
   },
   "assets": {
     "directory": "./_site",
-    // /experiences/dinum serves dinum.html, like GitHub Pages
+    // /experiences/dinum serves dinum.html
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },

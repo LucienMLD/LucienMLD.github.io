@@ -8,7 +8,7 @@ const SITE_URL = 'https://lucien-mollard.com';
 const isSiteUrl = url => new URL(url).origin === SITE_URL;
 const toLocalPath = url => new URL(url).pathname;
 
-// GitHub Pages serves /experiences/dinum from dinum.html, the test server does not
+// Cloudflare serves /experiences/dinum from dinum.html, the test server does not
 async function getPage(request, path) {
   const response = await request.get(path);
   if (response.status() === 404 && !path.endsWith('/') && !/\.[a-z]+$/.test(path)) {

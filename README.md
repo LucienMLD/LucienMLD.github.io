@@ -1,7 +1,6 @@
 # Lucien Mollard - Personal Website
 
 [![CI](https://github.com/LucienMLD/LucienMLD.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/LucienMLD/LucienMLD.github.io/actions/workflows/ci.yml)
-[![Deploy to GitHub Pages](https://github.com/LucienMLD/LucienMLD.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/LucienMLD/LucienMLD.github.io/actions/workflows/deploy.yml)
 [![Jekyll](https://img.shields.io/badge/Jekyll-4.4+-CC0000?logo=jekyll)](https://jekyllrb.com)
 [![RGAA Compliant](https://img.shields.io/badge/RGAA-Compliant-green)](https://accessibilite.numerique.gouv.fr/)
 
@@ -54,6 +53,10 @@ Generated at build time from `_data/profile.yml`, `_config.yml` and the collecti
 - JSON-LD (`_includes/structured-data.html`, included from the footer): one schema.org graph per page linking the Person, the WebSite, the page and its breadcrumb
 - `/.well-known/security.txt` (RFC 9116), whose expiry date (180 days) moves forward on every deployment
 - `tests/e2e/geo.spec.js` checks all of them on the built site in CI
+
+## Security headers
+
+`_plugins/security_headers.rb` writes `_site/_headers`, which Cloudflare applies to every response: HSTS, `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy` and a Content-Security-Policy. The theme's inline scripts are allowed by their SHA-256 hash, computed from the built pages, so the policy follows theme updates. `tests/e2e/csp.spec.js` loads every page under this policy and fails on any violation.
 
 ## Contact
 
