@@ -13,9 +13,9 @@ This personal website is published by:
 
 ## Hosting
 This website is hosted by:
-- GitHub Pages (GitHub, Inc.)
-- 88 Colin P Kelly Jr St, San Francisco, CA 94107, United States
-- Contact: https://support.github.com/
+- Cloudflare, Inc.
+- 101 Townsend St, San Francisco, CA 94107, United States
+- Contact: https://www.cloudflare.com/
 
 ## Intellectual Property
 © Lucien Mollard - All rights reserved
@@ -28,12 +28,12 @@ Any reproduction, distribution, modification, adaptation, retransmission, or pub
 This website prioritizes your privacy and aims to be transparent about data handling:
 
 ### Data Collection
-This website does not directly collect or store personal data. However, as this site is hosted on GitHub Pages, GitHub may collect technical data such as:
+This website does not directly collect or store personal data. However, as this site is hosted on Cloudflare, Cloudflare may collect technical data such as:
 - IP addresses
 - Browser type
 - Operating system
 - Pages visited and time spent
-  For more information, please refer to [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+  For more information, please refer to [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
 ### Cookies
 This website does not use cookies for tracking or advertising purposes.
