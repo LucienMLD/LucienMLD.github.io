@@ -54,10 +54,6 @@ Generated at build time from `_data/profile.yml`, `_config.yml` and the collecti
 - `/.well-known/security.txt` (RFC 9116), whose expiry date (180 days) moves forward on every deployment
 - `tests/e2e/geo.spec.js` checks all of them on the built site in CI
 
-## Security headers
-
-`_plugins/security_headers.rb` writes `_site/_headers`, which Cloudflare applies to every response: HSTS, `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy` and a Content-Security-Policy. The theme's inline scripts are allowed by their SHA-256 hash, computed from the built pages, so the policy follows theme updates. `tests/e2e/csp.spec.js` loads every page under this policy and fails on any violation.
-
 ## Contact
 
 - **Email**: hello [at] lucien-mollard [dot] com
