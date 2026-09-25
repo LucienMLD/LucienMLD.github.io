@@ -36,7 +36,7 @@ This website does not directly collect or store personal data. However, as this 
   For more information, please refer to [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
 ### Cookies
-This website does not use cookies for tracking or advertising purposes. Only technically necessary cookies may be used by GitHub Pages for website operation.
+This website does not use cookies for tracking or advertising purposes.
 
 ### Web Analytics
 This website uses Simple Analytics to gather basic insights about site usage. Simple Analytics is a privacy-first analytics platform that:
