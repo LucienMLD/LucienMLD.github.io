@@ -36,21 +36,8 @@ This website does not directly collect or store personal data. However, as this 
   For more information, please refer to [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
 ### Cookies
-This website does not use cookies for tracking or advertising purposes.
+This website does not use cookies, trackers or analytics tools. Your light/dark theme choice is saved in your browser's local storage and is never sent to any server.
 
-### Web Analytics
-This website uses Simple Analytics to gather basic insights about site usage. Simple Analytics is a privacy-first analytics platform that:
-- Does not use cookies
-- Does not track visitors across sites
-- Does not collect or store personal information
-- Does not collect or store IP addresses
-- Only collects essential information such as page views, referral sources, and browser types in an anonymized way
-
-You can learn more about their privacy practices at: https://www.simpleanalytics.com/privacy
-
-The collected data is used solely to understand general usage patterns and improve the website experience. No personal information is ever shared with third parties.
-
-You can view the public statistics of this website here: [Your Simple Analytics public dashboard URL]
 ## External Links
 This website may contain links to external websites. I am not responsible for the content or privacy practices of these external sites.
 
