@@ -37,7 +37,7 @@ module SecurityHeaders
     'Cross-Origin-Opener-Policy' => 'same-origin'
   }.freeze
 
-  INLINE_SCRIPT = %r{<script(\s[^>]*)?>(.*?)</script>}mi
+  INLINE_SCRIPT = %r{<script(\s[^>]*)?>(.*?)</script(?:\s[^>]*)?\s*>}mi
   # Data blocks (JSON-LD) are never executed, so CSP does not apply to them
   NON_JS_TYPE = /\btype\s*=\s*["']?(?!text\/javascript|module)[^"'\s>]+/i
 
