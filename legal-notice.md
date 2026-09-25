@@ -36,7 +36,11 @@ This website does not directly collect or store personal data. However, as this 
   For more information, please refer to [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
 ### Cookies
-This website does not use cookies, trackers or analytics tools. Your light/dark theme choice is saved in your browser's local storage and is never sent to any server.
+This website does not use cookies, trackers or analytics tools. Your browser's local storage is only used for:
+- your light/dark theme choice;
+- the triage status of warnings in the [Brakeman visualizer](/brakeman-visualizer/). Reports you load are processed entirely in your browser and are never uploaded.
+
+This data never leaves your browser and is never sent to any server. You can delete it at any time by clearing this site's data in your browser settings.
 
 ## External Links
 This website may contain links to external websites. I am not responsible for the content or privacy practices of these external sites.
