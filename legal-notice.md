@@ -15,6 +15,7 @@ This personal website is published by:
 This website is hosted by:
 - Cloudflare, Inc.
 - 101 Townsend St, San Francisco, CA 94107, United States
+- Phone: +1 (650) 319-8930
 - Contact: https://www.cloudflare.com/
 
 ## Intellectual Property
@@ -28,12 +29,13 @@ Any reproduction, distribution, modification, adaptation, retransmission, or pub
 This website prioritizes your privacy and aims to be transparent about data handling:
 
 ### Data Collection
-This website does not directly collect or store personal data. However, as this site is hosted on Cloudflare, Cloudflare may collect technical data such as:
-- IP addresses
-- Browser type
-- Operating system
-- Pages visited and time spent
-  For more information, please refer to [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
+This website does not directly collect or store personal data. However, as this site is hosted on Cloudflare, Cloudflare processes technical data in its server logs, such as:
+- IP address
+- User agent (browser and operating system)
+- Requested URL
+- Date and time of the request
+
+For more information, please refer to [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
 ### Cookies
 This website does not use cookies, trackers or analytics tools. Your browser's local storage is only used for:
@@ -46,7 +48,7 @@ This data never leaves your browser and is never sent to any server. You can del
 This website may contain links to external websites. I am not responsible for the content or privacy practices of these external sites.
 
 ## Code License
-The source code of this website is available on [GitHub](https://github.com/LucienMLD/personal-website) and is licensed under the MIT License, unless otherwise stated.
+The source code of this website is available on [GitHub](https://github.com/LucienMLD/LucienMLD.github.io) and is licensed under the MIT License, unless otherwise stated.
 
 ## Changes to This Notice
 I reserve the right to update this legal notice at any time. Changes will be posted on this page with an updated revision date.

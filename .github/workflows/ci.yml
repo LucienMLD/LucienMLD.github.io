@@ -80,7 +80,7 @@ jobs:
           name: site
           path: _site
           retention-days: 3
-          # Same content as the Pages deployment, including /.well-known/
+          # Same content as the Cloudflare deployment, including /.well-known/
           include-hidden-files: true
 
   browser-tests:
