@@ -51,11 +51,6 @@ neon:
   # Configuration de la page contact
   contact:
     show_email_card: true
-  # Hooks pour les scripts externes
-  hooks:
-    body_end:
-      - '<!-- 100% privacy-first analytics -->'
-      - '<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>'
 # Build settings
 plugins:
   - jekyll-feed
